@@ -1,0 +1,2024 @@
+﻿@misc{RN317,
+   url = {http://immunobase.org, accessed October 18, 2015},
+   type = {Web Page}
+}
+
+@misc{RN324,
+   url = {http://bio-bwa.sourceforge.net/},
+   type = {Web Page}
+}
+
+@misc{RN334,
+   url = {http://www.roadmapepigenomics.org/protocols/type/experimental/},
+   type = {Web Page}
+}
+
+@article{RN256,
+   author = {Abecasis GR, Auton A, Brooks LD, DePristo MA, Durbin RM, Handsaker RE, Kang HM, Marth GT, McVean GA.},
+   title = {An integrated encyclopedia of DNA elements in the human genome},
+   journal = {Nature},
+   volume = {489},
+   number = {7414},
+   pages = {57-74},
+   ISSN = {0028-0836},
+   DOI = {10.1038/nature11247},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN66,
+   author = {Adey, Andrew and Morrison, Hilary G. and Asan and Xun, Xu and Kitzman, Jacob O. and Turner, Emily H. and Stackhouse, Bethany and MacKenzie, Alexandra P. and Caruccio, Nicholas C. and Zhang, Xiuqing and Shendure, Jay},
+   title = {Rapid, low-input, low-bias construction of shotgun fragment libraries by high-density in vitro transposition},
+   journal = {Genome Biology},
+   volume = {11},
+   ISSN = {1465-6906},
+   DOI = {info:pmid/21143862},
+   url = {http://genomebiology.com/2010/11/12/r119},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN339,
+   author = {Alsaad, K. O. and of clinical pathology, Ghazarian - D.},
+   title = {My approach to superficial inflammatory dermatoses},
+   journal = {Journal of clinical pathology},
+   url = {http://jcp.bmj.com/content/58/12/1233.short},
+   year = {2005},
+   type = {Journal Article}
+}
+
+@article{RN247,
+   author = {Altshuler, D. and Daly, M. J. and Lander, E. S.},
+   title = {Genetic mapping in human disease},
+   journal = {Science},
+   volume = {322},
+   number = {5903},
+   pages = {881-8},
+   ISSN = {0036-8075},
+   DOI = {10.1126/science.1156409},
+   year = {2008},
+   type = {Journal Article}
+}
+
+@article{RN52,
+   author = {Andersen, William M. Gordon and Michael, D. Zeller and Rachel, H. Klein and William, R. Swindell and Hsiang, Ho and Francisco, Espetia and Johann, E. Gudjonsson and Pierre, F. Baldi and Bogi},
+   title = {A GRHL3-regulated repair pathway suppresses immune-mediated epidermal hyperplasia},
+   DOI = {10.1172/JCI77138},
+   url = {http://www.jci.org/articles/view/77138},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN259,
+   author = {Andiappan, A. K. and Melchiotti, R. and Poh, T. Y. and Nah, M.},
+   title = {Genome-wide analysis of the genetic regulation of gene expression in human neutrophils},
+   journal = {Nature …},
+   DOI = {10.1038/ncomms8971},
+   url = {http://dx.doi.org/10.1038/ncomms8971},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN337,
+   author = {Apel, M. and Uebe, S. and Bowes, J. and  …, Giardina - E.},
+   title = {Variants in RUNX3 contribute to susceptibility to psoriatic arthritis, exhibiting further common ground with ankylosing spondylitis},
+   journal = {Arthritis & …},
+   DOI = {10.1002/art.37885},
+   url = {http://dx.doi.org/10.1002/art.37885},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN276,
+   author = {Ballana and Gemma, Martín-Ezquerra and den, Heijer and Marijke, Kamsteeg and Irma, Joosten and Evan, E. and Conxi, Lázaro and Ramón, M. and Lluís, Armengol and Gonçalo, Abecasis and James, T. and Giuseppe, Novelli and John, A. and Pui-Yan, Kwok and Anne, Bowcock and Joost, Schalkwijk and Estivill, Rafael and Eva, Riveira-Munoz and Patrick, L. and Jason, Robarge and Wilson, Liao and Emma, N. and Emiliano, Giardina and Philip, E. and Rajan, Nair and Cynthia, Helms and Georgia, Escaramís and Ester},
+   title = {Deletion of the late cornified envelope LCE3B and LCE3C genes as a susceptibility factor for psoriasis},
+   journal = {Nature Genetics},
+   volume = {41},
+   ISSN = {1061-4036},
+   DOI = {10.1038/ng.313},
+   url = {http://dx.doi.org/10.1038/ng.313},
+   year = {0100},
+   type = {Journal Article}
+}
+
+@article{RN43,
+   author = {Ballana and Gemma, Martín-Ezquerra and Martin den, Heijer and Marijke, Kamsteeg and Irma, Joosten and Evan, E. Eichler and Conxi, Lázaro and Ramón, M. Pujol and Lluís, Armengol and Gonçalo, Abecasis and James, T. Elder and Giuseppe, Novelli and John, A. L. Armour and Pui-Yan, Kwok and Anne, Bowcock and Joost, Schalkwijk and Xavier Estivill, Rafael de Cid and Eva, Riveira-Munoz and Patrick, L. J. M. Zeeuwen and Jason, Robarge and Wilson, Liao and Emma, N. Dannhauser and Emiliano, Giardina and Philip, E. Stuart and Rajan, Nair and Cynthia, Helms and Georgia, Escaramís and Ester},
+   title = {Deletion of the late cornified envelope LCE3B and LCE3C genes as a susceptibility factor for psoriasis},
+   journal = {Nature Genetics},
+   volume = {41},
+   pages = {211-215},
+   ISSN = {1061-4036},
+   DOI = {doi:10.1038/ng.313},
+   url = {http://www.nature.com/ng/journal/v41/n2/abs/ng.313.html},
+   year = {2009},
+   type = {Journal Article}
+}
+
+@article{RN257,
+   author = {Bernstein, B. E. and Stamatoyannopoulos, J. A. and Costello, J. F. and Ren, B. and Milosavljevic, A. and Meissner, A. and Kellis, M. and Marra, M. A. and Beaudet, A. L. and Ecker, J. R. and Farnham, P. J. and Hirst, M. and Lander, E. S. and Mikkelsen, T. S. and Thomson, J. A.},
+   title = {The NIH Roadmap Epigenomics Mapping Consortium},
+   journal = {Nat Biotechnol},
+   volume = {28},
+   number = {10},
+   pages = {1045-8},
+   ISSN = {1087-0156},
+   DOI = {10.1038/nbt1010-1045},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN269,
+   author = {Boehncke, Wolf-Henning H. and Schön, Michael P.},
+   title = {Psoriasis},
+   journal = {Lancet (London, England)},
+   volume = {386},
+   number = {9997},
+   pages = {983-994},
+   ISSN = {0140-6736},
+   DOI = {10.1016/S0140-6736(14)61909-7},
+   url = {http://dx.doi.org/10.1016/S0140-6736(14)61909-7},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN31,
+   author = {Bowes, J. and Barton, A.},
+   title = {The genetics of psoriatic arthritis: lessons from genome-wide association studies},
+   journal = {Discov Med},
+   volume = {10},
+   number = {52},
+   pages = {177-83},
+   ISSN = {1539-6509},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN331,
+   author = {Bowes, John and Budu-Aggrey, Ashley and Huffmeier, Ulrike and Uebe, Steffen and Steel, Kathryn and Hebert, Harry L. and Wallace, Chris and Massey, Jonathan and Bruce, Ian N. and Bluett, James and Feletar, Marie and Morgan, Ann W. and Marzo-Ortega, Helena and Donohoe, Gary and Morris, Derek W. and Helliwell, Philip and Ryan, Anthony W. and Kane, David and Warren, Richard B. and Korendowych, Eleanor and Alenius, Gerd-Marie M. and Giardina, Emiliano and Packham, Jonathan and McManus, Ross and FitzGerald, Oliver and McHugh, Neil and Brown, Matthew A. and Ho, Pauline and Behrens, Frank and Burkhardt, Harald and Reis, Andre and Barton, Anne},
+   title = {Dense genotyping of immune-related susceptibility loci reveals new insights into the genetics of psoriatic arthritis},
+   journal = {Nature communications},
+   volume = {6},
+   pages = {6046},
+   ISSN = {2041-1723},
+   DOI = {10.1038/ncomms7046},
+   url = {http://dx.doi.org/10.1038/ncomms7046},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN258,
+   author = {Boyle, A. P. and Hong, E. L. and Hariharan, M. and Cheng, Y. and Schaub, M. A. and Kasowski, M. and Karczewski, K. J. and Park, J. and Hitz, B. C. and Weng, S. and Cherry, J. M. and Snyder, M.},
+   title = {Annotation of functional variation in personal genomes using RegulomeDB},
+   journal = {Genome Res},
+   volume = {22},
+   number = {9},
+   pages = {1790-7},
+   ISSN = {1088-9051},
+   DOI = {10.1101/gr.137323.112},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN13,
+   author = {Boyman, O. and Hefti, H. P. and Conrad, C. and Nickoloff, B. J. and Suter, M. and Nestle, F. O.},
+   title = {Spontaneous development of psoriasis in a new animal model shows an essential role for resident T cells and tumor necrosis factor-alpha},
+   journal = {J Exp Med},
+   volume = {199},
+   pages = {731-6},
+   ISSN = {0022-1007 (Print)0022-1007},
+   DOI = {10.1084/jem.20031482},
+   url = {http://dx.doi.org/10.1084/jem.20031482},
+   year = {2004},
+   type = {Journal Article}
+}
+
+@article{RN308,
+   author = {Buenrostro, Jason D. and Wu, Beijing and Chang, Howard Y. and Greenleaf, William J.},
+   title = {ATAC seq: A Method for Assaying Chromatin Accessibility Genome Wide},
+   journal = {Current Protocols in Molecular Biology},
+   volume = {109},
+   pages = {1-9},
+   DOI = {10.1002/0471142727.mb2129s109},
+   url = {http://dx.doi.org/10.1002/0471142727.mb2129s109},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN288,
+   author = {Buenrostro, Jason D. and Wu, Beijing and Litzenburger, Ulrike M. and Ruff, Dave and Gonzales, Michael L. and Snyder, Michael P. and Chang, Howard Y. and Greenleaf, William J.},
+   title = {Single-cell chromatin accessibility reveals principles of regulatory variation},
+   journal = {Nature},
+   volume = {523},
+   pages = {486-490},
+   ISSN = {0028-0836},
+   DOI = {10.1038/nature14590},
+   url = {http://dx.doi.org/10.1038/nature14590},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN289,
+   author = {Bulger, Michael and Groudine, Mark},
+   title = {Functional and mechanistic diversity of distal transcription enhancers},
+   journal = {Cell},
+   volume = {144},
+   number = {3},
+   pages = {327-339},
+   url = {http://www.sciencedirect.com/science/article/pii/S0092867411000638},
+   year = {2011},
+   type = {Journal Article}
+}
+
+@article{RN355,
+   author = {Burgos-Pol, R. and Dermo …, Martínez-Sesmero - J. M.},
+   title = {The cost of psoriasis and psoriatic arthritis in 5 European countries: a systematic review},
+   journal = {Actas Dermo …},
+   url = {http://www.sciencedirect.com/science/article/pii/S1578219016301524},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@article{RN28,
+   author = {Cai and Xianyong, Yin and Cheng, Quan and Haojing, Shao and Yong, Cui and Fangzhen, Tian and Xia, Zhao and Hong, Liu and Fengli, Xiao and Fengping, Xu and Jianwen, Han and Dongmei, Shi and Anping, Zhang and Cheng, Zhou and Qibin, Li and Xing, Fan and Liya, Lin and Hongqing, Tian and Zaixing, Wang and Huiling, Fu and Fang, Wang and Baoqi, Yang and Shaowei, Huang and Bo, Liang and Xuefeng, Xie and Yunqing, Ren and Qingquan, Gu and Guangdong, Wen and Yulin, Sun and Xueli, Wu and Lin, Dang and Min, Xia and Junjun, Shan and Tianhang, Li and Lin, Yang and Xiuyun, Zhang and Yuzhen, Li and Chundi, He and Aie, Xu and Liping, Wei and Xiaohang, Zhao and Xinghua, Gao and Jinhua, Xu and Furen, Zhang and Jianzhong, Zhang and Yingrui, Li and Liangdan, Sun and Jianjun, Liu and Runsheng, Chen and Sen, Yang and Jun, Wang and Xuejun Zhang, Huayang Tang and Xin, Jin and Yang, Li and Hui, Jiang and Xianfa, Tang and Xu, Yang and Hui, Cheng and Ying, Qiu and Gang, Chen and Junpu, Mei and Fusheng, Zhou and Renhua, Wu and Xianbo, Zuo and Yong, Zhang and Xiaodong, Zheng and Qi},
+   title = {A large-scale screen for coding variants predisposing to psoriasis},
+   journal = {Nature Genetics},
+   volume = {46},
+   pages = {45-50},
+   ISSN = {1061-4036},
+   DOI = {doi:10.1038/ng.2827},
+   url = {http://www.nature.com/ng/journal/v46/n1/full/ng.2827.html},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN275,
+   author = {Capon, Francesca and Bijlmakers, Marie-José J. and Wolf, Natalie and Quaranta, Maria and Huffmeier, Ulrike and Allen, Michael and Timms, Kirsten and Abkevich, Victor and Gutin, Alexander and Smith, Rhodri and Warren, Richard B. and Young, Helen S. and Worthington, Jane and Burden, A. D. and Griffiths, Christopher E. and Hayday, Adrian and Nestle, Frank O. and Reis, Andre and Lanchbury, Jerry and Barker, Jonathan N. and Trembath, Richard C.},
+   title = {Identification of ZNF313/RNF114 as a novel psoriasis susceptibility gene},
+   journal = {Human molecular genetics},
+   volume = {17},
+   number = {13},
+   pages = {1938-1945},
+   ISSN = {0964-6906},
+   DOI = {10.1093/hmg/ddn091},
+   url = {http://dx.doi.org/10.1093/hmg/ddn091},
+   year = {2008},
+   type = {Journal Article}
+}
+
+@article{RN268,
+   author = {Capon, F. and Burden, A. D. and Trembath, R. C.},
+   title = {Psoriasis and other complex trait dermatoses: from Loci to functional pathways},
+   journal = {The Journal of investigative dermatology},
+   volume = {132},
+   pages = {915-922},
+   DOI = {10.1038/jid.2011.395},
+   url = {http://dx.doi.org/10.1038/jid.2011.395},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN279,
+   author = {Cargill, Michele and Schrodi, Steven J. and Chang, Monica and Garcia, Veronica E. and Brandon, Rhonda and Callis, Kristina P. and Matsunami, Nori and Ardlie, Kristin G. and Civello, Daniel and Catanese, Joseph J.},
+   title = {A large-scale genetic association study confirms IL12B and leads to the identification of IL23R as psoriasis-risk genes},
+   journal = {The American Journal of Human Genetics},
+   volume = {80},
+   number = {2},
+   pages = {273-290},
+   url = {http://www.sciencedirect.com/science/article/pii/S0002929707626858},
+   year = {2007},
+   type = {Journal Article}
+}
+
+@article{RN280,
+   author = {Cargill, Michele and Schrodi, Steven J. and Chang, Monica and Garcia, Veronica E. and Brandon, Rhonda and Callis, Kristina P. and Matsunami, Nori and Ardlie, Kristin G. and Civello, Daniel and Catanese, Joseph J.},
+   title = {A large-scale genetic association study confirms IL12B and leads to the identification of IL23R as psoriasis-risk genes},
+   journal = {The American Journal of Human Genetics},
+   volume = {80},
+   number = {2},
+   pages = {273-290},
+   url = {http://www.sciencedirect.com/science/article/pii/S0002929707626858},
+   year = {2007},
+   type = {Journal Article}
+}
+
+@article{RN302,
+   author = {Chepelev, Iouri and Wei, Gang and Wangsa, Dara and Tang, Qingsong and Zhao, Keji},
+   title = {Characterization of genome-wide enhancer-promoter interactions reveals co-expression of interacting genes and modes of higher order chromatin organization},
+   journal = {Cell research},
+   volume = {22},
+   number = {3},
+   pages = {490-503},
+   ISSN = {1001-0602},
+   DOI = {10.1038/cr.2012.15},
+   url = {http://dx.doi.org/10.1038/cr.2012.15},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN12,
+   author = {Clark, R. A. and Chong, B. and Mirchandani, N. and Brinster, N. K. and Yamanaka, K. and Dowgiert, R. K. and Kupper, T. S.},
+   title = {The vast majority of CLA+ T cells are resident in normal skin},
+   journal = {J Immunol},
+   volume = {176},
+   pages = {4431-9},
+   ISSN = {0022-1767 (Print)0022-1767},
+   url = {http://dx.doi.org/},
+   year = {2006},
+   type = {Journal Article}
+}
+
+@article{RN336,
+   author = {Coates, L. C. and FitzGerald, O. and Helliwell, P. S. and in arthritis and, Paul - C.},
+   title = {Psoriasis, psoriatic arthritis, and rheumatoid arthritis: Is all inflammation the same?},
+   journal = {Seminars in arthritis and …},
+   url = {http://www.sciencedirect.com/science/article/pii/S0049017216300646},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@article{RN64,
+   author = {Cockerill, P. N.},
+   title = {Structure and function of active chromatin and DNase I hypersensitive sites},
+   journal = {FEBS journal},
+   volume = {278},
+   pages = {2182-210},
+   ISSN = {1742-464x},
+   DOI = {10.1111/j.1742-4658.2011.08128.x
+10.1111/j.1742-4658.2011.08128.x. Epub 2011 May 26.},
+   url = {http://onlinelibrary.wiley.com/doi/10.1111/j.1742-4658.2011.08128.x/abstract},
+   year = {2011},
+   type = {Journal Article}
+}
+
+@article{RN352,
+   author = {Cohen, A. D. and Sherf, M. and Vidavsky, L. and Vardy, D. A. and Dermatology, Shapiro - J.},
+   title = {Association between psoriasis and the metabolic syndrome},
+   journal = {Dermatology},
+   DOI = {10.1159/000111512},
+   url = {http://dx.doi.org/10.1159/000111512},
+   year = {2008},
+   type = {Journal Article}
+}
+
+@article{RN291,
+   author = {Das, Sayantan and Stuart, Philip E. and Ding, Jun and Tejasvi, Trilokraj and Li, Yanming and Tsoi, Lam C. and Chandran, Vinod and Fischer, Judith and Helms, Cynthia and Duffin, Kristina},
+   title = {Fine mapping of eight psoriasis susceptibility loci},
+   journal = {European Journal of Human Genetics},
+   DOI = {10.1038/ejhg.2014.172},
+   url = {http://dx.doi.org/10.1038/ejhg.2014.172},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN303,
+   author = {de Cid, R. and Riveira-Munoz, E. and Zeeuwen, P. L. and Robarge, J. and Liao, W. and Dannhauser, E. N. and Giardina, E. and Stuart, P. E. and Nair, R. and Helms, C. and Escaramis, G. and Ballana, E. and Martin-Ezquerra, G. and den Heijer, M. and Kamsteeg, M. and Joosten, I. and Eichler, E. E. and Lazaro, C. and Pujol, R. M. and Armengol, L. and Abecasis, G. and Elder, J. T. and Novelli, G. and Armour, J. A. and Kwok, P. Y. and Bowcock, A. and Schalkwijk, J. and Estivill, X.},
+   title = {Deletion of the late cornified envelope LCE3B and LCE3C genes as a susceptibility factor for psoriasis},
+   journal = {Nat Genet},
+   volume = {41},
+   number = {2},
+   pages = {211-5},
+   ISSN = {1061-4036},
+   DOI = {10.1038/ng.313},
+   year = {2009},
+   type = {Journal Article}
+}
+
+@article{RN267,
+   author = {Dimas, Antigone S. and Deutsch, Samuel and Stranger, Barbara E. and Montgomery, Stephen B. and Borel, Christelle and Attar-Cohen, Homa and Ingle, Catherine and Beazley, Claude and Arcelus, Maria and Sekowska, Magdalena},
+   title = {Common regulatory variation impacts gene expression in a cell typedependent manner},
+   journal = {Science},
+   volume = {325},
+   number = {5945},
+   pages = {1246-1250},
+   url = {http://www.sciencemag.org/content/325/5945/1246.short},
+   year = {2009},
+   type = {Journal Article}
+}
+
+@article{RN263,
+   author = {Ding, J. and Gudjonsson, J. and Liang, L. and Stuart, P. and Li, Y. and Chen, W. and Weichenthal, M. and Ellinghaus, E. and Franke, A. and Cookson, W. and Nair, R. and Elder, J. and Abecasis, G.},
+   title = {Gene Expression in Skin and Lymphoblastoid Cells: Refined Statistical Method Reveals Extensive Overlap in cis-eQTL Signals},
+   journal = {Am J Hum Genet},
+   volume = {87},
+   pages = {779-789},
+   ISSN = {0002-9297 (Print)1537-6605 (Electronic)},
+   DOI = {10.1016/j.ajhg.2010.10.024},
+   url = {http://dx.doi.org/10.1016/j.ajhg.2010.10.024},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN314,
+   author = {Disis, Mary L. and Rosa, Corazon and Goodell, Vivian and Kuan, Ling-Yu and Chang, Jennie C. C. and Kuus-Reichel, Kristina and Clay, Timothy M. and Lyerly, Kim H. and Bhatia, Sonny and Ghanekar, Smita A.},
+   title = {Maximizing the retention of antigen specific lymphocyte function after cryopreservation},
+   journal = {Journal of immunological methods},
+   volume = {308},
+   number = {1},
+   pages = {13-18},
+   url = {http://www.sciencedirect.com/science/article/pii/S0022175905003303},
+   year = {2006},
+   type = {Journal Article}
+}
+
+@article{RN54,
+   author = {Dong, S. and Zhao, J. and Wei, J. and Bowser, R. K. and Khoo, A. and Liu, Z. and Luketich, J. D. and Pennathur, A. and Ma, H. and Zhao, Y.},
+   title = {F-box protein complex FBXL19 regulates TGFbeta1-induced E-cadherin down-regulation by mediating Rac3 ubiquitination and degradation},
+   journal = {Mol Cancer},
+   volume = {13},
+   pages = {76},
+   ISSN = {1476-4598},
+   DOI = {10.1186/1476-4598-13-76
+10.1186/1476-4598-13-76.},
+   url = {http://dx.doi.org/10.1186/1476-4598-13-76},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN252,
+   author = {Edwards, S. L. and Beesley, J. and French, J. D. and Dunning, A. M.},
+   title = {Beyond GWASs: illuminating the dark road from association to function},
+   journal = {Am J Hum Genet},
+   volume = {93},
+   number = {5},
+   pages = {779-97},
+   ISSN = {0002-9297},
+   DOI = {10.1016/j.ajhg.2013.10.012},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN9,
+   author = {Eedy, D. J. and Burrows, D. and Bridges, J. M. and Jones, F. G.},
+   title = {Clearance of severe psoriasis after allogenic bone marrow transplantation},
+   journal = {BMJ},
+   volume = {300},
+   pages = {908},
+   ISSN = {0959-8138 (Print)1468-5833 (Electronic)},
+   url = {http://dx.doi.org/},
+   year = {1990},
+   type = {Journal Article}
+}
+
+@inbook{RN25,
+   author = {Ellinghaus, D. and Ellinghaus, E. and Nair, R. P. and Stuart, P. E. and Esko, T. and Metspalu, A. and Debrus, S. and Raelson, J. V. and Tejasvi, T. and Belouchi, M. and West, S. L. and Barker, J. N. and Koks, S. and Kingo, K. and Balschun, T. and Palmieri, O. and Annese, V. and Gieger, C. and Wichmann, H. E. and Kabesch, M. and Trembath, R. C. and Mathew, C. G. and Abecasis, G. R. and Weidinger, S. and Nikolaus, S. and Schreiber, S. and Elder, J. T. and Weichenthal, M. and Nothnagel, M. and Franke, A.},
+   title = {Combined Analysis of Genome-wide Association Studies for Crohn Disease and Psoriasis Identifies Seven Shared Susceptibility Loci},
+   booktitle = {Am J Hum Genet},
+   volume = {90},
+   pages = {636-47},
+   ISBN = {0002-9297 (Print)1537-6605 (Electronic)},
+   DOI = {10.1016/j.ajhg.2012.02.020},
+   url = {http://dx.doi.org/10.1016/j.ajhg.2012.02.020},
+   year = {2012},
+   type = {Book Section}
+}
+
+@article{RN273,
+   author = {Ellinghaus, E. and Ellinghaus, D. and Stuart, P. E. and Nair, R. P.},
+   title = {Genome-wide association study identifies a psoriasis susceptibility locus at TRAF3IP2},
+   journal = {Nature genetics},
+   volume = {42},
+   pages = {991-996},
+   DOI = {10.1038/ng.689},
+   url = {http://dx.doi.org/10.1038/ng.689},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN311,
+   author = {Ernst, J. and Kheradpour, P. and Mikkelsen, T. S. and Shoresh, N.},
+   title = {Mapping and analysis of chromatin state dynamics in nine human cell types},
+   journal = {Nature},
+   volume = {473},
+   pages = {43-49},
+   url = {http://www.nature.com/nature/journal/v473/n7345/abs/nature09906.html},
+   year = {2011},
+   type = {Journal Article}
+}
+
+@article{RN265,
+   author = {Fairfax, Benjamin P. and Humburg, Peter and Makino, Seiko and Naranbhai, Vivek and Wong, Daniel and Lau, Evelyn and Jostins, Luke and Plant, Katharine and Andrews, Robert and McGee, Chris and Knight, Julian C.},
+   title = {Innate immune activity conditions the effect of regulatory variants upon monocyte gene expression},
+   journal = {Science (New York, N.Y.)},
+   volume = {343},
+   number = {6175},
+   pages = {1118-1132},
+   ISSN = {0036-8075},
+   DOI = {10.1126/science.1246949},
+   url = {http://dx.doi.org/10.1126/science.1246949},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN262,
+   author = {Fairfax, Benjamin P. and Makino, Seiko and Radhakrishnan, Jayachandran and Plant, Katharine and Leslie, Stephen and Dilthey, Alexander and Ellis, Peter and Langford, Cordelia and Vannberg, Fredrik O. and Knight, Julian C.},
+   title = {Genetics of gene expression in primary immune cells identifies cell type-specific master regulators and roles of HLA alleles},
+   journal = {Nature genetics},
+   volume = {44},
+   number = {5},
+   pages = {502-510},
+   ISSN = {1061-4036},
+   DOI = {10.1038/ng.2205},
+   url = {http://dx.doi.org/10.1038/ng.2205},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN278,
+   author = {Farh, Kyle and Carrasco-Alfonso, J. and Dita, Mayer and Luckey, C. and Nikolaos, A. and Philip, L. and Vijay, K. and Charles, B. and Mark, J. and David, A. and Bernstein and Alexander, Marson and Jiang, Zhu and Markus, Kleinewietfeld and William, J. and Samantha, Beik and Noam, Shoresh and Holly, Whitton and Russell, J. and Alexander, A. and Meital, Hatan and Marlene},
+   title = {Genetic and epigenetic fine mapping of causal autoimmune disease variants},
+   journal = {Nature},
+   volume = {518},
+   pages = { 337–343},
+   DOI = {10.1038/nature13835},
+   url = {http://dx.doi.org/10.1038/nature13835},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN294,
+   author = {Foster, S. L. and Hargreaves, D. C. and Medzhitov, R.},
+   title = {Gene-specific control of inflammation by TLR-induced chromatin modifications},
+   journal = {Nature},
+   volume = {447},
+   number = {7147},
+   pages = {972-8},
+   ISSN = {0028-0836},
+   DOI = {10.1038/nature05836},
+   year = {2007},
+   type = {Journal Article}
+}
+
+@article{RN297,
+   author = {Freedman, Matthew L. and Monteiro, Alvaro N. A. and Gayther, Simon A. and Coetzee, Gerhard A. and Risch, Angela and Plass, Christoph and Casey, Graham and Biasi, Mariella and Carlson, Chris and Duggan, David},
+   title = {Principles for the post-GWAS functional characterization of cancer risk loci},
+   journal = {Nature genetics},
+   volume = {43},
+   number = {6},
+   pages = {513-518},
+   url = {http://www.nature.com/ng/journal/v43/n6/full/ng.840.html},
+   year = {2011},
+   type = {Journal Article}
+}
+
+@article{RN59,
+   author = {Fuchs, Charles K. Kaufman and Satrajit, Sinha and Diana, Bolotin and Jie, Fan and Elaine},
+   title = {Dissection of a Complex Enhancer Element: Maintenance of Keratinocyte Specificity but Loss of Differentiation Specificity},
+   DOI = {10.1128/MCB.22.12.4293-4308.2002},
+   url = {http://mcb.asm.org/content/22/12/4293.full},
+   year = {2002},
+   type = {Journal Article}
+}
+
+@article{RN322,
+   author = {Gazel, Alix and Ramphal, Patricia and Rosdy, Martin and Tornier, Carine and Hosein, Nadia and Lee, Brian and Tomic-Canic, Marjana and Blumenberg, Miroslav},
+   title = {Transcriptional profiling of epidermal keratinocytes: comparison of genes expressed in skin, cultured keratinocytes, and reconstituted epidermis, using large DNA microarrays},
+   journal = {Journal of investigative dermatology},
+   volume = {121},
+   number = {6},
+   pages = {1459-1468},
+   DOI = {10.1111/j.1523-1747.2003.12611.x},
+   url = {http://dx.doi.org/10.1111/j.1523-1747.2003.12611.x},
+   year = {2003},
+   type = {Journal Article}
+}
+
+@article{RN344,
+   author = {Gelfand, J. M. and Gladman, D. D. and Mease, P. J. and Academy …, Smith - N.},
+   title = {Epidemiology of psoriatic arthritis in the population of the United States},
+   journal = {… the American Academy …},
+   url = {http://www.sciencedirect.com/science/article/pii/S0190962205010108},
+   year = {2005},
+   type = {Journal Article}
+}
+
+@article{RN348,
+   author = {Gelfand, J. M. and Neimann, A. L. and Shin, D. B. and Jama, Wang - X.},
+   title = {Risk of myocardial infarction in patients with psoriasis},
+   journal = {Jama},
+   url = {http://jamanetwork.com/journals/jama/fullarticle/203598},
+   year = {2006},
+   type = {Journal Article}
+}
+
+@article{RN351,
+   author = {Gelfand, J. M. and Shin, D. B. and Neimann, A. L. and of Investigative …, Wang - X.},
+   title = {The risk of lymphoma in patients with psoriasis},
+   journal = {Journal of Investigative …},
+   url = {http://www.sciencedirect.com/science/article/pii/S0022202X15326348},
+   year = {2006},
+   type = {Journal Article}
+}
+
+@article{RN30,
+   author = {Gilad, Y. and Rifkin, S. A. and Pritchard, J. K.},
+   title = {Revealing the architecture of gene regulation: the promise of eQTL studies},
+   journal = {Trends Genet},
+   volume = {24},
+   pages = {408-15},
+   ISSN = {0168-9525 (Print)},
+   DOI = {10.1016/j.tig.2008.06.001
+10.1016/j.tig.2008.06.001.},
+   url = {http://dx.doi.org/10.1016/j.tig.2008.06.001},
+   year = {2008},
+   type = {Journal Article}
+}
+
+@article{RN347,
+   author = {Gladman, D. D. and Ang, M. and Su, L. and of the …, B. D. M.},
+   title = {Cardiovascular morbidity in psoriatic arthritis},
+   journal = {Annals of the …},
+   DOI = {10.1136/ard.2008.094839},
+   url = {http://dx.doi.org/10.1136/ard.2008.094839},
+   year = {2009},
+   type = {Journal Article}
+}
+
+@article{RN67,
+   author = {Gradman, R. J. and Reznikoff, W. S.},
+   title = {Tn5 synaptic complex formation: role of transposase residue W450},
+   journal = {J Bacteriol},
+   volume = {190},
+   number = {4},
+   pages = {1484-7},
+   ISSN = {0021-9193},
+   DOI = {10.1128/jb.01488-07},
+   year = {2008},
+   type = {Journal Article}
+}
+
+@article{RN62,
+   author = {Greenleaf, Jason D. Buenrostro and Paul, G. Giresi and Lisa, C. Zaba and Howard, Y. Chang and William, J.},
+   title = {Transposition of native chromatin for fast and sensitive epigenomic profiling of open chromatin, DNA-binding proteins and nucleosome position},
+   journal = {Nature Methods},
+   volume = {10},
+   pages = {1213-1218},
+   ISSN = {1548-7091},
+   DOI = {doi:10.1038/nmeth.2688},
+   url = {http://www.nature.com/nmeth/journal/v10/n12/full/nmeth.2688.html},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN345,
+   author = {Griffiths, C. E. M. and Lancet, Jnwn},
+   title = {Pathogenesis and clinical features of psoriasis},
+   journal = {The Lancet},
+   url = {http://www.sciencedirect.com/science/article/pii/S0140673607611283},
+   year = {2007},
+   type = {Journal Article}
+}
+
+@article{RN305,
+   author = {Gudjonsson, J. E. and Ding, J. and Johnston, A. and Tejasvi, T. and Guzman, A. M. and Nair, R. P. and Voorhees, J. J. and Abecasis, G. R. and Elder, J. T.},
+   title = {Assessment of the psoriatic transcriptome in a large sample: additional regulated genes and comparisons with in vitro models},
+   journal = {J Invest Dermatol},
+   volume = {130},
+   number = {7},
+   pages = {1829-40},
+   ISSN = {0022-202x},
+   DOI = {10.1038/jid.2010.36},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN48,
+   author = {Gudjonsson, Johann E.  and Johnston, Andrew   and Ellis, Charles N. },
+   title = {Novel systemic drugs under investigation for the treatment of psoriasis},
+   volume = {67},
+   pages = {139–147},
+   url = {http://www.sciencedirect.com/science/article/pii/S0190962211008462#},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN354,
+   author = {Gupta, M. A. and Schork, N. J. and journal …, Gupta - A. K.},
+   title = {Suicidal ideation in psoriasis},
+   journal = {International journal …},
+   DOI = {10.1111/j.1365-4362.1993.tb02790.x},
+   url = {http://dx.doi.org/10.1111/j.1365-4362.1993.tb02790.x},
+   year = {1993},
+   type = {Journal Article}
+}
+
+@article{RN309,
+   author = {Gutowska‐Owsiak, D. and Schaupp, A. L.},
+   title = {IL‐17 downregulates filaggrin and affects keratinocyte expression of genes associated with cellular adhesion},
+   journal = {Experimental dermatology},
+   volume = {21},
+   pages = {104-110},
+   DOI = {10.1111/j.1600-0625.2011.01412.x},
+   url = {http://dx.doi.org/10.1111/j.1600-0625.2011.01412.x},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN200,
+   author = {Harmston, Nathan and Lenhard, Boris},
+   title = {Chromatin and epigenetic features of long-range gene regulation},
+   journal = {Nucleic Acids Research},
+   DOI = {10.1093/nar/gkt499},
+   url = {http://nar.oxfordjournals.org/content/early/2013/06/13/nar.gkt499.abstract},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN327,
+   author = {Heger, A. and Webber, C. and Goodson, M. and Ponting, C. P.},
+   title = {GAT: a simulation framework for testing the association of genomic intervals},
+   journal = {Bioinformatics},
+   volume = {29},
+   pages = {2046-2048},
+   DOI = {10.1093/bioinformatics/btt343},
+   url = {http://dx.doi.org/10.1093/bioinformatics/btt343},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN270,
+   author = {Henseler, T. and Christophers, E.},
+   title = {Psoriasis of early and late onset: characterization of two types of psoriasis vulgaris},
+   journal = {J Am Acad Dermatol},
+   volume = {13},
+   number = {3},
+   pages = {450-6},
+   ISSN = {0190-9622 (Print)
+0190-9622},
+   year = {1985},
+   type = {Journal Article}
+}
+
+@article{RN63,
+   author = {Higgs, Jim R. Hughes and Nigel, Roberts and Simon, McGowan and Deborah, Hay and Eleni, Giannoulatou and Magnus, Lynch and Marco De, Gobbi and Stephen, Taylor and Richard, Gibbons and Douglas, R.},
+   title = {Analysis of hundreds of cis-regulatory landscapes at high resolution in a single, high-throughput experiment},
+   journal = {Nature Genetics},
+   volume = {46},
+   pages = {205-212},
+   ISSN = {1061-4036},
+   DOI = {doi:10.1038/ng.2871},
+   url = {http://www.nature.com/ng/journal/v46/n2/full/ng.2871.html},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN246,
+   author = {Hindorff, L. A. and Sethupathy, P. and Junkins, H. A. and Ramos, E. M. and Mehta, J. P. and Collins, F. S. and Manolio, T. A.},
+   title = {Potential etiologic and functional implications of genome-wide association loci for human diseases and traits},
+   journal = {Proc Natl Acad Sci U S A},
+   volume = {106},
+   number = {23},
+   pages = {9362-7},
+   ISSN = {0027-8424},
+   DOI = {10.1073/pnas.0903103106},
+   year = {2009},
+   type = {Journal Article}
+}
+
+@article{RN245,
+   author = {Hirschhorn, Joel N.},
+   title = {Genetic Approaches to Studying Common Diseases and Complex Traits},
+   journal = {Pediatr Res},
+   volume = {57},
+   number = {5 Part 2},
+   pages = {74-77},
+   ISSN = {0031-3998},
+   url = {http://dx.doi.org/10.1203/01.PDR.0000159574.98964.87},
+   year = {2005},
+   type = {Journal Article}
+}
+
+@article{RN70,
+   author = {Hoffman, M. M. and Ernst, J. and Wilder, S. P. and Kundaje, A. and Harris, R. S. and Libbrecht, M. and Giardine, B. and Ellenbogen, P. M. and Bilmes, J. A. and Birney, E. and Hardison, R. C. and Dunham, I. and Kellis, M. and Noble, W. S.},
+   title = {Integrative annotation of chromatin elements from ENCODE data},
+   journal = {Nucleic Acids Res},
+   volume = {41},
+   number = {2},
+   pages = {827-41},
+   ISSN = {0305-1048},
+   DOI = {10.1093/nar/gks1284},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN300,
+   author = {Holoch, Daniel and Moazed, Danesh},
+   title = {RNA-mediated epigenetic regulation of gene expression},
+   journal = {Nature Reviews Genetics},
+   url = {http://www.nature.com/nrg/journal/vaop/ncurrent/full/nrg3863.html},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN19,
+   author = {Huber, M. and Heink, S. and Grothe, H. and Guralnik, A. and Reinhard, K. and Elflein, K. and Hunig, T. and Mittrucker, H. W. and Brustle, A. and Kamradt, T. and Lohoff, M.},
+   title = {A Th17-like developmental process leads to CD8(+) Tc17 cells with reduced cytotoxic activity},
+   journal = {Eur J Immunol},
+   volume = {39},
+   pages = {1716-25},
+   ISSN = {0014-2980},
+   DOI = {10.1002/eji.200939412
+10.1002/eji.200939412.},
+   url = {http://dx.doi.org/10.1002/eji.200939412},
+   year = {2009},
+   type = {Journal Article}
+}
+
+@article{RN197,
+   author = {Hueber, A. J. and Alves-Filho, J. C. and Asquith, D. L. and Michels, C. and Millar, N. L. and Reilly, J. H. and Graham, G. J. and Liew, F. Y. and Miller, A. M. and McInnes, I. B.},
+   title = {IL-33 induces skin inflammation with mast cell and neutrophil activation},
+   journal = {Eur J Immunol},
+   volume = {41},
+   number = {8},
+   pages = {2229-37},
+   ISSN = {0014-2980},
+   DOI = {10.1002/eji.201041360},
+   year = {2011},
+   type = {Journal Article}
+}
+
+@article{RN283,
+   author = {Hüffmeier, U. and Uebe, S. and Ekici, A. B. and Bowes, J. and Giardina, E.},
+   title = {Common variants at TRAF3IP2 are associated with susceptibility to psoriatic arthritis and psoriasis},
+   journal = {Nature …},
+   volume = {42},
+   pages = {996-999},
+   DOI = {10.1038/ng.688},
+   url = {http://dx.doi.org/10.1038/ng.688},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN304,
+   author = {Ibrahim, G. and Waxman, R. and Helliwell, P. S.},
+   title = {The prevalence of psoriatic arthritis in people with psoriasis},
+   journal = {Arthritis Rheum},
+   volume = {61},
+   number = {10},
+   pages = {1373-8},
+   ISSN = {0004-3591 (Print)
+0004-3591},
+   DOI = {10.1002/art.24608},
+   year = {2009},
+   type = {Journal Article}
+}
+
+@article{RN285,
+   author = {Jabbari, Ali and Suárez-Fariñas, Mayte and Dewell, Scott and Krueger, James G.},
+   title = {Transcriptional profiling of psoriasis using RNA-seq reveals previously unidentified differentially expressed genes},
+   journal = {The Journal of investigative dermatology},
+   volume = {132},
+   number = {1},
+   pages = {246-249},
+   ISSN = {0022-202X},
+   DOI = {10.1038/jid.2011.267},
+   url = {http://dx.doi.org/10.1038/jid.2011.267},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN18,
+   author = {Jackson, M. and Howie, S. E. and Weller, R. and Sabin, E. and Hunter, J. A. and McKenzie, R. C.},
+   title = {Psoriatic keratinocytes show reduced IRF-1 and STAT-1alpha activation in response to gamma-IFN},
+   journal = {Faseb j},
+   volume = {13},
+   number = {3},
+   pages = {495-502},
+   ISSN = {0892-6638 (Print)
+0892-6638},
+   year = {1999},
+   type = {Journal Article}
+}
+
+@article{RN342,
+   author = {Jacobson, Christine C. and Kumar, Sandeep and Kimball, Alexa B.},
+   title = {Latitude and psoriasis prevalence},
+   journal = {Journal of the American Academy of Dermatology},
+   volume = {65},
+   number = {4},
+   pages = {870-873},
+   ISSN = {0190-9622},
+   DOI = {10.1016/j.jaad.2009.05.047},
+   url = {http://dx.doi.org/10.1016/j.jaad.2009.05.047},
+   year = {2011},
+   type = {Journal Article}
+}
+
+@article{RN198,
+   author = {Kakkar, R. and Lee, R. T.},
+   title = {The IL-33/ST2 pathway: therapeutic target and novel biomarker},
+   journal = {Nat Rev Drug Discov},
+   volume = {7},
+   number = {10},
+   pages = {827-40},
+   ISSN = {1474-1776},
+   DOI = {10.1038/nrd2660},
+   year = {2008},
+   type = {Journal Article}
+}
+
+@article{RN315,
+   author = {Kent, L.},
+   title = {Freezing and thawing human embryonic stem cells},
+   journal = {Journal of visualized experiments: JoVE},
+   url = {http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3152242/},
+   year = {2009},
+   type = {Journal Article}
+}
+
+@article{RN27,
+   author = {Knight, Benjamin P Fairfax and Julian C},
+   title = {Genetics of gene expression in immunity to infection},
+   volume = {30},
+   pages = {63–71},
+   url = {http://www.sciencedirect.com/science/article/pii/S0952791514000909},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN329,
+   author = {Koohy, Hashem and Down, Thomas A. and Spivakov, Mikhail and Hubbard, Tim},
+   title = {A comparison of peak callers used for DNase-Seq data},
+   journal = {PloS one},
+   volume = {9},
+   number = {5},
+   ISSN = {1932-6203},
+   DOI = {10.1371/journal.pone.0096303},
+   url = {http://dx.doi.org/10.1371/journal.pone.0096303},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN44,
+   author = {Kudlow and Susan, M. Lobo-Ruppert and J Michael Ruppert, K. Wade Foster and Zhaoli, Liu and Clinton, D. Nail and Xingnan, Li and Thomas, J. Fitzgerald and Sarah, K. Bailey and Andra, R. Frost and Iuri, D. Louro and Tim, M. Townes and Andrew, J. Paterson and Jeffrey, E.},
+   title = {Induction of KLF4 in basal keratinocytes blocks the proliferation|[ndash]|differentiation switch and initiates squamous epithelial dysplasia},
+   journal = {Oncogene},
+   volume = {24},
+   pages = {1491-1500},
+   ISSN = {0950-9232},
+   DOI = {doi:10.1038/sj.onc.1208307},
+   url = {http://www.nature.com/onc/journal/v24/n9/abs/1208307a.html},
+   year = {2005},
+   type = {Journal Article}
+}
+
+@article{RN11,
+   author = {Lande, R. and Gregorio, J. and Facchinetti, V. and Chatterjee, B. and Wang, Y. H. and Homey, B. and Cao, W. and Su, B. and Nestle, F. O. and Zal, T. and Mellman, I. and Schroder, J. M. and Liu, Y. J. and Gilliet, M.},
+   title = {Plasmacytoid dendritic cells sense self-DNA coupled with antimicrobial peptide},
+   journal = {Nature},
+   volume = {449},
+   pages = {564-9},
+   ISSN = {0028-0836},
+   DOI = {10.1038/nature06116},
+   url = {http://dx.doi.org/10.1038/nature06116},
+   year = {2007},
+   type = {Journal Article}
+}
+
+@article{RN310,
+   author = {Langmead, B. and Salzberg, S. L.},
+   title = {Fast gapped-read alignment with Bowtie 2},
+   journal = {Nature methods},
+   DOI = {10.1038/nmeth.1923},
+   url = {http://dx.doi.org/10.1038/nmeth.1923},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN293,
+   author = {Lavin, Y. and Winter, D. and Blecher-Gonen, R. and David, E. and Keren-Shaul, H. and Merad, M. and Jung, S. and Amit, I.},
+   title = {Tissue-resident macrophage enhancer landscapes are shaped by the local microenvironment},
+   journal = {Cell},
+   volume = {159},
+   number = {6},
+   pages = {1312-26},
+   ISSN = {0092-8674},
+   DOI = {10.1016/j.cell.2014.11.018},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN254,
+   author = {Lee, D. and Gorkin, D. U. and Baker, M. and Strober, B. J. and Asoni, A. L. and McCallion, A. S. and Beer, M. A.},
+   title = {A method to predict the impact of regulatory variants from DNA sequence},
+   journal = {Nat Genet},
+   volume = {47},
+   number = {8},
+   pages = {955-61},
+   ISSN = {1061-4036},
+   DOI = {10.1038/ng.3331},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN261,
+   author = {Lee, Mark N. and Ye, Chun and Villani, Alexandra-Chloé C. and Raj, Towfique and Li, Weibo and Eisenhaure, Thomas M. and Imboywa, Selina H. and Chipendo, Portia I. and Ran, F. A. and Slowikowski, Kamil and Ward, Lucas D. and Raddassi, Khadir and McCabe, Cristin and Lee, Michelle H. and Frohlich, Irene Y. and Hafler, David A. and Kellis, Manolis and Raychaudhuri, Soumya and Zhang, Feng and Stranger, Barbara E. and Benoist, Christophe O. and De Jager, Philip L. and Regev, Aviv and Hacohen, Nir},
+   title = {Common genetic variants modulate pathogen-sensing responses in human dendritic cells},
+   journal = {Science (New York, N.Y.)},
+   volume = {343},
+   number = {6175},
+   pages = {1246980-9},
+   ISSN = {0036-8075},
+   DOI = {10.1126/science.1246980},
+   url = {http://dx.doi.org/10.1126/science.1246980},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN286,
+   author = {Li, B. and Tsoi, L. and Swindell, W. and Gudjonsson, J. and Tejasvi, T. and Johnston, A. and Ding, J. and Stuart, P. and Xing, X. and Kochkodan, J. and Voorhees, J. and Kang, H. and Nair, R. and Abecasis, G. and Elder, J.},
+   title = {Transcriptome analysis of psoriasis in a large case-control sample: RNA-seq provides insights into disease mechanisms},
+   journal = {J Invest Dermatol},
+   volume = {134},
+   pages = {1828-1838},
+   ISSN = {0022-202x},
+   DOI = {10.1038/jid.2014.28},
+   url = {http://dx.doi.org/10.1038/jid.2014.28},
+   type = {Journal Article}
+}
+
+@article{RN55,
+   author = {Li, B. and Tsoi, L. C. and Swindell, W. R. and Gudjonsson, J. E. and Tejasvi, T. and Johnston, A. and Ding, J. and Stuart, P. E. and Xing, X. and Kochkodan, J. J. and Voorhees, J. J. and Kang, H. M. and Nair, R. P. and Abecasis, G. R. and Elder, J. T.},
+   title = {Transcriptome analysis of psoriasis in a large case-control sample: RNA-seq provides insights into disease mechanisms},
+   journal = {J Invest Dermatol},
+   volume = {134},
+   pages = {1828-38},
+   ISSN = {0022-202x},
+   DOI = {10.1038/jid.2014.28
+10.1038/jid.2014.28. Epub 2014 Jan 17.},
+   url = {http://dx.doi.org/10.1038/jid.2014.28},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN266,
+   author = {Li, M. J. and Wang, L. Y. and Xia, Z. and Sham, P. C.},
+   title = {GWAS3D: detecting human regulatory variants by integrative analysis of genome-wide associations, chromosome interactions and histone modifications},
+   journal = {Nucleic acids research},
+   volume = {41},
+   pages = {150-158},
+   DOI = {10.1093/nar/gkt456},
+   url = {http://dx.doi.org/10.1093/nar/gkt456},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN333,
+   author = {Liu, Ying and Helms, Cynthia and Liao, Wilson and Zaba, Lisa C. and Duan, Shenghui and Gardner, Jennifer and Wise, Carol and Miner, Andrew and Malloy, M. J. and Pullinger, Clive R. and Kane, John P. and Saccone, Scott and Worthington, Jane and Bruce, Ian and Kwok, Pui–Yan and Menter, Alan and Krueger, James and Barton, Anne and Saccone, Nancy L. and Bowcock, Anne M.},
+   title = {A Genome-Wide Association Study of Psoriasis and Psoriatic Arthritis Identifies New Disease Loci},
+   journal = {PLoS Genetics},
+   volume = {4},
+   number = {4},
+   pages = {1-14},
+   ISSN = {1553-7390},
+   DOI = {10.1371/journal.pgen.1000041},
+   url = {http://dx.doi.org/10.1371/journal.pgen.1000041},
+   year = {2008},
+   type = {Journal Article}
+}
+
+@article{RN271,
+   author = {Lønnberg, Ann and Skov, Liselotte and Skytthe, A. and Kyvik, K. O. and Pedersen, O. B. and Thomsen, S. F.},
+   title = {Heritability of psoriasis in a large twin sample},
+   journal = {British Journal of Dermatology},
+   volume = {169},
+   number = {2},
+   pages = {412-416},
+   DOI = {10.1111/bjd.12375},
+   url = {http://dx.doi.org/10.1111/bjd.12375},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN295,
+   author = {Lowe, William L. and Reddy, Timothy E.},
+   title = {Genomic approaches for understanding the genetics of complex disease},
+   journal = {Genome research},
+   volume = {25},
+   number = {10},
+   pages = {1432-1441},
+   ISSN = {1088-9051},
+   DOI = {10.1101/gr.190603.115},
+   url = {http://dx.doi.org/10.1101/gr.190603.115},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN37,
+   author = {Lu, Yingchang and Kane, Sinae and Chen, Haoyan and Leon, Argentina and Levin, Ethan and Nguyen, Tien and Debbaneh, Maya and Millsop, Jillian W. and Gupta, Rishu and Huynh, Monica and Butler, Daniel and Cordoro, Kelly and Liao, Wilson},
+   title = {The Role of 39 Psoriasis Risk Variants on Age of Psoriasis Onset},
+   journal = {ISRN Dermatology},
+   volume = {2013},
+   pages = {4},
+   DOI = {10.1155/2013/203941},
+   url = {http://dx.doi.org/10.1155/2013/203941},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN68,
+   author = {Maller, J. B. and McVean, G. and Byrnes, J. and Vukcevic, D. and Palin, K. and Su, Z. and Howson, J. M. and Auton, A. and Myers, S. and Morris, A. and Pirinen, M. and Brown, M. A. and Burton, P. R. and Caulfield, M. J. and Compston, A. and Farrall, M. and Hall, A. S. and Hattersley, A. T. and Hill, A. V. and Mathew, C. G. and Pembrey, M. and Satsangi, J. and Stratton, M. R. and Worthington, J. and Craddock, N. and Hurles, M. and Ouwehand, W. and Parkes, M. and Rahman, N. and Duncanson, A. and Todd, J. A. and Kwiatkowski, D. P. and Samani, N. J. and Gough, S. C. and McCarthy, M. I. and Deloukas, P. and Donnelly, P.},
+   title = {Bayesian refinement of association signals for 14 loci in 3 common diseases},
+   journal = {Nat Genet},
+   volume = {44},
+   number = {12},
+   pages = {1294-301},
+   ISSN = {1061-4036},
+   DOI = {10.1038/ng.2435},
+   url = {http://www.nature.com/ng/journal/v44/n12/full/ng.2435.html},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN253,
+   author = {Maller, J. B. and McVean, G. and Byrnes, J. and Vukcevic, D. and Palin, K. and Su, Z. and Howson, J. M. and Auton, A. and Myers, S. and Morris, A. and Pirinen, M. and Brown, M. A. and Burton, P. R. and Caulfield, M. J. and Compston, A. and Farrall, M. and Hall, A. S. and Hattersley, A. T. and Hill, A. V. and Mathew, C. G. and Pembrey, M. and Satsangi, J. and Stratton, M. R. and Worthington, J. and Craddock, N. and Hurles, M. and Ouwehand, W. and Parkes, M. and Rahman, N. and Duncanson, A. and Todd, J. A. and Kwiatkowski, D. P. and Samani, N. J. and Gough, S. C. and McCarthy, M. I. and Deloukas, P. and Donnelly, P.},
+   title = {Bayesian refinement of association signals for 14 loci in 3 common diseases},
+   journal = {Nat Genet},
+   volume = {44},
+   number = {12},
+   pages = {1294-301},
+   ISSN = {1061-4036},
+   DOI = {10.1038/ng.2435},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN325,
+   author = {Martin, Marcel},
+   title = {Cutadapt removes adapter sequences from high-throughput sequencing reads},
+   journal = {EMBnet. journal},
+   volume = {17},
+   number = {1},
+   pages = {10-12},
+   url = {http://journal.embnet.org/index.php/embnetjournal/article/view/200},
+   year = {2011},
+   type = {Journal Article}
+}
+
+@article{RN65,
+   author = {McKenzie, Jennifer A. Walker and Jillian, L. Barlow and Andrew, N. J.},
+   title = {Innate lymphoid cells |[mdash]| how did we miss them?},
+   journal = {Nature Reviews Immunology},
+   volume = {13},
+   pages = {75-87},
+   ISSN = {1474-1733},
+   DOI = {doi:10.1038/nri3349},
+   url = {http://www.nature.com/nri/journal/v13/n2/full/nri3349.html},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN195,
+   author = {Miller, Ashley},
+   title = {Role of IL-33 in inflammation and disease},
+   journal = {Journal of Inflammation},
+   volume = {8},
+   number = {1},
+   pages = {22},
+   ISSN = {1476-9255},
+   url = {http://www.journal-inflammation.com/content/8/1/22},
+   year = {2011},
+   type = {Journal Article}
+}
+
+@article{RN346,
+   author = {Moll, J. M. H. and in, arthritis and rheumatism, Wright - V.},
+   title = {Psoriatic arthritis},
+   journal = {Seminars in arthritis and rheumatism},
+   url = {http://www.sciencedirect.com/science/article/pii/0049017273900358},
+   year = {1973},
+   type = {Journal Article}
+}
+
+@article{RN41,
+   author = {Nair, R. P. and Duffin, K. C. and Helms, C. and Ding, J. and Stuart, P. E. and Goldgar, D. and Gudjonsson, J. E. and Li, Y. and Tejasvi, T. and Feng, B. J. and Ruether, A. and Schreiber, S. and Weichenthal, M. and Gladman, D. and Rahman, P. and Schrodi, S. J. and Prahalad, S. and Guthery, S. L. and Fischer, J. and Liao, W. and Kwok, P. Y. and Menter, A. and Lathrop, G. M. and Wise, C. A. and Begovich, A. B. and Voorhees, J. J. and Elder, J. T. and Krueger, G. G. and Bowcock, A. M. and Abecasis, G. R.},
+   title = {Genome-wide scan reveals association of psoriasis with IL-23 and NF-kappaB pathways},
+   journal = {Nat Genet},
+   volume = {41},
+   pages = {199-204},
+   ISSN = {1061-4036},
+   DOI = {10.1038/ng.311
+10.1038/ng.311. Epub 2009 Jan 25.},
+   url = {http://dx.doi.org/10.1038/ng.311},
+   year = {2009},
+   type = {Journal Article}
+}
+
+@article{RN38,
+   author = {Nair, R. P. and Ruether, A. and Stuart, P. E. and Jenisch, S. and Tejasvi, T. and Hiremagalore, R. and Schreiber, S. and Kabelitz, D. and Lim, H. W. and Voorhees, J. J. and Christophers, E. and Elder, J. T. and Weichenthal, M.},
+   title = {Polymorphisms of the IL12B and IL23R genes are associated with psoriasis},
+   journal = {J Invest Dermatol},
+   volume = {128},
+   pages = {1653-61},
+   ISSN = {0022-202x},
+   DOI = {10.1038/sj.jid.5701255
+10.1038/sj.jid.5701255. Epub 2008 Jan 24.},
+   url = {http://dx.doi.org/10.1038/sj.jid.5701255},
+   year = {2008},
+   type = {Journal Article}
+}
+
+@inbook{RN39,
+   author = {Nair, R. P. and Stuart, P. E. and Nistor, I. and Hiremagalore, R. and Chia, N. V. C. and Jenisch, S. and Weichenthal, M. and Abecasis, G. R. and Lim, H. W. and Christophers, E. and Voorhees, J. J. and Elder, J. T.},
+   title = {Sequence and Haplotype Analysis Supports HLA-C as the Psoriasis Susceptibility 1 Gene},
+   booktitle = {Am J Hum Genet},
+   volume = {78},
+   pages = {827-51},
+   ISBN = {0002-9297 (Print)1537-6605 (Electronic)},
+   url = {http://dx.doi.org/},
+   year = {2006},
+   type = {Book Section}
+}
+
+@article{RN349,
+   author = {Najarian, D. J. and of the of, Gottlieb - A. B.},
+   title = {Connections between psoriasis and Crohn's disease},
+   journal = {Journal of the American Academy of …},
+   url = {http://www.sciencedirect.com/science/article/pii/S0190962203011289},
+   year = {2003},
+   type = {Journal Article}
+}
+
+@article{RN1,
+   author = {Nestle, Frank O. and Kaplan, Daniel H. and Barker, Jonathan},
+   title = {Psoriasis},
+   journal = {New England Journal of Medicine},
+   volume = {361},
+   number = {5},
+   pages = {496-509},
+   DOI = {doi:10.1056/NEJMra0804595},
+   url = {http://www.nejm.org/doi/full/10.1056/NEJMra0804595},
+   year = {2009},
+   type = {Journal Article}
+}
+
+@article{RN264,
+   author = {Nica and Parts and Glass and Nisbet and Barrett and Sekowska and Travers and Potter and Grundberg and Small and Hedman and Bataille and Bell and Surdulescu and Dimas and Ingle and Nestle and Meglio and Min and Wilk and Hammond and Hassanali and Yang and Montgomery and O'Rahilly and Lindgren and Zondervan and Soranzo and Barroso and Durbin and Ahmadi and mail and mail and mail and mail and Consortium, The},
+   title = {The Architecture of Gene Regulatory Variation across Multiple Human Tissues: The MuTHER Study},
+   journal = {The Architecture of Gene Regulatory Variation across Multiple Human Tissues: The MuTHER Study},
+   volume = {7},
+   number = {6},
+   pages = {1-9},
+   DOI = {10.1371/journal.pgen.1002003},
+   url = {http://dx.doi.org/10.1371/journal.pgen.1002003},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@inbook{RN6,
+   author = {Nickoloff, B. J. and Nestle, F. O.},
+   title = {Recent insights into the immunopathogenesis of psoriasis provide new therapeutic opportunities},
+   booktitle = {J Clin Invest},
+   volume = {113},
+   pages = {1664-75},
+   ISBN = {0021-9738 (Print)},
+   DOI = {10.1172/jci200422147},
+   url = {http://dx.doi.org/10.1172/jci200422147},
+   year = {2004},
+   type = {Book Section}
+}
+
+@article{RN3,
+   author = {Nickoloff, B. J. and Qin, J. Z. and Nestle, F. O.},
+   title = {Immunopathogenesis of psoriasis},
+   journal = {Clin Rev Allergy Immunol},
+   volume = {33},
+   number = {1-2},
+   pages = {45-56},
+   ISSN = {1080-0549 (Print)
+1080-0549},
+   DOI = {10.1007/s12016-007-0039-2},
+   year = {2007},
+   type = {Journal Article}
+}
+
+@article{RN14,
+   author = {Nickoloff, B. J. and Wrone-Smith, T.},
+   title = {Injection of pre-psoriatic skin with CD4+ T cells induces psoriasis},
+   journal = {Am J Pathol},
+   volume = {155},
+   pages = {145-58},
+   ISSN = {0002-9440 (Print)0002-9440},
+   DOI = {10.1016/s0002-9440(10)65109-7},
+   url = {http://dx.doi.org/10.1016/s0002-9440(10)65109-7},
+   year = {1999},
+   type = {Journal Article}
+}
+
+@article{RN330,
+   author = {Nie, Yumin and Cheng, Xiangfei and Chen, Jiao and Sun, Xiao},
+   title = {Nucleosome organization in the vicinity of transcription factor binding sites in the human genome},
+   journal = {BMC genomics},
+   volume = {15},
+   pages = {493},
+   ISSN = {1471-2164},
+   DOI = {10.1186/1471-2164-15-493},
+   url = {http://dx.doi.org/10.1186/1471-2164-15-493},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN335,
+   author = {Oeth, P. and Parry, G. C. N. and Mackman, N.},
+   title = {Regulation of the Tissue Factor Gene in Human Monocytic Cells: Role of AP-1, NF- B/Rel, and Sp1 Proteins in Uninduced and Lipopolysaccharide-Induced Expression},
+   journal = {Arteriosclerosis, Thrombosis, and Vascular Biology},
+   volume = {17},
+   number = {2},
+   pages = {365-374},
+   ISSN = {1079-5642},
+   DOI = {10.1161/01.ATV.17.2.365},
+   url = {http://dx.doi.org/10.1161/01.ATV.17.2.365},
+   year = {1997},
+   type = {Journal Article}
+}
+
+@article{RN284,
+   author = {Onoufriadis, Alexandros and Simpson, Michael A. and Pink, Andrew E. and Meglio, Paola and Smith, Catherine H. and Pullabhatla, Venu and Knight, Jo and Spain, Sarah L. and Nestle, Frank O. and Burden, David A.},
+   title = {Mutations in IL36RN/IL1F5 are associated with the severe episodic inflammatory skin disease known as generalized pustular psoriasis},
+   journal = {The American Journal of Human Genetics},
+   volume = {89},
+   number = {3},
+   pages = {432-437},
+   url = {http://www.sciencedirect.com/science/article/pii/S0002929711003168},
+   year = {2011},
+   type = {Journal Article}
+}
+
+@techreport{RN340,
+   author = {Organization, World Health},
+   title = {Global report on psoriasis},
+   year = {2016},
+   type = {Report}
+}
+
+@article{RN4,
+   author = {Parisi, R. and Symmons, D. P. and Griffiths, C. E. and Ashcroft, D. M.},
+   title = {Global epidemiology of psoriasis: a systematic review of incidence and prevalence},
+   journal = {J Invest Dermatol},
+   volume = {133},
+   number = {2},
+   pages = {377-85},
+   ISSN = {0022-202x},
+   DOI = {10.1038/jid.2012.339},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN313,
+   author = {Paul, D. S. and Soranzo, N. and Beck, S.},
+   title = {Functional interpretation of non‐coding sequence variation: Concepts and challenges},
+   journal = {Bioessays},
+   volume = {36},
+   pages = {191-200},
+   DOI = {10.1002/bies.201300126},
+   url = {http://dx.doi.org/10.1002/bies.201300126},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN2,
+   author = {Perera, G. K. and Di Meglio, P. and Nestle, F. O.},
+   title = {Psoriasis},
+   journal = {Annu Rev Pathol},
+   volume = {7},
+   pages = {385-422},
+   ISSN = {1553-4006},
+   DOI = {10.1146/annurev-pathol-011811-132448},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN60,
+   author = {Phillips, J. E. and Corces, V. G.},
+   title = {CTCF: master weaver of the genome},
+   journal = {Cell},
+   volume = {137},
+   pages = {1194-211},
+   ISSN = {0092-8674},
+   DOI = {10.1016/j.cell.2009.06.001
+10.1016/j.cell.2009.06.001.},
+   url = {http://dx.doi.org/10.1016/j.cell.2009.06.001},
+   year = {2009},
+   type = {Journal Article}
+}
+
+@article{RN356,
+   author = {Poole, C. D. and Lebmeier, M. and Ara, R. and Rheumatology, Rafia - R.},
+   title = {Estimation of health care costs as a function of disease severity in people with psoriatic arthritis in the UK},
+   journal = {Rheumatology},
+   DOI = {10.1093/rheumatology/keq182},
+   url = {http://dx.doi.org/10.1093/rheumatology/keq182},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN57,
+   author = {Proell, M. and Gerlic, M. and Mace, P. D. and Reed, J. C. and Riedl, S. J.},
+   title = {The CARD plays a critical role in ASC foci formation and inflammasome signalling},
+   journal = {Biochem J},
+   volume = {449},
+   pages = {613-21},
+   ISSN = {0264-6021},
+   DOI = {10.1042/bj20121198},
+   url = {http://dx.doi.org/10.1042/bj20121198},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN7,
+   author = {Proksch, E. and Brandner, J. M. and Jensen, J. M.},
+   title = {The skin: an indispensable barrier},
+   journal = {Exp Dermatol},
+   volume = {17},
+   number = {12},
+   pages = {1063-72},
+   ISSN = {0906-6705},
+   year = {2008},
+   type = {Journal Article}
+}
+
+@article{RN255,
+   author = {Purcell, S. and Neale, B. and Todd-Brown, K. and Thomas, L. and Ferreira, M. A. and Bender, D. and Maller, J. and Sklar, P. and de Bakker, P. I. and Daly, M. J. and Sham, P. C.},
+   title = {PLINK: a tool set for whole-genome association and population-based linkage analyses},
+   journal = {Am J Hum Genet},
+   volume = {81},
+   number = {3},
+   pages = {559-75},
+   ISSN = {0002-9297 (Print)
+0002-9297},
+   DOI = {10.1086/519795},
+   year = {2007},
+   type = {Journal Article}
+}
+
+@article{RN328,
+   author = {Quinlan, A. R. and Hall, I. M.},
+   title = {BEDTools: a flexible suite of utilities for comparing genomic features},
+   journal = {Bioinformatics},
+   volume = {26},
+   pages = {841-842},
+   DOI = {10.1093/bioinformatics/btq033},
+   url = {http://dx.doi.org/10.1093/bioinformatics/btq033},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN260,
+   author = {Raj, Towfique and Rothamel, Katie and Mostafavi, Sara and Ye, Chun and Lee, Mark N. and Replogle, Joseph M. and Feng, Ting and Lee, Michelle and Asinovski, Natasha and Frohlich, Irene},
+   title = {Polarization of the effects of autoimmune and neurodegenerative risk alleles in leukocytes},
+   journal = {Science},
+   volume = {344},
+   number = {6183},
+   pages = {519-523},
+   url = {http://www.sciencemag.org/content/344/6183/519.short},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN272,
+   author = {Reich, K.},
+   title = {The concept of psoriasis as a systemic inflammation: implications for disease management},
+   journal = {Journal of the European Academy of Dermatology …},
+   volume = {26},
+   pages = {3-11},
+   DOI = {10.1111/j.1468-3083.2011.04410.x},
+   url = {http://dx.doi.org/10.1111/j.1468-3083.2011.04410.x},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN343,
+   author = {Reich, K. and Krüger, K. and of Dermatology, Mössner - R.},
+   title = {Epidemiology and clinical pattern of psoriatic arthritis in Germany: a prospective interdisciplinary epidemiological study of 1511 patients with plaque‐type psoriasis},
+   journal = {… Journal of Dermatology},
+   DOI = {10.1111/j.1365-2133.2008.09023.x},
+   url = {http://dx.doi.org/10.1111/j.1365-2133.2008.09023.x},
+   year = {2009},
+   type = {Journal Article}
+}
+
+@article{RN320,
+   author = {Ries, S. and Büchler, C. and Langmann, T. and Fehringer, P.},
+   title = {Transcriptional regulation of lysosomal acid lipase in differentiating monocytes is mediated by transcription factors Sp1 and AP-2},
+   journal = {Journal of lipid …},
+   url = {http://www.jlr.org/content/39/11/2125.short},
+   year = {1998},
+   type = {Journal Article}
+}
+
+@article{RN318,
+   author = {Rushworth, S. A. and Shah, S.},
+   title = {TNF mediates the sustained activation of Nrf2 in human monocytes},
+   journal = {The Journal of …},
+   DOI = {10.4049/jimmunol.1004117},
+   url = {http://dx.doi.org/10.4049/jimmunol.1004117},
+   year = {2011},
+   type = {Journal Article}
+}
+
+@article{RN306,
+   author = {Saeed, S. and Quintin, J. and Kerstens, H. H. and Rao, N. A. and Aghajanirefah, A. and Matarese, F. and Cheng, S. C. and Ratter, J. and Berentsen, K. and van der Ent, M. A. and Sharifi, N. and Janssen-Megens, E. M. and Ter Huurne, M. and Mandoli, A. and van Schaik, T. and Ng, A. and Burden, F. and Downes, K. and Frontini, M. and Kumar, V. and Giamarellos-Bourboulis, E. J. and Ouwehand, W. H. and van der Meer, J. W. and Joosten, L. A. and Wijmenga, C. and Martens, J. H. and Xavier, R. J. and Logie, C. and Netea, M. G. and Stunnenberg, H. G.},
+   title = {Epigenetic programming of monocyte-to-macrophage differentiation and trained innate immunity},
+   journal = {Science},
+   volume = {345},
+   number = {6204},
+   pages = {1251086},
+   ISSN = {0036-8075},
+   DOI = {10.1126/science.1251086},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN353,
+   author = {Sampogna, Francesca and Tabolli, Stefano and Abeni, Damiano},
+   title = {Living with psoriasis: prevalence of shame, anger, worry, and problems in daily activities and social life},
+   journal = {Acta dermato-venereologica},
+   volume = {92},
+   number = {3},
+   pages = {299-303},
+   DOI = {10.2340/00015555-1273},
+   url = {http://dx.doi.org/10.2340/00015555-1273},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN321,
+   author = {Schep, Alicia and Buenrostro, Jason D. and Denny, Sarah K. and Schwartz, Katja and Sherlock, Gavin and Greenleaf, William J.},
+   title = {Structured nucleosome fingerprints enable high-resolution mapping of chromatin architecture within regulatory regions},
+   journal = {bioRxiv},
+   volume = {25},
+   pages = {1757-1770},
+   url = {http://www.biorxiv.org/content/biorxiv/early/2015/03/17/016642.full.pdf},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN249,
+   author = {Schork, N. J. and Murray, S. S. and Frazer, K. A. and Topol, E. J.},
+   title = {Common vs. rare allele hypotheses for complex diseases},
+   journal = {Curr Opin Genet Dev},
+   volume = {19},
+   number = {3},
+   pages = {212-9},
+   ISSN = {0959-437x},
+   DOI = {10.1016/j.gde.2009.04.010},
+   year = {2009},
+   type = {Journal Article}
+}
+
+@article{RN350,
+   author = {Shapiro, J. and Cohen, A. D. and David, M. and of the American …, Hodak - E.},
+   title = {The association between psoriasis, diabetes mellitus, and atherosclerosis in Israel: a case-control study},
+   journal = {Journal of the American …},
+   url = {http://www.sciencedirect.com/science/article/pii/S0190962206025436},
+   year = {2007},
+   type = {Journal Article}
+}
+
+@article{RN201,
+   author = {Sims, David and Sudbery, Ian and Ilott, Nicholas E. and Heger, Andreas and Ponting, Chris P.},
+   title = {Sequencing depth and coverage: key considerations in genomic analyses},
+   journal = {Nat Rev Genet},
+   volume = {15},
+   number = {2},
+   pages = {121-132},
+   ISSN = {1471-0056},
+   DOI = {10.1038/nrg3642},
+   url = {http://dx.doi.org/10.1038/nrg3642},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN312,
+   author = {Smemo, S. and Tena, J. J. and Kim, K. H. and Gamazon, E. R. and Sakabe, N. J.},
+   title = {Obesity-associated variants within FTO form long-range functional connections with IRX3},
+   journal = {Nature},
+   volume = {507},
+   pages = {371-375},
+   DOI = {10.1038/nature13138},
+   url = {http://dx.doi.org/10.1038/nature13138},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN58,
+   author = {Song, L. and Zhang, Z. and Grasfeder, L. L. and Boyle, A. P. and Giresi, P. G. and Lee, B. K. and Sheffield, N. C. and Graf, S. and Huss, M. and Keefe, D. and Liu, Z. and London, D. and McDaniell, R. M. and Shibata, Y. and Showers, K. A. and Simon, J. M. and Vales, T. and Wang, T. and Winter, D. and Clarke, N. D. and Birney, E. and Iyer, V. R. and Crawford, G. E. and Lieb, J. D. and Furey, T. S.},
+   title = {Open chromatin defined by DNaseI and FAIRE identifies regulatory elements that shape cell-type identity},
+   journal = {Genome Res},
+   volume = {21},
+   pages = {1757-67},
+   ISSN = {1088-9051 (Print)1549-5469 (Electronic)},
+   DOI = {10.1101/gr.121541.111
+10.1101/gr.121541.111.},
+   url = {http://dx.doi.org/10.1101/gr.121541.111},
+   year = {2011},
+   type = {Journal Article}
+}
+
+@article{RN316,
+   author = {Spilianakis, Charalampos G. and Flavell, Richard A.},
+   title = {Long-range intrachromosomal interactions in the T helper type 2 cytokine locus},
+   journal = {Nature immunology},
+   volume = {5},
+   number = {10},
+   pages = {1017-1027},
+   DOI = {10.1038/ni1115},
+   url = {http://dx.doi.org/10.1038/ni1115},
+   year = {2004},
+   type = {Journal Article}
+}
+
+@article{RN341,
+   author = {Springate, D. A. and Parisi, R. and of …, Kontopantelis - E.},
+   title = {Incidence, prevalence and mortality of patients with psoriasis: a UK population‐based cohort study},
+   journal = {British Journal of …},
+   DOI = {10.1111/bjd.15021},
+   url = {http://dx.doi.org/10.1111/bjd.15021},
+   year = {2017},
+   type = {Journal Article}
+}
+
+@article{RN296,
+   author = {Stefan, M. and Wei, C. and Lombardi, A. and Li, C. W.},
+   title = {Genetic–epigenetic dysregulation of thymic TSH receptor gene expression triggers thyroid autoimmunity},
+   journal = {Proceedings of the …},
+   url = {http://www.pnas.org/content/111/34/12562.short},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN61,
+   author = {Stefan, M. and Wei, C. and Lombardi, A. and Li, C. W. and Concepcion, E. S. and Inabnet, W. B., 3rd and Owen, R. and Zhang, W. and Tomer, Y.},
+   title = {Genetic-epigenetic dysregulation of thymic TSH receptor gene expression triggers thyroid autoimmunity},
+   journal = {Proc Natl Acad Sci U S A},
+   volume = {111},
+   pages = {12562-7},
+   ISSN = {0027-8424},
+   DOI = {10.1073/pnas.1408821111
+10.1073/pnas.1408821111. Epub 2014 Aug 13.},
+   url = {http://dx.doi.org/10.1073/pnas.1408821111},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN251,
+   author = {Steinmetz, L. M. and Davis, R. W.},
+   title = {Maximizing the potential of functional genomics},
+   journal = {Nat Rev Genet},
+   volume = {5},
+   number = {3},
+   pages = {190-201},
+   ISSN = {1471-0056 (Print)
+1471-0056},
+   DOI = {10.1038/nrg1293},
+   year = {2004},
+   type = {Journal Article}
+}
+
+@article{RN301,
+   author = {Steinmetz, L. M. and Davis, R. W.},
+   title = {Maximizing the potential of functional genomics},
+   journal = {Nature Reviews Genetics},
+   DOI = {10.1038/nrg1293},
+   url = {http://dx.doi.org/10.1038/nrg1293},
+   year = {2004},
+   type = {Journal Article}
+}
+
+@article{RN36,
+   author = {Strange, A. and Capon, F. and Spencer, C. C. and Knight, J. and Weale, M. E. and Allen, M. H. and Barton, A. and Band, G. and Bellenguez, C. and Bergboer, J. G. and Blackwell, J. M. and Bramon, E. and Bumpstead, S. J. and Casas, J. P. and Cork, M. J. and Corvin, A. and Deloukas, P. and Dilthey, A. and Duncanson, A. and Edkins, S. and Estivill, X. and Fitzgerald, O. and Freeman, C. and Giardina, E. and Gray, E. and Hofer, A. and Huffmeier, U. and Hunt, S. E. and Irvine, A. D. and Jankowski, J. and Kirby, B. and Langford, C. and Lascorz, J. and Leman, J. and Leslie, S. and Mallbris, L. and Markus, H. S. and Mathew, C. G. and McLean, W. H. and McManus, R. and Mossner, R. and Moutsianas, L. and Naluai, A. T. and Nestle, F. O. and Novelli, G. and Onoufriadis, A. and Palmer, C. N. and Perricone, C. and Pirinen, M. and Plomin, R. and Potter, S. C. and Pujol, R. M. and Rautanen, A. and Riveira-Munoz, E. and Ryan, A. W. and Salmhofer, W. and Samuelsson, L. and Sawcer, S. J. and Schalkwijk, J. and Smith, C. H. and Stahle, M. and Su, Z. and Tazi-Ahnini, R. and Traupe, H. and Viswanathan, A. C. and Warren, R. B. and Weger, W. and Wolk, K. and Wood, N. and Worthington, J. and Young, H. S. and Zeeuwen, P. L. and Hayday, A. and Burden, A. D. and Griffiths, C. E. and Kere, J. and Reis, A. and McVean, G. and Evans, D. M. and Brown, M. A. and Barker, J. N. and Peltonen, L. and Donnelly, P. and Trembath, R. C.},
+   title = {A genome-wide association study identifies new psoriasis susceptibility loci and an interaction between HLA-C and ERAP1},
+   journal = {Nat Genet},
+   volume = {42},
+   pages = {985-90},
+   ISSN = {1061-4036},
+   DOI = {10.1038/ng.694
+10.1038/ng.694. Epub 2010 Oct 17.},
+   url = {http://dx.doi.org/10.1038/ng.694},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN282,
+   author = {Stuart, Philip E. and Nair, Rajan P. and Ellinghaus, Eva and Ding, Jun and Tejasvi, Trilokraj and Gudjonsson, Johann E. and Li, Yun and Weidinger, Stephan and Eberlein, Bernadette and Gieger, Christian and Wichmann, H. E. and Kunz, Manfred and Ike, Robert and Krueger, Gerald G. and Bowcock, Anne M. and Mrowietz, Ulrich and Lim, Henry W. and Voorhees, John J. and Abecasis, Gonçalo R. and Weichenthal, Michael and Franke, Andre and Rahman, Proton and Gladman, Dafna D. and Elder, James T.},
+   title = {Genome-wide association analysis identifies three psoriasis susceptibility loci},
+   journal = {Nature genetics},
+   volume = {42},
+   number = {11},
+   pages = {1000-1004},
+   ISSN = {1061-4036},
+   DOI = {10.1038/ng.693},
+   url = {http://dx.doi.org/10.1038/ng.693},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN274,
+   author = {Sun, Lian-Dang and Cheng, Hui and Xue-Qin, Yang and Jian-Zhong, Zhang and Ai, E. and Ri-Na, Wu and Li-Min, Xu and Lin, Peng and Cynthia, A. and Yun-Qing, Ren and Chi, Zhang and Shu-Mei, Zhang and Rajan, P. and Hong-Yan, Wang and Guo-Shu, Lin and Philip, E. and Xing, Fan and Gang, Chen and Trilokraj, Tejasvi and Pan, Li and Jun, Zhu and Zhi-Ming, Li and Hong-Mei, Ge and Michael, Weichenthal and Wen-Zheng, Ye and Cheng, Zhang and Song-Ke, Shen and Bao-Qi, Yang and Yuan-Yuan, Sun and Shan-Shan, Li and Yan, Lin and Jian-Hua, Jiang and Cun-Tao, Li and Ri-Xin, Chen and Juan, Cheng and Xin, Jiang and Peng, Zhang and Wei-Min, Song and Jin, Tang and Hao-Qin, Zhang and Li, Sun and Jing, Cui and Li-Jun, Zhang and Biao, Tang and Fei, Huang and Qian, Qin and Xiao-Ping, Pei and Ai-Min, Zhou and Li-Mei, Shao and Jian-Lan, Liu and Feng-Yu, Zhang and Wei-Dong, Du and Andre, Franke and Anne, M. and James, T. and Jian-Jun, Liu and Sen, Yang and Zhang, Liang-Dan and Hui, Cheng and Zai-Xing, Wang and An-Ping, Zhang and Pei-Guang, Wang and Jin-Hua, Xu and Qi-Xing, Zhu and Hai-Sheng, Zhou and Eva, Ellinghaus and Fu-Ren, Zhang and Xiong, Ming},
+   title = {Association analyses identify six new psoriasis susceptibility loci in the Chinese population},
+   journal = {Nature Genetics},
+   volume = {42},
+   ISSN = {1061-4036},
+   DOI = {10.1038/ng.690},
+   url = {http://dx.doi.org/10.1038/ng.690},
+   year = {0100},
+   type = {Journal Article}
+}
+
+@article{RN50,
+   author = {Sun, Lian-Dang and Cheng, Hui and Xue-Qin, Yang and Jian-Zhong, Zhang and Ai, E. Xu and Ri-Na, Wu and Li-Min, Xu and Lin, Peng and Cynthia, A. Helms and Yun-Qing, Ren and Chi, Zhang and Shu-Mei, Zhang and Rajan, P. Nair and Hong-Yan, Wang and Guo-Shu, Lin and Philip, E. Stuart and Xing, Fan and Gang, Chen and Trilokraj, Tejasvi and Pan, Li and Jun, Zhu and Zhi-Ming, Li and Hong-Mei, Ge and Michael, Weichenthal and Wen-Zheng, Ye and Cheng, Zhang and Song-Ke, Shen and Bao-Qi, Yang and Yuan-Yuan, Sun and Shan-Shan, Li and Yan, Lin and Jian-Hua, Jiang and Cun-Tao, Li and Ri-Xin, Chen and Juan, Cheng and Xin, Jiang and Peng, Zhang and Wei-Min, Song and Jin, Tang and Hao-Qin, Zhang and Li, Sun and Jing, Cui and Li-Jun, Zhang and Biao, Tang and Fei, Huang and Qian, Qin and Xiao-Ping, Pei and Ai-Min, Zhou and Li-Mei, Shao and Jian-Lan, Liu and Feng-Yu, Zhang and Wei-Dong, Du and Andre, Franke and Anne, M. Bowcock and James, T. Elder and Jian-Jun, Liu and Sen, Yang and Xue-Jun Zhang, Liang-Dan Sun and Hui, Cheng and Zai-Xing, Wang and An-Ping, Zhang and Pei-Guang, Wang and Jin-Hua, Xu and Qi-Xing, Zhu and Hai-Sheng, Zhou and Eva, Ellinghaus and Fu-Ren, Zhang and Xiong, Ming},
+   title = {Association analyses identify six new psoriasis susceptibility loci in the Chinese population},
+   journal = {Nature Genetics},
+   volume = {42},
+   pages = {1005-1009},
+   ISSN = {1061-4036},
+   DOI = {doi:10.1038/ng.690},
+   url = {http://www.nature.com/ng/journal/v42/n11/abs/ng.690.html},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN34,
+   author = {Swindell, William R. and Stuart, Philip E. and Sarkar, Mrinal K. and Voorhees, John J. and Elder, James T. and Johnston, Andrew and Gudjonsson, Johann E.},
+   title = {Cellular dissection of psoriasis for transcriptome analyses and the post-GWAS era},
+   journal = {BMC Medical Genomics},
+   volume = {7},
+   pages = {7-27},
+   ISSN = {1755-8794},
+   DOI = {info:pmid/24885462},
+   url = {http://www.biomedcentral.com/1755-8794/7/27},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN56,
+   author = {Swindell, W. R. and Xing, X. and Voorhees, J. J. and Elder, J. T. and Johnston, A. and Gudjonsson, J. E.},
+   title = {Integrative RNA-seq and microarray data analysis reveals GC content and gene length biases in the psoriasis transcriptome},
+   journal = {Physiol Genomics},
+   volume = {46},
+   pages = {533-46},
+   ISSN = {1094-8341},
+   DOI = {10.1152/physiolgenomics.00022.2014},
+   url = {http://dx.doi.org/10.1152/physiolgenomics.00022.2014},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN307,
+   author = {Teng, L. and He, B. and Wang, J. and Tan, K.},
+   title = {4DGenome: a comprehensive database of chromatin interactions},
+   journal = {Bioinformatics},
+   volume = {31},
+   number = {15},
+   pages = {2560-4},
+   ISSN = {1367-4803},
+   DOI = {10.1093/bioinformatics/btv158},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN196,
+   author = {Theoharides, T. C. and Zhang, B. and Kempuraj, D. and Tagen, M. and Vasiadi, M. and Angelidou, A. and Alysandratos, K. D. and Kalogeromitros, D. and Asadi, S. and Stavrianeas, N. and Peterson, E. and Leeman, S. and Conti, P.},
+   title = {IL-33 augments substance P-induced VEGF secretion from human mast cells and is increased in psoriatic skin},
+   journal = {Proc Natl Acad Sci U S A},
+   volume = {107},
+   number = {9},
+   pages = {4448-53},
+   ISSN = {0027-8424},
+   DOI = {10.1073/pnas.1000803107},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN299,
+   author = {Thurman, Robert E. and Rynes, Eric and Humbert, Richard and Vierstra, Jeff and Maurano, Matthew T. and Haugen, Eric and Sheffield, Nathan C. and Stergachis, Andrew B. and Wang, Hao and Vernot, Benjamin},
+   title = {The accessible chromatin landscape of the human genome},
+   journal = {Nature},
+   volume = {489},
+   number = {7414},
+   pages = {75-82},
+   DOI = {10.1038/nature11232},
+   url = {http://dx.doi.org/10.1038/nature11232},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN298,
+   author = {Trynka, G. and Raychaudhuri, S.},
+   title = {Using chromatin marks to interpret and localize genetic associations to complex human traits and diseases},
+   journal = {Current opinion in genetics & development},
+   volume = {23},
+   pages = {635-641},
+   url = {http://www.sciencedirect.com/science/article/pii/S0959437X13001445},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN21,
+   author = {Tsoi, L. C. and Spain, S. L. and Knight, J. and Ellinghaus, E. and Stuart, P. E. and Capon, F. and Ding, J. and Li, Y. and Tejasvi, T. and Gudjonsson, J. E. and Kang, H. M. and Allen, M. H. and McManus, R. and Novelli, G. and Samuelsson, L. and Schalkwijk, J. and Stahle, M. and Burden, A. D. and Smith, C. H. and Cork, M. J. and Estivill, X. and Bowcock, A. M. and Krueger, G. G. and Weger, W. and Worthington, J. and Tazi-Ahnini, R. and Nestle, F. O. and Hayday, A. and Hoffmann, P. and Winkelmann, J. and Wijmenga, C. and Langford, C. and Edkins, S. and Andrews, R. and Blackburn, H. and Strange, A. and Band, G. and Pearson, R. D. and Vukcevic, D. and Spencer, C. C. and Deloukas, P. and Mrowietz, U. and Schreiber, S. and Weidinger, S. and Koks, S. and Kingo, K. and Esko, T. and Metspalu, A. and Lim, H. W. and Voorhees, J. J. and Weichenthal, M. and Wichmann, H. E. and Chandran, V. and Rosen, C. F. and Rahman, P. and Gladman, D. D. and Griffiths, C. E. and Reis, A. and Kere, J. and Nair, R. P. and Franke, A. and Barker, J. N. and Abecasis, G. R. and Elder, J. T. and Trembath, R. C.},
+   title = {Identification of 15 new psoriasis susceptibility loci highlights the role of innate immunity},
+   journal = {Nat Genet},
+   volume = {44},
+   number = {12},
+   pages = {1341-8},
+   ISSN = {1061-4036},
+   DOI = {10.1038/ng.2467},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN319,
+   author = {Valledor, A. F. and Borras, F. E.},
+   title = {Transcription factors that regulate monocyte/macrophage differentiation},
+   journal = {Journal of Leukocyte …},
+   volume = {63},
+   pages = {405-417},
+   url = {http://www.jleukbio.org/content/63/4/405.short},
+   year = {1998},
+   type = {Journal Article}
+}
+
+@article{RN290,
+   author = {van de Bunt, M. and Cortes, A. and Brown, M. A. and Morris, A. P.},
+   title = {Evaluating the Performance of Fine-Mapping Strategies at Common Variant GWAS Loci},
+   journal = {PLoS Genet},
+   volume = {11},
+   pages = {1-14},
+   DOI = {10.1371/journal.pgen.1005535},
+   url = {http://dx.doi.org/10.1371/journal.pgen.1005535},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN357,
+   author = {Vence, L. and Schmitt, A. and Medical …, Meadows - C. E.},
+   title = {Recognizing guttate psoriasis and initiating appropriate treatment},
+   journal = {West Virginia Medical …},
+   url = {http://go.galegroup.com/ps/i.do?id=GALE%7CA422778063&sid=googleScholar&v=2.1&it=r&linkaccess=fulltext&issn=00433284&p=AONE&sw=w},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN10,
+   author = {Verret, Martine Gardembas-Pain and Norbert, Ifrah and Charles, Foussard and Marc, Boasson and Jean Paul Saint, Andre and Jean, Luc},
+   title = {Psoriasis After Allogeneic Bone Marrow Transplantation},
+   journal = {Archives of Dermatology},
+   volume = {126},
+   pages = {1523-1523},
+   ISSN = {0003-987X},
+   DOI = {10.1001/archderm.1990.01670350139033},
+   url = {http://archderm.jamanetwork.com/data/Journals/DERM/14821/archderm_126_11_033.pdf},
+   year = {1990},
+   type = {Journal Article}
+}
+
+@article{RN338,
+   author = {Villanova, Federica and Meglio, Paola and Nestle, Frank O.},
+   title = {Biomarkers in psoriasis and psoriatic arthritis},
+   journal = {Annals of the rheumatic diseases},
+   volume = {72},
+   number = {suppl 2},
+   DOI = {10.1136/annrheumdis-2012-203037},
+   url = {http://dx.doi.org/10.1136/annrheumdis-2012-203037},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN53,
+   author = {Wei, J. and Mialki, R. K. and Dong, S. and Khoo, A. and Mallampalli, R. K. and Zhao, Y. and Zhao, J.},
+   title = {A new mechanism of RhoA ubiquitination and degradation: roles of SCF(FBXL19) E3 ligase and Erk2},
+   journal = {Biochim Biophys Acta},
+   volume = {1833},
+   pages = {2757-64},
+   ISSN = {0006-3002 (Print)0006-3002},
+   DOI = {10.1016/j.bbamcr.2013.07.005
+10.1016/j.bbamcr.2013.07.005. Epub 2013 Jul 18.},
+   url = {http://dx.doi.org/10.1016/j.bbamcr.2013.07.005},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN248,
+   author = {Welter, D. and MacArthur, J. and Morales, J. and Burdett, T. and Hall, P. and Junkins, H. and Klemm, A. and Flicek, P. and Manolio, T. and Hindorff, L. and Parkinson, H.},
+   title = {The NHGRI GWAS Catalog, a curated resource of SNP-trait associations},
+   journal = {Nucleic Acids Res},
+   volume = {42},
+   number = {Database issue},
+   pages = {1001-1006},
+   ISSN = {0305-1048},
+   DOI = {10.1093/nar/gkt1229},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@inbook{RN8,
+   author = {Wikramanayake, T. C. and Stojadinovic, O. and Tomic-Canic, M.},
+   title = {Epidermal Differentiation in Barrier Maintenance and Wound Healing},
+   booktitle = {Adv Wound Care (New Rochelle)},
+   volume = {3},
+   pages = {272-280},
+   ISBN = {2162-1918 (Print)
+2162-1918 (Linking)},
+   DOI = {10.1089/wound.2013.0503},
+   year = {2014},
+   type = {Book Section}
+}
+
+@article{RN287,
+   author = {Winter, D. R. and Jung, S. and Amit, I.},
+   title = {Making the case for chromatin profiling: a new tool to investigate the immune-regulatory landscape},
+   journal = {Nature Reviews Immunology},
+   volume = {15},
+   pages = {585-594},
+   DOI = {10.1038/nri3884},
+   url = {http://dx.doi.org/10.1038/nri3884},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN202,
+   author = {Wong, Rita and Tran, Vynga and Morhenn, Vera and Hung, She-pin and Andersen, Bogi and Ito, Elaine and Wesley Hatfield, G. and Benson, Nicholas R.},
+   title = {Use of RT-PCR and DNA Microarrays to Characterize RNA Recovered by Non-Invasive Tape Harvesting of Normal and Inflamed Skin},
+   journal = {J Investig Dermatol},
+   volume = {123},
+   number = {1},
+   pages = {159-167},
+   ISSN = {0022-202X},
+   DOI = {http://www.nature.com/jid/journal/v123/n1/suppinfo/5602405s1.html},
+   url = {http://dx.doi.org/10.1111/j.0022-202X.2004.22729.x},
+   year = {2003},
+   type = {Journal Article}
+}
+
+@article{RN292,
+   author = {Xie, W. and Schultz, M. D. and Lister, R. and Hou, Z. and Rajagopal, N. and Ray, P. and Whitaker, J. W. and Tian, S. and Hawkins, R. D. and Leung, D. and Yang, H. and Wang, T. and Lee, A. Y. and Swanson, S. A. and Zhang, J. and Zhu, Y. and Kim, A. and Nery, J. R. and Urich, M. A. and Kuan, S. and Yen, C. A. and Klugman, S. and Yu, P. and Suknuntha, K. and Propson, N. E. and Chen, H. and Edsall, L. E. and Wagner, U. and Li, Y. and Ye, Z. and Kulkarni, A. and Xuan, Z. and Chung, W. Y. and Chi, N. C. and Antosiewicz-Bourget, J. E. and Slukvin, I. and Stewart, R. and Zhang, M. Q. and Wang, W. and Thomson, J. A. and Ecker, J. R. and Ren, B.},
+   title = {Epigenomic analysis of multilineage differentiation of human embryonic stem cells},
+   journal = {Cell},
+   volume = {153},
+   number = {5},
+   pages = {1134-48},
+   ISSN = {0092-8674},
+   DOI = {10.1016/j.cell.2013.04.022},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN250,
+   author = {Yang, J. and Benyamin, B. and McEvoy, B. P. and Gordon, S. and Henders, A. K. and Nyholt, D. R. and Madden, P. A. and Heath, A. C. and Martin, N. G. and Montgomery, G. W. and Goddard, M. E. and Visscher, P. M.},
+   title = {Common SNPs explain a large proportion of the heritability for human height},
+   journal = {Nat Genet},
+   volume = {42},
+   number = {7},
+   pages = {565-9},
+   ISSN = {1061-4036},
+   DOI = {10.1038/ng.608},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN332,
+   author = {Yin, Xianyong and Low, Hui Q. and Wang, Ling and Li, Yonghong and Ellinghaus, Eva and Han, Jiali and Estivill, Xavier and Sun, Liangdan and Zuo, Xianbo and Shen, Changbing and Zhu, Caihong and Zhang, Anping and Sanchez, Fabio and Padyukov, Leonid and Catanese, Joseph J. and Krueger, Gerald G. and Duffin, Kristina C. and Mucha, Sören and Weichenthal, Michael and Weidinger, Stephan and Lieb, Wolfgang and Foo, Jia N. and Li, Yi and Sim, Karseng and Liany, Herty and Irwan, Ishak and Teo, Yikying and Theng, Colin T. and Gupta, Rashmi and Bowcock, Anne and De Jager, Philip L. and Qureshi, Abrar A. and de Bakker, Paul I. and Seielstad, Mark and Liao, Wilson and Ståhle, Mona and Franke, Andre and Zhang, Xuejun and Liu, Jianjun},
+   title = {Genome-wide meta-analysis identifies multiple novel associations and ethnic heterogeneity of psoriasis susceptibility},
+   journal = {Nature communications},
+   volume = {6},
+   pages = {1-11},
+   ISSN = {2041-1723},
+   DOI = {10.1038/ncomms7916},
+   url = {http://dx.doi.org/10.1038/ncomms7916},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN281,
+   author = {Zhang, X. J. and Huang, W. and Yang, S. and Sun, L. D. and Zhang, F. Y.},
+   title = {Psoriasis genome-wide association study identifies susceptibility variants within LCE gene cluster at 1q21},
+   journal = {Nature …},
+   volume = {2},
+   pages = {205-210},
+   DOI = {10.1038/ng.310},
+   url = {http://dx.doi.org/10.1038/ng.310},
+   year = {2009},
+   type = {Journal Article}
+}
+
+@article{RN326,
+   author = {Zhang, Y. and Liu, T. and Meyer, C. A. and Eeckhoute, J.},
+   title = {Model-based analysis of ChIP-Seq (MACS)},
+   journal = {Genome …},
+   volume = {9},
+   pages = {1-9},
+   DOI = {10.1186/gb-2008-9-9-r137},
+   url = {http://dx.doi.org/10.1186/gb-2008-9-9-r137},
+   year = {2008},
+   type = {Journal Article}
+}
+
+@article{RN45,
+   author = {Zhao, J. and Wei, J. and Mialki, R. K. and Mallampalli, D. F. and Chen, B. B. and Coon, T. and Zou, C. and Mallampalli, R. K. and Zhao, Y. and Department of, Medicine and the Acute Lung Injury Center of Excellence, University of Pittsburgh School of Medicine Pittsburgh Pennsylvania U. S. A. and Jing, Zhao and Jianxin, Wei and Rachel, K. Mialki and Daniel, F. Mallampalli and Bill, B. Chen and Tiffany, Coon and Chunbin, Zou and Rama, K. Mallampalli and Yutong, Zhao},
+   title = {F-box protein FBXL19–mediated ubiquitination and degradation of the receptor for IL-33 limits pulmonary inflammation},
+   journal = {Nature Immunology},
+   DOI = {10.1038/ni.2341},
+   url = {http://europepmc.org/articles/PMC3643313},
+   year = {2012},
+   type = {Journal Article}
+}
+

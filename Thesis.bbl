@@ -1,0 +1,912 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global}
+  \entry{Burgos-Pol2016}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BPR}{%
+         family={Burgos-Pol},
+         familyi={B\bibinitperiod-P\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=DMSJM}{%
+         family={Dermo …},
+         familyi={D\bibinitperiod},
+         given={Martínez-Sesmero -J.\bibnamedelima M.},
+         giveni={M\bibinitperiod-S\bibinitperiod-J\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BPRDMSJM1}
+    \strng{fullhash}{BPRDMSJM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{year}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{The cost of psoriasis and psoriatic arthritis in 5 European
+  countries: a systematic review}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S1578219016301524
+    \endverb
+    \field{type}{Journal Article}
+    \field{journaltitle}{Actas Dermo …}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Coates2016}{article}{}
+    \name{author}{4}{}{%
+      {{hash=CLC}{%
+         family={Coates},
+         familyi={C\bibinitperiod},
+         given={L.\bibnamedelima C.},
+         giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=FO}{%
+         family={FitzGerald},
+         familyi={F\bibinitperiod},
+         given={O.},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=HPS}{%
+         family={Helliwell},
+         familyi={H\bibinitperiod},
+         given={P.\bibnamedelima S.},
+         giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=iaaPC}{%
+         prefix={in\bibnamedelima arthritis},
+         prefixi={i\bibinitperiod\bibinitdelim a\bibinitperiod},
+         family={and},
+         familyi={a\bibinitperiod},
+         given={Paul -C.},
+         giveni={P\bibinitperiod-C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CLC+1}
+    \strng{fullhash}{CLCFOHPSaPCia1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{year}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{Psoriasis, psoriatic arthritis, and rheumatoid arthritis: Is
+  all inflammation the same?}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S0049017216300646
+    \endverb
+    \field{type}{Journal Article}
+    \field{journaltitle}{Seminars in arthritis and …}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Gelfand2005}{article}{}
+    \name{author}{4}{}{%
+      {{hash=GJM}{%
+         family={Gelfand},
+         familyi={G\bibinitperiod},
+         given={J.\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=GDD}{%
+         family={Gladman},
+         familyi={G\bibinitperiod},
+         given={D.\bibnamedelima D.},
+         giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=MPJ}{%
+         family={Mease},
+         familyi={M\bibinitperiod},
+         given={P.\bibnamedelima J.},
+         giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=ASN}{%
+         family={Academy …},
+         familyi={A\bibinitperiod},
+         given={Smith -N.},
+         giveni={S\bibinitperiod-N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GJM+1}
+    \strng{fullhash}{GJMGDDMPJASN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2005}
+    \field{labeldatesource}{year}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{title}{Epidemiology of psoriatic arthritis in the population of the
+  United States}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S0190962205010108
+    \endverb
+    \field{type}{Journal Article}
+    \field{journaltitle}{… the American Academy …}
+    \field{year}{2005}
+  \endentry
+
+  \entry{Gelfand2006}{article}{}
+    \name{author}{4}{}{%
+      {{hash=GJM}{%
+         family={Gelfand},
+         familyi={G\bibinitperiod},
+         given={J.\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=NAL}{%
+         family={Neimann},
+         familyi={N\bibinitperiod},
+         given={A.\bibnamedelima L.},
+         giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=SDB}{%
+         family={Shin},
+         familyi={S\bibinitperiod},
+         given={D.\bibnamedelima B.},
+         giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=JWX}{%
+         family={Jama},
+         familyi={J\bibinitperiod},
+         given={Wang -X.},
+         giveni={W\bibinitperiod-X\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GJM+1}
+    \strng{fullhash}{GJMNALSDBJWX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{year}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{title}{Risk of myocardial infarction in patients with psoriasis}
+    \verb{url}
+    \verb http://jamanetwork.com/journals/jama/fullarticle/203598
+    \endverb
+    \field{type}{Journal Article}
+    \field{journaltitle}{Jama}
+    \field{year}{2006}
+  \endentry
+
+  \entry{Gladman2009}{article}{}
+    \name{author}{4}{}{%
+      {{hash=GDD}{%
+         family={Gladman},
+         familyi={G\bibinitperiod},
+         given={D.\bibnamedelima D.},
+         giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Ang},
+         familyi={A\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SL}{%
+         family={Su},
+         familyi={S\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=otBDM}{%
+         prefix={of},
+         prefixi={o\bibinitperiod},
+         family={the …},
+         familyi={t\bibinitperiod},
+         given={B.\bibnamedelima D.\bibnamedelima M.},
+         giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GDD+1}
+    \strng{fullhash}{GDDAMSLtBDMo1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{year}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \verb{doi}
+    \verb 10.1136/ard.2008.094839
+    \endverb
+    \field{title}{Cardiovascular morbidity in psoriatic arthritis}
+    \verb{url}
+    \verb http://dx.doi.org/10.1136/ard.2008.094839
+    \endverb
+    \field{type}{Journal Article}
+    \field{journaltitle}{Annals of the …}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Griffiths2007}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GCEM}{%
+         family={Griffiths},
+         familyi={G\bibinitperiod},
+         given={C.\bibnamedelima E.\bibnamedelima M.},
+         giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Lancet},
+         familyi={L\bibinitperiod},
+         given={Jnwn},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GCEMLJ1}
+    \strng{fullhash}{GCEMLJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{labeldatesource}{year}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{title}{Pathogenesis and clinical features of psoriasis}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S0140673607611283
+    \endverb
+    \field{type}{Journal Article}
+    \field{journaltitle}{The Lancet}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Henseler1985}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HT}{%
+         family={Henseler},
+         familyi={H\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=CE}{%
+         family={Christophers},
+         familyi={C\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HTCE1}
+    \strng{fullhash}{HTCE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1985}
+    \field{labeldatesource}{year}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{issn}{0190-9622 (Print) 0190-9622}
+    \field{number}{3}
+    \field{pages}{450\bibrangedash 6}
+    \field{title}{Psoriasis of early and late onset: characterization of two
+  types of psoriasis vulgaris}
+    \field{volume}{13}
+    \field{type}{Journal Article}
+    \field{journaltitle}{J Am Acad Dermatol}
+    \field{year}{1985}
+  \endentry
+
+  \entry{Ibrahim2009}{article}{}
+    \name{author}{3}{}{%
+      {{hash=IG}{%
+         family={Ibrahim},
+         familyi={I\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=WR}{%
+         family={Waxman},
+         familyi={W\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=HPS}{%
+         family={Helliwell},
+         familyi={H\bibinitperiod},
+         given={P.\bibnamedelima S.},
+         giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{IG+1}
+    \strng{fullhash}{IGWRHPS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{year}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \verb{doi}
+    \verb 10.1002/art.24608
+    \endverb
+    \field{issn}{0004-3591 (Print) 0004-3591}
+    \field{number}{10}
+    \field{pages}{1373\bibrangedash 8}
+    \field{title}{The prevalence of psoriatic arthritis in people with
+  psoriasis}
+    \field{volume}{61}
+    \field{type}{Journal Article}
+    \field{journaltitle}{Arthritis Rheum}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Jacobson2011}{article}{}
+    \name{author}{3}{}{%
+      {{hash=JCC}{%
+         family={Jacobson},
+         familyi={J\bibinitperiod},
+         given={Christine\bibnamedelima C.},
+         giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kumar},
+         familyi={K\bibinitperiod},
+         given={Sandeep},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KAB}{%
+         family={Kimball},
+         familyi={K\bibinitperiod},
+         given={Alexa\bibnamedelima B.},
+         giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JCC+1}
+    \strng{fullhash}{JCCKSKAB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{year}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \verb{doi}
+    \verb 10.1016/j.jaad.2009.05.047
+    \endverb
+    \field{issn}{0190-9622}
+    \field{number}{4}
+    \field{pages}{870\bibrangedash 873}
+    \field{title}{Latitude and psoriasis prevalence}
+    \verb{url}
+    \verb http://dx.doi.org/10.1016/j.jaad.2009.05.047
+    \endverb
+    \field{volume}{65}
+    \field{type}{Journal Article}
+    \field{journaltitle}{Journal of the American Academy of Dermatology}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Lande2007}{article}{}
+    \name{author}{14}{}{%
+      {{hash=LR}{%
+         family={Lande},
+         familyi={L\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Gregorio},
+         familyi={G\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=FV}{%
+         family={Facchinetti},
+         familyi={F\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Chatterjee},
+         familyi={C\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=WYH}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Y.\bibnamedelima H.},
+         giveni={Y\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=HB}{%
+         family={Homey},
+         familyi={H\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=CW}{%
+         family={Cao},
+         familyi={C\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=SB}{%
+         family={Su},
+         familyi={S\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=NFO}{%
+         family={Nestle},
+         familyi={N\bibinitperiod},
+         given={F.\bibnamedelima O.},
+         giveni={F\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+      {{hash=ZT}{%
+         family={Zal},
+         familyi={Z\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MI}{%
+         family={Mellman},
+         familyi={M\bibinitperiod},
+         given={I.},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=SJM}{%
+         family={Schroder},
+         familyi={S\bibinitperiod},
+         given={J.\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=LYJ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Y.\bibnamedelima J.},
+         giveni={Y\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Gilliet},
+         familyi={G\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LR+1}
+    \strng{fullhash}{LRGJFVCBWYHHBCWSBNFOZTMISJMLYJGM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{labeldatesource}{year}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \verb{doi}
+    \verb 10.1038/nature06116
+    \endverb
+    \field{issn}{0028-0836}
+    \field{pages}{564\bibrangedash 9}
+    \field{title}{Plasmacytoid dendritic cells sense self-DNA coupled with
+  antimicrobial peptide}
+    \verb{url}
+    \verb http://dx.doi.org/10.1038/nature06116
+    \endverb
+    \field{volume}{449}
+    \field{type}{Journal Article}
+    \field{journaltitle}{Nature}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Moll1973}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MJMH}{%
+         family={Moll},
+         familyi={M\bibinitperiod},
+         given={J.\bibnamedelima M.\bibnamedelima H.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  H\bibinitperiod},
+      }}%
+      {{hash=ia}{%
+         family={in},
+         familyi={i\bibinitperiod},
+         given={arthritis},
+         giveni={a\bibinitperiod},
+      }}%
+      {{hash=rWV}{%
+         family={rheumatism},
+         familyi={r\bibinitperiod},
+         given={Wright -V.},
+         giveni={W\bibinitperiod-V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MJMH+1}
+    \strng{fullhash}{MJMHiarWV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1973}
+    \field{labeldatesource}{year}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Psoriatic arthritis}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/0049017273900358
+    \endverb
+    \field{type}{Journal Article}
+    \field{journaltitle}{Seminars in arthritis and rheumatism}
+    \field{year}{1973}
+  \endentry
+
+  \entry{Nestle2009}{article}{}
+    \name{author}{3}{}{%
+      {{hash=NFO}{%
+         family={Nestle},
+         familyi={N\bibinitperiod},
+         given={Frank\bibnamedelima O.},
+         giveni={F\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+      {{hash=KDH}{%
+         family={Kaplan},
+         familyi={K\bibinitperiod},
+         given={Daniel\bibnamedelima H.},
+         giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Barker},
+         familyi={B\bibinitperiod},
+         given={Jonathan},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NFO+1}
+    \strng{fullhash}{NFOKDHBJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{year}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \verb{doi}
+    \verb doi:10.1056/NEJMra0804595
+    \endverb
+    \field{number}{5}
+    \field{pages}{496\bibrangedash 509}
+    \field{title}{Psoriasis}
+    \verb{url}
+    \verb http://www.nejm.org/doi/full/10.1056/NEJMra0804595
+    \endverb
+    \field{volume}{361}
+    \field{type}{Journal Article}
+    \field{journaltitle}{New England Journal of Medicine}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Organization2016}{report}{}
+    \name{author}{1}{}{%
+      {{hash=OWH}{%
+         family={Organization},
+         familyi={O\bibinitperiod},
+         given={World\bibnamedelima Health},
+         giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{OWH1}
+    \strng{fullhash}{OWH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{year}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{Global report on psoriasis}
+    \field{type}{Report}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Perera2012}{article}{}
+    \name{author}{3}{}{%
+      {{hash=PGK}{%
+         family={Perera},
+         familyi={P\bibinitperiod},
+         given={G.\bibnamedelima K.},
+         giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=DMP}{%
+         family={Di\bibnamedelima Meglio},
+         familyi={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=NFO}{%
+         family={Nestle},
+         familyi={N\bibinitperiod},
+         given={F.\bibnamedelima O.},
+         giveni={F\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PGK+1}
+    \strng{fullhash}{PGKDMPNFO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{year}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \verb{doi}
+    \verb 10.1146/annurev-pathol-011811-132448
+    \endverb
+    \field{issn}{1553-4006}
+    \field{pages}{385\bibrangedash 422}
+    \field{title}{Psoriasis}
+    \field{volume}{7}
+    \field{type}{Journal Article}
+    \field{journaltitle}{Annu Rev Pathol}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Poole2010}{article}{}
+    \name{author}{4}{}{%
+      {{hash=PCD}{%
+         family={Poole},
+         familyi={P\bibinitperiod},
+         given={C.\bibnamedelima D.},
+         giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Lebmeier},
+         familyi={L\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AR}{%
+         family={Ara},
+         familyi={A\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=RRR}{%
+         family={Rheumatology},
+         familyi={R\bibinitperiod},
+         given={Rafia -R.},
+         giveni={R\bibinitperiod-R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PCD+1}
+    \strng{fullhash}{PCDLMARRRR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{year}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \verb{doi}
+    \verb 10.1093/rheumatology/keq182
+    \endverb
+    \field{title}{Estimation of health care costs as a function of disease
+  severity in people with psoriatic arthritis in the UK}
+    \verb{url}
+    \verb http://dx.doi.org/10.1093/rheumatology/keq182
+    \endverb
+    \field{type}{Journal Article}
+    \field{journaltitle}{Rheumatology}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Proksch2008}{article}{}
+    \name{author}{3}{}{%
+      {{hash=PE}{%
+         family={Proksch},
+         familyi={P\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=BJM}{%
+         family={Brandner},
+         familyi={B\bibinitperiod},
+         given={J.\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=JJM}{%
+         family={Jensen},
+         familyi={J\bibinitperiod},
+         given={J.\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PE+1}
+    \strng{fullhash}{PEBJMJJM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{labeldatesource}{year}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{issn}{0906-6705}
+    \field{number}{12}
+    \field{pages}{1063\bibrangedash 72}
+    \field{title}{The skin: an indispensable barrier}
+    \field{volume}{17}
+    \field{type}{Journal Article}
+    \field{journaltitle}{Exp Dermatol}
+    \field{year}{2008}
+  \endentry
+
+  \entry{Reich2009}{article}{}
+    \name{author}{3}{}{%
+      {{hash=RK}{%
+         family={Reich},
+         familyi={R\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Krüger},
+         familyi={K\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=oDMR}{%
+         prefix={of},
+         prefixi={o\bibinitperiod},
+         family={Dermatology},
+         familyi={D\bibinitperiod},
+         given={Mössner -R.},
+         giveni={M\bibinitperiod-R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RK+1}
+    \strng{fullhash}{RKKKDMRo1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{year}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \verb{doi}
+    \verb 10.1111/j.1365-2133.2008.09023.x
+    \endverb
+    \field{title}{Epidemiology and clinical pattern of psoriatic arthritis in
+  Germany: a prospective interdisciplinary epidemiological study of 1511
+  patients with plaque‐type psoriasis}
+    \verb{url}
+    \verb http://dx.doi.org/10.1111/j.1365-2133.2008.09023.x
+    \endverb
+    \field{type}{Journal Article}
+    \field{journaltitle}{… Journal of Dermatology}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Sampogna2012}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SF}{%
+         family={Sampogna},
+         familyi={S\bibinitperiod},
+         given={Francesca},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=TS}{%
+         family={Tabolli},
+         familyi={T\bibinitperiod},
+         given={Stefano},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=AD}{%
+         family={Abeni},
+         familyi={A\bibinitperiod},
+         given={Damiano},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SF+1}
+    \strng{fullhash}{SFTSAD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{year}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.2340/00015555-1273
+    \endverb
+    \field{number}{3}
+    \field{pages}{299\bibrangedash 303}
+    \field{title}{Living with psoriasis: prevalence of shame, anger, worry, and
+  problems in daily activities and social life}
+    \verb{url}
+    \verb http://dx.doi.org/10.2340/00015555-1273
+    \endverb
+    \field{volume}{92}
+    \field{type}{Journal Article}
+    \field{journaltitle}{Acta dermato-venereologica}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Vence2015}{article}{}
+    \name{author}{3}{}{%
+      {{hash=VL}{%
+         family={Vence},
+         familyi={V\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Schmitt},
+         familyi={S\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MMCE}{%
+         family={Medical …},
+         familyi={M\bibinitperiod},
+         given={Meadows -C.\bibnamedelima E.},
+         giveni={M\bibinitperiod-C\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VL+1}
+    \strng{fullhash}{VLSAMMCE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{year}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{title}{Recognizing guttate psoriasis and initiating appropriate
+  treatment}
+    \verb{url}
+    \verb http://go.galegroup.com/ps/i.do?id=GALE%7CA422778063&sid=googleSchola
+    \verb r&v=2.1&it=r&linkaccess=fulltext&issn=00433284&p=AONE&sw=w
+    \endverb
+    \field{type}{Journal Article}
+    \field{journaltitle}{West Virginia Medical …}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Villanova2013}{article}{}
+    \name{author}{3}{}{%
+      {{hash=VF}{%
+         family={Villanova},
+         familyi={V\bibinitperiod},
+         given={Federica},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=MP}{%
+         family={Meglio},
+         familyi={M\bibinitperiod},
+         given={Paola},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=NFO}{%
+         family={Nestle},
+         familyi={N\bibinitperiod},
+         given={Frank\bibnamedelima O.},
+         giveni={F\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VF+1}
+    \strng{fullhash}{VFMPNFO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{labeldatesource}{year}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \verb{doi}
+    \verb 10.1136/annrheumdis-2012-203037
+    \endverb
+    \field{number}{suppl 2}
+    \field{title}{Biomarkers in psoriasis and psoriatic arthritis}
+    \verb{url}
+    \verb http://dx.doi.org/10.1136/annrheumdis-2012-203037
+    \endverb
+    \field{volume}{72}
+    \field{type}{Journal Article}
+    \field{journaltitle}{Annals of the rheumatic diseases}
+    \field{year}{2013}
+  \endentry
+\enddatalist
+\endinput

@@ -1,0 +1,166 @@
+\chapter{Defining the genome-wide chromatin accessibility landscape and gene expression profile in psoriasis}
+\label{ch:Results 2}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Results}
+%
+
+\subsection*{Description of skin biopsies derived sample cohort}
+\subsubsection{Sample cohort and ATAC-seq approaches}
+The skin, more precisely the epidermis, is the primary organ affected by PS. The epidermis is mainly formed by KC at different differentiation stages depending on the layer where they are located.  The KC  play a key role in the dysregulation of the skin renewal in disease and have been considered immune cells actively involved in the chronic inflammation at this tissue.\par
+There is DHS publicly available data generated using cultured primary normal human epidermal keratinocytes (NHEK) which provide a general map for chromatin accessibility in this cell type. However, it has been well described that monolayer cultured KC show alteration of physiological characteristics, some of them due to absence of 3D structure, contact with other cell types or the composition of the growth media. These lead, among others, to an increase in the differentiation rate and loss of proliferative ability. There is also evidence of the difficulty to mimic the \textbf{\textit{in vivo}} PS cytokine mileu leading to noticeable differences in the transcriptomic profiles between patients' KC isolated from lesional skin and primary KC stimulated in culture.\par The reduction in cell numbers and experimental time offered by the ATAC-seq protocol allowed to attempt the characterisation of the chromatin accessibility landscape of controls and paired uninvolved and lesional skin biopsies directly isolated from PS patients. Different procedures for cell isolation and modification of the ATAC-seq protocol were assayed in a cohort of control and PS skin biopsies (Table \ref{tab:SkinCohort}) 
+
+\begin{table}[htbp]
+\begin{tabular}{@{} c c c c c}
+\toprule
+\textbf{Sample ID} & \textbf{Phenotype}  & \textbf{Uninvolved}  & \textbf{Lesional} & \textbf{Experimental approach} \\
+\midrule
+PS8000        & PsV & Yes & Yes & IA \\
+PS899         & PsV & No & Yes & IB \\
+PS2016        & PsV & Yes & Yes & II \\
+SB_CTL1       & Control & NA & NA & II \\
+SB_CTL2       & Control & NA & NA & II \\
+SB_CTL3       & Control & NA & NA & III (4 different conditions) \\
+SB_CTL4       & Control & NA & NA & III\\
+SB_CTL5       & Control & NA & NA & III\\
+SB_CTL6       & Control & NA & NA & III\\
+PS2000B       & PsV & Yes & Yes & III\\
+PS2001B       & PsV & Yes & Yes & III\\
+\bottomrule
+\end{tabular}
+\medskip %gap
+\caption[Skin biopsies cohort and experimental approach to study the chromatin accessibility landscape using ATAC-seq]{\textbf{Basic information for the different skin biopsies collected from PsV patients or control individuals. For the patients, information regarding availability of uninvolved and lesional biopsy sample is specified. Each sample was used to assay a particular experimental approach coded as IA, IB, II and III}}
+\label{tab:SkinCohort}
+\end{table}
+\bigskip %bigger space
+
+
+The initial steps of the skin biopsy processing (including removal of adipose tissue, overnight dispase digestion, epidermis peeling and trypsin digestion) were shared across all the approaches. The different approaches to perform ATAC-seq differ in the targeted isolated cells and variations in the ATAC-seq protocol, particularly lysis and time of transposition.
+
+
+\begin{table}[htbp]
+\begin{tabular}{@{} c c c c c}
+\toprule
+\textbf{Approach} & \textbf{Targeted cells}  & \textbf{Cell number}  & \textbf{Adherence time (min)} & \textbf{ATAC-seq protocol} & \textbf{Transposition time (min)} \\
+\midrule
+IA        & PsV & Yes & Yes & IA \\
+IB        & PsV & No & Yes & IB \\
+II       & PsV & Yes & Yes & II \\
+III       & Control & NA & NA & II \\
+\bottomrule
+\end{tabular}
+\medskip %gap
+\caption[Skin biopsies cohort and experimental approach to study the chromatin accessibility landscape using ATAC-seq]{\textbf{Basic information for the different skin biopsies collected from PsV patients or control individuals. For the patients, information regarding availability of uninvolved and lesional biopsy sample is specified. Each sample was used to assay a particular experimental approach coded as IA, IB, II and III}}
+\label{tab:SkinCohort}
+\end{table}
+\bigskip %bigger space
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Discussion}
+%
+
+
+
+
+
+\begin{table}[H]
+\centering\doublespacing
+\caption[The clinical manifestations of SIRS]{\textbf{The clinical manifestations of SIRS \parencite{Bone1992}.} SIRS is diagnosed in patients with at least two of these clinical manifestations.}  
+\label{tab:SIRS.sepsis}
+\begin{tabular}{>{\centering\arraybackslash}m{0.9\textwidth}}
+\\ \toprule
+\textbf{SIRS clinical manifestations} \\ 
+\midrule
+Body temperature \textgreater 38\degree C \\
+Heart rate \textgreater 90 beats per minute \\
+Respiratory rate \textgreater 20 breaths per minute or hyperventilation \newline as indicated by a PACO\textsubscript{2} of \textless 32 mm Hg \\
+An alteration in the white blood cell count (count \textgreater 12,000/cu mm or \newline \textless 400/cu mm or the presence of \textgreater 10\% immature neutrophils)\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+\includegraphics[width=\textwidth]{./Introduction/eQTL.pdf}%
+\caption[Effect of regulatory variants on expression levels of genes]{\textbf{Effect of regulatory variants on expression levels of genes}. Reprinted by permission from Macmillan Publishers Ltd: Nature Reviews Genetics \parencite{Cheung2009}, copyright 2009. The effect of local (\textit{cis}) or distal (\textit{trans}) regulatory variants on levels of gene expression.}%
+\label{fig:intro.eQTL}%
+\end{figure}
+
+
+\section{Sepsis}
+Sepsis is defined as the systemic inflammatory response to the presence of an infection and is classified as severe when associated with organ dysfunction, hypoperfusion abnormality or sepsis-induced hypotension.  Systemic inflammatory response syndrome (SIRS) is used to describe the inflammatory response and it includes at least two of the clinical manifestations detailed in Table \ref{tab:SIRS.sepsis} \parencite{Bone1992}.  However this definition is limited in that the microbiological basis of the response is not considered and there is no graduation of severity.  In the UK, severe sepsis accounts for 27\% of ICU admissions \parencite{Padkin2003} and from a number of studies in both the UK and America, mortality has been estimated to be between 28\% and 50\% \parencite{Angus2001, Padkin2003, Sands1997, Zeni1997}. \\
+%\ToDo{Table 1.2 in Jay't thesis, revised criteria in 2001?}.
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Common variable immune deficiency disorders}
+
+Primary immunodeficiencies (PIDs) are a group of rare disorders that result from a failure in the immune system and CVID are the most frequently encountered PID in the clinic \parencite{Park2008}. CVID are a group of diseases in which insufficient quantity and quality of immunoglobulin usually leads to susceptibility to recurrent bacterial infections, mainly of the respiratory and gastrointestinal tracts \parencite{Chapel2009}.  An immunodeficiency is recognized in most CVID patients in the second, third or fourth decade of life and the first diagnostic criteria were published in 1999 (Table~\ref{tab:criteria.cvid}) \parencite{Conley1999}.  These criteria have been used since then with slight variations for example, the minimum age of presentation is often increased to 4 years in order to avoid infants with immune defects which cause B cell differentiation and class-switch disorders \parencite{Chapel2008}.
+
+\begin{table}[H]
+\centering
+\singlespacing
+\caption[CVID diagnosis criteria]{\textbf{CVID diagnosis criteria.} Individuals fulfilling each of the criteria are diagnosed with CVID \parencite{Conley1999}. SD = standard deviations.}  
+\label{tab:criteria.cvid}
+\begin{tabular}{c}
+\toprule
+\textbf{Criteria for CVID diagnosis} \\ 
+\midrule
+Male or female patient \textgreater 2 years of age\\
+Serum IgG and IgA at least 2 SD below the mean for age \\
+IgM is present or absent\\
+Poor response to vaccines \\
+Absent isohemagglutinins \\
+Defined causes of hypogammaglobulinemia have been excluded \\
+Normal or low B cell numbers \\
+\bottomrule
+\end{tabular}
+\end{table} 
+
+%%%
+\subsection{Clinical complications}
+The diagnosis of CVID is made by excluding known disorders of B cell failure for example B cell differentiation defects resulting in absent B cells, activation-induced cytidine deaminase (AID) and uracil-DNA glycosylase (UNG) deficiencies affecting B cell function and T cell switching pathways \parencite{Chapel2008}. This results in a heterogeneous group of individuals with widely different clinical features and additional complications.
+
+Within cohorts of CVID patients, beyond bacterial infections, the main clinical complications observed include autoimmunity, lymphocytic infiltration, enteropathy and malignancy (Figure~\ref{fig:complications.intro.cvid}). Patients with at least one clinical complication have a much poorer survival rate compared to those with an Infections Only phenotype \parencite{Chapel2008}.
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}[b]{0.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{./Introduction/Barplot_complications_cvid.pdf}%
+	\caption{Number of complications}%
+\end{subfigure}
+\begin{subfigure}[b]{0.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{./Introduction/Pie_1complication.pdf}%
+	\caption{One complication}%
+\end{subfigure}
+\begin{subfigure}[b]{0.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{./Introduction/Pie_2complication.pdf}%
+	\caption{Two complications}%
+\end{subfigure}
+\begin{subfigure}[b]{0.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{./Introduction/Pie_3complication.pdf}%
+	\caption{Three complications}%
+\end{subfigure}
+\caption[Nature and number of CVID complications]{\textbf{Nature and number of CVID complications.} a) Number of complications observed in each individual. Individuals with no complications are referred to as infections only. b) Distribution of complications in patients with one complication. c)  Distribution of complications in patients with two complications. d)  Distribution of complications in patients with three complications. \parencite{Chapel2008}}
+\label{fig:complications.intro.cvid}
+\end{figure}
+
+
