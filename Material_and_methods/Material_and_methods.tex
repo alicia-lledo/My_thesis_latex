@@ -1,0 +1,276 @@
+\chapter{Material and Methods}
+\label{ch:Mat}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Ethical approval and recruitment of study participants}
+Sample recruitment for the two different phenotypes and the healthy volunteers were conducted under different ethics.
+
+\subsection{PSO patient recruitment}
+
+Patient blood samples and normal or psoriatic skin biopsies were collected in collaboration with the Dermatology Department research nurses at the Churchill Hospital, Oxford University Hospitals NHS Trust and Professor Graham Ogg at the Weatherall Institute of Molecular Medicine, University of Oxford under approval from the Oxfordshire Research Ethics Committee (REC 09/H0606/71 and 08/H0604/129). After written informed consent, up to 60 mL of blood from eligible PSO patients were collected into 10 mL anticoagulant EDTA-containing blood tubes (Vacutainer System, Becton Dickson).
+
+PSO patients were eligible for recruitment when meeting the following criteria:
+\begin{itemize}
+  \item over 18 years old
+  \item previously or newly diagnose, in a flare and going into biologic therapy for the first time % check with Graham
+	\item fulfillment of the clinically accepted Psoriasis Area and Severity Index (PASI) classification for PSO diagnosis \parencite{Fredriksson1978}
+	\item moderate to severe disease (PASI>5) % check with Graham
+	\item less than 2 weeks without antibiotics unless used for prophylaxis % check with Graham or research nurses
+	\item available clinical information and written consent
+\end{itemize}
+
+Detailed clinical information of the PSO cohort is included in (Chapter \ref{ch:})(Table \ref{tab:}).
+
+\subsection{PsA patient recruitment}
+Sample recruitment was performed as part of the Immune Function in Inflammatory Arthritis (IFIA) study established in 2013 (REC/06/Q1606/139)in collaboration with research nurses at the Nuffield Orthopaedic Centre, Oxford University Hospitals NHS Trust and Dr Hussein Al-Mossawi at the Botnar Research Centre. Following informed written consent, blood (30 mL) and synovial fluid aspirate (variable upon disease severity) were recruited into 10 mL anticoagulant sodium heparin coated tubes (Vacutainer System, Becton Dickson).
+
+Eligibility of the PsA patients was upon fulfillment of the following criteria:
+\begin{itemize}
+  \item over 18 years old
+  \item previously or newly diagnose, with concomitant PSO, in a flare and going into biologic therapy for the first time % check with Hussein
+	\item fulfillment of the clinically accepted PsA Response Criteria (PSARC) including a physician global assessment questionnaire \parencite{Philipp2011,Clegg1996}
+	\item oligoarticular phenotype and na\"{i}ve for any treatment
+	\item less than 2 weeks without antibiotics unless used for prophylaxis % check with Hussein
+	\item available clinical information and written consent
+\end{itemize}
+
+Further details about the cohort and clinical information can be found in (Chapter \ref{ch:})(Table \ref{tab:}).
+
+\subsection{Healthy volunteer recruitment}
+Recruitment of healthy volunteers was conducted as part of the study Genetic Diversity and Gene Expression in White Blood Cells with approval from the Oxford Research Ethics Committee (REC 06/Q1605/55). Up to 80 mL of blood were collected into 10 mL anticoagulant EDTA-containing blood tubes, similarly to the PSO sample recruitment.
+
+The criteria for healthy individuals to participate in the study was:
+\begin{itemize}
+  \item over 18 years old and preferably British or European
+  \item no family history of PSO, PsA, RA or SpA
+	\item matched sex and age with the PSO cohort
+	\item less than 2 weeks since last infectious process
+	\item available clinical information and written consent
+\end{itemize}
+
+
+\section{Sample processing}
+\label{sample_processing}
+Blood, synovial fluid and skin biopsies were processed straight after recruitment following the appropriate protocols.
+
+\subsection{PBMC and synovial fluid cells isolation}
+PBMC were isolated from blood samples through density gradient separation using Ficoll-Paque. Total synovial fluid (SF) cells (SFC) were isolated by centrifugation at 500g for 5 min. Both were washed twice in Hank’s balanced salt solution without calcium or magnesium (Thermo Fisher Scientific) and resuspended in phosphate saline buffer (PBS, Gibco) supplemented with 0.5\% fetal calf serum (FCS, Invitrogen) and 2mM ethylenediaminetetraacetic acid (EDTA, Sigma)prior to cell types separation. Cell numbers and viability were determined by manual count using a haemocytometer and trypan blue (Sigma).
+
+\subsection{Primary cell isolation using magnetic-activated cell sorting}
+For the work related to PSO and healthy volunteers, primary cell subpopulations were separated using magnetic-activated cell sorting (MACS, Miltenyi). Positive selection was performed for consecutive isolation of CD19$^{+}$ B cells, CD8$^{+}$ T cells, CD14$^{+}$  monocytes and CD4$^{+}$ T cells with AutoMACS Pro (Miltenyi) and cells were manually counted as previously described. MACS separation was chosen over Fluorescence-associated cell sorting (FACS) due to time and logistic constrains in the sample processing and therefore cell numbers in down stream application may not be as exact.
+
+\subsection{Primary cell isolation using fluorescence-activated cell sorting}
+Primary cell subpopulations from controls to study the effect of cryopreservation in chromatin states (Chapter 3) or PsA blood and SF samples were isolated by FACS. PBMC and SFC were resuspended in PBS 1mM EDTA (FACS buffer) at 10x10$^6$ cells/mL, stained with the appropriate antibody cocktail (Table \ref{tab:FACS_antibodies}) for 30 min at 4{$^\circ$}C, washed with FACS buffer and centrifuged at 500g for 5 min at 4{$^\circ$}C. For the samples used in Chapter 3, a modified FACS buffer supplemented with 3 mM EDTA , 2\% FCS and 25mM 4-(2-hydroxyethyl)-1-piperazineethanesulfonic acid (HEPES, Invitrogen) was used to avoid cell clumping after cryopreservation and short recovery.After removing the supernatant, cells were resuspended in FACS buffer prior to separation. 
+
+In the controls samples of Chapter 3 only CD14$^{+}$ monocytes and CD3$^+$ CD14$^{-}$ CD4$^{+}$ T cells were isolated in the SONY SH800 cell sorter. For the PsA samples, separation of  CD19$^{+}$ B cells, memory T cells (CD3$^{+}$ CD14$^{-}$ CD4$^{-}$ CD45RA$^{-}$ and CD3$^{+}$ CD14$^{-}$ CD8$^{+}$ CD45RA$^{-}$) ,CD14$^{-}$ monocytes and CD56$^{-}$ NK was performed using FACS Aria (BD) cell sorter from both PBMC and SFC. Bulk sorted cells were collected in 1.5mL tubes in PBS 1\% FCS, whilst single cell and small bulk sorting was performed in 96-well plates in the appropriate buffer (See RNA-seq section). Different nozzle sizes were chosen for bulk and single-cell sorting and OneComp eBeads (eBioscience) were used for compensation of fluorescence spill over.
+
+
+\begin{table}[htbp]
+%\setlength{\tabcolsep}{20pt} only to stretch the columns if you want
+%\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{@{} c c c c c}
+\toprule
+\textbf{Surface} & \textbf{Fluorochrome} & \textbf{Manufacturer} & \textbf{Clone} & \textbf{Dilution} \\
+\textbf{marker} & \textbf{PsA/CTL} & \textbf{PsA/CTL} & \textbf{PsA/CTL} & \textbf{PsA/CTL} \\
+\midrule
+\midrule
+Viability & eFluor780 & - & eBioscience & 1:250\\
+CD3 & FITC/AF700 & SK7/UCHT1 & BioLegend & xxx/1:50\\
+CD4 & APC & RPA-T4/RPA-T4 & BioLegend & 1:50/1:50\\
+CD8a & PE & RPA-T8 & BioLegend & xxx\\
+CD45RA & BV421 & HI100 & BioLegend & xxx\\
+CD19 & PerCP-Cy5.5 & SJ25C1 & BioLegend & xxx\\
+CD14 & Pe-Cy7/FITC & M5E2/TUK4 & BioLegend/Miltenyi & xxx/1:100\\
+CD56 & BV510 & NCAM16.2 & BD & xxx\\
+\bottomrule
+\end{tabular}
+\medskip %gap
+\caption[Antibody panel used for FACS separation of primary cell populations in controls and PsA samples]{\textbf{Details regarding target molecule, fluorochrome, clone, supplier and dilution used for PBMC and SFC staining are provided for each of the antibodies in the panel. In controls only CD3, CD4 and CD4 markers were used.}}
+\label{tab:FACS_antibodies}
+\end{table}
+\bigskip %bigger space
+
+
+
+
+%\begin{longtable}{ p{.15\textwidth} p{.25\textwidth} p{.2\textwidth} p{.15\textwidth} p{.15\textwidth}}
+%\caption[Antibody panel used for FACS separation of primary cell populations in controls and PsA samples]{\textbf{Details regarding target molecule, fluorochrome, clone, supplier and dilution used for PBMC and SFC staining are provided for each of the antibodies in the panel. In controls only CD3, CD4 and CD4 markers were used.}}
+%\label{tab:FACS_antibodies} \\
+%
+%\toprule
+%\textbf{Surface marker} & \textbf{Fluorochrome PsA/controls} & \textbf{Manufacturer PsA/controls} & \textbf{Clone PsA/controls} & \textbf{Dilution PsA/controls} \\
+%\midrule
+%\midrule
+%Viability & eFluor780 & - & eBioscience & 1:250\\
+%CD3 & FITC//AF700 & SK7/UCHT1 & BioLegend & xxx/1:50\\
+%CD4 & APC & RPA-T4(RPA-T4) & BioLegend & 1:50/1:50\\
+%CD8a & PE & RPA-T8 & BioLegend & xxx\\
+%CD45RA & BV421 & HI100 & BioLegend & xxx\\
+%CD19 & PerCP-Cy5.5 & SJ25C1 & BioLegend & xxx\\
+%CD14 & Pe-Cy7/FITC & M5E2/TUK4 & BioLegend/ Miltenyi & xxx/1:100\\
+%CD56 & BV510 & NCAM16.2 & BD & xxx\\
+%\bottomrule
+%\medskip %gap
+%
+%\end{longtable}
+%\bigskip %bigger space
+%
+
+
+
+
+
+
+
+
+
+\subsection{Skin biopsies processing and adherent assay}
+KC enrichment from skin biopsies was performed as described in Gutowska-Owsiak and colleagues \parencite{Gutowska‐Owsiak2012}. Skin biopsies (approximately 4mm) were washed with PBS, cut in 1mm width strips and incubated in 2U/mL of dispase II (Sigma) overnight at 4{$^\circ$}C. The epidermis was separated from the dermis and either snap-frozen in liquid nitrogen (for RNA extraction) or further digested in trypsin (Invitrogen) at 37{$^\circ$}C for 5 min, when used for chromatin accessibility assay. After digestion the resulting cell suspension was filtered through a 70$\micro$m nylon strainer (BD) and washed with PBS. In some instances cells were manually counted and aliquoted for ATAC-seq processing. In others, cell from each of the biopsies were resuspended in KGM-2 BulletKit (Lonza) supplemented with 0.06mM Ca$^2{+}$ and cultured in a collagen IV coated 96-well plate at 4{$^\circ$}C for 10 min or 3 hours, upon experimental requirements (see Chapter X). After culturing, cells were washed twice with 200$\micro$L of PBS and kept at 37{$^\circ$}C for downstream processing.
+
+
+
+\section{Experimental protocols}
+\subsection{Cryopreservation and cell culture}
+For the controls samples in Chapter 3, 40-50x10$^6$ of PBMC were freeze-thawing using a modified version of the \parencite{Kent2009} protocol, where cells were pre-conditioned in RPMI 1640 (brand) complete medium supplemented with2 mM L-glutamine, 100U penicillin and strep 100$\micro$g/mL and 50\% FCS for 30 minutes and afterwards diluted 1 in 2 in complete RPMI 1640 (supplemented as previously described) with 20\% dimethyl sulfoxide (DMSO, Sigma). PBMC underwent slow cryopreservation at -80{$^\circ$}CC in isopropanol at -1{$^\circ$}C per minute and stored for a minimum of two weeks in liquid nitrogen. PBMC were thaw, resuspended in supplemented complete RPMI 1640 with 10\% FCS at a density of 10$^6$ cells/mL and rested for 30 min at 37°C, 5\% CO2 in 25mL non-adherent polypropylene cell culture flasks followed by filtering through a 40$\micro$m to obtain an homogenous cell suspension undergoing FACS separation.
+%
+Frozen Normal human epidermal keratinocytes (NHEK) in passage 3 were recovered and cultured at a cell density of 5x10$^6$ cells/mL in a 75 mL adherent cell culture flask (brand) in EpiLife basal medium (Gibco) following manufacturer's instructions. After recovery NHEK were trypsinised at room temperature for 8 minutes followed by trypsin inactivation with EpiLife 10\% FCS, centrifugation at 180g for 10 min at room temperature and manual counting with trypan blue. NHEK were seeded in a 96-well plate in 100uL of medium at a cell density of 160 cells/$\micro$L. NHEK were cultured for 2 days to a 90-100\% confluence before being used downstream.
+
+\subsection{ATAC-seq, Fast-ATAC and Omni-ATAC}
+Improved versions of the ATAC-seq protocol were progressively used in the thesis for assessment of chromatin accessibility in different primary cells, including CD14$^{+}$ monocytes, CD4$^+$ and CD8$^+$ T cells, CD19$^+$ B cells and CD56$^+$ NK cells. The subsequent version aimed to reduce the amount of mitochondrial DNA and improve the ratio of signal to noise for this technique.
+
+After MACS separation, primary cells were manually counted as above specified and they were resuspended in PBS with 1\% FCS. As previously stated, due to reduced accuracy of manual cell counting compared to FACS sorting, in my experiments ATAC-seq was performed using an estimated number of cells between 50,000 to 100,000. ATAC-seq was performed as described in Buenrostro \textit{et al.}, 2013 with minor modifications. Cells were centrifuged at 500g for 5 min at 4{$^\circ$}C. After removing the supernatant cells were lysed for 10 min, the nuclei were transposed using the Nextera Tn5 transposase (Illumina) for 40 min at 37{$^\circ$}C and DNA was purified using the PCR MinElute kit (Qigen). Additional modifications and performance in 96-well plates were implemented for KC and they will be described in %(Chapter \ref{ch:}). 
+
+After appropriate determination of the amount of DNA amplification using qPCR, samples were amplified and singled indexed for 11 PCR cycles using modified Nextera primers from Buenrostro \textit{et al.},2013 (Table\ref{tab:Indexing_primers}). The resulting DNA libraries were purified using the MinElute kit and additional Agencourt AMPure XP Magentic Beads (Beckman Coulter), according to the manual specifications, to remove the remaining adaptors and primer dimers.
+
+\begin{landscape}
+\begin{table}[htbp]
+\setlength{\tabcolsep}{20pt}
+%\renewcommand{\arraystretch}{1.5} makes it longer
+\begin{center}
+\begin{tabular}{@{} c c}
+\toprule
+\textbf{Primer name} & \textbf{Full sequence} \\
+\midrule
+\midrule
+Ad1.noMX & AATGATACGGCGACCACCGAGATCTACACTCGTCGGCAGCGTCAGATGTG \\
+Ad2.1 & CAAGCAGAAGACGGCATACGAGAT\textcolor{blue}{TCGCCTTA}GTCTCGTGGGCTCGGAGATGT \\
+Ad2.2 & CAAGCAGAAGACGGCATACGAGAT\textcolor{blue}{CTAGTACG}GTCTCGTGGGCTCGGAGATGT \\
+Ad2.3 & CAAGCAGAAGACGGCATACGAGAT\textcolor{blue}{TTCTGCCT}GTCTCGTGGGCTCGGAGATGT \\
+Ad2.4 & CAAGCAGAAGACGGCATACGAGAT\textcolor{blue}{GCTCAGGA}GTCTCGTGGGCTCGGAGATGT \\
+Ad2.5 & CAAGCAGAAGACGGCATACGAGAT\textcolor{blue}{AGGAGTCC}GTCTCGTGGGCTCGGAGATGT \\
+Ad2.6 & CAAGCAGAAGACGGCATACGAGAT\textcolor{blue}{CATGCCTA}GTCTCGTGGGCTCGGAGATGT \\
+Ad2.7 & CAAGCAGAAGACGGCATACGAGAT\textcolor{blue}{GTAGAGAG}GTCTCGTGGGCTCGGAGATGT \\
+Ad2.8 & CAAGCAGAAGACGGCATACGAGAT\textcolor{blue}{CCTCTCTG}GTCTCGTGGGCTCGGAGATGT\\ 
+Ad2.9 & CAAGCAGAAGACGGCATACGAGAT\textcolor{blue}{AGCGTAGC}GTCTCGTGGGCTCGGAGATGT \\
+Ad2.10 & CAAGCAGAAGACGGCATACGAGAT\textcolor{blue}{CAGCCTCG}GTCTCGTGGGCTCGGAGATGT \\
+Ad2.11 & CAAGCAGAAGACGGCATACGAGAT\textcolor{blue}{TGCCTCTT}GTCTCGTGGGCTCGGAGATGT \\
+Ad2.12 & CAAGCAGAAGACGGCATACGAGAT\textcolor{blue}{TCCTCTAC}GTCTCGTGGGCTCGGAGATGT \\
+Ad2.13 & CAAGCAGAAGACGGCATACGAGAT\textcolor{blue}{ATCACGAC}GTCTCGTGGGCTCGGAGATGT \\
+Ad2.14 & CAAGCAGAAGACGGCATACGAGAT\textcolor{blue}{ACAGTGGT}GTCTCGTGGGCTCGGAGATGT \\ 
+Ad2.15 & CAAGCAGAAGACGGCATACGAGAT\textcolor{blue}{CAGATCCA}GTCTCGTGGGCTCGGAGATGT \\
+Ad2.16 & CAAGCAGAAGACGGCATACGAGAT\textcolor{blue}{ACAAACGG}GTCTCGTGGGCTCGGAGATGT \\
+Ad2.22 & CAAGCAGAAGACGGCATACGAGAT\textcolor{blue}{TGTGACCA}GTCTCGTGGGCTCGGAGATGT \\
+Ad2.23 & CAAGCAGAAGACGGCATACGAGAT\textcolor{blue}{AGGGTCAA}GTCTCGTGGGCTCGGAGATGT \\
+\bottomrule
+\end{tabular}
+\medskip %gap
+\caption[Modified Illumina Nextera indexing primers]{\textbf{Name and full sequence of the PCR primers used for amplification, indexing and pooling of the ATAC-seq and ChIPm samples in this thesis. These primers were designed by Buenrostro \textit{et al.}, 2013 and they are an modified version of the Nextera Illumina primers optimised for larger molecular weight DNA fragments from low input samples. All samples were indexed with the universal primer Ad1.noMx and one of the additional 18 primers. The indexing sequence of each of the primers is in blue text.}}
+\label{tab:Indexing_primers}
+\end{center}
+\end{table}
+\end{landscape}
+\bigskip %bigger space
+
+Following the Nature Methods publication of Corces et al., 2016, the  initial ATAC-seq protocol was replaced by a modified version named Fast-ATAC. It was specifically optimised for hematopoietic cells and combined cell lysis and transposition in a single step. Fast-ATAC was performed as described by Corces et al., 2016 with minor modifications. Since 5,000 cells was considered the lower limit to generate good quality data in Fast-ATAC, in my experiments I used 20,000 MACS or FACS sorted cells, to account for inaccurate manual cell counting as well as possible cell loss over centrifugation steps. The Fast-ATAC reaction was performed for 30 min at 37{$^\circ$}C and agitation at 400rpm. DNA was purified as in ATAC-seq and libraries were generated following 13 cycles of PCR amplification, following appropriate cell cycle determination. Purification following PCR were performed using Agencourt AMPure XP Magentic Beads only.
+
+Omni-ATAC, a third generation of ATAC-seq was published by Corces et al., 2017. It consisted in an universal protocol with individual cell lysis and transposition reactions intercalated with a washing step, to remove mitochondrial DNA and other cell debri %check. 
+Omni-ATAC was performed as described by Corces and colleagues \parencite{Corces2017} using 50,000 cells.
+
+Following either of the three protocols, DNA tagmentation profiles were assessed with the D1000 high sensitivity DNA tape (Agilent) as part of the quality control and quantified using the Kapa kit (Roche), following the manufacturer's instructions. Pools of 12 to 16 libraries were sequenced in one to 3 lanes of the HiSeq4000 Illumina platform by the Oxford Genomics Centre at the Wellcome Trust Centre for Human Genetics.
+
+
+\subsection{Chromatin Immunoprecipitation with sequencing library preparation by Tn5 transposase}
+Assessment of histone marks modification in the chromatin of PSO patients from Cohort 1B and four age matched healthy volunteers was performed using a low cell input Chromatin Immunoprecipitation (ChIP) method know as ChIPmentation (ChIPm). For each individual and cell type three histone marks, including H3K27ac, H3K4me1 and X were tested in 100,000 cells and compared to an input control processed in parallel. Samples were processed following the protocol published by Schmidl and colleagues \parencite{Schmidl2015} with some modifications. Aliquots of 600,000 cells of MACS sorted cell types, as described in \ref{sample_processing}, were fixed with 1\% formaldehyde (Sigma) and snap frozen in dry ice and ethanol prior to storage at -80{$^\circ$}C. Chromatin sonications of the different individuals and cell types were performed in one batch using Covaris M220(Covaris). Each of the aliquots was resuspended in 130$\micro$L of SDS lysis buffer (Table\ref{tab:ChIPm_buffers}), sonicated for 8 min using a duty factor of 5\% and aliquoted for single ChIPm reactions prior to long term storage at -80{$^\circ$}C.
+
+Sonicated chromatin aliquots were thawed and resuspended in appropriate volume of ChIP equilibration buffer (Table\ref{tab:ChIPm_buffers}), in order to achieve the appropriate concentration of NaCl and Triton-X100. For the immunoprecipitation step, samples were incubated with the appropriate amount of antibody (Table \ref{tab:ChIPm_antibodies}) overnight in rotation  at 4{$^\circ$}C. Protein-A Dynabeads (Invitrogen) were also washed three times with Beads wash buffer (Table\ref{tab:ChIPm_buffers}) and blocked with yeast tRNA (supplier) overnight in rotation at 4{$^\circ$}C. Beads were washed twice with the aforementioned washing buffer and resuspended in SDS lysis buffer before being added to the sample-antibody mix. One of the advantages of this protocol is the tagmentation of the chromatin when still bound to the beads prior to protein decross-linking, which allows preventing overtagmentation of the DNA. 
+
+qPCR was performed in each of the purified ChIPm DNA samples to identify the number of full cycles required to reach one-third of the final fluorescence. Libraries were amplified for the number of cycles minus one determined with this strategy, allowing to minimise the total number of PCR replicates. The primers used for amplification and indexing are the ones  optimised by Buensotro and colleagues (Table\ref{tab:Indexing_primers}). The number of amplification cycles for each of the samples is recorded in %\ref{Table:}.
+
+\begin{table}[htbp]
+\setlength{\tabcolsep}{20pt}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{@{} c c c}
+\toprule
+\textbf{Reagent} & \textbf{Final concentration} & \textbf{Supplier} \\
+ & & \\
+\bottomrule
+ & \textbf{SDS lysis buffer} & \\
+\midrule
+\midrule
+SDS & 0.25\% & Sigma \\	
+EDTA	& 1mM & X \\
+Tris-HCl pH 8 & 10mM & Sigma \\
+PI & 1X & Roche \\
+Water & - & Ambion \\
+\bottomrule
+ & \textbf{ChIP equilibration buffer}  & \\
+\midrule
+\midrule
+Triton-X100 & 1.66\% & Sigma	\\
+EDTA	& 1mM & X \\
+NaCl	& 233mM & X \\
+Tris-HCl pH 8 & 10mM & Sigma \\
+PI & 1X & Roche \\
+Water & - & Ambion \\
+\bottomrule
+ & \textbf{Beads washing buffer} & \\
+\midrule
+\midrule
+SDS & 0.1\% & Sigma	\\
+EDTA	& 50mM & X \\
+NaCl & 150mM & X \\
+NP-40 & 1\% & Sigma \\
+Tris-HCl pH 8 & 10mM & Sigma \\
+PI & 1X & Roche \\
+Water & - & Ambion \\
+\bottomrule
+\end{tabular}
+\medskip %gap
+\caption[ChIPm buffers modified from Schmidl \textit{et. al}, 2015]{\textbf{Composition of the three modified buffers in house for the ChIPm protocol: SDS lysis buffer, ChIP equilibration buffer and beads washing buffer. For each of the buffers the reagents, composition and supplier are indicated.The final volume prepared for each buffer was adjusted depending on the number of samples processed at the time. Sodium dodecyl sulfate (SDS), PI (proteinase inhibitor).}}
+\label{tab:ChIPm_buffers}
+\end{table}
+\bigskip %bigger space
+
+\begin{table}[htbp]
+\setlength{\tabcolsep}{20pt}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{@{} c c c c}
+\toprule
+\textbf{Histone mark} & \textbf{Feature} &\textbf{$\micro$L per sample} & \textbf{Manufacturer and catalogue num.}\\
+\midrule
+H3K427ac & Promoter & X & \\
+H3K4me1 & Active enhancer & X & \\
+X & X & X & \\
+\bottomrule
+\end{tabular}
+\medskip %gap
+\caption[Antibody panel used for immunoprecipitation of histone marks in ChIPm]{\textbf{Details regarding the histone marks, the the most likely chromatin state delineated, the amount of antibody required per reaction and the supplier and catalogue num of the antibodies.}}
+\label{tab:ChIPm_antibodies}
+\end{table}
+\bigskip %bigger space
+
+%
+%\subsection{Nucleic acids extraction and bulk RNA-seq}
+%
+%Following MACS isolation of the different cell types from the PSO and matched healthy controls, between 2-3x10^6 cells were resuspended in 350$\micro$L of RNAProtect (Qiagen) or RLT buffer (Qiagen) supplemented with 0.1\% of beta-mercaptoethanol (BM, Sigma) and snap frozen in dry ice before storage at -80^{\circ}C. Cells isolated from PSO and control Cohort 1A (Chapter \ref{ch:}) were preserved in RNAProtect, which stops any biochemical reaction and transcriptional activity maintaining cell integrity. At early stages of the project, when I was uncertain of time frames to process the different material from the acquires samples, I decided to use RNAProtect to preserve cells for future RNA extraction to guarantee high quality in case storage exceeded 6 months. In the PSO and control samples from Cohort 1B %(Chapter \ref{ch:})% , cells were resuspended in 0.1\% BM supplemented RLT buffer, which lysates cells and prevents RNA degradation. Cell lysates were homogonised using the QIAshredder (Qiagen) prior to RNA extraction. When starting from RNAProtect preserved material, cells were centrifuged at 300g for 10 min at room temperature, the supernatanta were removed and the pellets were resuspended in 350$\micro$L of RLT 0.1\% BM buffer, prior to homogenisation with QIAshredder.
+%
+%DNA and total RNA were extracted using the AllPrep DNA/mRNA/microRNA Universal kit (Qiagen) following the manufacturer's instructions. RNA extractions were performed in batches of 12 samples, including all cell types from each individual and a balanced numbers of PSO and control samples, to minimise batch effect correlation with phenotype groups. Basic quantification was performed with NanoDrop (Thermo Scientific) before storage of DNA and RNA at -80^{\circ}C.
+%
+%RNA-seq quality control, quantification, library preparation and sequencing were carried out by Oxford Genomics Centre at the Wellcome Trust Centre for Human Genetics in two independent batches of samples, each including Cohort 1A or Cohort 1B, respectively. Processing of samples in two batches was due to logistics of patients recruitment in the project. Quality control and quantification were assessed with the Bioanalyzer (Agilent). Preparation of RNA-seq libraries was performed using Ribo-Zero rRNA Removal kit (Illumina), based on ribosomal RNA depletion. Unlike strategies using polyadenylated transcripts selection, this method allowed to preserve non-polyadenylated transcripts including nascent pre-mRNA (unspliced) and functionally relevant lncRNAs. For each of the cohorts, all libraries were pooled together and  sequenced over several lanes of HiSeq2500 to a depth of 50 million total reads per sample in order to maintain an appropriate level of sensitivity for subsequent expression analysis given the greater complexity of these libraries.
+%
+ %
+%
+%\subsection{Single-cell and small bulk RNA-seq}
+%Include 10X and SmartSeq2

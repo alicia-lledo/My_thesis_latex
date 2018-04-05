@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  2 JAN 2018 11:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  4 APR 2018 13:49
 entering extended mode
 **./Thesis.tex
 (Thesis.tex
@@ -1011,7 +1011,7 @@ File: english.lbx 2017/11/21 v3.9 biblatex localization (PK/JW/AB)
 \@quotelevel=\count329
 \@quotereset=\count330
  (Thesis.aux (Preamble.aux)
-(Introduction/Introduction.aux))
+(Material_and_methods/Material_and_methods.aux))
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 72.
@@ -1026,8 +1026,7 @@ LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
 LaTeX Font Info:    ... okay on input line 72.
 LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 72.
 LaTeX Font Info:    Try loading font information for OMS+jkp on input line 72.
-
-(C:\Users\alicia\AppData\Roaming\MiKTeX\2.9\tex\latex\kpfonts\omsjkp.fd
+ (C:\Users\alicia\AppData\Roaming\MiKTeX\2.9\tex\latex\kpfonts\omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    ... okay on input line 72.
@@ -1130,7 +1129,7 @@ Package biblatex Info: Reference segment=0 on input line 72.
 
 
 (Preamble.tex
-<oxford_logo-eps-converted-to.pdf, id=87, pagebox=cropbox, 561.09625pt x 651.43375pt>
+<oxford_logo-eps-converted-to.pdf, id=99, pagebox=cropbox, 561.09625pt x 651.43375pt>
 File: oxford_logo-eps-converted-to.pdf Graphic file (type pdf)
 <use oxford_logo-eps-converted-to.pdf>
 Package pdftex.def Info: oxford_logo-eps-converted-to.pdf  used on input line 6. on input line 6.
@@ -1192,7 +1191,12 @@ LaTeX Font Info:    Try loading font information for TS1+jkp on input line 23.
 
 (C:\Users\alicia\AppData\Roaming\MiKTeX\2.9\tex\latex\kpfonts\ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
-))
+)
+Underfull \hbox (badness 1577) in paragraph at lines 37--37
+ [][] [][]\OT1/jkp/m/n/12 Primary cell iso-la-tion us-ing fluorescence-activated cell 
+ []
+
+)
 \tf@toc=\write6
 \openout6 = `Thesis.toc'.
 
@@ -1204,7 +1208,12 @@ File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 
  [7
 
-] (Thesis.lot)
+] (Thesis.lot
+Underfull \hbox (badness 3646) in paragraph at lines 5--5
+ [][] [][]\OT1/jkp/m/n/12 Antibody panel used for FACS sep-a-ra-tion of pri-mary cell 
+ []
+
+)
 \tf@lot=\write8
 \openout8 = `Thesis.lot'.
 
@@ -1218,737 +1227,179 @@ Overfull \hbox (2.33203pt too wide) in paragraph at lines 142--142
 ) [9
 
 ]
-\openout2 = `./Introduction/Introduction.aux'.
+\openout2 = `./Material_and_methods/Material_and_methods.aux'.
 
- (Introduction/Introduction.tex
+ (Material_and_methods/Material_and_methods.tex
 Chapter 1.
 
-LaTeX Warning: Citation 'Villanova2016' on page 1 undefined on input line 10.
-
-
-Underfull \hbox (badness 1817) in paragraph at lines 10--11
-[]\OT1/jkp/m/n/12 Psoriasis (PSO) and pso-ri-atic arthri-tis (PsA) are con-sid-ered dif-fer-ent
+Underfull \hbox (badness 7379) in paragraph at lines 7--7
+|[]\OT1/jkp/b/n/17.28 Ethical ap-proval and re-cruit-ment of study
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 14--15
-[]\OT1/jkp/m/n/12 PSO rep-re-sents a se-ri-ous global prob-lem that cur-rently af-fects about
+Underfull \hbox (badness 1142) in paragraph at lines 12--13
+\OT1/jkp/m/n/12 in col-lab-o-ra-tion with the Der-ma-tol-ogy De-part-ment re-search nurses at the
  []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 12--13
+\OT1/jkp/m/n/12 Churchill Hos-pi-tal, Ox-ford Uni-ver-sity Hos-pi-tals NHS Trust and Pro-fes-sor
+ []
+
+
+LaTeX Warning: Citation 'Fredriksson1978' on page 1 undefined on input line 18.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.15 
-      [1
+l.19 	\item m
+             oderate to severe disease (PASI>5) % check with Graham [1
 
 
 
 ]
 
-LaTeX Warning: Citation 'Reich2008' on page 2 undefined on input line 16.
+LaTeX Warning: Reference `ch:' on page 2 undefined on input line 24.
 
 
-LaTeX Warning: Citation 'Springate2007' on page 2 undefined on input line 16.
+LaTeX Warning: Reference `tab:' on page 2 undefined on input line 24.
 
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no ¥ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no ¥ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no £ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no £ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no £ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no £ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no £ in font jkpmn7t!
+
+LaTeX Warning: Citation 'Philipp2011' on page 2 undefined on input line 33.
+
+
+LaTeX Warning: Citation 'Clegg1996' on page 2 undefined on input line 33.
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 33--34
+[]\OT1/jkp/m/n/12 fulfillment of the clin-i-cally ac-cepted PsA Re-sponse Cri-te-ria (PSARC)
+ []
+
+
+Underfull \hbox (badness 2221) in paragraph at lines 33--34
+\OT1/jkp/m/n/12 in-clud-ing a physi-cian global as-sess-ment ques-tion-naire ([];
+ []
+
 [2]
 
-LaTeX Warning: Citation 'ICD-10' on page 3 undefined on input line 25.
+LaTeX Warning: Reference `ch:' on page 3 undefined on input line 39.
 
 
-LaTeX Warning: Citation 'Roderick2014' on page 3 undefined on input line 25.
+LaTeX Warning: Reference `tab:' on page 3 undefined on input line 39.
 
 
-LaTeX Warning: Citation 'Johnson-Huang' on page 3 undefined on input line 25.
-
-
-LaTeX Warning: Citation '2009' on page 3 undefined on input line 25.
-
-
-LaTeX Warning: Citation 'Marrakchi2011' on page 3 undefined on input line 27.
-
-
-LaTeX Warning: Citation 'Runwaleit2001' on page 3 undefined on input line 33.
-
-
-LaTeX Warning: Citation 'Runwaleit2001' on page 3 undefined on input line 33.
-
-
-LaTeX Warning: Citation 'Said-Nahal2000' on page 3 undefined on input line 33.
+Underfull \hbox (badness 1087) in paragraph at lines 56--57
+[]\OT1/jkp/m/n/12 Blood, syn-ovial fluid and skin biop-sies were pro-cessed straight af-ter
+ []
 
 Missing character: There is no ‚ in font jkpmn7t!
 Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ì in font jkpmn7t!
+Missing character: There is no ô in font jkpmn7t!
 
-LaTeX Warning: Citation 'Hammer1990' on page 3 undefined on input line 33.
+Underfull \hbox (badness 3229) in paragraph at lines 59--60
+[]\OT1/jkp/m/n/12 PBMC were iso-lated from blood sam-ples through den-sity gra-di-ent
+ []
 
-
-LaTeX Warning: Citation 'Baeten2013' on page 3 undefined on input line 33.
-
-
-LaTeX Warning: Citation 'Porcher2005' on page 3 undefined on input line 33.
-
-
-LaTeX Warning: Citation 'Appel2011' on page 3 undefined on input line 33.
-
-
-LaTeX Warning: Citation 'Noordenbos2012' on page 3 undefined on input line 33.
-
-
-Underfull \hbox (badness 2941) in paragraph at lines 32--34
-\OT1/jkp/m/n/12 (ReA), id-io-pathic in-flam-ma-tory bowel dis-ease (IBD) and un-dif-fer-en-ti-ated
+[3]
+Underfull \hbox (badness 5954) in paragraph at lines 61--61
+|[]\OT1/jkp/b/n/14.4 Primary cell iso-la-tion us-ing magnetic-activated cell
  []
 
 
-Underfull \hbox (badness 1314) in paragraph at lines 32--34
-\OT1/jkp/m/n/12 SpA (). All SpA sub-types are char-ac-terised by struc-tural dam-age (bone
+Underfull \hbox (badness 2435) in paragraph at lines 62--63
+[]\OT1/jkp/m/n/12 For the work re-lated to PSO and healthy vol-un-teers, pri-mary cell
  []
 
 
-Underfull \hbox (badness 1946) in paragraph at lines 32--34
-\OT1/jkp/m/n/12 de-ter-mined by ubiq-ui-tous ge-netic or en-vi-ron-men-tal fac-tors ([]).
+Underfull \hbox (badness 4995) in paragraph at lines 65--66
+[]\OT1/jkp/m/n/12 Primary cell sub-pop-u-la-tions from con-trols to study the ef-fect of
  []
 
 
-Underfull \hbox (badness 3039) in paragraph at lines 32--34
-\OT1/jkp/m/n/12 ([]) which could ex-plain some im-munopatho-log-i-cal dif-fer-ences
+Underfull \hbox (badness 1014) in paragraph at lines 65--66
+\OT1/jkp/m/n/12 (Ta-ble []1.1[]) for 30 min at 4$[]$C, washed with FACS buffer and cen-trifuged
  []
 
-[3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
-|[]\OT1/jkp/b/n/17.28 Pathophysiology of pso-ri-a-sis and pso-ri-atic
- []
-
-
-LaTeX Warning: Citation 'Moura2015' on page 5 undefined on input line 44.
-
-
-LaTeX Warning: Citation 'McGonagle2011' on page 5 undefined on input line 46.
-
-
-LaTeX Warning: Citation 'McGonagle2011' on page 5 undefined on input line 46.
-
-
-LaTeX Warning: Citation 'Polachek2017' on page 5 undefined on input line 46.
-
-
-LaTeX Warning: Citation 'Jadon2016' on page 5 undefined on input line 46.
-
-[5]
-
-LaTeX Warning: Citation 'Gu\dh *j\'{o}nsson2002' on page 6 undefined on input line 48.
-
-
-LaTeX Warning: Citation 'Gladman2005' on page 6 undefined on input line 48.
-
-
-LaTeX Warning: Citation 'McGonagle' on page 6 undefined on input line 48.
-
-
-LaTeX Warning: Citation '2011' on page 6 undefined on input line 48.
-
-
-LaTeX Warning: Citation 'Moll1976' on page 6 undefined on input line 48.
-
-
-LaTeX Warning: Citation 'McGonagle' on page 6 undefined on input line 48.
-
-
-LaTeX Warning: Citation '2011' on page 6 undefined on input line 48.
-
-
-Underfull \hbox (badness 1147) in paragraph at lines 48--49
-[]\OT1/jkp/m/n/12 As pre-vi-ously men-tioned, PsA preva-lence is greater in pa-tients with
- []
-
-
-LaTeX Warning: Citation 'Husted2011' on page 6 undefined on input line 50.
-
-
-LaTeX Warning: Citation 'Oliveira2015' on page 6 undefined on input line 50.
-
-
-LaTeX Warning: Citation 'Saphiro2007' on page 6 undefined on input line 50.
-
-
-LaTeX Warning: Citation 'Cohrn20017' on page 6 undefined on input line 50.
-
-
-Underfull \hbox (badness 1430) in paragraph at lines 50--51
-[]\OT1/jkp/m/n/12 Several co-mor-bidi-ties have been as-so-ci-ated with PSO and PsA, with
- []
-
-
-LaTeX Warning: Citation 'Fredriksson1978' on page 6 undefined on input line 52.
-
-
-LaTeX Warning: Citation 'Taylor2006' on page 6 undefined on input line 52.
-
-
-LaTeX Warning: Citation 'Philipp2011' on page 6 undefined on input line 52.
-
-
-LaTeX Warning: Citation 'Clegg1996' on page 6 undefined on input line 52.
-
-[6]
-Overfull \hbox (26.96434pt too wide) in paragraph at lines 58--69
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 73--90
 [][]
  []
 
-! Misplaced \noalign.
-\toprule ->\noalign 
-                    {\ifnum 0=`}\fi \@aboverulesep =\abovetopsep \global \@b...
-l.77 \toprule
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
+Missing character: There is no ‚ in font jkpmn7t!
+Missing character: There is no Ä in font jkpmn7t!
+Missing character: There is no ê in font jkpmn7t!
 
-! Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.78 ...thesial) with 3 points from 5 categories}}
-                                                   \\
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Misplaced \span.
-\sp@n ->\span 
-              \omit \advance \@multicnt \m@ne 
-l.78 ...thesial) with 3 points from 5 categories}}
-                                                   \\
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced \omit.
-\sp@n ->\span \omit 
-                    \advance \@multicnt \m@ne 
-l.78 ...thesial) with 3 points from 5 categories}}
-                                                   \\
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-! Package array Error: Empty preamble: `l' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.78 ...thesial) with 3 points from 5 categories}}
-                                                   \\
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Misplaced \noalign.
-\midrule ->\noalign 
-                    {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global \@...
-l.79 \midrule
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--80
-
+Underfull \hbox (badness 3128) in paragraph at lines 130--131
+[]\OT1/jkp/m/n/12 KC en-rich-ment from skin biop-sies was per-formed as de-scribed in
  []
 
-! Misplaced alignment tab character &.
-l.80 1. PSO                          &
-                                       a. Current skin or scalp disease \\b....
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
+[5]
+Missing character: There is no ¬ in font jkpmn7t!
+Missing character: There is no ∞ in font jkpmn7t!
+ [6] [7] [8] [9]
 
-! Misplaced alignment tab character &.
-l.81 2. Psoriatic nail involvement   &
-                                       Typical psoriatic nail distrophy \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.82 3. A negative test for RF       &
-                                       Using preferrably by enzyme-linked im...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.83 4. Dactylitis                   &
-                                       a. Swelling of an entire finger \\b. ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.84 ...nce of juxtaarticular new bone formation &
-                                                   Ossification near joint m...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced \noalign.
-\bottomrule ->\noalign 
-                       {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global...
-l.85 \bottomrule
-                
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
+LaTeX Warning: Citation 'Corces2017' on page 10 undefined on input line 189.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--86
-
+Underfull \hbox (badness 1769) in paragraph at lines 188--190
+\OT1/jkp/m/n/12 et al., 2017. It con-sisted in an uni-ver-sal pro-to-col with in-di-vid-ual cell
  []
 
 
-! Package caption Error: \caption outside float.
-
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.88 \caption
-             [Classification Criteria for Psoriatic Arthritis (CASPAR)]{\tex...
-If you do not understand this error, please take a closer look
-at the documentation of the `caption' package, especially the
-section about errors.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Too many }'s.
-\@endfloatbox ...pagefalse \outer@nobreak \egroup 
-                                                  \color@endbox 
-l.90 \end{table}
-                
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-! Extra \endgroup.
-\color@endgroup ->\endgraf \endgroup 
-                                     
-l.90 \end{table}
-                
-Things are pretty mixed up, but I think the worst is over.
-
-! Too many }'s.
-\color@endbox ->\color@endgroup \egroup 
-                                        
-l.90 \end{table}
-                
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
+LaTeX Warning: Citation 'Schmidl2015' on page 10 undefined on input line 195.
 
 
-! LaTeX Error: \begin{document} ended by \end{table}.
+Underfull \hbox (badness 1082) in paragraph at lines 195--196
+\OT1/jkp/m/n/12 from Co-hort 1B and four age matched healthy vol-un-teers was per-formed
+ []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.90 \end{table}
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.90 \end{table}
-                
-Things are pretty mixed up, but I think the worst is over.
+[10
 
 
-! Package array Error: Empty preamble: `l' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.97 ...thesial) with 3 points from 5 categories}}
-                                                   \\
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (258.32402pt too wide) in paragraph at lines 95--111
-[][] 
+]
+Underfull \hbox (badness 2529) in paragraph at lines 197--198
+\OT1/jkp/m/n/12 vol-ume of ChIP equi-li-bra-tion buffer (Ta-ble[]1.3[]), in or-der to achieve the
  []
 
 
-Underfull \hbox (badness 2012) in paragraph at lines 120--121
-\OT1/jkp/m/n/12 pre-dis-posed in-di-vid-u-als and dys-reg-u-la-tion of the im-mune re-sponse af-ter
- []
-
-
-Underfull \hbox (badness 2221) in paragraph at lines 120--121
-\OT1/jkp/m/n/12 ex-po-sure to a par-tic-u-lar en-vi-ron-men-tal trig-ger ini-ti-ate dis-ease (Fig-ure ).
- []
-
-<./Introduction/pdfs/PSO_aetiology_diagram_Di_Meglio_et_al_2014.pdf, id=250, pagebox=cropbox, 597.51233pt x 845.0471pt>
-File: ./Introduction/pdfs/PSO_aetiology_diagram_Di_Meglio_et_al_2014.pdf Graphic file (type pdf)
-<use ./Introduction/pdfs/PSO_aetiology_diagram_Di_Meglio_et_al_2014.pdf>
-Package pdftex.def Info: ./Introduction/pdfs/PSO_aetiology_diagram_Di_Meglio_et_al_2014.pdf  used on input line 124. on 
-input line 124.
-Package pdftex.def Info: Requested size: 426.79134pt x 603.61096pt on input line 124.
-
-LaTeX Warning: Citation 'Meglio2014' on page 7 undefined on input line 125.
-
-
-LaTeX Warning: Citation 'Meglio2014' on page 7 undefined on input line 125.
-
-[7] [8] [9 <./Introduction/pdfs/PSO_aetiology_diagram_Di_Meglio_et_al_2014.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 156--162
-[]\OT1/jkp/b/n/12 Understanding the chro-matin land-scape Chro-matin ac-ces-si-bil-ity
- []
-
-
-Overfull \hbox (0.56425pt too wide) in paragraph at lines 156--162
-\OT1/jkp/b/n/12 Hi-s-tones mod-i-fi-ca-tions Un-der-stand-ing the chro-matin land-scape Tran-scrip-tion
- []
-
-
-LaTeX Warning: File `./Introduction/eQTL.pdf' not found on input line 164.
-
-
-! Package pdftex.def Error: File `./Introduction/eQTL.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164 ...idth=\textwidth]{./Introduction/eQTL.pdf}
-                                                  %
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Try loading font information for OT1+jkptt on input line 164.
-(C:\Users\alicia\AppData\Roaming\MiKTeX\2.9\tex\latex\kpfonts\ot1jkptt.fd
-File: ot1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for OT1/jkptt.
-)
-
-LaTeX Warning: Citation 'Cheung2009' on page 10 undefined on input line 165.
-
-
-LaTeX Warning: Citation 'Cheung2009' on page 10 undefined on input line 165.
-
-[10]
-
-LaTeX Warning: Citation 'Bone1992' on page 11 undefined on input line 171.
-
-
-LaTeX Warning: Citation 'Padkin2003' on page 11 undefined on input line 171.
-
-
-LaTeX Warning: Citation 'Angus2001' on page 11 undefined on input line 171.
-
-
-LaTeX Warning: Citation 'Padkin2003' on page 11 undefined on input line 171.
-
-
-LaTeX Warning: Citation 'Sands1997' on page 11 undefined on input line 171.
-
-
-LaTeX Warning: Citation 'Zeni1997' on page 11 undefined on input line 171.
-
-
-Underfull \hbox (badness 2980) in paragraph at lines 171--173
-\OT1/jkp/m/n/12 of an in-fec-tion and is clas-si-fied as se-vere when as-so-ci-ated with or-gan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--173
-\OT1/jkp/m/n/12 dys-func-tion, hy-pop-er-fu-sion ab-nor-mal-ity or sepsis-induced hy-poten-sion.
- []
-
-
-Underfull \hbox (badness 1603) in paragraph at lines 171--173
-\OT1/jkp/m/n/12 Sys-temic in-flam-ma-tory re-sponse syn-drome (SIRS) is used to de-scribe the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--173
-
+Overfull \hbox (4.04028pt too wide) in paragraph at lines 197--198
+\OT1/jkp/m/n/12 ap-pro-pri-ate con-cen-tra-tion of NaCl and Triton-X100. For the im-muno-pre-cip-i-ta-tion
  []
 
 [11]
-
-LaTeX Warning: Citation 'Bone1992' on page 12 undefined on input line 176.
-
-
-LaTeX Warning: Citation 'Bone1992' on page 12 undefined on input line 176.
-
-
-LaTeX Font Warning: Font shape `OML/jkp/m/n' undefined
-(Font)              using `OML/jkp/m/it' instead
-(Font)              for symbol `textgreater' on input line 182.
-
-
-LaTeX Warning: Citation 'Park2008' on page 12 undefined on input line 195.
-
-
-LaTeX Warning: Citation 'Chapel2009' on page 12 undefined on input line 195.
-
-
-LaTeX Warning: Citation 'Conley1999' on page 12 undefined on input line 195.
-
-
-LaTeX Warning: Citation 'Chapel2008' on page 12 undefined on input line 195.
-
-[12]
-
-LaTeX Warning: Citation 'Conley1999' on page 13 undefined on input line 200.
-
-
-LaTeX Warning: Citation 'Conley1999' on page 13 undefined on input line 200.
-
-
-LaTeX Warning: Citation 'Chapel2008' on page 13 undefined on input line 219.
-
-
-Underfull \hbox (badness 1137) in paragraph at lines 219--220
-[]\OT1/jkp/m/n/12 The di-ag-no-sis of CVID is made by ex-clud-ing known dis-or-ders of B
+Overfull \hbox (139.86812pt too wide) in paragraph at lines 249--259
+[][]
  []
 
-
-LaTeX Warning: Citation 'Chapel2008' on page 13 undefined on input line 221.
-
-
-LaTeX Warning: File `./Introduction/Barplot_complications_cvid.pdf' not found on input line 227.
-
-
-! Package pdftex.def Error: File `./Introduction/Barplot_complications_cvid.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.227 ...roduction/Barplot_complications_cvid.pdf}
-                                                  %
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./Introduction/Pie_1complication.pdf' not found on input line 232.
-
-
-! Package pdftex.def Error: File `./Introduction/Pie_1complication.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.232 ...th]{./Introduction/Pie_1complication.pdf}
-                                                  %
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./Introduction/Pie_2complication.pdf' not found on input line 237.
-
-
-! Package pdftex.def Error: File `./Introduction/Pie_2complication.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.237 ...th]{./Introduction/Pie_2complication.pdf}
-                                                  %
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./Introduction/Pie_3complication.pdf' not found on input line 242.
-
-
-! Package pdftex.def Error: File `./Introduction/Pie_3complication.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.242 ...th]{./Introduction/Pie_3complication.pdf}
-                                                  %
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation 'Chapel2008' on page 13 undefined on input line 245.
-
-
-LaTeX Warning: Citation 'Chapel2008' on page 13 undefined on input line 245.
-
-[13]) [14]
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
+) [12] [13] [14]
 Missing character: There is no ‚ in font jkpmn7t!
 Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no √ in font jkpmn7t!
-Missing character: There is no ≠ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
+Missing character: There is no ê in font jkpmn7t!
 Missing character: There is no ‚ in font jkpmn7t!
 Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-
-Underfull \hbox (badness 1270) in paragraph at lines 85--85
-[][]\OT1/jkp/m/n/12 Moll, J. M. H., in, arthri-tis, and rheuma-tism, Wright-V. (1973). ``Pso-ri-atic
+Missing character: There is no ê in font jkpmn7t!
+LaTeX Font Info:    Try loading font information for OT1+jkptt on input line 85.
+ (C:\Users\alicia\AppData\Roaming\MiKTeX\2.9\tex\latex\kpfonts\ot1jkptt.fd
+File: ot1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for OT1/jkptt.
+)
+Underfull \hbox (badness 1803) in paragraph at lines 86--86
+\OT1/jkp/m/n/12 and af-fects ker-atinocyte ex-pres-sion of genes as-so-ci-ated with cel-lu-lar
  []
 
-
-Underfull \hbox (badness 1168) in paragraph at lines 85--85
-\OT1/jkp/m/n/12 arthri-tis''. \OT1/jkp/m/it/12 Sem-i-nars in arthri-tis and rheuma-tism\OT1/jkp/m/n/12 . \OT1/jkp/m/sc/1
-2 url\OT1/jkp/m/n/12 : []$\OT1/jkptt/m/n/12 http : / / www .
- []
-
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 88.
 [15
 
 
 ]
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-
-Underfull \hbox (badness 2088) in paragraph at lines 85--85
-[][]\OT1/jkp/m/n/12 Poole, C. D., Leb-meier, M., Ara, R., and Rheuma-tol-ogy, Rafia-R. (2010).
- []
-
-
-Underfull \hbox (badness 1199) in paragraph at lines 85--85
-\OT1/jkp/m/n/12 ``Es-ti-ma-tion of health care costs as a func-tion of dis-ease sever-ity in
- []
-
-
-Underfull \hbox (badness 1365) in paragraph at lines 85--85
-\OT1/jkptt/m/n/12 rheumatology / keq182$[]\OT1/jkp/m/n/12 . \OT1/jkp/m/sc/12 url\OT1/jkp/m/n/12 : []$\OT1/jkptt/m/n/12 h
-ttp : / / dx . doi . org / 10 . 1093 /
- []
-
-Missing character: There is no √ in font jkpmn7t!
-Missing character: There is no º in font jkpmn7t!
-Missing character: There is no √ in font jkpmn7t!
-Missing character: There is no ∂ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ê in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-
-Underfull \hbox (badness 1675) in paragraph at lines 85--85
-\OT1/jkp/m/n/12 and clin-i-cal pat-tern of pso-ri-atic arthri-tis in Ger-many: a prospec-tive
- []
-
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 87.
-[16]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 87.
- (Thesis.aux (Preamble.aux) (Introduction/Introduction.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 87.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 87.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 88.
+ (Thesis.aux (Preamble.aux) (Material_and_methods/Material_and_methods.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 88.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 88.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 5C9723733E4F2BDBAB9E5AA8DEF102F4;1375.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+(rerunfilecheck)             Checksum: 899B633DC136E0E7B8586813CD96913D;1789.
 
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
@@ -1958,26 +1409,27 @@ Package biblatex Warning: Please (re)run BibTeX on the file(s):
 Package logreq Info: Writing requests to 'Thesis.run.xml'.
 \openout1 = `Thesis.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 87.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 88.
  ) 
 Here is how much of TeX's memory you used:
- 16978 strings out of 493312
- 275913 string characters out of 3138895
- 552317 words of memory out of 3000000
- 20148 multiletter control sequences out of 15000+200000
- 42862 words of font info for 92 fonts, out of 3000000 for 9000
+ 16856 strings out of 493312
+ 273038 string characters out of 3138895
+ 551317 words of memory out of 3000000
+ 20054 multiletter control sequences out of 15000+200000
+ 42089 words of font info for 90 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,15n,53p,1640b,1388s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,12n,53p,1384b,1328s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/k
-pfonts/kpfonts-expert.enc}<C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/a
-licia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpbne.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts
-/type1/public/kpfonts/jkpmi.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/
-Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2
-.9/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmsc8a
-.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on Thesis.pdf (26 pages, 273003 bytes).
+pfonts/kpfonts-expert.enc}<C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpbit8a.pfb><C:/Users/
+alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fon
+ts/type1/public/kpfonts/jkpbne.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmit8a.pfb><
+C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/alicia/AppData/Roaming/MiKTe
+X/2.9/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpms
+c8a.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/alicia/AppData/Roamin
+g/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on Thesis.pdf (25 pages, 162065 bytes).
 PDF statistics:
- 406 PDF objects out of 1000 (max. 8388607)
- 78 named destinations out of 1000 (max. 500000)
- 179 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 320 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
+ 198 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,54 +1,13 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Thesis.aux
 The style file: biblatex.bst
 A level-1 auxiliary file: Preamble.aux
-A level-1 auxiliary file: ./Introduction/Introduction.aux
-White space in argument---line 174 of file Thesis.aux
- : \citation{Gu\dh
- :                 *j\'{o}nsson2002}
-I'm skipping whatever remains of this command
+A level-1 auxiliary file: ./Material_and_methods/Material_and_methods.aux
 Database file #1: Thesis-blx.bib
 Database file #2: Thesis_ref.bib
-Warning--I didn't find a database entry for "Villanova2016"
-Warning--I didn't find a database entry for "Reich2008"
-Warning--I didn't find a database entry for "Springate2007"
-Warning--I didn't find a database entry for "ICD-10"
-Warning--I didn't find a database entry for "Roderick2014"
-Warning--I didn't find a database entry for "Johnson-Huang"
-Warning--I didn't find a database entry for "2009"
-Warning--I didn't find a database entry for "Marrakchi2011"
-Warning--I didn't find a database entry for "Runwaleit2001"
-Warning--I didn't find a database entry for "Said-Nahal2000"
-Warning--I didn't find a database entry for "Hammer1990"
-Warning--I didn't find a database entry for "Baeten2013"
-Warning--I didn't find a database entry for "Porcher2005"
-Warning--I didn't find a database entry for "Appel2011"
-Warning--I didn't find a database entry for "Noordenbos2012"
-Warning--I didn't find a database entry for "Moura2015"
-Warning--I didn't find a database entry for "McGonagle2011"
-Warning--I didn't find a database entry for "Polachek2017"
-Warning--I didn't find a database entry for "Jadon2016"
-Warning--I didn't find a database entry for "Gladman2005"
-Warning--I didn't find a database entry for "McGonagle"
-Warning--I didn't find a database entry for "2011"
-Warning--I didn't find a database entry for "Moll1976"
-Warning--I didn't find a database entry for "Husted2011"
-Warning--I didn't find a database entry for "Oliveira2015"
-Warning--I didn't find a database entry for "Saphiro2007"
-Warning--I didn't find a database entry for "Cohrn20017"
 Warning--I didn't find a database entry for "Fredriksson1978"
-Warning--I didn't find a database entry for "Taylor2006"
 Warning--I didn't find a database entry for "Philipp2011"
 Warning--I didn't find a database entry for "Clegg1996"
-Warning--I didn't find a database entry for "Meglio2014"
-Warning--I didn't find a database entry for "Cheung2009"
-Warning--I didn't find a database entry for "Bone1992"
-Warning--I didn't find a database entry for "Padkin2003"
-Warning--I didn't find a database entry for "Angus2001"
-Warning--I didn't find a database entry for "Sands1997"
-Warning--I didn't find a database entry for "Zeni1997"
-Warning--I didn't find a database entry for "Park2008"
-Warning--I didn't find a database entry for "Chapel2009"
-Warning--I didn't find a database entry for "Conley1999"
-Warning--I didn't find a database entry for "Chapel2008"
+Warning--I didn't find a database entry for "Corces2017"
+Warning--I didn't find a database entry for "Schmidl2015"
 Biblatex version: 3.8
-(There was 1 error message)
+(There were 5 warnings)
