@@ -44,14 +44,16 @@
 \usepackage{rotfloat} %Allows [H] to be used when rotating floats
 \usepackage{setspace} %Set spacing in longtable
 \usepackage{multirow} %Multirows in tables
-\usepackage[backend=bibtex, style=authoryear, maxcitenames=2, mincitenames=1, minbibnames=10, maxbibnames=10, dashed=false]{biblatex} %References
+\usepackage[backend=bibtex, style=authoryear, maxcitenames=2, mincitenames=1, minbibnames=10, maxbibnames=10, dashed=false]{biblatex} 
+
+%References
 \addbibresource{Thesis_ref} %Location of references
 \renewbibmacro{in:}{} %Suppress the use of "`in"' before the journal title in bibliography
 \DeclareNameAlias{sortname}{last-first} %Display all authors in biblopgraphy as last name followed by first
 \renewcommand*{\bibpagespunct}{\addcolon\space} %colon instead of comma before pages in bibliography
 \AtEveryBibitem{\clearfield{number}} %remove number field from bibliography
 
-
+% Page styles
 \pagestyle{fancy} 				%Change the style of the current page
 \renewcommand{\chaptermark}[1]{\markboth{#1}{}} %Print the name of the chapter
 \renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}} %Print the name of the section
@@ -69,11 +71,16 @@
 \tolerance=2000 %How much white space is considered acceptable
 \emergencystretch=10pt %Allow 10pt of additional white space per line in order to avoid underfull/overfull lines
 \raggedbottom
+
+% To allow taking header for the table of contents up to 3 levels
+\setcounter{tocdepth}{3}
+
+% Begin preamble documment set up
 \begin{document}
 \include{Preamble}
 \pagenumbering{arabic} \setcounter{page}{1}
 \doublespacing
-%\include{./Introduction/Introduction}	
+\include{./Introduction/Introduction}	
 \include{./Material_and_methods/Material_and_methods}											% ch:Intro
 %\include{./Appendix/Appendix}															%
 
