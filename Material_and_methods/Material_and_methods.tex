@@ -64,7 +64,7 @@ For the work related to PSO and healthy volunteers, primary cell subpopulations 
 \subsection{Primary cell isolation using fluorescence-activated cell sorting}
 Primary cell subpopulations from controls to study the effect of cryopreservation in chromatin states (Chapter 3) or PsA blood and SF samples were isolated by FACS. PBMC and SFC were resuspended in PBS 1mM EDTA (FACS buffer) at 10x10$^6$ cells/mL, stained with the appropriate antibody cocktail (Table \ref{tab:FACS_antibodies}) for 30 min at 4{$^\circ$}C, washed with FACS buffer and centrifuged at 500g for 5 min at 4{$^\circ$}C. For the samples used in Chapter 3, a modified FACS buffer supplemented with 3 mM EDTA , 2\% FCS and 25mM 4-(2-hydroxyethyl)-1-piperazineethanesulfonic acid (HEPES, Invitrogen) was used to avoid cell clumping after cryopreservation and short recovery.After removing the supernatant, cells were resuspended in FACS buffer prior to separation. 
 
-In the controls samples of Chapter 3 only CD14$^{+}$ monocytes and CD3$^+$ CD14$^{-}$ CD4$^{+}$ T cells were isolated in the SONY SH800 cell sorter. For the PsA samples, separation of  CD19$^{+}$ B cells, memory T cells (CD3$^{+}$ CD14$^{-}$ CD4$^{-}$ CD45RA$^{-}$ and CD3$^{+}$ CD14$^{-}$ CD8$^{+}$ CD45RA$^{-}$) ,CD14$^{-}$ monocytes and CD56$^{-}$ NK was performed using FACS Aria (BD) cell sorter from both PBMC and SFC. Bulk sorted cells were collected in 1.5mL tubes in PBS 1\% FCS, whilst single cell and small bulk sorting was performed in 96-well plates in the appropriate buffer (See RNA-seq section). Different nozzle sizes were chosen for bulk and single-cell sorting and OneComp eBeads (eBioscience) were used for compensation of fluorescence spill over.
+In the controls samples of Chapter 3 only CD14$^{+}$ monocytes and CD3$^+$ CD14$^{-}$ CD4$^{+}$ T cells were isolated in the SONY SH800 cell sorter. For the PsA samples, separation of  CD19$^{+}$ B cells, memory T cells (CD3$^{+}$ CD14$^{-}$ CD4$^{+}$ CD45RA$^{-}$ and CD3$^{+}$ CD14$^{-}$ CD8$^{+}$ CD45RA$^{-}$) ,CD14$^{-}$ monocytes and CD56$^{-}$ NK was performed using FACS Aria (BD) cell sorter from both PBMC and SFC. Bulk sorted cells were collected in 1.5mL tubes in PBS 1\% FCS, whilst single cell and small bulk sorting was performed in 96-well plates in the appropriate buffer (See RNA-seq section). Different nozzle sizes were chosen for bulk and single-cell sorting and OneComp eBeads (eBioscience) were used for compensation of fluorescence spill over.
 
 
 \begin{table}[htbp]
@@ -196,7 +196,7 @@ Assessment of histone marks modification in the chromatin of PSO patients from C
 
 Sonicated chromatin aliquots were thawed and resuspended in appropriate volume of ChIP equilibration buffer (Table\ref{tab:ChIPm_buffers}), in order to achieve the appropriate concentration of NaCl and Triton-X100. For the immunoprecipitation step, samples were incubated with the appropriate amount of antibody (Table \ref{tab:ChIPm_antibodies}) overnight in rotation  at 4{$^\circ$}C. Protein-A Dynabeads (Invitrogen) were also washed three times with Beads wash buffer (Table\ref{tab:ChIPm_buffers}) and blocked with yeast tRNA (supplier) overnight in rotation at 4{$^\circ$}C. Beads were washed twice with the aforementioned washing buffer and resuspended in SDS lysis buffer before being added to the sample-antibody mix. One of the advantages of this protocol is the tagmentation of the chromatin when still bound to the beads prior to protein decross-linking, which allows preventing overtagmentation of the DNA. 
 
-qPCR was performed in each of the purified ChIPm DNA samples to identify the number of full cycles required to reach one-third of the final fluorescence. Libraries were amplified for the number of cycles minus one determined with this strategy, allowing to minimise the total number of PCR replicates. The primers used for amplification and indexing are the ones  optimised by Buensotro and colleagues (Table\ref{tab:Indexing_primers}). The number of amplification cycles for each of the samples is recorded in %\ref{Table:}.
+qPCR was performed in each of the purified ChIPm DNA samples to identify the number of full cycles required to reach one-third of the final fluorescence. Libraries were amplified for the number of cycles minus one determined with this strategy, allowing to minimise the total number of PCR replicates. The primers used for amplification and indexing are the ones optimised by Buensotro and colleagues (Table\ref{tab:Indexing_primers}). The number of amplification cycles for each of the samples is recorded in %\ref{Table:}.
 
 \begin{table}[htbp]
 \setlength{\tabcolsep}{20pt}
@@ -256,21 +256,37 @@ X & X & X & \\
 \bottomrule
 \end{tabular}
 \medskip %gap
-\caption[Antibody panel used for immunoprecipitation of histone marks in ChIPm]{\textbf{Details regarding the histone marks, the the most likely chromatin state delineated, the amount of antibody required per reaction and the supplier and catalogue num of the antibodies.}}
+\caption[Antibody panel used for immunoprecipitation of histone marks in ChIPm]{\textbf{Details regarding the histone marks, the the most likely chromatin state delineated, the amount of antibody required per reaction and the supplier and catalog num of the antibodies.}}
 \label{tab:ChIPm_antibodies}
 \end{table}
 \bigskip %bigger space
 
-%
-%\subsection{Nucleic acids extraction and bulk RNA-seq}
-%
-%Following MACS isolation of the different cell types from the PSO and matched healthy controls, between 2-3x10^6 cells were resuspended in 350$\micro$L of RNAProtect (Qiagen) or RLT buffer (Qiagen) supplemented with 0.1\% of beta-mercaptoethanol (BM, Sigma) and snap frozen in dry ice before storage at -80^{\circ}C. Cells isolated from PSO and control Cohort 1A (Chapter \ref{ch:}) were preserved in RNAProtect, which stops any biochemical reaction and transcriptional activity maintaining cell integrity. At early stages of the project, when I was uncertain of time frames to process the different material from the acquires samples, I decided to use RNAProtect to preserve cells for future RNA extraction to guarantee high quality in case storage exceeded 6 months. In the PSO and control samples from Cohort 1B %(Chapter \ref{ch:})% , cells were resuspended in 0.1\% BM supplemented RLT buffer, which lysates cells and prevents RNA degradation. Cell lysates were homogonised using the QIAshredder (Qiagen) prior to RNA extraction. When starting from RNAProtect preserved material, cells were centrifuged at 300g for 10 min at room temperature, the supernatanta were removed and the pellets were resuspended in 350$\micro$L of RLT 0.1\% BM buffer, prior to homogenisation with QIAshredder.
-%
-%DNA and total RNA were extracted using the AllPrep DNA/mRNA/microRNA Universal kit (Qiagen) following the manufacturer's instructions. RNA extractions were performed in batches of 12 samples, including all cell types from each individual and a balanced numbers of PSO and control samples, to minimise batch effect correlation with phenotype groups. Basic quantification was performed with NanoDrop (Thermo Scientific) before storage of DNA and RNA at -80^{\circ}C.
-%
-%RNA-seq quality control, quantification, library preparation and sequencing were carried out by Oxford Genomics Centre at the Wellcome Trust Centre for Human Genetics in two independent batches of samples, each including Cohort 1A or Cohort 1B, respectively. Processing of samples in two batches was due to logistics of patients recruitment in the project. Quality control and quantification were assessed with the Bioanalyzer (Agilent). Preparation of RNA-seq libraries was performed using Ribo-Zero rRNA Removal kit (Illumina), based on ribosomal RNA depletion. Unlike strategies using polyadenylated transcripts selection, this method allowed to preserve non-polyadenylated transcripts including nascent pre-mRNA (unspliced) and functionally relevant lncRNAs. For each of the cohorts, all libraries were pooled together and  sequenced over several lanes of HiSeq2500 to a depth of 50 million total reads per sample in order to maintain an appropriate level of sensitivity for subsequent expression analysis given the greater complexity of these libraries.
-%
- %
-%
-%\subsection{Single-cell and small bulk RNA-seq}
-%Include 10X and SmartSeq2
+
+\subsection{Nucleic acids extraction and RNA-seq}
+
+\subsubsection{Bulk RNA-seq}
+Following MACS isolation of the different cell types from the PSO and matched healthy controls, between 2-3x10^6 cells were resuspended in 350$\micro$L of RNAProtect (Qiagen) or RLT buffer (Qiagen) supplemented with 0.1\% of beta-mercaptoethanol (BM, Sigma) and snap frozen in dry ice before storage at -80{$^\circ$}C. Cells isolated from PSO and control Cohort 1A (Chapter \ref{ch:}) were preserved in RNAProtect, which stops any biochemical reaction and transcriptional activity maintaining cell integrity. At early stages of the project, when I was uncertain of time frames to process the different material from the acquires samples, I decided to use RNAProtect to preserve cells for future RNA extraction to guarantee high quality in case storage exceeded 6 months. In the PSO and control samples from Cohort 1B %(Chapter \ref{ch:}) , cells were resuspended in 0.1\% BM supplemented RLT buffer, which lysates cells and prevents RNA degradation. Cell lysates were homogonised using the QIAshredder (Qiagen) prior to RNA extraction. When starting from RNAProtect preserved material, cells were centrifuged at 300g for 10 min at room temperature, the supernatanta were removed and the pellets were resuspended in 350$\micro$L of RLT 0.1\% BM buffer, prior to homogenisation with QIAshredder.
+
+DNA and total RNA were extracted using the AllPrep DNA/mRNA/microRNA Universal kit (Qiagen) following the manufacturer's instructions. RNA extractions were performed in batches of 12 samples, including all cell types from each individual and a balanced numbers of PSO and control samples, to minimise batch effect correlation with phenotype groups. Basic quantification was performed with NanoDrop (Thermo Scientific) before storage of DNA and RNA at -80{$^\circ$}C.
+
+RNA-seq quality control, quantification, library preparation and sequencing were carried out by Oxford Genomics Centre at the Wellcome Trust Centre for Human Genetics in two independent batches of samples, each including Cohort 1A or Cohort 1B, respectively. Processing of samples in two batches was due to logistics of patients recruitment in the project. Quality control and quantification were assessed with the Bioanalyzer (Agilent). Preparation of RNA-seq libraries was performed using Ribo-Zero rRNA Removal kit (Illumina), based on ribosomal RNA depletion. Unlike strategies using polyadenylated transcripts selection, this method allowed to preserve non-polyadenylated transcripts including nascent pre-mRNA (unspliced) and functionally relevant lncRNAs. For each of the cohorts, all libraries were pooled together and  sequenced over several lanes of HiSeq4000 to a depth of 50 million total reads per sample in order to maintain an appropriate level of sensitivity for subsequent expression analysis given the greater complexity of these libraries.
+
+ 
+
+\subsubsection{PsA memory CD4$^{+}$ and CD8$^{+}$ single-cell RNA-seq} 
+\label{scRNA_processing}
+Single CD4$^{+}$ or CD8$^{+}$ memory T cells were sorted in 2$\micro$L of cell lysis buffer into 96-well plates. Four and three plates were prepared for CD4$^{+}$ and CD8$^{+}$, respectively, including wells containing 50 cells in each of the plates for control purposes. Libraries were prepared,indexed and sequenced at the Sanger Institute (Cambridge) using the Smart-seq2 methodology as described by Picelli and colleagues \parencite{Picelli2014}. Samples were sequenced using 50-bp single-end Illumina HiSeq2500 at a depth of approximately 4 million reads per cell. %look in notebook for details about scRNA in Cambridge
+
+scRNA-seq was also generated in FACS sorted CD4$^{+}$ or CD8$^{+}$ memory T cells and in PBMC using 3'and 5' RNA library prepr 10X Genomics technology ref by the Oxford Genomics Centre at the Wellcome Trust Centre for Human Genetics. Libraries were sequenced with Illumina HiSeq4000 xxxbp single-end at a depth of 50,000 reads per cell.
+
+\subsubsection{Small-bulk RNA-seq } 
+Between 100 to 500 cells of the five populations isolated from PsA patients were FACS sorted into 2$\micro$L of cell lysis buffer and processed for library prep as in Picelli \textit{et al.}, 2014 by the Oxford Genomics Centre at the Wellcome Trust Centre for Human Genetics. Libraries were sequenced with Illumina HiSeq4000 at a depth of XXX reads per cell.
+
+
+\subsection{CyTOF}
+
+Look at my notes
+
+Very brief
+
+
