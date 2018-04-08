@@ -364,56 +364,6 @@
     \field{year}{2006}
   \endentry
 
-  \entry{Gladman2009}{article}{}
-    \name{author}{4}{}{%
-      {{hash=GDD}{%
-         family={Gladman},
-         familyi={G\bibinitperiod},
-         given={D.\bibnamedelima D.},
-         giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=AM}{%
-         family={Ang},
-         familyi={A\bibinitperiod},
-         given={M.},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=SL}{%
-         family={Su},
-         familyi={S\bibinitperiod},
-         given={L.},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=otBDM}{%
-         prefix={of},
-         prefixi={o\bibinitperiod},
-         family={the …},
-         familyi={t\bibinitperiod},
-         given={B.\bibnamedelima D.\bibnamedelima M.},
-         giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
-  M\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{GDD+1}
-    \strng{fullhash}{GDDAMSLtBDMo1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2009}
-    \field{labeldatesource}{year}
-    \field{sortinit}{G}
-    \field{sortinithash}{G}
-    \verb{doi}
-    \verb 10.1136/ard.2008.094839
-    \endverb
-    \field{title}{Cardiovascular morbidity in psoriatic arthritis}
-    \verb{url}
-    \verb http://dx.doi.org/10.1136/ard.2008.094839
-    \endverb
-    \field{type}{Journal Article}
-    \field{journaltitle}{Annals of the …}
-    \field{year}{2009}
-  \endentry
-
   \entry{Griffiths2007}{article}{}
     \name{author}{2}{}{%
       {{hash=GCEM}{%
@@ -1098,51 +1048,6 @@
     \field{type}{Journal Article}
     \field{journaltitle}{… Journal of Dermatology}
     \field{year}{2009}
-  \endentry
-
-  \entry{Sampogna2012}{article}{}
-    \name{author}{3}{}{%
-      {{hash=SF}{%
-         family={Sampogna},
-         familyi={S\bibinitperiod},
-         given={Francesca},
-         giveni={F\bibinitperiod},
-      }}%
-      {{hash=TS}{%
-         family={Tabolli},
-         familyi={T\bibinitperiod},
-         given={Stefano},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=AD}{%
-         family={Abeni},
-         familyi={A\bibinitperiod},
-         given={Damiano},
-         giveni={D\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{SF+1}
-    \strng{fullhash}{SFTSAD1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2012}
-    \field{labeldatesource}{year}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \verb{doi}
-    \verb 10.2340/00015555-1273
-    \endverb
-    \field{number}{3}
-    \field{pages}{299\bibrangedash 303}
-    \field{title}{Living with psoriasis: prevalence of shame, anger, worry, and
-  problems in daily activities and social life}
-    \verb{url}
-    \verb http://dx.doi.org/10.2340/00015555-1273
-    \endverb
-    \field{volume}{92}
-    \field{type}{Journal Article}
-    \field{journaltitle}{Acta dermato-venereologica}
-    \field{year}{2012}
   \endentry
 
   \entry{Strange2010}{article}{}

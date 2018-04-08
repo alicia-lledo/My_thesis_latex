@@ -10,26 +10,41 @@
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 10
 \BOOKMARK [1][-]{section.1.1}{Psoriasis and psoriatic arthritis}{chapter.1}% 11
 \BOOKMARK [2][-]{subsection.1.1.1}{Epidemiology and global impact}{section.1.1}% 12
-\BOOKMARK [2][-]{subsection.1.1.2}{PSO and inflammatory dermatoses}{section.1.1}% 13
+\BOOKMARK [2][-]{subsection.1.1.2}{Psoriasis and inflammatory dermatoses}{section.1.1}% 13
 \BOOKMARK [2][-]{subsection.1.1.3}{PsA and spondyloarthropaties}{section.1.1}% 14
 \BOOKMARK [1][-]{section.1.2}{Pathophysiology of psoriasis and psoriatic arthritis}{chapter.1}% 15
 \BOOKMARK [2][-]{subsection.1.2.1}{Clinical presentation and diagnosis}{section.1.2}% 16
-\BOOKMARK [2][-]{subsection.1.2.2}{Aetiology of PSO and PsA}{section.1.2}% 17
-\BOOKMARK [3][-]{subsubsection*.16}{Dysregulation of the innate and adaptive immune response}{subsection.1.2.2}% 18
-\BOOKMARK [2][-]{subsection.1.2.3}{Cell types involved in PSO and PsA pathogenesis}{section.1.2}% 19
-\BOOKMARK [2][-]{subsection.1.2.4}{Therapeutic intervention and prognosis}{section.1.2}% 20
-\BOOKMARK [0][-]{chapter.2}{Material and Methods}{}% 21
-\BOOKMARK [1][-]{section.2.1}{Ethical approval and recruitment of study participants}{chapter.2}% 22
-\BOOKMARK [2][-]{subsection.2.1.1}{PSO patient recruitment}{section.2.1}% 23
-\BOOKMARK [2][-]{subsection.2.1.2}{PsA patient recruitment}{section.2.1}% 24
-\BOOKMARK [2][-]{subsection.2.1.3}{Healthy volunteer recruitment}{section.2.1}% 25
-\BOOKMARK [1][-]{section.2.2}{Sample processing}{chapter.2}% 26
-\BOOKMARK [2][-]{subsection.2.2.1}{PBMC and synovial fluid cells isolation}{section.2.2}% 27
-\BOOKMARK [2][-]{subsection.2.2.2}{Primary cell isolation using magnetic-activated cell sorting}{section.2.2}% 28
-\BOOKMARK [2][-]{subsection.2.2.3}{Primary cell isolation using fluorescence-activated cell sorting}{section.2.2}% 29
-\BOOKMARK [2][-]{subsection.2.2.4}{Skin biopsies processing and adherent assay}{section.2.2}% 30
-\BOOKMARK [1][-]{section.2.3}{Experimental protocols}{chapter.2}% 31
-\BOOKMARK [2][-]{subsection.2.3.1}{Cryopreservation and cell culture}{section.2.3}% 32
-\BOOKMARK [2][-]{subsection.2.3.2}{ATAC-seq, Fast-ATAC and Omni-ATAC}{section.2.3}% 33
-\BOOKMARK [2][-]{subsection.2.3.3}{Chromatin Immunoprecipitation with sequencing library preparation by Tn5 transposase}{section.2.3}% 34
-\BOOKMARK [0][-]{chapter*.22}{Bibliography}{}% 35
+\BOOKMARK [2][-]{subsection.1.2.2}{Aetiology of psoriasis and PsA}{section.1.2}% 17
+\BOOKMARK [3][-]{subsubsection*.15}{Histopathological alterations in skin and joints}{subsection.1.2.2}% 18
+\BOOKMARK [3][-]{subsubsection*.16}{Dysregulation of the innate and adaptive immune response}{subsection.1.2.2}% 19
+\BOOKMARK [3][-]{subsubsection*.17}{Environmental factors and disease}{subsection.1.2.2}% 20
+\BOOKMARK [2][-]{subsection.1.2.3}{Cell types involved in psoriasis and PsA pathogenesis}{section.1.2}% 21
+\BOOKMARK [2][-]{subsection.1.2.4}{Therapeutic intervention and prognosis}{section.1.2}% 22
+\BOOKMARK [1][-]{section.1.3}{Genetics of psoriasis and psoriatic arthritis}{chapter.1}% 23
+\BOOKMARK [2][-]{subsection.1.3.1}{Heritability}{section.1.3}% 24
+\BOOKMARK [2][-]{subsection.1.3.2}{Genetic studies}{section.1.3}% 25
+\BOOKMARK [3][-]{subsubsection*.19}{Non-GWAS and linkage studies}{subsection.1.3.2}% 26
+\BOOKMARK [3][-]{subsubsection*.20}{GWAS}{subsection.1.3.2}% 27
+\BOOKMARK [2][-]{subsection.1.3.3}{MHC and non-MHC associations with disease risk}{section.1.3}% 28
+\BOOKMARK [2][-]{subsection.1.3.4}{The role of coding and non-coding variants in disease susceptibility}{section.1.3}% 29
+\BOOKMARK [2][-]{subsection.1.3.5}{The role of GWAS studies in highlighting disease relevant tissues}{section.1.3}% 30
+\BOOKMARK [0][-]{chapter.2}{Material and Methods}{}% 31
+\BOOKMARK [1][-]{section.2.1}{Ethical approval and recruitment of study participants}{chapter.2}% 32
+\BOOKMARK [2][-]{subsection.2.1.1}{PSO patient recruitment}{section.2.1}% 33
+\BOOKMARK [2][-]{subsection.2.1.2}{PsA patient recruitment}{section.2.1}% 34
+\BOOKMARK [2][-]{subsection.2.1.3}{Healthy volunteer recruitment}{section.2.1}% 35
+\BOOKMARK [1][-]{section.2.2}{Sample processing}{chapter.2}% 36
+\BOOKMARK [2][-]{subsection.2.2.1}{PBMC and synovial fluid cells isolation}{section.2.2}% 37
+\BOOKMARK [2][-]{subsection.2.2.2}{Primary cell isolation using magnetic-activated cell sorting}{section.2.2}% 38
+\BOOKMARK [2][-]{subsection.2.2.3}{Primary cell isolation using fluorescence-activated cell sorting}{section.2.2}% 39
+\BOOKMARK [2][-]{subsection.2.2.4}{Skin biopsies processing and adherent assay}{section.2.2}% 40
+\BOOKMARK [1][-]{section.2.3}{Experimental protocols}{chapter.2}% 41
+\BOOKMARK [2][-]{subsection.2.3.1}{Cryopreservation and cell culture}{section.2.3}% 42
+\BOOKMARK [2][-]{subsection.2.3.2}{ATAC-seq, Fast-ATAC and Omni-ATAC}{section.2.3}% 43
+\BOOKMARK [2][-]{subsection.2.3.3}{Chromatin Immunoprecipitation with sequencing library preparation by Tn5 transposase}{section.2.3}% 44
+\BOOKMARK [2][-]{subsection.2.3.4}{Nucleic acids extraction and RNA-seq}{section.2.3}% 45
+\BOOKMARK [3][-]{subsubsection*.25}{Bulk RNA-seq}{subsection.2.3.4}% 46
+\BOOKMARK [3][-]{subsubsection*.26}{PsA memory CD4+ and CD8+ single-cell RNA-seq}{subsection.2.3.4}% 47
+\BOOKMARK [3][-]{subsubsection*.27}{Small-bulk RNA-seq }{subsection.2.3.4}% 48
+\BOOKMARK [2][-]{subsection.2.3.5}{CyTOF}{section.2.3}% 49
+\BOOKMARK [0][-]{chapter*.28}{Bibliography}{}% 50
