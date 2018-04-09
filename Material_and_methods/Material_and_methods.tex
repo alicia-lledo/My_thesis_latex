@@ -142,7 +142,7 @@ Improved versions of the ATAC-seq protocol were progressively used in the thesis
 
 After MACS separation, primary cells were manually counted as above specified and they were resuspended in PBS with 1\% FCS. As previously stated, due to reduced accuracy of manual cell counting compared to FACS sorting, in my experiments ATAC-seq was performed using an estimated number of cells between 50,000 to 100,000. ATAC-seq was performed as described in Buenrostro \textit{et al.}, 2013 with minor modifications. Cells were centrifuged at 500g for 5 min at 4{$^\circ$}C. After removing the supernatant cells were lysed for 10 min, the nuclei were transposed using the Nextera Tn5 transposase (Illumina) for 40 min at 37{$^\circ$}C and DNA was purified using the PCR MinElute kit (Qigen). Additional modifications and performance in 96-well plates were implemented for KC and they will be described in %(Chapter \ref{ch:}). 
 
-After appropriate determination of the amount of DNA amplification using qPCR, samples were amplified and singled indexed for 11 PCR cycles using modified Nextera primers from Buenrostro \textit{et al.},2013 (Table\ref{tab:Indexing_primers}). The resulting DNA libraries were purified using the MinElute kit and additional Agencourt AMPure XP Magentic Beads (Beckman Coulter), according to the manual specifications, to remove the remaining adaptors and primer dimers.
+After appropriate determination of the amount of DNA amplification using qPCR, samples were amplified and singled indexed for 11 PCR cycles using modified Nextera primers from Buenrostro \textit{et al.},2013 (Table\ref{tab:Indexing_primers}). The resulting DNA libraries were purified using the MinElute PCR purification kit  (Qiagen) and additional Agencourt AMPure XP Magentic Beads (Beckman Coulter), according to the manual specifications, to remove the remaining adaptors and primer dimers.
 
 \begin{landscape}
 \begin{table}[htbp]
@@ -194,16 +194,16 @@ Following either of the three protocols, DNA tagmentation profiles were assessed
 \subsection{Chromatin Immunoprecipitation with sequencing library preparation by Tn5 transposase}
 Assessment of histone marks modification in the chromatin of psoriasis patients from Cohort 1B and four age matched healthy volunteers was performed using a low cell input Chromatin Immunoprecipitation (ChIP) method know as ChIPmentation (ChIPm). For each individual and cell type three histone marks, including H3K27ac, H3K4me1 and X were tested in 100,000 cells and compared to an input control processed in parallel. Samples were processed following the protocol published by Schmidl and colleagues \parencite{Schmidl2015} with some modifications. Aliquots of 600,000 cells of MACS sorted cell types, as described in \ref{sample_processing}, were fixed with 1\% formaldehyde (Sigma) and snap frozen in dry ice and ethanol prior to storage at -80{$^\circ$}C. Chromatin sonications of the different individuals and cell types were performed in one batch using Covaris M220(Covaris). Each of the aliquots was resuspended in 130$\micro$L of SDS lysis buffer (Table\ref{tab:ChIPm_buffers}), sonicated for 8 min using a duty factor of 5\% and aliquoted for single ChIPm reactions prior to long term storage at -80{$^\circ$}C.
 
-Sonicated chromatin aliquots were thawed and resuspended in appropriate volume of ChIP equilibration buffer (Table\ref{tab:ChIPm_buffers}), in order to achieve the appropriate concentration of NaCl and Triton-X100. For the immunoprecipitation step, samples were incubated with the appropriate amount of antibody (Table \ref{tab:ChIPm_antibodies}) overnight in rotation  at 4{$^\circ$}C. Protein-A Dynabeads (Invitrogen) were also washed three times with Beads wash buffer (Table\ref{tab:ChIPm_buffers}) and blocked with yeast tRNA (supplier) overnight in rotation at 4{$^\circ$}C. Beads were washed twice with the aforementioned washing buffer and resuspended in SDS lysis buffer before being added to the sample-antibody mix. One of the advantages of this protocol is the tagmentation of the chromatin when still bound to the beads prior to protein decross-linking, which allows preventing overtagmentation of the DNA. 
+Sonicated chromatin aliquots were thawed and the appropriate volume of ChIP equilibration buffer (Table\ref{tab:ChIPm_buffers}) was added in order to achieve the appropriate concentration of NaCl and Triton-X100 as well as reduce the SDS concentration to 0.1\%. For the immunoprecipitation step, samples were incubated with the appropriate amount of antibody (Table \ref{tab:ChIPm_antibodies}) overnight in rotation  at 4{$^\circ$}C. Protein-A Dynabeads (Invitrogen) were also washed three times with bead wash buffer (Table\ref{tab:ChIPm_buffers}) and blocked with yeast tRNA (Ambion) and BSA (NEB) overnight in rotation at 4{$^\circ$}C. Beads were washed twice with the aforementioned washing buffer and resuspended in ChIPm buffer (Table\ref{tab:ChIPm_buffers}) before being added to the sample-antibody mix. Tagmentation was performed on the bead-antibody bound crosslinked complexes, which prevents overtagmentation of the DNA. 
 
-qPCR was performed in each of the purified ChIPm DNA samples to identify the number of full cycles required to reach one-third of the final fluorescence. Libraries were amplified for the number of cycles minus one determined with this strategy, allowing to minimise the total number of PCR replicates. The primers used for amplification and indexing are the ones optimised by Buensotro and colleagues (Table\ref{tab:Indexing_primers}). The number of amplification cycles for each of the samples is recorded in %\ref{Table:}.
+Amplification by qPCR was done in each of the purified ChIPm DNA samples to identify the number of full cycles required to reach one-third of the final fluorescence. Libraries were amplified for the number of cycles minus one determined with this strategy to minimise the total number of PCR replicates. The primers used for amplification and indexing were the ones optimised by Buenrostro and colleagues (Table\ref{tab:Indexing_primers}). The number of amplification cycles for each of the samples is recorded in %\ref{Table:}.
 
 \begin{table}[htbp]
 \setlength{\tabcolsep}{20pt}
 \renewcommand{\arraystretch}{1.5}
-\begin{tabular}{@{} c c c}
+\begin{tabular}{@{} c c}
 \toprule
-\textbf{Reagent} & \textbf{Final concentration} & \textbf{Supplier} \\
+\textbf{Reagent} & \textbf{Final concentration}\\
  & & \\
 \bottomrule
  & \textbf{SDS lysis buffer} & \\
@@ -218,27 +218,39 @@ Water & - & Ambion \\
  & \textbf{ChIP equilibration buffer}  & \\
 \midrule
 \midrule
-Triton-X100 & 1.66\% & Sigma	\\
-EDTA	& 1mM & X \\
-NaCl	& 233mM & X \\
-Tris-HCl pH 8 & 10mM & Sigma \\
-PI & 1X & Roche \\
-Water & - & Ambion \\
+Triton-X100 & 1.66\% \\
+EDTA	& 1mM \\
+NaCl	& 233mM \\
+Tris-HCl pH 8 & 10mM \\
+PI & 1X \\
+Water & - \\
 \bottomrule
  & \textbf{Beads washing buffer} & \\
 \midrule
 \midrule
-SDS & 0.1\% & Sigma	\\
-EDTA	& 50mM & X \\
-NaCl & 150mM & X \\
-NP-40 & 1\% & Sigma \\
-Tris-HCl pH 8 & 10mM & Sigma \\
-PI & 1X & Roche \\
-Water & - & Ambion \\
+SDS & 0.1\% \\
+EDTA	& 50mM \\
+NaCl & 150mM \\
+NP-40 & 1\% \\
+Tris-HCl pH 8 & 10mM \\
+PI & 1X \\
+Water & - \\
+\bottomrule
+
+ & \textbf{ChIP buffer} & \\
+\midrule
+\midrule
+SDS & 0.1\% \\
+Triton-X100 & 1\% \\
+EDTA	& 1mM \\
+NaCl & 140mM \\
+Tris-HCl pH 8 & 10mM \\
+PI & 1X \\
+Water & - \\
 \bottomrule
 \end{tabular}
 \medskip %gap
-\caption[ChIPm buffers modified from Schmidl \textit{et. al}, 2015]{\textbf{Composition of the three modified buffers in house for the ChIPm protocol: SDS lysis buffer, ChIP equilibration buffer and beads washing buffer. For each of the buffers the reagents, composition and supplier are indicated.The final volume prepared for each buffer was adjusted depending on the number of samples processed at the time. Sodium dodecyl sulfate (SDS), PI (proteinase inhibitor).}}
+\caption[ChIPm buffers modified from Schmidl \textit{et. al}, 2015]{\textbf{Composition of the three modified buffers in house for the ChIPm protocol: SDS lysis buffer, ChIP equilibration buffer, beads washing buffer and ChIP buffer. For each of the buffers the reagents, composition and supplier are indicated.The final volume prepared for each buffer was adjusted depending on the number of samples processed at the time. Sodium dodecyl sulfate (SDS), PI (proteinase inhibitor). Supplier for each of the reagents as follows: SDS (Sigma), EDTA(xxx), Tris-HCl pH8 (xx), Triton-X100 (xxx), NP-40 (Sigma) NaCl(xx), PI (Roche) and water (Ambion) }}
 \label{tab:ChIPm_buffers}
 \end{table}
 \bigskip %bigger space
@@ -248,11 +260,11 @@ Water & - & Ambion \\
 \renewcommand{\arraystretch}{1.5}
 \begin{tabular}{@{} c c c c}
 \toprule
-\textbf{Histone mark} & \textbf{Feature} &\textbf{$\micro$L per sample} & \textbf{Manufacturer and catalogue num.}\\
+\textbf{Histone mark} & \textbf{Feature} &\textbf{$\micro$g per sample} & \textbf{Manufacturer}\\
 \midrule
-H3K427ac & Promoter & X & \\
-H3K4me1 & Active enhancer & X & \\
-X & X & X & \\
+H3K27ac & Active enhancer, promoter & 2 & Diagenode (C15410196)\\
+H3K4me1 & Enhancer & 1 & Diagenode (C15410194)\\
+H3K4me3 & Active promoter, enhancer & 1 & Diagenode (C15410003) \\
 \bottomrule
 \end{tabular}
 \medskip %gap
@@ -287,10 +299,8 @@ Between 100 to 500 cells of the five populations isolated from PsA patients were
 \subsection{Sequencing of the T cell receptor V(D)J region}
 Single-cell sequencing of the V(D)J segments from TCR transcripts was performed simultaneously with the 10X Genomics technology Chromium 5' expression library kit (PN-1000014) by the Oxford Genomics Centre at the Wellcome Trust Centre for Human Genetics. In short, full-length cDNA was amplified by PCR with primers against the 5’ and 3’ ends of the barcode sequences inherent to the 10X Genomics bead technology. The amplified material was divided for use in 5' total sc-RNAseq (as especified previously in \ref{scRNA_processing}) and also for enrichment of the TCR by PCR amplification with specific primers. TCR enriched cDNA was followed by enzymatic fragmentation and size selection in order to obtain variable length fragments spanning the V(D)J segments. Library prep and indexing was followed by Illumina HiSeq4000 xxxx bp single-end sequencing at a depth of XXX reads per cell.
 
-\subsection{DNA extraction and Sanger sequencing for genotyping of the SNP rs4672505}
-DNA isolation was performed using the AllPrep DNA/mRNA/microRNA Universal kit (Qiagen) following the manufacturer's instructions. Basic quantification was performed using NanoDrop (Thermo Scientific) and kept at -80{$^\circ$}C for long term storage.
-
-%PCR for rs4672505 primer, sequencing and sequence analysis with appropriate tools. I think I can add the primers here
+\subsection{DNA extraction and genotyping of the SNP rs4672505}
+DNA isolation was performed using the AllPrep DNA/mRNA/microRNA Universal kit (Qiagen) following the manufacturer's instructions. Basic quantification was performed using NanoDrop (Thermo Scientific) and kept at -80{$^\circ$}C for long term storage. For each of the patients and controls, the extracted DNA was amplify by PCR using forward (5'-CACTGTGGAGGGAGGAACAA-3') and reverse (5'-CGTGTTGGCCAGGATAGTCT-3')primers annealing up and down stream the SNP rs4672505, respectively. The 390 bp PCR product was purified using MinElute PCR purification kit, quantified by dsDNA Qbit kit (Invitrogen) according to the manufacturer's instructions and prepared for Sanger sequencing using the Mix2Seq service (Eurofins). The forward and reverse sequences were analysed with BioEdit software.
 
 
 
@@ -313,6 +323,7 @@ NGS data for each of the samples was trimmed for low quality base pairs and Next
 
 		\subsubsection{Chromatin state annotation}
 		\subsubsection{Reproducibility}
+	
 		
 \subsection{ChIPm data analysis}
 
