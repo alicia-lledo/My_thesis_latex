@@ -314,22 +314,37 @@ Very brief
 
 \section{Computational and statistical analysis}
 \subsection{ATAC-seq data analysis}
-ATAC-seq, Fast-ATAc and Omni-ATAC data were analysed using an in house pipeline towards which development I made an important contribution. The pipeline performs single sample data processing and it also builds a combined master list for each of the comparisons of interest to later perform differential analysis. 
-NGS data for each of the samples was trimmed for low quality base pairs and Nextera adapter sequences using cutadapt v1.11 \parencite{} before general QC assessment using fastqc \parencite{}. Trimmed data was alignment to the reference genome buil hg19 using bowtie2 \parencite{} and the following parametres -k 4 -X 2000 -I 38 --mm -1, consistently with other publications \parencite{Buenrostro2013, Corces2016}. PCR duplicate reads were marked with Picard Tools \parencite{} and removed with Samtools \parencite{} together with low MAPQ  (${<}$30) reads non-uniquely and non-properly paired.
+ATAC-seq, Fast-ATAC and Omni-ATAC data were analysed using an in house pipeline towards which development I made an important contribution. The pipeline performs single sample data processing and it also builds a combined master list for each of the comparisons of interest to later perform differential analysis. 
+
+\subsubsextion{Next generation sequencing data analysis}
+NGS data for each of the samples was trimmed for low quality base pairs and Nextera adapter sequences using cutadapt \parencite{} before general QC assessment using fastqc \parencite{}. Trimmed data was alignment to the reference genome built hg19 using bowtie2 \parencite{Langmead2006} and the following parameters -k 4 -X 2000 -I 38 --mm -1, consistently with other publications \parencite{Buenrostro2013, Corces2016}. Samtools \parencite{} was used to remove PCR duplicates reads previously marked with Picard Tools \parencite{} as well as low MAPQ (${<}$30) non-uniquely and non-properly paired reads. The resulting bam file was additional filtered to remove mitochondrial DNA and reads were adjusted by +4 bp in the plus strand and by -5 bp in the minus strand to represent the center of the transposition binding event. 
+
+\subsubsection{Peak calling and filtering}
+Peak calling was performed using MACS2  callpeak \parencite{} and the parametres --nomodel --shift -100 --extsize 200 --p 0.1 --keep-dup all --call-summits and filtered for those overlapping with the blacklisted features from ENCODE project \parencite{}. The --shift and --extsize parameters were set according to the recommendations of MACS2 for DHS and following other ATAC-seq publications \parencite{Buenrostro2015, Corces2016}. Pileup tracks (BigWig files) for visualisation were generated using bedtools genomeCoverageBed where each value represents number of reads per position per million reads (implement the -s 10^3) \parencite{} and the UCSC genome browser bedGraphToBigWig tool \parencite{}. The pval cut off for peak filtering was determine for each of the cell types separately. 
+For a particular cell type, the bam file of each sample (patients and controls) was partitioned in two (pseudorreplicates) and peak calling was performed in each of them followed by Irreproducibility Discovery Rate (IDR) analysis to assess the percentage of peaks sharing IDR at each corresponding pval. Median of the pval showing the greater percentage across all the samples was used to filter each peak list. Peak summits were replaced by the median of the summits for those with multiple called summits and extended +/- 250bp to create a non-overlapping homogenous 500bp peak list \parencite{Buenrostro2015, Corces2016}. 
+
+Sample quality was determined by the fol-change enrichment of ATAC-seq signal across all the TSS identified by Ensembl, since chromatin is expected to be more accessible at the sites of transcriptional initiation compared to the flanking regions.  
+
+\subsubsection{Combined peak master list and differential analysis}
+To perform differential open chromatin analysis a non-overlapping 500bp peak master list was built for each cell type separately by union of all the peaks that were present in at least 30\% of the samples, regardless patient and control group. Reads overlapping each of those peaks were retrieved for each sample using HTSeq-count algorithm \parencite{} to build a combined count matrix. The count matrix was quantile normalised using the function normalize.quantiles from R. An empirical 95\% confidence cut off for the number of counts in absent peaks was calculated on the normalised count matrix \parencite{Xinmin2005,Jonker2014} and used to replace the counts in each of the peaks in the master list not called (absent) in the corresponding sample. Differential analysis was performed using lineal model analysis with limma voom R package and correcting for covariates xxxxx
+A combined master list for all cell types and tissues (when applicable) was also built following the same strategy for principal component analysis (PCA) purposes. 
+
+\subsubsection{Chromatin state annotation}
+
+\subsubsection{Reproducibility}
 
 
+\subsection{Gene annotation of chromatin accessibility and histone modified genomic regions}
+ATAC-seq and ChIPm peaks were annotated with gene entities using an in house algorithm developed by Dr. Hai Fang. It takes into account not only the closest gene but also publicly available data regarding chromatin conformation capture \parencite{}, eQTL \parencite{} and enhancer RNA \parencite{} in several cell types. This approach was not biased by the physical vicinity to a gene when annotating genomic intervals that were located at intergenic regions or gene desserts, integrating the knowledge in the field about regulatory regions affecting the expression of distal genes.  
 
 
-
-		\subsubsection{Chromatin state annotation}
-		\subsubsection{Reproducibility}
 	
 		
 \subsection{ChIPm data analysis}
 
 \subsection{RNA-seq data analysis}
 
-\subsection{Chromatin state annotation}
+
 
 \subsection{Publicly available datasets}
 
