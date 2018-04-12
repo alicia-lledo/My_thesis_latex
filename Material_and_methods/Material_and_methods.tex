@@ -21,7 +21,7 @@ Psoriasis patients were eligible for recruitment when meeting the following crit
 	\item available clinical information and written consent
 \end{itemize}
 
-Detailed clinical information of the psoriasis cohort is included in (Chapter \ref{ch:})(Table \ref{tab:}).
+Detailed clinical information of the psoriasis cohort is included in %(Chapter \ref{ch:})(Table \ref{tab:}).
 
 \subsection{PsA patient recruitment}
 Sample recruitment was performed as part of the Immune Function in Inflammatory Arthritis (IFIA) study established in 2013 (REC/06/Q1606/139)in collaboration with research nurses at the Nuffield Orthopaedic Centre, Oxford University Hospitals NHS Trust and Dr Hussein Al-Mossawi at the Botnar Research Centre. Following informed written consent, blood (30 mL) and synovial fluid aspirate (variable upon disease severity) were recruited into 10 mL anticoagulant sodium heparin coated tubes (Vacutainer System, Becton Dickson).
@@ -94,7 +94,7 @@ CD56 & BV510 & NCAM16.2 & BD & xxx\\
 
 
 
-
+%Long table example
 %\begin{longtable}{ p{.15\textwidth} p{.25\textwidth} p{.2\textwidth} p{.15\textwidth} p{.15\textwidth}}
 %\caption[Antibody panel used for FACS separation of primary cell populations in controls and PsA samples]{\textbf{Details regarding target molecule, fluorochrome, clone, supplier and dilution used for PBMC and SFC staining are provided for each of the antibodies in the panel. In controls only CD3, CD4 and CD4 markers were used.}}
 %\label{tab:FACS_antibodies} \\
@@ -192,15 +192,13 @@ Following either of the three protocols, DNA tagmentation profiles were assessed
 
 
 \subsection{Chromatin Immunoprecipitation with sequencing library preparation by Tn5 transposase}
-Assessment of histone marks modification in the chromatin of psoriasis patients from Cohort 1B and four age matched healthy volunteers was performed using a low cell input Chromatin Immunoprecipitation (ChIP) method know as ChIPmentation (ChIPm). For each individual and cell type three histone marks, including H3K27ac, H3K4me1 and X were tested in 100,000 cells and compared to an input control processed in parallel. Samples were processed following the protocol published by Schmidl and colleagues \parencite{Schmidl2015} with some modifications. Aliquots of 600,000 cells of MACS sorted cell types, as described in \ref{sample_processing}, were fixed with 1\% formaldehyde (Sigma) and snap frozen in dry ice and ethanol prior to storage at -80{$^\circ$}C. Chromatin sonications of the different individuals and cell types were performed in one batch using Covaris M220(Covaris). Each of the aliquots was resuspended in 130$\micro$L of SDS lysis buffer (Table\ref{tab:ChIPm_buffers}), sonicated for 8 min using a duty factor of 5\% and aliquoted for single ChIPm reactions prior to long term storage at -80{$^\circ$}C.
+Assessment of histone marks modification in the chromatin of psoriasis patients from Cohort 1B and four age matched healthy volunteers was performed using a low cell input Chromatin Immunoprecipitation (ChIP) method know as ChIPmentation (ChIPm). For each individual and cell type three histone marks, including H3K27ac, H3K4me1 and X were tested in chromatin isolated from 100,000 cells and compared to an input chromatin sample processed in parallel. Samples were processed following the protocol published by Schmidl and colleagues \parencite{Schmidl2015} with some modifications. Aliquots of 600,000 cells of MACS sorted cell types, as described in \ref{sample_processing}, were fixed with 1\% formaldehyde (Sigma) and snap frozen in dry ice and ethanol prior to storage at -80{$^\circ$}C. Chromatin sonications of the different individuals and cell types were performed in one batch using Covaris M220(Covaris). Each of the aliquots was resuspended in 130$\micro$L of SDS lysis buffer (Table\ref{tab:ChIPm_buffers}), sonicated for 8 min using a duty factor of 5\% and aliquoted for single ChIPm reactions prior to long term storage at -80{$^\circ$}C.
 
-Sonicated chromatin aliquots were thawed and the appropriate volume of ChIP equilibration buffer (Table\ref{tab:ChIPm_buffers}) was added in order to achieve the appropriate concentration of NaCl and Triton-X100 as well as reduce the SDS concentration to 0.1\%. For the immunoprecipitation step, samples were incubated with the appropriate amount of antibody (Table \ref{tab:ChIPm_antibodies}) overnight in rotation  at 4{$^\circ$}C. Protein-A Dynabeads (Invitrogen) were also washed three times with bead wash buffer (Table\ref{tab:ChIPm_buffers}) and blocked with yeast tRNA (Ambion) and BSA (NEB) overnight in rotation at 4{$^\circ$}C. Beads were washed twice with the aforementioned washing buffer and resuspended in ChIPm buffer (Table\ref{tab:ChIPm_buffers}) before being added to the sample-antibody mix. Tagmentation was performed on the bead-antibody bound crosslinked complexes, which prevents overtagmentation of the DNA. 
+Sonicated chromatin aliquots were thawed and 1.5 volumes of ChIP equilibration buffer (Table\ref{tab:ChIPm_buffers}) was added in order to  reduce the SDS concentration to 0.1\% and to achieve the appropriate concentration of NaCl and Triton-X100. For the immunoprecipitation step, samples were incubated with the appropriate amount of antibody (Table \ref{tab:ChIPm_antibodies}) overnight in rotation  at 4{$^\circ$}C . Protein-A Dynabeads (Invitrogen) were also washed in beads wash buffer (Table\ref{tab:ChIPm_buffers}), blocked with yeast tRNA (Ambion) and BSA (NEB) overnight in rotation at 4{$^\circ$}C and added to the sample-antibody mix for incubation. After appropriate washes, tagmentation was performed on the bead-antibody bound crosslinked complexes, which prevents overtagmentation of the DNA. This was followed by protein K digest, reverse crosslinking, elution of the DNA and from the beads and purification using PCR MinElute kit. The chromatin input control samples were quantified with Qbit after reverse crosslinking and 1ng of chromatin was used for tagmentation.
 
-Amplification by qPCR was done in each of the purified ChIPm DNA samples to identify the number of full cycles required to reach one-third of the final fluorescence. Libraries were amplified for the number of cycles minus one determined with this strategy to minimise the total number of PCR replicates. The primers used for amplification and indexing were the ones optimised by Buenrostro and colleagues (Table\ref{tab:Indexing_primers}). The number of amplification cycles for each of the samples is recorded in %\ref{Table:}.
+Amplification by qPCR was done in each of the samples and control inputs to identify the number of full cycles required to reach one-third of the final fluorescence. Libraries were amplified for the number of cycles minus one determined with this strategy to minimise the total number of PCR replicates. The primers used for amplification and indexing were the ones optimised by Buenrostro and colleagues (Table\ref{tab:Indexing_primers}). The number of amplification cycles for each of the samples is recorded in %\ref{Table:}.
 
 \begin{table}[htbp]
-\setlength{\tabcolsep}{20pt}
-\renewcommand{\arraystretch}{1.5}
 \begin{tabular}{@{} c c}
 \toprule
 \textbf{Reagent} & \textbf{Final concentration}\\
@@ -213,7 +211,7 @@ SDS & 0.25\% & Sigma \\
 EDTA	& 1mM & X \\
 Tris-HCl pH 8 & 10mM & Sigma \\
 PI & 1X & Roche \\
-Water & - & Ambion \\
+Water & - \\
 \bottomrule
  & \textbf{ChIP equilibration buffer}  & \\
 \midrule
@@ -288,6 +286,7 @@ RNA-seq quality control (QC), quantification, library preparation and sequencing
 
 \subsubsection{PsA memory CD4$^{+}$ and CD8$^{+}$ single-cell RNA-seq} 
 \label{scRNA_processing}
+
 Single CD4$^{+}$ or CD8$^{+}$ memory T cells were sorted in 2$\micro$L of cell lysis buffer into 96-well plates. Four and three plates were prepared for CD4$^{+}$ and CD8$^{+}$, respectively, including wells containing 50 cells in each of the plates for control purposes. Libraries were prepared,indexed and sequenced at the Sanger Institute (Cambridge) using the Smart-seq2 methodology as described by Picelli and colleagues \parencite{Picelli2014}. Samples were sequenced using 50-bp single-end Illumina HiSeq2500 at a depth of approximately 4 million reads per cell. %look in notebook for details about scRNA in Cambridge
 
 scRNA-seq was also generated in FACS sorted 1:1 ratio CD4$^{+}$ or CD8$^{+}$ memory T cells and in bulk PBMC using 10X Genomics technology Chromium single cell 3' and 5' expression library prep kits (PN-120267 and PN-1000014, respectively) by the Oxford Genomics Centre at the Wellcome Trust Centre for Human Genetics. Libraries were sequenced with Illumina HiSeq4000 xxxbp single-end at a depth of 50,000 reads per cell.
@@ -296,31 +295,29 @@ scRNA-seq was also generated in FACS sorted 1:1 ratio CD4$^{+}$ or CD8$^{+}$ mem
 Between 100 to 500 cells of the five populations isolated from PsA patients were FACS sorted into 2$\micro$L of cell lysis buffer and processed for library prep as in Picelli \textit{et al.}, 2014 by the Oxford Genomics Centre at the Wellcome Trust Centre for Human Genetics. Libraries were sequenced with Illumina HiSeq4000 xxxx bp single-end at a depth of XXX reads per cell.
 
 
-\subsection{Sequencing of the T cell receptor V(D)J region}
-Single-cell sequencing of the V(D)J segments from TCR transcripts was performed simultaneously with the 10X Genomics technology Chromium 5' expression library kit (PN-1000014) by the Oxford Genomics Centre at the Wellcome Trust Centre for Human Genetics. In short, full-length cDNA was amplified by PCR with primers against the 5’ and 3’ ends of the barcode sequences inherent to the 10X Genomics bead technology. The amplified material was divided for use in 5' total sc-RNAseq (as especified previously in \ref{scRNA_processing}) and also for enrichment of the TCR by PCR amplification with specific primers. TCR enriched cDNA was followed by enzymatic fragmentation and size selection in order to obtain variable length fragments spanning the V(D)J segments. Library prep and indexing was followed by Illumina HiSeq4000 xxxx bp single-end sequencing at a depth of XXX reads per cell.
+\subsection{Single-cell analysis of the V(D)J T cell receptor repertoire}
+Single-cell sequencing of the V(D)J segments from TCR transcripts was performed simultaneously with the 10X Genomics technology Chromium 5' expression library kit (PN-1000014) by the Oxford Genomics Centre at the Wellcome Trust Centre for Human Genetics. In short, full-length cDNA was amplified by PCR with primers against the 5’ and 3’ ends of the barcode sequences inherent to the 10X Genomics bead technology. The amplified material was divided for use in 5' total sc-RNAseq (as specified previously in \ref{scRNA_processing}) and also for enrichment of the TCR by PCR amplification with specific primers. TCR enriched cDNA was followed by enzymatic fragmentation and size selection in order to obtain variable length fragments spanning the V(D)J segments. Library prep and indexing was followed by Illumina HiSeq4000 xxxx bp single-end sequencing at a depth of XXX reads per cell.
 
-\subsection{DNA extraction and genotyping of the SNP rs4672505}
+\subsection{DNA extraction and SNP genotyping}
 DNA isolation was performed using the AllPrep DNA/mRNA/microRNA Universal kit (Qiagen) following the manufacturer's instructions. Basic quantification was performed using NanoDrop (Thermo Scientific) and kept at -80{$^\circ$}C for long term storage. For each of the patients and controls, the extracted DNA was amplify by PCR using forward (5'-CACTGTGGAGGGAGGAACAA-3') and reverse (5'-CGTGTTGGCCAGGATAGTCT-3')primers annealing up and down stream the SNP rs4672505, respectively. The 390 bp PCR product was purified using MinElute PCR purification kit, quantified by dsDNA Qbit kit (Invitrogen) according to the manufacturer's instructions and prepared for Sanger sequencing using the Mix2Seq service (Eurofins). The forward and reverse sequences were analysed with BioEdit software.
-
-
 
 
 
 \subsection{CyTOF}
 
-Look at my notes
-
-Very brief
+%Look at my notes.Very brief
 
 \section{Computational and statistical analysis}
+
 \subsection{ATAC-seq data analysis}
+\label{ATAC_analysis}
 ATAC-seq, Fast-ATAC and Omni-ATAC data were analysed using an in house pipeline towards which development I made an important contribution. The pipeline performs single sample data processing and it also builds a combined master list for each of the comparisons of interest to later perform differential analysis. 
 
-\subsubsextion{Next generation sequencing data analysis}
-NGS data for each of the samples was trimmed for low quality base pairs and Nextera adapter sequences using cutadapt \parencite{} before general QC assessment using fastqc \parencite{}. Trimmed data was alignment to the reference genome built hg19 using bowtie2 \parencite{Langmead2006} and the following parameters -k 4 -X 2000 -I 38 --mm -1, consistently with other publications \parencite{Buenrostro2013, Corces2016}. Samtools \parencite{} was used to remove PCR duplicates reads previously marked with Picard Tools \parencite{} as well as low MAPQ (${<}$30) non-uniquely and non-properly paired reads. The resulting bam file was additional filtered to remove mitochondrial DNA and reads were adjusted by +4 bp in the plus strand and by -5 bp in the minus strand to represent the center of the transposition binding event. 
+\subsubsection{Next generation sequencing data analysis}
+NGS data for each of the samples was trimmed for low quality base pairs and Nextera adapter sequences using cutadapt \parencite{} before general QC assessment using fastqc \parencite{}. Trimmed data was alignment to the reference genome built hg19 using bowtie2 \parencite{Langmead2006} and the following parameters -k 4 -X 2000 -I 38 --mm -1, consistently with other publications \parencite{Buenrostro2013, Corces2016}. Samtools \parencite{} was used to remove PCR duplicates reads previously marked with Picard Tools \parencite{} as well as low MAPQ (${<}$30) non-uniquely and non-properly paired reads. The resulting bam file was additional filtered to remove mitochondrial DNA and reads were adjusted by +4 bp in the plus strand and by -5 bp in the minus strand to represent the center of the transposition binding event. Pileup tracks (bigWig files) for visualisation were generated using bedtools genomeCoverageBed where each value represents number of reads per position \parencite{} and the UCSC genome browser bedGraphToBigWig tool \parencite{}.  
 
 \subsubsection{Peak calling and filtering}
-Peak calling was performed using MACS2  callpeak \parencite{} and the parametres --nomodel --shift -100 --extsize 200 --p 0.1 --keep-dup all --call-summits and filtered for those overlapping with the blacklisted features from ENCODE project \parencite{}. The --shift and --extsize parameters were set according to the recommendations of MACS2 for DHS and following other ATAC-seq publications \parencite{Buenrostro2015, Corces2016}. Pileup tracks (BigWig files) for visualisation were generated using bedtools genomeCoverageBed where each value represents number of reads per position per million reads (implement the -s 10^3) \parencite{} and the UCSC genome browser bedGraphToBigWig tool \parencite{}. The pval cut off for peak filtering was determine for each of the cell types separately. 
+Peak calling was performed using MACS2  callpeak \parencite{} and the parametres --nomodel --shift -100 --extsize 200 --p 0.1 --keep-dup all --call-summits and filtered for those overlapping with the blacklisted features from ENCODE project \parencite{}. The --shift and --extsize parameters were set according to the recommendations of MACS2 for DHS and following other ATAC-seq publications \parencite{Buenrostro2015, Corces2016}. The pval cut off for peak filtering was determine for each of the cell types separately. 
 For a particular cell type, the bam file of each sample (patients and controls) was partitioned in two (pseudorreplicates) and peak calling was performed in each of them followed by Irreproducibility Discovery Rate (IDR) analysis to assess the percentage of peaks sharing IDR at each corresponding pval. Median of the pval showing the greater percentage across all the samples was used to filter each peak list. Peak summits were replaced by the median of the summits for those with multiple called summits and extended +/- 250bp to create a non-overlapping homogenous 500bp peak list \parencite{Buenrostro2015, Corces2016}. 
 
 Sample quality was determined by the fol-change enrichment of ATAC-seq signal across all the TSS identified by Ensembl, since chromatin is expected to be more accessible at the sites of transcriptional initiation compared to the flanking regions.  
@@ -329,22 +326,40 @@ Sample quality was determined by the fol-change enrichment of ATAC-seq signal ac
 To perform differential open chromatin analysis a non-overlapping 500bp peak master list was built for each cell type separately by union of all the peaks that were present in at least 30\% of the samples, regardless patient and control group. Reads overlapping each of those peaks were retrieved for each sample using HTSeq-count algorithm \parencite{} to build a combined count matrix. The count matrix was quantile normalised using the function normalize.quantiles from R. An empirical 95\% confidence cut off for the number of counts in absent peaks was calculated on the normalised count matrix \parencite{Xinmin2005,Jonker2014} and used to replace the counts in each of the peaks in the master list not called (absent) in the corresponding sample. Differential analysis was performed using lineal model analysis with limma voom R package and correcting for covariates xxxxx
 A combined master list for all cell types and tissues (when applicable) was also built following the same strategy for principal component analysis (PCA) purposes. 
 
-\subsubsection{Chromatin state annotation}
-
-\subsubsection{Reproducibility}
 
 
-\subsection{Gene annotation of chromatin accessibility and histone modified genomic regions}
-ATAC-seq and ChIPm peaks were annotated with gene entities using an in house algorithm developed by Dr. Hai Fang. It takes into account not only the closest gene but also publicly available data regarding chromatin conformation capture \parencite{}, eQTL \parencite{} and enhancer RNA \parencite{} in several cell types. This approach was not biased by the physical vicinity to a gene when annotating genomic intervals that were located at intergenic regions or gene desserts, integrating the knowledge in the field about regulatory regions affecting the expression of distal genes.  
 
 
-	
-		
 \subsection{ChIPm data analysis}
+
+\subsubsection{Next generation sequencing data analysis}
+ChIPm NGS data from samples and inputs were processed similarly to ATAC-seq (\ref(ATAC_analysis)) for trimming, mapping and filtering. For visualisation of each sample, biWig files with subtracted noise from the input were generated using MACS2 bdgcmp -m subtract and bedGraphToBigWig tools .
+
+\subsubsection{Peak calling and filtering}
+Peak calling for each sample was performed accounting for the background in the input samples using MACS2 callpeak --bw 200 --p 0.1 --keep-dup all --call-summits. In this case the average library fragment size(--bw) was used by MACS2 to first empirically find the model that better represent the precise protein-DNA interaction and then calling peaks with statistical confidence (pval) using the input sample
+to calculate the local background. Filtering and down stream peak homogenisation was performed similarly to ATAC-seq analysis (\ref(ATAC_analysis)).
+
+Sample quality for H3K27ac and H3K4me3 ChIPm samples was determined by the fold-change enrichment of the histone mark across all the TSS identified by Ensembl, since both marks are enriched at promoters.  
+
+\subsubsection{Combined peak master list and differential analysis}
+To perform differential histone modification analysis a peak master list was built and counts at each of the locations were performed as described for ATAC-seq (\ref(ATAC_analysis)). PCA analysis was performed for samples from all cell types and individuals in a combined master list.
+
+Differential analysis
+
+
 
 \subsection{RNA-seq data analysis}
 
+	\subsubsection{Bulk RNA-seq analysis}
+
+	\subsubsection{Single-cell RNA-seq analysis}
+
+\subsection{Pathway enrichment analysis}
 
 
-\subsection{Publicly available datasets}
+\subsection{Genomic region annotation and pathway visualisation}
+Annotation of genomic regions and signalling-pathways visualisation were performed with two functionalities of the R package and web-app Atlas and Analysis of systems-biology-led pathways, developed by Dr. Hai Fang and towards which I have made some contribution (submitted manuscript)\parencite{}. ATAC-seq and ChIPm peaks were annotated with gene entities taking into account not only the closest gene but also publicly available data regarding chromatin conformation capture \parencite{}, eQTL \parencite{} and enhancer RNA \parencite{} in several cell types. This approach was not biased by the physical vicinity to a gene when annotating genomic intervals located at intergenic regions or gene desserts and it integrates the knowledge in the field about regulatory regions affecting the expression of distal genes. For visualisation, manually curated KEGG pathways including all the genes for each gene family were colored based on the fold-change from the corresponding differential analysis and highlighted in bold when passing the FDR threshold for significance .
+
+
+\subsection{Statistical fine-mapping}
 
