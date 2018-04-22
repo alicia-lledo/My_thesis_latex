@@ -208,19 +208,35 @@ MHC and non-MHC associations with disease risk
 
 
 
-\subsection{Coding and non-coding variants in disease susceptibility}
+\subsection{Relevance of non-coding versus coding variants in disease susceptibility}
 
 %-Most of genetic variation in GWAS is in non-coding regions
-GWAS studies have revealed a large number of SNPs associated to different complex diseases. From all the GWAS associations, approximately 88\% of the hits map within non-coding regions and only few are coding variants causing non-synonimous mutations with impact at the protein level \parencite{Welter2013}. Exome psoriasis association studies in Chinese and Caucasian populations have increased the number of coding variants with putative effect in protein coding \parencite{Tang2014,Zuo2015,Dand2017}. These studies confirmed some of the previously identified missense associations in \textit{CARD14}, \textit{ERAP1} and \textit{ZNF815A} \parencite{Tang2014}, revealed new common ones at previously GWAS associated loci such as \text{IL23R} and identified protective rare missense changes at \textit{TYK2} and \textit{IFIH1} \parencite{Dand2017}. Nevertheless, results from extenssive exome studies suggest that non-synonimous SNPs have a limited contribution to the overall genetic risk of psoriasis when compared to non-coding variants \parencite{Tang2014}.
+GWAS studies have revealed a large number of SNPs associated to different complex diseases. From all the GWAS associations, approximately 88\% of the hits map within non-coding regions and only few are coding variants causing non-synonymous mutations with impact in proteins by truncation or alteration in folding or glycosylation \parencite{Welter2013}. 
 
 
 %-Coding variants are an small proportion: e.g in psoriasis and PsA from exome wide studies. Say that associations could come through LD of coding variants but not always. Examples in psoriasis
-Non-synonymous   variants   in   coding   regions   of   a   gene change the amino acid sequence and can often lead to altered function through mechanisms such as protein truncation or changes in protein folding or glycosylation. 
-Synonymous polymorphisms, which do not alter protein sequences, can  affect protein expression by altering   mRNA   stability   and  hence   the   amount   of protein   that   will   be   translated  
+Exome psoriasis association studies in Chinese and Caucasian populations have increased the number of coding variants with putative effect in protein coding \parencite{Tang2014,Zuo2015,Dand2017}. These studies confirmed some of the previously identified missense associations in \textit{CARD14}, \textit{ERAP1} and \textit{ZNF815A} \parencite{Tang2014}, revealed new common ones at previously GWAS associated loci such as \text{IL23R} and identified protective rare missense changes at \textit{TYK2} and \textit{IFIH1} \parencite{Dand2017}. Nevertheless, results from extenssive exome studies suggest that non-synonimous SNPs have a limited contribution to the overall genetic risk of psoriasis when compared to non-coding variants \parencite{Tang2014}.
 
-Link to the non-coding an analysis of the quantity and distribution of genetic variation within humans concluded that the average gene contains 126 polymorphisms and only five of which occur in coding regions.4
 
 %-Mechanisms which give functionality to non-coding variants
+Non-coding variants associated with disease could become causal by altering the regulation of gene expression. These variants are usually found at introns, intergenic regions or gene deserts. The functional mechanism by which they affect gene expression will depend on the type of regulatory element where the variants are located, including enhancer, silencers, promoters and the 5' and 3' untranslated region (UTR) of genes (ref). It will also be influenced by the dynamic cell and context specific functional epigenome, which involves different DNA and DNA-protein bound modifications such as methylation and acetylation, as detailed later on and defines the accessibility of the surrounding chromatin (ref).
+
+Non-coding variants at enhancers, silencers and promoter can dysregulate gene expression by altering affinity for transcription factor (TF) binding  and drive alterations in histone modifications and chromatin accessibility (ref). For example, in thyroid autoimmunity the risk allele of an intronic SNP in the tyroid stimulating hormone receptor \textit(TSHR) reduces \textit{TSHR} expression by increasing the affinity of the repressor promyelocytic leukemia zinc finger protein (PLZF), which impairs tolerance to thyroid auto-antigens \parencite{Stefan2014}. Alterations in TF binding can also affect looping and long-range chromatin interactions between enhancers and promoter, which for example in prostate cancer causes upregulated expression of the oncogene \textit{SOX9} due to increased interaction and enhancer activity \parencite{Zhang2012}. Non-coding SNP can regulate gene expression by creating a new promoter-like element, as it is the case in $\alpha$- thalassemia leading to  dysregulated downstream activation of all $\alpha$-like globin genes \parencite{Gobbi2006}. 
+Non-coding variants at the 3' UTR SNP can affect binding of micro-RNA and lnc-RNA and therefore alter transcript stability and translation. For example  there is a Crohn’s-disease-associated variant at the 3'UTR of the gene immunity related GTPase M \textit{IRGM} that reduces binding of the miR-196 which increases stability of the transcript and enhancing mRNA transcript altering autophagy \parencite{Brest2011}
+In psoriasis and PsA some SNPs located at 3' UTR of genes such as \textit{IL-23}, \textit{TRAF3IP2} or \textit{SOCS1} have been hypothesised to create or alter miRNA binding sites but there is lack of experimental evidence \parencite{Pivarcsi2014}.
+
+-Splicing alterations
+
+-eQTL relevance in this context to introduce the models
+
+
+-Availability of resources to help in this and post-GWAS approaches.
+	
+
+
+
+
+
 Julian paper-->How can genetic variation to affect transcription: transcription factor binding affinity at enhancer or promoter elements; disruption ofchromatin   interactions;   the   action   of   microRNAs   or chromatin   regulators;   alternative   splicing;   and   post-translational modifications
 Julian paper-->  Changes in transcription factor binding   related   to   sequence   variants   are   thought   to   be   a principal driver of changes in histone modifications, enhancer choice and gene expression
 
@@ -231,9 +247,6 @@ They can cause up or down regulation and the mechanisms by which they alter gene
 	-Epigenetics including DNA methylation and chormatin accessibility (including histone modifications)
 -Intronic variants: create alternative splicing or isoforms
 
--They can also be located at the 5' and 3' untranslated region (UTR) of genes. 
-	-When located at the 5'UTR they can be altering the promoter activity of the gene and may affect initiation of translation
-	-When located in 3'UTR they may be creating or deleting a binding site for lncRNA and miRNAs affecting the transcript stability and translation
 
 
 -Relate to cis and trans concepts in Julian paper
@@ -285,6 +298,8 @@ Approaches:
  eases
 	-Functional annotations using computational tools
 	-In vivo/in vitro experimental assays in cells and model organisms
+	
+	-Example about it
 	
 
 \subsection{The use of fine-mapping to prioritise causal variants}
@@ -341,6 +356,10 @@ Ward and Kellis 2012 paper includes methodology to incorporate this data for the
 \textbf{Chromatin accessibility}
 \textbf{Histone modifications}
 \textbf{Transcription factor occupancy}
+Multiple   variants   in   strong   linkage   disequilibrium   (LD)
+ identified by GWAS can exert functional effects through
+ various different enhancers, resulting in cooperative effects
+ on gene expression  Stefan et al 2014
 \textbf{Chromatin interaction}
 
 
