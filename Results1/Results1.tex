@@ -1,0 +1,80 @@
+\chapter{Establishment of laboratory methods and amalytical tools to assay genome-wide chromatin accessibility in clinical samples}
+\label{ch:Results 1}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+\subsection*{Previous and current methods to identify the accessible genome in cells and tissues}
+\subsection*{Implementation of ATAC-seq to define the chromatin landscape}
+\subsection*{Technical limitations and recent advances in optimisation}
+\subsection*{Challenges of working with clinical samples}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Results}
+%
+
+\subsection*{Implementation of an ATAC-seq data analysis pipeline based on current knowledge}
+When the first ATAC-seq publication by Buenrostro \textit{et al.}, 2013 appeared there were not well established protocols for the processing of the data. Since then, several publications have used ATAC-seq and modifications of this protocol to answer different biological questions and have been implementing different ways of analysing the data. 
+
+*Mention main limitations
+
+
+*Table summary of how different papers have addressed it
+
+
+
+*Choosing the way to proceed for each of those limiting steps and explaining with a graph why
+	* Assessment of QC: do TSS for the CD4
+	* Peak calling
+	* Differential analysis: Data to use maybe the core data CD14 vs CD4
+	
+	
+	
+	
+\begin{landscape}
+\begin{table}[htbp]
+\setlength{\tabcolsep}{20pt}
+%\renewcommand{\arraystretch}{1.5} makes it longer
+\begin{center}
+\begin{tabular}{@{} c c}
+\toprule
+\textbf{Publication} & \textbf{Peak calling and filtering} & \textbf{Master list} & \textbf{Differential analysis} \\
+\midrule
+\midrule
+Corces \textit{et al.,}2016 & MACS2 --nomodel  & Rank peak summits -log10pval & ??Quantile normalisation of count matrix\\
+                          & Peak summit extension +/-250bp 									& Non overlapping peaks maximally significant & In-house Pearson correlation method\\
+\midrule
+ENCODE 										& MACS2 --nomodel  								& All IDR significant peaks & Not established\\
+                          & Pseudorreplicates IDR analysis 	&  													& \\
+													& Only peaks with IDR X 					&  													& \\
+
+\midrule
+Matthias 									& MACS2 --nomodel  								& All IDR significant peaks & Not established\\
+                          & Pseudorreplicates IDR analysis 	&  													& \\
+													& Only peaks with IDR X 					&  													& \\
+
+
+\midrule
+Alasoo \textit{et al.,}2017 & MACS2 --nomodel  								& All IDR significant peaks & Not established\\
+														& Pseudorreplicates IDR analysis 	&  													& \\
+														& Only peaks with IDR X 					&  													& \\
+
+
+\midrule
+Qu \textit{et al.,}2017 		& MACS2 --nomodel  									& All IDR significant peaks & Not established\\
+														& Pseudorreplicates IDR analysis 		&  													& \\
+														& Only peaks with IDR X 						&  													& \\
+
+Rendeiro \textit{et al.,}2016 & MACS2 --nomodel  								& All IDR significant peaks & Not established\\
+															& Pseudorreplicates IDR analysis 	&  													& \\
+															& Only peaks with IDR X 					&  													& \\													
+\bottomrule
+\end{tabular}
+\medskip %gap
+\caption[Summary table of ATAC-seq methodology analysis for peak calling, filtering and differential analysis]{\textbf{.}}
+\label{tab:ATAC_comparative_methods}
+\end{center}
+\end{table}
+\end{landscape}
+\bigskip %bigger space
+
