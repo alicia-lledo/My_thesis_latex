@@ -18,77 +18,67 @@
 \contentsline {chapter}{\hbox to\@tempdima {\hfil }Abbreviations}{x}{chapter*.11}
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Material and Methods}{1}{chapter.1}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Ethical approval and recruitment of study participants}{1}{section.1.1}
+\contentsline {section}{\numberline {1.1}Psoriasis and psoriatic arthritis}{1}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.1}Psoriasis patient recruitment}{1}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Epidemiology and global impact}{1}{subsection.1.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.2}PsA patient recruitment}{2}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.2}Psoriasis and inflammatory dermatoses}{2}{subsection.1.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.3}Healthy volunteer recruitment}{3}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.3}PsA and spondyloarthropaties}{3}{subsection.1.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Sample processing}{3}{section.1.2}
+\contentsline {section}{\numberline {1.2}Pathophysiology of psoriasis and psoriatic arthritis}{4}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}PBMC and synovial fluid cells isolation}{3}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.1}Clinical presentation and diagnosis}{4}{subsection.1.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Primary cell isolation using magnetic-activated cell sorting}{4}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.2}Aetiology of psoriasis and PsA}{8}{subsection.1.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.3}Primary cell isolation using fluorescence-activated cell sorting}{4}{subsection.1.2.3}
+\contentsline {subsubsection}{Histopathological alterations in skin and joints}{8}{subsubsection*.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.4}Skin biopsies processing and adherent assay}{5}{subsection.1.2.4}
+\contentsline {subsubsection}{Dysregulation of the innate and adaptive immune response}{9}{subsubsection*.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Experimental protocols}{6}{section.1.3}
+\contentsline {subsubsection}{Environmental factors and disease}{11}{subsubsection*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.1}Cryopreservation and cell culture}{6}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.2.3}Cell types involved in psoriasis and PsA pathogenesis}{11}{subsection.1.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.2}ATAC-seq, Fast-ATAC and Omni-ATAC}{7}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.2.4}Therapeutic intervention and prognosis}{17}{subsection.1.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.3}Chromatin Immunoprecipitation with sequencing library preparation by Tn5 transposase}{10}{subsection.1.3.3}
+\contentsline {section}{\numberline {1.3}Genetics of psoriasis and psoriatic arthritis}{18}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.4}RNA extraction and RNA-seq}{12}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {1.3.1}Heritability}{18}{subsection.1.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Bulk RNA-seq}{12}{subsubsection*.17}
+\contentsline {subsection}{\numberline {1.3.2}Non-GWAS and linkage studies}{19}{subsection.1.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{PsA memory CD4$^{+}$ and CD8$^{+}$ single-cell RNA-seq}{15}{subsubsection*.18}
+\contentsline {subsection}{\numberline {1.3.3}Genome-wide association studies}{20}{subsection.1.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Small-bulk RNA-seq }{15}{subsubsection*.19}
+\contentsline {subsection}{\numberline {1.3.4}Relevance of non-coding versus coding variants in disease susceptibility}{23}{subsection.1.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.5}Sequencing of the T cell receptor V(D)J region}{15}{subsection.1.3.5}
+\contentsline {subsection}{\numberline {1.3.5}The role of GWAS studies in highlighting immune-relevant cell types and pathways}{25}{subsection.1.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.6}DNA extraction and genotyping of the SNP rs4672505}{16}{subsection.1.3.6}
+\contentsline {subsubsection}{Antigen presentation}{27}{subsubsection*.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.7}CyTOF}{16}{subsection.1.3.7}
+\contentsline {subsubsection}{Skin barrier}{28}{subsubsection*.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Computational and statistical analysis}{16}{section.1.4}
+\contentsline {subsubsection}{NF-$\kappa $B, type I IFN and innate immunity}{28}{subsubsection*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.1}ATAC-seq data analysis}{16}{subsection.1.4.1}
+\contentsline {subsubsection}{TNF, IL-17 and IL-23 pathways}{30}{subsubsection*.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Next generation sequencing data analysis}{17}{subsubsection*.20}
+\contentsline {subsubsection}{Other pathways}{31}{subsubsection*.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Peak calling and filtering}{17}{subsubsection*.21}
+\contentsline {subsubsection}{Gene deserts}{31}{subsubsection*.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Combined peak master list and differential analysis}{18}{subsubsection*.22}
+\contentsline {subsection}{\numberline {1.3.6}Limitations and future of GWAS studies}{31}{subsection.1.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.2}ChIPm data analysis}{19}{subsection.1.4.2}
+\contentsline {section}{\numberline {1.4}Functional interpretation of genome-wide association studies in complex diseases}{34}{section.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Next generation sequencing data analysis}{19}{subsubsection*.23}
+\contentsline {subsection}{\numberline {1.4.1}Overcoming the limitations of GWAS: post-GWAS studies}{34}{subsection.1.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Peak calling and filtering}{19}{subsubsection*.24}
+\contentsline {subsection}{\numberline {1.4.2}The use of fine-mapping to prioritise causal variants}{34}{subsection.1.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Combined peak master list and differential analysis}{19}{subsubsection*.25}
+\contentsline {subsection}{\numberline {1.4.3}The importance of context specificity in the regulation of gene expression}{34}{subsection.1.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.3}RNA-seq data analysis}{20}{subsection.1.4.3}
+\contentsline {subsection}{\numberline {1.4.4}Approaches to establish disease mechanisms and causality of genetic variant}{35}{subsection.1.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Bulk RNA-seq analysis}{20}{subsubsection*.26}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Single-cell RNA-seq analysis}{20}{subsubsection*.27}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.4}Pathway enrichment analysis}{20}{subsection.1.4.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.5}Genomic region annotation and pathway visualisation}{20}{subsection.1.4.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.6}Statistical fine-mapping}{20}{subsection.1.4.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{21}{chapter*.28}
+\contentsline {chapter}{Bibliography}{48}{chapter*.25}
 \contentsfinish 
