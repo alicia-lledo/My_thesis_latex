@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  2 MAY 2018 21:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  13 MAY 2018 19:36
 entering extended mode
 **./Thesis.tex
 (Thesis.tex
@@ -1011,7 +1011,7 @@ File: english.lbx 2017/11/21 v3.9 biblatex localization (PK/JW/AB)
 \@quotelevel=\count329
 \@quotereset=\count330
  (Thesis.aux (Preamble.aux)
-(Introduction/Introduction.aux))
+(Results1/Results1.aux))
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 79.
@@ -1130,7 +1130,7 @@ Package biblatex Info: Reference segment=0 on input line 79.
 
 
 (Preamble.tex
-<oxford_logo-eps-converted-to.pdf, id=167, pagebox=cropbox, 561.09625pt x 651.43375pt>
+<oxford_logo-eps-converted-to.pdf, id=59, pagebox=cropbox, 561.09625pt x 651.43375pt>
 File: oxford_logo-eps-converted-to.pdf Graphic file (type pdf)
 <use oxford_logo-eps-converted-to.pdf>
 Package pdftex.def Info: oxford_logo-eps-converted-to.pdf  used on input line 6. on input line 6.
@@ -1192,23 +1192,28 @@ LaTeX Font Info:    Try loading font information for TS1+jkp on input line 23.
 
 (C:\Users\alicia\AppData\Roaming\MiKTeX\2.9\tex\latex\kpfonts\ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
-) [6
-
-])
+))
 \tf@toc=\write6
 \openout6 = `Thesis.toc'.
 
- [7] (Thesis.lof)
+ [6
+
+] (Thesis.lof)
 \tf@lof=\write7
 \openout7 = `Thesis.lof'.
 
- [8
+ [7
 
-] (Thesis.lot)
+] (Thesis.lot
+Underfull \hbox (badness 1917) in paragraph at lines 7--7
+ [][] [][]\OT1/jkp/m/n/12 Summary ta-ble of ATAC-seq method-ol-ogy anal-y-sis for peak 
+ []
+
+)
 \tf@lot=\write8
 \openout8 = `Thesis.lot'.
 
- [9
+ [8
 
 ]
 Overfull \hbox (2.33203pt too wide) in paragraph at lines 142--142
@@ -1220,225 +1225,137 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--145
 []|\OT1/jkp/b/n/12 Atopic
  []
 
-) [10
+) [9
 
 ]
-\openout2 = `./Introduction/Introduction.aux'.
+\openout2 = `./Results1/Results1.aux'.
 
- (Introduction/Introduction.tex
+ (Results1/Results1.tex
 Chapter 1.
 
-LaTeX Warning: Citation 'Villanova2016' on page 1 undefined on input line 10.
-
-
-Underfull \hbox (badness 2809) in paragraph at lines 10--11
-\OT1/jkp/m/n/12 in-flam-ma-tory der-matose dis-ease with episodes of re-lapse and re-mi-tance
- []
-
-
-Underfull \hbox (badness 1360) in paragraph at lines 10--11
-\OT1/jkp/m/n/12 ([]Nes-tle et al. []2009[]). On the other hand, PsA is a seroneg-a-tive chronic
- []
-
-
-Underfull \hbox (badness 2426) in paragraph at lines 10--11
-\OT1/jkp/m/n/12 in-flam-ma-tory dis-ease within the fam-ily of spondy-loarthri-tis ([]Moll et al.
- []
-
-
-Underfull \hbox (badness 1460) in paragraph at lines 10--11
-[]\OT1/jkp/m/n/12 1973[]; []Coates et al. []2016a[]) that usu-ally de-vel-ops af-ter the pso-ri-a-sis skin
- []
-
-
-Underfull \hbox (badness 1975) in paragraph at lines 10--11
-\OT1/jkp/m/n/12 clin-i-cal fea-tures, which are likely a re-flec-tion of the com-mon-al-i-ties and
+Overfull \hbox (17.14226pt too wide) in paragraph at lines 1--1
+\OT1/jkp/b/n/24.88 wide chro-matin ac-ces-si-bil-ity in clin-i-cal
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.17 
-      [1
+l.21 ...allenges of working with clinical samples}
+                                                   [1
 
 
 
 ]
-
-LaTeX Warning: Citation 'Reich2008' on page 2 undefined on input line 18.
-
-
-Underfull \hbox (badness 1210) in paragraph at lines 18--19
-\OT1/jkp/m/n/12 et al. []2012[])but it dra-mat-i-cally in-creases to 10-30% within pso-ri-a-sis cases
+Underfull \hbox (badness 1460) in paragraph at lines 27--27
+|[]\OT1/jkp/b/n/14.4 Establishment of an ATAC-seq data anal-y-sis pipeline
  []
 
 
-LaTeX Warning: Citation '(' on page 2 undefined on input line 20.
-
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no £ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no £ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-
-LaTeX Warning: Citation 'ICD-10' on page 2 undefined on input line 28.
+LaTeX Warning: Citation 'Buenrostro2013' on page 2 undefined on input line 28.
 
 
-LaTeX Warning: Citation 'Roderick2014' on page 2 undefined on input line 28.
+LaTeX Warning: Citation 'Buenrostro2013' on page 2 undefined on input line 29.
 
 
-LaTeX Warning: Citation 'Johnson-Huang' on page 2 undefined on input line 28.
+Underfull \hbox (badness 2221) in paragraph at lines 32--33
+[]\OT1/jkp/m/n/12 Regarding QC mea-sure-ments, the vari-abil-ity in per-for-mance of the
+ []
 
 
-LaTeX Warning: Citation '2009' on page 2 undefined on input line 28.
+Underfull \hbox (badness 1038) in paragraph at lines 32--33
+\OT1/jkp/m/n/12 method-ol-ogy, par-tic-u-larly ATAC-seq and Fast-ATAC, has re-quired to agree
+ []
 
 [2]
-
-LaTeX Warning: Citation 'Runwaleit2001' on page 3 undefined on input line 33.
-
-
-LaTeX Warning: Citation 'Runwaleit2001' on page 3 undefined on input line 33.
-
-
-LaTeX Warning: Citation 'Said-Nahal2000 \parencite ' on page 3 undefined on input line 33.
-
-
-Underfull \hbox (badness 1102) in paragraph at lines 33--34
-\OT1/jkp/m/n/12 sites such as eyes, gut and skin. Ad-di-tional SpA cri-te-ria have led to a
+Underfull \hbox (badness 1831) in paragraph at lines 34--35
+\OT1/jkp/m/n/12 ev-ery $\OMS/jkp/m/n/12 $\OT1/jkp/m/n/12 200bp (Fig-ure []1.1[]a). All the sam-ples showed pe-ri-od-ic-
+ity up to
  []
 
 
-Underfull \hbox (badness 1112) in paragraph at lines 33--34
-\OT1/jkp/m/n/12 the hy-poth-e-sis that SpA sub-types may be a sin-gle mul-ti-faceted con-di-tion
+Underfull \hbox (badness 1852) in paragraph at lines 36--37
+\OT1/jkp/m/n/12 sig-nals ranged be-tween 5-7 for the CD4$[]$ sam-ples and they were much
  []
 
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
-|[]\OT1/jkp/b/n/17.28 Pathophysiology of pso-ri-a-sis and pso-ri-atic
- []
+<./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_frag_size_distribution.pdf, id=148, pagebox=cropbox, 438.63875pt x 505.89pt>
+File: ./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_frag_size_distribution.pdf Graphic file (type pdf)
+<use ./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_frag_size_distribution.pdf>
+Package pdftex.def Info: ./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_frag_size_distribution.pdf  used on input line 50. on 
+input line 50.
+Package pdftex.def Info: Requested size: 192.0579pt x 227.62523pt on input line 50.
+<./Results1/pdfs/TSS_enrichment_Core_fresh_CD4_CD14.pdf, id=149, pagebox=cropbox, 574.04465pt x 505.89pt>
+File: ./Results1/pdfs/TSS_enrichment_Core_fresh_CD4_CD14.pdf Graphic file (type pdf)
+<use ./Results1/pdfs/TSS_enrichment_Core_fresh_CD4_CD14.pdf>
+Package pdftex.def Info: ./Results1/pdfs/TSS_enrichment_Core_fresh_CD4_CD14.pdf  used on input line 56. on input line 56
+.
+Package pdftex.def Info: Requested size: 192.05432pt x 227.62523pt on input line 56.
+<./Results1/pdfs/ATAC_Core_CD4_CD14_fresh_GAPDH.pdf, id=150, pagebox=cropbox, 542.025pt x 336.74106pt>
+File: ./Results1/pdfs/ATAC_Core_CD4_CD14_fresh_GAPDH.pdf Graphic file (type pdf)
+<use ./Results1/pdfs/ATAC_Core_CD4_CD14_fresh_GAPDH.pdf>
+Package pdftex.def Info: ./Results1/pdfs/ATAC_Core_CD4_CD14_fresh_GAPDH.pdf  used on input line 62. on input line 62.
+Package pdftex.def Info: Requested size: 192.05217pt x 227.62439pt on input line 62.
+<./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_corr_tss_vs_frac_reads_in_peaks.pdf, id=151, pagebox=cropbox, 438.63875pt x 50
+5.89pt>
+File: ./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_corr_tss_vs_frac_reads_in_peaks.pdf Graphic file (type pdf)
+<use ./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_corr_tss_vs_frac_reads_in_peaks.pdf>
+Package pdftex.def Info: ./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_corr_tss_vs_frac_reads_in_peaks.pdf  used on input lin
+e 67. on input line 67.
+Package pdftex.def Info: Requested size: 192.0579pt x 227.62523pt on input line 67.
+[3] [4 <./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_frag_size_distribution.pdf> <./Results1/pdfs/TSS_enrichment_Core_fresh_
+CD4_CD14.pdf> <./Results1/pdfs/ATAC_Core_CD4_CD14_fresh_GAPDH.pdf> <./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_corr_tss_vs
+_frac_reads_in_peaks.pdf>] [5]
+
+LaTeX Warning: Citation 'Corces2016' on page 6 undefined on input line 113.
 
 
-LaTeX Warning: Citation 'McGonagle' on page 4 undefined on input line 45.
-
-
-LaTeX Warning: Citation '2011' on page 4 undefined on input line 45.
-
-
-LaTeX Warning: Citation 'Moll1976' on page 4 undefined on input line 45.
-
-
-LaTeX Warning: Citation 'McGonagle' on page 4 undefined on input line 45.
-
-
-LaTeX Warning: Citation '2011' on page 4 undefined on input line 45.
-
-[4]
-
-LaTeX Warning: Citation 'Saphiro2007' on page 5 undefined on input line 47.
-
-
-LaTeX Warning: Citation 'Cohrn20017' on page 5 undefined on input line 47.
-
-
-Underfull \hbox (badness 1603) in paragraph at lines 47--48
-\OT1/jkp/m/n/12 al. []2006[]), type II di-a-betes (T2D) ([]) and metabolic syn-drome
- []
-
-
-LaTeX Warning: Citation 'Schmitt2005' on page 5 undefined on input line 49.
-
-
-LaTeX Warning: Citation 'add ref from cell types' on page 5 undefined on input line 49.
-
-
-Underfull \hbox (badness 1077) in paragraph at lines 49--50
-\OT1/jkp/m/n/12 since there is a lack of ap-pro-pri-ate biomark-ers at early stages of dis-ease
+Overfull \hbox (7.16785pt too wide) in paragraph at lines 113--113
+[]|\OT1/jkp/m/n/12 ([])| 
  []
 
 
-LaTeX Warning: Citation 'Taylor2006' on page 5 undefined on input line 51.
-
-
-LaTeX Warning: Citation 'Philipp2011' on page 5 undefined on input line 51.
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 57--68
-[][]
- []
-
-[6]
-
-! Package array Error: Empty preamble: `l' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.80 ...ar disease (joint, spine, or enthesial) }}
-                                                   \\
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package array Error: Empty preamble: `l' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.81 ...{ with three points from five categories}}
-                                                   \\
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (2.24922pt too wide) in paragraph at lines 79--97
-[][]
- []
-
-[7
-
-]
-
-LaTeX Warning: Reference `fig:PSO_aetiology_diagram' on page 8 undefined on input line 107.
-
-
-Underfull \hbox (badness 1286) in paragraph at lines 118--119
-\OT1/jkp/m/n/12 self-renews in a time de-pen-dent man-ner from the bot-tom to the sur-face
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
+\OT1/jkp/m/n/12 ex-ten-sion $+\OML/jkp/m/it/12 =\OMS/jkp/m/n/12  $\OT1/jkp/m/n/12 250bp, rank
  []
 
 
-Underfull \hbox (badness 3229) in paragraph at lines 118--119
-\OT1/jkp/m/n/12 up-reg-u-la-tion in the pro-lif-er-a-tion rate (hy-per-pla-sia) that causes aber-rant
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
+[]|\OT1/jkp/m/n/12 Maximally sig-nif-i-cant non-
  []
 
 
-LaTeX Warning: Citation 'Schett2011' on page 8 undefined on input line 120.
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+[]|\OT1/jkp/m/n/12 Quantile nor-mal-i-sa-tion and
+ []
 
 
-LaTeX Warning: Citation 'Mensah2017' on page 8 undefined on input line 120.
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+\OT1/jkp/m/n/12 un-su-per-vised hi-er-ar-chi-cal
+ []
 
 
-LaTeX Warning: Citation 'Schett2011' on page 8 undefined on input line 120.
-
-[8
-
-]
-
-LaTeX Warning: Citation 'Leanne2009' on page 9 undefined on input line 125.
+LaTeX Warning: Citation 'ENCODE' on page 6 undefined on input line 116.
 
 
-LaTeX Warning: Citation 'Schmid1994' on page 9 undefined on input line 125.
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
+[]|\OT1/jkp/m/n/12 Choosing longest pair-wise
+ []
+
+
+Underfull \hbox (badness 5817) in paragraph at lines 116--116
+\OT1/jkp/m/n/12 present in the two sam-ples
+ []
+
+
+LaTeX Warning: Citation 'Turner2018' on page 6 undefined on input line 119.
+
+
+Overfull \hbox (7.93582pt too wide) in paragraph at lines 119--119
+[]|\OT1/jkp/m/n/12 ([])| 
+ []
 
 ! Undefined control sequence.
-<recently read> \kapa 
-                      
-l.127 ...-enhancer of activated B cells (NF-$\kapa
-                                                  $B) signaling pathways (re...
+l.119 ...s from the different cell types. & \texti
+                                                  {De novo}:DiffReps with fr...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1446,877 +1363,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-<recently read> \kapa 
-                      
-l.127 ...In the context of inflammation, NF-$\kapa
-                                                  $B represents a master tra...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \kapa 
-                      
-l.127 ...nflammatory activity, including NF-$\kapa
-                                                  $B inhibitor alpha \textit...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[9]
-! Undefined control sequence.
-l.129 ...eased IL-17 production through NF-\kappaB
-                                                   activation by \textit{TRA...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.129 ...nflammatory cytokines including IL-1\beta
-                                                   and IL-6 and also perpetu...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.130 ...t is mainly produced by a subset of CD4$^
-                                                  +$ cells known as Th22 (re...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Underfull \hbox (badness 2452) in paragraph at lines 129--131
-[]\OT1/jkp/m/n/12 Interleukin-23 (IL23) and Th17 axis rep-re-sents a key loop for the
- []
-
-
-Underfull \hbox (badness 3930) in paragraph at lines 129--131
-\OT1/jkp/m/n/12 skin and it binds to the IL-23 re-cep-tor (IL-23R), which ex-pres-sion is
- []
-
-
-Underfull \hbox (badness 1210) in paragraph at lines 129--131
-\OT1/jkp/m/n/12 The ac-ti-va-tion of the IL-23 path-way leads im-por-tantly to in-creased IL-17
- []
-
-
-Underfull \hbox (badness 4927) in paragraph at lines 129--131
-\OT1/jkp/m/n/12 of the adap-tive im-mune me-di-ated Th17 re-sponse through re-cruit-ment
- []
-
-
-Underfull \hbox (badness 6445) in paragraph at lines 129--131
-\OT1/jkp/m/n/12 and ac-ti-va-tion of neu-trophils, in-duc-tion of proin-flam-ma-tory cy-tokines
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 129--131
-\OT1/jkp/m/n/12 in-clud-ing IL-1$\OML/jkp/m/it/12 andIL \OMS/jkp/m/n/12   \OT1/jkp/m/n/12 6\OML/jkp/m/it/12 andalsoperp
-etuationofKCactivation\OT1/jkp/m/n/12 (\OML/jkp/m/it/12 ref\OT1/jkp/m/n/12 )(\OML/jkp/m/it/12 https \OT1/jkp/m/n/12 :
- []
-
-
-Overfull \hbox (36.44548pt too wide) in paragraph at lines 129--131
-\OML/jkp/m/it/12 ==www:ncbi:nlm:nih:gov=pmc=articles=PMC\OT1/jkp/m/n/12 3580541\OML/jkp/m/it/12 =\OT1/jkp/m/n/12 )\OML/j
-kp/m/it/12 :Morerecently; interleukin\OT1/jkp/m/n/12 22(\OML/jkp/m/it/12 IL \OMS/jkp/m/n/12  
- []
-
-
-Overfull \hbox (802.06973pt too wide) in paragraph at lines 129--131
-\OT1/jkp/m/n/12 22)\OML/jkp/m/it/12 hasarisenasanotherofthekeycytokinesinmediatingthedysregulatedcrosstalkbetweentheinna
-teandadaptiveimmuneresponse:IL\OT1/jkp/m/n/12 22\OML/jkp/m/it/12 levelsareincreasedinthepsoriaticlesionsandserumofpatien
-tsanditismainlyproducedbyasubsetofCD\OT1/jkp/m/n/12 4$$[]$
- []
-
-
-LaTeX Warning: Citation 'Valdimarsson2009' on page 10 undefined on input line 136.
-
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-
-LaTeX Warning: Citation 'Weiss2002' on page 10 undefined on input line 136.
-
-
-Underfull \hbox (badness 1005) in paragraph at lines 136--137
-\OT1/jkp/m/n/12 risk and wors-en-ing of pso-ri-a-sis and PsA de-vel-op-ment. A wide range of
- []
-
-[10]
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-
-
-LaTeX Warning: Citation 'Feldmeyer2007' on page 11 undefined on input line 143.
-
-! Undefined control sequence.
-l.143 ...e of the epidermis dysfunction \parencyte
-                                                  {Proskch2008}.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[11]
-
-LaTeX Warning: Citation 'Mahil20016' on page 12 undefined on input line 145.
-
-
-LaTeX Warning: Citation 'Mahil2006' on page 12 undefined on input line 148.
-
-[12]
-
-LaTeX Warning: Citation 'Stratis2006' on page 13 undefined on input line 150.
-
-
-LaTeX Warning: Citation 'Wang2006' on page 13 undefined on input line 150.
-
-
-LaTeX Warning: Citation 'Bar-Eli1979' on page 13 undefined on input line 150.
-
-
-LaTeX Warning: Citation 'Golden2015' on page 13 undefined on input line 150.
-
-
-LaTeX Warning: Citation 'Gardembas1990' on page 13 undefined on input line 158.
-
-
-LaTeX Warning: Citation 'Lecewicz-Toru≈Ñ2001' on page 13 undefined on input line 158.
-
-Missing character: There is no ≈ in font jkpbn7t!
-Missing character: There is no Ñ in font jkpbn7t!
-
-LaTeX Warning: Citation 'Lecewicz-Toru≈Ñ2001' on page 13 undefined on input line 158.
-
-Missing character: There is no ≈ in font jkpbn7t!
-Missing character: There is no Ñ in font jkpbn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-
-Underfull \hbox (badness 2698) in paragraph at lines 158--159
-[]\OT1/jkp/m/n/12 Historically, T lym-pho-cytes have been con-sid-ered one of the most
- []
-
-
-Underfull \hbox (badness 1762) in paragraph at lines 158--159
-\OT1/jkp/m/n/12 demon-strated that bone mar-row trans-plan-ta-tion can ini-ti-ate or ter-mi-nate
- []
-
-[13]
-
-LaTeX Warning: Citation 'Boyle2013' on page 14 undefined on input line 160.
-
-[14]
-
-LaTeX Warning: Citation 'Cai2012' on page 15 undefined on input line 162.
-
-
-LaTeX Warning: Citation 'Dolcino2015' on page 15 undefined on input line 162.
-
-
-Underfull \hbox (badness 2181) in paragraph at lines 162--163
-[]\OT1/jkp/m/n/12 Based on the T cells cy-tokine pro-file, pso-ri-a-sis and PsA has been
- []
-
-<./Introduction/pdfs/PSO_adaptive_innate_immune_system_crosstalk.pdf, id=484, pagebox=cropbox, 569.12625pt x 758.835pt>
-File: ./Introduction/pdfs/PSO_adaptive_innate_immune_system_crosstalk.pdf Graphic file (type pdf)
-<use ./Introduction/pdfs/PSO_adaptive_innate_immune_system_crosstalk.pdf>
-Package pdftex.def Info: ./Introduction/pdfs/PSO_adaptive_innate_immune_system_crosstalk.pdf  used on input line 165. on
- input line 165.
-Package pdftex.def Info: Requested size: 426.79134pt x 569.07855pt on input line 165.
-[15]
-
-LaTeX Warning: Citation 'Rizova2001' on page 16 undefined on input line 173.
-
-[16 <./Introduction/pdfs/PSO_adaptive_innate_immune_system_crosstalk.pdf>]
-
-LaTeX Warning: Citation 'Schmitt2014' on page 17 undefined on input line 175.
-
-
-LaTeX Warning: Citation 'Keating2017' on page 17 undefined on input line 175.
-
-
-LaTeX Warning: Citation 'Ahil2016' on page 17 undefined on input line 175.
-
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-
-Underfull \hbox (badness 1609) in paragraph at lines 175--176
-\OT1/jkp/m/n/12 used to help con-trol-ling the mild in-flam-ma-tory symp-toms ([]Coates et al.
- []
-
-[17] [18]
-
-LaTeX Warning: Citation 'Faber1974' on page 19 undefined on input line 187.
-
-
-LaTeX Warning: Citation 'Pendersen2008' on page 19 undefined on input line 187.
-
-
-LaTeX Warning: Citation 'Pendersen2008' on page 19 undefined on input line 187.
-
-
-Underfull \hbox (badness 3058) in paragraph at lines 190--191
-[]\OT1/jkp/m/n/12 Different ap-proaches have been un-der-taken to un-cover the ge-netic
- []
-
-
-Underfull \hbox (badness 3179) in paragraph at lines 190--191
-\OT1/jkp/m/n/12 vari-abil-ity con-tribut-ing to the pre-dis-po-si-tion to pso-ri-a-sis and PsA. The
- []
-
-
-LaTeX Warning: Citation 'International2003' on page 19 undefined on input line 192.
-
-
-LaTeX Warning: Citation 'Rusell1972' on page 19 undefined on input line 192.
-
-
-LaTeX Warning: Citation 'Tiilikainen1980' on page 19 undefined on input line 192.
-
-
-LaTeX Warning: Citation 'Tomfohrde1994' on page 19 undefined on input line 192.
-
-
-LaTeX Warning: Citation '≈Åuszczek2004' on page 19 undefined on input line 192.
-
-Missing character: There is no ≈ in font jkpbn7t!
-Missing character: There is no Å in font jkpbn7t!
-
-LaTeX Warning: Citation 'Williams2005' on page 19 undefined on input line 192.
-
-
-LaTeX Warning: Citation 'Yen2001' on page 19 undefined on input line 192.
-
-
-LaTeX Warning: Citation 'H\"{o}hler2002' on page 19 undefined on input line 192.
-
-
-Underfull \hbox (badness 1590) in paragraph at lines 192--193
-\OT1/jkp/m/n/12 PSORS1 lies within chro-mo-some 6p21.3 and its iden-ti-fi-ca-tion by link-age
- []
-
-[19]
-
-LaTeX Warning: Citation 'The international HapMaP Consortium' on page 20 undefined on input line 197.
-
-
-LaTeX Warning: Citation 'The 1000 Genomes' on page 20 undefined on input line 197.
-
-
-Underfull \hbox (badness 5817) in paragraph at lines 197--200
-\OT1/jkp/m/n/12 poly-mor-phisms (SNPs) in dif-fer-ent pop-u-la-tions through whole genome
- []
-
-
-Overfull \hbox (30.92346pt too wide) in paragraph at lines 197--200
-\OT1/jkp/m/n/12 se-quenc-ing (WGS) projects such as HapMap ([])
- []
-
-
-Underfull \hbox (badness 1038) in paragraph at lines 197--200
-\OT1/jkp/m/n/12 project and the 1000 Genomes project ([]). GWAS have
- []
-
-[20]
-
-LaTeX Warning: Citation 'Tsoi2017' on page 21 undefined on input line 201.
-
-[21]
-
-LaTeX Warning: Citation 'Tsoi205' on page 22 undefined on input line 203.
-
-
-LaTeX Warning: Citation 'Tsoi2017' on page 22 undefined on input line 203.
-
-
-LaTeX Warning: Citation 'Winchester2012' on page 22 undefined on input line 207.
-
-
-LaTeX Warning: Citation 'Stuart2015' on page 22 undefined on input line 207.
-
-[22]
-
-LaTeX Warning: Citation 'Welter2013' on page 23 undefined on input line 217.
-
-
-LaTeX Warning: Citation 'Welter2013' on page 23 undefined on input line 217.
-
-
-LaTeX Warning: Citation 'Tang2014' on page 23 undefined on input line 221.
-
-
-LaTeX Warning: Citation 'Zuo2015' on page 23 undefined on input line 221.
-
-
-LaTeX Warning: Citation 'Tang2014' on page 23 undefined on input line 221.
-
-
-LaTeX Warning: Citation 'Tang2014' on page 23 undefined on input line 221.
-
-
-LaTeX Warning: Citation 'Ward2012' on page 23 undefined on input line 223.
-
-
-Underfull \hbox (badness 1412) in paragraph at lines 223--224
-[]\OT1/jkp/m/n/12 Non-coding vari-ants as-so-ci-ated with dis-ease could be-come causal by
- []
-
-[23]
-
-LaTeX Warning: Citation 'Zhang2012' on page 24 undefined on input line 225.
-
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ô in font jkpmn7t!
-[24]
-
-LaTeX Warning: Citation 'Small2011' on page 25 undefined on input line 230.
-
-
-Underfull \hbox (badness 2452) in paragraph at lines 234--234
-|[]\OT1/jkp/b/n/14.4 The role of GWAS stud-ies in high-light-ing immune-
- []
-
-
-LaTeX Warning: Citation 'Visscher2017' on page 25 undefined on input line 236.
-
-[25]
-
-LaTeX Warning: Citation 'ImmunoBase' on page 26 undefined on input line 238.
-
-
-LaTeX Warning: Citation 'Visscher2017' on page 26 undefined on input line 238.
-
-
-LaTeX Warning: Citation 'ImmunoBase' on page 26 undefined on input line 238.
-
-[26]
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no ¥ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-
-
-LaTeX Warning: Citation 'Cortes2015b' on page 27 undefined on input line 241.
-
-
-LaTeX Warning: Citation 'ImmunoBase' on page 27 undefined on input line 241.
-
-
-LaTeX Warning: Citation 'Constatino2015' on page 27 undefined on input line 241.
-
-
-Underfull \hbox (badness 3386) in paragraph at lines 241--244
-[]\OT1/jkp/m/it/12 HLA-Cw*0602\OT1/jkp/m/n/12 , the strongest GWAS as-so-ci-a-tion in pso-ri-a-sis is also
- []
-
-[27]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.248 ... \textit{LCE3C} (\textit{LCE3C_LCE3B_del}
-                                                  )\parencite{Cid2009}. In n...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.248 ... \textit{LCE3C} (\textit{LCE3C_LCE3B_del}
-                                                  )\parencite{Cid2009}. In n...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! You can't use `\spacefactor' in math mode.
-\blx@leavevmode ...\else \leavevmode \spacefactor 
-                                                  \blx@sf@par \fi 
-l.248 ...tit{LCE3C_LCE3B_del})\parencite{Cid2009}.
-                                                   In normal skin, expressio...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\spacefactor' in math mode.
-\blx@leavevmode ...\else \leavevmode \spacefactor 
-                                                  \blx@sf@par \fi 
-l.248 ...tit{LCE3C_LCE3B_del})\parencite{Cid2009}.
-                                                   In normal skin, expressio...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\spacefactor' in math mode.
-\blx@leavevmode ...\else \leavevmode \spacefactor 
-                                                  \blx@sf@par \fi 
-l.248 ...tit{LCE3C_LCE3B_del})\parencite{Cid2009}.
-                                                   In normal skin, expressio...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\spacefactor' in math mode.
-\blx@leavevmode ...\else \leavevmode \spacefactor 
-                                                  \blx@sf@par \fi 
-l.248 ...tit{LCE3C_LCE3B_del})\parencite{Cid2009}.
-                                                   In normal skin, expressio...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\spacefactor' in math mode.
-\abx@dot ...stkern >\z@ \unkern \fi .\spacefactor 
-                                                  \blx@sf@dot 
-l.248 ...tit{LCE3C_LCE3B_del})\parencite{Cid2009}.
-                                                   In normal skin, expressio...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\spacefactor' in math mode.
-\blx@leavevmode ...\else \leavevmode \spacefactor 
-                                                  \blx@sf@par \fi 
-l.248 ...tit{LCE3C_LCE3B_del})\parencite{Cid2009}.
-                                                   In normal skin, expressio...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\spacefactor' in math mode.
-\blx@leavevmode ...\else \leavevmode \spacefactor 
-                                                  \blx@sf@par \fi 
-l.248 ...tit{LCE3C_LCE3B_del})\parencite{Cid2009}.
-                                                   In normal skin, expressio...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Improper \spacefactor.
-<recently read> \spacefactor 
-                             
-l.248 ...tit{LCE3C_LCE3B_del})\parencite{Cid2009}.
-                                                   In normal skin, expressio...
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! You can't use `\spacefactor' in math mode.
-\blx@leavevmode ...\else \leavevmode \spacefactor 
-                                                  \blx@sf@par \fi 
-l.248 ...tit{LCE3C_LCE3B_del})\parencite{Cid2009}.
-                                                   In normal skin, expressio...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\spacefactor' in math mode.
-\blx@leavevmode ...\else \leavevmode \spacefactor 
-                                                  \blx@sf@par \fi 
-l.248 ...tit{LCE3C_LCE3B_del})\parencite{Cid2009}.
-                                                   In normal skin, expressio...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\spacefactor' in math mode.
-\blx@leavevmode ...\else \leavevmode \spacefactor 
-                                                  \blx@sf@par \fi 
-l.248 ...tit{LCE3C_LCE3B_del})\parencite{Cid2009}.
-                                                   In normal skin, expressio...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Improper \spacefactor.
-<recently read> \spacefactor 
-                             
-l.248 ...tit{LCE3C_LCE3B_del})\parencite{Cid2009}.
-                                                   In normal skin, expressio...
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! You can't use `\spacefactor' in math mode.
-\reserved@b ->\spacefactor 
-                           \@m 
-l.248 ...tit{LCE3C_LCE3B_del})\parencite{Cid2009}.
-                                                   In normal skin, expressio...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\spacefactor' in math mode.
-\blx@leavevmode ...\else \leavevmode \spacefactor 
-                                                  \blx@sf@par \fi 
-l.248 ...differentiation \parencite{Bergboer2011}.
-                                                   Additionally, epistasia b...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-LaTeX Warning: Citation 'Bergboer2011' on page 28 undefined on input line 248.
-
-! You can't use `\spacefactor' in math mode.
-\reserved@b ->\spacefactor 
-                           \@m 
-l.248 ...differentiation \parencite{Bergboer2011}.
-                                                   Additionally, epistasia b...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\spacefactor' in math mode.
-\blx@leavevmode ...\else \leavevmode \spacefactor 
-                                                  \blx@sf@par \fi 
-l.248 ...n \parencite{Cid2009, Riveira-Munoz2011}.
-                                                   Overall, the lack of \tex...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-LaTeX Warning: Citation 'Riveira-Munoz2011' on page 28 undefined on input line 248.
-
-! You can't use `\spacefactor' in math mode.
-\blx@leavevmode ...\else \leavevmode \spacefactor 
-                                                  \blx@sf@par \fi 
-l.248 ...n \parencite{Cid2009, Riveira-Munoz2011}.
-                                                   Overall, the lack of \tex...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\spacefactor' in math mode.
-\blx@leavevmode ...\else \leavevmode \spacefactor 
-                                                  \blx@sf@par \fi 
-l.248 ...n \parencite{Cid2009, Riveira-Munoz2011}.
-                                                   Overall, the lack of \tex...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\spacefactor' in math mode.
-\blx@leavevmode ...\else \leavevmode \spacefactor 
-                                                  \blx@sf@par \fi 
-l.248 ...n \parencite{Cid2009, Riveira-Munoz2011}.
-                                                   Overall, the lack of \tex...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\spacefactor' in math mode.
-\abx@dot ...stkern >\z@ \unkern \fi .\spacefactor 
-                                                  \blx@sf@dot 
-l.248 ...n \parencite{Cid2009, Riveira-Munoz2011}.
-                                                   Overall, the lack of \tex...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\spacefactor' in math mode.
-\blx@leavevmode ...\else \leavevmode \spacefactor 
-                                                  \blx@sf@par \fi 
-l.248 ...n \parencite{Cid2009, Riveira-Munoz2011}.
-                                                   Overall, the lack of \tex...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\spacefactor' in math mode.
-\blx@leavevmode ...\else \leavevmode \spacefactor 
-                                                  \blx@sf@par \fi 
-l.248 ...n \parencite{Cid2009, Riveira-Munoz2011}.
-                                                   Overall, the lack of \tex...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Improper \spacefactor.
-<recently read> \spacefactor 
-                             
-l.248 ...n \parencite{Cid2009, Riveira-Munoz2011}.
-                                                   Overall, the lack of \tex...
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! You can't use `\spacefactor' in math mode.
-\blx@leavevmode ...\else \leavevmode \spacefactor 
-                                                  \blx@sf@par \fi 
-l.248 ...n \parencite{Cid2009, Riveira-Munoz2011}.
-                                                   Overall, the lack of \tex...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\spacefactor' in math mode.
-\blx@leavevmode ...\else \leavevmode \spacefactor 
-                                                  \blx@sf@par \fi 
-l.248 ...n \parencite{Cid2009, Riveira-Munoz2011}.
-                                                   Overall, the lack of \tex...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\spacefactor' in math mode.
-\blx@leavevmode ...\else \leavevmode \spacefactor 
-                                                  \blx@sf@par \fi 
-l.248 ...n \parencite{Cid2009, Riveira-Munoz2011}.
-                                                   Overall, the lack of \tex...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Improper \spacefactor.
-<recently read> \spacefactor 
-                             
-l.248 ...n \parencite{Cid2009, Riveira-Munoz2011}.
-                                                   Overall, the lack of \tex...
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! You can't use `\spacefactor' in math mode.
-\reserved@b ->\spacefactor 
-                           \@m 
-l.248 ...n \parencite{Cid2009, Riveira-Munoz2011}.
-                                                   Overall, the lack of \tex...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\spacefactor' in math mode.
-\blx@leavevmode ...\else \leavevmode \spacefactor 
-                                                  \blx@sf@par \fi 
-l.248 ... the skin lesions\parencite{Jackson2005}.
-                                                   \textit{CARD14} is primar...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\spacefactor' in math mode.
-\blx@leavevmode ...\else \leavevmode \spacefactor 
-                                                  \blx@sf@par \fi 
-l.248 ... the skin lesions\parencite{Jackson2005}.
-                                                   \textit{CARD14} is primar...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\spacefactor' in math mode.
-\blx@leavevmode ...\else \leavevmode \spacefactor 
-                                                  \blx@sf@par \fi 
-l.248 ... the skin lesions\parencite{Jackson2005}.
-                                                   \textit{CARD14} is primar...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\spacefactor' in math mode.
-\blx@leavevmode ...\else \leavevmode \spacefactor 
-                                                  \blx@sf@par \fi 
-l.248 ... the skin lesions\parencite{Jackson2005}.
-                                                   \textit{CARD14} is primar...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\spacefactor' in math mode.
-\abx@dot ...stkern >\z@ \unkern \fi .\spacefactor 
-                                                  \blx@sf@dot 
-l.248 ... the skin lesions\parencite{Jackson2005}.
-                                                   \textit{CARD14} is primar...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\spacefactor' in math mode.
-\blx@leavevmode ...\else \leavevmode \spacefactor 
-                                                  \blx@sf@par \fi 
-l.248 ... the skin lesions\parencite{Jackson2005}.
-                                                   \textit{CARD14} is primar...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\spacefactor' in math mode.
-\blx@leavevmode ...\else \leavevmode \spacefactor 
-                                                  \blx@sf@par \fi 
-l.248 ... the skin lesions\parencite{Jackson2005}.
-                                                   \textit{CARD14} is primar...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Improper \spacefactor.
-<recently read> \spacefactor 
-                             
-l.248 ... the skin lesions\parencite{Jackson2005}.
-                                                   \textit{CARD14} is primar...
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! You can't use `\spacefactor' in math mode.
-\blx@leavevmode ...\else \leavevmode \spacefactor 
-                                                  \blx@sf@par \fi 
-l.248 ... the skin lesions\parencite{Jackson2005}.
-                                                   \textit{CARD14} is primar...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\spacefactor' in math mode.
-\blx@leavevmode ...\else \leavevmode \spacefactor 
-                                                  \blx@sf@par \fi 
-l.248 ... the skin lesions\parencite{Jackson2005}.
-                                                   \textit{CARD14} is primar...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\spacefactor' in math mode.
-\blx@leavevmode ...\else \leavevmode \spacefactor 
-                                                  \blx@sf@par \fi 
-l.248 ... the skin lesions\parencite{Jackson2005}.
-                                                   \textit{CARD14} is primar...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Improper \spacefactor.
-<recently read> \spacefactor 
-                             
-l.248 ... the skin lesions\parencite{Jackson2005}.
-                                                   \textit{CARD14} is primar...
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! You can't use `\spacefactor' in math mode.
-\reserved@b ->\spacefactor 
-                           \@m 
-l.248 ... the skin lesions\parencite{Jackson2005}.
-                                                   \textit{CARD14} is primar...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-Missing character: There is no Ú in font jkpex!
-Missing character: There is no Ú in font jkpex!
-Missing character: There is no Ú in font jkpex!
-Missing character: There is no Ú in font jkpex!
-Missing character: There is no Í in font jkpex!
-Missing character: There is no Ú in font jkpex!
-Missing character: There is no Ú in font jkpex!
-Missing character: There is no Ú in font jkpex!
-Missing character: There is no Ú in font jkpex!
-Missing character: There is no Ú in font jkpex!
-Missing character: There is no Ë in font jkpex!
-Missing character: There is no Ú in font jkpex!
-Missing character: There is no Ë in font jkpex!
-Missing character: There is no Ú in font jkpex!
-Missing character: There is no Ú in font jkpex!
-Missing character: There is no Ú in font jkpex!
-Missing character: There is no Ú in font jkpex!
-Missing character: There is no Í in font jkpex!
-Missing character: There is no Ú in font jkpex!
-Missing character: There is no Ú in font jkpex!
-Missing character: There is no Ú in font jkpex!
-Missing character: There is no Ú in font jkpex!
-Missing character: There is no Ú in font jkpex!
-Missing character: There is no Ë in font jkpex!
-Missing character: There is no Ú in font jkpex!
-Missing character: There is no Ú in font jkpex!
-Missing character: There is no Ú in font jkpex!
-Missing character: There is no Ú in font jkpex!
-Missing character: There is no Í in font jkpex!
-Missing character: There is no Ú in font jkpex!
-Missing character: There is no Ú in font jkpex!
-Missing character: There is no Ú in font jkpex!
-Missing character: There is no Ú in font jkpex!
-Missing character: There is no Ú in font jkpex!
-Missing character: There is no Ë in font jkpex!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.248 ...ruitment and activation of the NF-$\kappa
-                                                  $B pathway \parencite{Blon...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Undefined control sequence.
-l.248 ...riasis-associated genes including \tetxit
-                                                  {IL-6}, \textit{IL36}, \te...
+<recently read> \parenicte 
+                           
+l.122 \parenicte
+                {Alasoo2018} & MACS2 -nomodel -shift -25 -extsize 50 --q 0.0...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2324,1079 +1374,77 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'Jordan2012b' on page 28 undefined on input line 248.
-
-
-Underfull \hbox (badness 1917) in paragraph at lines 248--250
-\OT1/jkp/m/n/12 or genes with a very rel-e-vant role in the skin such as \OT1/jkp/m/it/12 CARD-14\OT1/jkp/m/n/12 , both
+Underfull \hbox (badness 1122) in paragraph at lines 122--122
+[]|\OT1/jkp/m/n/12 MACS2 -nomodel -shift -25 -
  []
 
 
-Underfull \hbox (badness 4582) in paragraph at lines 248--250
-\OT1/jkp/m/n/12 pre-vi-ously men-tioned. Fur-ther stud-ies in the \OT1/jkp/m/it/12 PSORS4 \OT1/jkp/m/n/12 have re-vealed
-
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+[]|\OT1/jkp/m/n/12 Union of peaks from all
  []
 
 
-Underfull \hbox (badness 3735) in paragraph at lines 248--250
-\OT1/jkp/m/n/12 that as-so-ci-a-tion with dis-eases is due to a dele-tion com-pris-ing two of
+Underfull \hbox (badness 1412) in paragraph at lines 122--122
+\OT1/jkp/m/n/12 con-di-tions present in at leats
  []
 
 
-Underfull \hbox (badness 1629) in paragraph at lines 248--250
-\OT1/jkp/m/n/12 the genes within this fam-ily, \OT1/jkp/m/it/12 LCE3B \OT1/jkp/m/n/12 and \OT1/jkp/m/it/12 LCE3C \OT1/jk
-p/m/n/12 (\OT1/jkp/m/it/12 LCE3C$[]\OML/jkp/m/it/12 CE\OT1/jkp/m/n/12 3\OML/jkp/m/it/12 B[]el\OT1/jkp/m/n/12 )([][][][][
-]\OML/jkp/m/it/12 CidEt
+LaTeX Warning: Citation 'Qu2017' on page 6 undefined on input line 125.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+[]|\OT1/jkp/m/n/12 Quantile nor-mal-i-sa-tion and
  []
 
 
-Overfull \hbox (1850.5348pt too wide) in paragraph at lines 248--250
-\OML/jkp/m/it/12 al:[]\OT1/jkp/m/n/12 2009[])\OML/jkp/m/it/12 :Innormalskin; expressionof[]and[]isverylowanditisinducedu
-ponbarrierdisruption:Theseareproteinsthatformthecornifiedenvelopeonthemostexternallayeroftheepidermisandarethoughttobein
-volvedinepidermalterminaldifferentiation\OT1/jkp/m/n/12 ([])\OML/jkp/m/it/12 :Additionally; epistasiabetweenthisdeletion
-and[]hasbeenidentifiedincertainpopulationsincludingDutchandAmerican\OT1/jkp/m/n/12 ([]; [][][][][]\OML/jkp/m/it/12 CidEt
-
+Underfull \hbox (badness 1810) in paragraph at lines 125--126
+\OT1/jkp/m/n/12 peak based in house Pear-son
  []
 
 
-Overfull \hbox (1605.98422pt too wide) in paragraph at lines 248--250
-\OML/jkp/m/it/12 al:[]\OT1/jkp/m/n/12 2009[])\OML/jkp/m/it/12 :Overall; thelackof[]and[]expressioninpsoriasispatientcoul
-dleadtoanimpairedrepairfollowingskindisruptionandfacilitatemicroorganismsinfectionandthetriggeringofthedysregulatedimmun
-eresponse:TreatmentofpsoriasispatientswithUBVradiationhaveprovedupregulationof[]expressionafter\OT1/jkp/m/n/12 48\OML/jk
-p/m/it/12 hourscontributingtoameliorationoftheskinlesions\OT1/jkp/m/n/12 ([][][][][]\OML/jkp/m/it/12 JacksonEt
+LaTeX Warning: Citation 'Rendeiro2016' on page 6 undefined on input line 128.
+
+
+Overfull \hbox (20.84784pt too wide) in paragraph at lines 128--128
+[]|\OT1/jkp/m/n/12 ([])| 
  []
 
 
-Overfull \hbox (192.46817pt too wide) in paragraph at lines 248--250
-\OML/jkp/m/it/12 al:[]\OT1/jkp/m/n/12 2005[])\OML/jkp/m/it/12 :[]isprimarilyexpressedinepithelialtissueswhereitisinvolve
-dinrecruitmentandactivationoftheNF\OMS/jkp/m/n/12  $$\OML/jkp/m/it/12 $\OT1/jkp/m/it/12 B
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+[]|\OT1/jkp/m/n/12 Peak based: quan-tile
  []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 252.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\kappa' on input line 252.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 252.
-
-
-LaTeX Warning: Citation 'GWAS studies' on page 28 undefined on input line 255.
-
-
-LaTeX Warning: Citation 'ImmunoBase' on page 28 undefined on input line 255.
-
-
-LaTeX Warning: Citation 'H\"{u}ffmeier2010' on page 28 undefined on input line 255.
-
-
-LaTeX Warning: Citation 'H\"{u}ffmeier2010' on page 28 undefined on input line 255.
-
-
-LaTeX Warning: Citation 'H\"{u}ffmeier2010' on page 28 undefined on input line 255.
-
-
-LaTeX Warning: Citation 'Tsoi2017' on page 28 undefined on input line 255.
-
-[28]
-
-LaTeX Warning: Citation 'Nextle2005' on page 29 undefined on input line 259.
-
-
-LaTeX Warning: Citation 'ImmunoBase' on page 29 undefined on input line 259.
-
-
-LaTeX Warning: Citation 'Calamonici1994' on page 29 undefined on input line 259.
-
-
-LaTeX Warning: Citation 'van Vollenhoven2012' on page 29 undefined on input line 259.
-
-
-LaTeX Warning: Citation 'TLR9' on page 29 undefined on input line 259.
-
-[29] [30] [31]
-
-LaTeX Warning: Citation 'Visscher2017' on page 32 undefined on input line 311.
-
-
-LaTeX Warning: Citation 'Wray2005' on page 32 undefined on input line 311.
-
-
-LaTeX Warning: Citation 'Visscher2017' on page 32 undefined on input line 311.
-
-
-LaTeX Warning: Citation 'TNFSF15' on page 32 undefined on input line 313.
-
-
-LaTeX Warning: Citation 'Dand2017.' on page 32 undefined on input line 313.
-
-
-LaTeX Warning: Citation 'Zuk2012' on page 32 undefined on input line 313.
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 313--315
-\OT1/jkp/m/it/12 ad-di-tive ef-fect in-stead of epistatic in-ter-ac-tion be-tween dif-fer-ent as-so-ci-ated loci
- []
-
-[32]
-
-LaTeX Warning: Citation 'Uebe2017' on page 33 undefined on input line 316.
-
-
-LaTeX Warning: Citation 'Feuk2010' on page 33 undefined on input line 324.
-
-
-LaTeX Warning: Citation 'Visscher2017' on page 33 undefined on input line 324.
-
-
-Overfull \hbox (36.15654pt too wide) in paragraph at lines 336--336
-|[]\OT1/jkp/b/n/17.28 Functional in-ter-pre-ta-tion of genome-wide as-so-ci-a-tion
- []
-
-[33]
-Underfull \hbox (badness 3333) in paragraph at lines 397--407
-\OT1/jkp/b/it/12 the chro-matin land-scape Chro-matin ac-ces-si-bil-ity Hi-s-tone mod-i-fi-ca-tions
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+\OT1/jkp/m/n/12 nor-mal-i-sa-tion and Fisher
  []
 
 
-Overfull \hbox (1.5217pt too wide) in paragraph at lines 409--409
-|[]\OT1/jkp/b/n/14.4 Approaches to es-tab-lish dis-ease mech-a-nisms and causal-ity
- []
+LaTeX Warning: Citation 'Scharer2016' on page 6 undefined on input line 131.
 
-Missing character: There is no Ó in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no º in font jkpmit7t!
-Missing character: There is no Ó in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no º in font jkpmit7t!
-[34]) [35]
 
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.88 \bibliography
-                  {Thesis_ref.bib}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.88 \bibliography{Thesis_
-                          ref.bib}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-l.88 \bibliography{Thesis_ref.bib}
-                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.89 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-[36
-
-]
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-LaTeX Font Info:    Try loading font information for OT1+jkptt on input line 92.
- (C:\Users\alicia\AppData\Roaming\MiKTeX\2.9\tex\latex\kpfonts\ot1jkptt.fd
-File: ot1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for OT1/jkptt.
-)
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ê in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ê in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ê in font jkpmn7t!
-
-Overfull \hbox (104.60025pt too wide) in paragraph at lines 93--93
-\OT1/jkptt/m/n/12 ThemajorityofepidermalTcellsinpsoriasisvulgarislesionscanproducetype1cytokines ,[]
+Overfull \hbox (12.33986pt too wide) in paragraph at lines 131--131
+[]|\OT1/jkp/m/n/12 ([])| 
  []
 
 
-Overfull \hbox (132.54019pt too wide) in paragraph at lines 93--93
-\OT1/jkptt/m/n/12 interferon -[] ,[]interleukin -[] 2 ,[] andtumornecrosisfactor -[] ,[]definingTC1(CytotoxicTLymphocyte
- )
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+\OT1/jkp/m/n/12 be-tween all sam-ples us-ing
  []
 
+[6
 
-Overfull \hbox (301.2598pt too wide) in paragraph at lines 93--93
-\OT1/jkptt/m/n/12 andTH1effectorpopulations : 1atype1differentiationbiasisalsomeasuredincirculatingbloodTcellsinpsoriati
-cpatients &
- []
+] [7])
 
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
+LaTeX Warning: Empty bibliography on input line 92.
 
-Underfull \hbox (badness 1742) in paragraph at lines 93--93
-\OT1/jkp/m/n/12 poly-mor-phisms in the hu-man genome from HapMap data''. \OT1/jkp/m/it/12 Genome
- []
-
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ê in font jkpmn7t!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.93 \addcontentsline
-                     {toc}{chapter}{Bibliography}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.93 \addcontentsline
-                     {toc}{chapter}{Bibliography}
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ê in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ê in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ê in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-[37
-
-]
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ê in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ê in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ê in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no Œ in font jkpmn7t!
-Missing character: There is no ∫ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-
-Underfull \hbox (badness 1292) in paragraph at lines 93--93
-[][]\OT1/jkp/m/n/12 Bowes, John, Budu-Aggrey, Ash-ley, Huffmeier, Ul-rike, Uebe, Stef-fen, Steel,
- []
-
-
-Underfull \hbox (badness 1552) in paragraph at lines 93--93
-\OT1/jkp/m/n/12 sus-cep-ti-bil-ity loci re-veals new in-sights into the ge-net-ics of pso-ri-atic
- []
-
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-
-Underfull \hbox (badness 1199) in paragraph at lines 93--93
-[][]\OT1/jkp/m/n/12 Brest, P., La-pa-que-tte, P., Souidi, M., and Na-ture, Lebrigand-K. (2011). ``A
- []
-
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no √ in font jkpmn7t!
-Missing character: There is no ≠ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-
-Underfull \hbox (badness 1762) in paragraph at lines 93--93
-\OT1/jkp/m/it/12 of Molec-u-lar Sci-ences \OT1/jkp/m/n/12 18: p. 2526. \OT1/jkp/m/sc/12 issn\OT1/jkp/m/n/12 : 1422-0067.
- \OT1/jkp/m/sc/12 doi\OT1/jkp/m/n/12 : []$\OT1/jkptt/m/n/12 10 . 3390 /
- []
-
-
-Underfull \hbox (badness 1365) in paragraph at lines 93--93
-\OT1/jkptt/m/n/12 rheumatology / kel443$[]\OT1/jkp/m/n/12 . \OT1/jkp/m/sc/12 url\OT1/jkp/m/n/12 : []$\OT1/jkptt/m/n/12 h
-ttp : / / dx . doi . org / 10 . 1093 /
- []
-
-[38]
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-
-Underfull \hbox (badness 2237) in paragraph at lines 93--93
-[][]\OT1/jkp/m/n/12 Coates, Laura C., Ka-vanaugh, Arthur, Mease, Philip J., So-ri-ano, En-rique
- []
-
-
-Underfull \hbox (badness 1558) in paragraph at lines 93--93
-\OT1/jkp/m/n/12 R., Fel-quer, Maria, Arm-strong, April W., Molano, Wil-son, Boehncke,
- []
-
-
-Underfull \hbox (badness 1867) in paragraph at lines 93--93
-\OT1/jkp/m/n/12 Wolf, Camp-bell, Willem-ina, and Cauli, Al-berto (2016b). ``Group for
- []
-
-
-Underfull \hbox (badness 1189) in paragraph at lines 93--93
-\OT1/jkp/m/n/12 rec-om-men-da-tions for pso-ri-atic arthri-tis''. \OT1/jkp/m/it/12 Arthri-tis & rheuma-tol-ogy \OT1/jkp/
-m/n/12 68:
- []
-
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-
-Underfull \hbox (badness 1043) in paragraph at lines 93--93
-[][]\OT1/jkp/m/n/12 Costello, P., Bres-ni-han, B., and of, O'Farrelly-C. (1999). ``Pre-dom-i-nance of
- []
-
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-[39]
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no Œ in font jkpmn7t!
-Missing character: There is no ≤ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-Missing character: There is no √ in font jkpmn7t!
-Missing character: There is no ∂ in font jkpmn7t!
-Missing character: There is no √ in font jkpmn7t!
-Missing character: There is no º in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-
-Underfull \hbox (badness 1810) in paragraph at lines 93--93
-\OT1/jkp/m/n/12 D. (2011). ``In-ter-ac-tion be-tween ERAP1 and HLA-B27 in anky-los-ing
- []
-
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ì in font jkpmn7t!
-[40]
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ì in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ê in font jkpmn7t!
-Missing character: There is no Œ in font jkpmn7t!
-Missing character: There is no ± in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ê in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ê in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-
-Underfull \hbox (badness 5817) in paragraph at lines 93--93
-[][]\OT1/jkp/m/n/12 Furie, R., Khamashta, M., and, Merrill-J. T. (2017). ``An-i-frol-umab, an
- []
-
-
-Underfull \hbox (badness 6188) in paragraph at lines 93--93
-\OT1/jkp/m/n/12 An-ti-In-ter-feron Re-cep-tor Mon-o-clonal An-ti-body, in Mod-er-ate-to-Se-vere
- []
-
-
-Overfull \hbox (3.03728pt too wide) in paragraph at lines 93--93
-\OT1/jkp/m/n/12 Sys-temic Lu-pus Ery-the-mato-sus''. \OT1/jkp/m/it/12 Arthri-tis &\OT1/jkp/m/n/12 . \OT1/jkp/m/sc/12 url
-\OT1/jkp/m/n/12 : []$\OT1/jkptt/m/n/12 https : / / onlinelibrary .
- []
-
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-
-Underfull \hbox (badness 1184) in paragraph at lines 93--93
-\OT1/jkp/m/n/12 pp. 586{592. \OT1/jkp/m/sc/12 url\OT1/jkp/m/n/12 : []$\OT1/jkptt/m/n/12 http : / / scholar . google . co
-m / scholar ? q =
- []
-
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-
-Underfull \hbox (badness 1558) in paragraph at lines 93--93
-[][]\OT1/jkp/m/n/12 Glessner, J. T., Wang, K., Cai, G., Ko-r-vatska, O., and Na-ture, Kim-C. E.
- []
-
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-Missing character: There is no √ in font jkpmn7t!
-Missing character: There is no © in font jkpmn7t!
-
-Underfull \hbox (badness 1009) in paragraph at lines 93--93
-\OT1/jkp/m/n/12 Xi-fara, Dionysia K., But-ter, Falk, Poschmann, Gereon, Kaur, Gur-man,
- []
-
-[41]
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ê in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no ∑ in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ê in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-
-Underfull \hbox (badness 1320) in paragraph at lines 93--93
-[][]\OT1/jkp/m/n/12 Haddad, Amir and Chan-dran, Vinod (2013). ``Arthri-tis Mu-ti-lans''. \OT1/jkp/m/it/12 Cur-rent
- []
-
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no Œ in font jkpmn7t!
-Missing character: There is no ≤ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ê in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-
-Overfull \hbox (244.01993pt too wide) in paragraph at lines 93--93
-\OT1/jkptt/m/n/12 scholar ? q = Gelatinaseexpressionandactivityinthesynoviumandskinofpatientswitherosivepsoriaticarthrit
-is .
- []
-
-Missing character: There is no Œ in font jkpmn7t!
-Missing character: There is no ≤ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-[42]
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-
-Underfull \hbox (badness 1748) in paragraph at lines 93--93
-\OT1/jkp/m/n/12 co-mor-bidi-ties in pa-tients with pso-ri-atic arthri-tis: a com-par-i-son with
- []
-
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no î in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ì in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-[43]
-Underfull \hbox (badness 1354) in paragraph at lines 93--93
-\OT1/jkp/m/n/12 Mary-Beth, Yalavarthi, Sri-lak-shmi, Vil-lanueva, Eneida C., Shah, Parth,
- []
-
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no Œ in font jkpmn7t!
-Missing character: There is no ∫ in font jkpmn7t!
-Missing character: There is no Œ in font jkpmn7t!
-Missing character: There is no ∫ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-
-Underfull \hbox (badness 1221) in paragraph at lines 93--93
-\OT1/jkp/m/n/12 ``Dif-fer-en-tial ex-pres-sion of phos-pho-ry-lated NF-B/RelA in nor-mal and
- []
-
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ì in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-[44]
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-
-Underfull \hbox (badness 1194) in paragraph at lines 93--93
-[][]\OT1/jkp/m/n/12 Mease, P. J., Goffe, B. S., Metz, J., Van-der-Stoep, A., and Lancet, Finck-B.
- []
-
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ê in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-
-Underfull \hbox (badness 1270) in paragraph at lines 93--93
-[][]\OT1/jkp/m/n/12 Moll, J. M. H., in, arthri-tis, and rheuma-tism, Wright-V. (1973). ``Pso-ri-atic
- []
-
-
-Underfull \hbox (badness 1168) in paragraph at lines 93--93
-\OT1/jkp/m/n/12 arthri-tis''. \OT1/jkp/m/it/12 Sem-i-nars in arthri-tis and rheuma-tism\OT1/jkp/m/n/12 . \OT1/jkp/m/sc/1
-2 url\OT1/jkp/m/n/12 : []$\OT1/jkptt/m/n/12 http : / / www .
- []
-
-Missing character: There is no √ in font jkpmn7t!
-Missing character: There is no º in font jkpmn7t!
-Missing character: There is no Œ in font jkpmn7t!
-Missing character: There is no ± in font jkpmn7t!
-
-Underfull \hbox (badness 5217) in paragraph at lines 93--93
-[][]\OT1/jkp/m/n/12 Nestle, Frank O., Con-rad, Cur-din, Tun-Kyi, Adrian, Homey, Bern-hard,
- []
-
-
-Underfull \hbox (badness 2698) in paragraph at lines 93--93
-\OT1/jkp/m/n/12 Gombert, Michael, Boy-man, Onur, Burg, Gn-ter, Liu, Yong-Jun, and
- []
-
-
-Overfull \hbox (22.18466pt too wide) in paragraph at lines 93--93
-[][]\OT1/jkp/m/n/12 Nickoloff, B. J. and Nes-tle, F. O. (2004). ``Re-cent in-sights into the im-munopatho-gen-e-sis
- []
-
-[45]
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ê in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ì in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-
-Underfull \hbox (badness 2875) in paragraph at lines 93--93
-\OT1/jkp/m/n/12 mast cells con-tribute to syn-ovial in-flam-ma-tion in spondy-larthri-tis''.
- []
-
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-Missing character: There is no √ in font jkpmn7t!
-Missing character: There is no • in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ì in font jkpmn7t!
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
-[][]\OT1/jkp/m/n/12 Pivarcsi, A., Sthle, M., and der-ma-tol-ogy, Sonkoly-E. (2014). ``Ge-netic
- []
-
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-
-Underfull \hbox (badness 2088) in paragraph at lines 93--93
-[][]\OT1/jkp/m/n/12 Poole, C. D., Leb-meier, M., Ara, R., and Rheuma-tol-ogy, Rafia-R. (2010).
- []
-
-
-Underfull \hbox (badness 1199) in paragraph at lines 93--93
-\OT1/jkp/m/n/12 ``Es-ti-ma-tion of health care costs as a func-tion of dis-ease sever-ity in
- []
-
-
-Underfull \hbox (badness 1365) in paragraph at lines 93--93
-\OT1/jkptt/m/n/12 rheumatology / keq182$[]\OT1/jkp/m/n/12 . \OT1/jkp/m/sc/12 url\OT1/jkp/m/n/12 : []$\OT1/jkptt/m/n/12 h
-ttp : / / dx . doi . org / 10 . 1093 /
- []
-
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ê in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-
-Underfull \hbox (badness 4886) in paragraph at lines 93--93
-[][]\OT1/jkp/m/n/12 Porcher, R., Said-Na-hal, R., and, D'Agostino-M. A. (2005). ``Two ma-jor
- []
-
-Missing character: There is no √ in font jkpmn7t!
-Missing character: There is no º in font jkpmn7t!
-Missing character: There is no √ in font jkpmn7t!
-Missing character: There is no ∂ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ê in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-
-Underfull \hbox (badness 1675) in paragraph at lines 93--93
-\OT1/jkp/m/n/12 and clin-i-cal pat-tern of pso-ri-atic arthri-tis in Ger-many: a prospec-tive
- []
-
-[46]
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ì in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ¶ in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmn7t!
-Missing character: There is no † in font jkpmn7t!
-Missing character: There is no ¬ in font jkpmit7t!
-Missing character: There is no † in font jkpmit7t!
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
- [47]
-Missing character: There is no ‚ in font jkpmit7t!
-Missing character: There is no Ä in font jkpmit7t!
-Missing character: There is no ¶ in font jkpmit7t!
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 95.
- [48]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
- (Thesis.aux (Preamble.aux) (Introduction/Introduction.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
+(Thesis.aux (Preamble.aux) (Results1/Results1.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: E16CD5A34A8C0A39FF50B6E875C0830D;3476.
+(rerunfilecheck)             Checksum: 5397985E567C72E357008233203F6B06;953.
 
 
 LaTeX Warning: There were undefined references.
@@ -3409,33 +1457,26 @@ Package biblatex Warning: Please (re)run BibTeX on the file(s):
 Package logreq Info: Writing requests to 'Thesis.run.xml'.
 \openout1 = `Thesis.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
- )
-(\end occurred inside a group at level 2)
-
-### simple group (level 2) entered at line 88 ({)
-### simple group (level 1) entered at line 248 ({)
-### bottom level 
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 94.
+ ) 
 Here is how much of TeX's memory you used:
- 17264 strings out of 493312
- 285578 string characters out of 3138895
- 654266 words of memory out of 3000000
- 20302 multiletter control sequences out of 15000+200000
- 43667 words of font info for 91 fonts, out of 3000000 for 9000
+ 16806 strings out of 493312
+ 272978 string characters out of 3138895
+ 556317 words of memory out of 3000000
+ 20031 multiletter control sequences out of 15000+200000
+ 38160 words of font info for 82 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,12n,71p,2523b,1664s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fon
-ts/enc/dvips/kpfonts/kpfonts-expert.enc}<C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpbit8a.
-pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/alicia/AppData/Roaming/
-MiKTeX/2.9/fonts/type1/public/kpfonts/jkpbne.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/
-jkpmi.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/alicia/AppData/R
-oaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmite.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/
-kpfonts/jkpmn8a.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/alicia/A
-ppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmsc8a.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type
-1/public/kpfonts/jkpsy.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on Thesis.pdf (59 pages, 986863 bytes).
+ 42i,11n,51p,913b,1284s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}{C:/Program Files/MiKTeX 2.9/fo
+nts/enc/dvips/base/8r.enc}<C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/a
+licia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpbne.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts
+/type1/public/kpfonts/jkpmi.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/
+Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2
+.9/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpsy.pf
+b>
+Output written on Thesis.pdf (17 pages, 675832 bytes).
 PDF statistics:
- 1154 PDF objects out of 1200 (max. 8388607)
- 217 named destinations out of 1000 (max. 500000)
- 339 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 295 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
+ 138 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -47,27 +47,25 @@ Agreement between TSS enrichment values and the background levels in each of the
 \centering
 \begin{subfigure}{0.45\textwidth}
 \centering
-\includegraphics[height=8cm,width=\textwidth]{./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_frag_size_distribution}
+\includegraphics[height=5cm,width=\textwidth]{./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_frag_size_distribution}
 \caption{\textbf{}}
 % The percentage sign indicated that the other subfig goes side by side
 \end{subfigure}%
 \begin{subfigure}{0.45\textwidth}
 \centering
-\includegraphics[height=8cm,width=\textwidth]{./Results1/pdfs/TSS_enrichment_Core_fresh_CD4_CD14}
+\includegraphics[height=5cm,width=\textwidth]{./Results1/pdfs/TSS_enrichment_Core_fresh_CD4_CD14}
 \caption{\textbf{}}
 \end{subfigure} \\
-\hfill
 \begin{subfigure}{0.45\textwidth}
 \centering
-\includegraphics[height=8cm,width=\textwidth]{./Results1/pdfs/ATAC_Core_CD4_CD14_fresh_GAPDH}
+\includegraphics[height=5cm,width=\textwidth]{./Results1/pdfs/ATAC_Core_CD4_CD14_fresh_GAPDH}
 \caption{\textbf{}} % to add text to the figure name
 \end{subfigure}%
 \begin{subfigure}{0.45\textwidth}
 \centering
-\includegraphics[height=8cm,width=\textwidth]{./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_corr_tss_vs_frac_reads_in_peaks}
+\includegraphics[height=5cm,width=\textwidth]{./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_corr_tss_vs_frac_reads_in_peaks}
 \caption{\textbf{}} % to add text to the figure name
 \end{subfigure} \\
-\hfill
 \caption[Measurements for quality control assessment in ATAC-seq samples]{\textbf{} \\
 }
 \label{fig:QC_ATAC}

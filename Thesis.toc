@@ -11,74 +11,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\hbox to\@tempdima {\hfil }Contents}{vi}{chapter*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }List of Figures}{viii}{chapter*.9}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }List of Figures}{vii}{chapter*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }List of Tables}{ix}{chapter*.10}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }List of Tables}{viii}{chapter*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Abbreviations}{x}{chapter*.11}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Abbreviations}{ix}{chapter*.11}
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {1}Establishment of laboratory methods and analytical tools to assess genome-wide chromatin accessibility in clinical samples}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Psoriasis and psoriatic arthritis}{1}{section.1.1}
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.1}Epidemiology and global impact}{1}{subsection.1.1.1}
+\contentsline {section}{\numberline {1.2}Results}{2}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.2}Psoriasis and inflammatory dermatoses}{2}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Establishment of an ATAC-seq data analysis pipeline based on current knowledge}{2}{subsection.1.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.3}PsA and spondyloarthropaties}{3}{subsection.1.1.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Pathophysiology of psoriasis and psoriatic arthritis}{4}{section.1.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}Clinical presentation and diagnosis}{4}{subsection.1.2.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Aetiology of psoriasis and PsA}{8}{subsection.1.2.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Histopathological alterations in skin and joints}{8}{subsubsection*.15}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Dysregulation of the innate and adaptive immune response}{9}{subsubsection*.16}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Environmental factors and disease}{11}{subsubsection*.17}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.3}Cell types involved in psoriasis and PsA pathogenesis}{11}{subsection.1.2.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.4}Therapeutic intervention and prognosis}{17}{subsection.1.2.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Genetics of psoriasis and psoriatic arthritis}{18}{section.1.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.1}Heritability}{18}{subsection.1.3.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.2}Non-GWAS and linkage studies}{19}{subsection.1.3.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.3}Genome-wide association studies}{20}{subsection.1.3.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.4}Relevance of non-coding versus coding variants in disease susceptibility}{23}{subsection.1.3.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.5}The role of GWAS studies in highlighting immune-relevant cell types and pathways}{25}{subsection.1.3.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Antigen presentation}{27}{subsubsection*.19}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Skin barrier}{28}{subsubsection*.20}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{NF-$\kappa $B, type I IFN and innate immunity}{28}{subsubsection*.21}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{TNF, IL-17 and IL-23 pathways}{30}{subsubsection*.22}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Other pathways}{31}{subsubsection*.23}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Gene deserts}{31}{subsubsection*.24}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.6}Limitations and future of GWAS studies}{31}{subsection.1.3.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Functional interpretation of genome-wide association studies in complex diseases}{34}{section.1.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.1}Overcoming the limitations of GWAS: post-GWAS studies}{34}{subsection.1.4.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.2}The use of fine-mapping to prioritise causal variants}{34}{subsection.1.4.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.3}The importance of context specificity in the regulation of gene expression}{34}{subsection.1.4.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.4}Approaches to establish disease mechanisms and causality of genetic variant}{35}{subsection.1.4.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{48}{chapter*.25}
+\contentsline {subsubsection}{Sample quality control}{2}{subsubsection*.13}
 \contentsfinish 
