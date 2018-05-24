@@ -12,3 +12,4 @@
 \BOOKMARK [1][-]{section.1.2}{Results}{chapter.1}% 12
 \BOOKMARK [2][-]{subsection.1.2.1}{Establishment of an ATAC-seq data analysis pipeline based on current knowledge}{section.1.2}% 13
 \BOOKMARK [3][-]{subsubsection*.13}{Sample quality control}{subsection.1.2.1}% 14
+\BOOKMARK [3][-]{subsubsection*.16}{Peak calling and filtering}{subsection.1.2.1}% 15

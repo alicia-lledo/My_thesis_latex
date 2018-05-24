@@ -28,78 +28,7 @@ New ATAC but also explanations of the limitations: Characterization of chromatin
 When the first ATAC-seq publication \parencite{Buenrostro2013} appeared, there were not well established protocols for the complete processing of the data. Since then, several publications have used ATAC-seq and modifications of this protocol together with a wide range of data analysis strategies to answer different biological questions (Table \ref{tab:ATAC_comparative_methods}).
 There are several limiting aspects in the process of analysing ATAC-seq data, including QC assessment, peak calling/filtering and differential analysis of chromatin accessibility regions between groups. Using the current knowledge in the field as well as on my own analysis, I agreed on the most appropriate criteria and parameters to implement in our in-house pipeline. For this purpose, I used ATAC data generated with the original protocol \parencite{Buenrostro2013} in paired CD14$^+$ monocytes and CD4$^+$ total T cells from the same three healthy individuals, all of them downsamples to 30 million of reads, in order to facilitate the comparison across all of them.
 
-\subsubsection{Sample quality control}
-Regarding QC measurements, the variability in performance of the methodology, particularly ATAC-seq and Fast-ATAC, has required to agree on appropriate parameters to determine the quality of the samples before proceeding with downstream differential analysis. After reviewing the different read-outs implemented across different publications, I have identified the most informative ones showing supporting correlation between them.
 
-Firstly, I analysed the fragment size distribution for each of the samples in order to determine if they recapitulated the expected nucleosome periodicity every $\sim$200bp (Figure \ref{fig:QC_ATAC}a). All the samples showed periodicity up to 600bp, clearly distinguishing chromatin organisation into mono-, di- and tri-nucleosomes. The relative intensity of nucleosome-free DNA fragments ($<$200pb) compared to nucleosome-bound DNA was greater for some of the samples (e.g CTL1 CD4$^+$ and CD14$^+$) and similar or lower for others (e.g CTL3 CD4$^+$ and CD14$^+$).
-
-Another QC measurement was based on the enrichment over a random background of ATAC-seq reads across all the TSS for the identified for Ensemble genes (Figure \ref{fig:QC_ATAC}b). It is well established that nucleosome repositioning and an increase of chromatin accessibility take place at TSS to allow formation of the transcriptional machinery and initiation of transcription. Fold-enrichment signals ranged between 5-7 for the CD4$^+$ samples and they were much higher(between 17-20) for the CD4$^+$ samples. The lower sample quality of the CD4$^+$compared to CD14$^+$ shown by the TSS signal were recapitulated by the ATAC-seq genome browser density at the promoter of the constitutively expressed gene \textit{GAPDH} (Figure \ref{fig:QC_ATAC}c).     
-
-Agreement between TSS enrichment values and the background levels in each of the samples.
-
-
-
-
-
-
-
-\begin{figure}[htbp]
-\centering
-\begin{subfigure}{0.45\textwidth}
-\centering
-\includegraphics[height=8cm,width=\textwidth]{./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_frag_size_distribution}
-\caption{\textbf{}}
-% The percentage sign indicated that the other subfig goes side by side
-\end{subfigure}%
-\begin{subfigure}{0.45\textwidth}
-\centering
-\includegraphics[height=8cm,width=\textwidth]{./Results1/pdfs/TSS_enrichment_Core_fresh_CD4_CD14}
-\caption{\textbf{}}
-\end{subfigure} \\
-\hfill
-\begin{subfigure}{0.45\textwidth}
-\centering
-\includegraphics[height=8cm,width=\textwidth]{./Results1/pdfs/ATAC_Core_CD4_CD14_fresh_GAPDH}
-\caption{\textbf{}} % to add text to the figure name
-\end{subfigure}%
-\begin{subfigure}{0.45\textwidth}
-\centering
-\includegraphics[height=8cm,width=\textwidth]{./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_corr_tss_vs_frac_reads_in_peaks}
-\caption{\textbf{}} % to add text to the figure name
-\end{subfigure} \\
-\hfill
-\caption[Measurements for quality control assessment in ATAC-seq samples]{\textbf{} \\
-}
-\label{fig:QC_ATAC}
-\end{figure}
-	
-The fraction of reads mapping to the location of peaks following basic filtering for FDR<0.01 was calculated for each of the samples using data for 30M reads and a clear positive correlation was found with the TSS enrichment values. 
-	
-Table for fraction of reads in peaks and \% of mitochondrial reads range between 14.9-43.3\% and they appear to be higher in CD4 than in CD14, opposite to the trend observed for the enrichment of signal at TSS and the fraction of reads in called peaks. Therefore, the percentage of MT reads seems to be cell type dependent and not being directly related with quality sample.
-	
-\begin{table}[htbp]
-%\setlength{\tabcolsep}{20pt} only to stretch the columns if you want
-%\renewcommand{\arraystretch}{1.5}
-\begin{tabular}{@{} c c c}
-\toprule
-\textbf{Sample} & \textbf{\% MT reads} & \textbf{Fraction of reads in peaks} \\
-\midrule
-\midrule
-CTL1 CD4 & 14.9 & 4.9 \\
-CTL2 CD4 & 30.5 & 5.6 \\
-CTL3 CD4 & 28.8 & 7.7 \\
-CTL1 CD14 & 43.3 & 24.2 \\
-CTL2 CD14 & 36.8 & 28.5 \\
-CTL3 CD14 & 37.6 & 24.9 \\
-\bottomrule
-\end{tabular}
-\medskip %gap
-\caption[ATAC-seq percentage of MT reads and fraction of reads in called peaks]{\textbf{Details regarding target molecule, fluorochrome, clone, supplier and dilution used for PBMC and SFC staining are provided for each of the antibodies in the panel. In controls only CD3, CD4 and CD4 markers were used.}}
-\label{tab:ATAC_MT_fraction_reads_in_peaks}
-\end{table}
-\bigskip %bigger space
-
-	
 %
 \begin{landscape}
 \begin{center}
@@ -137,3 +66,129 @@ CTL3 CD14 & 37.6 & 24.9 \\
 
 %\clearpage
 
+
+
+\subsubsection{Sample quality control}
+Regarding QC measurements, the variability in performance of the methodology, particularly ATAC-seq and Fast-ATAC, has required to agree on appropriate parameters to determine the quality of the samples before proceeding with downstream differential analysis. After reviewing the different read-outs implemented across different publications, I have identified the most informative ones showing supporting correlation between them.
+
+Firstly, I analysed the fragment size distribution for each of the samples in order to determine if they recapitulated the expected nucleosome periodicity every $\sim$200bp (Figure \ref{fig:QC_ATAC}a). All the samples showed periodicity up to 600bp, clearly distinguishing chromatin organisation into mono-, di- and tri-nucleosomes. The relative intensity of nucleosome-free DNA fragments ($<$200pb) compared to nucleosome-bound DNA was greater for some of the samples (e.g CTL1 CD4$^+$ and CD14$^+$) and similar or lower for others (e.g CTL3 CD4$^+$ and CD14$^+$). Nucleosome-free fragments ($<$147bp) are also clearly distinguished in all of the samples, meeting the ENCODE QC recommendations \parencite{ENCODE}.
+
+Another QC measurement was based on the enrichment over a random background of ATAC-seq reads across all the TSS for the identified for Ensemble genes (Figure \ref{fig:QC_ATAC}b). It is well established that nucleosome repositioning and an increase of chromatin accessibility take place at TSS to allow formation of the transcriptional machinery and initiation of transcription. Fold-enrichment signals ranged between 5-7 for the CD4$^+$ samples and they were much higher(between 17-20) for the CD4$^+$ samples. The lower sample quality of the CD4$^+$compared to CD14$^+$ shown by the TSS signal were recapitulated by the ATAC-seq genome browser density at the promoter of the constitutively expressed gene \textit{GAPDH} (Figure \ref{fig:QC_ATAC}c). 
+	
+As part of the QC assessment I looked at the percentage of mitochondrial reads and the fraction of reads in peaks (FRiP)(Table \ref{tab:ATAC_MT_fraction_reads_in_peaks}). 
+
+\begin{table}[htbp]
+%\setlength{\tabcolsep}{20pt} only to stretch the columns if you want
+%\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{@{} c c c}
+\toprule
+\textbf{Sample} & \textbf{\% MT reads} & \textbf{Fraction of reads in peaks} \\
+\midrule
+\midrule
+CTL1 CD4 & 14.9 & 9.8 \\
+CTL2 CD4 & 30.5 & 11.2 \\
+CTL3 CD4 & 28.8 & 11.6 \\
+CTL1 CD14 & 43.3 & 32.2 \\
+CTL2 CD14 & 36.8 & 57.0 \\
+CTL3 CD14 & 37.6 & 49.9 \\
+\bottomrule
+\end{tabular}
+\medskip %gap
+\caption[ATAC-seq percentage of MT reads and fraction of reads in called peaks]{\textbf{}}
+\label{tab:ATAC_MT_fraction_reads_in_peaks}
+\end{table}
+\bigskip %bigger space
+
+
+Positive correlation between the TSS fold-change enrichment and FRiP was observed, being both appropriate inter-dependent QC measures to evaluate sample noise (Figure \ref{fig:QC_ATAC}d). Regarding the cut-off values, Alsoo \textit{et al.}, 2018 and, recently, ENCODE have recommended minimum FRiP between 10-20\% and TSS between 6-10. ENCODE has prioritised the use of TSS over FRiP as the measurement to determine the noise in the sample \parencite{ENCODE}. The mitochondrial content ranged between 14.9-43.3\% and, alike FRiP and TSS, it was higher in CD4$^+$ than in CD4$^+$ and was cell type dependent and not directly related with any of the other QC measurements.
+
+
+
+\begin{figure}[htbp]
+\centering
+\begin{subfigure}{0.45\textwidth}
+\centering
+\includegraphics[height=8cm,width=\textwidth]{./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_frag_size_distribution}
+\caption{\textbf{}}
+% The percentage sign indicated that the other subfig goes side by side
+\end{subfigure}%
+\begin{subfigure}{0.45\textwidth}
+\centering
+\includegraphics[height=8cm,width=\textwidth]{./Results1/pdfs/TSS_enrichment_Core_fresh_CD4_CD14}
+\caption{\textbf{}}
+\end{subfigure} \\
+\hfill
+\begin{subfigure}{0.45\textwidth}
+\centering
+\includegraphics[height=8cm,width=\textwidth]{./Results1/pdfs/ATAC_Core_CD4_CD14_fresh_GAPDH}
+\caption{\textbf{}} % to add text to the figure name
+\end{subfigure}%
+\begin{subfigure}{0.45\textwidth}
+\centering
+\includegraphics[height=8cm,width=\textwidth]{./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_corr_tss_vs_frac_reads_in_peaks}
+\caption{\textbf{}} % to add text to the figure name
+\end{subfigure} \\
+\hfill
+\caption[Measurements for quality control assessment in ATAC-seq samples]{\textbf{} \\
+}
+\label{fig:QC_ATAC}
+\end{figure}
+	
+
+\subsubsection{Peak calling and filtering}
+As part of the ATAC-seq pipeline implementation, peak calling and the criteria for filtering where another two aspects to determine.
+Although different peak callers have been used, most of the publications as well as ENCODE has been using MACS2 as the preferred methodology (Table \ref{tab:ATAC_comparative_methods}). MACS2 has been initially developed for ChIP but it has also been used for DHS and ATAC-seq with disabling the model and agreeing in an extension size (--extsize) and a shift (--shift), which indicate the direction and number of bp for reads to be shifted and the number of bp for them to be extended, respectively. The --extsize should correspond to the average fragment size, which in my libraries is $\sim$200bp and the --shift is set to -100, as it is recommended to be set to -1/2 of the fragment size for chromatin accessibility assays. This parameter could be further optimised but it escapes from the aim of this thesis.
+
+I was interesting in understanding the effect of sequencing depth and the sample quality on the peak calling to have a better control of both variables in the downstream analysis. I performed random read sub-sampling every 5M total reads (from 5M to 30M) followed by peak calling with arbitrary filtering for FDR<0.01 in each of the six aforementioned samples. 
+
+Number of reads is dependent of the read depth and sample quality. Lower number of peaks called in CD4 samples compared to CD14, reflecting sample quality effect. However for both set of samples number of called peaks increases with the number of reads and when looking at the increment of number of peaks both reach plateau
+
+
+\begin{figure}[htbp]
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\includegraphics[width=\textwidth]{./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_num_peaks_vs_depth}
+\caption{\textbf{}}
+% The percentage sign indicated that the other subfig goes side by side
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\includegraphics[width=\textwidth]{./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_increment_num_peaks_vs_depth}
+\caption{\textbf{}}
+\end{subfigure} \\
+\begin{subfigure}{0.5\textwidth}
+\centering
+\includegraphics[width=\textwidth]{./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_frac_reads_in_peaks_vs_depth}
+\caption{\textbf{}} % to add text to the figure name
+\end{subfigure}%
+\caption[Peak calling and sequencing depth in ATAC-seq samples]{\textbf{Peak calling at different sequencing depth in ATAC-seq samples} \\
+}
+\label{fig:Peak_calling_versus_depth_ATAC}
+\end{figure} 
+
+
+
+
+\begin{figure}[htbp]
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\includegraphics[width=\textwidth]{./Results1/pdfs/ATAC_Core_fresh_CTL2_CD4_shared_peaks_IDR_vs_pval}
+\caption{\textbf{}}
+% The percentage sign indicated that the other subfig goes side by side
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\includegraphics[width=\textwidth]{./Results1/pdfs/ATAC_Core_fresh_CTL2_CD14_shared_peaks_IDR_vs_pval}
+\caption{\textbf{}}
+\end{subfigure} \\
+\begin{subfigure}{0.5\textwidth}
+\centering
+\includegraphics[width=\textwidth]{./Results1/pdfs/peak_width_hist_CD4_CD14_PVAL_IDR_filtered_peaks}
+\caption{\textbf{}} % to add text to the figure name
+\end{subfigure}%
+\caption[Peak calling assessment and IDR filtering in ATAC-seq samples]{\textbf{Peak calling filtering and assessment of width distribution in ATAC-seq samples} \\
+}
+\label{fig:Peak_calling_IDR_filtering_and_width_ATAC}
+\end{figure} 
