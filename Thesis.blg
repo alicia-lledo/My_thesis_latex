@@ -1,15 +1,127 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Thesis.aux
 The style file: biblatex.bst
 A level-1 auxiliary file: Preamble.aux
-A level-1 auxiliary file: ./Results1/Results1.aux
+A level-1 auxiliary file: ./Introduction/Introduction.aux
+White space in argument---line 115 of file Thesis.aux
+ : \citation{Said-Nahal2000
+ :                          \parencite }
+I'm skipping whatever remains of this command
+White space in argument---line 211 of file Thesis.aux
+ : \citation{add
+ :               ref from cell types}
+I'm skipping whatever remains of this command
+Stuff after "}"---line 586 of file Thesis.aux
+ : \citation{H\"{o
+ :                }hler2002}
+I'm skipping whatever remains of this command
+White space in argument---line 593 of file Thesis.aux
+ : \citation{The
+ :               international HapMaP Consortium}
+I'm skipping whatever remains of this command
+White space in argument---line 596 of file Thesis.aux
+ : \citation{The
+ :               1000 Genomes}
+I'm skipping whatever remains of this command
+White space in argument---line 815 of file Thesis.aux
+ : \citation{GWAS
+ :                studies}
+I'm skipping whatever remains of this command
+Stuff after "}"---line 831 of file Thesis.aux
+ : \citation{H\"{u
+ :                }ffmeier2010}
+I'm skipping whatever remains of this command
+Stuff after "}"---line 834 of file Thesis.aux
+ : \citation{H\"{u
+ :                }ffmeier2010}
+I'm skipping whatever remains of this command
+Stuff after "}"---line 838 of file Thesis.aux
+ : \citation{H\"{u
+ :                }ffmeier2010}
+I'm skipping whatever remains of this command
+White space in argument---line 876 of file Thesis.aux
+ : \citation{van
+ :               Vollenhoven2012}
+I'm skipping whatever remains of this command
 Database file #1: Thesis-blx.bib
 Database file #2: Thesis_ref.bib
-Warning--I didn't find a database entry for "Buenrostro2013"
-Warning--I didn't find a database entry for "Corces2016"
-Warning--I didn't find a database entry for "ENCODE"
-Warning--I didn't find a database entry for "Turner2018"
-Warning--I didn't find a database entry for "Qu2017"
-Warning--I didn't find a database entry for "Rendeiro2016"
-Warning--I didn't find a database entry for "Scharer2016"
+Warning--I didn't find a database entry for "Villanova2016"
+Warning--I didn't find a database entry for "Reich2008"
+Warning--I didn't find a database entry for "("
+Warning--I didn't find a database entry for "ICD-10"
+Warning--I didn't find a database entry for "Roderick2014"
+Warning--I didn't find a database entry for "Johnson-Huang"
+Warning--I didn't find a database entry for "2009"
+Warning--I didn't find a database entry for "Runwaleit2001"
+Warning--I didn't find a database entry for "McGonagle"
+Warning--I didn't find a database entry for "2011"
+Warning--I didn't find a database entry for "Moll1976"
+Warning--I didn't find a database entry for "Saphiro2007"
+Warning--I didn't find a database entry for "Cohrn20017"
+Warning--I didn't find a database entry for "Schmitt2005"
+Warning--I didn't find a database entry for "Taylor2006"
+Warning--I didn't find a database entry for "Philipp2011"
+Warning--I didn't find a database entry for "Schett2011"
+Warning--I didn't find a database entry for "Mensah2017"
+Warning--I didn't find a database entry for "Leanne2009"
+Warning--I didn't find a database entry for "Schmid1994"
+Warning--I didn't find a database entry for "Valdimarsson2009"
+Warning--I didn't find a database entry for "Weiss2002"
+Warning--I didn't find a database entry for "Feldmeyer2007"
+Warning--I didn't find a database entry for "Mahil2006"
+Warning--I didn't find a database entry for "Stratis2006"
+Warning--I didn't find a database entry for "Wang2006"
+Warning--I didn't find a database entry for "Bar-Eli1979"
+Warning--I didn't find a database entry for "Golden2015"
+Warning--I didn't find a database entry for "Gardembas1990"
+Warning--I didn't find a database entry for "Lecewicz-Toruń2001"
+Warning--I didn't find a database entry for "Boyle2013"
+Warning--I didn't find a database entry for "Cai2012"
+Warning--I didn't find a database entry for "Dolcino2015"
+Warning--I didn't find a database entry for "Rizova2001"
+Warning--I didn't find a database entry for "Schmitt2014"
+Warning--I didn't find a database entry for "Keating2017"
+Warning--I didn't find a database entry for "Ahil2016"
+Warning--I didn't find a database entry for "Coates2016b"
+Warning--I didn't find a database entry for "Faber1974"
+Warning--I didn't find a database entry for "Pendersen2008"
+Warning--I didn't find a database entry for "International2003"
+Warning--I didn't find a database entry for "Rusell1972"
+Warning--I didn't find a database entry for "Tiilikainen1980"
+Warning--I didn't find a database entry for "Tomfohrde1994"
+Warning--I didn't find a database entry for "Łuszczek2004"
+Warning--I didn't find a database entry for "Williams2005"
+Warning--I didn't find a database entry for "Yen2001"
+Warning--I didn't find a database entry for "Tsoi2017"
+Warning--I didn't find a database entry for "Tsoi205"
+Warning--I didn't find a database entry for "Winchester2012"
+Warning--I didn't find a database entry for "Stuart2015"
+Warning--I didn't find a database entry for "Welter2013"
+Warning--I didn't find a database entry for "Tang2014"
+Warning--I didn't find a database entry for "Zuo2015"
+Warning--I didn't find a database entry for "Ward2012"
+Warning--I didn't find a database entry for "Zhang2012"
+Warning--I didn't find a database entry for "Small2011"
+Warning--I didn't find a database entry for "Visscher2017"
+Warning--I didn't find a database entry for "ImmunoBase"
+Warning--I didn't find a database entry for "Cortes2015b"
+Warning--I didn't find a database entry for "Constatino2015"
+Warning--I didn't find a database entry for "Bergboer2011"
+Warning--I didn't find a database entry for "Riveira-Munoz2011"
+Warning--I didn't find a database entry for "Jordan2012b"
+Warning--I didn't find a database entry for "Liu2017"
+Warning--I didn't find a database entry for "Wang2008"
+Warning--I didn't find a database entry for "Idel2003"
+Warning--I didn't find a database entry for "Wang2014"
+Warning--I didn't find a database entry for "Orange2005"
+Warning--I didn't find a database entry for "Puel2004"
+Warning--I didn't find a database entry for "Nextle2005"
+Warning--I didn't find a database entry for "Calamonici1994"
+Warning--I didn't find a database entry for "TLR9"
+Warning--I didn't find a database entry for "Wray2005"
+Warning--I didn't find a database entry for "TNFSF15"
+Warning--I didn't find a database entry for "Dand2017."
+Warning--I didn't find a database entry for "Zuk2012"
+Warning--I didn't find a database entry for "Uebe2017"
+Warning--I didn't find a database entry for "Feuk2010"
 Biblatex version: 3.8
-(There were 7 warnings)
+(There were 10 error messages)
