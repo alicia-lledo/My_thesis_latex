@@ -16,5 +16,49 @@
   {}
 \endgroup
 
-\datalist[entry]{nyt/global//global/global}\enddatalist
+\datalist[entry]{nyt/global//global/global}
+  \entry{Jonker2014}{article}{}
+    \name{author}{3}{}{%
+      {{hash=JMJ}{%
+         family={Jonker},
+         familyi={J\bibinitperiod},
+         given={M.\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=dLWC}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Leeuw},
+         familyi={L\bibinitperiod},
+         given={W.\bibnamedelima C.},
+         giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=aMM}{%
+         family={acids …},
+         familyi={a\bibinitperiod},
+         given={Marinković -M.},
+         giveni={M\bibinitperiod-M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JMJ+1}
+    \strng{fullhash}{JMJLWCdaMM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{year}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \verb{doi}
+    \verb 10.1093/nar/gku343
+    \endverb
+    \field{title}{Absence/presence calling in microarray-based CGH experiments
+  with non-model organisms}
+    \verb{url}
+    \verb http://dx.doi.org/10.1093/nar/gku343
+    \endverb
+    \field{type}{Journal Article}
+    \field{journaltitle}{Nucleic acids …}
+    \field{year}{2014}
+  \endentry
+\enddatalist
 \endinput
