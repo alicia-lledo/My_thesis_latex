@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  24 JUN 2018 16:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  30 JUN 2018 11:44
 entering extended mode
 **./Thesis.tex
 (Thesis.tex
@@ -1011,11 +1011,7 @@ File: english.lbx 2017/11/21 v3.9 biblatex localization (PK/JW/AB)
 \@quotelevel=\count329
 \@quotereset=\count330
  (Thesis.aux (Preamble.aux)
-(Results1/Results1.aux
-
-LaTeX Warning: Label `fig:PS02_skin_ATAC_QC_assessment' multiply defined.
-
-) (Appendix/Appendix.aux))
+(Results3/Results3.aux) (Appendix/Appendix.aux))
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 79.
@@ -1030,8 +1026,7 @@ LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
 LaTeX Font Info:    ... okay on input line 79.
 LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 79.
 LaTeX Font Info:    Try loading font information for OMS+jkp on input line 79.
-
-(C:\Users\alicia\AppData\Roaming\MiKTeX\2.9\tex\latex\kpfonts\omsjkp.fd
+ (C:\Users\alicia\AppData\Roaming\MiKTeX\2.9\tex\latex\kpfonts\omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    ... okay on input line 79.
@@ -1134,7 +1129,7 @@ Package biblatex Info: Reference segment=0 on input line 79.
 
 
 (Preamble.tex
-<oxford_logo-eps-converted-to.pdf, id=74, pagebox=cropbox, 561.09625pt x 651.43375pt>
+<oxford_logo-eps-converted-to.pdf, id=78, pagebox=cropbox, 561.09625pt x 651.43375pt>
 File: oxford_logo-eps-converted-to.pdf Graphic file (type pdf)
 <use oxford_logo-eps-converted-to.pdf>
 Package pdftex.def Info: oxford_logo-eps-converted-to.pdf  used on input line 6. on input line 6.
@@ -1197,13 +1192,8 @@ LaTeX Font Info:    Try loading font information for TS1+jkp on input line 23.
 (C:\Users\alicia\AppData\Roaming\MiKTeX\2.9\tex\latex\kpfonts\ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
- [][] [][]\OT1/jkp/m/n/12 Assessment of ATAC-seq trans-po-si-tion times and 
- []
-
-
-Underfull \hbox (badness 6477) in paragraph at lines 37--37
- [][] [][]\OT1/jkp/m/n/12 Limitations of ATAC-seq and FAST-ATAC to as-sess 
+Underfull \hbox (badness 6559) in paragraph at lines 29--29
+ [][] [][]\OT1/jkp/m/n/12 Differences in the chro-matin ac-ces-si-bil-ity land-scape 
  []
 
 
@@ -1217,33 +1207,13 @@ Overfull \hbox (7.6886pt too wide) in paragraph at lines 43--43
 
  [6
 
-] (Thesis.lof
-Underfull \hbox (badness 10000) in paragraph at lines 11--11
- [][] [][]\OT1/jkp/m/n/12 Differential chro-matin ac-ces-si-bil-ity anal-y-sis for dif-fer-ent 
- []
-
-
-Underfull \hbox (badness 1259) in paragraph at lines 19--19
- [][] [][]\OT1/jkp/m/n/12 QC as-sess-ment of ATAC-seq in KC en-riched cell sus-pen-sion 
- []
-
-
-Underfull \hbox (badness 7981) in paragraph at lines 23--23
- [][] [][]\OT1/jkp/m/n/12 QC as-sess-ment of Omni-ATAC in NHEK and chro-matin 
- []
-
-)
+] (Thesis.lof)
 \tf@lof=\write7
 \openout7 = `Thesis.lof'.
 
  [7
 
-] (Thesis.lot
-Underfull \hbox (badness 1917) in paragraph at lines 5--5
- [][] [][]\OT1/jkp/m/n/12 Summary ta-ble of ATAC-seq method-ol-ogy anal-y-sis for peak 
- []
-
-)
+] (Thesis.lot)
 \tf@lot=\write8
 \openout8 = `Thesis.lot'.
 
@@ -1262,501 +1232,89 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--145
 ) [9
 
 ]
-\openout2 = `./Results1/Results1.aux'.
+\openout2 = `./Results3/Results3.aux'.
 
- (Results1/Results1.tex
+ (Results3/Results3.tex
 Chapter 1.
 
-Overfull \hbox (17.14226pt too wide) in paragraph at lines 1--1
-\OT1/jkp/b/n/24.88 wide chro-matin ac-ces-si-bil-ity in clin-i-cal
+Overfull \hbox (2.36359pt too wide) in paragraph at lines 1--1
+|\OT1/jkp/b/n/24.88 Cross-tissue com-par-i-son of chro-matin
  []
+
+
+Overfull \hbox (18.15228pt too wide) in paragraph at lines 1--1
+\OT1/jkp/b/n/24.88 ac-ces-si-bil-ity, gene ex-pres-sion sig-na-ture
+ []
+
+
+LaTeX Warning: Reference `ch:Intro' on page 1 undefined on input line 16.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.21 ...allenges of working with clinical samples}
-                                                   [1
+l.18 T
+      he mean age of the cohort at the time of diagnosis was 44.3 years old ... [1
 
 
 
 ]
-Underfull \hbox (badness 1460) in paragraph at lines 27--27
-|[]\OT1/jkp/b/n/14.4 Establishment of an ATAC-seq data anal-y-sis pipeline
- []
 
-
-LaTeX Warning: Citation 'Buenrostro2013' on page 2 undefined on input line 28.
-
-
-LaTeX Warning: Citation 'Buenrostro2013' on page 2 undefined on input line 29.
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.57404pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
-[]|\OT1/jkp/m/n/12 Corces \OT1/jkp/m/it/12 et al.\OT1/jkp/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
-[]|\OT1/jkp/m/n/12 MACS2 (-nomodel), peak
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
-\OT1/jkp/m/n/12 sum-mit ex-ten-sion $+\OML/jkp/m/it/12 =\OMS/jkp/m/n/12  $\OT1/jkp/m/n/12 250bp,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
-[]|\OT1/jkp/m/n/12 Maximally sig-nif-i-cant non-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
-[]|\OT1/jkp/m/n/12 Quantile nor-mal-i-sa-tion and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
-\OT1/jkp/m/n/12 un-su-per-vised hi-er-ar-chi-cal
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
-[]|\OT1/jkp/m/n/12 Choosing longest pair-wise
- []
-
-
-Underfull \hbox (badness 5817) in paragraph at lines 45--45
-\OT1/jkp/m/n/12 present in the two sam-ples
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--48
-[]|\OT1/jkp/m/n/12 Turner \OT1/jkp/m/it/12 et al.\OT1/jkp/m/n/12 ,
- []
-
-! Undefined control sequence.
-l.48 ...ks from the different cell types. & \texti
-                                                  {De novo}:DiffReps with fr...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
-[]|\OT1/jkp/m/n/12 Alasoo \OT1/jkp/m/it/12 et al.\OT1/jkp/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
-[]|\OT1/jkp/m/n/12 Union of peaks from all
- []
-
-
-Underfull \hbox (badness 1389) in paragraph at lines 51--51
-\OT1/jkp/m/n/12 con-di-tions present in at least
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
-[]|\OT1/jkp/m/n/12 Quantile nor-mal-i-sa-tion and
- []
-
-
-Underfull \hbox (badness 1810) in paragraph at lines 54--55
-\OT1/jkp/m/n/12 peak based in house Pear-son
- []
-
-
-Underfull \hbox (badness 1681) in paragraph at lines 57--57
-[]|\OT1/jkp/m/n/12 Rendeiro \OT1/jkp/m/it/12 et al.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
-[]|\OT1/jkp/m/n/12 Peak based: quan-tile
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
-\OT1/jkp/m/n/12 nor-mal-i-sa-tion and Fisher
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
-[]|\OT1/jkp/m/n/12 Scharer\OT1/jkp/m/it/12 et al.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
-\OT1/jkp/m/n/12 be-tween all sam-ples us-ing
+Overfull \hbox (37.16911pt too wide) in alignment at lines 24--41
+ [] [] [] [] [] [] [] [] 
  []
 
 [3
 
-] [4]
-Underfull \hbox (badness 2221) in paragraph at lines 72--73
-[]\OT1/jkp/m/n/12 Regarding QC mea-sure-ments, the vari-abil-ity in per-for-mance of the
+]
+
+LaTeX Warning: Reference `ch:Mat' on page 4 undefined on input line 47.
+
+
+Underfull \hbox (badness 3977) in paragraph at lines 73--73
+|[]\OT1/jkp/b/n/14.4 Differences in the chro-matin ac-ces-si-bil-ity land-scape
  []
 
-
-Underfull \hbox (badness 1038) in paragraph at lines 72--73
-\OT1/jkp/m/n/12 method-ol-ogy, par-tic-u-larly ATAC-seq and Fast-ATAC, has re-quired to agree
- []
-
-
-Underfull \hbox (badness 3250) in paragraph at lines 72--73
-\OT1/jkp/m/n/12 pro-ceed-ing with down-stream dif-fer-en-tial anal-y-sis. Af-ter re-view-ing the
- []
-
-
-LaTeX Warning: Citation 'ENCODE' on page 5 undefined on input line 74.
-
-
-Underfull \hbox (badness 1122) in paragraph at lines 74--75
-[]\OT1/jkp/m/n/12 Firstly, I anal-ysed the frag-ment size dis-tri-bu-tion for each of the six
- []
-
-<./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_frag_size_distribution.pdf, id=212, pagebox=cropbox, 795.97375pt x 640.3925pt>
-
-File: ./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_frag_size_distribution.pdf Graphic file (type pdf)
-<use ./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_frag_size_distribution.pdf>
-Package pdftex.def Info: ./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_frag_size_distribution.pdf  used on input line 81. on 
-input line 81.
-Package pdftex.def Info: Requested size: 213.39566pt x 171.67706pt on input line 81.
-<./Results1/pdfs/TSS_enrichment_Core_fresh_CD4_CD14.pdf, id=213, pagebox=cropbox, 795.97375pt x 640.3925pt>
-File: ./Results1/pdfs/TSS_enrichment_Core_fresh_CD4_CD14.pdf Graphic file (type pdf)
-<use ./Results1/pdfs/TSS_enrichment_Core_fresh_CD4_CD14.pdf>
-Package pdftex.def Info: ./Results1/pdfs/TSS_enrichment_Core_fresh_CD4_CD14.pdf  used on input line 86. on input line 86
+<./Results3/pdfs/ATAC_PSA_total_filtered_reads_boxplot.pdf, id=183, pagebox=cropbox, 830.10126pt x 638.385pt>
+File: ./Results3/pdfs/ATAC_PSA_total_filtered_reads_boxplot.pdf Graphic file (type pdf)
+<use ./Results3/pdfs/ATAC_PSA_total_filtered_reads_boxplot.pdf>
+Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_total_filtered_reads_boxplot.pdf  used on input line 84. on input line
+ 84.
+Package pdftex.def Info: Requested size: 204.85802pt x 157.54051pt on input line 84.
+<./Results3/pdfs/ATAC_PSA_pcnt_reads_filtered_out_boxplot.pdf, id=184, pagebox=cropbox, 852.18375pt x 646.415pt>
+File: ./Results3/pdfs/ATAC_PSA_pcnt_reads_filtered_out_boxplot.pdf Graphic file (type pdf)
+<use ./Results3/pdfs/ATAC_PSA_pcnt_reads_filtered_out_boxplot.pdf>
+Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_pcnt_reads_filtered_out_boxplot.pdf  used on input line 90. on input l
+ine 90.
+Package pdftex.def Info: Requested size: 204.85802pt x 155.38936pt on input line 90.
+<./Results3/pdfs/ATAC_PSA_all_TSS_max_per_cell_type.pdf, id=185, pagebox=cropbox, 843.15pt x 637.38126pt>
+File: ./Results3/pdfs/ATAC_PSA_all_TSS_max_per_cell_type.pdf Graphic file (type pdf)
+<use ./Results3/pdfs/ATAC_PSA_all_TSS_max_per_cell_type.pdf>
+Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_all_TSS_max_per_cell_type.pdf  used on input line 97. on input line 97
 .
-Package pdftex.def Info: Requested size: 192.0548pt x 154.50838pt on input line 86.
-<./Results1/pdfs/ATAC_Core_CD4_CD14_fresh_GAPDH.pdf, id=214, pagebox=cropbox, 542.025pt x 336.74106pt>
-File: ./Results1/pdfs/ATAC_Core_CD4_CD14_fresh_GAPDH.pdf Graphic file (type pdf)
-<use ./Results1/pdfs/ATAC_Core_CD4_CD14_fresh_GAPDH.pdf>
-Package pdftex.def Info: ./Results1/pdfs/ATAC_Core_CD4_CD14_fresh_GAPDH.pdf  used on input line 91. on input line 91.
-Package pdftex.def Info: Requested size: 192.0548pt x 119.31525pt on input line 91.
+Package pdftex.def Info: Requested size: 204.85802pt x 154.86139pt on input line 97.
+<./Results3/pdfs/ATAC_PSA_all_peaks_vs_num_reads.pdf, id=186, pagebox=cropbox, 828.09375pt x 642.4pt>
+File: ./Results3/pdfs/ATAC_PSA_all_peaks_vs_num_reads.pdf Graphic file (type pdf)
+<use ./Results3/pdfs/ATAC_PSA_all_peaks_vs_num_reads.pdf>
+Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_all_peaks_vs_num_reads.pdf  used on input line 103. on input line 103.
 
-Underfull \hbox (badness 1852) in paragraph at lines 100--101
-\OT1/jkp/m/n/12 sig-nals ranged be-tween 5-7 for the CD4$[]$ sam-ples and they were much
- []
+Package pdftex.def Info: Requested size: 204.85802pt x 158.91362pt on input line 103.
+[4
 
-[5
-
-] [6 <./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_frag_size_distribution.pdf> <./Results1/pdfs/TSS_enrichment_Core_fresh_CD
-4_CD14.pdf> <./Results1/pdfs/ATAC_Core_CD4_CD14_fresh_GAPDH.pdf>]
-
-LaTeX Warning: Citation 'ENCODE' on page 7 undefined on input line 128.
-
-
-Underfull \hbox (badness 1292) in paragraph at lines 128--129
-\OT1/jkp/m/n/12 shown), be-ing both ap-pro-pri-ate inter-dependent QC mea-sures to eval-u-ate
- []
-
-[7]
-<./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_num_peaks_vs_depth.pdf, id=302, pagebox=cropbox, 879.285pt x 597.23125pt>
-File: ./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_num_peaks_vs_depth.pdf Graphic file (type pdf)
-<use ./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_num_peaks_vs_depth.pdf>
-Package pdftex.def Info: ./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_num_peaks_vs_depth.pdf  used on input line 146. on inp
-ut line 146.
-Package pdftex.def Info: Requested size: 213.39566pt x 144.9423pt on input line 146.
-<./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_increment_num_peaks_vs_depth.pdf, id=303, pagebox=cropbox, 890.32625pt x 611.2
-8375pt>
-File: ./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_increment_num_peaks_vs_depth.pdf Graphic file (type pdf)
-<use ./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_increment_num_peaks_vs_depth.pdf>
-Package pdftex.def Info: ./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_increment_num_peaks_vs_depth.pdf  used on input line 1
-52. on input line 152.
-Package pdftex.def Info: Requested size: 192.0548pt x 131.86183pt on input line 152.
-<./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_frac_reads_in_peaks_vs_depth.pdf, id=304, pagebox=cropbox, 876.27374pt x 611.2
-8375pt>
-File: ./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_frac_reads_in_peaks_vs_depth.pdf Graphic file (type pdf)
-<use ./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_frac_reads_in_peaks_vs_depth.pdf>
-Package pdftex.def Info: ./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_frac_reads_in_peaks_vs_depth.pdf  used on input line 1
-57. on input line 157.
-Package pdftex.def Info: Requested size: 192.0548pt x 133.96983pt on input line 157.
-
-
-LaTeX Warning: Reference `fig:fig:Peak_calling_IDR_filtering_and_chrom_stated_ATAC' on page 8 undefined on input line 16
-7.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.167 ...xtended in the lower quality CD4fig:Peak_
-                                                  calling_IDR_filtering_and_...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.167 ..._and_chrom_stated_ATAC sample (CTL2 CD4$^
-                                                  +$ Figure \ref{fig:fig:Pea...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-LaTeX Warning: Reference `fig:fig:Peak_calling_IDR_filtering_and_chrom_stated_ATAC' on page 8 undefined on input line 16
-7.
-
-
-LaTeX Warning: Reference `fig:fig:Peak_calling_IDR_filtering_and_chrom_stated_ATAC' on page 8 undefined on input line 16
-7.
-
-
-LaTeX Warning: Reference `fig:fig:Peak_calling_IDR_filtering_and_chrom_stated_ATAC' on page 8 undefined on input line 16
-8.
-
-
-Underfull \hbox (badness 1661) in paragraph at lines 167--169
-[]\OT1/jkp/m/n/12 Regarding peak call-ing fil-ter-ing, most of the ATAC-seq pub-li-ca-tions
- []
-
-
-Underfull \hbox (badness 1082) in paragraph at lines 167--169
-\OT1/jkp/m/n/12 the use of IDR to ex-per-i-men-tally iden-tify the most ap-pro-pri-ate p-val for
- []
-
-
-Underfull \hbox (badness 2326) in paragraph at lines 167--169
-\OT1/jkp/m/n/12 fil-ter-ing each in-di-vid-ual sam-ple. Each sam-ple was par-ti-tioned in two,
- []
-
-
-Underfull \hbox (badness 2269) in paragraph at lines 167--169
-\OT1/jkp/m/n/12 num-ber shared peaks) shar-ing IDR at a par-tic-u-lar p-val was cal-cu-lated
- []
-
-
-Underfull \hbox (badness 3343) in paragraph at lines 167--169
-\OT1/jkp/m/n/12 in the per-cent-age of shared peaks upon se-quenc-ing depth un-der 10M
- []
-
-[8] [9 <./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_num_peaks_vs_depth.pdf> <./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_incre
-ment_num_peaks_vs_depth.pdf> <./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_frac_reads_in_peaks_vs_depth.pdf>]
-<./Results1/pdfs/ATAC_Core_fresh_CTL2_CD4_shared_peaks_IDR_vs_pval.pdf, id=357, pagebox=cropbox, 877.2775pt x 610.28pt>
-File: ./Results1/pdfs/ATAC_Core_fresh_CTL2_CD4_shared_peaks_IDR_vs_pval.pdf Graphic file (type pdf)
-<use ./Results1/pdfs/ATAC_Core_fresh_CTL2_CD4_shared_peaks_IDR_vs_pval.pdf>
-Package pdftex.def Info: ./Results1/pdfs/ATAC_Core_fresh_CTL2_CD4_shared_peaks_IDR_vs_pval.pdf  used on input line 177. 
-on input line 177.
-Package pdftex.def Info: Requested size: 213.39566pt x 148.44435pt on input line 177.
-<./Results1/pdfs/ATAC_Core_fresh_CTL2_CD14_shared_peaks_IDR_vs_pval.pdf, id=358, pagebox=cropbox, 877.2775pt x 616.3025p
-t>
-File: ./Results1/pdfs/ATAC_Core_fresh_CTL2_CD14_shared_peaks_IDR_vs_pval.pdf Graphic file (type pdf)
-<use ./Results1/pdfs/ATAC_Core_fresh_CTL2_CD14_shared_peaks_IDR_vs_pval.pdf>
-Package pdftex.def Info: ./Results1/pdfs/ATAC_Core_fresh_CTL2_CD14_shared_peaks_IDR_vs_pval.pdf  used on input line 183.
- on input line 183.
-Package pdftex.def Info: Requested size: 213.39566pt x 149.90927pt on input line 183.
-<./Results1/pdfs/stacked_barplot_chromatin_states_percent_CD4_qval_vs_PVAL_IDR_filtered.pdf, id=359, pagebox=cropbox, 64
-5.74551pt x 546.04pt>
-File: ./Results1/pdfs/stacked_barplot_chromatin_states_percent_CD4_qval_vs_PVAL_IDR_filtered.pdf Graphic file (type pdf)
-
-<use ./Results1/pdfs/stacked_barplot_chromatin_states_percent_CD4_qval_vs_PVAL_IDR_filtered.pdf>
-Package pdftex.def Info: ./Results1/pdfs/stacked_barplot_chromatin_states_percent_CD4_qval_vs_PVAL_IDR_filtered.pdf  use
-d on input line 188. on input line 188.
-Package pdftex.def Info: Requested size: 277.41176pt x 234.58432pt on input line 188.
-
-
-LaTeX Warning: Citation 'Xinmin2005' on page 10 undefined on input line 200.
-
-
-Underfull \hbox (badness 1448) in paragraph at lines 200--201
-\OT1/jkp/m/n/12 ac-ces-si-bil-ity anal-y-sis (Ta-ble []1.1[]), I chose a peak-based ap-proach where a
- []
-
-[10 <./Results1/pdfs/ATAC_Core_fresh_CTL2_CD4_shared_peaks_IDR_vs_pval.pdf> <./Results1/pdfs/ATAC_Core_fresh_CTL2_CD14_s
-hared_peaks_IDR_vs_pval.pdf> <./Results1/pdfs/stacked_barplot_chromatin_states_percent_CD4_qval_vs_PVAL_IDR_filtered.pdf
->]
-<./Results1/pdfs/ATAC_Core_CD4vsCD14_DOC_FDR_01_vs_cutoffs_quantile_DESeq2_only.pdf, id=434, pagebox=cropbox, 877.2775pt
- x 595.22375pt>
-File: ./Results1/pdfs/ATAC_Core_CD4vsCD14_DOC_FDR_01_vs_cutoffs_quantile_DESeq2_only.pdf Graphic file (type pdf)
-<use ./Results1/pdfs/ATAC_Core_CD4vsCD14_DOC_FDR_01_vs_cutoffs_quantile_DESeq2_only.pdf>
-Package pdftex.def Info: ./Results1/pdfs/ATAC_Core_CD4vsCD14_DOC_FDR_01_vs_cutoffs_quantile_DESeq2_only.pdf  used on inp
-ut line 210. on input line 210.
-Package pdftex.def Info: Requested size: 204.85802pt x 138.98752pt on input line 210.
-<./Results1/pdfs/ATAC_Core_CD4vsCD14_proportion_DOC_FDR_01_vs_cutoffs_quantile_DESeq2_only.pdf, id=435, pagebox=cropbox,
- 882.29625pt x 594.22pt>
-File: ./Results1/pdfs/ATAC_Core_CD4vsCD14_proportion_DOC_FDR_01_vs_cutoffs_quantile_DESeq2_only.pdf Graphic file (type p
-df)
-<use ./Results1/pdfs/ATAC_Core_CD4vsCD14_proportion_DOC_FDR_01_vs_cutoffs_quantile_DESeq2_only.pdf>
-Package pdftex.def Info: ./Results1/pdfs/ATAC_Core_CD4vsCD14_proportion_DOC_FDR_01_vs_cutoffs_quantile_DESeq2_only.pdf  
-used on input line 215. on input line 215.
-Package pdftex.def Info: Requested size: 204.85802pt x 137.96431pt on input line 215.
-<./Results1/pdfs/ATAC_Core_fresh_CD4vsCD14_venn_diagram_differential_analysis_FDR_01_quantile_DESeq2_only.pdf, id=436, p
-agebox=cropbox, 844.15375pt x 597.23125pt>
-File: ./Results1/pdfs/ATAC_Core_fresh_CD4vsCD14_venn_diagram_differential_analysis_FDR_01_quantile_DESeq2_only.pdf Graph
-ic file (type pdf)
-<use ./Results1/pdfs/ATAC_Core_fresh_CD4vsCD14_venn_diagram_differential_analysis_FDR_01_quantile_DESeq2_only.pdf>
-Package pdftex.def Info: ./Results1/pdfs/ATAC_Core_fresh_CD4vsCD14_venn_diagram_differential_analysis_FDR_01_quantile_DE
-Seq2_only.pdf  used on input line 220. on input line 220.
-Package pdftex.def Info: Requested size: 213.39566pt x 150.97511pt on input line 220.
- [11] [12 <./Results1/pdfs/ATAC_Core_CD4vsCD14_DOC_FDR_01_vs_cutoffs_quantile_DESeq2_only.pdf> <./Results1/pdfs/ATAC_Cor
-e_CD4vsCD14_proportion_DOC_FDR_01_vs_cutoffs_quantile_DESeq2_only.pdf> <./Results1/pdfs/ATAC_Core_fresh_CD4vsCD14_venn_d
-iagram_differential_analysis_FDR_01_quantile_DESeq2_only.pdf>]
-<./Results1/pdfs/ATAC_Core_CD4_CD14_boxplot_80pcnt_cut_off_filtered_quantile_counts.pdf, id=500, pagebox=cropbox, 851.18
-pt x 603.25375pt>
-File: ./Results1/pdfs/ATAC_Core_CD4_CD14_boxplot_80pcnt_cut_off_filtered_quantile_counts.pdf Graphic file (type pdf)
-<use ./Results1/pdfs/ATAC_Core_CD4_CD14_boxplot_80pcnt_cut_off_filtered_quantile_counts.pdf>
-Package pdftex.def Info: ./Results1/pdfs/ATAC_Core_CD4_CD14_boxplot_80pcnt_cut_off_filtered_quantile_counts.pdf  used on
- input line 241. on input line 241.
-Package pdftex.def Info: Requested size: 204.85802pt x 145.18887pt on input line 241.
-<./Results1/pdfs/ATAC_Core_fastq_CD4_CD14_80pcnt_cut_off_correlation_log2FC_quantile_vs_deseq2.pdf, id=501, pagebox=crop
-box, 895.345pt x 634.37pt>
-File: ./Results1/pdfs/ATAC_Core_fastq_CD4_CD14_80pcnt_cut_off_correlation_log2FC_quantile_vs_deseq2.pdf Graphic file (ty
-pe pdf)
-<use ./Results1/pdfs/ATAC_Core_fastq_CD4_CD14_80pcnt_cut_off_correlation_log2FC_quantile_vs_deseq2.pdf>
-Package pdftex.def Info: ./Results1/pdfs/ATAC_Core_fastq_CD4_CD14_80pcnt_cut_off_correlation_log2FC_quantile_vs_deseq2.p
-df  used on input line 246. on input line 246.
-Package pdftex.def Info: Requested size: 204.85802pt x 145.147pt on input line 246.
-<./Results1/pdfs/ATAC_Core_CD4vsCD14_clusters_and_heatmap_quantile_common.pdf, id=502, pagebox=cropbox, 538.01pt x 376.0
-7199pt>
-File: ./Results1/pdfs/ATAC_Core_CD4vsCD14_clusters_and_heatmap_quantile_common.pdf Graphic file (type pdf)
-<use ./Results1/pdfs/ATAC_Core_CD4vsCD14_clusters_and_heatmap_quantile_common.pdf>
-Package pdftex.def Info: ./Results1/pdfs/ATAC_Core_CD4vsCD14_clusters_and_heatmap_quantile_common.pdf  used on input lin
-e 251. on input line 251.
-Package pdftex.def Info: Requested size: 277.41176pt x 193.91164pt on input line 251.
-
-Overfull \hbox (18.98877pt too wide) in paragraph at lines 259--259
-|[]\OT1/jkp/b/n/14.4 Assessment of ATAC-seq trans-po-si-tion times and com-par-i-son
- []
-
-<./Results1/pdfs/ATAC_CD8_fragment_size_distribution_20_30_40min.pdf, id=503, pagebox=cropbox, 840.13875pt x 615.29875pt
->
-File: ./Results1/pdfs/ATAC_CD8_fragment_size_distribution_20_30_40min.pdf Graphic file (type pdf)
-<use ./Results1/pdfs/ATAC_CD8_fragment_size_distribution_20_30_40min.pdf>
-Package pdftex.def Info: ./Results1/pdfs/ATAC_CD8_fragment_size_distribution_20_30_40min.pdf  used on input line 266. on
- input line 266.
-Package pdftex.def Info: Requested size: 213.39566pt x 156.28413pt on input line 266.
-<./Results1/pdfs/ATAC_ratio_short_long_fragments_20_30_40_min.pdf, id=504, pagebox=cropbox, 808.01875pt x 619.31375pt>
-File: ./Results1/pdfs/ATAC_ratio_short_long_fragments_20_30_40_min.pdf Graphic file (type pdf)
-<use ./Results1/pdfs/ATAC_ratio_short_long_fragments_20_30_40_min.pdf>
-Package pdftex.def Info: ./Results1/pdfs/ATAC_ratio_short_long_fragments_20_30_40_min.pdf  used on input line 272. on in
-put line 272.
-Package pdftex.def Info: Requested size: 213.39566pt x 163.55035pt on input line 272.
-<./Results1/pdfs/ATAC_optimisation_CD4_20_30_40_min_tss_enrichment.pdf, id=505, pagebox=cropbox, 844.15375pt x 597.23125
-pt>
-File: ./Results1/pdfs/ATAC_optimisation_CD4_20_30_40_min_tss_enrichment.pdf Graphic file (type pdf)
-<use ./Results1/pdfs/ATAC_optimisation_CD4_20_30_40_min_tss_enrichment.pdf>
-Package pdftex.def Info: ./Results1/pdfs/ATAC_optimisation_CD4_20_30_40_min_tss_enrichment.pdf  used on input line 277. 
-on input line 277.
-Package pdftex.def Info: Requested size: 213.39566pt x 150.97511pt on input line 277.
-<./Results1/pdfs/ATAC_vs_FAST_ATAC_percnt_MT_reads_dotplot.pdf, id=506, pagebox=cropbox, 821.0675pt x 620.3175pt>
-File: ./Results1/pdfs/ATAC_vs_FAST_ATAC_percnt_MT_reads_dotplot.pdf Graphic file (type pdf)
-<use ./Results1/pdfs/ATAC_vs_FAST_ATAC_percnt_MT_reads_dotplot.pdf>
-Package pdftex.def Info: ./Results1/pdfs/ATAC_vs_FAST_ATAC_percnt_MT_reads_dotplot.pdf  used on input line 291. on input
- line 291.
-Package pdftex.def Info: Requested size: 213.39566pt x 161.2125pt on input line 291.
-<./Results1/pdfs/ATAC_vs_FAST_ATAC_FRiP_dotplot.pdf, id=507, pagebox=cropbox, 813.0375pt x 631.35875pt>
-File: ./Results1/pdfs/ATAC_vs_FAST_ATAC_FRiP_dotplot.pdf Graphic file (type pdf)
-<use ./Results1/pdfs/ATAC_vs_FAST_ATAC_FRiP_dotplot.pdf>
-Package pdftex.def Info: ./Results1/pdfs/ATAC_vs_FAST_ATAC_FRiP_dotplot.pdf  used on input line 297. on input line 297.
-Package pdftex.def Info: Requested size: 213.39566pt x 165.71007pt on input line 297.
-
-Underfull \hbox (badness 5939) in paragraph at lines 306--306
-|[]\OT1/jkp/b/n/14.4 Limitations of ATAC-seq and FAST-ATAC to as-sess
- []
-
-[13 <./Results1/pdfs/ATAC_Core_CD4_CD14_boxplot_80pcnt_cut_off_filtered_quantile_counts.pdf> <./Results1/pdfs/ATAC_Core_
-fastq_CD4_CD14_80pcnt_cut_off_correlation_log2FC_quantile_vs_deseq2.pdf> <./Results1/pdfs/ATAC_Core_CD4vsCD14_clusters_a
-nd_heatmap_quantile_common.pdf
-
-pdfTeX warning: pdflatex.exe (file ./Results1/pdfs/ATAC_Core_CD4vsCD14_clusters_and_heatmap_quantile_common.pdf): PDF in
-clusion: multiple pdfs with page group included in a single page
->] [14 <./Results1/pdfs/ATAC_CD8_fragment_size_distribution_20_30_40min.pdf> <./Results1/pdfs/ATAC_ratio_short_long_frag
-ments_20_30_40_min.pdf> <./Results1/pdfs/ATAC_optimisation_CD4_20_30_40_min_tss_enrichment.pdf>]
-<./Results1/pdfs/ATAC_PS02_tapestation_30min.pdf, id=38225, pagebox=cropbox, 669.50125pt x 320.19624pt>
-File: ./Results1/pdfs/ATAC_PS02_tapestation_30min.pdf Graphic file (type pdf)
-<use ./Results1/pdfs/ATAC_PS02_tapestation_30min.pdf>
-Package pdftex.def Info: ./Results1/pdfs/ATAC_PS02_tapestation_30min.pdf  used on input line 315. on input line 315.
-Package pdftex.def Info: Requested size: 213.39566pt x 102.05936pt on input line 315.
-<./Results1/pdfs/ATAC_PS-2_30_40_min_fragment_size_distribution.pdf, id=38226, pagebox=cropbox, 737.75626pt x 597.23125p
-t>
-File: ./Results1/pdfs/ATAC_PS-2_30_40_min_fragment_size_distribution.pdf Graphic file (type pdf)
-<use ./Results1/pdfs/ATAC_PS-2_30_40_min_fragment_size_distribution.pdf>
-Package pdftex.def Info: ./Results1/pdfs/ATAC_PS-2_30_40_min_fragment_size_distribution.pdf  used on input line 320. on 
-input line 320.
-Package pdftex.def Info: Requested size: 192.0548pt x 155.46783pt on input line 320.
-<./Results1/pdfs/ATAC_skin_TSS_enrichment_PS02_30_40min_NHEK_ATAC1_ATAC_2_FAST_ATAC.pdf, id=38227, pagebox=cropbox, 727.
-71875pt x 597.23125pt>
-File: ./Results1/pdfs/ATAC_skin_TSS_enrichment_PS02_30_40min_NHEK_ATAC1_ATAC_2_FAST_ATAC.pdf Graphic file (type pdf)
-<use ./Results1/pdfs/ATAC_skin_TSS_enrichment_PS02_30_40min_NHEK_ATAC1_ATAC_2_FAST_ATAC.pdf>
-Package pdftex.def Info: ./Results1/pdfs/ATAC_skin_TSS_enrichment_PS02_30_40min_NHEK_ATAC1_ATAC_2_FAST_ATAC.pdf  used on
- input line 325. on input line 325.
-Package pdftex.def Info: Requested size: 192.0548pt x 157.6185pt on input line 325.
- [15 <./Results1/pdfs/ATAC_vs_FAST_ATAC_percnt_MT_reads_dotplot.pdf> <./Results1/pdfs/ATAC_vs_FAST_ATAC_FRiP_dotplot.pdf
->] [16 <./Results1/pdfs/ATAC_PS02_tapestation_30min.pdf> <./Results1/pdfs/ATAC_PS-2_30_40_min_fragment_size_distribution
-.pdf> <./Results1/pdfs/ATAC_skin_TSS_enrichment_PS02_30_40min_NHEK_ATAC1_ATAC_2_FAST_ATAC.pdf>]
-! Undefined control sequence.
-l.352 Buenrostro \texit
-                       {et al.,} 2013 & Two steps & 0.1\% NP-40 and 2.5$\mic...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.354 Bao \texit
-                {et al.,} 2015        &Two steps   & 0.05\% NP-40 and 5$\mic...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.358  Corces \texit
-                    {et al.,} 2016    & One step & C3: 0.025\% digitonin, 0....
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<./Results1/pdfs/ATAC_NHEK_ATAC1_ATAC2_FAST_ATAC_fragment_size_distribution.pdf, id=38348, pagebox=cropbox, 731.73375pt 
-x 597.23125pt>
-File: ./Results1/pdfs/ATAC_NHEK_ATAC1_ATAC2_FAST_ATAC_fragment_size_distribution.pdf Graphic file (type pdf)
-<use ./Results1/pdfs/ATAC_NHEK_ATAC1_ATAC2_FAST_ATAC_fragment_size_distribution.pdf>
-Package pdftex.def Info: ./Results1/pdfs/ATAC_NHEK_ATAC1_ATAC2_FAST_ATAC_fragment_size_distribution.pdf  used on input l
-ine 374. on input line 374.
-Package pdftex.def Info: Requested size: 204.85802pt x 167.19626pt on input line 374.
-<./Results1/pdfs/ATAC_NHEK_Omni_ATAC_fragment_size_distribution.pdf, id=38349, pagebox=cropbox, 707.64375pt x 597.23125p
-t>
-File: ./Results1/pdfs/ATAC_NHEK_Omni_ATAC_fragment_size_distribution.pdf Graphic file (type pdf)
-<use ./Results1/pdfs/ATAC_NHEK_Omni_ATAC_fragment_size_distribution.pdf>
-Package pdftex.def Info: ./Results1/pdfs/ATAC_NHEK_Omni_ATAC_fragment_size_distribution.pdf  used on input line 379. on 
-input line 379.
-Package pdftex.def Info: Requested size: 204.85802pt x 172.89189pt on input line 379.
-<./Results1/pdfs/ATAC_skin_TSS_enrichment_NHEK_omni_ATAC.pdf, id=38350, pagebox=cropbox, 713.0038pt x 611.28375pt>
-File: ./Results1/pdfs/ATAC_skin_TSS_enrichment_NHEK_omni_ATAC.pdf Graphic file (type pdf)
-<use ./Results1/pdfs/ATAC_skin_TSS_enrichment_NHEK_omni_ATAC.pdf>
-Package pdftex.def Info: ./Results1/pdfs/ATAC_skin_TSS_enrichment_NHEK_omni_ATAC.pdf  used on input line 384. on input l
-ine 384.
-Package pdftex.def Info: Requested size: 213.39566pt x 182.94815pt on input line 384.
-<./Results1/pdfs/ENCODE_125_cell_types_overlap_FAST_ATAC_Omni_ATAC_pval_2.pdf, id=38351, pagebox=cropbox, 733.74126pt x 
-658.46pt>
-File: ./Results1/pdfs/ENCODE_125_cell_types_overlap_FAST_ATAC_Omni_ATAC_pval_2.pdf Graphic file (type pdf)
-<use ./Results1/pdfs/ENCODE_125_cell_types_overlap_FAST_ATAC_Omni_ATAC_pval_2.pdf>
-Package pdftex.def Info: ./Results1/pdfs/ENCODE_125_cell_types_overlap_FAST_ATAC_Omni_ATAC_pval_2.pdf  used on input lin
-e 410. on input line 410.
-Package pdftex.def Info: Requested size: 213.39566pt x 191.50111pt on input line 410.
-<./Results1/pdfs/ENCODE_125_cell_types_overlap_FAST_ATAC_Omni_ATAC_qval_2.pdf, id=38352, pagebox=cropbox, 727.71875pt x 
-652.4375pt>
-File: ./Results1/pdfs/ENCODE_125_cell_types_overlap_FAST_ATAC_Omni_ATAC_qval_2.pdf Graphic file (type pdf)
-<use ./Results1/pdfs/ENCODE_125_cell_types_overlap_FAST_ATAC_Omni_ATAC_qval_2.pdf>
-Package pdftex.def Info: ./Results1/pdfs/ENCODE_125_cell_types_overlap_FAST_ATAC_Omni_ATAC_qval_2.pdf  used on input lin
-e 416. on input line 416.
-Package pdftex.def Info: Requested size: 213.39566pt x 191.32253pt on input line 416.
-File: ./Results1/pdfs/ENCODE_125_cell_types_overlap_FAST_ATAC_Omni_ATAC_qval_2.pdf Graphic file (type pdf)
-<use ./Results1/pdfs/ENCODE_125_cell_types_overlap_FAST_ATAC_Omni_ATAC_qval_2.pdf>
-Package pdftex.def Info: ./Results1/pdfs/ENCODE_125_cell_types_overlap_FAST_ATAC_Omni_ATAC_qval_2.pdf  used on input lin
-e 421. on input line 421.
-Package pdftex.def Info: Requested size: 213.39566pt x 191.32253pt on input line 421.
-) [17] [18 <./Results1/pdfs/ATAC_NHEK_ATAC1_ATAC2_FAST_ATAC_fragment_size_distribution.pdf> <./Results1/pdfs/ATAC_NHEK_O
-mni_ATAC_fragment_size_distribution.pdf> <./Results1/pdfs/ATAC_skin_TSS_enrichment_NHEK_omni_ATAC.pdf>] [19 <./Results1/
-pdfs/ENCODE_125_cell_types_overlap_FAST_ATAC_Omni_ATAC_pval_2.pdf> <./Results1/pdfs/ENCODE_125_cell_types_overlap_FAST_A
-TAC_Omni_ATAC_qval_2.pdf>] [20]
+]
+<./Results3/pdfs/ATAC_PSA_all_DESEq2_PCA.pdf, id=191, pagebox=cropbox, 860.21375pt x 584.1825pt>
+File: ./Results3/pdfs/ATAC_PSA_all_DESEq2_PCA.pdf Graphic file (type pdf)
+<use ./Results3/pdfs/ATAC_PSA_all_DESEq2_PCA.pdf>
+Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_all_DESEq2_PCA.pdf  used on input line 117. on input line 117.
+Package pdftex.def Info: Requested size: 298.75262pt x 202.88918pt on input line 117.
+ [5 <./Results3/pdfs/ATAC_PSA_total_filtered_reads_boxplot.pdf> <./Results3/pdfs/ATAC_PSA_pcnt_reads_filtered_out_boxplo
+t.pdf> <./Results3/pdfs/ATAC_PSA_all_TSS_max_per_cell_type.pdf> <./Results3/pdfs/ATAC_PSA_all_peaks_vs_num_reads.pdf>]) 
+[6 <./Results3/pdfs/ATAC_PSA_all_DESEq2_PCA.pdf>] [7]
 \openout2 = `./Appendix/Appendix.aux'.
 
  (Appendix/Appendix.tex
@@ -1768,31 +1326,31 @@ Overfull \hbox (7.6886pt too wide) in paragraph at lines 44--44
  [] [][]\OT1/jkp/b/n/12 Establishment of meth-ods to as-sess genome-wide chro-matin ac-ces-si-bil-ity[] []  
  []
 
-) (Thesis.plf) (Thesis.plt) [21
+) (Thesis.plf) (Thesis.plt) [8
 
 
 
 ]
 Appendix A.
-<./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C1.pdf, id=38503, pagebox=cropbox, 646.415pt x 312.16624pt>
+<./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C1.pdf, id=305, pagebox=cropbox, 646.415pt x 312.16624pt>
 File: ./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C1.pdf Graphic file (type pdf)
 <use ./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C1.pdf>
 Package pdftex.def Info: ./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C1.pdf  used on input line 21. on input lin
 e 21.
 Package pdftex.def Info: Requested size: 298.75262pt x 144.2746pt on input line 21.
-<./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C3.pdf, id=38504, pagebox=cropbox, 652.4375pt x 312.16624pt>
+<./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C3.pdf, id=306, pagebox=cropbox, 652.4375pt x 312.16624pt>
 File: ./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C3.pdf Graphic file (type pdf)
 <use ./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C3.pdf>
 Package pdftex.def Info: ./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C3.pdf  used on input line 27. on input lin
 e 27.
 Package pdftex.def Info: Requested size: 298.75262pt x 142.94565pt on input line 27.
-<./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C4.pdf, id=38505, pagebox=cropbox, 685.56125pt x 332.24126pt>
+<./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C4.pdf, id=307, pagebox=cropbox, 685.56125pt x 332.24126pt>
 File: ./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C4.pdf Graphic file (type pdf)
 <use ./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C4.pdf>
 Package pdftex.def Info: ./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C4.pdf  used on input line 32. on input lin
 e 32.
 Package pdftex.def Info: Requested size: 298.75262pt x 144.78738pt on input line 32.
-<./Appendix/pdfs/Chapter3/Omni_ATAC_NHEK_Rep1_tapestation.pdf, id=38506, pagebox=cropbox, 636.3775pt x 328.22626pt>
+<./Appendix/pdfs/Chapter3/Omni_ATAC_NHEK_Rep1_tapestation.pdf, id=308, pagebox=cropbox, 636.3775pt x 328.22626pt>
 File: ./Appendix/pdfs/Chapter3/Omni_ATAC_NHEK_Rep1_tapestation.pdf Graphic file (type pdf)
 <use ./Appendix/pdfs/Chapter3/Omni_ATAC_NHEK_Rep1_tapestation.pdf>
 Package pdftex.def Info: ./Appendix/pdfs/Chapter3/Omni_ATAC_NHEK_Rep1_tapestation.pdf  used on input line 37. on input l
@@ -1801,41 +1359,21 @@ Package pdftex.def Info: Requested size: 298.75262pt x 154.08606pt on input line
 
 LaTeX Warning: Float too large for page by 6.92877pt on input line 44.
 
-<./Appendix/pdfs/Chapter3/ATAC_skin_biopsy_samples_all_methods_TSS_enrichment_supplementary.pdf, id=38507, pagebox=cropb
-ox, 724.7075pt x 597.23125pt>
+<./Appendix/pdfs/Chapter3/ATAC_skin_biopsy_samples_all_methods_TSS_enrichment_supplementary.pdf, id=309, pagebox=cropbox
+, 724.7075pt x 597.23125pt>
 File: ./Appendix/pdfs/Chapter3/ATAC_skin_biopsy_samples_all_methods_TSS_enrichment_supplementary.pdf Graphic file (type 
 pdf)
 <use ./Appendix/pdfs/Chapter3/ATAC_skin_biopsy_samples_all_methods_TSS_enrichment_supplementary.pdf>
 Package pdftex.def Info: ./Appendix/pdfs/Chapter3/ATAC_skin_biopsy_samples_all_methods_TSS_enrichment_supplementary.pdf 
  used on input line 50. on input line 50.
 Package pdftex.def Info: Requested size: 341.43436pt x 281.38219pt on input line 50.
-) [22
+) [9
 
-] [23 <./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C1.pdf> <./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_
+] [10 <./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C1.pdf> <./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_
 C3.pdf> <./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C4.pdf> <./Appendix/pdfs/Chapter3/Omni_ATAC_NHEK_Rep1_tapes
-tation.pdf>] [24 <./Appendix/pdfs/Chapter3/ATAC_skin_biopsy_samples_all_methods_TSS_enrichment_supplementary.pdf>]
-Missing character: There is no Â in font jkpmn7t!
-Missing character: There is no   in font jkpmn7t!
-Missing character: There is no â in font jkpmn7t!
-Missing character: There is no € in font jkpmn7t!
-Missing character: There is no ¦ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ‡ in font jkpmn7t!
-Missing character: There is no Â in font jkpmn7t!
-Missing character: There is no   in font jkpmn7t!
-Missing character: There is no Â in font jkpmit7t!
-Missing character: There is no   in font jkpmit7t!
-Missing character: There is no â in font jkpmit7t!
-Missing character: There is no € in font jkpmit7t!
-Missing character: There is no ¦ in font jkpmit7t!
-LaTeX Font Info:    Try loading font information for OT1+jkptt on input line 92.
+tation.pdf>] [11 <./Appendix/pdfs/Chapter3/ATAC_skin_biopsy_samples_all_methods_TSS_enrichment_supplementary.pdf>]
 
-(C:\Users\alicia\AppData\Roaming\MiKTeX\2.9\tex\latex\kpfonts\ot1jkptt.fd
-File: ot1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for OT1/jkptt.
-)
-Overfull \hbox (2.41527pt too wide) in paragraph at lines 93--93
-[][]\OT1/jkp/m/n/12 Jonker, M. J., Leeuw, W. C. de, and acids, Marinkovi-M. (2014). ``Ab-sence/presence
- []
+LaTeX Warning: Empty bibliography on input line 93.
 
 \tf@ptc=\write9
 \openout9 = `Thesis.ptc'.
@@ -1846,15 +1384,11 @@ Overfull \hbox (2.41527pt too wide) in paragraph at lines 93--93
 \tf@plt=\write11
 \openout11 = `Thesis.plt'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
-[25
-
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
- (Thesis.aux (Preamble.aux) (Results1/Results1.aux) (Appendix/Appendix.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 95.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
+(Thesis.aux (Preamble.aux) (Results3/Results3.aux) (Appendix/Appendix.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
 
 
 Package rerunfilecheck Warning: File `Thesis.out' has changed.
@@ -1862,43 +1396,39 @@ Package rerunfilecheck Warning: File `Thesis.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `Thesis.out':
-(rerunfilecheck)             Before: D2BF00992A949509A36395A1AC0BFC7B;1388
-(rerunfilecheck)             After:  27AF1EF0764F60E54B0913FD68AAA339;1440.
+(rerunfilecheck)             Before: 9CC1CD8446A224D8C8653000153271A2;1389
+(rerunfilecheck)             After:  6A884CE53071F77762FDD0B78B85BDF8;1337.
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
-
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                Thesis
-(biblatex)                and rerun LaTeX afterwards.
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
 
 Package logreq Info: Writing requests to 'Thesis.run.xml'.
 \openout1 = `Thesis.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 94.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
  ) 
 Here is how much of TeX's memory you used:
- 17094 strings out of 493312
- 286829 string characters out of 3138895
- 557317 words of memory out of 3000000
- 20218 multiletter control sequences out of 15000+200000
- 42862 words of font info for 92 fonts, out of 3000000 for 9000
+ 16756 strings out of 493312
+ 273021 string characters out of 3138895
+ 551317 words of memory out of 3000000
+ 19941 multiletter control sequences out of 15000+200000
+ 47272 words of font info for 108 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,11n,51p,1559b,1328s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/k
-pfonts/kpfonts-expert.enc}<C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/a
-licia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpbne.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts
-/type1/public/kpfonts/jkpmi.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/
-Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2
-.9/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmsc8a
-.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/alicia/AppData/Roaming/M
-iKTeX/2.9/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on Thesis.pdf (35 pages, 15855974 bytes).
+ 42i,12n,51p,913b,740s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{appendix*.24} has been referenced but does not exist, replaced by a fixed one
+
+{C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}{C:/Program Files/MiKTeX 2.9/font
+s/enc/dvips/base/8r.enc}<C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/ali
+cia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpbne.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/t
+ype1/public/kpfonts/jkpmit8a.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/
+Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.
+9/fonts/type1/public/kpfonts/jkpsy.pfb>
+Output written on Thesis.pdf (21 pages, 1200703 bytes).
 PDF statistics:
- 38662 PDF objects out of 45951 (max. 8388607)
- 78 named destinations out of 1000 (max. 500000)
- 315 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 441 PDF objects out of 1000 (max. 8388607)
+ 54 named destinations out of 1000 (max. 500000)
+ 208 words of extra memory for PDF output out of 10000 (max. 10000000)
 

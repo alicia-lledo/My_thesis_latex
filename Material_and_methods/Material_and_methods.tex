@@ -276,7 +276,7 @@ H3K4me3 & Active promoter, enhancer & 1 & Diagenode (C15410003) \\
 
 \subsubsection{Bulk RNA-seq}
 Following MACS isolation of the different cell types from the psoriasis and matched healthy controls, between 2-3x10^6 cells were resuspended in 350$\micro$L of RNAProtect (Qiagen) or RLT buffer (Qiagen) supplemented with 0.1\% of beta-mercaptoethanol (BM, Sigma) and snap frozen in dry ice before storage at -80{$^\circ$}C. Cells isolated from psoriasis and control Cohort 1A (Chapter \ref{ch:}) were preserved in RNAProtect, which stops any biochemical reaction and transcriptional activity maintaining cell integrity. At early stages of the project, when I was uncertain of time frames to process the different material from the acquires samples, I decided to use RNAProtect to preserve cells for future RNA extraction to guarantee high quality in case storage exceeded 6 months. In the psoriasis and control samples from Cohort 1B %(Chapter \ref{ch:}) 
-, cells were resuspended in 0.1\% BM supplemented RLT buffer, which lysates cells and prevents RNA degradation. Cell lysates were homogonised using the QIAshredder (Qiagen) prior to RNA extraction. When starting from RNAProtect preserved material, cells were centrifuged at 300g for 10 min at room temperature, the supernatanta were removed and the pellets were resuspended in 350$\micro$L of RLT 0.1\% BM buffer, prior to homogenisation with QIAshredder.
+, cells were resuspended in 0.1\% BM supplemented RLT buffer, which lysates cells and prevents RNA degradation. Cell lysates were homogonised using the QIAshredder (Qiagen) prior to RNA extraction. When starting from RNAProtect preserved material, cells were centrifuged at 300g for 10 min at room temperature, the supernatant were removed and the pellets were resuspended in 350$\micro$L of RLT 0.1\% BM buffer, prior to homogenisation with QIAshredder.
 
 Total RNA were extracted using the AllPrep DNA/mRNA/microRNA Universal kit (Qiagen) following the manufacturer's instructions. RNA extractions were performed in batches of 12 samples, including all cell types from each individual and a balanced numbers of psoriasis and control samples, to minimise batch effect correlation with phenotype groups. Basic quantification was performed with NanoDrop (Thermo Scientific) before storage at -80{$^\circ$}C.
 
@@ -296,14 +296,14 @@ Between 100 to 500 cells of the five populations isolated from PsA patients were
 
 
 \subsection{Single-cell analysis of the V(D)J T cell receptor repertoire}
-Single-cell sequencing of the V(D)J segments from TCR transcripts was performed simultaneously with the 10X Genomics technology Chromium 5' expression library kit (PN-1000014) by the Oxford Genomics Centre at the Wellcome Trust Centre for Human Genetics. In short, full-length cDNA was amplified by PCR with primers against the 5’ and 3’ ends of the barcode sequences inherent to the 10X Genomics bead technology. The amplified material was divided for use in 5' total sc-RNAseq (as specified previously in \ref{scRNA_processing}) and also for enrichment of the TCR by PCR amplification with specific primers. TCR enriched cDNA was followed by enzymatic fragmentation and size selection in order to obtain variable length fragments spanning the V(D)J segments. Library prep and indexing was followed by Illumina HiSeq4000 xxxx bp single-end sequencing at a depth of XXX reads per cell.
+Single-cell sequencing of the V(D)J segments from TCR transcripts was performed simultaneously with the 10X Genomics technology Chromium 5' expression library kit (PN-1000014) by the Oxford Genomics Centre at the Wellcome Trust Centre for Human Genetics. In short, full-length cDNA was amplified by PCR with primers against the 5’ and 3’ ends of the barcode sequences inherent to the 10X Genomics bead technology. The amplified material was divided for use in 5' total scRNA-seq (as specified previously in \ref{scRNA_processing}) and also for enrichment of the TCR by PCR amplification with specific primers. TCR enriched cDNA was followed by enzymatic fragmentation and size selection in order to obtain variable length fragments spanning the V(D)J segments. Library prep and indexing was followed by Illumina HiSeq4000 xxxx bp single-end sequencing at a depth of XXX reads per cell.
 
 \subsection{DNA extraction and SNP genotyping}
 DNA isolation was performed using the AllPrep DNA/mRNA/microRNA Universal kit (Qiagen) following the manufacturer's instructions. Basic quantification was performed using NanoDrop (Thermo Scientific) and kept at -80{$^\circ$}C for long term storage. For each of the patients and controls, the extracted DNA was amplify by PCR using forward (5'-CACTGTGGAGGGAGGAACAA-3') and reverse (5'-CGTGTTGGCCAGGATAGTCT-3')primers annealing up and down stream the SNP rs4672505, respectively. The 390 bp PCR product was purified using MinElute PCR purification kit, quantified by dsDNA Qbit kit (Invitrogen) according to the manufacturer's instructions and prepared for Sanger sequencing using the Mix2Seq service (Eurofins). The forward and reverse sequences were analysed with BioEdit software.
 
 
 
-\subsection{CyTOF}
+\subsection{Mass cytometry (CyTOF)}
 
 %Look at my notes.Very brief
 
@@ -354,12 +354,13 @@ Differential analysis
 
 	\subsubsection{Single-cell RNA-seq analysis}
 
-\subsection{Pathway enrichment analysis}
+\subsection{Genomic region annotation, pathway enrichment analysis and visualisation}
+Annotation of genomic regions and signalling-pathways visualisation were performed with two functionalities of the R package and web-app Atlas and Analysis of systems-biology-led pathways, developed by Dr. Hai Fang and towards which I have made some contribution (manuscript in preparation). ATAC-seq and ChIPm peaks were annotated with gene entities based on publicly available promoter-HiC data in 17 immune cell types \parencite\parencite{Javierre2016}. The interactions were weighted based on the number of cell types for which the same bait-target interaction was reported as well as on the confidence of each of those interaction measured by the CHiCAGO score. This approach integrates the knowledge in the field about regulatory regions affecting the expression of distal genes and was not biased by the physical vicinity to a gene when annotating genomic intervals located at intergenic regions or gene desserts.For visualisation, manually curated KEGG pathways including all the genes for each gene family were colored based on the fold-change from the corresponding differential analysis and highlighted in bold when passing the FDR threshold for significance.
 
-
-\subsection{Genomic region annotation and pathway visualisation}
-Annotation of genomic regions and signalling-pathways visualisation were performed with two functionalities of the R package and web-app Atlas and Analysis of systems-biology-led pathways, developed by Dr. Hai Fang and towards which I have made some contribution (submitted manuscript)\parencite{}. ATAC-seq and ChIPm peaks were annotated with gene entities taking into account not only the closest gene but also publicly available data regarding chromatin conformation capture \parencite{}, eQTL \parencite{} and enhancer RNA \parencite{} in several cell types. This approach was not biased by the physical vicinity to a gene when annotating genomic intervals located at intergenic regions or gene desserts and it integrates the knowledge in the field about regulatory regions affecting the expression of distal genes. For visualisation, manually curated KEGG pathways including all the genes for each gene family were colored based on the fold-change from the corresponding differential analysis and highlighted in bold when passing the FDR threshold for significance .
-
+ \subsection{Enrichment analysis for genomic annotation features}
+-Includes the ATAC all peaks enrichment for eQTLs 
+-ATAC all peaks enrichment for GWAS
+-ATAC for TFBS, chromatin annotation segments
 
 \subsection{Statistical fine-mapping}
 

@@ -33,30 +33,24 @@ There are several limiting aspects in the process of analysing ATAC-seq data, in
 \begin{landscape}
 \begin{center}
 \begin{longtable}[ht]{p{.20\textheight} p{.40\textheight} p{.40\textheight} p{.40\textheight}}
-\caption{Summary table of ATAC-seq methodology analysis for peak calling, filtering and differential analysis.\textbf{.}}
+\caption[Summary table of ATAC-seq methodology analysis for peak calling, filtering and differential analysis.]{\textbf{.}}
 \label{tab:ATAC_comparative_methods} \\
 \toprule
 \textbf{Publication} & \textbf{Peak calling and filtering} & \textbf{Master list} & \textbf{Differential analysis} \\
 \midrule
 \midrule
 Corces \textit{et al.}, 2016 & MACS2 (-nomodel), peak summit extension $+/-$250bp, rank summits by pval & Maximally significant non-overlapping peaks. & Quantile normalisation and unsupervised hierarchical clustering. \\
-
-\midrule
+&&&&
 ENCODE  & MACS2 -nomodel, pairwise IDR analysis, filtering IDR$<$10\% & Choosing longest pairwise IDR filtered list or only peaks present in the two samples pseudoreplicates. & NA \\
-              
-\midrule
+&&&&              
 Turner \textit{et al.}, 2018 	& MACS2 (-nomodel --q 0.01) & Merging all filtered called peaks from the different cell types. & \texti{De novo}:DiffReps with fragment size 50bp. \\                             
-																																										
-\midrule
+&&&&																																										
 Alasoo \textit{et al.}, 2018 & MACS2 (-nomodel -shift -25 -extsize 50 --q 0.01 &	Union of peaks from all conditions present in at least in three samples of the same condition. & Peak based: TMM normalisation and lima voom (FDR$<$0.01).\\ 
-
-\midrule
+&&&&
 Qu \textit{et al.}, 2017 & ZINBA PP$>$0.99. & Merging of filtered peaks from each individual sample. & Quantile normalisation and peak based in house Pearson correlation method. \\							
-
-\midrule
+&&&&
 Rendeiro \textit{et al.} 2016 & MACS2 (-nomodel -extsize 147)	& Merge of peaks from all samples in an iterative process including permutations & Peak based: quantile normalisation and Fisher exact text (FDR$<$0.05). \\
-
-\midrule
+&&&&
 Scharer\textit{et al.} 2016 & HOMER (-style dnase) & Merge of all overlapping peaks between all samples using HOMER mergePeaks & Peak based: TMM normalisation and edgeR package (FDR$<$0.05). \\														   
 \bottomrule
 \medskip
@@ -64,7 +58,6 @@ Scharer\textit{et al.} 2016 & HOMER (-style dnase) & Merge of all overlapping pe
 \end{center}
 \end{landscape}
 
-%\clearpage
 
 
 
@@ -76,17 +69,17 @@ Firstly, I analysed the fragment size distribution for each of the six samples i
 
 \begin{figure}[htbp]
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}[b]{0.45\textwidth}
 \centering
 \includegraphics[width=\textwidth]{./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_frag_size_distribution}
 \caption{\textbf{}}
 \end{subfigure}%
-\begin{subfigure}{0.45\textwidth}
+\begin{subfigure}[b]{0.45\textwidth}
 \centering
 \includegraphics[width=\textwidth]{./Results1/pdfs/TSS_enrichment_Core_fresh_CD4_CD14}
 \caption{\textbf{}}
 \end{subfigure}
-\begin{subfigure}{0.45\textwidth}
+\begin{subfigure}[b]{0.6\textwidth}
 \centering
 \includegraphics[width=\textwidth]{./Results1/pdfs/ATAC_Core_CD4_CD14_fresh_GAPDH}
 \caption{\textbf{}} % to add text to the figure name
@@ -164,9 +157,10 @@ The number of called peaks passing filtering showed an steady increased over the
 
 
 
-Regarding peak calling filtering, most of the ATAC-seq publications using MACS2 have arbitrarily used an FDR$<$0.01 (Table \ref{tab:ATAC_comparative_methods}). In collaboration with Dr. Gabriele Migliorini and following ENCODE pipeline, we explored the use of IDR to experimentally identify the most appropriate p-val for filtering each individual sample. Each sample was partitioned in two, peaks were called in each half and the percentage of peaks (over the total number shared peaks) sharing IDR at a particular p-val was calculated (Figure \ref{fig:fig:Peak_calling_IDR_filtering_and_chrom_stated_ATAC} a and b). Both of the representative samples showed variation in the percentage of shared peaks upon sequencing depth under 10M reads, being the effect more pronounced and extended in the lower quality CD4fig:Peak_calling_IDR_filtering_and_chrom_stated_ATAC sample (CTL2 CD4$^+$ Figure \ref{fig:fig:Peak_calling_IDR_filtering_and_chrom_stated_ATAC} a) compared to the counterpart CD14$^+$ (Figure \ref{fig:fig:Peak_calling_IDR_filtering_and_chrom_stated_ATAC} b). The shape of the curves was also influenced by the sample quality, presenting a smoother profile reaching a single maximum percentage of shared IDR peaks for samples with TSS enrichment $>\sim$10 compared to samples with lower quality. All the CD14$^+$ samples reached the maximum percentage of IDR shared peaks at approximately -log10 pval 8 (data not shown). 
-Filtering the CD4$^+$ peaks at the -log10 pval of the first maximum of IDR shared peaks reduced the percentage of peaks overlapping noise ( e.g heterochromatin, repetitive sequences and repressed regions) when compared to peaks filtered based on FDR$<$0.01 (Figure \ref{fig:fig:Peak_calling_IDR_filtering_and_chrom_stated_ATAC} b). In summary, this IDR analysis appeared as systematic method to identify an optimum p-val to perform individual filtering in a sample-specific manner and in a less arbitrary way than the extended 1\% FDR. 
+Regarding peak calling filtering, most of the ATAC-seq publications using MACS2 have arbitrarily used an FDR$<$0.01 (Table \ref{tab:ATAC_comparative_methods}). In collaboration with Dr. Gabriele Migliorini and following ENCODE pipeline, we explored the use of IDR to experimentally identify the most appropriate p-val for filtering each individual sample. Each sample was partitioned in two, peaks were called in each half and the percentage of peaks (over the total number shared peaks) sharing IDR at a particular p-val was calculated (Figure \ref{fig:Peak_calling_IDR_filtering_and_chrom_stated_ATAC} a and b). Both of the representative samples showed variation in the percentage of shared peaks upon sequencing depth under 10M reads, being the effect more pronounced and extended in the lower quality (CTL2 CD4$^+$ Figure \ref{fig:Peak_calling_IDR_filtering_and_chrom_stated_ATAC} a) compared to the counterpart CD14$^+$ (Figure \ref{fig:Peak_calling_IDR_filtering_and_chrom_stated_ATAC} b). The shape of the curves was also influenced by the sample quality, presenting a smoother profile reaching a single maximum percentage of shared IDR peaks for samples with TSS enrichment $>\sim$10 compared to samples with lower quality. All the CD14$^+$ samples reached the maximum percentage of IDR shared peaks at approximately -log10 pval 8 (data not shown). 
+Filtering the CD4$^+$ peaks at the -log10 pval of the first maximum of IDR shared peaks reduced the percentage of peaks overlapping noise ( e.g heterochromatin, repetitive sequences and repressed regions) when compared to peaks filtered based on FDR$<$0.01 (Figure \ref{fig:Peak_calling_IDR_filtering_and_chrom_stated_ATAC} b). In summary, this IDR analysis appeared as systematic method to identify an optimum p-val to perform individual filtering in a sample-specific manner and in a less arbitrary way than the extended 1\% FDR. 
 
+%Should mention that the median of all this first max are used to perform filtering for all the samples because following other pipelines they always use same filtering value for all samples so we need to be consistent across samples
 
 
 
@@ -209,7 +203,7 @@ From this analysis, 80\% was chosen as a conservative filtering cut-off for whic
 \includegraphics[width=\textwidth]{./Results1/pdfs/ATAC_Core_CD4vsCD14_DOC_FDR_01_vs_cutoffs_quantile_DESeq2_only}
 \caption{\textbf{}}
 \end{subfigure}%
-\begin{subfigure}{0.48\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \includegraphics[width=\textwidth]{./Results1/pdfs/ATAC_Core_CD4vsCD14_proportion_DOC_FDR_01_vs_cutoffs_quantile_DESeq2_only}
 \caption{\textbf{}}
@@ -307,7 +301,7 @@ Due to the fact that KC is one of the most relevant cell types in psoriasis path
 
 \begin{figure}[htbp]
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.65\textwidth}
 \centering
 \includegraphics[width=\textwidth]{./Results1/pdfs/ATAC_PS02_tapestation_30min}
 \caption{\textbf{}}
