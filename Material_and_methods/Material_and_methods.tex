@@ -303,9 +303,31 @@ DNA isolation was performed using the AllPrep DNA/mRNA/microRNA Universal kit (Q
 
 
 
-\subsection{Mass cytometry (CyTOF)}
+\subsection{Mass cytometry analysis}
 
-%Look at my notes.Very brief
+Mass cytometry analysis was performed by Dr Nicole Yager in collaboration with UCB following their in-house protocol. Briefly, PBMCs and SFMCs
+were split in three ways for 5 min fixation with 1.4\% paraformaldehyde, fixation and 6h treatment with monensin (MN) and brefeldin A (BFA) or fixation and 4h treatment with ionomycin and phorbol-12-myristate-13-acetate (PMA). All samples were treated with cisplatin before fixation to facilitate discrimination of dead cells in the staining. MN and BFA are both inhibitors of protein transport
+that prevent the release of cytokines from the cells and allow measuring the intrinsic cytokine production in basal conditions whereas treatment with ionomycin and PMA induces unspecific activation of immune cells. After appropriate treatment, cell suspensions were washed with PBS and stained with a phenotyping panel of forty four cell surface markers (including viability) or permeabilised and stained with the intra-cellular staining (ICS) panel formed by fourty three markers including surface and intracellular targets Table xxxx. Data analysis was conducted using xxxxxx.  
+
+\begin{table}[htbp]
+\setlength{\tabcolsep}{20pt}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{@{} c c }
+\toprule
+\textbf{Phenotyping panel} & \textbf{ICS panel} \\
+\midrule
+CD248, CD19, GP38, FAP, CD4, CD8a, IL8, CD16, CD25, IL4, CD123, IL-21,& CD248, CD19, GP38, CD15, CD4, CD8a, CD34, CD16,\\
+FceR, IL-17F, IL-2, TNF$\alpha$, IL-17A, IL-10, CD11c, CD14, &CD25, CD154, CD123-CD64, CRTH2, pSTAT5, CD206, CCR6,CD203c,\\  
+CD161, IL6, IFN-$\gamma$, GM-CSF, FCeR, CD44, IL-17FF, IL-17AF, CD3, & CYP2D7,CD68, CD14, CD161, CD127, TCR,NKp44, CD27, \\
+CD45RO, CD-11b, CD56, HLA-DR, IL-13, CD117, CD45 &  ST2, CD45RA, CD3, CD45RO, CD38-CD90, CD56, HLADR, KIT \\
+\bottomrule
+\end{tabular}
+\medskip %gap
+\caption[Molecules targeted by the phenotyping and cytokine production antibody staining panel in PBMCs and SFMCs.]{\textbf{Molecules targeted by the phenotyping and cytokine production antibody staining panel in PBMCs and SFMCs.}}
+\label{tab:CyTOF}
+\end{table}
+\bigskip %bigger space
+
 
 \section{Computational and statistical analysis}
 
@@ -323,7 +345,7 @@ For a particular cell type, the bam file of each sample (patients and controls) 
 Sample quality was determined by the fol-change enrichment of ATAC-seq signal across all the TSS identified by Ensembl, since chromatin is expected to be more accessible at the sites of transcriptional initiation compared to the flanking regions.  
 
 \subsubsection{Combined peak master list and differential analysis}
-To perform differential open chromatin analysis a non-overlapping 500bp peak master list was built for each cell type separately by union of all the peaks that were present in at least 30\% of the samples, regardless patient and control group. Reads overlapping each of those peaks were retrieved for each sample using HTSeq-count algorithm \parencite{} to build a combined count matrix. An empirical 95\% confidence cut-off for the number of counts in absent peaks was calculated on the raw count matrix and used to filter out some peaks in the master list before proceeding to differential analysis (\parencite{Xinmin2005,Jonker2014}). Differential analysis was performed using lineal model analysis with limma voom as well as with DESeq2 R packaged correcting for covariates xxxxx
+To perform differential open chromatin analysis a non-overlapping 500bp peak master list was built for each cell type separately by union of all the peaks that were present in at least 30\% of the samples, regardless patient and control group. Reads overlapping each of those peaks were retrieved for each sample using HTSeq-count algorithm \parencite{} to build a combined count matrix. An empirical 95\% confidence cut-off for the number of counts in absent peaks was calculated on the raw count matrix and used to filter out some peaks in the master list before proceeding to differential analysis (\parencite{Xinmin2005,Jonker2014}). Differential analysis was performed using DESeq2 R packaged taking into account paired samples for the PsA analysis or correcting for covariates for the case-control psoriasis analysis (which covariates???)\parencite{Love2014}.
 A combined master list for all cell types and tissues (when applicable) was also built following the same strategy, normalised and used for principal component analysis (PCA). 
 
 
@@ -333,7 +355,7 @@ A combined master list for all cell types and tissues (when applicable) was also
 \subsection{ChIPm data analysis}
 
 \subsubsection{Next generation sequencing data analysis}
-ChIPm NGS data from samples and inputs were processed similarly to ATAC-seq (\ref(ATAC_analysis)) for trimming, mapping and filtering. For visualisation of each sample, biWig files with subtracted noise from the input were generated using MACS2 bdgcmp -m subtract and bedGraphToBigWig tools .
+ChIPm NGS data from samples and inputs were processed similarly to ATAC-seq (\ref(ATAC_analysis)) for trimming, mapping and filtering with minor modifications. Particularly, MAPQ30 threshold filtering score was lowered to 10 instead of 30. For visualisation of each sample, biWig files with subtracted noise from the input were generated using MACS2 bdgcmp -m subtract and bedGraphToBigWig tools .
 
 \subsubsection{Peak calling and filtering}
 Peak calling for each sample was performed accounting for the background in the input samples using MACS2 callpeak --bw 200 --p 0.1 --keep-dup all --call-summits. In this case the average library fragment size(--bw) was used by MACS2 to first empirically find the model that better represent the precise protein-DNA interaction and then calling peaks with statistical confidence (pval) using the input sample
@@ -350,7 +372,13 @@ Differential analysis
 
 \subsection{RNA-seq data analysis}
 
-	\subsubsection{Bulk RNA-seq analysis}
+\subsubsection{Bulk RNA-seq analysis}
+The ribo-depleted RNA-seq data generated was mapped using the aligner STAR \parencite{Dobin2013} against the Gencode hg19 annotation file containing reference chromosomes, scaffolds and assembly patches. The annotation file comprised 2,840,283 gene entities, including lnc-RNAs. Mapping allowed multiple alignments and only retained those with the best score and a miss-match percentage lower than 0.04\%. Duplicates were marked and removed using Picard Tools. The filtered de-duplicated and sorted bam files were used to retrieve counts at each of the genes location of the annotation file using HTSeq-count. Differential gene expression analysis was performed with DESeq2 R package filtering parameters ...........
+
+ 
+
+
+
 
 	\subsubsection{Single-cell RNA-seq analysis}
 

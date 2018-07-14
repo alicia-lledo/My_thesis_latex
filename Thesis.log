@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  30 JUN 2018 11:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  10 JUL 2018 11:38
 entering extended mode
 **./Thesis.tex
 (Thesis.tex
@@ -1129,7 +1129,7 @@ Package biblatex Info: Reference segment=0 on input line 79.
 
 
 (Preamble.tex
-<oxford_logo-eps-converted-to.pdf, id=78, pagebox=cropbox, 561.09625pt x 651.43375pt>
+<oxford_logo-eps-converted-to.pdf, id=74, pagebox=cropbox, 561.09625pt x 651.43375pt>
 File: oxford_logo-eps-converted-to.pdf Graphic file (type pdf)
 <use oxford_logo-eps-converted-to.pdf>
 Package pdftex.def Info: oxford_logo-eps-converted-to.pdf  used on input line 6. on input line 6.
@@ -1197,7 +1197,7 @@ Underfull \hbox (badness 6559) in paragraph at lines 29--29
  []
 
 
-Overfull \hbox (7.6886pt too wide) in paragraph at lines 43--43
+Overfull \hbox (7.6886pt too wide) in paragraph at lines 45--45
  [] [][]\OT1/jkp/b/n/12 Establishment of meth-ods to as-sess genome-wide chro-matin ac-ces-si-bil-ity[] []  
  []
 
@@ -1280,41 +1280,69 @@ Underfull \hbox (badness 3977) in paragraph at lines 73--73
 |[]\OT1/jkp/b/n/14.4 Differences in the chro-matin ac-ces-si-bil-ity land-scape
  []
 
-<./Results3/pdfs/ATAC_PSA_total_filtered_reads_boxplot.pdf, id=183, pagebox=cropbox, 830.10126pt x 638.385pt>
-File: ./Results3/pdfs/ATAC_PSA_total_filtered_reads_boxplot.pdf Graphic file (type pdf)
-<use ./Results3/pdfs/ATAC_PSA_total_filtered_reads_boxplot.pdf>
-Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_total_filtered_reads_boxplot.pdf  used on input line 84. on input line
- 84.
-Package pdftex.def Info: Requested size: 204.85802pt x 157.54051pt on input line 84.
-<./Results3/pdfs/ATAC_PSA_pcnt_reads_filtered_out_boxplot.pdf, id=184, pagebox=cropbox, 852.18375pt x 646.415pt>
-File: ./Results3/pdfs/ATAC_PSA_pcnt_reads_filtered_out_boxplot.pdf Graphic file (type pdf)
-<use ./Results3/pdfs/ATAC_PSA_pcnt_reads_filtered_out_boxplot.pdf>
-Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_pcnt_reads_filtered_out_boxplot.pdf  used on input line 90. on input l
-ine 90.
-Package pdftex.def Info: Requested size: 204.85802pt x 155.38936pt on input line 90.
-<./Results3/pdfs/ATAC_PSA_all_TSS_max_per_cell_type.pdf, id=185, pagebox=cropbox, 843.15pt x 637.38126pt>
-File: ./Results3/pdfs/ATAC_PSA_all_TSS_max_per_cell_type.pdf Graphic file (type pdf)
-<use ./Results3/pdfs/ATAC_PSA_all_TSS_max_per_cell_type.pdf>
-Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_all_TSS_max_per_cell_type.pdf  used on input line 97. on input line 97
-.
-Package pdftex.def Info: Requested size: 204.85802pt x 154.86139pt on input line 97.
-<./Results3/pdfs/ATAC_PSA_all_peaks_vs_num_reads.pdf, id=186, pagebox=cropbox, 828.09375pt x 642.4pt>
-File: ./Results3/pdfs/ATAC_PSA_all_peaks_vs_num_reads.pdf Graphic file (type pdf)
-<use ./Results3/pdfs/ATAC_PSA_all_peaks_vs_num_reads.pdf>
-Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_all_peaks_vs_num_reads.pdf  used on input line 103. on input line 103.
-
-Package pdftex.def Info: Requested size: 204.85802pt x 158.91362pt on input line 103.
 [4
 
 ]
-<./Results3/pdfs/ATAC_PSA_all_DESEq2_PCA.pdf, id=191, pagebox=cropbox, 860.21375pt x 584.1825pt>
+<./Results3/pdfs/ATAC_PSA_total_filtered_reads_boxplot.pdf, id=190, pagebox=cropbox, 830.10126pt x 638.385pt>
+File: ./Results3/pdfs/ATAC_PSA_total_filtered_reads_boxplot.pdf Graphic file (type pdf)
+<use ./Results3/pdfs/ATAC_PSA_total_filtered_reads_boxplot.pdf>
+Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_total_filtered_reads_boxplot.pdf  used on input line 88. on input line
+ 88.
+Package pdftex.def Info: Requested size: 204.85802pt x 157.54051pt on input line 88.
+<./Results3/pdfs/ATAC_PSA_pcnt_dups_and_MT_reads_boxplot.pdf, id=191, pagebox=cropbox, 847.165pt x 647.41875pt>
+File: ./Results3/pdfs/ATAC_PSA_pcnt_dups_and_MT_reads_boxplot.pdf Graphic file (type pdf)
+<use ./Results3/pdfs/ATAC_PSA_pcnt_dups_and_MT_reads_boxplot.pdf>
+Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_pcnt_dups_and_MT_reads_boxplot.pdf  used on input line 94. on input li
+ne 94.
+Package pdftex.def Info: Requested size: 204.85802pt x 156.54936pt on input line 94.
+<./Results3/pdfs/ATAC_PSA_all_TSS_max_per_cell_type.pdf, id=192, pagebox=cropbox, 843.15pt x 637.38126pt>
+File: ./Results3/pdfs/ATAC_PSA_all_TSS_max_per_cell_type.pdf Graphic file (type pdf)
+<use ./Results3/pdfs/ATAC_PSA_all_TSS_max_per_cell_type.pdf>
+Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_all_TSS_max_per_cell_type.pdf  used on input line 101. on input line 1
+01.
+Package pdftex.def Info: Requested size: 204.85802pt x 154.86139pt on input line 101.
+<./Results3/pdfs/ATAC_PSA_all_peaks_vs_num_reads.pdf, id=193, pagebox=cropbox, 851.18pt x 641.39626pt>
+File: ./Results3/pdfs/ATAC_PSA_all_peaks_vs_num_reads.pdf Graphic file (type pdf)
+<use ./Results3/pdfs/ATAC_PSA_all_peaks_vs_num_reads.pdf>
+Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_all_peaks_vs_num_reads.pdf  used on input line 107. on input line 107.
+
+Package pdftex.def Info: Requested size: 204.85802pt x 154.36887pt on input line 107.
+ [5]
+
+LaTeX Warning: Reference `(' on page 6 undefined on input line 114.
+
+
+Underfull \hbox (badness 1783) in paragraph at lines 114--115
+[]\OT1/jkp/m/n/12 When iden-ti-fy-ing open chro-matin re-gions through peak call-ing and
+ []
+
+[6 <./Results3/pdfs/ATAC_PSA_total_filtered_reads_boxplot.pdf> <./Results3/pdfs/ATAC_PSA_pcnt_dups_and_MT_reads_boxplot.
+pdf> <./Results3/pdfs/ATAC_PSA_all_TSS_max_per_cell_type.pdf> <./Results3/pdfs/ATAC_PSA_all_peaks_vs_num_reads.pdf>]
+
+LaTeX Warning: Reference `ch:Mat' on page 7 undefined on input line 119.
+
+
+LaTeX Warning: Reference `ch:Results1' on page 7 undefined on input line 119.
+
+<./Results3/pdfs/ATAC_PSA_all_DESEq2_PCA.pdf, id=269, pagebox=cropbox, 860.21375pt x 584.1825pt>
 File: ./Results3/pdfs/ATAC_PSA_all_DESEq2_PCA.pdf Graphic file (type pdf)
 <use ./Results3/pdfs/ATAC_PSA_all_DESEq2_PCA.pdf>
-Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_all_DESEq2_PCA.pdf  used on input line 117. on input line 117.
-Package pdftex.def Info: Requested size: 298.75262pt x 202.88918pt on input line 117.
- [5 <./Results3/pdfs/ATAC_PSA_total_filtered_reads_boxplot.pdf> <./Results3/pdfs/ATAC_PSA_pcnt_reads_filtered_out_boxplo
-t.pdf> <./Results3/pdfs/ATAC_PSA_all_TSS_max_per_cell_type.pdf> <./Results3/pdfs/ATAC_PSA_all_peaks_vs_num_reads.pdf>]) 
-[6 <./Results3/pdfs/ATAC_PSA_all_DESEq2_PCA.pdf>] [7]
+Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_all_DESEq2_PCA.pdf  used on input line 123. on input line 123.
+Package pdftex.def Info: Requested size: 298.75262pt x 202.88918pt on input line 123.
+<./Results3/pdfs/ATAC_PSA_all_GTeX_eQTL_enrichment_dotplot.pdf, id=270, pagebox=cropbox, 883.3pt x 628.3475pt>
+File: ./Results3/pdfs/ATAC_PSA_all_GTeX_eQTL_enrichment_dotplot.pdf Graphic file (type pdf)
+<use ./Results3/pdfs/ATAC_PSA_all_GTeX_eQTL_enrichment_dotplot.pdf>
+Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_all_GTeX_eQTL_enrichment_dotplot.pdf  used on input line 135. on input
+ line 135.
+Package pdftex.def Info: Requested size: 298.75262pt x 212.52313pt on input line 135.
+<./Results3/pdfs/ATAC_PSA_all_Jknight_eQTL_enrichment_dotplot.pdf, id=271, pagebox=cropbox, 872.25874pt x 621.32124pt>
+File: ./Results3/pdfs/ATAC_PSA_all_Jknight_eQTL_enrichment_dotplot.pdf Graphic file (type pdf)
+<use ./Results3/pdfs/ATAC_PSA_all_Jknight_eQTL_enrichment_dotplot.pdf>
+Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_all_Jknight_eQTL_enrichment_dotplot.pdf  used on input line 142. on in
+put line 142.
+Package pdftex.def Info: Requested size: 298.75262pt x 212.80124pt on input line 142.
+[7 <./Results3/pdfs/ATAC_PSA_all_DESEq2_PCA.pdf>] [8 <./Results3/pdfs/ATAC_PSA_all_GTeX_eQTL_enrichment_dotplot.pdf> <./
+Results3/pdfs/ATAC_PSA_all_Jknight_eQTL_enrichment_dotplot.pdf>]) [9]
 \openout2 = `./Appendix/Appendix.aux'.
 
  (Appendix/Appendix.tex
@@ -1322,35 +1350,35 @@ t.pdf> <./Results3/pdfs/ATAC_PSA_all_TSS_max_per_cell_type.pdf> <./Results3/pdfs
 \c@ttl@lof@appendix=\count338
 \c@ttl@lot@appendix=\count339
  (Thesis.ptc
-Overfull \hbox (7.6886pt too wide) in paragraph at lines 44--44
+Overfull \hbox (7.6886pt too wide) in paragraph at lines 46--46
  [] [][]\OT1/jkp/b/n/12 Establishment of meth-ods to as-sess genome-wide chro-matin ac-ces-si-bil-ity[] []  
  []
 
-) (Thesis.plf) (Thesis.plt) [8
+) (Thesis.plf) (Thesis.plt) [10
 
 
 
 ]
 Appendix A.
-<./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C1.pdf, id=305, pagebox=cropbox, 646.415pt x 312.16624pt>
+<./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C1.pdf, id=362, pagebox=cropbox, 646.415pt x 312.16624pt>
 File: ./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C1.pdf Graphic file (type pdf)
 <use ./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C1.pdf>
 Package pdftex.def Info: ./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C1.pdf  used on input line 21. on input lin
 e 21.
 Package pdftex.def Info: Requested size: 298.75262pt x 144.2746pt on input line 21.
-<./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C3.pdf, id=306, pagebox=cropbox, 652.4375pt x 312.16624pt>
+<./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C3.pdf, id=363, pagebox=cropbox, 652.4375pt x 312.16624pt>
 File: ./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C3.pdf Graphic file (type pdf)
 <use ./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C3.pdf>
 Package pdftex.def Info: ./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C3.pdf  used on input line 27. on input lin
 e 27.
 Package pdftex.def Info: Requested size: 298.75262pt x 142.94565pt on input line 27.
-<./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C4.pdf, id=307, pagebox=cropbox, 685.56125pt x 332.24126pt>
+<./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C4.pdf, id=364, pagebox=cropbox, 685.56125pt x 332.24126pt>
 File: ./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C4.pdf Graphic file (type pdf)
 <use ./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C4.pdf>
 Package pdftex.def Info: ./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C4.pdf  used on input line 32. on input lin
 e 32.
 Package pdftex.def Info: Requested size: 298.75262pt x 144.78738pt on input line 32.
-<./Appendix/pdfs/Chapter3/Omni_ATAC_NHEK_Rep1_tapestation.pdf, id=308, pagebox=cropbox, 636.3775pt x 328.22626pt>
+<./Appendix/pdfs/Chapter3/Omni_ATAC_NHEK_Rep1_tapestation.pdf, id=365, pagebox=cropbox, 636.3775pt x 328.22626pt>
 File: ./Appendix/pdfs/Chapter3/Omni_ATAC_NHEK_Rep1_tapestation.pdf Graphic file (type pdf)
 <use ./Appendix/pdfs/Chapter3/Omni_ATAC_NHEK_Rep1_tapestation.pdf>
 Package pdftex.def Info: ./Appendix/pdfs/Chapter3/Omni_ATAC_NHEK_Rep1_tapestation.pdf  used on input line 37. on input l
@@ -1359,7 +1387,7 @@ Package pdftex.def Info: Requested size: 298.75262pt x 154.08606pt on input line
 
 LaTeX Warning: Float too large for page by 6.92877pt on input line 44.
 
-<./Appendix/pdfs/Chapter3/ATAC_skin_biopsy_samples_all_methods_TSS_enrichment_supplementary.pdf, id=309, pagebox=cropbox
+<./Appendix/pdfs/Chapter3/ATAC_skin_biopsy_samples_all_methods_TSS_enrichment_supplementary.pdf, id=366, pagebox=cropbox
 , 724.7075pt x 597.23125pt>
 File: ./Appendix/pdfs/Chapter3/ATAC_skin_biopsy_samples_all_methods_TSS_enrichment_supplementary.pdf Graphic file (type 
 pdf)
@@ -1367,11 +1395,11 @@ pdf)
 Package pdftex.def Info: ./Appendix/pdfs/Chapter3/ATAC_skin_biopsy_samples_all_methods_TSS_enrichment_supplementary.pdf 
  used on input line 50. on input line 50.
 Package pdftex.def Info: Requested size: 341.43436pt x 281.38219pt on input line 50.
-) [9
+) [11
 
-] [10 <./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C1.pdf> <./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_
+] [12 <./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C1.pdf> <./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_
 C3.pdf> <./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C4.pdf> <./Appendix/pdfs/Chapter3/Omni_ATAC_NHEK_Rep1_tapes
-tation.pdf>] [11 <./Appendix/pdfs/Chapter3/ATAC_skin_biopsy_samples_all_methods_TSS_enrichment_supplementary.pdf>]
+tation.pdf>] [13 <./Appendix/pdfs/Chapter3/ATAC_skin_biopsy_samples_all_methods_TSS_enrichment_supplementary.pdf>]
 
 LaTeX Warning: Empty bibliography on input line 93.
 
@@ -1389,21 +1417,11 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
 (Thesis.aux (Preamble.aux) (Results3/Results3.aux) (Appendix/Appendix.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
+Package rerunfilecheck Info: File `Thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 6A884CE53071F77762FDD0B78B85BDF8;1337.
 
-
-Package rerunfilecheck Warning: File `Thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Thesis.out':
-(rerunfilecheck)             Before: 9CC1CD8446A224D8C8653000153271A2;1389
-(rerunfilecheck)             After:  6A884CE53071F77762FDD0B78B85BDF8;1337.
 
 LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
 
 Package logreq Info: Writing requests to 'Thesis.run.xml'.
 \openout1 = `Thesis.run.xml'.
@@ -1411,24 +1429,23 @@ Package logreq Info: Writing requests to 'Thesis.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
  ) 
 Here is how much of TeX's memory you used:
- 16756 strings out of 493312
- 273021 string characters out of 3138895
+ 16771 strings out of 493312
+ 273736 string characters out of 3138895
  551317 words of memory out of 3000000
- 19941 multiletter control sequences out of 15000+200000
- 47272 words of font info for 108 fonts, out of 3000000 for 9000
+ 19949 multiletter control sequences out of 15000+200000
+ 48043 words of font info for 110 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,12n,51p,913b,740s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{appendix*.24} has been referenced but does not exist, replaced by a fixed one
-
-{C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}{C:/Program Files/MiKTeX 2.9/font
-s/enc/dvips/base/8r.enc}<C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/ali
-cia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpbne.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/t
-ype1/public/kpfonts/jkpmit8a.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/
-Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.
-9/fonts/type1/public/kpfonts/jkpsy.pfb>
-Output written on Thesis.pdf (21 pages, 1200703 bytes).
+ 42i,12n,51p,1601b,740s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}{C:/Program Files/MiKTeX 2.9/fo
+nts/enc/dvips/base/8r.enc}<C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/a
+licia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpbne.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts
+/type1/public/kpfonts/jkpmi.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/
+Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2
+.9/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpsy.pf
+b>
+Output written on Thesis.pdf (23 pages, 1365330 bytes).
 PDF statistics:
- 441 PDF objects out of 1000 (max. 8388607)
- 54 named destinations out of 1000 (max. 500000)
- 208 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 501 PDF objects out of 1000 (max. 8388607)
+ 57 named destinations out of 1000 (max. 500000)
+ 210 words of extra memory for PDF output out of 10000 (max. 10000000)
 

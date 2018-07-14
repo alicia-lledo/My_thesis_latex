@@ -26,20 +26,22 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2.1}PsA patients cohort description and datasets}{1}{subsection.1.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Differences in the chromatin accessibility landscape between circulating and SF immune cells}{5}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.2}Differences in the chromatin accessibility landscape between circulating and SF immune cells}{4}{subsection.1.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Quality control of open chromatin regions}{5}{subsubsection*.14}
+\contentsline {subsubsection}{Quality control of open chromatin regions}{4}{subsubsection*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Differential open chromatin analysis between blood and SF}{6}{subsubsection*.17}
+\contentsline {subsubsection}{Open chromatin reflects cell type specificity and functional relevance }{7}{subsubsection*.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{DOCs highlight relevant functional pathways in a cell type and tissue specific manner}{7}{subsubsection*.18}
+\contentsline {subsubsection}{Differential open chromatin analysis between blood and SF}{8}{subsubsection*.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.3}Differential gene expression analysis in paired circulating and synovial immune cells}{7}{subsection.1.2.3}
+\contentsline {subsubsection}{DOCs highlight relevant functional pathways in a cell type and tissue specific manner}{9}{subsubsection*.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Discussion}{7}{section.1.3}
+\contentsline {subsection}{\numberline {1.2.3}Differential gene expression analysis in paired circulating and synovial immune cells}{9}{subsection.1.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendices}{8}{section.1.3}
+\contentsline {section}{\numberline {1.3}Discussion}{9}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Appendices}{10}{section.1.3}
 \ttl@starttoc {default@1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Establishment of methods to assess genome-wide chromatin accessibility}{9}{appendix.A}
+\contentsline {chapter}{\numberline {A}Establishment of methods to assess genome-wide chromatin accessibility}{11}{appendix.A}
 \contentsfinish 

@@ -118,14 +118,34 @@ When identifying open chromatin regions through peak calling and standard filter
 \subsubsection{Open chromatin reflects cell type specificity and functional relevance }
 In order to determine the ability of the open chromatin identified by the in house pipeline in the PsA sample cohort, a combined master list including all four cell types and the two tissues was built. Following Chapter \ref{ch:Mat} and Chapter \ref{ch:Results1}, the combined master list contained open chromatin regions identified in at least 30\% of the samples (in this case 7 samples) regardless cell type and tissue to avoid any bias.
 
-
-
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.7\textwidth]{./Results3/pdfs/ATAC_PSA_all_DESEq2_PCA}
-\caption[Combined PCA analysis of all four cell types isolated from blood and SF.]{\textbf{Combined PCA analysis of all four cell types isolated from blood and SF} xxxx}
+\caption[Combined PCA analysis of all four cell types isolated from blood and SF.]{\textbf{Combined PCA analysis of all four cell types isolated from blood and SF.}}
 \label{figure:PsA_FAST_ATAC_PCA}
 \end{figure}
+
+
+
+\bigskip
+\begin{figure}[H]
+\centering
+\begin{subfigure}[b]{0.7\textwidth}
+\centering 
+\includegraphics[width=\textwidth]{./Results3/pdfs/ATAC_PSA_all_GTeX_eQTL_enrichment_dotplot}
+\caption{}
+\end{subfigure}
+~
+\begin{subfigure}[b]{0.7\textwidth} 
+%the [b] prevents offset in subcaptions
+\centering
+\includegraphics[width=\textwidth]{./Results3/pdfs/ATAC_PSA_all_Jknight_eQTL_enrichment_dotplot}
+\caption{}
+\end{subfigure}
+\caption[Enrichment of eQTLs in the combined cell types PsA accessible chromatin master list.]{\textbf{Enrichment of eQTLs in the combined cell types PsA accessible chromatin master list} xxxx}
+\label{figure:PsA_FAST_ATAC_eQTL_enrichment}
+\end{figure}
+
 
 
 
@@ -141,13 +161,31 @@ Here I am planning an overview of the differential analysis including
 -enrichment for TFBS and others, either global or per open in SF and PB,maybe combined plots for all cell types kind of fig6 of XGR paper
 
 
-
+\begin{table}[htbp]
+%\setlength{\tabcolsep}{20pt} only to stretch the columns if you want
+%\renewcommand{\arraystretch}{1.5}
+\centering
+\begin{tabular}{@{} c c c c c}
+\toprule
+\textbf{Cell type} & \textbf{\% Total DOCs} &  \textbf{Proportion of DOCS (\%)} &\textbf{DOCs open in SF} & \textbf{DOCs open in PB} \\
+\midrule
+\midrule
+CD14$^+$ & 5,285 & 23.3 & 3,779 & 1,506\\
+CD4$^+$ & 1329 & 4.3 & 621 & 708\\
+CD8$^+$ & 1570 & 4.5 &  & \\
+NK      &  &  &  & \\
+\bottomrule
+\end{tabular}
+\medskip %gap
+\caption[Summary results of the chromatin accessibility analysis between SF and PB in PsA samples]{\textbf{xxxxxxxxx}}
+\label{tab:PSA_DOCs_results}
+\end{table}
 
 \subsubsection{DOCs highlight relevant functional pathways in a cell type and tissue specific manner}
 
 
 \subsection{Differential gene expression analysis in paired circulating and synovial immune cells}
-
+Array data
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Discussion}
