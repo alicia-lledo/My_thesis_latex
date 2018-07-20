@@ -1,4 +1,4 @@
-\chapter{Cross-tissue comparison of chromatin accessibility, gene expression signature and immunophenotypes in psoriatic arthritis}
+\chapter{Cross-tissue comparison of chromatin accessibility, gene expression signature and immunophenotypes in PsA}
 \label{ch:Results3}
 
 
@@ -151,14 +151,7 @@ In order to determine the ability of the open chromatin identified by the in hou
 
 
 \subsubsection{Differential open chromatin analysis between blood and SF}
-
-Here I am planning an overview of the differential analysis including 
--total number of doc split between open in SF and open in PB,
--annotation according to chromatin accessibility in terms of all the hits
--mention how many of them are annotated in gene bodies and if more than one region within the same gene and choose an example of an interesting gene, include UCSC track showing the differences
--pathway enrichment analysis if possible per open chromatin in each cell type
--maybe include an A2 pathway which is different and unique between open in SF and PB in one cell type
--enrichment for TFBS and others, either global or per open in SF and PB,maybe combined plots for all cell types kind of fig6 of XGR paper
+Differential chromatin accessibility analysis was performed using a paired design between SF and PB for each of the four cell types (Table \ref{tab:PSA_DOCs_results}. In all for analysis an 80\% cut-off for background noise was applied in the count matrix as previously explained in Chapter 3. Only DOCs identified with DESeq2 and also shared by quantile normalisation and limma voom where taken forward. The CD14$^+$ monocytes and NK showed a greater proportion of differentially accessible regions (23.3 and 8.9\%, respectively) compared to CD4$^+$ and CD8$^+$ T cells. In CD14$^+$ monocytes 3,779 out of 5,285 DOCs were more accessible in SF versus the 1,506 that were more open in the cells isolated from PB. Conversely, the number of DOCs more open in each of the tissues were evenly distributed between SF and PB for CD4$^+$, CD8$^+$ and NK.
 
 
 \begin{table}[htbp]
@@ -167,13 +160,14 @@ Here I am planning an overview of the differential analysis including
 \centering
 \begin{tabular}{@{} c c c c c}
 \toprule
-\textbf{Cell type} & \textbf{\% Total DOCs} &  \textbf{Proportion of DOCS (\%)} &\textbf{DOCs open in SF} & \textbf{DOCs open in PB} \\
+\textbf{Cell type} & \textbf{Total DOCs} &  \textbf{Proportion DOCS (\%)} &\textbf{DOCs open} & \textbf{DOCs open } \\
+                   &                     &                                &\textbf{in SF}     & \textbf{in PB} \\
 \midrule
 \midrule
 CD14$^+$ & 5,285 & 23.3 & 3,779 & 1,506\\
-CD4$^+$ & 1329 & 4.3 & 621 & 708\\
-CD8$^+$ & 1570 & 4.5 &  & \\
-NK      &  &  &  & \\
+CD4$^+$ & 1,329 & 4.3 & 621 & 708\\
+CD8$^+$ & 1,570 & 4.5 & 807 & 763\\
+NK      & 2,314 & 8.9 & 1,223 & 1,091\\
 \bottomrule
 \end{tabular}
 \medskip %gap
@@ -181,8 +175,75 @@ NK      &  &  &  & \\
 \label{tab:PSA_DOCs_results}
 \end{table}
 
-\subsubsection{DOCs highlight relevant functional pathways in a cell type and tissue specific manner}
 
+
+When performing genomic annotation of the DOCs, intronic and intergenic regions represented together 80\% or more of all the DOCs in the four cell types (Figure \ref{figure:PsA_FAST_ATAC_DOCS_annotation} a). DOCs annotated in universal promoter regions represented approximately between 5 to 15\%, constituting the third most represented genomic feature. DOCs were also annotated with the fifteen states cell type-specific chromatin segmentation maps from the Epigenome Roadmap (Figure \ref{figure:PsA_FAST_ATAC_DOCS_annotation} b). For all four cell types between 44.96 and 72.11\% of the DOCs where annotated as weak enhancers, which represented the most prominent category. This was consistent with the predominance of introns and intergenic regions which is the preferred location for enhancers, and also highlighted the cell type specificity of the differences in open chromatin, since enhancers are more cell type specific than promoters.
+
+
+\bigskip
+\begin{figure}[H]
+\centering
+\begin{subfigure}[b]{0.7\textwidth}
+\centering 
+\includegraphics[width=\textwidth]{./Results3/pdfs/ATAC_PSA__DOCS_per_cell_type_general_annotation}
+\caption{}
+\end{subfigure}
+~
+\begin{subfigure}[b]{0.7\textwidth} 
+%the [b] prevents offset in subcaptions
+\centering
+\includegraphics[width=\textwidth]{./Results3/pdfs/ATAC_PSA_DOCS_chromatin_states_stacked_barplot}
+\caption{}
+\end{subfigure}
+\caption[Annotation with genomic regions and chromatin states of the PsA DOCs from the four cell types differential analysis.]{\textbf{Annotation with genomic regions and chromatin states of the PsA DOCs from the four cell types differential analysis.} xxxx}
+\label{figure:PsA_FAST_ATAC_DOCS_annotation}
+\end{figure}
+
+
+
+Interestingly, from the DOCs located within a gene entity the majority were located within introns instead of untranslated regions (UTRs) of the genes and have also been annotated as weak or strong enhancers according to the cell type specific chromatin segmentation map (Table \ref{tab:PSA_DOCs_results}). For all four cell types, a number of gene entities contained more than one DOC showing the same direction of chromatin accessibility between SF and PB. For example, in CD14$^+$ two DOCs located at the 5' and 3'UTRs for \tetxit{IL7R} gene where found to be more accessible in SF compared to PB. Similarly, more accessible chromatin in SF compared to PB was identified in five regions of the \textit{IL15} gene annotated as promoter and enhancers in CD14$^+$ monocytes. Differences at both gene locations were sCD14$^+$ cell type specific.
+
+\begin{table}[htbp]
+%\setlength{\tabcolsep}{20pt} only to stretch the columns if you want
+%\renewcommand{\arraystretch}{1.5}
+\centering
+\begin{tabular}{@{} c c c c c}
+\toprule
+\textbf{Cell type} & \textbf{DOCs in gene body} &  \textbf{Gene with $>$ one DOC} &\textbf{Enhancers} & \textbf{Introns} \\
+\midrule
+\midrule
+CD14$^+$ & 2,357 & 744 & 1,775 & 1,920 \\
+CD4$^+$ & 700 & 99 & 504 & 577 \\
+CD8$^+$ & 831 & 118 & 503 & 666 \\
+NK   & 1,246 & 235 & 782 & 937 \\   
+\bottomrule
+\end{tabular}
+\medskip %gap
+\caption[Summary results of the chromatin accessibility analysis between SF and PB in PsA samples.]{\textbf{Summary results of the chromatin accessibility analysis between SF and PB in PsA samples.}}
+\label{tab:PSA_DOCs_results}
+\end{table}
+
+
+Enrichment of psoriasis and PsA GWAS hits for the differentially open regions between SF and PB in the four cell types was performed using XGR co-localisation and permutation analysis. Although no significant results were found at the SNP level (lead SNPs and SNPs in LD r$^2$$\geq$8), significant enrichment (2-fold enrichment and empirical p-val 0.043) was observed for psoriasis GWAS LD blocks with the CD14$^+$ DOCs only.
+
+
+
+Here I am planning an overview of the differential analysis including 
+-total number of doc split between open in SF and open in PB,
+-annotation according to chromatin accessibility in terms of all the hits
+-mention how many of them are annotated in gene bodies and if more than one region within the same gene and choose an example of an interesting gene, include UCSC track showing the differences
+
+-enrichment for TFBS and others, either global or per open in SF and PB,maybe combined plots for all cell types kind of fig6 of XGR paper
+
+
+
+
+
+
+
+\subsubsection{DOCs highlight relevant functional pathways in a cell type and tissue specific manner}
+-pathway enrichment analysis if possible per open chromatin in each cell type
+-maybe include an A2 pathway which is different and unique between open in SF and PB in one cell type
 
 \subsection{Differential gene expression analysis in paired circulating and synovial immune cells}
 Array data

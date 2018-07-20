@@ -2,15 +2,45 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.1}{\ignorespaces QC of FAST-ATAC PsA samples in four cell types}}{6}{figure.caption.15}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Combined PCA analysis of all four cell types isolated from blood and SF.}}{7}{figure.caption.17}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Enrichment of eQTLs in the combined cell types PsA accessible chromatin master list.}}{8}{figure.caption.18}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Crosstalk between innate and adaptive immunity in psoriasis}}{16}{figure.caption.15}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.1}{\ignorespaces FAST-ATAC and Omni-ATAC NHEK tapestation profiles.}}{12}{figure.caption.24}
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Assessment of TSS enrichment from ATAC-seq and FAST-ATAC in healthy and psoriasis skin biopsies samples.}}{13}{figure.caption.25}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Measurements for quality control assessment in ATAC-seq samples}}{82}{figure.caption.40}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Peak calling and sequencing depth in ATAC-seq samples}}{85}{figure.caption.43}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Peak calling filtering using IDR analysis in ATAC-seq samples}}{86}{figure.caption.44}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Differential chromatin accessibility analysis for different background reads cut-offs.}}{88}{figure.caption.46}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Exploration of the differential chromatin accessibility analysis using 80\% as the empirical cut-off.}}{89}{figure.caption.47}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Assessment of the effect of transposition times on the ATAC-seq QC parameters}}{90}{figure.caption.48}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Differences in MT DNA abundance and signal specificity between ATAC-seq and FAST-ATAC protocols}}{91}{figure.caption.49}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces QC assessment of ATAC-seq in KC enriched cell suspension derived from a psoriatic lesional skin biopsy}}{92}{figure.caption.50}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces QC assessment of FAST-ATAC and Omni-ATAC in cultured NHEK}}{94}{figure.caption.52}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.10}{\ignorespaces QC assessment of Omni-ATAC in NHEK and chromatin accessibility signal for the samples generated with the different ATAC-seq protocols}}{95}{figure.caption.53}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces QC of FAST-ATAC PsA samples in four cell types}}{101}{figure.caption.56}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Combined PCA analysis of all four cell types isolated from blood and SF.}}{102}{figure.caption.58}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Enrichment of eQTLs in the combined cell types PsA accessible chromatin master list.}}{103}{figure.caption.59}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Annotation with genomic regions and chromatin states of the PsA DOCs from the four cell types differential analysis.}}{105}{figure.caption.62}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.1}{\ignorespaces FAST-ATAC and Omni-ATAC NHEK tapestation profiles.}}{109}{figure.caption.68}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Assessment of TSS enrichment from ATAC-seq and FAST-ATAC in healthy and psoriasis skin biopsies samples.}}{110}{figure.caption.69}
 \contentsfinish 
