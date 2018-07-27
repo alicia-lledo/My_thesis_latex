@@ -2,94 +2,78 @@ This is BibTeX, Version 0.99dThe top-level auxiliary file: Thesis.aux
 The style file: biblatex.bst
 A level-1 auxiliary file: Preamble.aux
 A level-1 auxiliary file: ./Introduction/Introduction.aux
-White space in argument---line 115 of file Thesis.aux
- : \citation{Said-Nahal2000
- :                          \parencite }
-I'm skipping whatever remains of this command
-White space in argument---line 211 of file Thesis.aux
+White space in argument---line 303 of file Thesis.aux
  : \citation{add
- :               ref from cell types}
+ :               reference}
 I'm skipping whatever remains of this command
-Stuff after "}"---line 590 of file Thesis.aux
- : \citation{H\"{o
- :                }hler2002}
+White space in argument---line 446 of file Thesis.aux
+ : \citation{Perera2012
+ :                      }
 I'm skipping whatever remains of this command
-White space in argument---line 597 of file Thesis.aux
+White space in argument---line 617 of file Thesis.aux
  : \citation{The
  :               international HapMaP Consortium}
 I'm skipping whatever remains of this command
-White space in argument---line 600 of file Thesis.aux
+White space in argument---line 620 of file Thesis.aux
  : \citation{The
  :               1000 Genomes}
 I'm skipping whatever remains of this command
-White space in argument---line 710 of file Thesis.aux
- : \citation{Fairfax2014
- :                       }
-I'm skipping whatever remains of this command
-White space in argument---line 799 of file Thesis.aux
+White space in argument---line 840 of file Thesis.aux
  : \citation{GWAS
  :                studies}
 I'm skipping whatever remains of this command
-Stuff after "}"---line 815 of file Thesis.aux
+Stuff after "}"---line 850 of file Thesis.aux
  : \citation{H\"{u
  :                }ffmeier2010}
-I'm skipping whatever remains of this command
-Stuff after "}"---line 818 of file Thesis.aux
- : \citation{H\"{u
- :                }ffmeier2010}
-I'm skipping whatever remains of this command
-Stuff after "}"---line 822 of file Thesis.aux
- : \citation{H\"{u
- :                }ffmeier2010}
-I'm skipping whatever remains of this command
-White space in argument---line 854 of file Thesis.aux
- : \citation{van
- :               Vollenhoven2012}
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys Immunobase and ImmunoBase
----line 905 of file Thesis.aux
+---line 924 of file Thesis.aux
  : \citation{Immunobase
  :                     }
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys Immunobase and ImmunoBase
----line 937 of file Thesis.aux
+---line 947 of file Thesis.aux
  : \citation{Immunobase
  :                     }
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys Immunobase and ImmunoBase
----line 942 of file Thesis.aux
+---line 954 of file Thesis.aux
  : \citation{Immunobase
  :                     }
 I'm skipping whatever remains of this command
-White space in argument---line 1188 of file Thesis.aux
+White space in argument---line 1178 of file Thesis.aux
  : \citation{Liu2013.
  :                    Add other ATAC}
 I'm skipping whatever remains of this command
-White space in argument---line 1212 of file Thesis.aux
+White space in argument---line 1204 of file Thesis.aux
  : \citation{ref
  :               from chomatin segmentation}
 I'm skipping whatever remains of this command
-A level-1 auxiliary file: ./Material_and_methods/Material_and_methods.aux
-White space in argument---line 1519 of file Thesis.aux
- : \citation{\parencite
- :                      }
+White space in argument---line 1428 of file Thesis.aux
+ : \citation{Identification
+ :                          and analysis of functional elements in 1\% of the human genome by the ENCODE pilot}
 I'm skipping whatever remains of this command
-A level-1 auxiliary file: ./Results1/Results1.aux
-A level-1 auxiliary file: ./Results3/Results3.aux
-A level-1 auxiliary file: ./Appendix/Appendix.aux
+Stuff after "}"---line 1488 of file Thesis.aux
+ : \citation{M\"{u
+ :                }ller2014}
+I'm skipping whatever remains of this command
+White space in argument---line 1503 of file Thesis.aux
+ : \citation{De
+ :              Santa2010}
+I'm skipping whatever remains of this command
 Database file #1: Thesis-blx.bib
 Database file #2: Thesis_ref.bib
 Warning--I didn't find a database entry for "Villanova2016"
 Warning--I didn't find a database entry for "Reich2008"
+Warning--I didn't find a database entry for "Springate2007"
 Warning--I didn't find a database entry for "("
 Warning--I didn't find a database entry for "ICD-10"
 Warning--I didn't find a database entry for "Roderick2014"
-Warning--I didn't find a database entry for "Johnson-Huang"
-Warning--I didn't find a database entry for "2009"
 Warning--I didn't find a database entry for "Runwaleit2001"
+Warning--I didn't find a database entry for "Said-Nahal2000"
+Warning--I didn't find a database entry for "Moll1976"
 Warning--I didn't find a database entry for "McGonagle"
 Warning--I didn't find a database entry for "2011"
-Warning--I didn't find a database entry for "Moll1976"
 Warning--I didn't find a database entry for "Saphiro2007"
 Warning--I didn't find a database entry for "Cohrn20017"
 Warning--I didn't find a database entry for "Schmitt2005"
@@ -102,6 +86,9 @@ Warning--I didn't find a database entry for "Schmid1994"
 Warning--I didn't find a database entry for "Valdimarsson2009"
 Warning--I didn't find a database entry for "Weiss2002"
 Warning--I didn't find a database entry for "Feldmeyer2007"
+Warning--I didn't find a database entry for "Proskch2008"
+Warning--I didn't find a database entry for "Mahil20016"
+Warning--I didn't find a database entry for "Zaba2007"
 Warning--I didn't find a database entry for "Mahil2006"
 Warning--I didn't find a database entry for "Stratis2006"
 Warning--I didn't find a database entry for "Wang2006"
@@ -127,50 +114,38 @@ Warning--I didn't find a database entry for "Łuszczek2004"
 Warning--I didn't find a database entry for "Williams2005"
 Warning--I didn't find a database entry for "Yen2001"
 Warning--I didn't find a database entry for "Tsoi2017"
-Warning--I didn't find a database entry for "Tsoi205"
+Warning--I didn't find a database entry for "Tsoi2015"
 Warning--I didn't find a database entry for "Winchester2012"
 Warning--I didn't find a database entry for "Stuart2015"
 Warning--I didn't find a database entry for "Welter2013"
 Warning--I didn't find a database entry for "Tang2014"
 Warning--I didn't find a database entry for "Zuo2015"
 Warning--I didn't find a database entry for "Ward2012"
-Warning--I didn't find a database entry for "Feil2013"
 Warning--I didn't find a database entry for "Small2011"
 Warning--I didn't find a database entry for "Visscher2017"
 Warning--I didn't find a database entry for "ImmunoBase"
 Warning--I didn't find a database entry for "Cortes2015b"
 Warning--I didn't find a database entry for "Constatino2015"
 Warning--I didn't find a database entry for "Bergboer2011"
-Warning--I didn't find a database entry for "Riveira-Munoz2011"
 Warning--I didn't find a database entry for "Jordan2012b"
 Warning--I didn't find a database entry for "Liu2017"
-Warning--I didn't find a database entry for "Wang2008"
-Warning--I didn't find a database entry for "Idel2003"
-Warning--I didn't find a database entry for "Wang2014"
-Warning--I didn't find a database entry for "Orange2005"
-Warning--I didn't find a database entry for "Puel2004"
 Warning--I didn't find a database entry for "Nextle2005"
 Warning--I didn't find a database entry for "Calamonici1994"
 Warning--I didn't find a database entry for "TLR9"
 Warning--I didn't find a database entry for "Lee2004"
 Warning--I didn't find a database entry for "Zhu2011"
-Warning--I didn't find a database entry for "Duerr2006"
 Warning--I didn't find a database entry for "Huber2008"
 Warning--I didn't find a database entry for "Harris2007"
 Warning--I didn't find a database entry for "Griffiths2015"
 Warning--I didn't find a database entry for "Blauvelt2017"
 Warning--I didn't find a database entry for "Patel2012"
 Warning--I didn't find a database entry for "Hueber2012"
-Warning--I didn't find a database entry for "Blauvelt2017b"
 Warning--I didn't find a database entry for "Maine2007"
 Warning--I didn't find a database entry for "Ray-Jones2017"
 Warning--I didn't find a database entry for "Aterido2015"
 Warning--I didn't find a database entry for "Wray2005"
-Warning--I didn't find a database entry for "TNFSF15"
-Warning--I didn't find a database entry for "Dand2017."
+Warning--I didn't find a database entry for "Cortes2011"
 Warning--I didn't find a database entry for "Zuk2012"
-Warning--I didn't find a database entry for "Uebe2017"
-Warning--I didn't find a database entry for "Feuk2010"
 Warning--I didn't find a database entry for "Spain2015"
 Warning--I didn't find a database entry for "Trynka2011"
 Warning--I didn't find a database entry for "Chou2016"
@@ -246,7 +221,6 @@ Warning--I didn't find a database entry for "Sellars2015"
 Warning--I didn't find a database entry for "Lai2013"
 Warning--I didn't find a database entry for "Herman2003"
 Warning--I didn't find a database entry for "Rottach2009"
-Warning--I didn't find a database entry for "Sullivan2007"
 Warning--I didn't find a database entry for "Lei2009"
 Warning--I didn't find a database entry for "Liu2013"
 Warning--I didn't find a database entry for "Zhang2010"
@@ -254,6 +228,13 @@ Warning--I didn't find a database entry for "Kim1996"
 Warning--I didn't find a database entry for "Frommer1992"
 Warning--I didn't find a database entry for "Miura2014"
 Warning--I didn't find a database entry for "Dedeurwaerder2013"
+Warning--I didn't find a database entry for "Nora2017"
+Warning--I didn't find a database entry for "Smith2016"
+Warning--I didn't find a database entry for "Davies2017"
+Warning--I didn't find a database entry for "Davies2016"
+Warning--I didn't find a database entry for "Javierre2016"
+Warning--I didn't find a database entry for "Mumbach2016"
+Warning--I didn't find a database entry for "Mumbach2017"
 Warning--I didn't find a database entry for "MIao2013"
 Warning--I didn't find a database entry for "Junta2009"
 Warning--I didn't find a database entry for "Baechler2003"
@@ -262,19 +243,54 @@ Warning--I didn't find a database entry for "Batliwalla2005"
 Warning--I didn't find a database entry for "Katschke2001"
 Warning--I didn't find a database entry for "Dozmorov2015"
 Warning--I didn't find a database entry for "Peters2016"
+Warning--I didn't find a database entry for "Lewis2005"
+Warning--I didn't find a database entry for "Friedman2008"
+Warning--I didn't find a database entry for "Lee2002"
+Warning--I didn't find a database entry for "Ameres2010"
+Warning--I didn't find a database entry for "Braun2011"
+Warning--I didn't find a database entry for "Petersen2006"
+Warning--I didn't find a database entry for "Griffiths-Jones2004"
+Warning--I didn't find a database entry for "Lerman2011"
+Warning--I didn't find a database entry for "Derrien2012"
+Warning--I didn't find a database entry for "Rinn2012"
+Warning--I didn't find a database entry for "Fatica2014"
+Warning--I didn't find a database entry for "Pandei2008"
+Warning--I didn't find a database entry for "Faghihi2008"
+Warning--I didn't find a database entry for "Gong2011"
+Warning--I didn't find a database entry for "Carrieri2012"
+Warning--I didn't find a database entry for "Kino2010"
+Warning--I didn't find a database entry for "Pang2009"
+Warning--I didn't find a database entry for "Rossetto2009"
+Warning--I didn't find a database entry for "Shi2014"
+Warning--I didn't find a database entry for "Ahn2016"
+Warning--I didn't find a database entry for "FANTOM2014"
+Warning--I didn't find a database entry for "Anderssen2014"
 Warning--I didn't find a database entry for "Zhao2014"
-Warning--I didn't find a database entry for "Pan2008"
 Warning--I didn't find a database entry for "Steijger2013"
 Warning--I didn't find a database entry for "Ding2017"
 Warning--I didn't find a database entry for "Yan2002"
 Warning--I didn't find a database entry for "Pickrell2010"
+Warning--I didn't find a database entry for "Tang2009"
+Warning--I didn't find a database entry for "Jaitin2014"
+Warning--I didn't find a database entry for "Villani2017"
+Warning--I didn't find a database entry for "Yamashita2011"
+Warning--I didn't find a database entry for "Andersson2014"
 Warning--I didn't find a database entry for "Zhang2012"
-Warning--I didn't find a database entry for "Zhou2016"
-Warning--I didn't find a database entry for "Langmead2006"
-Warning--I didn't find a database entry for "Xinmin2005"
-Warning--I didn't find a database entry for "Love2014"
-Warning--I didn't find a database entry for "Dobin2013"
-Warning--I didn't find a database entry for "ENCODE"
+Warning--I didn't find a database entry for "Shechner2015"
+Warning--I didn't find a database entry for "Fahr2014"
+Warning--I didn't find a database entry for "Kent2002"
+Warning--I didn't find a database entry for "Kanehisa2000"
+Warning--I didn't find a database entry for "Fang2016"
+Warning--I didn't find a database entry for "Watanabe2017"
+Warning--I didn't find a database entry for "Niimi2002"
+Warning--I didn't find a database entry for "Vernes2007"
+Warning--I didn't find a database entry for "Kheradpour2013"
+Warning--I didn't find a database entry for "Lee2017"
+Warning--I didn't find a database entry for "Ermann2012"
+Warning--I didn't find a database entry for "Cong2013"
+Warning--I didn't find a database entry for "Ding2013"
+Warning--I didn't find a database entry for "Forrest2017"
+Warning--I didn't find a database entry for "Simeonov2017"
 Biblatex version: 3.8
 Too many commas in name 1 of "Abecasis GR, Auton A, Brooks LD, DePristo MA, Durbin RM, Handsaker RE, Kang HM, Marth GT, McVean GA." for entry Abecasis2012
 while executing---line 2633 of file biblatex.bst
@@ -852,4 +868,4 @@ Too many commas in name 1 of "Abecasis GR, Auton A, Brooks LD, DePristo MA, Durb
 while executing---line 2749 of file biblatex.bst
 Too many commas in name 1 of "Abecasis GR, Auton A, Brooks LD, DePristo MA, Durbin RM, Handsaker RE, Kang HM, Marth GT, McVean GA." for entry Abecasis2012
 while executing---line 2749 of file biblatex.bst
-(There were 305 error messages)
+(There were 302 error messages)
