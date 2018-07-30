@@ -34,3 +34,17 @@
 \BOOKMARK [2][-]{subsection.1.4.7}{Integration and interpretation of genomic data}{section.1.4}% 34
 \BOOKMARK [2][-]{subsection.1.4.8}{Immunophenotyping}{section.1.4}% 35
 \BOOKMARK [2][-]{subsection.1.4.9}{Approaches to establish disease mechanisms and causality of genetic variant}{section.1.4}% 36
+\BOOKMARK [0][-]{chapter.2}{Establishment of laboratory methods and analytical tools to assess genome-wide chromatin accessibility in clinical samples}{}% 37
+\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 38
+\BOOKMARK [1][-]{section.2.2}{Results}{chapter.2}% 39
+\BOOKMARK [2][-]{subsection.2.2.1}{Establishment of an ATAC-seq data analysis pipeline based on current knowledge}{section.2.2}% 40
+\BOOKMARK [2][-]{subsection.2.2.2}{Assessment of ATAC-seq transposition times and comparison with FAST-ATAC protocol in relevant cell types}{section.2.2}% 41
+\BOOKMARK [2][-]{subsection.2.2.3}{Limitations of ATAC-seq and FAST-ATAC to assess chromatin accessibility in KC}{section.2.2}% 42
+\BOOKMARK [2][-]{subsection.2.2.4}{Discussion}{section.2.2}% 43
+\BOOKMARK [0][-]{chapter.3}{Cross-tissue comparison of chromatin accessibility, gene expression signature and immunophenotypes in PsA}{}% 44
+\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 45
+\BOOKMARK [1][-]{section.3.2}{Results}{chapter.3}% 46
+\BOOKMARK [2][-]{subsection.3.2.1}{PsA patients cohort description and datasets}{section.3.2}% 47
+\BOOKMARK [2][-]{subsection.3.2.2}{Differences in the chromatin accessibility landscape between circulating and SF immune cells}{section.3.2}% 48
+\BOOKMARK [2][-]{subsection.3.2.3}{Differential gene expression analysis in paired circulating and synovial immune cells}{section.3.2}% 49
+\BOOKMARK [1][-]{section.3.3}{Discussion}{chapter.3}% 50

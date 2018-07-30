@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  27 JUL 2018 21:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  30 JUL 2018 10:39
 entering extended mode
 **./Thesis.tex
 (Thesis.tex
@@ -1011,7 +1011,15 @@ File: english.lbx 2017/11/21 v3.9 biblatex localization (PK/JW/AB)
 \@quotelevel=\count329
 \@quotereset=\count330
  (Thesis.aux (Preamble.aux)
-(Introduction/Introduction.aux))
+(Introduction/Introduction.aux) (Results1/Results1.aux
+
+LaTeX Warning: Label `fig:PS02_skin_ATAC_QC_assessment' multiply defined.
+
+) (Results3/Results3.aux
+
+LaTeX Warning: Label `tab:PSA_DOCs_results' multiply defined.
+
+))
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 79.
@@ -1130,7 +1138,7 @@ Package biblatex Info: Reference segment=0 on input line 79.
 
 
 (Preamble.tex
-<oxford_logo-eps-converted-to.pdf, id=147, pagebox=cropbox, 561.09625pt x 651.43375pt>
+<oxford_logo-eps-converted-to.pdf, id=203, pagebox=cropbox, 561.09625pt x 651.43375pt>
 File: oxford_logo-eps-converted-to.pdf Graphic file (type pdf)
 <use oxford_logo-eps-converted-to.pdf>
 Package pdftex.def Info: oxford_logo-eps-converted-to.pdf  used on input line 6. on input line 6.
@@ -1194,17 +1202,52 @@ LaTeX Font Info:    Try loading font information for TS1+jkp on input line 23.
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 ) [6
 
-])
+]
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
+ [][] [][]\OT1/jkp/m/n/12 Assessment of ATAC-seq trans-po-si-tion times and 
+ []
+
+
+Underfull \hbox (badness 6477) in paragraph at lines 103--103
+ [][] [][]\OT1/jkp/m/n/12 Limitations of ATAC-seq and FAST-ATAC to as-sess 
+ []
+
+
+Underfull \hbox (badness 6559) in paragraph at lines 115--115
+ [][] [][]\OT1/jkp/m/n/12 Differences in the chro-matin ac-ces-si-bil-ity land-scape 
+ []
+
+)
 \tf@toc=\write6
 \openout6 = `Thesis.toc'.
 
- [7] (Thesis.lof)
+ [7] (Thesis.lof
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+ [][] [][]\OT1/jkp/m/n/12 Differential chro-matin ac-ces-si-bil-ity anal-y-sis for dif-fer-ent 
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 23--23
+ [][] [][]\OT1/jkp/m/n/12 QC as-sess-ment of ATAC-seq in KC en-riched cell sus-pen-sion 
+ []
+
+
+Underfull \hbox (badness 7981) in paragraph at lines 27--27
+ [][] [][]\OT1/jkp/m/n/12 QC as-sess-ment of Omni-ATAC in NHEK and chro-matin 
+ []
+
+)
 \tf@lof=\write7
 \openout7 = `Thesis.lof'.
 
  [8
 
-] (Thesis.lot)
+] (Thesis.lot
+Underfull \hbox (badness 1917) in paragraph at lines 13--13
+ [][] [][]\OT1/jkp/m/n/12 Summary ta-ble of ATAC-seq method-ol-ogy anal-y-sis for peak 
+ []
+
+)
 \tf@lot=\write8
 \openout8 = `Thesis.lot'.
 
@@ -1230,6 +1273,12 @@ Chapter 1.
 
 LaTeX Warning: Citation 'Villanova2016' on page 1 undefined on input line 10.
 
+
+LaTeX Warning: Citation 'Reich2008' on page 1 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'Springate2007' on page 1 undefined on input line 16.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1239,15 +1288,6 @@ l.17
 
 
 ]
-
-LaTeX Warning: Citation 'Reich2008' on page 2 undefined on input line 18.
-
-
-LaTeX Warning: Citation 'Springate2007' on page 2 undefined on input line 18.
-
-
-LaTeX Warning: Citation '(' on page 2 undefined on input line 21.
-
 Missing character: There is no ‚ in font jkpmn7t!
 Missing character: There is no Ä in font jkpmn7t!
 Missing character: There is no ô in font jkpmn7t!
@@ -1261,69 +1301,77 @@ Missing character: There is no ‚ in font jkpmn7t!
 Missing character: There is no Ä in font jkpmn7t!
 Missing character: There is no ¶ in font jkpmn7t!
 
-Underfull \hbox (badness 1038) in paragraph at lines 23--24
+Underfull \hbox (badness 1038) in paragraph at lines 20--21
 []\OT1/jkp/m/n/12 Accordingly, pso-ri-a-sis and PsA rep-re-sent a bur-den for the coun-tries'
  []
 
 
-LaTeX Warning: Citation 'ICD-10' on page 2 undefined on input line 30.
+LaTeX Warning: Citation 'ICD-10' on page 2 undefined on input line 27.
 
 
-LaTeX Warning: Citation 'Roderick2014' on page 2 undefined on input line 30.
+LaTeX Warning: Citation 'Roderick2014' on page 2 undefined on input line 27.
 
 ! Too many }'s.
 <recently read> }
                  
-l.30 ...parencite{Johnson-Huang2009, Proksch2008}}
+l.27 ...parencite{Johnson-Huang2009, Proksch2008}}
                                                   . Lesions in psoriasis are...
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
 
-Underfull \hbox (badness 3965) in paragraph at lines 30--31
+Underfull \hbox (badness 3965) in paragraph at lines 27--28
 []\OT1/jkp/m/n/12 The group of in-flam-ma-tory der-matoses af-fects up to 70% of the
  []
 
 [2]
 
-LaTeX Warning: Citation 'Runwaleit2001' on page 3 undefined on input line 35.
+LaTeX Warning: Citation 'Runwaleit2001' on page 3 undefined on input line 32.
 
 
-LaTeX Warning: Citation 'Runwaleit2001' on page 3 undefined on input line 35.
+LaTeX Warning: Citation 'Runwaleit2001' on page 3 undefined on input line 32.
 
 
-LaTeX Warning: Citation 'Said-Nahal2000' on page 3 undefined on input line 35.
+LaTeX Warning: Citation 'Said-Nahal2000' on page 3 undefined on input line 32.
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 |[]\OT1/jkp/b/n/17.28 Pathophysiology of pso-ri-a-sis and pso-ri-atic
  []
 
+Missing character: There is no ‚ in font jkpmn7t!
+Missing character: There is no Ä in font jkpmn7t!
+Missing character: There is no ô in font jkpmn7t!
 
-LaTeX Warning: Citation 'Moll1976' on page 4 undefined on input line 48.
-
-
-LaTeX Warning: Citation 'McGonagle' on page 4 undefined on input line 48.
-
-
-LaTeX Warning: Citation '2011' on page 4 undefined on input line 48.
-
-
-Overfull \hbox (4.20032pt too wide) in paragraph at lines 48--49
-\OT1/jkp/m/n/12 man-i-fes-ta-tion (more than 50% of the cases) fol-lowed by asym-met-ric/oligoarticular
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 48--49
-\OT1/jkp/m/n/12 This ob-ser-va-tion re-in-forces the need of ap-pro-pri-ate co-or-di-na-tion be-tween
+Underfull \hbox (badness 2253) in paragraph at lines 43--44
+[]\OT1/jkp/m/n/12 Amongst the afore-men-tioned phe-no-types, ap-prox-i-mately 90% of all
  []
 
 [4]
 
-LaTeX Warning: Citation 'Saphiro2007' on page 5 undefined on input line 50.
+LaTeX Warning: Citation 'Moll1976' on page 5 undefined on input line 47.
 
 
-LaTeX Warning: Citation 'Cohrn20017' on page 5 undefined on input line 50.
+LaTeX Warning: Citation 'McGonagle' on page 5 undefined on input line 47.
+
+
+LaTeX Warning: Citation '2011' on page 5 undefined on input line 47.
+
+
+Overfull \hbox (4.20032pt too wide) in paragraph at lines 47--48
+\OT1/jkp/m/n/12 man-i-fes-ta-tion (more than 50% of the cases) fol-lowed by asym-met-ric/oligoarticular
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 47--48
+\OT1/jkp/m/n/12 of joint in-flam-ma-tion ([]; []; []; []Grif-fiths and Lancet
+ []
+
+
+LaTeX Warning: Citation 'Saphiro2007' on page 5 undefined on input line 49.
+
+
+LaTeX Warning: Citation 'Cohrn20017' on page 5 undefined on input line 49.
 
 Missing character: There is no ‚ in font jkpmn7t!
 Missing character: There is no Ä in font jkpmn7t!
@@ -1332,25 +1380,25 @@ Missing character: There is no ‚ in font jkpmn7t!
 Missing character: There is no Ä in font jkpmn7t!
 Missing character: There is no ô in font jkpmn7t!
 
-LaTeX Warning: Citation 'Schmitt2005' on page 5 undefined on input line 53.
+LaTeX Warning: Citation 'Schmitt2005' on page 5 undefined on input line 52.
 
 [5]
 
-LaTeX Warning: Citation 'Taylor2006' on page 6 undefined on input line 55.
+LaTeX Warning: Citation 'Taylor2006' on page 6 undefined on input line 54.
 
 
-LaTeX Warning: Citation 'Philipp2011' on page 6 undefined on input line 55.
+LaTeX Warning: Citation 'Philipp2011' on page 6 undefined on input line 54.
 
 Missing character: There is no ‚ in font jkpmn7t!
 Missing character: There is no Ä in font jkpmn7t!
 Missing character: There is no ô in font jkpmn7t!
 
-Underfull \hbox (badness 3861) in paragraph at lines 55--56
+Underfull \hbox (badness 3861) in paragraph at lines 54--55
 []\OT1/jkp/m/n/12 To di-ag-nose PsA, a mod-i-fied Moll and Wright cri-te-ria known as
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--71
+Underfull \hbox (badness 10000) in paragraph at lines 59--70
 [][]
  []
 
@@ -1362,7 +1410,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.83 ...ar disease (joint, spine, or enthesial) }}
+l.82 ...ar disease (joint, spine, or enthesial) }}
                                                    \\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1374,13 +1422,13 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.84 ...{ with three points from five categories}}
+l.83 ...{ with three points from five categories}}
                                                    \\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (2.24922pt too wide) in paragraph at lines 82--100
+Overfull \hbox (2.24922pt too wide) in paragraph at lines 81--99
 [][]
  []
 
@@ -1388,15 +1436,15 @@ Overfull \hbox (2.24922pt too wide) in paragraph at lines 82--100
 
 ]
 
-LaTeX Warning: Reference `fig:PSO_aetiology_diagram' on page 8 undefined on input line 114.
+LaTeX Warning: Reference `fig:PSO_aetiology_diagram' on page 8 undefined on input line 113.
 
 
-Underfull \hbox (badness 4416) in paragraph at lines 114--115
+Underfull \hbox (badness 4416) in paragraph at lines 113--114
 \OT1/jkp/m/n/12 by a dys-reg-u-lated im-mune re-sponse ini-ti-ated as the re-sult of ge-netic
  []
 
 
-Underfull \hbox (badness 3449) in paragraph at lines 125--126
+Underfull \hbox (badness 3449) in paragraph at lines 124--125
 \OT1/jkp/m/n/12 (Ruchusat-sawat2011). Con-comi-tantly, in-flam-ma-tion causes im-mune cell
  []
 
@@ -1413,48 +1461,52 @@ LaTeX Warning: Citation 'Schett2011' on page 8 undefined on input line 127.
 
 ]
 
-LaTeX Warning: Citation 'Leanne2009' on page 9 undefined on input line 132.
+LaTeX Warning: Citation 'Leanne2009' on page 9 undefined on input line 134.
 
 
-LaTeX Warning: Citation 'Schmid1994' on page 9 undefined on input line 132.
+LaTeX Warning: Citation 'Schmid1994' on page 9 undefined on input line 134.
 
 ! Undefined control sequence.
 <recently read> \kapa 
                       
 l.134 ...-enhancer of activated B cells (NF-$\kapa
-                                                  $B) signaling pathways (re...
+                                                  $B), a master transcriptio...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-<recently read> \kapa 
-                      
-l.134 ...In the context of inflammation, NF-$\kapa
-                                                  $B represents a master tra...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-<recently read> \kapa 
-                      
-l.134 ...nflammatory activity, including NF-$\kapa
-                                                  $B inhibitor alpha \textit...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Citation 'Johansen2010' on page 9 undefined on input line 134.
 
 [9]
+! Missing { inserted.
+<to be read again> 
+                   $
+l.137 ...Cs and T cells and the circulating CD4$^$
+                                                   lymphocytes (ref). In pso...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.137 ...Cs and T cells and the circulating CD4$^$
+                                                   lymphocytes (ref). In pso...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
 ! Undefined control sequence.
-l.136 ...eased IL-17 production through NF-\kappaB
-                                                   activation by \textit{TRA...
+<recently read> \kapa 
+                      
+l.137 ... cytokine levels as a result of NF-$\kapa
+                                                  $B activation %by \textit{...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1462,17 +1514,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 2452) in paragraph at lines 136--138
-[]\OT1/jkp/m/n/12 Interleukin-23 (IL23) and Th17 axis rep-re-sents a key loop for the
- []
-
-
-Underfull \hbox (badness 1163) in paragraph at lines 136--138
-\OT1/jkp/m/n/12 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3580541/). More re-cently,
- []
-
-
-LaTeX Warning: Citation 'Valdimarsson2009' on page 10 undefined on input line 142.
+LaTeX Warning: Citation 'Valdimarsson2009' on page 10 undefined on input line 143.
 
 Missing character: There is no ¬ in font jkpmn7t!
 Missing character: There is no † in font jkpmn7t!
@@ -1480,10 +1522,10 @@ Missing character: There is no ‚ in font jkpmn7t!
 Missing character: There is no Ä in font jkpmn7t!
 Missing character: There is no ¶ in font jkpmn7t!
 
-LaTeX Warning: Citation 'add reference' on page 10 undefined on input line 142.
+LaTeX Warning: Citation 'add reference' on page 10 undefined on input line 143.
 
 
-LaTeX Warning: Citation 'Weiss2002' on page 10 undefined on input line 142.
+LaTeX Warning: Citation 'Weiss2002' on page 10 undefined on input line 143.
 
 [10]
 Missing character: There is no ¬ in font jkpmn7t!
@@ -1493,72 +1535,71 @@ Missing character: There is no Ä in font jkpmn7t!
 Missing character: There is no ¶ in font jkpmn7t!
 
 
-LaTeX Warning: Citation 'Feldmeyer2007' on page 11 undefined on input line 149.
+LaTeX Warning: Citation 'Feldmeyer2007' on page 11 undefined on input line 150.
 
 
-LaTeX Warning: Citation 'Proskch2008' on page 11 undefined on input line 149.
-
-[11]
-
-LaTeX Warning: Citation 'Mahil20016' on page 12 undefined on input line 151.
+LaTeX Warning: Citation 'Proskch2008' on page 11 undefined on input line 150.
 
 
-LaTeX Warning: Citation 'Zaba2007' on page 12 undefined on input line 151.
+LaTeX Warning: Citation 'Mahil20016' on page 11 undefined on input line 152.
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 151--152
+LaTeX Warning: Citation 'Zaba2007' on page 11 undefined on input line 152.
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 152--153
 []\OT1/jkp/m/n/12 mDCs and pDCs are also con-sid-ered im-por-tant in-nate im-mune cells
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 151--152
+Underfull \hbox (badness 1281) in paragraph at lines 152--153
 \OT1/jkp/m/n/12 der-mis of pso-ri-a-sis pa-tients ([]Nes-tle et al. []2005[]; []Lande et al. []2007[]). In
  []
 
+[11]
 
-LaTeX Warning: Citation 'Mahil2006' on page 12 undefined on input line 154.
+LaTeX Warning: Citation 'Mahil2006' on page 12 undefined on input line 155.
+
+
+LaTeX Warning: Citation 'Stratis2006' on page 12 undefined on input line 157.
+
+
+LaTeX Warning: Citation 'Wang2006' on page 12 undefined on input line 157.
+
+
+LaTeX Warning: Citation 'Bar-Eli1979' on page 12 undefined on input line 157.
+
+
+LaTeX Warning: Citation 'Golden2015' on page 12 undefined on input line 157.
 
 [12]
 
-LaTeX Warning: Citation 'Stratis2006' on page 13 undefined on input line 156.
+LaTeX Warning: Citation 'Stratis2006' on page 13 undefined on input line 165.
 
 
-LaTeX Warning: Citation 'Wang2006' on page 13 undefined on input line 156.
+LaTeX Warning: Citation 'Wang2006' on page 13 undefined on input line 165.
 
 
-LaTeX Warning: Citation 'Bar-Eli1979' on page 13 undefined on input line 156.
+LaTeX Warning: Citation 'Bar-Eli1979' on page 13 undefined on input line 165.
 
 
-LaTeX Warning: Citation 'Golden2015' on page 13 undefined on input line 156.
+LaTeX Warning: Citation 'Golden2015' on page 13 undefined on input line 165.
 
 
-LaTeX Warning: Citation 'Stratis2006' on page 13 undefined on input line 164.
-
-
-LaTeX Warning: Citation 'Wang2006' on page 13 undefined on input line 164.
-
-
-LaTeX Warning: Citation 'Bar-Eli1979' on page 13 undefined on input line 164.
-
-
-LaTeX Warning: Citation 'Golden2015' on page 13 undefined on input line 164.
-
-
-Underfull \hbox (badness 1881) in paragraph at lines 164--165
+Underfull \hbox (badness 1881) in paragraph at lines 165--166
 \OT1/jkp/m/n/12 of PBMCs iso-lated mono-cytes from pso-ri-a-sis pa-tients com-pared to those
  []
 
-[13]
 
-LaTeX Warning: Citation 'Gardembas1990' on page 14 undefined on input line 166.
+LaTeX Warning: Citation 'Gardembas1990' on page 13 undefined on input line 167.
 
 
-LaTeX Warning: Citation 'Lecewicz-Toru≈Ñ2001' on page 14 undefined on input line 166.
+LaTeX Warning: Citation 'Lecewicz-Toru≈Ñ2001' on page 13 undefined on input line 167.
 
 Missing character: There is no ≈ in font jkpbn7t!
 Missing character: There is no Ñ in font jkpbn7t!
 
-LaTeX Warning: Citation 'Lecewicz-Toru≈Ñ2001' on page 14 undefined on input line 166.
+LaTeX Warning: Citation 'Lecewicz-Toru≈Ñ2001' on page 13 undefined on input line 167.
 
 Missing character: There is no ≈ in font jkpbn7t!
 Missing character: There is no Ñ in font jkpbn7t!
@@ -1568,46 +1609,57 @@ Missing character: There is no ‚ in font jkpmn7t!
 Missing character: There is no Ä in font jkpmn7t!
 Missing character: There is no ¶ in font jkpmn7t!
 
-Underfull \hbox (badness 1845) in paragraph at lines 166--167
+Underfull \hbox (badness 1845) in paragraph at lines 167--168
 \OT1/jkp/m/n/12 and PsA. Re-port cases in hu-mans have demon-strated that bone mar-row
  []
 
+[13]
 
-LaTeX Warning: Citation 'Perera2012 ' on page 14 undefined on input line 168.
+LaTeX Warning: Citation 'Perera2012 ' on page 14 undefined on input line 169.
 
 
-LaTeX Warning: Citation 'Boyle2013' on page 14 undefined on input line 168.
+LaTeX Warning: Citation 'Boyle2013' on page 14 undefined on input line 169.
 
 Missing character: There is no ‚ in font jkpmn7t!
 Missing character: There is no Ä in font jkpmn7t!
 Missing character: There is no ô in font jkpmn7t!
 [14]
 
-LaTeX Warning: Citation 'Cai2012' on page 15 undefined on input line 170.
+LaTeX Warning: Citation 'Cai2012' on page 15 undefined on input line 171.
 
 
-LaTeX Warning: Citation 'Dolcino2015' on page 15 undefined on input line 170.
+LaTeX Warning: Citation 'Dolcino2015' on page 15 undefined on input line 171.
 
 Missing character: There is no ‚ in font jkpmn7t!
 Missing character: There is no Ä in font jkpmn7t!
 Missing character: There is no ô in font jkpmn7t!
-[15]
-<./Introduction/pdfs/PSO_adaptive_innate_immune_system_crosstalk.pdf, id=475, pagebox=cropbox, 569.12625pt x 758.835pt>
+<./Introduction/pdfs/PSO_adaptive_innate_immune_system_crosstalk.pdf, id=605, pagebox=cropbox, 569.12625pt x 758.835pt>
 File: ./Introduction/pdfs/PSO_adaptive_innate_immune_system_crosstalk.pdf Graphic file (type pdf)
 <use ./Introduction/pdfs/PSO_adaptive_innate_immune_system_crosstalk.pdf>
-Package pdftex.def Info: ./Introduction/pdfs/PSO_adaptive_innate_immune_system_crosstalk.pdf  used on input line 173. on
- input line 173.
-Package pdftex.def Info: Requested size: 426.79134pt x 569.07855pt on input line 173.
- [16]
+Package pdftex.def Info: ./Introduction/pdfs/PSO_adaptive_innate_immune_system_crosstalk.pdf  used on input line 174. on
+ input line 174.
+Package pdftex.def Info: Requested size: 426.79134pt x 569.07855pt on input line 174.
+[15]
 
-LaTeX Warning: Citation 'Rizova2001' on page 17 undefined on input line 179.
-
-
-LaTeX Warning: Citation 'Schmitt2014' on page 17 undefined on input line 179.
+LaTeX Warning: Citation 'Rizova2001' on page 16 undefined on input line 180.
 
 
-LaTeX Warning: Citation 'Keating2017' on page 17 undefined on input line 179.
+LaTeX Warning: Citation 'Schmitt2014' on page 16 undefined on input line 180.
 
+
+LaTeX Warning: Citation 'Keating2017' on page 16 undefined on input line 180.
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 180--181
+\OT1/jkp/m/n/12 treat-ments avail-able are solely fo-cused in al-le-vi-at-ing the symp-toms. For
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 180--181
+\OT1/jkp/m/n/12 non-s-teroidal anti-inflammatory drug (NSAID) to con-trol the in-flam-ma-tory
+ []
+
+[16 <./Introduction/pdfs/PSO_adaptive_innate_immune_system_crosstalk.pdf>]
 Missing character: There is no ‚ in font jkpmn7t!
 Missing character: There is no Ä in font jkpmn7t!
 Missing character: There is no ò in font jkpmn7t!
@@ -1615,10 +1667,11 @@ Missing character: There is no ‚ in font jkpmn7t!
 Missing character: There is no Ä in font jkpmn7t!
 Missing character: There is no ô in font jkpmn7t!
 
-LaTeX Warning: Citation 'Ahil2016' on page 17 undefined on input line 180.
+
+LaTeX Warning: Citation 'Ahil2016' on page 17 undefined on input line 182.
 
 
-LaTeX Warning: Citation 'Coates2016b' on page 17 undefined on input line 180.
+LaTeX Warning: Citation 'Coates2016b' on page 17 undefined on input line 182.
 
 Missing character: There is no ¬ in font jkpmn7t!
 Missing character: There is no † in font jkpmn7t!
@@ -1626,264 +1679,242 @@ Missing character: There is no ‚ in font jkpmn7t!
 Missing character: There is no Ä in font jkpmn7t!
 Missing character: There is no ¶ in font jkpmn7t!
 
-LaTeX Warning: Citation 'Coates2016b' on page 17 undefined on input line 180.
+LaTeX Warning: Citation 'Coates2016b' on page 17 undefined on input line 182.
+
+[17]
+
+LaTeX Warning: Citation 'Faber1974' on page 18 undefined on input line 196.
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 179--181
-\OT1/jkp/m/n/12 treat-ments avail-able are solely fo-cused in al-le-vi-at-ing the symp-toms. For
- []
+LaTeX Warning: Citation 'Pendersen2008' on page 18 undefined on input line 196.
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 179--181
-\OT1/jkp/m/n/12 non-s-teroidal anti-inflammatory drug (NSAID) to con-trol the in-flam-ma-tory
- []
+LaTeX Warning: Citation 'Pendersen2008' on page 18 undefined on input line 196.
 
-
-Underfull \hbox (badness 1496) in paragraph at lines 179--181
-\OT1/jkp/m/n/12 re-spec-tively ([]; []; []Gossec et al. []2016[]; []Po-lachek et
- []
-
-[17 <./Introduction/pdfs/PSO_adaptive_innate_immune_system_crosstalk.pdf>] [18]
-
-LaTeX Warning: Citation 'Faber1974' on page 19 undefined on input line 194.
-
-
-LaTeX Warning: Citation 'Pendersen2008' on page 19 undefined on input line 194.
-
-
-LaTeX Warning: Citation 'Pendersen2008' on page 19 undefined on input line 194.
-
-[19]
-
-LaTeX Warning: Citation 'International2003' on page 20 undefined on input line 198.
-
-
-LaTeX Warning: Citation 'Rusell1972' on page 20 undefined on input line 198.
-
-
-LaTeX Warning: Citation 'Tiilikainen1980' on page 20 undefined on input line 198.
-
-
-LaTeX Warning: Citation 'Tomfohrde1994' on page 20 undefined on input line 198.
-
-
-LaTeX Warning: Citation '≈Åuszczek2004' on page 20 undefined on input line 199.
-
-Missing character: There is no ≈ in font jkpbn7t!
-Missing character: There is no Å in font jkpbn7t!
-
-LaTeX Warning: Citation 'Williams2005' on page 20 undefined on input line 199.
-
-
-LaTeX Warning: Citation 'Yen2001' on page 20 undefined on input line 199.
-
-
-Underfull \hbox (badness 3058) in paragraph at lines 197--200
+[18]
+Underfull \hbox (badness 3058) in paragraph at lines 199--200
 []\OT1/jkp/m/n/12 Different ap-proaches have been un-der-taken to un-cover the ge-netic
  []
 
 
-Underfull \hbox (badness 1552) in paragraph at lines 197--200
-\OT1/jkp/m/n/12 The study of pso-ri-a-sis and PsA ge-netic ar-chi-tec-ture started with link-age
- []
+LaTeX Warning: Citation 'International2003' on page 19 undefined on input line 201.
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 197--200
+LaTeX Warning: Citation 'Rusell1972' on page 19 undefined on input line 201.
+
+
+LaTeX Warning: Citation 'Tiilikainen1980' on page 19 undefined on input line 201.
+
+
+LaTeX Warning: Citation 'Tomfohrde1994' on page 19 undefined on input line 201.
+
+
+LaTeX Warning: Citation '≈Åuszczek2004' on page 19 undefined on input line 202.
+
+Missing character: There is no ≈ in font jkpbn7t!
+Missing character: There is no Å in font jkpbn7t!
+
+LaTeX Warning: Citation 'Williams2005' on page 19 undefined on input line 202.
+
+
+LaTeX Warning: Citation 'Yen2001' on page 19 undefined on input line 202.
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 201--203
 \OT1/jkp/m/n/12 as-so-ci-ated with pso-ri-a-sis sus-cep-ti-bil-ity in sero-log-i-cal stud-ies ([];
  []
 
-[20]
+[19]
 
-LaTeX Warning: Citation 'The international HapMaP Consortium' on page 21 undefined on input line 205.
-
-
-LaTeX Warning: Citation 'The 1000 Genomes' on page 21 undefined on input line 205.
+LaTeX Warning: Citation 'The international HapMaP Consortium' on page 20 undefined on input line 208.
 
 
-Underfull \hbox (badness 3919) in paragraph at lines 205--206
+LaTeX Warning: Citation 'The 1000 Genomes' on page 20 undefined on input line 208.
+
+
+Underfull \hbox (badness 3919) in paragraph at lines 208--209
 []\OT1/jkp/m/n/12 The dra-matic ad-vances in se-quenc-ing and geno-typ-ing tech-nolo-gies
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 205--206
+Underfull \hbox (badness 1077) in paragraph at lines 208--209
 \OT1/jkp/m/n/12 have al-lowed the im-ple-men-ta-tion of as-so-ci-a-tion stud-ies at a genome-wide
  []
 
 
-Underfull \hbox (badness 5817) in paragraph at lines 205--206
+Underfull \hbox (badness 5817) in paragraph at lines 208--209
 \OT1/jkp/m/n/12 poly-mor-phisms (SNPs) in dif-fer-ent pop-u-la-tions through whole genome
  []
 
 
-Overfull \hbox (30.92346pt too wide) in paragraph at lines 205--206
+Overfull \hbox (30.92346pt too wide) in paragraph at lines 208--209
 \OT1/jkp/m/n/12 se-quenc-ing (WGS) projects such as HapMap ([])
  []
 
 
-Underfull \hbox (badness 2111) in paragraph at lines 205--206
+Underfull \hbox (badness 2111) in paragraph at lines 208--209
 \OT1/jkp/m/n/12 and the 1000 Genomes ([]). GWAS gen-er-ally fo-cus in
  []
 
-[21]
+[20]
 
-LaTeX Warning: Reference `tab:GWAS_studies' on page 22 undefined on input line 209.
-
-
-LaTeX Warning: Citation 'Tsoi2017' on page 22 undefined on input line 209.
+LaTeX Warning: Reference `tab:GWAS_studies' on page 21 undefined on input line 212.
 
 
-LaTeX Warning: Citation 'Tsoi2015' on page 22 undefined on input line 209.
+LaTeX Warning: Citation 'Tsoi2017' on page 21 undefined on input line 212.
 
 
-LaTeX Warning: Citation 'Tsoi2017' on page 22 undefined on input line 209.
+LaTeX Warning: Citation 'Tsoi2015' on page 21 undefined on input line 213.
 
 
-Underfull \hbox (badness 1082) in paragraph at lines 209--210
+LaTeX Warning: Citation 'Tsoi2017' on page 21 undefined on input line 213.
+
+
+LaTeX Warning: Citation 'Winchester2012' on page 21 undefined on input line 214.
+
+
+LaTeX Warning: Citation 'Stuart2015' on page 21 undefined on input line 214.
+
+
+LaTeX Warning: Citation 'Stuart2015' on page 21 undefined on input line 214.
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 212--215
 \OT1/jkp/m/n/12 her-i-tabil-ity (Ta-ble []) ([]). The ma-jor-ity of the stud-ies have been
  []
 
 
-LaTeX Warning: Citation 'Winchester2012' on page 22 undefined on input line 212.
-
-
-LaTeX Warning: Citation 'Stuart2015' on page 22 undefined on input line 212.
-
-
-LaTeX Warning: Citation 'Stuart2015' on page 22 undefined on input line 212.
-
-
-Underfull \hbox (badness 5105) in paragraph at lines 211--213
-\OT1/jkp/m/n/12 the as-so-ci-a-tion for \OT1/jkp/m/it/12 LCE3C/B\OT1/jkp/m/n/12 ,identified in com-bined phe-no-typic st
-ud-ies,
+Underfull \hbox (badness 1019) in paragraph at lines 212--215
+\OT1/jkp/m/n/12 with-ing each phe-no-type pop-u-la-tion ([]; []Okada et al. []2014[]).
  []
 
-[22] [23]
-Overfull \hbox (7.83493pt too wide) in paragraph at lines 226--226
+[21] [22]
+Overfull \hbox (7.83493pt too wide) in paragraph at lines 228--228
 []|\OT1/jkp/b/n/12 (Cases/Controls)| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--233
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
 []|\OT1/jkp/m/n/12 ([]Ellinghaus et al.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
 \OT1/jkp/m/it/12 ERAP1\OT1/jkp/m/n/12 , \OT1/jkp/m/it/12 TYK2 \OT1/jkp/m/n/12 and \OT1/jkp/m/it/12 HLA-C/ERAP1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--237
+Underfull \hbox (badness 10000) in paragraph at lines 239--239
 []|\OT1/jkp/m/n/12 Psoriasis (type
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--240
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
 []|\OT1/jkp/m/it/12 ERAP1\OT1/jkp/m/n/12 , \OT1/jkp/m/it/12 PTTG1\OT1/jkp/m/n/12 , \OT1/jkp/m/it/12 CSMD1\OT1/jkp/m/n/12
  , \OT1/jkp/m/it/12 GJB2\OT1/jkp/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 241--242
+Underfull \hbox (badness 1584) in paragraph at lines 243--244
 []|\OT1/jkp/m/it/12 CARD14 \OT1/jkp/m/n/12 (PSOR4), \OT1/jkp/m/it/12 RUNX3\OT1/jkp/m/n/12 , \OT1/jkp/m/it/12 B3GNT2\OT1/
 jkp/m/n/12 ,
  []
 
 
-LaTeX Warning: Citation 'Tsoi2015' on page 24 undefined on input line 243.
+LaTeX Warning: Citation 'Tsoi2015' on page 23 undefined on input line 245.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
 []|\OT1/jkp/m/n/12 1q31.1, 5p13.1, \OT1/jkp/m/it/12 PLCL2\OT1/jkp/m/n/12 , \OT1/jkp/m/it/12 NFK-BIZ\OT1/jkp/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--245
+Underfull \hbox (badness 10000) in paragraph at lines 247--247
 []|\OT1/jkp/m/n/12 British, Irish,
  []
 
 
-LaTeX Warning: Citation 'Stuart2015' on page 24 undefined on input line 247.
+LaTeX Warning: Citation 'Stuart2015' on page 23 undefined on input line 249.
 
 
-LaTeX Warning: Citation 'Tsoi2017' on page 24 undefined on input line 249.
+LaTeX Warning: Citation 'Tsoi2017' on page 23 undefined on input line 251.
 
-[24
+[23
 
-] [25]
+] [24]
 
-LaTeX Warning: Citation 'Welter2013' on page 26 undefined on input line 260.
-
-
-LaTeX Warning: Citation 'Tang2014' on page 26 undefined on input line 262.
+LaTeX Warning: Citation 'Welter2013' on page 25 undefined on input line 262.
 
 
-LaTeX Warning: Citation 'Zuo2015' on page 26 undefined on input line 262.
+LaTeX Warning: Citation 'Tang2014' on page 25 undefined on input line 264.
 
 
-LaTeX Warning: Citation 'Tang2014' on page 26 undefined on input line 262.
+LaTeX Warning: Citation 'Zuo2015' on page 25 undefined on input line 264.
 
 
-LaTeX Warning: Citation 'Tang2014' on page 26 undefined on input line 262.
+LaTeX Warning: Citation 'Tang2014' on page 25 undefined on input line 264.
 
 
-LaTeX Warning: Citation 'Ward2012' on page 26 undefined on input line 264.
+LaTeX Warning: Citation 'Tang2014' on page 25 undefined on input line 264.
 
 
-Underfull \hbox (badness 1005) in paragraph at lines 264--265
+LaTeX Warning: Citation 'Ward2012' on page 25 undefined on input line 266.
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 266--267
 \OT1/jkp/m/n/12 by their abil-ity to reg-u-late gene ex-pres-sion in a cell and con-text spe-cific
  []
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 264--265
+Underfull \hbox (badness 1270) in paragraph at lines 266--267
 \OT1/jkp/m/n/12 man-ner ([]Fair-fax et al. []2012[]). These vari-ants can be lo-cated at dif-fer-ent
  []
 
 
-LaTeX Warning: Citation 'Small2011' on page 26 undefined on input line 266.
+LaTeX Warning: Citation 'Small2011' on page 25 undefined on input line 268.
 
 
-Underfull \hbox (badness 4279) in paragraph at lines 266--267
+Underfull \hbox (badness 4279) in paragraph at lines 268--269
 []\OT1/jkp/m/n/12 Identification of the tar-get gene reg-u-lated by non-coding vari-ants
  []
 
-[26
+[25
 
 ]
-Underfull \hbox (badness 2452) in paragraph at lines 269--269
+Underfull \hbox (badness 2452) in paragraph at lines 271--271
 |[]\OT1/jkp/b/n/14.4 The role of GWAS stud-ies in high-light-ing immune-
  []
 
 
-LaTeX Warning: Citation 'Visscher2017' on page 27 undefined on input line 271.
+LaTeX Warning: Citation 'Visscher2017' on page 26 undefined on input line 273.
 
 
-LaTeX Warning: Citation 'Visscher2017' on page 27 undefined on input line 271.
+LaTeX Warning: Citation 'Visscher2017' on page 26 undefined on input line 273.
 
 
-LaTeX Warning: Citation 'ImmunoBase' on page 27 undefined on input line 272.
+LaTeX Warning: Citation 'ImmunoBase' on page 26 undefined on input line 274.
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 271--274
+Underfull \hbox (badness 1406) in paragraph at lines 273--276
 \OT1/jkp/m/n/12 like-wise led to iden-ti-fi-ca-tion of shared sus-cep-ti-bil-ity loci and the use of
  []
 
-[27]
+[26]
 Missing character: There is no ¬ in font jkpmn7t!
 Missing character: There is no ¥ in font jkpmn7t!
 
 
-LaTeX Warning: Citation 'Cortes2015b' on page 28 undefined on input line 278.
+LaTeX Warning: Citation 'Cortes2015b' on page 27 undefined on input line 280.
 
 
-LaTeX Warning: Citation 'Constatino2015' on page 28 undefined on input line 278.
+LaTeX Warning: Citation 'Constatino2015' on page 27 undefined on input line 280.
 
-[28]
+[27]
 
-LaTeX Warning: Citation 'Bergboer2011' on page 29 undefined on input line 282.
+LaTeX Warning: Citation 'Bergboer2011' on page 28 undefined on input line 284.
 
 ! Undefined control sequence.
-l.283 ...riasis-associated genes including \tetxit
+l.285 ...riasis-associated genes including \tetxit
                                                   {IL-6}, \textit{TNFA} and ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1892,132 +1923,130 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'Jordan2012b' on page 29 undefined on input line 283.
+LaTeX Warning: Citation 'Jordan2012b' on page 28 undefined on input line 285.
 
 
-LaTeX Warning: Reference `tab:GWAS_studies' on page 29 undefined on input line 290.
+LaTeX Warning: Reference `tab:GWAS_studies' on page 28 undefined on input line 292.
 
 
-LaTeX Warning: Citation 'Liu2017' on page 29 undefined on input line 291.
+LaTeX Warning: Citation 'Liu2017' on page 28 undefined on input line 293.
 
 
-LaTeX Warning: Citation 'GWAS studies' on page 29 undefined on input line 291.
+LaTeX Warning: Citation 'GWAS studies' on page 28 undefined on input line 293.
 
 
-LaTeX Warning: Citation 'ImmunoBase' on page 29 undefined on input line 291.
+LaTeX Warning: Citation 'ImmunoBase' on page 28 undefined on input line 293.
 
 
-LaTeX Warning: Citation 'ImmunoBase' on page 29 undefined on input line 292.
+LaTeX Warning: Citation 'ImmunoBase' on page 28 undefined on input line 294.
 
 
-LaTeX Warning: Citation 'H\"{u}ffmeier2010' on page 29 undefined on input line 293.
+LaTeX Warning: Citation 'H\"{u}ffmeier2010' on page 28 undefined on input line 295.
 
 
-LaTeX Warning: Citation 'Tsoi2017' on page 29 undefined on input line 295.
+LaTeX Warning: Citation 'Tsoi2017' on page 28 undefined on input line 297.
 
 
-Underfull \hbox (badness 1112) in paragraph at lines 290--297
+Underfull \hbox (badness 1112) in paragraph at lines 292--299
 \OT1/jkp/m/n/12 three ad-di-tional as-so-ci-a-tions with genes be-long-ing to the NF-$\OML/jkp/m/it/12 $\OT1/jkp/m/n/12
  B path-way,
  []
 
-[29] [30]
+[28] [29]
 Missing character: There is no ‚ in font jkpmn7t!
 Missing character: There is no Ä in font jkpmn7t!
 Missing character: There is no ô in font jkpmn7t!
 
 
-LaTeX Warning: Citation 'Nextle2005' on page 31 undefined on input line 300.
+LaTeX Warning: Citation 'Nextle2005' on page 30 undefined on input line 302.
 
 
-LaTeX Warning: Citation 'ImmunoBase' on page 31 undefined on input line 300.
+LaTeX Warning: Citation 'ImmunoBase' on page 30 undefined on input line 302.
 
 
-LaTeX Warning: Citation 'Calamonici1994' on page 31 undefined on input line 300.
+LaTeX Warning: Citation 'Calamonici1994' on page 30 undefined on input line 302.
 
 
-LaTeX Warning: Citation 'TLR9' on page 31 undefined on input line 300.
+LaTeX Warning: Citation 'TLR9' on page 30 undefined on input line 302.
+
+[30]
+
+LaTeX Warning: Reference `tab:GWAS_studies' on page 31 undefined on input line 308.
+
+
+LaTeX Warning: Citation 'Lee2004' on page 31 undefined on input line 309.
+
+
+LaTeX Warning: Citation 'Zhu2011' on page 31 undefined on input line 309.
+
+
+LaTeX Warning: Citation 'Huber2008' on page 31 undefined on input line 312.
+
+
+LaTeX Warning: Citation 'Harris2007' on page 31 undefined on input line 312.
+
+
+LaTeX Warning: Citation 'Immunobase' on page 31 undefined on input line 312.
+
+
+LaTeX Warning: Citation 'Griffiths2015' on page 31 undefined on input line 313.
+
+
+LaTeX Warning: Citation 'Blauvelt2017' on page 31 undefined on input line 313.
+
+
+LaTeX Warning: Citation 'Patel2012' on page 31 undefined on input line 313.
+
+
+LaTeX Warning: Citation 'Hueber2012' on page 31 undefined on input line 313.
 
 [31]
 
-LaTeX Warning: Reference `tab:GWAS_studies' on page 32 undefined on input line 306.
+LaTeX Warning: Citation 'Immunobase' on page 32 undefined on input line 319.
 
 
-LaTeX Warning: Citation 'Lee2004' on page 32 undefined on input line 307.
+LaTeX Warning: Citation 'Maine2007' on page 32 undefined on input line 319.
 
 
-LaTeX Warning: Citation 'Zhu2011' on page 32 undefined on input line 307.
+LaTeX Warning: Citation 'Ray-Jones2017' on page 32 undefined on input line 321.
 
 
-LaTeX Warning: Citation 'Huber2008' on page 32 undefined on input line 309.
+LaTeX Warning: Citation 'Aterido2015' on page 32 undefined on input line 324.
 
 
-LaTeX Warning: Citation 'Harris2007' on page 32 undefined on input line 309.
-
-
-LaTeX Warning: Citation 'Immunobase' on page 32 undefined on input line 309.
-
-
-LaTeX Warning: Citation 'Griffiths2015' on page 32 undefined on input line 310.
-
-
-LaTeX Warning: Citation 'Blauvelt2017' on page 32 undefined on input line 310.
-
-
-LaTeX Warning: Citation 'Patel2012' on page 32 undefined on input line 310.
-
-
-LaTeX Warning: Citation 'Hueber2012' on page 32 undefined on input line 310.
+Underfull \hbox (badness 1281) in paragraph at lines 323--325
+\OT1/jkp/m/n/12 genome-wide path-way anal-y-sis to dis-close rel-e-vant bi-o-log-i-cal pro-cesses in
+ []
 
 [32]
 
-LaTeX Warning: Citation 'Immunobase' on page 33 undefined on input line 316.
-
-
-LaTeX Warning: Citation 'Maine2007' on page 33 undefined on input line 316.
-
-
-LaTeX Warning: Citation 'Immunobase' on page 33 undefined on input line 316.
-
-
-LaTeX Warning: Citation 'Ray-Jones2017' on page 33 undefined on input line 316.
-
-
-LaTeX Warning: Citation 'Aterido2015' on page 33 undefined on input line 317.
-
-
-Underfull \hbox (badness 1009) in paragraph at lines 316--318
-\OT1/jkp/m/n/12 ([]). Nev-er-the-less, the same lo-cus could be an en-hancer for
- []
+LaTeX Warning: Citation 'Visscher2017' on page 33 undefined on input line 334.
 
 [33]
 
-LaTeX Warning: Citation 'Visscher2017' on page 34 undefined on input line 326.
+LaTeX Warning: Citation 'Wray2005' on page 34 undefined on input line 336.
 
 
-LaTeX Warning: Citation 'Wray2005' on page 34 undefined on input line 326.
+LaTeX Warning: Citation 'Cortes2011' on page 34 undefined on input line 336.
 
 
-LaTeX Warning: Citation 'Cortes2011' on page 34 undefined on input line 326.
+LaTeX Warning: Citation 'Visscher2017' on page 34 undefined on input line 336.
 
 
-LaTeX Warning: Citation 'Zuk2012' on page 34 undefined on input line 326.
+LaTeX Warning: Citation 'Zuk2012' on page 34 undefined on input line 336.
 
 
-LaTeX Warning: Citation 'Visscher2017' on page 34 undefined on input line 326.
-
-
-Underfull \hbox (badness 1558) in paragraph at lines 326--327
-\OT1/jkp/m/n/12 the miss-ing her-i-tabil-ity. In-cor-po-ra-tion of new geno-typ-ing plat-forms has
+Underfull \hbox (badness 1033) in paragraph at lines 336--337
+\OT1/jkp/m/n/12 in-cor-po-rates SNPs with MAF$[]$1% ([]). More-over, ex-ome stud-ies
  []
 
-[34]
-Overfull \hbox (36.15654pt too wide) in paragraph at lines 343--343
+
+Overfull \hbox (36.15654pt too wide) in paragraph at lines 355--355
 |[]\OT1/jkp/b/n/17.28 Functional in-ter-pre-ta-tion of genome-wide as-so-ci-a-tion
  []
 
 ! Undefined control sequence.
-l.346 ...tic variability in each locus \parencirte
+l.358 ...s) within the haplotype block \parencirte
                                                   {Edwards2013}. Statistical...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2026,7 +2055,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.346 ...in regulating gene expression \parencirte
+l.358 ...in regulating gene expression \parencirte
                                                   {Petronis2010}. Additional...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2034,36 +2063,41 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[34]
+
+LaTeX Warning: Citation 'Spain2015' on page 35 undefined on input line 362.
+
+
+LaTeX Warning: Citation 'Trynka2011' on page 35 undefined on input line 364.
+
+
+LaTeX Warning: Citation 'Chou2016' on page 35 undefined on input line 364.
+
 [35]
 
-LaTeX Warning: Citation 'Spain2015' on page 36 undefined on input line 350.
+LaTeX Warning: Citation 'Wakefield2007' on page 36 undefined on input line 367.
 
 
-LaTeX Warning: Citation 'Trynka2011' on page 36 undefined on input line 352.
+LaTeX Warning: Citation 'Gaulton2015' on page 36 undefined on input line 367.
 
 
-LaTeX Warning: Citation 'Chou2016' on page 36 undefined on input line 352.
+LaTeX Warning: Citation 'Sun2016' on page 36 undefined on input line 367.
 
 
-Underfull \hbox (badness 3439) in paragraph at lines 352--353
-[]\OT1/jkp/m/n/12 Fine-mapping stud-ies re-quire ex-tense geno-typ-ing that to meet the
+LaTeX Warning: Citation 'Huang2017' on page 36 undefined on input line 367.
+
+
+Underfull \hbox (badness 2556) in paragraph at lines 367--368
+\OT1/jkp/m/n/12 (based on p-value cal-cu-la-tions) to in-crease the res-o-lu-tion of the GWAS
  []
 
-[36]
 
-LaTeX Warning: Citation 'Wakefield2007' on page 37 undefined on input line 354.
-
-
-LaTeX Warning: Citation 'Gaulton2015' on page 37 undefined on input line 354.
-
-
-LaTeX Warning: Citation 'Sun2016' on page 37 undefined on input line 354.
-
-
-LaTeX Warning: Citation 'Huang2017' on page 37 undefined on input line 354.
+Underfull \hbox (badness 1342) in paragraph at lines 367--368
+\OT1/jkp/m/n/12 as-so-ci-a-tions and fa-cil-i-tate the iden-ti-fi-ca-tion of rel-e-vant genes and dis-ease
+ []
 
 ! Undefined control sequence.
-l.354 ...tion of credible sets of SNPs  \parenicte
+l.369 ...credible sets for each of them \parenicte
                                                   {Maller2012,Bunts2015}. Im...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2072,48 +2106,81 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'Wallace2016' on page 37 undefined on input line 354.
+LaTeX Warning: Citation 'Wallace2016' on page 36 undefined on input line 369.
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 354--355
-[]\OT1/jkp/m/n/12 Nevertheless, Bayesian sta-tis-ti-cal anal-y-sis has been cho-sen over the
+Underfull \hbox (badness 3482) in paragraph at lines 369--370
+[]\OT1/jkp/m/n/12 Regardless the con-tri-bu-tion to-wards dis-sect-ing causal-ity, tra-di-tional
  []
 
-[37]
 
-LaTeX Warning: Citation 'Kichaev2015' on page 38 undefined on input line 356.
-
-
-LaTeX Warning: Citation 'Kichaev2015' on page 38 undefined on input line 356.
+Underfull \hbox (badness 2452) in paragraph at lines 369--370
+\OT1/jkp/m/n/12 Bayesian fine-mapping mod-els as-sume only one causal SNP driv-ing the
+ []
 
 
-LaTeX Warning: Citation 'Farh2015' on page 38 undefined on input line 356.
+Underfull \hbox (badness 1199) in paragraph at lines 369--370
+\OT1/jkp/m/n/12 mapping out-per-forms the step-wide Bayesian ap-proached by avoid-ing the
+ []
+
+[36]
+
+LaTeX Warning: Citation 'Kichaev2015' on page 37 undefined on input line 371.
 
 
-LaTeX Warning: Citation 'Pickrell2014' on page 38 undefined on input line 356.
+LaTeX Warning: Citation 'Kichaev2015' on page 37 undefined on input line 371.
 
 
-LaTeX Warning: Citation 'Kichaev2015' on page 38 undefined on input line 356.
+LaTeX Warning: Citation 'Farh2015' on page 37 undefined on input line 371.
 
-[38]
-Underfull \hbox (badness 4805) in paragraph at lines 362--362
+
+LaTeX Warning: Citation 'Pickrell2014' on page 37 undefined on input line 371.
+
+
+LaTeX Warning: Citation 'Kichaev2015' on page 37 undefined on input line 371.
+
+
+Underfull \hbox (badness 4805) in paragraph at lines 379--379
 |[]\OT1/jkp/b/n/14.4 Understanding the epi-ge-netic land-scape in com-plex
  []
 
 
-LaTeX Warning: Citation 'Feil2012' on page 39 undefined on input line 364.
+LaTeX Warning: Citation 'Feil2012' on page 37 undefined on input line 380.
 
 
-LaTeX Warning: Citation 'Wolff1998' on page 39 undefined on input line 364.
+LaTeX Warning: Citation 'Wolff1998' on page 37 undefined on input line 380.
 
 
-LaTeX Warning: Citation 'Pogribny2009' on page 39 undefined on input line 364.
+LaTeX Warning: Citation 'Pogribny2009' on page 37 undefined on input line 380.
 
 
-LaTeX Warning: Citation 'Kaminsky2009' on page 39 undefined on input line 364.
+LaTeX Warning: Citation 'Kaminsky2009' on page 37 undefined on input line 380.
+
+
+Underfull \hbox (badness 2922) in paragraph at lines 380--381
+[]\OT1/jkp/m/n/12 Epigenetic mod-i-fi-ca-tions, pre-vi-ously men-tioned, con-sist of her-i-ta-ble
+ []
+
+
+Overfull \hbox (13.18752pt too wide) in paragraph at lines 380--381
+\OT1/jkp/m/n/12 changes in gene func-tion in-de-pen-dent of mu-ta-tions in the DNA sequence([]).
+ []
+
+[37]
+
+LaTeX Warning: Citation 'Yosef2016' on page 38 undefined on input line 382.
+
+
+LaTeX Warning: Citation 'Nica2011' on page 38 undefined on input line 382.
+
+
+LaTeX Warning: Citation 'Naranbhai2015' on page 38 undefined on input line 382.
+
+
+LaTeX Warning: Citation 'Kasela2017' on page 38 undefined on input line 382.
 
 ! Undefined control sequence.
-l.367 ...ifications and DNA methylation \parencyte
+l.384 ...ifications and DNA methylation \parencyte
                                                   {Trynka2013,Trynka2013b,Gu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2122,392 +2189,344 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'Gusev2014' on page 39 undefined on input line 367.
+LaTeX Warning: Citation 'ENCODE2012' on page 38 undefined on input line 386.
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 367--368
-\OT1/jkp/m/n/12 epi-ge-netic marks, such DHS, hi-s-tone mod-i-fi-ca-tions and DNA methy-la-tion
+LaTeX Warning: Citation 'Adams2012' on page 38 undefined on input line 386.
+
+
+LaTeX Warning: Citation 'Ernst2010' on page 38 undefined on input line 388.
+
+
+LaTeX Warning: Citation 'Hoffman2012' on page 38 undefined on input line 388.
+
+
+LaTeX Warning: Citation 'Kundaje2015' on page 38 undefined on input line 388.
+
+
+Underfull \hbox (badness 4168) in paragraph at lines 382--389
+[]\OT1/jkp/m/n/12 The plas-tic-ity of the epi-ge-netic land-scape is de-ter-mi-nant for cell
  []
 
 
-LaTeX Warning: Citation 'Yosef2016' on page 39 undefined on input line 370.
+Underfull \hbox (badness 1635) in paragraph at lines 382--389
+\OT1/jkp/m/n/12 and its cell type spe-cific ef-fect has been demon-strated in eQTL stud-ies,
+ []
 
 
-LaTeX Warning: Citation 'Nica2011' on page 39 undefined on input line 370.
+Underfull \hbox (badness 2582) in paragraph at lines 382--389
+\OT1/jkp/m/n/12 prov-ing that be-tween 50 to 90% of eQTLs are cell type and stim-u-lus
+ []
 
 
-LaTeX Warning: Citation 'Naranbhai2015' on page 39 undefined on input line 370.
+Underfull \hbox (badness 2401) in paragraph at lines 382--389
+\OT1/jkp/m/n/12 GWAS vari-ants have con-sis-tently shown en-rich-ment for DNA reg-u-la-tory
+ []
+
+[38]
+
+LaTeX Warning: Citation 'Cusanovich2015' on page 39 undefined on input line 391.
 
 
-LaTeX Warning: Citation 'Kasela2017' on page 39 undefined on input line 370.
+LaTeX Warning: Citation 'Rotem2015' on page 39 undefined on input line 391.
 
 
-LaTeX Warning: Citation 'Brown2013' on page 39 undefined on input line 370.
+LaTeX Warning: Citation 'Nagano2013' on page 39 undefined on input line 391.
 
 
-Underfull \hbox (badness 4168) in paragraph at lines 370--371
-[]\OT1/jkp/m/n/12 The plas-tic-ity of the epi-ge-netic land-scape is de-ter-mi-nant for cell
+LaTeX Warning: Citation 'Smallwood2014' on page 39 undefined on input line 391.
+
+
+Underfull \hbox (badness 4765) in paragraph at lines 391--392
+[]\OT1/jkp/m/n/12 The lat-est method-olog-i-cal ad-vances in the field are en-abling the
+ []
+
+
+LaTeX Warning: Citation 'Qu2015' on page 39 undefined on input line 397.
+
+
+LaTeX Warning: Citation 'Corces2016' on page 39 undefined on input line 397.
+
+
+LaTeX Warning: Citation 'Liu2013. Add other ATAC' on page 39 undefined on input line 397.
+
+
+LaTeX Warning: Citation 'Spreafico2016' on page 39 undefined on input line 397.
+
+
+LaTeX Warning: Citation 'Glossop2017' on page 39 undefined on input line 397.
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 397--398
+[]\OT1/jkp/m/n/12 Since this epi-ge-netic tech-ni-cal rev-o-lu-tions started, sys-tem-atic stud-ies
  []
 
 [39]
 
-LaTeX Warning: Citation 'ENCODE2012' on page 40 undefined on input line 374.
+LaTeX Warning: Citation 'Luger1997' on page 40 undefined on input line 401.
 
 
-LaTeX Warning: Citation 'Adams2012' on page 40 undefined on input line 374.
+LaTeX Warning: Citation 'Polach2000' on page 40 undefined on input line 401.
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 374--375
-\OT1/jkp/m/n/12 DHS, hi-s-tone mod-i-fi-ca-tions, TF bind-ing and DNA methy-la-tion have been
- []
+LaTeX Warning: Citation 'Pepenella2014' on page 40 undefined on input line 401.
 
 
-LaTeX Warning: Citation 'Ernst2010' on page 40 undefined on input line 377.
+LaTeX Warning: Citation 'Cosma1999' on page 40 undefined on input line 401.
 
 
-LaTeX Warning: Citation 'Hoffman2012' on page 40 undefined on input line 377.
+LaTeX Warning: Citation 'ref from chomatin segmentation' on page 40 undefined on input line 401.
 
 
-LaTeX Warning: Citation 'Kundaje2015' on page 40 undefined on input line 377.
-
-
-Underfull \hbox (badness 1748) in paragraph at lines 377--378
-[]\OT1/jkp/m/n/12 The in-te-gra-tion of those datasets in-clud-ing ,mul-ti-ple hi-s-tone marks,
- []
-
-
-Underfull \hbox (badness 1009) in paragraph at lines 377--378
-\OT1/jkp/m/n/12 tran-scrip-tion fac-tor bind-ing and DHS tracks has pro-vided a more pre-cise
- []
-
-[40]
-
-LaTeX Warning: Citation 'Buenrostro2013' on page 41 undefined on input line 381.
-
-
-LaTeX Warning: Citation 'Schmidl2015' on page 41 undefined on input line 381.
-
-
-LaTeX Warning: Citation 'Oudelaar2017' on page 41 undefined on input line 381.
-
-
-LaTeX Warning: Citation 'Cusanovich2015' on page 41 undefined on input line 381.
-
-
-LaTeX Warning: Citation 'Rotem2015' on page 41 undefined on input line 381.
-
-
-LaTeX Warning: Citation 'Nagano2013' on page 41 undefined on input line 381.
-
-
-LaTeX Warning: Citation 'Smallwood2014' on page 41 undefined on input line 381.
-
-
-Underfull \hbox (badness 1067) in paragraph at lines 381--382
-[]\OT1/jkp/m/n/12 The lat-est method-olog-i-cal ad-vances in the field are en-abling a more
- []
-
-
-Underfull \hbox (badness 2189) in paragraph at lines 381--382
-\OT1/jkp/m/n/12 chro-matin ac-ces-si-bil-ity, hi-s-tone mod-i-fi-ca-tions, TF bind-ing and chro-matin
- []
-
-
-Underfull \hbox (badness 1072) in paragraph at lines 381--382
-\OT1/jkp/m/n/12 the reg-u-la-tory land-scape in a large num-ber of in-di-vid-u-als and cell types
- []
-
-
-Underfull \hbox (badness 3312) in paragraph at lines 381--382
-\OT1/jkp/m/n/12 help to un-der-stand cell-to-cell vari-abil-ity ([]; [];
- []
-
-
-LaTeX Warning: Citation 'Qu2015' on page 41 undefined on input line 383.
-
-
-LaTeX Warning: Citation 'Corces2016' on page 41 undefined on input line 383.
-
-
-LaTeX Warning: Citation 'Liu2013. Add other ATAC' on page 41 undefined on input line 383.
-
-
-LaTeX Warning: Citation 'Spreafico2016' on page 41 undefined on input line 383.
-
-
-LaTeX Warning: Citation 'Glossop2017' on page 41 undefined on input line 383.
-
-
-Underfull \hbox (badness 1430) in paragraph at lines 383--384
-[]\OT1/jkp/m/n/12 Since this epi-ge-netic tech-ni-cal rev-o-lu-tions started, sys-tem-atic stud-ies
- []
-
-[41]
-
-LaTeX Warning: Citation 'Luger1997' on page 42 undefined on input line 387.
-
-
-LaTeX Warning: Citation 'Polach2000' on page 42 undefined on input line 387.
-
-
-LaTeX Warning: Citation 'Pepenella2014' on page 42 undefined on input line 387.
-
-
-LaTeX Warning: Citation 'Cosma1999' on page 42 undefined on input line 387.
-
-
-LaTeX Warning: Citation 'ref from chomatin segmentation' on page 42 undefined on input line 387.
-
-
-Underfull \hbox (badness 3536) in paragraph at lines 387--388
+Underfull \hbox (badness 3536) in paragraph at lines 401--402
 \OT1/jkp/m/n/12 struc-ture is also in-flu-enced by adenosin triphos-phate (ATP)-remodelling
  []
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 387--388
+Underfull \hbox (badness 1142) in paragraph at lines 401--402
 \OT1/jkp/m/n/12 com-plexes that fa-cil-i-tate slid-ing of in-di-vid-ual nu-cle-o-somes to neigh-bor-ing
  []
 
 
-LaTeX Warning: Citation 'ENCODE2007' on page 42 undefined on input line 394.
+LaTeX Warning: Citation 'ENCODE2007' on page 40 undefined on input line 408.
 
 
-LaTeX Warning: Citation 'John2013' on page 42 undefined on input line 394.
+LaTeX Warning: Citation 'John2013' on page 40 undefined on input line 408.
 
 
-LaTeX Warning: Citation 'Hesselberth2009' on page 42 undefined on input line 394.
+LaTeX Warning: Citation 'Hesselberth2009' on page 40 undefined on input line 408.
 
 
-LaTeX Warning: Citation 'Boyle2010' on page 42 undefined on input line 394.
+LaTeX Warning: Citation 'Boyle2010' on page 40 undefined on input line 408.
 
 
-LaTeX Warning: Citation 'Giresi2006' on page 42 undefined on input line 394.
+LaTeX Warning: Citation 'Giresi2006' on page 40 undefined on input line 408.
 
 
-LaTeX Warning: Citation 'ENCODE2007' on page 42 undefined on input line 394.
+LaTeX Warning: Citation 'ENCODE2007' on page 40 undefined on input line 408.
 
 
-LaTeX Warning: Citation 'Buck2014' on page 42 undefined on input line 394.
+LaTeX Warning: Citation 'Buck2014' on page 40 undefined on input line 408.
 
 
-LaTeX Warning: Citation 'Gaulton2010' on page 42 undefined on input line 394.
+LaTeX Warning: Citation 'Gaulton2010' on page 40 undefined on input line 408.
 
 
-LaTeX Warning: Citation 'Axel1975' on page 42 undefined on input line 394.
+LaTeX Warning: Citation 'Axel1975' on page 40 undefined on input line 408.
 
 
-LaTeX Warning: Citation 'Ponts2010' on page 42 undefined on input line 394.
+LaTeX Warning: Citation 'Ponts2010' on page 40 undefined on input line 408.
 
-[42]
+[40]
 
-LaTeX Warning: Citation 'Buenrostro2013' on page 43 undefined on input line 396.
-
-
-LaTeX Warning: Citation 'Scharer2016' on page 43 undefined on input line 396.
+LaTeX Warning: Citation 'Buenrostro2013' on page 41 undefined on input line 410.
 
 
-LaTeX Warning: Citation 'Qu2015' on page 43 undefined on input line 396.
+LaTeX Warning: Citation 'Scharer2016' on page 41 undefined on input line 410.
 
 
-LaTeX Warning: Citation 'Qu2017' on page 43 undefined on input line 396.
+LaTeX Warning: Citation 'Qu2015' on page 41 undefined on input line 410.
 
 
-LaTeX Warning: Citation 'Corces2016' on page 43 undefined on input line 396.
+LaTeX Warning: Citation 'Qu2017' on page 41 undefined on input line 410.
 
 
-LaTeX Warning: Citation 'Sos2016' on page 43 undefined on input line 396.
+LaTeX Warning: Citation 'Corces2016' on page 41 undefined on input line 410.
 
 
-LaTeX Warning: Citation 'Corces2017' on page 43 undefined on input line 396.
-
-[43]
-
-LaTeX Warning: Citation 'Jenuwein2001' on page 44 undefined on input line 401.
+LaTeX Warning: Citation 'Sos2016' on page 41 undefined on input line 410.
 
 
-LaTeX Warning: Citation 'Bannister2011' on page 44 undefined on input line 401.
+LaTeX Warning: Citation 'Corces2017' on page 41 undefined on input line 410.
+
+[41]
+
+LaTeX Warning: Citation 'Jenuwein2001' on page 42 undefined on input line 415.
 
 
-LaTeX Warning: Citation 'Bayarsaihan2011' on page 44 undefined on input line 401.
+LaTeX Warning: Citation 'Bannister2011' on page 42 undefined on input line 415.
 
 
-LaTeX Warning: Citation 'Bannister2011' on page 44 undefined on input line 401.
+LaTeX Warning: Citation 'Bayarsaihan2011' on page 42 undefined on input line 415.
 
 
-LaTeX Warning: Citation 'Shi2006' on page 44 undefined on input line 401.
+LaTeX Warning: Citation 'Bannister2011' on page 42 undefined on input line 415.
 
 
-LaTeX Warning: Citation 'Nelson2006' on page 44 undefined on input line 401.
+LaTeX Warning: Citation 'Shi2006' on page 42 undefined on input line 415.
 
 
-Underfull \hbox (badness 3758) in paragraph at lines 401--402
+LaTeX Warning: Citation 'Nelson2006' on page 42 undefined on input line 415.
+
+
+Underfull \hbox (badness 3758) in paragraph at lines 415--416
 \OT1/jkp/m/n/12 are es-sen-tial mech-a-nisms to fully un-der-stand tran-scrip-tional reg-u-la-tion.
  []
 
 
-Underfull \hbox (badness 1303) in paragraph at lines 401--402
+Underfull \hbox (badness 1303) in paragraph at lines 415--416
 \OT1/jkp/m/n/12 nu-cle-o-somes and the affin-ity with DNA-binding pro-teins ([]).
  []
 
 
-Underfull \hbox (badness 1867) in paragraph at lines 401--402
+Underfull \hbox (badness 1867) in paragraph at lines 415--416
 \OT1/jkp/m/n/12 (HMTs and HDMs), which ac-tiv-ity and re-cruit-ment gets af-fected by the
  []
 
+[42]
 
-LaTeX Warning: Citation 'Hansen2008' on page 44 undefined on input line 403.
-
-
-LaTeX Warning: Citation 'Bannister2001' on page 44 undefined on input line 403.
+LaTeX Warning: Citation 'Hansen2008' on page 43 undefined on input line 417.
 
 
-LaTeX Warning: Citation 'Heintzman2007' on page 44 undefined on input line 403.
+LaTeX Warning: Citation 'Bannister2001' on page 43 undefined on input line 417.
 
 
-LaTeX Warning: Citation 'Hon2009' on page 44 undefined on input line 403.
+LaTeX Warning: Citation 'Heintzman2007' on page 43 undefined on input line 417.
 
 
-LaTeX Warning: Citation 'Hon2009' on page 44 undefined on input line 403.
+LaTeX Warning: Citation 'Hon2009' on page 43 undefined on input line 417.
 
 
-LaTeX Warning: Citation 'Creyghton2010' on page 44 undefined on input line 403.
+LaTeX Warning: Citation 'Hon2009' on page 43 undefined on input line 417.
 
 
-LaTeX Warning: Citation 'Hansen2008' on page 44 undefined on input line 403.
+LaTeX Warning: Citation 'Creyghton2010' on page 43 undefined on input line 417.
 
 
-LaTeX Warning: Citation 'Bannister2001' on page 44 undefined on input line 403.
+LaTeX Warning: Citation 'Hansen2008' on page 43 undefined on input line 417.
 
 
-LaTeX Warning: Citation 'Pan2007' on page 44 undefined on input line 403.
+LaTeX Warning: Citation 'Bannister2001' on page 43 undefined on input line 417.
 
 
-Underfull \hbox (badness 2556) in paragraph at lines 403--404
+LaTeX Warning: Citation 'Pan2007' on page 43 undefined on input line 417.
+
+
+Underfull \hbox (badness 2556) in paragraph at lines 417--418
 []\OT1/jkp/m/n/12 Acetylation of hi-s-tones in-creases chro-matin ac-ces-si-bil-ity due to the
  []
 
 
-Underfull \hbox (badness 2261) in paragraph at lines 403--404
+Underfull \hbox (badness 2261) in paragraph at lines 417--418
 \OT1/jkp/m/n/12 ac-tive tran-scrip-tion. Con-versely, hi-s-tones methy-la-tion is found in both
  []
 
 
-Underfull \hbox (badness 4181) in paragraph at lines 403--404
+Underfull \hbox (badness 4181) in paragraph at lines 417--418
 \OT1/jkp/m/n/12 ac-tive and re-pressed chro-matin. Over-all, the com-bi-na-tion of hi-s-tone
  []
 
 
-Underfull \hbox (badness 1014) in paragraph at lines 403--404
+Underfull \hbox (badness 1014) in paragraph at lines 417--418
 \OT1/jkp/m/n/12 for H3K27me3 and the poly-comb re-pres-sor com-plexes, whilst con-sti-tu-tive
  []
 
 
-Underfull \hbox (badness 1325) in paragraph at lines 403--404
+Underfull \hbox (badness 1325) in paragraph at lines 417--418
 \OT1/jkp/m/n/12 of H3K27ac in-di-cates ac-tive gene reg-u-la-tion at pro-mot-ers and en-hancers,
  []
 
 
-Underfull \hbox (badness 1253) in paragraph at lines 403--404
+Underfull \hbox (badness 1253) in paragraph at lines 417--418
 \OT1/jkp/m/n/12 com-bi-na-tions of hi-s-tone marks on the same ge-nomic re-gion still re-mains
  []
 
-[44]
 
-LaTeX Warning: Citation 'Vierstra2014' on page 45 undefined on input line 406.
-
-
-LaTeX Warning: Citation 'Bell2000' on page 45 undefined on input line 406.
+LaTeX Warning: Citation 'Vierstra2014' on page 43 undefined on input line 420.
 
 
-Underfull \hbox (badness 5460) in paragraph at lines 405--408
+LaTeX Warning: Citation 'Bell2000' on page 43 undefined on input line 420.
+
+
+Underfull \hbox (badness 5460) in paragraph at lines 419--422
 []\OT1/jkp/m/n/12 Regulation of tran-scrip-tion by TF is con-ducted through dif-fer-ent
  []
 
-[45]
+[43]
 
-LaTeX Warning: Citation 'Solomon1988' on page 46 undefined on input line 412.
-
-
-LaTeX Warning: Citation 'Barski2007' on page 46 undefined on input line 412.
+LaTeX Warning: Citation 'Solomon1988' on page 44 undefined on input line 426.
 
 
-LaTeX Warning: Citation 'Johnson2007' on page 46 undefined on input line 412.
+LaTeX Warning: Citation 'Barski2007' on page 44 undefined on input line 426.
 
 
-LaTeX Warning: Citation 'ENCODE2012' on page 46 undefined on input line 412.
+LaTeX Warning: Citation 'Johnson2007' on page 44 undefined on input line 426.
 
 
-LaTeX Warning: Citation 'Adams2012' on page 46 undefined on input line 412.
+LaTeX Warning: Citation 'ENCODE2012' on page 44 undefined on input line 426.
 
 
-LaTeX Warning: Citation 'Schmidl2015' on page 46 undefined on input line 412.
+LaTeX Warning: Citation 'Adams2012' on page 44 undefined on input line 426.
 
 
-LaTeX Warning: Citation 'Rendeiro2015' on page 46 undefined on input line 412.
+LaTeX Warning: Citation 'Schmidl2015' on page 44 undefined on input line 426.
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 412--413
+LaTeX Warning: Citation 'Rendeiro2015' on page 44 undefined on input line 426.
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 426--427
 \OT1/jkp/m/n/12 to pre-cisely lo-cate hi-s-tone mod-i-fi-ca-tion and TF bind-ing into the genome.
  []
 
 
-Underfull \hbox (badness 1033) in paragraph at lines 412--413
+Underfull \hbox (badness 1033) in paragraph at lines 426--427
 \OT1/jkp/m/n/12 protein com-plexes us-ing the ap-pro-pri-ate Ab, the cross-linking is re-versed
  []
 
 
-Underfull \hbox (badness 1502) in paragraph at lines 412--413
+Underfull \hbox (badness 1502) in paragraph at lines 426--427
 \OT1/jkp/m/n/12 lim-it-ing its ap-pli-ca-tion to the avail-able bi-o-log-i-cal ma-te-rial. In or-der to
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 412--413
+Underfull \hbox (badness 1215) in paragraph at lines 426--427
 \OT1/jkp/m/n/12 over-come this lim-i-ta-tion, a wide range of pro-to-cols have been de-vel-oped
  []
 
 
-Underfull \hbox (badness 1389) in paragraph at lines 412--413
+Underfull \hbox (badness 1389) in paragraph at lines 426--427
 \OT1/jkp/m/n/12 of which ChIP-men-ta-tion (ChIPm) rep-re-sents the sim-plest and more cost-
  []
 
 
-Underfull \hbox (badness 3942) in paragraph at lines 412--413
+Underfull \hbox (badness 3942) in paragraph at lines 426--427
 \OT1/jkp/m/n/12 subtype-specific epigenome sig-na-tures in chronic lym-pho-cytic leukaemia
  []
 
-[46]
+[44]
 
-LaTeX Warning: Citation 'Sellars2015' on page 47 undefined on input line 417.
-
-
-LaTeX Warning: Citation 'Lai2013' on page 47 undefined on input line 417.
+LaTeX Warning: Citation 'Sellars2015' on page 45 undefined on input line 431.
 
 
-LaTeX Warning: Citation 'Herman2003' on page 47 undefined on input line 417.
+LaTeX Warning: Citation 'Lai2013' on page 45 undefined on input line 431.
 
 
-LaTeX Warning: Citation 'Rottach2009' on page 47 undefined on input line 417.
+LaTeX Warning: Citation 'Herman2003' on page 45 undefined on input line 431.
 
 
-LaTeX Warning: Citation 'Lei2009' on page 47 undefined on input line 418.
+LaTeX Warning: Citation 'Rottach2009' on page 45 undefined on input line 431.
 
 
-LaTeX Warning: Citation 'Liu2013' on page 47 undefined on input line 418.
+LaTeX Warning: Citation 'Lei2009' on page 45 undefined on input line 432.
 
 
-LaTeX Warning: Citation 'Zhang2010' on page 47 undefined on input line 418.
+LaTeX Warning: Citation 'Liu2013' on page 45 undefined on input line 432.
 
 
-LaTeX Warning: Citation 'Kim1996' on page 47 undefined on input line 418.
+LaTeX Warning: Citation 'Zhang2010' on page 45 undefined on input line 432.
 
 
-LaTeX Warning: Citation 'Frommer1992' on page 47 undefined on input line 419.
+LaTeX Warning: Citation 'Kim1996' on page 45 undefined on input line 432.
 
 
-LaTeX Warning: Citation 'Miura2014' on page 47 undefined on input line 419.
+LaTeX Warning: Citation 'Frommer1992' on page 45 undefined on input line 433.
 
 
-LaTeX Warning: Citation 'Dedeurwaerder2013' on page 47 undefined on input line 419.
+LaTeX Warning: Citation 'Miura2014' on page 45 undefined on input line 433.
+
+
+LaTeX Warning: Citation 'Dedeurwaerder2013' on page 45 undefined on input line 433.
 
 Missing character: There is no ‚ in font jkpmn7t!
 Missing character: There is no Ä in font jkpmn7t!
@@ -2516,73 +2535,74 @@ Missing character: There is no ‚ in font jkpmn7t!
 Missing character: There is no Ä in font jkpmn7t!
 Missing character: There is no ≤ in font jkpmn7t!
 
-Underfull \hbox (badness 1024) in paragraph at lines 417--420
+Underfull \hbox (badness 1024) in paragraph at lines 431--434
 []\OT1/jkp/m/n/12 ). DNA methy-la-tion in-volves the trans-fer-ence of a methyl group
  []
 
 
-Underfull \hbox (badness 1147) in paragraph at lines 417--420
+Underfull \hbox (badness 1147) in paragraph at lines 431--434
 \OT1/jkp/m/n/12 from the S-adenosyl-L-methionine (SAM) to the 5' car-bon in the cy-to-sine
  []
 
+[45]
 
-LaTeX Warning: Citation 'Nora2017' on page 47 undefined on input line 424.
-
-
-LaTeX Warning: Citation 'Smith2016' on page 47 undefined on input line 424.
+LaTeX Warning: Citation 'Nora2017' on page 46 undefined on input line 438.
 
 
-LaTeX Warning: Citation 'Davies2017' on page 47 undefined on input line 424.
+LaTeX Warning: Citation 'Smith2016' on page 46 undefined on input line 438.
 
 
-LaTeX Warning: Citation 'Davies2016' on page 47 undefined on input line 424.
+LaTeX Warning: Citation 'Davies2017' on page 46 undefined on input line 438.
 
 
-LaTeX Warning: Citation 'Oudelaar2017' on page 47 undefined on input line 424.
+LaTeX Warning: Citation 'Davies2016' on page 46 undefined on input line 438.
 
 
-LaTeX Warning: Citation 'Javierre2016' on page 47 undefined on input line 424.
+LaTeX Warning: Citation 'Oudelaar2017' on page 46 undefined on input line 438.
 
 
-LaTeX Warning: Citation 'Mumbach2016' on page 47 undefined on input line 424.
+LaTeX Warning: Citation 'Javierre2016' on page 46 undefined on input line 438.
 
 
-LaTeX Warning: Citation 'Mumbach2017' on page 47 undefined on input line 424.
+LaTeX Warning: Citation 'Mumbach2016' on page 46 undefined on input line 438.
 
 
-Underfull \hbox (badness 1776) in paragraph at lines 423--425
+LaTeX Warning: Citation 'Mumbach2017' on page 46 undefined on input line 438.
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 437--439
 \OT1/jkp/m/n/12 have been de-vel-oped, show-ing dif-fer-ences in per-for-mance and suit-abil-ity
  []
 
 
-Underfull \hbox (badness 1097) in paragraph at lines 423--425
+Underfull \hbox (badness 1097) in paragraph at lines 437--439
 \OT1/jkp/m/n/12 com-pre-hen-sive immune-specific maps of promoter-enhancer in-ter-ac-tions in
  []
 
-[47] [48]
+[46]
 
-LaTeX Warning: Citation 'MIao2013' on page 49 undefined on input line 428.
-
-
-LaTeX Warning: Citation 'Junta2009' on page 49 undefined on input line 428.
+LaTeX Warning: Citation 'MIao2013' on page 47 undefined on input line 442.
 
 
-LaTeX Warning: Citation 'Baechler2003' on page 49 undefined on input line 428.
+LaTeX Warning: Citation 'Junta2009' on page 47 undefined on input line 442.
 
 
-LaTeX Warning: Citation 'Assassi2010' on page 49 undefined on input line 428.
+LaTeX Warning: Citation 'Baechler2003' on page 47 undefined on input line 442.
 
 
-LaTeX Warning: Citation 'Batliwalla2005' on page 49 undefined on input line 428.
+LaTeX Warning: Citation 'Assassi2010' on page 47 undefined on input line 442.
 
 
-LaTeX Warning: Citation 'Katschke2001' on page 49 undefined on input line 428.
+LaTeX Warning: Citation 'Batliwalla2005' on page 47 undefined on input line 442.
 
 
-LaTeX Warning: Citation 'Dozmorov2015' on page 49 undefined on input line 428.
+LaTeX Warning: Citation 'Katschke2001' on page 47 undefined on input line 442.
+
+
+LaTeX Warning: Citation 'Dozmorov2015' on page 47 undefined on input line 442.
 
 ! Undefined control sequence.
-l.429 ...eles in many complex diseases \references
+l.443 ...eles in many complex diseases \references
                                                   {Londsdale2013,Fagny2017}....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2591,164 +2611,164 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'Peters2016' on page 49 undefined on input line 429.
+LaTeX Warning: Citation 'Peters2016' on page 47 undefined on input line 443.
 
 
-Underfull \hbox (badness 2205) in paragraph at lines 428--431
+Underfull \hbox (badness 2205) in paragraph at lines 442--445
 \OT1/jkp/m/n/12 in com-plex dis-eases has yielded to ex-ten-sive com-par-i-son of case-control
  []
 
 
-Underfull \hbox (badness 1194) in paragraph at lines 428--431
+Underfull \hbox (badness 1194) in paragraph at lines 442--445
 \OT1/jkp/m/n/12 due to the lack of patho-phys-i-o-log-i-cal un-der-stand-ing or the dif-fi-cul-ties in
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 428--431
+Underfull \hbox (badness 2158) in paragraph at lines 442--445
 \OT1/jkp/m/n/12 path-ways and bio-chem-i-cal func-tions in RA, UC, SLE, AS, pso-ri-a-sis and
  []
 
 
-Underfull \hbox (badness 2042) in paragraph at lines 428--431
+Underfull \hbox (badness 2042) in paragraph at lines 442--445
 \OT1/jkp/m/n/12 PsA, amongst oth-ers ([]; []; []; [];
  []
 
 
-Underfull \hbox (badness 1472) in paragraph at lines 428--431
+Underfull \hbox (badness 1472) in paragraph at lines 442--445
 []\OT1/jkp/m/n/12 ). In ad-di-tion to this some more cell and tis-sue spe-cific
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 428--431
+Underfull \hbox (badness 1264) in paragraph at lines 442--445
 \OT1/jkp/m/n/12 of GWAS vari-ants with non-coding re-gions po-ten-tially dys-reg-u-lat-ing gene
  []
 
+[47]
 
 LaTeX Warning: Citation 'Identification and analysis of functional elements in 1\% of the human genome by the ENCODE pil
-ot' on page 49 undefined on input line 433.
+ot' on page 48 undefined on input line 447.
 
 
-LaTeX Warning: Citation 'Lewis2005' on page 49 undefined on input line 433.
+LaTeX Warning: Citation 'Lewis2005' on page 48 undefined on input line 447.
 
 
-LaTeX Warning: Citation 'Friedman2008' on page 49 undefined on input line 433.
+LaTeX Warning: Citation 'Friedman2008' on page 48 undefined on input line 447.
 
 
-LaTeX Warning: Citation 'Lee2002' on page 49 undefined on input line 433.
+LaTeX Warning: Citation 'Lee2002' on page 48 undefined on input line 447.
 
 
-LaTeX Warning: Citation 'Ameres2010' on page 49 undefined on input line 433.
+LaTeX Warning: Citation 'Ameres2010' on page 48 undefined on input line 447.
 
 
-LaTeX Warning: Citation 'Braun2011' on page 49 undefined on input line 433.
+LaTeX Warning: Citation 'Braun2011' on page 48 undefined on input line 447.
 
 
-LaTeX Warning: Citation 'Petersen2006' on page 49 undefined on input line 433.
+LaTeX Warning: Citation 'Petersen2006' on page 48 undefined on input line 447.
 
 
-LaTeX Warning: Citation 'Griffiths-Jones2004' on page 49 undefined on input line 433.
+LaTeX Warning: Citation 'Griffiths-Jones2004' on page 48 undefined on input line 447.
 
 
-LaTeX Warning: Citation 'Lerman2011' on page 49 undefined on input line 433.
+LaTeX Warning: Citation 'Lerman2011' on page 48 undefined on input line 447.
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 433--434
+Underfull \hbox (badness 2285) in paragraph at lines 447--448
 []\OT1/jkp/m/n/12 In the last few years, the field of tran-scrip-tion has ex-pe-ri-enced a
  []
 
 
-Overfull \hbox (144.29991pt too wide) in paragraph at lines 433--434
+Overfull \hbox (144.29991pt too wide) in paragraph at lines 447--448
 \OT1/jkp/m/n/12 ([]).
  []
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 433--434
+Underfull \hbox (badness 1038) in paragraph at lines 447--448
 \OT1/jkp/m/n/12 re-gions of the genome that un-dergo pro-cess-ing into 21 to 24 nu-cleotides
  []
 
 
-Underfull \hbox (badness 1237) in paragraph at lines 433--434
+Underfull \hbox (badness 1237) in paragraph at lines 447--448
 \OT1/jkp/m/n/12 induced si-lenc-ing com-plex and mRNA degra-da-tion, mRNA desta-bil-i-sa-tion
  []
 
 
-Underfull \hbox (badness 3118) in paragraph at lines 433--434
+Underfull \hbox (badness 3118) in paragraph at lines 447--448
 \OT1/jkp/m/n/12 ef-forts have re-sulted into ex-per-i-men-tal char-ac-ter-i-sa-tion of a num-ber of
  []
 
-[49]
 
-LaTeX Warning: Citation 'Derrien2012' on page 50 undefined on input line 435.
-
-
-LaTeX Warning: Citation 'Rinn2012' on page 50 undefined on input line 435.
+LaTeX Warning: Citation 'Derrien2012' on page 48 undefined on input line 449.
 
 
-LaTeX Warning: Citation 'Fatica2014' on page 50 undefined on input line 435.
+LaTeX Warning: Citation 'Rinn2012' on page 48 undefined on input line 449.
 
 
-LaTeX Warning: Citation 'Pandei2008' on page 50 undefined on input line 435.
+LaTeX Warning: Citation 'Fatica2014' on page 48 undefined on input line 449.
 
 
-LaTeX Warning: Citation 'Faghihi2008' on page 50 undefined on input line 435.
+LaTeX Warning: Citation 'Pandei2008' on page 48 undefined on input line 449.
 
 
-LaTeX Warning: Citation 'Gong2011' on page 50 undefined on input line 435.
+LaTeX Warning: Citation 'Faghihi2008' on page 48 undefined on input line 449.
 
 
-LaTeX Warning: Citation 'Carrieri2012' on page 50 undefined on input line 435.
+LaTeX Warning: Citation 'Gong2011' on page 48 undefined on input line 449.
 
 
-LaTeX Warning: Citation 'Kino2010' on page 50 undefined on input line 435.
+LaTeX Warning: Citation 'Carrieri2012' on page 48 undefined on input line 449.
 
 
-LaTeX Warning: Citation 'Derrien2012' on page 50 undefined on input line 435.
+LaTeX Warning: Citation 'Kino2010' on page 48 undefined on input line 449.
 
 
-LaTeX Warning: Citation 'Pang2009' on page 50 undefined on input line 435.
+LaTeX Warning: Citation 'Derrien2012' on page 48 undefined on input line 449.
 
 
-LaTeX Warning: Citation 'Rossetto2009' on page 50 undefined on input line 435.
+LaTeX Warning: Citation 'Pang2009' on page 48 undefined on input line 449.
 
 
-LaTeX Warning: Citation 'M\"{u}ller2014' on page 50 undefined on input line 435.
+LaTeX Warning: Citation 'Rossetto2009' on page 48 undefined on input line 449.
 
 
-LaTeX Warning: Citation 'Shi2014' on page 50 undefined on input line 435.
+LaTeX Warning: Citation 'M\"{u}ller2014' on page 48 undefined on input line 449.
 
 
-LaTeX Warning: Citation 'Ahn2016' on page 50 undefined on input line 435.
+LaTeX Warning: Citation 'Shi2014' on page 48 undefined on input line 449.
 
 
-LaTeX Warning: Citation 'FANTOM2014' on page 50 undefined on input line 436.
+LaTeX Warning: Citation 'Ahn2016' on page 48 undefined on input line 449.
 
 
-LaTeX Warning: Citation 'De Santa2010' on page 50 undefined on input line 436.
+LaTeX Warning: Citation 'FANTOM2014' on page 48 undefined on input line 450.
 
 
-LaTeX Warning: Citation 'FANTOM2014' on page 50 undefined on input line 436.
+LaTeX Warning: Citation 'De Santa2010' on page 48 undefined on input line 450.
 
 
-LaTeX Warning: Citation 'Anderssen2014' on page 50 undefined on input line 436.
+LaTeX Warning: Citation 'FANTOM2014' on page 48 undefined on input line 450.
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 435--437
+LaTeX Warning: Citation 'Anderssen2014' on page 48 undefined on input line 450.
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 449--451
 \OT1/jkp/m/n/12 reg-u-late tran-scrip-tion through dif-fer-ent mech-a-nisms in-clud-ing guid-ance of
  []
 
 
-Underfull \hbox (badness 1521) in paragraph at lines 435--437
+Underfull \hbox (badness 1521) in paragraph at lines 449--451
 \OT1/jkp/m/n/12 splic-ing and poly-adenylation ([]). Al-though en-hancers have
  []
 
 
-Underfull \hbox (badness 2941) in paragraph at lines 435--437
+Underfull \hbox (badness 2941) in paragraph at lines 449--451
 \OT1/jkp/m/n/12 bi-directionally tran-scribed into eRNAs([]; []Kim et al. []2010[]).
  []
 
-[50]
+[48]
 ! Undefined control sequence.
-l.438 \subsubsetion
+l.452 \subsubsetion
                    {Methods to assay gene expression}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2757,10 +2777,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'Zhao2014' on page 51 undefined on input line 439.
+LaTeX Warning: Citation 'Zhao2014' on page 49 undefined on input line 453.
 
 ! Undefined control sequence.
-l.440 ...ot ROR$\gamma$, both coded by the \tetxit
+l.454 ...ot ROR$\gamma$, both coded by the \tetxit
                                                   {RORC} gene \parencite{Zha...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2769,19 +2789,19 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'Zhao2014' on page 51 undefined on input line 440.
+LaTeX Warning: Citation 'Zhao2014' on page 49 undefined on input line 454.
 
 
-LaTeX Warning: Citation 'Steijger2013' on page 51 undefined on input line 440.
+LaTeX Warning: Citation 'Steijger2013' on page 49 undefined on input line 454.
 
 
-LaTeX Warning: Citation 'Ding2017' on page 51 undefined on input line 440.
+LaTeX Warning: Citation 'Ding2017' on page 49 undefined on input line 454.
 
 
-LaTeX Warning: Citation 'Yan2002' on page 51 undefined on input line 440.
+LaTeX Warning: Citation 'Yan2002' on page 49 undefined on input line 454.
 
 ! Undefined control sequence.
-l.440 ...% of the genes with an associated \tetxit
+l.454 ...% of the genes with an associated \tetxit
                                                   {cis}-eQTLs \parencite{Pic...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2790,16 +2810,16 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'Pickrell2010' on page 51 undefined on input line 440.
+LaTeX Warning: Citation 'Pickrell2010' on page 49 undefined on input line 454.
 
 
-LaTeX Warning: Citation 'Tang2009' on page 51 undefined on input line 440.
+LaTeX Warning: Citation 'Tang2009' on page 49 undefined on input line 454.
 
 
-LaTeX Warning: Citation 'Jaitin2014' on page 51 undefined on input line 440.
+LaTeX Warning: Citation 'Jaitin2014' on page 49 undefined on input line 454.
 
 
-LaTeX Warning: Citation 'Villani2017' on page 51 undefined on input line 440.
+LaTeX Warning: Citation 'Villani2017' on page 49 undefined on input line 454.
 
 Missing character: There is no ‚ in font jkpmn7t!
 Missing character: There is no Ä in font jkpmn7t!
@@ -2808,116 +2828,116 @@ Missing character: There is no ‚ in font jkpmn7t!
 Missing character: There is no Ä in font jkpmn7t!
 Missing character: There is no ≤ in font jkpmn7t!
 
-LaTeX Warning: Citation 'Yamashita2011' on page 51 undefined on input line 442.
+LaTeX Warning: Citation 'Yamashita2011' on page 49 undefined on input line 456.
 
 
-LaTeX Warning: Citation 'FANTOM2014' on page 51 undefined on input line 442.
+LaTeX Warning: Citation 'FANTOM2014' on page 49 undefined on input line 456.
 
 
-LaTeX Warning: Citation 'Andersson2014' on page 51 undefined on input line 442.
+LaTeX Warning: Citation 'Andersson2014' on page 49 undefined on input line 456.
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 438--443
+Underfull \hbox (badness 1371) in paragraph at lines 452--457
 \OT1/jkp/m/n/12 the use of pre-designed com-ple-men-tary se-quence de-tec-tion probes of the
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 438--443
+Underfull \hbox (badness 2065) in paragraph at lines 452--457
 \OT1/jkp/m/n/12 ([]; []). In in-di-vid-u-als het-erozy-gous for ex-onic SNPs
  []
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 438--443
+Underfull \hbox (badness 1057) in paragraph at lines 452--457
 \OT1/jkp/m/n/12 ASE of tran-scripts, which pre-vi-ously re-quired ad-di-tional molec-u-lar as-says
  []
 
-[51] [52]
+[49] [50]
 
-LaTeX Warning: Citation 'Zhang2012' on page 53 undefined on input line 447.
-
-
-LaTeX Warning: Citation 'Shechner2015' on page 53 undefined on input line 449.
+LaTeX Warning: Citation 'Zhang2012' on page 51 undefined on input line 461.
 
 
-LaTeX Warning: Citation 'Fahr2014' on page 53 undefined on input line 449.
+LaTeX Warning: Citation 'Shechner2015' on page 51 undefined on input line 463.
+
+
+LaTeX Warning: Citation 'Fahr2014' on page 51 undefined on input line 463.
 
 Missing character: There is no ‚ in font jkpmn7t!
 Missing character: There is no Ä in font jkpmn7t!
 Missing character: There is no ô in font jkpmn7t!
 
-Underfull \hbox (badness 1226) in paragraph at lines 447--450
+Underfull \hbox (badness 1226) in paragraph at lines 461--464
 \OT1/jkp/m/n/12 one or many of the pre-vi-ously de-scribed mech-a-nisms re-spon-si-ble for the
  []
 
-[53]
+[51]
 
-LaTeX Warning: Citation 'Kent2002' on page 54 undefined on input line 461.
+LaTeX Warning: Citation 'Kent2002' on page 52 undefined on input line 475.
 
-[54]
+[52]
 
-LaTeX Warning: Citation 'Kanehisa2000' on page 55 undefined on input line 463.
-
-
-LaTeX Warning: Citation 'Tsoi2017' on page 55 undefined on input line 463.
+LaTeX Warning: Citation 'Kanehisa2000' on page 53 undefined on input line 477.
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 463--464
+LaTeX Warning: Citation 'Tsoi2017' on page 53 undefined on input line 477.
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 477--478
 \OT1/jkp/m/n/12 eQTLs, dif-fer-en-tially ex-pressed genes or dif-fer-en-tially epi-ge-netic mod-i-fied
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 463--464
+Underfull \hbox (badness 1052) in paragraph at lines 477--478
 \OT1/jkp/m/n/12 sig-nalling path-ways or func-tional el-e-ments. Path-way en-rich-ment anal-y-sis
  []
 
 
-Underfull \hbox (badness 1221) in paragraph at lines 463--464
+Underfull \hbox (badness 1221) in paragraph at lines 477--478
 \OT1/jkp/m/n/12 for ex-am-ple a set of dif-fer-en-tially ex-pressed genes; ad-di-tion-ally, path-way
  []
 
-[55]
+[53]
 
-LaTeX Warning: Citation 'Fang2016' on page 56 undefined on input line 465.
-
-
-LaTeX Warning: Citation 'Watanabe2017' on page 56 undefined on input line 465.
+LaTeX Warning: Citation 'Fang2016' on page 54 undefined on input line 479.
 
 
-Overfull \hbox (9.75954pt too wide) in paragraph at lines 465--466
+LaTeX Warning: Citation 'Watanabe2017' on page 54 undefined on input line 479.
+
+
+Overfull \hbox (9.75954pt too wide) in paragraph at lines 479--480
 \OT1/jkp/m/n/12 ge-netic as-so-ci-a-tions (FUMA) are par-tic-u-larly pow-er-ful ([]; []).
  []
 
 
-Overfull \hbox (1.5217pt too wide) in paragraph at lines 473--473
+Overfull \hbox (1.5217pt too wide) in paragraph at lines 487--487
 |[]\OT1/jkp/b/n/14.4 Approaches to es-tab-lish dis-ease mech-a-nisms and causal-ity
  []
 
 
-LaTeX Warning: Citation 'Niimi2002' on page 56 undefined on input line 475.
+LaTeX Warning: Citation 'Niimi2002' on page 54 undefined on input line 489.
 
 
-LaTeX Warning: Citation 'Vernes2007' on page 56 undefined on input line 475.
+LaTeX Warning: Citation 'Vernes2007' on page 54 undefined on input line 489.
 
 
-LaTeX Warning: Citation 'Kheradpour2013' on page 56 undefined on input line 475.
+LaTeX Warning: Citation 'Kheradpour2013' on page 54 undefined on input line 489.
 
 
-LaTeX Warning: Citation 'Lee2017' on page 56 undefined on input line 475.
+LaTeX Warning: Citation 'Lee2017' on page 54 undefined on input line 489.
 
 
-LaTeX Warning: Citation 'Ermann2012' on page 56 undefined on input line 475.
+LaTeX Warning: Citation 'Ermann2012' on page 54 undefined on input line 489.
 
 
-LaTeX Warning: Citation 'Cong2013' on page 56 undefined on input line 475.
+LaTeX Warning: Citation 'Cong2013' on page 54 undefined on input line 489.
 
 
-LaTeX Warning: Citation 'Ding2013' on page 56 undefined on input line 475.
+LaTeX Warning: Citation 'Ding2013' on page 54 undefined on input line 489.
 
 
-LaTeX Warning: Citation 'Forrest2017' on page 56 undefined on input line 475.
+LaTeX Warning: Citation 'Forrest2017' on page 54 undefined on input line 489.
 
 ! Undefined control sequence.
-l.475 ...omatin state at targeted loci \parenbcite
+l.489 ...omatin state at targeted loci \parenbcite
                                                   {Fulco2016}. Similarly, CR...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2926,52 +2946,672 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'Simeonov2017' on page 56 undefined on input line 475.
+LaTeX Warning: Citation 'Simeonov2017' on page 54 undefined on input line 489.
 
 
-LaTeX Warning: Citation 'Mumbach2017' on page 56 undefined on input line 475.
+LaTeX Warning: Citation 'Mumbach2017' on page 54 undefined on input line 489.
 
 
-Underfull \hbox (badness 8151) in paragraph at lines 474--476
+Underfull \hbox (badness 8151) in paragraph at lines 488--490
 []\OT1/jkp/m/n/12 Prioritisation of non-coding vari-ants by in-te-grat-ing fine-mapping,
  []
 
 
-Underfull \hbox (badness 2837) in paragraph at lines 474--476
+Underfull \hbox (badness 2837) in paragraph at lines 488--490
 \OT1/jkp/m/n/12 epi-ge-net-ics and ex-pres-sion data, as pre-vi-ously de-scribed, still does not
  []
 
 
-Underfull \hbox (badness 3343) in paragraph at lines 474--476
+Underfull \hbox (badness 3343) in paragraph at lines 488--490
 \OT1/jkp/m/n/12 un-equiv-o-cally ad-dresses the func-tional mech-a-nisms con-fer-ring them the
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 474--476
+Underfull \hbox (badness 1077) in paragraph at lines 488--490
 \OT1/jkp/m/n/12 func-tional val-i-da-tion stud-ies to test the pre-dicted ef-fect of the vari-ant in
  []
 
 
-Underfull \hbox (badness 1394) in paragraph at lines 474--476
+Underfull \hbox (badness 1394) in paragraph at lines 488--490
 \OT1/jkp/m/n/12 their tar-get genes by al-ter-ing chro-matin state at tar-geted loci Fulco2016.
  []
 
 
-Underfull \hbox (badness 1062) in paragraph at lines 474--476
+Underfull \hbox (badness 1062) in paragraph at lines 488--490
 \OT1/jkp/m/n/12 Sim-i-larly, CRISPR ac-ti-va-tion (CRISPRa) as-says have been used to iden-tify
  []
 
-[56] [57]) [58]
+[54] [55]) [56]
+\openout2 = `./Results1/Results1.aux'.
+
+ (Results1/Results1.tex
+Chapter 2.
+
+Overfull \hbox (17.14226pt too wide) in paragraph at lines 1--1
+\OT1/jkp/b/n/24.88 wide chro-matin ac-ces-si-bil-ity in clin-i-cal
+ []
+
+[57
+
+
+
+]
+Underfull \hbox (badness 1460) in paragraph at lines 27--27
+|[]\OT1/jkp/b/n/14.4 Establishment of an ATAC-seq data anal-y-sis pipeline
+ []
+
+
+LaTeX Warning: Citation 'Buenrostro2013' on page 58 undefined on input line 28.
+
+
+LaTeX Warning: Citation 'Buenrostro2013' on page 58 undefined on input line 29.
+
+[58]
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]|\OT1/jkp/m/n/12 Corces \OT1/jkp/m/it/12 et al.\OT1/jkp/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]|\OT1/jkp/m/n/12 MACS2 (-nomodel), peak
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+\OT1/jkp/m/n/12 sum-mit ex-ten-sion $+\OML/jkp/m/it/12 =\OMS/jkp/m/n/12  $\OT1/jkp/m/n/12 250bp,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]|\OT1/jkp/m/n/12 Maximally sig-nif-i-cant non-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+[]|\OT1/jkp/m/n/12 Quantile nor-mal-i-sa-tion and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+\OT1/jkp/m/n/12 un-su-per-vised hi-er-ar-chi-cal
+ []
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.43 &&&&
+         
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--44
+[]|\OT1/jkp/m/n/12 Choosing longest pair-wise
+ []
+
+
+Underfull \hbox (badness 5817) in paragraph at lines 44--44
+\OT1/jkp/m/n/12 present in the two sam-ples
+ []
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.45 &&&&
+         
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+[]|\OT1/jkp/m/n/12 Turner \OT1/jkp/m/it/12 et al.\OT1/jkp/m/n/12 ,
+ []
+
+! Undefined control sequence.
+l.46 ...ks from the different cell types. & \texti
+                                                  {De novo}:DiffReps with fr...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.47 &&&&
+         																																										
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+[]|\OT1/jkp/m/n/12 Alasoo \OT1/jkp/m/it/12 et al.\OT1/jkp/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+[]|\OT1/jkp/m/n/12 Union of peaks from all
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 48--48
+\OT1/jkp/m/n/12 con-di-tions present in at least
+ []
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.49 &&&&
+         
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+[]|\OT1/jkp/m/n/12 Quantile nor-mal-i-sa-tion and
+ []
+
+
+Underfull \hbox (badness 1810) in paragraph at lines 50--51
+\OT1/jkp/m/n/12 peak based in house Pear-son
+ []
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.51 &&&&
+         
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Underfull \hbox (badness 1681) in paragraph at lines 52--52
+[]|\OT1/jkp/m/n/12 Rendeiro \OT1/jkp/m/it/12 et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+[]|\OT1/jkp/m/n/12 Peak based: quan-tile
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+\OT1/jkp/m/n/12 nor-mal-i-sa-tion and Fisher
+ []
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.53 &&&&
+         
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+[]|\OT1/jkp/m/n/12 Scharer\OT1/jkp/m/it/12 et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+\OT1/jkp/m/n/12 be-tween all sam-ples us-ing
+ []
+
+[59
+
+] [60] [61]
+Underfull \hbox (badness 2221) in paragraph at lines 65--66
+[]\OT1/jkp/m/n/12 Regarding QC mea-sure-ments, the vari-abil-ity in per-for-mance of the
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 65--66
+\OT1/jkp/m/n/12 method-ol-ogy, par-tic-u-larly ATAC-seq and Fast-ATAC, has re-quired to agree
+ []
+
+
+Underfull \hbox (badness 3250) in paragraph at lines 65--66
+\OT1/jkp/m/n/12 pro-ceed-ing with down-stream dif-fer-en-tial anal-y-sis. Af-ter re-view-ing the
+ []
+
+
+LaTeX Warning: Citation 'ENCODE' on page 62 undefined on input line 67.
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 67--68
+[]\OT1/jkp/m/n/12 Firstly, I anal-ysed the frag-ment size dis-tri-bu-tion for each of the six
+ []
+
+<./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_frag_size_distribution.pdf, id=1026, pagebox=cropbox, 795.97375pt x 640.3925pt
+>
+File: ./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_frag_size_distribution.pdf Graphic file (type pdf)
+<use ./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_frag_size_distribution.pdf>
+Package pdftex.def Info: ./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_frag_size_distribution.pdf  used on input line 74. on 
+input line 74.
+Package pdftex.def Info: Requested size: 192.0548pt x 154.50838pt on input line 74.
+<./Results1/pdfs/TSS_enrichment_Core_fresh_CD4_CD14.pdf, id=1027, pagebox=cropbox, 795.97375pt x 640.3925pt>
+File: ./Results1/pdfs/TSS_enrichment_Core_fresh_CD4_CD14.pdf Graphic file (type pdf)
+<use ./Results1/pdfs/TSS_enrichment_Core_fresh_CD4_CD14.pdf>
+Package pdftex.def Info: ./Results1/pdfs/TSS_enrichment_Core_fresh_CD4_CD14.pdf  used on input line 79. on input line 79
+.
+Package pdftex.def Info: Requested size: 192.0548pt x 154.50838pt on input line 79.
+<./Results1/pdfs/ATAC_Core_CD4_CD14_fresh_GAPDH.pdf, id=1028, pagebox=cropbox, 542.025pt x 336.74106pt>
+File: ./Results1/pdfs/ATAC_Core_CD4_CD14_fresh_GAPDH.pdf Graphic file (type pdf)
+<use ./Results1/pdfs/ATAC_Core_CD4_CD14_fresh_GAPDH.pdf>
+Package pdftex.def Info: ./Results1/pdfs/ATAC_Core_CD4_CD14_fresh_GAPDH.pdf  used on input line 84. on input line 84.
+Package pdftex.def Info: Requested size: 256.0774pt x 159.09557pt on input line 84.
+
+Underfull \hbox (badness 1852) in paragraph at lines 93--94
+\OT1/jkp/m/n/12 sig-nals ranged be-tween 5-7 for the CD4$[]$ sam-ples and they were much
+ []
+
+[62
+
+] [63 <./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_frag_size_distribution.pdf> <./Results1/pdfs/TSS_enrichment_Core_fresh_C
+D4_CD14.pdf> <./Results1/pdfs/ATAC_Core_CD4_CD14_fresh_GAPDH.pdf>]
+
+LaTeX Warning: Citation 'ENCODE' on page 64 undefined on input line 121.
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 121--122
+\OT1/jkp/m/n/12 shown), be-ing both ap-pro-pri-ate inter-dependent QC mea-sures to eval-u-ate
+ []
+
+[64]
+<./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_num_peaks_vs_depth.pdf, id=1117, pagebox=cropbox, 879.285pt x 597.23125pt>
+File: ./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_num_peaks_vs_depth.pdf Graphic file (type pdf)
+<use ./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_num_peaks_vs_depth.pdf>
+Package pdftex.def Info: ./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_num_peaks_vs_depth.pdf  used on input line 139. on inp
+ut line 139.
+Package pdftex.def Info: Requested size: 213.39566pt x 144.9423pt on input line 139.
+<./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_increment_num_peaks_vs_depth.pdf, id=1118, pagebox=cropbox, 890.32625pt x 611.
+28375pt>
+File: ./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_increment_num_peaks_vs_depth.pdf Graphic file (type pdf)
+<use ./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_increment_num_peaks_vs_depth.pdf>
+Package pdftex.def Info: ./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_increment_num_peaks_vs_depth.pdf  used on input line 1
+45. on input line 145.
+Package pdftex.def Info: Requested size: 192.0548pt x 131.86183pt on input line 145.
+<./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_frac_reads_in_peaks_vs_depth.pdf, id=1119, pagebox=cropbox, 876.27374pt x 611.
+28375pt>
+File: ./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_frac_reads_in_peaks_vs_depth.pdf Graphic file (type pdf)
+<use ./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_frac_reads_in_peaks_vs_depth.pdf>
+Package pdftex.def Info: ./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_frac_reads_in_peaks_vs_depth.pdf  used on input line 1
+50. on input line 150.
+Package pdftex.def Info: Requested size: 192.0548pt x 133.96983pt on input line 150.
+ [65] [66 <./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_num_peaks_vs_depth.pdf> <./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_in
+crement_num_peaks_vs_depth.pdf> <./Results1/pdfs/ATAC_Core_fresh_CD4_CD14_frac_reads_in_peaks_vs_depth.pdf>]
+<./Results1/pdfs/ATAC_Core_fresh_CTL2_CD4_shared_peaks_IDR_vs_pval.pdf, id=1175, pagebox=cropbox, 877.2775pt x 610.28pt>
+
+File: ./Results1/pdfs/ATAC_Core_fresh_CTL2_CD4_shared_peaks_IDR_vs_pval.pdf Graphic file (type pdf)
+<use ./Results1/pdfs/ATAC_Core_fresh_CTL2_CD4_shared_peaks_IDR_vs_pval.pdf>
+Package pdftex.def Info: ./Results1/pdfs/ATAC_Core_fresh_CTL2_CD4_shared_peaks_IDR_vs_pval.pdf  used on input line 171. 
+on input line 171.
+Package pdftex.def Info: Requested size: 213.39566pt x 148.44435pt on input line 171.
+<./Results1/pdfs/ATAC_Core_fresh_CTL2_CD14_shared_peaks_IDR_vs_pval.pdf, id=1176, pagebox=cropbox, 877.2775pt x 616.3025
+pt>
+File: ./Results1/pdfs/ATAC_Core_fresh_CTL2_CD14_shared_peaks_IDR_vs_pval.pdf Graphic file (type pdf)
+<use ./Results1/pdfs/ATAC_Core_fresh_CTL2_CD14_shared_peaks_IDR_vs_pval.pdf>
+Package pdftex.def Info: ./Results1/pdfs/ATAC_Core_fresh_CTL2_CD14_shared_peaks_IDR_vs_pval.pdf  used on input line 177.
+ on input line 177.
+Package pdftex.def Info: Requested size: 213.39566pt x 149.90927pt on input line 177.
+<./Results1/pdfs/stacked_barplot_chromatin_states_percent_CD4_qval_vs_PVAL_IDR_filtered.pdf, id=1177, pagebox=cropbox, 6
+45.74551pt x 546.04pt>
+File: ./Results1/pdfs/stacked_barplot_chromatin_states_percent_CD4_qval_vs_PVAL_IDR_filtered.pdf Graphic file (type pdf)
+
+<use ./Results1/pdfs/stacked_barplot_chromatin_states_percent_CD4_qval_vs_PVAL_IDR_filtered.pdf>
+Package pdftex.def Info: ./Results1/pdfs/stacked_barplot_chromatin_states_percent_CD4_qval_vs_PVAL_IDR_filtered.pdf  use
+d on input line 182. on input line 182.
+Package pdftex.def Info: Requested size: 277.41176pt x 234.58432pt on input line 182.
+
+
+LaTeX Warning: Citation 'Xinmin2005' on page 67 undefined on input line 194.
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 194--195
+\OT1/jkp/m/n/12 ac-ces-si-bil-ity anal-y-sis (Ta-ble []2.1[]), I chose a peak-based ap-proach where a
+ []
+
+[67 <./Results1/pdfs/ATAC_Core_fresh_CTL2_CD4_shared_peaks_IDR_vs_pval.pdf> <./Results1/pdfs/ATAC_Core_fresh_CTL2_CD14_s
+hared_peaks_IDR_vs_pval.pdf> <./Results1/pdfs/stacked_barplot_chromatin_states_percent_CD4_qval_vs_PVAL_IDR_filtered.pdf
+>]
+<./Results1/pdfs/ATAC_Core_CD4vsCD14_DOC_FDR_01_vs_cutoffs_quantile_DESeq2_only.pdf, id=1252, pagebox=cropbox, 877.2775p
+t x 595.22375pt>
+File: ./Results1/pdfs/ATAC_Core_CD4vsCD14_DOC_FDR_01_vs_cutoffs_quantile_DESeq2_only.pdf Graphic file (type pdf)
+<use ./Results1/pdfs/ATAC_Core_CD4vsCD14_DOC_FDR_01_vs_cutoffs_quantile_DESeq2_only.pdf>
+Package pdftex.def Info: ./Results1/pdfs/ATAC_Core_CD4vsCD14_DOC_FDR_01_vs_cutoffs_quantile_DESeq2_only.pdf  used on inp
+ut line 203. on input line 203.
+Package pdftex.def Info: Requested size: 204.85802pt x 138.98752pt on input line 203.
+<./Results1/pdfs/ATAC_Core_CD4vsCD14_proportion_DOC_FDR_01_vs_cutoffs_quantile_DESeq2_only.pdf, id=1253, pagebox=cropbox
+, 882.29625pt x 594.22pt>
+File: ./Results1/pdfs/ATAC_Core_CD4vsCD14_proportion_DOC_FDR_01_vs_cutoffs_quantile_DESeq2_only.pdf Graphic file (type p
+df)
+<use ./Results1/pdfs/ATAC_Core_CD4vsCD14_proportion_DOC_FDR_01_vs_cutoffs_quantile_DESeq2_only.pdf>
+Package pdftex.def Info: ./Results1/pdfs/ATAC_Core_CD4vsCD14_proportion_DOC_FDR_01_vs_cutoffs_quantile_DESeq2_only.pdf  
+used on input line 208. on input line 208.
+Package pdftex.def Info: Requested size: 192.0548pt x 129.34154pt on input line 208.
+<./Results1/pdfs/ATAC_Core_fresh_CD4vsCD14_venn_diagram_differential_analysis_FDR_01_quantile_DESeq2_only.pdf, id=1254, 
+pagebox=cropbox, 844.15375pt x 597.23125pt>
+File: ./Results1/pdfs/ATAC_Core_fresh_CD4vsCD14_venn_diagram_differential_analysis_FDR_01_quantile_DESeq2_only.pdf Graph
+ic file (type pdf)
+<use ./Results1/pdfs/ATAC_Core_fresh_CD4vsCD14_venn_diagram_differential_analysis_FDR_01_quantile_DESeq2_only.pdf>
+Package pdftex.def Info: ./Results1/pdfs/ATAC_Core_fresh_CD4vsCD14_venn_diagram_differential_analysis_FDR_01_quantile_DE
+Seq2_only.pdf  used on input line 213. on input line 213.
+Package pdftex.def Info: Requested size: 213.39566pt x 150.97511pt on input line 213.
+ [68]
+<./Results1/pdfs/ATAC_Core_CD4_CD14_boxplot_80pcnt_cut_off_filtered_quantile_counts.pdf, id=1263, pagebox=cropbox, 851.1
+8pt x 603.25375pt>
+File: ./Results1/pdfs/ATAC_Core_CD4_CD14_boxplot_80pcnt_cut_off_filtered_quantile_counts.pdf Graphic file (type pdf)
+<use ./Results1/pdfs/ATAC_Core_CD4_CD14_boxplot_80pcnt_cut_off_filtered_quantile_counts.pdf>
+Package pdftex.def Info: ./Results1/pdfs/ATAC_Core_CD4_CD14_boxplot_80pcnt_cut_off_filtered_quantile_counts.pdf  used on
+ input line 232. on input line 232.
+Package pdftex.def Info: Requested size: 204.85802pt x 145.18887pt on input line 232.
+<./Results1/pdfs/ATAC_Core_fastq_CD4_CD14_80pcnt_cut_off_correlation_log2FC_quantile_vs_deseq2.pdf, id=1264, pagebox=cro
+pbox, 895.345pt x 634.37pt>
+File: ./Results1/pdfs/ATAC_Core_fastq_CD4_CD14_80pcnt_cut_off_correlation_log2FC_quantile_vs_deseq2.pdf Graphic file (ty
+pe pdf)
+<use ./Results1/pdfs/ATAC_Core_fastq_CD4_CD14_80pcnt_cut_off_correlation_log2FC_quantile_vs_deseq2.pdf>
+Package pdftex.def Info: ./Results1/pdfs/ATAC_Core_fastq_CD4_CD14_80pcnt_cut_off_correlation_log2FC_quantile_vs_deseq2.p
+df  used on input line 237. on input line 237.
+Package pdftex.def Info: Requested size: 204.85802pt x 145.147pt on input line 237.
+<./Results1/pdfs/ATAC_Core_CD4vsCD14_clusters_and_heatmap_quantile_common.pdf, id=1265, pagebox=cropbox, 538.01pt x 376.
+07199pt>
+File: ./Results1/pdfs/ATAC_Core_CD4vsCD14_clusters_and_heatmap_quantile_common.pdf Graphic file (type pdf)
+<use ./Results1/pdfs/ATAC_Core_CD4vsCD14_clusters_and_heatmap_quantile_common.pdf>
+Package pdftex.def Info: ./Results1/pdfs/ATAC_Core_CD4vsCD14_clusters_and_heatmap_quantile_common.pdf  used on input lin
+e 242. on input line 242.
+Package pdftex.def Info: Requested size: 277.41176pt x 193.91164pt on input line 242.
+ [69 <./Results1/pdfs/ATAC_Core_CD4vsCD14_DOC_FDR_01_vs_cutoffs_quantile_DESeq2_only.pdf> <./Results1/pdfs/ATAC_Core_CD4
+vsCD14_proportion_DOC_FDR_01_vs_cutoffs_quantile_DESeq2_only.pdf> <./Results1/pdfs/ATAC_Core_fresh_CD4vsCD14_venn_diagra
+m_differential_analysis_FDR_01_quantile_DESeq2_only.pdf>]
+Overfull \hbox (18.98877pt too wide) in paragraph at lines 250--250
+|[]\OT1/jkp/b/n/14.4 Assessment of ATAC-seq trans-po-si-tion times and com-par-i-son
+ []
+
+<./Results1/pdfs/ATAC_CD8_fragment_size_distribution_20_30_40min.pdf, id=1322, pagebox=cropbox, 840.13875pt x 615.29875p
+t>
+File: ./Results1/pdfs/ATAC_CD8_fragment_size_distribution_20_30_40min.pdf Graphic file (type pdf)
+<use ./Results1/pdfs/ATAC_CD8_fragment_size_distribution_20_30_40min.pdf>
+Package pdftex.def Info: ./Results1/pdfs/ATAC_CD8_fragment_size_distribution_20_30_40min.pdf  used on input line 257. on
+ input line 257.
+Package pdftex.def Info: Requested size: 213.39566pt x 156.28413pt on input line 257.
+<./Results1/pdfs/ATAC_ratio_short_long_fragments_20_30_40_min.pdf, id=1323, pagebox=cropbox, 833.1125pt x 632.3625pt>
+File: ./Results1/pdfs/ATAC_ratio_short_long_fragments_20_30_40_min.pdf Graphic file (type pdf)
+<use ./Results1/pdfs/ATAC_ratio_short_long_fragments_20_30_40_min.pdf>
+Package pdftex.def Info: ./Results1/pdfs/ATAC_ratio_short_long_fragments_20_30_40_min.pdf  used on input line 263. on in
+put line 263.
+Package pdftex.def Info: Requested size: 213.39566pt x 161.96916pt on input line 263.
+<./Results1/pdfs/ATAC_optimisation_CD4_20_30_40_min_tss_enrichment.pdf, id=1324, pagebox=cropbox, 844.15375pt x 597.2312
+5pt>
+File: ./Results1/pdfs/ATAC_optimisation_CD4_20_30_40_min_tss_enrichment.pdf Graphic file (type pdf)
+<use ./Results1/pdfs/ATAC_optimisation_CD4_20_30_40_min_tss_enrichment.pdf>
+Package pdftex.def Info: ./Results1/pdfs/ATAC_optimisation_CD4_20_30_40_min_tss_enrichment.pdf  used on input line 268. 
+on input line 268.
+Package pdftex.def Info: Requested size: 213.39566pt x 150.97511pt on input line 268.
+<./Results1/pdfs/ATAC_vs_FAST_ATAC_percnt_MT_reads_dotplot.pdf, id=1325, pagebox=cropbox, 812.03375pt x 628.3475pt>
+File: ./Results1/pdfs/ATAC_vs_FAST_ATAC_percnt_MT_reads_dotplot.pdf Graphic file (type pdf)
+<use ./Results1/pdfs/ATAC_vs_FAST_ATAC_percnt_MT_reads_dotplot.pdf>
+Package pdftex.def Info: ./Results1/pdfs/ATAC_vs_FAST_ATAC_percnt_MT_reads_dotplot.pdf  used on input line 282. on input
+ line 282.
+Package pdftex.def Info: Requested size: 213.39566pt x 165.12106pt on input line 282.
+<./Results1/pdfs/ATAC_vs_FAST_ATAC_FRiP_dotplot.pdf, id=1326, pagebox=cropbox, 842.14626pt x 639.38875pt>
+File: ./Results1/pdfs/ATAC_vs_FAST_ATAC_FRiP_dotplot.pdf Graphic file (type pdf)
+<use ./Results1/pdfs/ATAC_vs_FAST_ATAC_FRiP_dotplot.pdf>
+Package pdftex.def Info: ./Results1/pdfs/ATAC_vs_FAST_ATAC_FRiP_dotplot.pdf  used on input line 288. on input line 288.
+Package pdftex.def Info: Requested size: 213.39566pt x 162.01268pt on input line 288.
+
+Underfull \hbox (badness 5939) in paragraph at lines 297--297
+|[]\OT1/jkp/b/n/14.4 Limitations of ATAC-seq and FAST-ATAC to as-sess
+ []
+
+[70 <./Results1/pdfs/ATAC_Core_CD4_CD14_boxplot_80pcnt_cut_off_filtered_quantile_counts.pdf> <./Results1/pdfs/ATAC_Core_
+fastq_CD4_CD14_80pcnt_cut_off_correlation_log2FC_quantile_vs_deseq2.pdf> <./Results1/pdfs/ATAC_Core_CD4vsCD14_clusters_a
+nd_heatmap_quantile_common.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Results1/pdfs/ATAC_Core_CD4vsCD14_clusters_and_heatmap_quantile_common.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+>] [71 <./Results1/pdfs/ATAC_CD8_fragment_size_distribution_20_30_40min.pdf> <./Results1/pdfs/ATAC_ratio_short_long_frag
+ments_20_30_40_min.pdf> <./Results1/pdfs/ATAC_optimisation_CD4_20_30_40_min_tss_enrichment.pdf>]
+<./Results1/pdfs/ATAC_PS02_tapestation_30min.pdf, id=39044, pagebox=cropbox, 669.50125pt x 320.19624pt>
+File: ./Results1/pdfs/ATAC_PS02_tapestation_30min.pdf Graphic file (type pdf)
+<use ./Results1/pdfs/ATAC_PS02_tapestation_30min.pdf>
+Package pdftex.def Info: ./Results1/pdfs/ATAC_PS02_tapestation_30min.pdf  used on input line 306. on input line 306.
+Package pdftex.def Info: Requested size: 277.41176pt x 132.67863pt on input line 306.
+<./Results1/pdfs/ATAC_PS-2_30_40_min_fragment_size_distribution.pdf, id=39045, pagebox=cropbox, 784.9325pt x 642.4pt>
+File: ./Results1/pdfs/ATAC_PS-2_30_40_min_fragment_size_distribution.pdf Graphic file (type pdf)
+<use ./Results1/pdfs/ATAC_PS-2_30_40_min_fragment_size_distribution.pdf>
+Package pdftex.def Info: ./Results1/pdfs/ATAC_PS-2_30_40_min_fragment_size_distribution.pdf  used on input line 311. on 
+input line 311.
+Package pdftex.def Info: Requested size: 192.0548pt x 157.17862pt on input line 311.
+<./Results1/pdfs/ATAC_skin_TSS_enrichment_PS02_30_40min_NHEK_ATAC1_ATAC_2_FAST_ATAC.pdf, id=39046, pagebox=cropbox, 727.
+71875pt x 597.23125pt>
+File: ./Results1/pdfs/ATAC_skin_TSS_enrichment_PS02_30_40min_NHEK_ATAC1_ATAC_2_FAST_ATAC.pdf Graphic file (type pdf)
+<use ./Results1/pdfs/ATAC_skin_TSS_enrichment_PS02_30_40min_NHEK_ATAC1_ATAC_2_FAST_ATAC.pdf>
+Package pdftex.def Info: ./Results1/pdfs/ATAC_skin_TSS_enrichment_PS02_30_40min_NHEK_ATAC1_ATAC_2_FAST_ATAC.pdf  used on
+ input line 316. on input line 316.
+Package pdftex.def Info: Requested size: 192.0548pt x 157.6185pt on input line 316.
+ [72 <./Results1/pdfs/ATAC_vs_FAST_ATAC_percnt_MT_reads_dotplot.pdf> <./Results1/pdfs/ATAC_vs_FAST_ATAC_FRiP_dotplot.pdf
+>] [73 <./Results1/pdfs/ATAC_PS02_tapestation_30min.pdf> <./Results1/pdfs/ATAC_PS-2_30_40_min_fragment_size_distribution
+.pdf> <./Results1/pdfs/ATAC_skin_TSS_enrichment_PS02_30_40min_NHEK_ATAC1_ATAC_2_FAST_ATAC.pdf>]
+! Undefined control sequence.
+l.343 Buenrostro \texit
+                       {et al.,} 2013 & Two steps & 0.1\% NP-40 and 2.5$\mic...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.345 Bao \texit
+                {et al.,} 2015        &Two steps   & 0.05\% NP-40 and 5$\mic...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.349  Corces \texit
+                    {et al.,} 2016    & One step & C3: 0.025\% digitonin, 0....
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<./Results1/pdfs/ATAC_NHEK_ATAC1_ATAC2_FAST_ATAC_fragment_size_distribution.pdf, id=39166, pagebox=cropbox, 787.94376pt 
+x 640.3925pt>
+File: ./Results1/pdfs/ATAC_NHEK_ATAC1_ATAC2_FAST_ATAC_fragment_size_distribution.pdf Graphic file (type pdf)
+<use ./Results1/pdfs/ATAC_NHEK_ATAC1_ATAC2_FAST_ATAC_fragment_size_distribution.pdf>
+Package pdftex.def Info: ./Results1/pdfs/ATAC_NHEK_ATAC1_ATAC2_FAST_ATAC_fragment_size_distribution.pdf  used on input l
+ine 365. on input line 365.
+Package pdftex.def Info: Requested size: 204.85802pt x 166.48834pt on input line 365.
+<./Results1/pdfs/ATAC_NHEK_Omni_ATAC_fragment_size_distribution.pdf, id=39167, pagebox=cropbox, 755.82375pt x 650.43pt>
+File: ./Results1/pdfs/ATAC_NHEK_Omni_ATAC_fragment_size_distribution.pdf Graphic file (type pdf)
+<use ./Results1/pdfs/ATAC_NHEK_Omni_ATAC_fragment_size_distribution.pdf>
+Package pdftex.def Info: ./Results1/pdfs/ATAC_NHEK_Omni_ATAC_fragment_size_distribution.pdf  used on input line 370. on 
+input line 370.
+Package pdftex.def Info: Requested size: 204.85802pt x 176.29332pt on input line 370.
+<./Results1/pdfs/ATAC_skin_TSS_enrichment_NHEK_omni_ATAC.pdf, id=39168, pagebox=cropbox, 744.7825pt x 645.41125pt>
+File: ./Results1/pdfs/ATAC_skin_TSS_enrichment_NHEK_omni_ATAC.pdf Graphic file (type pdf)
+<use ./Results1/pdfs/ATAC_skin_TSS_enrichment_NHEK_omni_ATAC.pdf>
+Package pdftex.def Info: ./Results1/pdfs/ATAC_skin_TSS_enrichment_NHEK_omni_ATAC.pdf  used on input line 375. on input l
+ine 375.
+Package pdftex.def Info: Requested size: 213.39566pt x 184.91908pt on input line 375.
+<./Results1/pdfs/ENCODE_125_cell_types_overlap_FAST_ATAC_Omni_ATAC_pval_2.pdf, id=39169, pagebox=cropbox, 733.74126pt x 
+658.46pt>
+File: ./Results1/pdfs/ENCODE_125_cell_types_overlap_FAST_ATAC_Omni_ATAC_pval_2.pdf Graphic file (type pdf)
+<use ./Results1/pdfs/ENCODE_125_cell_types_overlap_FAST_ATAC_Omni_ATAC_pval_2.pdf>
+Package pdftex.def Info: ./Results1/pdfs/ENCODE_125_cell_types_overlap_FAST_ATAC_Omni_ATAC_pval_2.pdf  used on input lin
+e 401. on input line 401.
+Package pdftex.def Info: Requested size: 213.39566pt x 191.50111pt on input line 401.
+<./Results1/pdfs/ENCODE_125_cell_types_overlap_FAST_ATAC_Omni_ATAC_qval_2.pdf, id=39170, pagebox=cropbox, 727.71875pt x 
+652.4375pt>
+File: ./Results1/pdfs/ENCODE_125_cell_types_overlap_FAST_ATAC_Omni_ATAC_qval_2.pdf Graphic file (type pdf)
+<use ./Results1/pdfs/ENCODE_125_cell_types_overlap_FAST_ATAC_Omni_ATAC_qval_2.pdf>
+Package pdftex.def Info: ./Results1/pdfs/ENCODE_125_cell_types_overlap_FAST_ATAC_Omni_ATAC_qval_2.pdf  used on input lin
+e 407. on input line 407.
+Package pdftex.def Info: Requested size: 213.39566pt x 191.32253pt on input line 407.
+File: ./Results1/pdfs/ENCODE_125_cell_types_overlap_FAST_ATAC_Omni_ATAC_qval_2.pdf Graphic file (type pdf)
+<use ./Results1/pdfs/ENCODE_125_cell_types_overlap_FAST_ATAC_Omni_ATAC_qval_2.pdf>
+Package pdftex.def Info: ./Results1/pdfs/ENCODE_125_cell_types_overlap_FAST_ATAC_Omni_ATAC_qval_2.pdf  used on input lin
+e 412. on input line 412.
+Package pdftex.def Info: Requested size: 213.39566pt x 191.32253pt on input line 412.
+) [74] [75 <./Results1/pdfs/ATAC_NHEK_ATAC1_ATAC2_FAST_ATAC_fragment_size_distribution.pdf> <./Results1/pdfs/ATAC_NHEK_O
+mni_ATAC_fragment_size_distribution.pdf> <./Results1/pdfs/ATAC_skin_TSS_enrichment_NHEK_omni_ATAC.pdf>] [76 <./Results1/
+pdfs/ENCODE_125_cell_types_overlap_FAST_ATAC_Omni_ATAC_pval_2.pdf> <./Results1/pdfs/ENCODE_125_cell_types_overlap_FAST_A
+TAC_Omni_ATAC_qval_2.pdf>]
+\openout2 = `./Results3/Results3.aux'.
+
+ (Results3/Results3.tex
+Chapter 3.
+
+Overfull \hbox (2.36359pt too wide) in paragraph at lines 1--1
+|\OT1/jkp/b/n/24.88 Cross-tissue com-par-i-son of chro-matin
+ []
+
+
+Overfull \hbox (18.15228pt too wide) in paragraph at lines 1--1
+\OT1/jkp/b/n/24.88 ac-ces-si-bil-ity, gene ex-pres-sion sig-na-ture
+ []
+
+[77
+
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.57404pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[78]
+Overfull \hbox (37.16911pt too wide) in alignment at lines 24--41
+ [] [] [] [] [] [] [] [] 
+ []
+
+[79
+
+]
+Underfull \hbox (badness 3977) in paragraph at lines 73--73
+|[]\OT1/jkp/b/n/14.4 Differences in the chro-matin ac-ces-si-bil-ity land-scape
+ []
+
+[80
+
+]
+<./Results3/pdfs/ATAC_PSA_total_filtered_reads_boxplot.pdf, id=39342, pagebox=cropbox, 830.10126pt x 638.385pt>
+File: ./Results3/pdfs/ATAC_PSA_total_filtered_reads_boxplot.pdf Graphic file (type pdf)
+<use ./Results3/pdfs/ATAC_PSA_total_filtered_reads_boxplot.pdf>
+Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_total_filtered_reads_boxplot.pdf  used on input line 88. on input line
+ 88.
+Package pdftex.def Info: Requested size: 204.85802pt x 157.54051pt on input line 88.
+<./Results3/pdfs/ATAC_PSA_pcnt_dups_and_MT_reads_boxplot.pdf, id=39343, pagebox=cropbox, 847.165pt x 647.41875pt>
+File: ./Results3/pdfs/ATAC_PSA_pcnt_dups_and_MT_reads_boxplot.pdf Graphic file (type pdf)
+<use ./Results3/pdfs/ATAC_PSA_pcnt_dups_and_MT_reads_boxplot.pdf>
+Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_pcnt_dups_and_MT_reads_boxplot.pdf  used on input line 94. on input li
+ne 94.
+Package pdftex.def Info: Requested size: 204.85802pt x 156.54936pt on input line 94.
+<./Results3/pdfs/ATAC_PSA_all_TSS_max_per_cell_type.pdf, id=39344, pagebox=cropbox, 843.15pt x 637.38126pt>
+File: ./Results3/pdfs/ATAC_PSA_all_TSS_max_per_cell_type.pdf Graphic file (type pdf)
+<use ./Results3/pdfs/ATAC_PSA_all_TSS_max_per_cell_type.pdf>
+Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_all_TSS_max_per_cell_type.pdf  used on input line 101. on input line 1
+01.
+Package pdftex.def Info: Requested size: 204.85802pt x 154.86139pt on input line 101.
+<./Results3/pdfs/ATAC_PSA_all_peaks_vs_num_reads.pdf, id=39345, pagebox=cropbox, 851.18pt x 641.39626pt>
+File: ./Results3/pdfs/ATAC_PSA_all_peaks_vs_num_reads.pdf Graphic file (type pdf)
+<use ./Results3/pdfs/ATAC_PSA_all_peaks_vs_num_reads.pdf>
+Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_all_peaks_vs_num_reads.pdf  used on input line 107. on input line 107.
+
+Package pdftex.def Info: Requested size: 204.85802pt x 154.36887pt on input line 107.
+ [81]
+
+LaTeX Warning: Reference `(' on page 82 undefined on input line 114.
+
+
+Underfull \hbox (badness 1783) in paragraph at lines 114--115
+[]\OT1/jkp/m/n/12 When iden-ti-fy-ing open chro-matin re-gions through peak call-ing and
+ []
+
+[82 <./Results3/pdfs/ATAC_PSA_total_filtered_reads_boxplot.pdf> <./Results3/pdfs/ATAC_PSA_pcnt_dups_and_MT_reads_boxplot
+.pdf> <./Results3/pdfs/ATAC_PSA_all_TSS_max_per_cell_type.pdf> <./Results3/pdfs/ATAC_PSA_all_peaks_vs_num_reads.pdf>]
+<./Results3/pdfs/ATAC_PSA_all_DESEq2_PCA.pdf, id=39422, pagebox=cropbox, 860.21375pt x 584.1825pt>
+File: ./Results3/pdfs/ATAC_PSA_all_DESEq2_PCA.pdf Graphic file (type pdf)
+<use ./Results3/pdfs/ATAC_PSA_all_DESEq2_PCA.pdf>
+Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_all_DESEq2_PCA.pdf  used on input line 123. on input line 123.
+Package pdftex.def Info: Requested size: 298.75262pt x 202.88918pt on input line 123.
+<./Results3/pdfs/ATAC_PSA_all_GTeX_eQTL_enrichment_dotplot.pdf, id=39423, pagebox=cropbox, 883.3pt x 628.3475pt>
+File: ./Results3/pdfs/ATAC_PSA_all_GTeX_eQTL_enrichment_dotplot.pdf Graphic file (type pdf)
+<use ./Results3/pdfs/ATAC_PSA_all_GTeX_eQTL_enrichment_dotplot.pdf>
+Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_all_GTeX_eQTL_enrichment_dotplot.pdf  used on input line 135. on input
+ line 135.
+Package pdftex.def Info: Requested size: 298.75262pt x 212.52313pt on input line 135.
+<./Results3/pdfs/ATAC_PSA_all_Jknight_eQTL_enrichment_dotplot.pdf, id=39424, pagebox=cropbox, 872.25874pt x 621.32124pt>
+
+File: ./Results3/pdfs/ATAC_PSA_all_Jknight_eQTL_enrichment_dotplot.pdf Graphic file (type pdf)
+<use ./Results3/pdfs/ATAC_PSA_all_Jknight_eQTL_enrichment_dotplot.pdf>
+Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_all_Jknight_eQTL_enrichment_dotplot.pdf  used on input line 142. on in
+put line 142.
+Package pdftex.def Info: Requested size: 298.75262pt x 212.80124pt on input line 142.
+
+[83 <./Results3/pdfs/ATAC_PSA_all_DESEq2_PCA.pdf>] [84 <./Results3/pdfs/ATAC_PSA_all_GTeX_eQTL_enrichment_dotplot.pdf> <
+./Results3/pdfs/ATAC_PSA_all_Jknight_eQTL_enrichment_dotplot.pdf>]
+Underfull \hbox (badness 1005) in paragraph at lines 180--181
+\OT1/jkp/m/n/12 ap-prox-i-mately be-tween 5 to 15%, con-sti-tut-ing the third most rep-re-sented
+ []
+
+<./Results3/pdfs/ATAC_PSA__DOCS_per_cell_type_general_annotation.pdf, id=39501, pagebox=cropbox, 830.10126pt x 602.25pt>
+
+File: ./Results3/pdfs/ATAC_PSA__DOCS_per_cell_type_general_annotation.pdf Graphic file (type pdf)
+<use ./Results3/pdfs/ATAC_PSA__DOCS_per_cell_type_general_annotation.pdf>
+Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA__DOCS_per_cell_type_general_annotation.pdf  used on input line 188. on
+ input line 188.
+Package pdftex.def Info: Requested size: 298.75262pt x 216.7455pt on input line 188.
+<./Results3/pdfs/ATAC_PSA_DOCS_chromatin_states_stacked_barplot.pdf, id=39502, pagebox=cropbox, 973.6375pt x 648.4225pt>
+
+File: ./Results3/pdfs/ATAC_PSA_DOCS_chromatin_states_stacked_barplot.pdf Graphic file (type pdf)
+<use ./Results3/pdfs/ATAC_PSA_DOCS_chromatin_states_stacked_barplot.pdf>
+Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_DOCS_chromatin_states_stacked_barplot.pdf  used on input line 195. on 
+input line 195.
+Package pdftex.def Info: Requested size: 298.75262pt x 198.96082pt on input line 195.
+[85]
+! Undefined control sequence.
+l.204 ... located at the 5' and 3'UTRs for \tetxit
+                                                  {IL7R} gene where found to...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[86 <./Results3/pdfs/ATAC_PSA__DOCS_per_cell_type_general_annotation.pdf> <./Results3/pdfs/ATAC_PSA_DOCS_chromatin_state
+s_stacked_barplot.pdf>]
+Overfull \hbox (3.8762pt too wide) in paragraph at lines 210--222
+ [][] 
+ []
+
+[87]) [88]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 95.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
- (Thesis.aux (Preamble.aux) (Introduction/Introduction.aux))
+ (Thesis.aux (Preamble.aux) (Introduction/Introduction.aux) (Results1/Results1.aux) (Results3/Results3.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: F648F936FA1D378A41CA433C3A029584;3028.
+(rerunfilecheck)             Checksum: 7E10341B807505858F24ECB42101B464;4492.
 
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
@@ -2984,13 +3624,15 @@ Package logreq Info: Writing requests to 'Thesis.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
  ) 
 Here is how much of TeX's memory you used:
- 17416 strings out of 493312
- 284943 string characters out of 3138895
- 682235 words of memory out of 3000000
- 20430 multiletter control sequences out of 15000+200000
- 52744 words of font info for 116 fonts, out of 3000000 for 9000
+ 17742 strings out of 493312
+ 301027 string characters out of 3138895
+ 691279 words of memory out of 3000000
+ 20625 multiletter control sequences out of 15000+200000
+ 53869 words of font info for 119 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,12n,71p,2996b,1664s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{cite.0@Jonker2014} has been referenced but does not exist, replaced by a fixed one
+
 pdfTeX warning (dest): name{cite.0@Pivarcsi2014} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{cite.0@Brest2011} has been referenced but does not exist, replaced by a fixed one
@@ -3021,7 +3663,7 @@ pdfTeX warning (dest): name{cite.0@Ernst2011} has been referenced but does not e
 
 pdfTeX warning (dest): name{cite.0@Bernstein2010} has been referenced but does not exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{cite.0@Farh2014} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{cite.0@Maurano2012} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{cite.0@Raj2014} has been referenced but does not exist, replaced by a fixed one
 
@@ -3029,13 +3671,9 @@ pdfTeX warning (dest): name{cite.0@Fairfax2014} has been referenced but does not
 
 pdfTeX warning (dest): name{cite.0@Dimas2009} has been referenced but does not exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{cite.0@Maurano2012} has been referenced but does not exist, replaced by a fixed one
-
 pdfTeX warning (dest): name{cite.0@Maller2012} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{cite.0@Bunt2015} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Das2014} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{cite.0@Abecasis2012} has been referenced but does not exist, replaced by a fixed one
 
@@ -3054,8 +3692,6 @@ pdfTeX warning (dest): name{cite.0@Furie2017} has been referenced but does not e
 pdfTeX warning (dest): name{cite.0@Baker2017} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{cite.0@Bowes2012} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Lizzul2005} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{cite.0@Blonska2011} has been referenced but does not exist, replaced by a fixed one
 
@@ -3089,8 +3725,6 @@ pdfTeX warning (dest): name{cite.0@Stuart2010} has been referenced but does not 
 
 pdfTeX warning (dest): name{cite.0@Nair2009} has been referenced but does not exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{cite.0@Cargill2007} has been referenced but does not exist, replaced by a fixed one
-
 pdfTeX warning (dest): name{cite.0@Bowes2015} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{cite.0@Ellinghaus2010} has been referenced but does not exist, replaced by a fixed one
@@ -3098,6 +3732,8 @@ pdfTeX warning (dest): name{cite.0@Ellinghaus2010} has been referenced but does 
 pdfTeX warning (dest): name{cite.0@Okada2014} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{cite.0@Strange2010} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.0@Cargill2007} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{cite.0@Yin2015} has been referenced but does not exist, replaced by a fixed one
 
@@ -3181,6 +3817,8 @@ pdfTeX warning (dest): name{cite.0@Kim2010} has been referenced but does not exi
 
 pdfTeX warning (dest): name{cite.0@Mensah2008} has been referenced but does not exist, replaced by a fixed one
 
+pdfTeX warning (dest): name{cite.0@Lizzul2005} has been referenced but does not exist, replaced by a fixed one
+
 pdfTeX warning (dest): name{cite.0@Polachek2017} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{cite.0@Haddad2013} has been referenced but does not exist, replaced by a fixed one
@@ -3209,6 +3847,8 @@ pdfTeX warning (dest): name{cite.0@Gladman2005} has been referenced but does not
 
 pdfTeX warning (dest): name{cite.0@McGonagle2011} has been referenced but does not exist, replaced by a fixed one
 
+pdfTeX warning (dest): name{cite.0@Moura2015} has been referenced but does not exist, replaced by a fixed one
+
 pdfTeX warning (dest): name{cite.0@Vence2015} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{cite.0@Griffiths2007} has been referenced but does not exist, replaced by a fixed one
@@ -3235,8 +3875,6 @@ pdfTeX warning (dest): name{cite.0@Poole2010} has been referenced but does not e
 
 pdfTeX warning (dest): name{cite.0@Burgos-Pol2016} has been referenced but does not exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{cite.0@Henseler1985} has been referenced but does not exist, replaced by a fixed one
-
 pdfTeX warning (dest): name{cite.0@Ibrahim2009} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{cite.0@Gelfand2005} has been referenced but does not exist, replaced by a fixed one
@@ -3259,9 +3897,9 @@ cia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpbne.pfb><C:/Users/a
 ype1/public/kpfonts/jkpmi.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Us
 ers/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9
 /fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpsy.pfb>
-Output written on Thesis.pdf (69 pages, 898905 bytes).
+Output written on Thesis.pdf (99 pages, 16868706 bytes).
 PDF statistics:
- 962 PDF objects out of 1000 (max. 8388607)
- 249 named destinations out of 1000 (max. 500000)
- 299 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 39650 PDF objects out of 45951 (max. 8388607)
+ 320 named destinations out of 1000 (max. 500000)
+ 596 words of extra memory for PDF output out of 10000 (max. 10000000)
 
