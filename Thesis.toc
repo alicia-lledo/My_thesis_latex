@@ -74,7 +74,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.4.5}Transcriptional profiles in disease}{47}{subsection.1.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{micro-RNAs, long non-coding RNAs and enhancer RNAs}{48}{subsubsection*.21}
+\contentsline {subsubsection}{micro-RNAs}{48}{subsubsection*.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Long non-coding RNAs and enhancer RNAs}{48}{subsubsection*.22}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.4.6}Transcriptional regulation in complex diseases}{51}{subsection.1.4.6}
 \defcounter {refsection}{0}\relax 
@@ -92,11 +94,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.1}Establishment of an ATAC-seq data analysis pipeline based on current knowledge}{58}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Sample quality control}{62}{subsubsection*.22}
+\contentsline {subsubsection}{Sample quality control}{62}{subsubsection*.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Peak calling and filtering}{64}{subsubsection*.25}
+\contentsline {subsubsection}{Peak calling and filtering}{64}{subsubsection*.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Differential chromatin accessibility analysis}{67}{subsubsection*.28}
+\contentsline {subsubsection}{Differential chromatin accessibility analysis}{67}{subsubsection*.29}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.2}Assessment of ATAC-seq transposition times and comparison with FAST-ATAC protocol in relevant cell types}{70}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
@@ -114,13 +116,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.2}Differences in the chromatin accessibility landscape between circulating and SF immune cells}{80}{subsection.3.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Quality control of open chromatin regions}{80}{subsubsection*.38}
+\contentsline {subsubsection}{Quality control of open chromatin regions}{80}{subsubsection*.39}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Open chromatin reflects cell type specificity and functional relevance }{83}{subsubsection*.40}
+\contentsline {subsubsection}{Open chromatin reflects cell type specificity and functional relevance }{83}{subsubsection*.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Differential open chromatin analysis between blood and SF}{84}{subsubsection*.43}
+\contentsline {subsubsection}{Differential open chromatin analysis between blood and SF}{84}{subsubsection*.44}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{DOCs highlight relevant functional pathways in a cell type and tissue specific manner}{88}{subsubsection*.47}
+\contentsline {subsubsection}{DOCs highlight relevant functional pathways in a cell type and tissue specific manner}{88}{subsubsection*.48}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.3}Differential gene expression analysis in paired circulating and synovial immune cells}{88}{subsection.3.2.3}
 \defcounter {refsection}{0}\relax 
