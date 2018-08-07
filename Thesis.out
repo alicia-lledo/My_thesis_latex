@@ -7,44 +7,22 @@
 \BOOKMARK [0][-]{chapter*.9}{List of Figures}{}% 7
 \BOOKMARK [0][-]{chapter*.10}{List of Tables}{}% 8
 \BOOKMARK [0][-]{chapter*.11}{Abbreviations}{}% 9
-\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 10
-\BOOKMARK [1][-]{section.1.1}{Psoriasis and psoriatic arthritis}{chapter.1}% 11
-\BOOKMARK [2][-]{subsection.1.1.1}{Epidemiology and global impact}{section.1.1}% 12
-\BOOKMARK [2][-]{subsection.1.1.2}{Psoriasis and inflammatory dermatoses}{section.1.1}% 13
-\BOOKMARK [2][-]{subsection.1.1.3}{PsA and spondyloarthropaties}{section.1.1}% 14
-\BOOKMARK [1][-]{section.1.2}{Pathophysiology of psoriasis and psoriatic arthritis}{chapter.1}% 15
-\BOOKMARK [2][-]{subsection.1.2.1}{Clinical presentation and diagnosis}{section.1.2}% 16
-\BOOKMARK [2][-]{subsection.1.2.2}{Aetiology of psoriasis and PsA}{section.1.2}% 17
-\BOOKMARK [2][-]{subsection.1.2.3}{Cell types involved in psoriasis and PsA pathogenesis}{section.1.2}% 18
-\BOOKMARK [2][-]{subsection.1.2.4}{Therapeutic intervention}{section.1.2}% 19
-\BOOKMARK [1][-]{section.1.3}{Genetics of psoriasis and psoriatic arthritis}{chapter.1}% 20
-\BOOKMARK [2][-]{subsection.1.3.1}{Heritability}{section.1.3}% 21
-\BOOKMARK [2][-]{subsection.1.3.2}{Non-GWAS and linkage studies}{section.1.3}% 22
-\BOOKMARK [2][-]{subsection.1.3.3}{Genome-wide association studies}{section.1.3}% 23
-\BOOKMARK [2][-]{subsection.1.3.4}{Relevance of non-coding versus coding variants in disease susceptibility}{section.1.3}% 24
-\BOOKMARK [2][-]{subsection.1.3.5}{The role of GWAS studies in highlighting immune-relevant cell types and pathways}{section.1.3}% 25
-\BOOKMARK [2][-]{subsection.1.3.6}{Limitations and future of GWAS studies}{section.1.3}% 26
-\BOOKMARK [1][-]{section.1.4}{Functional interpretation of genome-wide association studies in complex diseases}{chapter.1}% 27
-\BOOKMARK [2][-]{subsection.1.4.1}{Overcoming the limitations of GWAS: post-GWAS studies}{section.1.4}% 28
-\BOOKMARK [2][-]{subsection.1.4.2}{The use of fine-mapping to prioritise causal variants}{section.1.4}% 29
-\BOOKMARK [2][-]{subsection.1.4.3}{Understanding the epigenetic landscape in complex diseases}{section.1.4}% 30
-\BOOKMARK [2][-]{subsection.1.4.4}{The chromatin landscape}{section.1.4}% 31
-\BOOKMARK [2][-]{subsection.1.4.5}{Transcriptional profiles in disease}{section.1.4}% 32
-\BOOKMARK [2][-]{subsection.1.4.6}{Transcriptional regulation in complex diseases}{section.1.4}% 33
-\BOOKMARK [2][-]{subsection.1.4.7}{Integration and interpretation of genomic data}{section.1.4}% 34
-\BOOKMARK [2][-]{subsection.1.4.8}{Immunophenotyping}{section.1.4}% 35
-\BOOKMARK [2][-]{subsection.1.4.9}{Approaches to establish disease mechanisms and causality of genetic variant}{section.1.4}% 36
-\BOOKMARK [0][-]{chapter.2}{Establishment of laboratory methods and analytical tools to assess genome-wide chromatin accessibility in clinical samples}{}% 37
-\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 38
-\BOOKMARK [1][-]{section.2.2}{Results}{chapter.2}% 39
-\BOOKMARK [2][-]{subsection.2.2.1}{Establishment of an ATAC-seq data analysis pipeline based on current knowledge}{section.2.2}% 40
-\BOOKMARK [2][-]{subsection.2.2.2}{Assessment of ATAC-seq transposition times and comparison with FAST-ATAC protocol in relevant cell types}{section.2.2}% 41
-\BOOKMARK [2][-]{subsection.2.2.3}{Limitations of ATAC-seq and FAST-ATAC to assess chromatin accessibility in KC}{section.2.2}% 42
-\BOOKMARK [2][-]{subsection.2.2.4}{Discussion}{section.2.2}% 43
-\BOOKMARK [0][-]{chapter.3}{Cross-tissue comparison of chromatin accessibility, gene expression signature and immunophenotypes in PsA}{}% 44
-\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 45
-\BOOKMARK [1][-]{section.3.2}{Results}{chapter.3}% 46
-\BOOKMARK [2][-]{subsection.3.2.1}{PsA patients cohort description and datasets}{section.3.2}% 47
-\BOOKMARK [2][-]{subsection.3.2.2}{Differences in the chromatin accessibility landscape between circulating and SF immune cells}{section.3.2}% 48
-\BOOKMARK [2][-]{subsection.3.2.3}{Differential gene expression analysis in paired circulating and synovial immune cells}{section.3.2}% 49
-\BOOKMARK [1][-]{section.3.3}{Discussion}{chapter.3}% 50
+\BOOKMARK [0][-]{chapter.1}{Establishment of laboratory methods and analytical tools to assess genome-wide chromatin accessibility in clinical samples}{}% 10
+\BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 11
+\BOOKMARK [1][-]{section.1.2}{Results}{chapter.1}% 12
+\BOOKMARK [2][-]{subsection.1.2.1}{Establishment of an ATAC-seq data analysis pipeline based on current knowledge}{section.1.2}% 13
+\BOOKMARK [2][-]{subsection.1.2.2}{Assessment of ATAC-seq transposition times and comparison with FAST-ATAC protocol in relevant cell types}{section.1.2}% 14
+\BOOKMARK [2][-]{subsection.1.2.3}{Impact of cryopreservation and fixation in the chromatin landscape of immune primary cells}{section.1.2}% 15
+\BOOKMARK [2][-]{subsection.1.2.4}{Limitations of ATAC-seq and FAST-ATAC to assess chromatin accessibility in KC}{section.1.2}% 16
+\BOOKMARK [2][-]{subsection.1.2.5}{Discussion}{section.1.2}% 17
+\BOOKMARK [0][-]{chapter.2}{Cross-tissue comparison of chromatin accessibility, gene expression signature and immunophenotypes in PsA}{}% 18
+\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 19
+\BOOKMARK [1][-]{section.2.2}{Results}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.2.1}{PsA patients cohort description and datasets}{section.2.2}% 21
+\BOOKMARK [2][-]{subsection.2.2.2}{The chromatin accessibility landscape in SF and PB immune cells}{section.2.2}% 22
+\BOOKMARK [2][-]{subsection.2.2.3}{Pathway and TFBS enrichment analysis highlight functional tissue-specific differences in chromatin accessibility}{section.2.2}% 23
+\BOOKMARK [2][-]{subsection.2.2.4}{Differential gene expression analysis in paired circulating and synovial immune cells}{section.2.2}% 24
+\BOOKMARK [1][-]{section.2.3}{Discussion}{chapter.2}% 25
+\BOOKMARK [0][-]{section.2.3}{Appendices}{}% 26
+\BOOKMARK [0][-]{appendix.A}{Establishment of methods to assess genome-wide chromatin accessibility}{}% 27
+\BOOKMARK [0][-]{appendix.B}{Cross-tissue comparison analysis in PsA}{}% 28

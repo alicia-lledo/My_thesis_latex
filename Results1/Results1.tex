@@ -60,7 +60,6 @@ Scharer\textit{et al.} 2016 & HOMER (-style dnase) & Merge of all overlapping pe
 
 
 
-
 \subsubsection{Sample quality control}
 Regarding QC measurements, the variability in performance of the methodology, particularly ATAC-seq and Fast-ATAC, has required to agree on appropriate parameters to determine the quality of the samples before proceeding with downstream differential analysis. After reviewing the different read-outs implemented across different publications as well as the recently ENCODE update, I have identified the most informative ones showing supporting correlation between them.
 
@@ -198,7 +197,7 @@ From this analysis, 80\% was chosen as a conservative filtering cut-off for whic
 
 \begin{figure}[htbp]
 \centering
-\begin{subfigure}{0.48\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \includegraphics[width=\textwidth]{./Results1/pdfs/ATAC_Core_CD4vsCD14_DOC_FDR_01_vs_cutoffs_quantile_DESeq2_only}
 \caption{\textbf{}}
@@ -295,9 +294,19 @@ Clustering and heat map and pathway analysis-briefly
 
 \subsection{Impact of cryopreservation and fixation in the chromatin landscape of immune primary cells}
 \subsubsection{Experimental design and cohort description}
-As previously introduced, research using clinical samples represents a logistic challenge precluding immediate sample processing due to geographical and/or temporal limitations. Therefore long-term storage procedures and the use of preservatives such as fixatives facilitate handling of clinical samples. In the context of these thesis two different approaches were of interest and a collaborative project was established with High-Throughput Genomics at the Wellcome Centre for Human Genomics. On one side, the cryopreservation of PBMCs in liquid nitrogen using DMSO would allow long-term preservation and would require PBMCs thawing and recovery followed by FACS isolation of the cell population of interest. On the other hand, the use of a fixative on the FACS-isolated relevant cell types from the clinical sample could be used as a short term preservation method. Regarding fixative, there was an interest to test the performance of an optimised protocol developed by High-Throughput Genomics using DSP in scRNA-seq \parencite{}. DSP is a cell-permeable, reversible cross-linking fixative that have previously been used to preserve tissue samples for downstream immuno-staining, laser micro-dissection and RNA micro-array expression profiling \parencite{}.
+As previously introduced, research using clinical samples represents a logistic challenge precluding immediate sample processing due to geographical and/or temporal limitations. Therefore long-term storage procedures and the use of preservatives such as fixatives facilitate handling of clinical samples. In the context of these thesis two different approaches were of interest and a collaborative project was established with High-Throughput Genomics at the Wellcome Centre for Human Genomics. On one side, the cryopreservation of PBMCs in liquid nitrogen using DMSO would allow long-term preservation and would require PBMCs thawing and recovery followed by FACS isolation of the cell population of interest. On the other hand, the use of a fixative on the FACS-isolated relevant cell types from the clinical sample could be used as a short term preservation method. Regarding fixative, there was an interest to test the performance of an optimised protocol developed by High-Throughput Genomics using DSP in scRNA-seq \parencite{}. DSP is a cell-permeable and reversible cross-linking fixative that have previously been used to preserve tissue samples for downstream immuno-staining, laser micro-dissection and RNA micro-array expression profiling \parencite{}.
 
-In order to investigate the effect of the cryopreservation and DSP fixation in the nuclear integrity and chromatin structure, PBMCs were isolated from three healthy volunteers (Figx).
+In order to investigate the effect of the cryopreservation and DSP fixation in the nuclear integrity and chromatin structure, three healthy volunteers sex and age matched were processed on different days to be consistent with the case-control experimental design in psoriasis and PsA (Figure \ref{fig:Core_experimental_design}). For each of the individuals PBMCs were isolated from blood and a fraction was stained with the appropriate panel of Abs to isolate CD14$^+$ monocytes and CD4$^+$ T cells, as detailed in Chapter \label{ch:Mat}. ATAC-seq was performed directly in an aliquot of the isolated CD14$^+$ and CD4$^+$ cell. A fraction of the isolated CD14$^+$ and CD4$^+$ cell were appropriately fixed with DPS, stored at 4{$^\circ$}C for 24h and processed for ATAC-seq. A fraction of the PBMCs were cryopreserved following the protocol described in Chapter \label{ch:Mat}, stored in liquid nitrogen for approximately 1 week followed by thawing and recovery in culture for approximately 30 min before undergoing Ab staining and FACS to retrieve CD14$^+$ and CD4$^+$ cells. Altogether, for each of the three controls three matched ATAC-seq samples were generated: ATAC-seq fresh, ATAC-seq fixed and ATAC-seq frozen.
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{./Results3/pdfs/Chapter3_core_experimental_design}
+\caption[Experimetal design to assess the impact of cryopreservation and fixation in the chromatin accessibility of immune primary cells.]{\textbf{Experimetal design to assess the impact of cryopreservation and fixation in the chromatin accessibility of immune primary cells.}}
+\label{figure:Core_experimental_design}
+\end{figure}
+
+
 
 
 \subsubsection{Quality control of ATAC-seq data}
@@ -353,9 +362,9 @@ DHS enrichment for p and q done but not convincing.The complex network of kerati
 \midrule
 \midrule
 Buenrostro \texit{et al.,} 2013 & Two steps & 0.1\% NP-40 and 2.5$\micro$L Tn5  \\
-\midrule
+&&&
 Bao \texit{et al.,} 2015        &Two steps   & 0.05\% NP-40 and 5$\micro$L Tn5  \\
-\midrule
+&&&
                                 &          & C1: 0.01\% digitonin, 0.5$\micro$L Tn5 \\
                                 &          & C2: 0.01\% digitonin, 2.5$\micro$L Tn5 \\
  Corces \texit{et al.,} 2016    & One step & C3: 0.025\% digitonin, 0.5$\micro$L Tn5 \\

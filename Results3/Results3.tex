@@ -1,11 +1,12 @@
 \chapter{Cross-tissue comparison of chromatin accessibility, gene expression signature and immunophenotypes in PsA}
+\chaptermark{Cross-tissue comparison analysis in PsA}
 \label{ch:Results3}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
 %
-The techniques to generate the scRNA-seq data have also evolved and SmartSeq2 and 10X Chromium are the tow main 
+The techniques to generate the scRNA-seq data have also evolved and SmartSeq2 and 10X Chromium are the two main 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results}
 %
@@ -26,7 +27,8 @@ The mean age of the cohort at the time of diagnosis was 44.3 years old and the m
 \caption[Description of PsA patients cohort recruitment and metadata.]{\textbf{Description of PsA patients cohort recruitment and metadata.}. PsARC disease activity score is composed of tender joint count 66 (TJC66) and swollen joint count 66 (SJC66), joint pain (4 point score) and self-patient and physician global assessment (5 point score). Joint pain and global assessment use a likert scale based on questionnaire answers that measure the level of agreement with each of statements included. C-reactive protein (CRP).}
 \label{tab:PSA_cohort_metadata} \\
 \toprule
-\textbf{ Sample ID} & \textbf{Sex} & \textbf{Age at diagnosis} & \textbf{Disease duration (months)} & \textbf{Type} &\textbf{TJC66/SJC66}  & \textbf{Physician assessment} & \textbf{CRP (mg/L)} \\
+\textbf{ Sample ID} & \textbf{Sex} & \textbf{Age} & \textbf{Disease duration} & \textbf{Type} &\textbf{TJC66/SJC66}  & \textbf{Physician } & \textbf{CRP} \\
+& & \textbf{diagnosis} & \textbf{(months)} & &  & \textbf{assessment} & \textbf{(mg/L)} \\
 \midrule
 \midrule
 PSA1718 & Female & 17 & 180 & Oligo  & 2/2 & 3 & 6 \\
@@ -35,6 +37,7 @@ PSA1607 &	Male & 42 & 108 &	Oligo &	1/1	& 4 & 8 \\
 PSA1728	& Female & 72	& 48 & Oligo & 2/2 & 3 & 43.2 \\
 PsA1801	& Female & 53 & 168 & Oligo & 2/2 &	3 & 9.9 \\
 PsA1505 & Male & 35 &	108 & Oligo & 1/1 & 2 & 1 \\	
+\midrule
 Total		& $-$	&	44.3 & 106 & $-$ & 1.5/1.5 & 3 & 17.45 \\																			
 \bottomrule
 \medskip
@@ -70,12 +73,12 @@ PSA1605 & No & No & Yes & Yes\\
 \bigskip %bigger space
 
 
-\subsection{Differences in the chromatin accessibility landscape between circulating and SF immune cells}
+\subsection{The chromatin accessibility landscape in SF and PB immune cells}
 
 \subsubsection{Quality control of open chromatin regions}
 The twenty four PsA samples form four cell types and two different tissues (PB and SF) were sequenced to a median of 158M reads (79M paired-end) per sample. After filtering for low quality mapping, duplicates and MT reads, the median total number of reads were 70.2M, 50.6M, 46.6 and 66.7M for CD14$^+$, mCD4$^+$, mCD8$^+$ and NK cells, respectively (Figure \ref{figure:PsA_FAST_ATAC_QC} a). The differences between cell types and samples in the median of total reads remaining after filtering was inversely related to the percentage MT and duplicated reads identified (Figure \ref{figure:PsA_FAST_ATAC_QC} b). For example, mCD1$^+$ and mCD8$^+$, presented the lower median of total number of reads after filtering concomitantly with the greater percentage of MT and duplicated reads. In combination, MT and duplicated reads accounted for a median of 42, 57.6, 62.2 and 40\% in CD14$^+$, mCD4$^+$, mCD8$^+$ and NK cells, respectively, importantly contributing to the loss of reads in this experiment. As previously mentioned, the MT DNA in ATAC-seq is one of the main sources of read loss, which is more accessible to the Tn5transposase due to the absence of nucleosomes. Although the FAST-ATAC protocol represented an improvement, the percentage of MT reads across amongst all the samples ranged between 2.1 and 25.4\%. Similarly, despite initial optimisation of the number of PCR cycles used in the library amplification, the duplicated reads still represented between 22.9 to 55\% of the total number of the pre-filtered reads.
 
-Regarding sample quality determination, TSS enrichment analysis showed variation in the levels of background noise across cell types and highlighted the variability in performance of FAST-ATAC (Figure \ref{figure:PsA_FAST_ATAC_QC} c). A trend towards greater TSS enrichment in PB samples compared to SF can be observed in all four cell types. In terms of cell types,mCD4$^+$ and mCD8$^+$ presented the best signal-to-noise ratios, with median of 19.1 and 23.1 fold enrichment, respectively. In contrast, NK was the cell type with the lower TSS enrichment values. Particularly, the fold enrichment for PSA1719 and PSA1607 were 7.3 and 6.2, respectively, both just above the 6 to 10 acceptable range from ENCODE. If a bigger sample size was available it would be appropriate to drop this samples from the differential analysis since greater background levels will reduce the power of this approach. 
+Regarding sample quality determination, TSS enrichment analysis showed variation in the levels of background noise across cell types and highlighted the variability in performance of FAST-ATAC (Figure \ref{figure:PsA_FAST_ATAC_QC} c). A trend towards greater TSS enrichment in PB samples compared to SF can be observed in all four cell types. In terms of cell types, mCD4$^+$ and mCD8$^+$ presented the best signal-to-noise ratios, with median of 19.1 and 23.1 fold enrichment, respectively. In contrast, NK was the cell type with the lower TSS enrichment values. Particularly, the fold enrichment for PSA1719 and PSA1607 were 7.3 and 6.2, respectively, both just above the 6 to 10 acceptable range from ENCODE. If a bigger sample size was available it would be appropriate to drop these samples from the differential analysis, since high background levels will reduce the power of this approach. 
 
 
 
@@ -111,11 +114,11 @@ Regarding sample quality determination, TSS enrichment analysis showed variation
 \label{figure:PsA_FAST_ATAC_QC}
 \end{figure}
 
-When identifying open chromatin regions through peak calling and standard filtering for FDR$<$0.01 (not the IDR sample-specific filtering), the number of peaks ranged from $\sim$62$x10^3$ to $\sim$133$x10^3$ peaks per sample (Figure \ref{figure:PsA_FAST_ATAC_QC} d). A clear positive correlation between the number of called peaks and number of reads after filtering could be observed in the data. For example, CD14$^+$ was the cell type with greatest number of called peaks (108.4$x10^3$) as well as the greater median of reads remaining after filtering when compared to the other three cell types (Figure \ref{figure:PsA_FAST_ATAC_QC} a). For the NK, the two samples with the greatest TSS enrichment (PSA1718 SF and PB) showed greater number of called peaks when compared to the other NK samples with similar number of reads. This observation was consistent with the correlation between sample quality and the number of identified accessible chromatin regions previously demonstrated in Chapter \ref(ch:Results1).Overall, appropriate number of peaks were called in all the samples and no concerning outliers were identified.
+When identifying open chromatin regions through peak calling and standard filtering for FDR$<$0.01 (not the IDR sample-specific filtering), the number of peaks ranged from $\sim$62$x10^3$ to $\sim$133$x10^3$ peaks per sample (Figure \ref{figure:PsA_FAST_ATAC_QC} d). A clear positive correlation between the number of called peaks and number of reads after filtering could be observed in the data. For example, CD14$^+$ was the cell type with greatest number of called peaks (108.4$x10^3$) as well as the greater median of reads remaining after filtering when compared to the other three cell types (Figure \ref{figure:PsA_FAST_ATAC_QC} a). For the NK, the two samples with the greatest TSS enrichment (PSA1718 SF and PB) showed greater number of called peaks when compared to the other NK samples with similar number of reads. This observation was consistent with the correlation between sample quality and the number of identified accessible chromatin regions previously demonstrated in Chapter \ref{ch:Results1}. Overall, appropriate number of peaks were called in all the samples and no concerning outliers were identified.
 
 
 
-\subsubsection{Open chromatin reflects cell type specificity and functional relevance }
+\subsubsection{Open chromatin reflects cell type specificity and functional relevance}
 In order to determine the ability of the open chromatin identified by the in house pipeline in the PsA sample cohort, a combined master list including all four cell types and the two tissues was built. Following Chapter \ref{ch:Mat} and Chapter \ref{ch:Results1}, the combined master list contained open chromatin regions identified in at least 30\% of the samples (in this case 7 samples) regardless cell type and tissue to avoid any bias.
 
 \begin{figure}[H]
@@ -125,6 +128,8 @@ In order to determine the ability of the open chromatin identified by the in hou
 \label{figure:PsA_FAST_ATAC_PCA}
 \end{figure}
 
+
+% Talk about eQTL observation and the functionality of the regions highlighted by peak calling
 
 
 \bigskip
@@ -151,7 +156,7 @@ In order to determine the ability of the open chromatin identified by the in hou
 
 
 \subsubsection{Differential open chromatin analysis between blood and SF}
-Differential chromatin accessibility analysis was performed using a paired design between SF and PB for each of the four cell types (Table \ref{tab:PSA_DOCs_results}. In all for analysis an 80\% cut-off for background noise was applied in the count matrix as previously explained in Chapter 3. Only DOCs identified with DESeq2 and also shared by quantile normalisation and limma voom where taken forward. The CD14$^+$ monocytes and NK showed a greater proportion of differentially accessible regions (23.3 and 8.9\%, respectively) compared to CD4$^+$ and CD8$^+$ T cells. In CD14$^+$ monocytes 3,779 out of 5,285 DOCs were more accessible in SF versus the 1,506 that were more open in the cells isolated from PB. Conversely, the number of DOCs more open in each of the tissues were evenly distributed between SF and PB for CD4$^+$, CD8$^+$ and NK.
+Differential chromatin accessibility analysis was performed using a paired design between SF and PB for each of the four cell types (Table \ref{tab:PSA_DOCs_results}. For each of the cell types a master list containing chromatin accessible regions in at leats 30\% of the samples ($\sim$2 samples), regardless the tissue. In all for analysis an 80\% cut-off for background noise was applied in the count matrix as previously explained in Chapter 3. Only DOCs identified with DESeq2 and also shared with quantile normalisation limma voom analysis where used downstream. The CD14$^+$ monocytes and NK showed a greater proportion of differentially accessible regions (23.3 and 8.9\%, respectively) compared to mCD4$^+$ and mCD8$^+$ T cells. In CD14$^+$ monocytes 3,779 out of 5,285 DOCs were more accessible in SF versus the 1,506 more open in PB isolated CD14$^+$. Conversely, the number of DOCs more accessible in each of the tissues were evenly distributed between SF and PB in the remaining three cell types.
 
 
 \begin{table}[htbp]
@@ -171,13 +176,14 @@ NK      & 2,314 & 8.9 & 1,223 & 1,091\\
 \bottomrule
 \end{tabular}
 \medskip %gap
-\caption[Summary results of the chromatin accessibility analysis between SF and PB in PsA samples]{\textbf{xxxxxxxxx}}
+\caption[Summary results of the chromatin accessibility analysis between SF and PB in PsA samples]{\textbf{Summary results of the chromatin accessibility analysis between SF and PB in PsA samples.}}
 \label{tab:PSA_DOCs_results}
 \end{table}
 
+Permutation analysis using the ten unique possible combinations demonstrated that the number of DOCs obtained in the differential analysis for each of the cell types w than expected by chance (Figure \ref{figure:PsA_perm_analysis}). This reinforces the specificity of the identified changes in chromatin accessibility, which are driven by true differences between SF and PB in all the analysed cell types.
 
-
-When performing genomic annotation of the DOCs, intronic and intergenic regions represented together 80\% or more of all the DOCs in the four cell types (Figure \ref{figure:PsA_FAST_ATAC_DOCS_annotation} a). DOCs annotated in universal promoter regions represented approximately between 5 to 15\%, constituting the third most represented genomic feature. DOCs were also annotated with the fifteen states cell type-specific chromatin segmentation maps from the Epigenome Roadmap (Figure \ref{figure:PsA_FAST_ATAC_DOCS_annotation} b). For all four cell types between 44.96 and 72.11\% of the DOCs where annotated as weak enhancers, which represented the most prominent category. This was consistent with the predominance of introns and intergenic regions which is the preferred location for enhancers, and also highlighted the cell type specificity of the differences in open chromatin, since enhancers are more cell type specific than promoters.
+  
+When performing genomic annotation of the DOCs, intronic and intergenic regions represented together 80\% or more of all the DOCs in the four cell types (Figure \ref{figure:PsA_FAST_ATAC_DOCS_annotation} a). DOCs annotated in universal promoter regions represented approximately between 5 to 15\%, constituting the third most represented genomic feature. DOCs were also annotated with the fifteen cell type-specific chromatin states from the Epigenome Roadmap segmentation maps (Figure \ref{figure:PsA_FAST_ATAC_DOCS_annotation} b). For all four cell types between 44.96 and 72.11\% of the DOCs where annotated as weak enhancers, which represented the most prominent category. This was consistent with the predominance of introns and intergenic regions which is the preferred location for enhancers, and also highlighted the cell type specificity of the differences in open chromatin, since enhancers are more cell type specific than promoters. %mention enrichment for XGR? 
 
 
 \bigskip
@@ -201,7 +207,8 @@ When performing genomic annotation of the DOCs, intronic and intergenic regions 
 
 
 
-Interestingly, from the DOCs located within a gene entity the majority were located within introns instead of untranslated regions (UTRs) of the genes and have also been annotated as weak or strong enhancers according to the cell type specific chromatin segmentation map (Table \ref{tab:PSA_DOCs_results}). For all four cell types, a number of gene entities contained more than one DOC showing the same direction of chromatin accessibility between SF and PB. For example, in CD14$^+$ two DOCs located at the 5' and 3'UTRs for \tetxit{IL7R} gene where found to be more accessible in SF compared to PB. Similarly, more accessible chromatin in SF compared to PB was identified in five regions of the \textit{IL15} gene annotated as promoter and enhancers in CD14$^+$ monocytes. Differences at both gene locations were sCD14$^+$ cell type specific.
+Interestingly, from the DOCs located overlapping a gene body, the majority were located within introns instead of untranslated regions (UTRs)and have also been annotated as weak or strong enhancers according to the cell type specific chromatin segmentation map (Table \ref{tab:PSA_DOCs_results}). For all four cell types, a number of gene entities contained more than one DOC, showing the same direction of chromatin accessibility between SF and PB. For example, in CD14$^+$ two DOCs located at the 5' and 3'UTRs for \tetxit{IL7R} gene where found to be more accessible in SF compared to PB. Similarly, more accessible chromatin in SF compared to PB was identified in five regions of the \textit{IL15} gene, annotated as promoter and enhancers in CD14$^+$ monocytes. 
+% Check differences at both gene locations were CD14$^+$ cell type specific is this region HiC annotated with the gene?
 
 \begin{table}[htbp]
 %\setlength{\tabcolsep}{20pt} only to stretch the columns if you want
@@ -224,26 +231,107 @@ NK   & 1,246 & 235 & 782 & 937 \\
 \end{table}
 
 
-Enrichment of psoriasis and PsA GWAS hits for the differentially open regions between SF and PB in the four cell types was performed using XGR co-localisation and permutation analysis. Although no significant results were found at the SNP level (lead SNPs and SNPs in LD r$^2$$\geq$8), significant enrichment (2-fold enrichment and empirical p-val 0.043) was observed for psoriasis GWAS LD blocks with the CD14$^+$ DOCs only.
+- Add the enrichment results from the XGR analysis for chromatin segments
+
+%Try to overlap the enhancer FANTOM data to id those regions whith evidence of eRNA expression
+The DOCs region from the four cell types presented enrichment for robust and permissive enhancers (Figure \ref{figure:PSA_FANTOM}). Robust enhancers are those for which transcription was significantly detected at the genome-wide level in one or more primary cell or tissue, whereas the permissive set included also those not passing the filtering criteria \parencite{Andersson2014}. Moreover, amongst the top two most enriched cell type-specific set of eRNAs for each set of DOCs, all four cell types included the appropriate cell entity.
+
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.8\textwidth]{./Results3/pdfs/ATAC_PsA_FANTOM_enhancer_enrichment_all_cell_types}
+\caption[Enrichment of PsA DOCs for the FANTOM5 eRNA dataset]{\textbf{Enrichment of PsA DOCs for the FANTOM5 eRNA dataset.}  }
+\label{fig:PSA_FANTOM}
+\end{figure}
 
 
 
-Here I am planning an overview of the differential analysis including 
--total number of doc split between open in SF and open in PB,
--annotation according to chromatin accessibility in terms of all the hits
--mention how many of them are annotated in gene bodies and if more than one region within the same gene and choose an example of an interesting gene, include UCSC track showing the differences
-
--enrichment for TFBS and others, either global or per open in SF and PB,maybe combined plots for all cell types kind of fig6 of XGR paper
+ 
+% GWAS overlap maybe indicate an example in CD14 that can be relevant with pathway analysis
+The relevance of the DOC regions identified through differential analysis was also addressed. Enrichment analysis of psoriasis and PsA GWAS hits for the differentially open regions between SF and PB in the four cell types was performed using XGR co-localisation and permutation analysis. Although no significant results were found at the SNP level (lead SNPs and SNPs in LD r$^2$$\geq$8), significant enrichment (2-fold enrichment and empirical p-val 0.043) was observed for psoriasis GWAS LD blocks for the CD14$^+$ DOCs only.
 
 
 
 
+\subsection{Pathway and TFBS enrichment analysis highlight functional tissue-specific differences in chromatin accessibility}
+
+For each of the four sets of DOCs identified by the differential analysis, pathway enrichment analysis was conducted separately for SF and PB open regions. Gene annotation of the DOCs was performed by physical proximity, as detailed in Chapter \ref{ch:Mat}. Despite commonalities, differences in significant enriched pathways (FDR$<0.01$) were identified between SF and PB within the same cell type (Table \ref{tab:PSA_ATAC_pathway_analysis_all_DOC})
+
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}[b]{0.45\textwidth}
+\centering 
+\includegraphics[width=\textwidth]{./Results3/pdfs/}
+\caption{}
+\end{subfigure}
+~
+\begin{subfigure}[b]{0.45\textwidth}
+\centering 
+\includegraphics[width=\textwidth]{./Results3/pdfs/}
+\caption{}
+\end{subfigure}
+~
+\begin{subfigure}[b]{0.45\textwidth} 
+%the [b] prevents offset in subcaptions
+\centering
+\includegraphics[width=\textwidth]{./Results3/pdfs/}%
+\caption{}
+\end{subfigure}
+\begin{subfigure}[b]{0.45\textwidth} 
+%the [b] prevents offset in subcaptions
+\centering
+\includegraphics[width=\textwidth]{./Results3/pdfs/}%
+\caption{}
+\end{subfigure}
+\caption[Distinct enriched pathways across SF and PB in CD14$^+$,CD4m$^+$,CD8m$^+$ and NK.]{\textbf{Distinct enriched pathways across SF and PB in CD14$^+$,CD4m$^+$,CD8m$^+$ and NK.} All pathways shown have an FDR $<$0.01. }
+\label{figure:PSA_ATAC_pathway_analysis_all_DOC}
+\end{figure}
 
 
 
-\subsubsection{DOCs highlight relevant functional pathways in a cell type and tissue specific manner}
+
+%Decide if table or barplots
+\begin{landscape}
+\begin{center}
+\begin{longtable}[ht]{c c c }
+\caption[Distinct enriched pathways in CD14$^+$, mCD4$^+$, mCD8$^+$ and NK between SF and PB]{\textbf{Distinct enriched pathways in CD14$^+$, mCD4$^+$, mCD8$^+$ and NK between SF and PB.} All pathways shown have an FDR $<$0.01.}
+\\
+\label{table:PSA_ATAC_pathway_analysis_all_DOC} \\
+\toprule
+\textbf{Cell type} & \textbf{SF} & \textbf{PB} \\						
+\midrule
+\midrule
+CD14$^+$ & Hemostasis, Platelet activation, Signaling by VEGF & DAP12 interactions, Metabolism of lipids, \\ 
+         & GPCR ligand binding, IL-2 signaling pathway, & Metabolism of vitamins and co-factors, \\ 
+         & Integrin cell surface interactions,NF-kappa B signaling pathway & Negative regulation of the PI3K/AKT network. \\ 
+         & IL-2 family signaling, IL-3, 5 and GM-CSF signaling. & \\ 
+\midrule
+\textbf{mCD4$^+$} & T cell receptor signaling pathway, Phospholipase D signaling pathway ,& Signaling by Receptor Tyrosine Kinases,\\ 
+									& Chemokine signaling pathway, PI3K-Akt signaling pathway, & Focal adhesion.\\ 
+									& Signaling by interleukins. & \\
+\midrule
+\textbf{mCD8$^+$} & Chemokine signaling pathway, Signaling by GPCR  & Signal transduction, Wnt signaling pathway,\\ 
+									& Signaling pathways regulating pluripotency of stem cells & Rho GTPase cycle, PI3K-Akt signaling pathway, \\ 
+									& Regulation of actin cytoskeleton. & Signaling by interleukins. \\ 
+\midrule
+\textbf{NK$^+$} & Extracellular matrix organization, Rap1 signaling pathway, & Th1 and Th2 cell differentiation, Rho GTPase cycle,\\ 		
+								& Calcium signaling pathway, PI3K-Akt signaling pathway,     & T cell receptor signaling pathway, Signal Transduction,\\ 
+								& Fc gamma R-mediated phagocytosis, HIF-1 signaling pathway. & Natural killer cell mediated cytotoxicity,  \\
+								&                                                            & MAPK family signaling cascades.	\\ 								
+\bottomrule
+\medskip
+\end{longtable}
+\end{center}
+\end{landscape}
+
+
+
 -pathway enrichment analysis if possible per open chromatin in each cell type
 -maybe include an A2 pathway which is different and unique between open in SF and PB in one cell type
+-TFBS
+
+
 
 \subsection{Differential gene expression analysis in paired circulating and synovial immune cells}
 Array data
