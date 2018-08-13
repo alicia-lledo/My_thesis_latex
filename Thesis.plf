@@ -2,48 +2,34 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Measurements for quality control assessment in ATAC-seq samples}}{7}{figure.caption.14}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Peak calling and sequencing depth in ATAC-seq samples}}{10}{figure.caption.17}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Peak calling filtering using IDR analysis in ATAC-seq samples}}{11}{figure.caption.18}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Differential chromatin accessibility analysis for different background reads cut-offs.}}{13}{figure.caption.20}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Exploration of the differential chromatin accessibility analysis using 80\% as the empirical cut-off.}}{14}{figure.caption.21}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Assessment of the effect of transposition times on the ATAC-seq QC parameters}}{15}{figure.caption.22}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Differences in MT DNA abundance and signal specificity between ATAC-seq and FAST-ATAC protocols}}{16}{figure.caption.23}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Experimetal design to assess the impact of cryopreservation and fixation in the chromatin accessibility of immune primary cells.}}{17}{figure.caption.25}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.9}{\ignorespaces QC assessment of ATAC-seq in KC enriched cell suspension derived from a psoriatic lesional skin biopsy}}{18}{figure.caption.28}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.10}{\ignorespaces QC assessment of FAST-ATAC and Omni-ATAC in cultured NHEK}}{20}{figure.caption.30}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.11}{\ignorespaces QC assessment of Omni-ATAC in NHEK and chromatin accessibility signal for the samples generated with the different ATAC-seq protocols}}{21}{figure.caption.31}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Crosstalk between innate and adaptive immunity in psoriasis}}{17}{figure.caption.15}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces QC of FAST-ATAC PsA samples in four cell types}}{28}{figure.caption.34}
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Combined PCA analysis of all four cell types isolated from blood and SF.}}{29}{figure.caption.36}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces QC of FAST-ATAC PsA samples in four cell types}}{85}{figure.caption.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Enrichment of eQTLs in the combined cell types PsA accessible chromatin master list.}}{30}{figure.caption.37}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Combined PCA analysis of all four cell types isolated from blood and SF.}}{86}{figure.caption.43}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Annotation with genomic regions and chromatin states of the PsA DOCs from the four cell types differential analysis.}}{32}{figure.caption.40}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Enrichment of eQTLs in the combined cell types PsA accessible chromatin master list.}}{87}{figure.caption.44}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Enrichment of PsA DOCs for the FANTOM5 eRNA dataset}}{34}{figure.caption.42}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Annotation with genomic regions and chromatin states of the PsA DOCs from the four cell types differential analysis.}}{89}{figure.caption.47}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Enrichment of PsA DOCs for the FANTOM5 eRNA dataset}}{90}{figure.caption.48}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Differentially accessible regions located within gene bodies of CD14 and NK cells }}{91}{figure.caption.50}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Distinct enriched pathways across SF and PB in CD14$^+$,CD4m$^+$,CD8m$^+$ and NK.}}{92}{figure.caption.51}
 \ttl@starttoc {appendix@1}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.1}{\ignorespaces FAST-ATAC and Omni-ATAC NHEK tapestation profiles.}}{40}{figure.caption.46}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces FAST-ATAC and Omni-ATAC NHEK tapestation profiles.}}{96}{figure.caption.55}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Assessment of TSS enrichment from ATAC-seq and FAST-ATAC in healthy and psoriasis skin biopsies samples.}}{41}{figure.caption.47}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Assessment of TSS enrichment from ATAC-seq and FAST-ATAC in healthy and psoriasis skin biopsies samples.}}{97}{figure.caption.56}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Permutation analysis SF vs PB in CD14$^+$,CD4m$^+$,CD8m$^+$ and NK.}}{42}{figure.caption.48}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Permutation analysis SF vs PB in CD14$^+$,CD4m$^+$,CD8m$^+$ and NK.}}{98}{figure.caption.57}
 \contentsfinish 
