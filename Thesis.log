@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  9 SEP 2018 10:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  26 SEP 2018 17:52
 entering extended mode
 **./Thesis.tex
 (Thesis.tex
@@ -1011,7 +1011,7 @@ File: english.lbx 2017/11/21 v3.9 biblatex localization (PK/JW/AB)
 \@quotelevel=\count329
 \@quotereset=\count330
  (Thesis.aux (Preamble.aux)
-(Results3/Results3.aux) (Appendix/Appendix.aux))
+(Results2/Results2.aux))
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 79.
@@ -1026,7 +1026,8 @@ LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
 LaTeX Font Info:    ... okay on input line 79.
 LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 79.
 LaTeX Font Info:    Try loading font information for OMS+jkp on input line 79.
- (C:\Users\alicia\AppData\Roaming\MiKTeX\2.9\tex\latex\kpfonts\omsjkp.fd
+
+(C:\Users\alicia\AppData\Roaming\MiKTeX\2.9\tex\latex\kpfonts\omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    ... okay on input line 79.
@@ -1129,11 +1130,11 @@ Package biblatex Info: Reference segment=0 on input line 79.
 
 
 (Preamble.tex
-<oxford_logo-eps-converted-to.pdf, id=90, pagebox=cropbox, 561.09625pt x 651.43375pt>
+<oxford_logo-eps-converted-to.pdf, id=63, pagebox=cropbox, 492.06935pt x 536.23439pt>
 File: oxford_logo-eps-converted-to.pdf Graphic file (type pdf)
 <use oxford_logo-eps-converted-to.pdf>
 Package pdftex.def Info: oxford_logo-eps-converted-to.pdf  used on input line 6. on input line 6.
-Package pdftex.def Info: Requested size: 224.43452pt x 260.56888pt on input line 6.
+Package pdftex.def Info: Requested size: 196.82425pt x 214.48994pt on input line 6.
  [1
 
 
@@ -1191,44 +1192,19 @@ LaTeX Font Info:    Try loading font information for TS1+jkp on input line 23.
 
 (C:\Users\alicia\AppData\Roaming\MiKTeX\2.9\tex\latex\kpfonts\ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
-)
-Overfull \hbox (7.6886pt too wide) in paragraph at lines 57--57
- [] [][]\OT1/jkp/b/n/12 Establishment of meth-ods to as-sess genome-wide chro-matin ac-ces-si-bil-ity[] []  
- []
-
-)
+))
 \tf@toc=\write6
 \openout6 = `Thesis.toc'.
 
  [6
 
-] (Thesis.lof
-Underfull \hbox (badness 7558) in paragraph at lines 5--5
- [][] [][]\OT1/jkp/m/n/12 Comparative per-cent-ages of PB and SF im-mune cel-lu-lar 
- []
-
-
-Overfull \hbox (23.95702pt too wide) in paragraph at lines 19--19
- [][] [][]\OT1/jkp/m/n/12 Distinct en-riched path-ways across SF and PB in CD14$[]$,CD4m$[]$,CD8m$[]$ 
- []
-
-
-Underfull \hbox (badness 2671) in paragraph at lines 29--29
- [][] [][]\OT1/jkp/m/n/12 Protein net-work anal-y-sis based on the im-mune PCR ar-ray 
- []
-
-)
+] (Thesis.lof)
 \tf@lof=\write7
 \openout7 = `Thesis.lof'.
 
  [7
 
-] (Thesis.lot
-Underfull \hbox (badness 2277) in paragraph at lines 13--13
- [][] [][]\OT1/jkp/m/n/12 Immune genes with sig-nif-i-cant mod-u-lated ex-pres-sion in SF 
- []
-
-)
+] (Thesis.lot)
 \tf@lot=\write8
 \openout8 = `Thesis.lot'.
 
@@ -1247,649 +1223,82 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--145
 ) [9
 
 ]
-\openout2 = `./Results3/Results3.aux'.
+\openout2 = `./Results2/Results2.aux'.
 
- (Results3/Results3.tex
+ (Results2/Results2.tex
 Chapter 1.
 
-Overfull \hbox (2.36359pt too wide) in paragraph at lines 1--1
-|\OT1/jkp/b/n/24.88 Cross-tissue com-par-i-son of chro-matin
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+\OT1/jkp/b/n/24.88 ac-ces-si-bil-ity land-scape and gene
  []
 
 
-Overfull \hbox (18.15228pt too wide) in paragraph at lines 1--1
-\OT1/jkp/b/n/24.88 ac-ces-si-bil-ity, gene ex-pres-sion sig-na-ture
+Underfull \hbox (badness 1622) in paragraph at lines 12--14
+[]\OT1/jkp/m/n/12 Use of epi-ge-netic marks as drg targest mainly DM-NTs and HDACs
  []
-
-
-LaTeX Warning: Reference `ch:Intro' on page 1 undefined on input line 16.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.17 
+l.18 
       [1
 
 
 
-] [2] [3
-
 ]
 
-LaTeX Warning: Reference `ch:Mat' on page 4 undefined on input line 49.
+LaTeX Warning: Reference `ch:Mat' on page 2 undefined on input line 21.
 
 
-LaTeX Warning: Reference `ch:Mat' on page 4 undefined on input line 75.
+LaTeX Warning: Reference `PASI' on page 2 undefined on input line 54.
 
 
-LaTeX Warning: Citation 'Ross2000' on page 4 undefined on input line 75.
+LaTeX Warning: Reference `PASI' on page 2 undefined on input line 54.
 
 
-LaTeX Warning: Citation 'Jongbloed2006' on page 4 undefined on input line 75.
+LaTeX Warning: Reference `ch:Intro' on page 2 undefined on input line 60.
 
 
-LaTeX Warning: Citation 'Spadaro2004' on page 4 undefined on input line 75.
+LaTeX Warning: Citation 'Schmitt2005' on page 2 undefined on input line 60.
 
 
-LaTeX Warning: Citation 'Spadaro2004' on page 4 undefined on input line 75.
+LaTeX Warning: Citation 'Woolacott2006' on page 2 undefined on input line 60.
 
-[4
 
-]
-<./Results3/pdfs/PSA_ATAC_cohort_cell_type_composition_boxplots.pdf, id=261, pagebox=cropbox, 847.83449pt x 585.85574pt>
+LaTeX Warning: Citation 'Moll1976' on page 2 undefined on input line 60.
 
-File: ./Results3/pdfs/PSA_ATAC_cohort_cell_type_composition_boxplots.pdf Graphic file (type pdf)
-<use ./Results3/pdfs/PSA_ATAC_cohort_cell_type_composition_boxplots.pdf>
-Package pdftex.def Info: ./Results3/pdfs/PSA_ATAC_cohort_cell_type_composition_boxplots.pdf  used on input line 80. on i
-nput line 80.
-Package pdftex.def Info: Requested size: 298.75262pt x 206.43819pt on input line 80.
- [5 <./Results3/pdfs/PSA_ATAC_cohort_cell_type_composition_boxplots.pdf>]
-<./Results3/pdfs/ATAC_PSA_total_filtered_reads_boxplot.pdf, id=289, pagebox=cropbox, 871.255pt x 637.38126pt>
-File: ./Results3/pdfs/ATAC_PSA_total_filtered_reads_boxplot.pdf Graphic file (type pdf)
-<use ./Results3/pdfs/ATAC_PSA_total_filtered_reads_boxplot.pdf>
-Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_total_filtered_reads_boxplot.pdf  used on input line 101. on input lin
-e 101.
-Package pdftex.def Info: Requested size: 204.85802pt x 149.86241pt on input line 101.
-<./Results3/pdfs/ATAC_PSA_pcnt_dups_and_MT_reads_boxplot.pdf, id=290, pagebox=cropbox, 856.19875pt x 647.41875pt>
-File: ./Results3/pdfs/ATAC_PSA_pcnt_dups_and_MT_reads_boxplot.pdf Graphic file (type pdf)
-<use ./Results3/pdfs/ATAC_PSA_pcnt_dups_and_MT_reads_boxplot.pdf>
-Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_pcnt_dups_and_MT_reads_boxplot.pdf  used on input line 107. on input l
-ine 107.
-Package pdftex.def Info: Requested size: 204.85802pt x 154.89961pt on input line 107.
-<./Results3/pdfs/ATAC_PSA_all_TSS_max_per_cell_type.pdf, id=291, pagebox=cropbox, 859.21pt x 639.38875pt>
-File: ./Results3/pdfs/ATAC_PSA_all_TSS_max_per_cell_type.pdf Graphic file (type pdf)
-<use ./Results3/pdfs/ATAC_PSA_all_TSS_max_per_cell_type.pdf>
-Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_all_TSS_max_per_cell_type.pdf  used on input line 114. on input line 1
-14.
-Package pdftex.def Info: Requested size: 204.85802pt x 152.44177pt on input line 114.
-<./Results3/pdfs/ATAC_PSA_all_peaks_vs_num_reads.pdf, id=292, pagebox=cropbox, 851.18pt x 641.39626pt>
-File: ./Results3/pdfs/ATAC_PSA_all_peaks_vs_num_reads.pdf Graphic file (type pdf)
-<use ./Results3/pdfs/ATAC_PSA_all_peaks_vs_num_reads.pdf>
-Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_all_peaks_vs_num_reads.pdf  used on input line 120. on input line 120.
 
-Package pdftex.def Info: Requested size: 204.85802pt x 154.36887pt on input line 120.
- [6]
-Underfull \hbox (badness 1107) in paragraph at lines 127--129
-\OT1/jkp/m/n/12 fil-ter-ing (FDR$\OML/jkp/m/it/12 <$\OT1/jkp/m/n/12 0.01), the num-ber of ac-ces-si-ble re-gions per sam
--ple ranged
+LaTeX Warning: Citation 'McGonagle' on page 2 undefined on input line 60.
+
+
+LaTeX Warning: Citation '2011' on page 2 undefined on input line 60.
+
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.57404pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2] [3]
+
+LaTeX Warning: Citation 'Corces2016' on page 4 undefined on input line 103.
+
+
+LaTeX Warning: Reference `ch:Results1' on page 4 undefined on input line 103.
+
+[4]
+Underfull \hbox (badness 1097) in paragraph at lines 105--106
+[]\OT1/jkp/m/n/12 For three of the pso-ri-a-sis pa-tients paired biop-sies from le-sional and
  []
 
-
-LaTeX Warning: Reference `ch:Mat' on page 7 undefined on input line 133.
-
-
-LaTeX Warning: Reference `ch:Results1' on page 7 undefined on input line 133.
-
-[7 <./Results3/pdfs/ATAC_PSA_total_filtered_reads_boxplot.pdf> <./Results3/pdfs/ATAC_PSA_pcnt_dups_and_MT_reads_boxplot.
-pdf> <./Results3/pdfs/ATAC_PSA_all_TSS_max_per_cell_type.pdf> <./Results3/pdfs/ATAC_PSA_all_peaks_vs_num_reads.pdf>]
-<./Results3/pdfs/ATAC_PSA_all_DESEq2_PCA.pdf, id=368, pagebox=cropbox, 859.21pt x 574.145pt>
-File: ./Results3/pdfs/ATAC_PSA_all_DESEq2_PCA.pdf Graphic file (type pdf)
-<use ./Results3/pdfs/ATAC_PSA_all_DESEq2_PCA.pdf>
-Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_all_DESEq2_PCA.pdf  used on input line 137. on input line 137.
-Package pdftex.def Info: Requested size: 298.75262pt x 199.63089pt on input line 137.
-
-Underfull \hbox (badness 1796) in paragraph at lines 142--143
-\OT1/jkp/m/n/12 anal-y-sis of dif-fer-ent eQTL pub-licly avail-able data sets for the com-bined
- []
-
-[8 <./Results3/pdfs/ATAC_PSA_all_DESEq2_PCA.pdf>]
-<./Results3/pdfs/ATAC_PSA_all_GTeX_eQTL_enrichment_dotplot.pdf, id=397, pagebox=cropbox, 844.15375pt x 597.23125pt>
-File: ./Results3/pdfs/ATAC_PSA_all_GTeX_eQTL_enrichment_dotplot.pdf Graphic file (type pdf)
-<use ./Results3/pdfs/ATAC_PSA_all_GTeX_eQTL_enrichment_dotplot.pdf>
-Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_all_GTeX_eQTL_enrichment_dotplot.pdf  used on input line 149. on input
- line 149.
-Package pdftex.def Info: Requested size: 298.75262pt x 211.36699pt on input line 149.
-<./Results3/pdfs/ATAC_PSA_all_Jknight_eQTL_enrichment_dotplot.pdf, id=398, pagebox=cropbox, 872.25874pt x 621.32124pt>
-File: ./Results3/pdfs/ATAC_PSA_all_Jknight_eQTL_enrichment_dotplot.pdf Graphic file (type pdf)
-<use ./Results3/pdfs/ATAC_PSA_all_Jknight_eQTL_enrichment_dotplot.pdf>
-Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_all_Jknight_eQTL_enrichment_dotplot.pdf  used on input line 156. on in
-put line 156.
-Package pdftex.def Info: Requested size: 298.75262pt x 212.80124pt on input line 156.
- [9] [10 <./Results3/pdfs/ATAC_PSA_all_GTeX_eQTL_enrichment_dotplot.pdf> <./Results3/pdfs/ATAC_PSA_all_Jknight_eQTL_enri
-chment_dotplot.pdf>]
-Underfull \hbox (badness 7012) in paragraph at lines 192--193
-[]\OT1/jkp/m/n/12 Permutation anal-y-sis us-ing the ten unique pos-si-ble com-bi-na-tions
- []
-
-[11]
-<./Results3/pdfs/ATAC_PSA_DOCS_per_cell_type_general_annotation.pdf, id=444, pagebox=cropbox, 830.10126pt x 602.25pt>
-File: ./Results3/pdfs/ATAC_PSA_DOCS_per_cell_type_general_annotation.pdf Graphic file (type pdf)
-<use ./Results3/pdfs/ATAC_PSA_DOCS_per_cell_type_general_annotation.pdf>
-Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_DOCS_per_cell_type_general_annotation.pdf  used on input line 202. on 
-input line 202.
-Package pdftex.def Info: Requested size: 298.75262pt x 216.7455pt on input line 202.
-<./Results3/pdfs/ATAC_PSA_DOCS_chromatin_states_stacked_barplot.pdf, id=445, pagebox=cropbox, 973.6375pt x 648.4225pt>
-File: ./Results3/pdfs/ATAC_PSA_DOCS_chromatin_states_stacked_barplot.pdf Graphic file (type pdf)
-<use ./Results3/pdfs/ATAC_PSA_DOCS_chromatin_states_stacked_barplot.pdf>
-Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_DOCS_chromatin_states_stacked_barplot.pdf  used on input line 209. on 
-input line 209.
-Package pdftex.def Info: Requested size: 298.75262pt x 198.96082pt on input line 209.
- [12]
-
-LaTeX Warning: Reference `figure:PSA_FANTOM' on page 13 undefined on input line 218.
-
-
-LaTeX Warning: Citation 'Andersson2014' on page 13 undefined on input line 218.
-
-[13 <./Results3/pdfs/ATAC_PSA_DOCS_per_cell_type_general_annotation.pdf> <./Results3/pdfs/ATAC_PSA_DOCS_chromatin_states
-_stacked_barplot.pdf>]
-<./Results3/pdfs/ATAC_PsA_FANTOM_enhancer_enrichment_all_cell_types.pdf, id=486, pagebox=cropbox, 893.3375pt x 632.3625p
-t>
-File: ./Results3/pdfs/ATAC_PsA_FANTOM_enhancer_enrichment_all_cell_types.pdf Graphic file (type pdf)
-<use ./Results3/pdfs/ATAC_PsA_FANTOM_enhancer_enrichment_all_cell_types.pdf>
-Package pdftex.def Info: ./Results3/pdfs/ATAC_PsA_FANTOM_enhancer_enrichment_all_cell_types.pdf  used on input line 223.
- on input line 223.
-Package pdftex.def Info: Requested size: 341.43436pt x 241.68971pt on input line 223.
-
-Overfull \hbox (3.5402pt too wide) in paragraph at lines 238--250
- [][] 
- []
-
-! Undefined control sequence.
-l.254 ...located at the 5' and 3' UTRs for \tetxit
-                                                  {IL7R} gene where found to...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[14 <./Results3/pdfs/ATAC_PsA_FANTOM_enhancer_enrichment_all_cell_types.pdf>]
-<./Results3/pdfs/ATAC_PSA_NK_VAV3.pdf, id=510, pagebox=cropbox, 542.025pt x 355.3275pt>
-File: ./Results3/pdfs/ATAC_PSA_NK_VAV3.pdf Graphic file (type pdf)
-<use ./Results3/pdfs/ATAC_PSA_NK_VAV3.pdf>
-Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_NK_VAV3.pdf  used on input line 261. on input line 261.
-Package pdftex.def Info: Requested size: 298.75262pt x 195.85362pt on input line 261.
-<./Results3/pdfs/ATAC_PSA_CD14_IL7R.pdf, id=511, pagebox=cropbox, 542.025pt x 370.38374pt>
-File: ./Results3/pdfs/ATAC_PSA_CD14_IL7R.pdf Graphic file (type pdf)
-<use ./Results3/pdfs/ATAC_PSA_CD14_IL7R.pdf>
-Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_CD14_IL7R.pdf  used on input line 268. on input line 268.
-Package pdftex.def Info: Requested size: 298.75262pt x 204.1525pt on input line 268.
- [15 <./Results3/pdfs/ATAC_PSA_NK_VAV3.pdf> <./Results3/pdfs/ATAC_PSA_CD14_IL7R.pdf
-
-pdfTeX warning: pdflatex.exe (file ./Results3/pdfs/ATAC_PSA_CD14_IL7R.pdf): PDF inclusion: multiple pdfs with page group
- included in a single page
->]
-
-LaTeX Warning: Reference `ch:Mat' on page 16 undefined on input line 282.
-
-! Undefined control sequence.
-<recently read> \kapa 
-                      
-l.282 ...n and cell survival such as the NF-$\kapa
-                                                  $B pathway or cytokine pro...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no â in font jkpmn7t!
-Missing character: There is no € in font jkpmn7t!
-Missing character: There is no “ in font jkpmn7t!
-
-LaTeX Warning: Citation 'XY' on page 16 undefined on input line 282.
-
-[16]
-Underfull \hbox (badness 2990) in paragraph at lines 285--291
-\OT1/jkp/m/n/12 gam-mopa-thy of un-de-ter-mined sig-nif-i-cance (MGUS) in PsA pa-tients and
- []
-
-<./Results3/pdfs/ATAC_PSA_CD14_pathways_barplot_all_DOCS_proximity.pdf, id=570, pagebox=cropbox, 844.15375pt x 682.55pt>
-
-File: ./Results3/pdfs/ATAC_PSA_CD14_pathways_barplot_all_DOCS_proximity.pdf Graphic file (type pdf)
-<use ./Results3/pdfs/ATAC_PSA_CD14_pathways_barplot_all_DOCS_proximity.pdf>
-Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_CD14_pathways_barplot_all_DOCS_proximity.pdf  used on input line 296. 
-on input line 296.
-Package pdftex.def Info: Requested size: 192.0548pt x 155.28557pt on input line 296.
-<./Results3/pdfs/ATAC_PSA_CD4_pathways_barplot_all_DOCS_proximity.pdf, id=571, pagebox=cropbox, 844.15375pt x 662.475pt>
-
-File: ./Results3/pdfs/ATAC_PSA_CD4_pathways_barplot_all_DOCS_proximity.pdf Graphic file (type pdf)
-<use ./Results3/pdfs/ATAC_PSA_CD4_pathways_barplot_all_DOCS_proximity.pdf>
-Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_CD4_pathways_barplot_all_DOCS_proximity.pdf  used on input line 302. o
-n input line 302.
-Package pdftex.def Info: Requested size: 192.0548pt x 150.71835pt on input line 302.
-<./Results3/pdfs/ATAC_PSA_CD8_pathways_barplot_all_DOCS_proximity.pdf, id=572, pagebox=cropbox, 769.87625pt x 670.505pt>
-
-File: ./Results3/pdfs/ATAC_PSA_CD8_pathways_barplot_all_DOCS_proximity.pdf Graphic file (type pdf)
-<use ./Results3/pdfs/ATAC_PSA_CD8_pathways_barplot_all_DOCS_proximity.pdf>
-Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_CD8_pathways_barplot_all_DOCS_proximity.pdf  used on input line 309. o
-n input line 309.
-Package pdftex.def Info: Requested size: 192.0548pt x 167.26775pt on input line 309.
-<./Results3/pdfs/ATAC_PSA_NK_pathways_barplot_all_DOCS_proximity.pdf, id=573, pagebox=cropbox, 880.28876pt x 656.4525pt>
-
-File: ./Results3/pdfs/ATAC_PSA_NK_pathways_barplot_all_DOCS_proximity.pdf Graphic file (type pdf)
-<use ./Results3/pdfs/ATAC_PSA_NK_pathways_barplot_all_DOCS_proximity.pdf>
-Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_NK_pathways_barplot_all_DOCS_proximity.pdf  used on input line 315. on
- input line 315.
-Package pdftex.def Info: Requested size: 192.0548pt x 143.21799pt on input line 315.
-[17]
-<./Results3/pdfs/ATAC_PSA_enrichment_conserved_TFBS_barplots_cell_type_specific_DOCS_all_cell_types_per_tissue.pdf, id=5
-78, pagebox=cropbox, 899.69426pt x 632.02824pt>
-File: ./Results3/pdfs/ATAC_PSA_enrichment_conserved_TFBS_barplots_cell_type_specific_DOCS_all_cell_types_per_tissue.pdf 
-Graphic file (type pdf)
-<use ./Results3/pdfs/ATAC_PSA_enrichment_conserved_TFBS_barplots_cell_type_specific_DOCS_all_cell_types_per_tissue.pdf>
-Package pdftex.def Info: ./Results3/pdfs/ATAC_PSA_enrichment_conserved_TFBS_barplots_cell_type_specific_DOCS_all_cell_ty
-pes_per_tissue.pdf  used on input line 363. on input line 363.
-Package pdftex.def Info: Requested size: 341.43436pt x 239.85498pt on input line 363.
-
-Overfull \hbox (2.92822pt too wide) in paragraph at lines 376--376
-|\OT1/jkp/b/n/12 Immune-relevant gene ex-pres-sion and cor-re-la-tion with chro-matin ac-ces-si-bil-ity| 
- []
-
-
-Underfull \hbox (badness 1466) in paragraph at lines 378--379
-\OT1/jkp/m/n/12 of the chro-matin land-scape also presents some lim-i-ta-tions, in-clud-ing the
- []
-
-
-Underfull \hbox (badness 2181) in paragraph at lines 378--379
-\OT1/jkp/m/n/12 dis-cor-dance be-tween open chro-matin and func-tion-al-ity of the reg-u-la-tory
- []
-
-[18 <./Results3/pdfs/ATAC_PSA_CD14_pathways_barplot_all_DOCS_proximity.pdf> <./Results3/pdfs/ATAC_PSA_CD4_pathways_barpl
-ot_all_DOCS_proximity.pdf> <./Results3/pdfs/ATAC_PSA_CD8_pathways_barplot_all_DOCS_proximity.pdf> <./Results3/pdfs/ATAC_
-PSA_NK_pathways_barplot_all_DOCS_proximity.pdf>] [19 <./Results3/pdfs/ATAC_PSA_enrichment_conserved_TFBS_barplots_cell_t
-ype_specific_DOCS_all_cell_types_per_tissue.pdf>]
-
-LaTeX Warning: Reference `figure:PSA_PCR_array_5pcnt_heatmap' on page 20 undefined on input line 384.
-
-
-LaTeX Warning: Reference `figure:PSA_PCR_array_5pcnt_heatmap' on page 20 undefined on input line 384.
-
-! Undefined control sequence.
-l.384 ... the three cell types, including \tetxtit
-                                                  {FOS}, \textit{IL16}, \tex...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `figure:PSA_PCR_array_5pcnt_heatmap' on page 20 undefined on input line 384.
-
-
-LaTeX Warning: Reference `figure:PSA_PCR_array_5pcnt_heatmap' on page 20 undefined on input line 384.
-
-
-LaTeX Warning: Reference `figure:PSA_PCR_array_5pcnt_heatmap' on page 20 undefined on input line 384.
-
-[20]
-<./Results3/pdfs/PCR_array_PSA_SF_vs_PB_filtered_5_percent_genes_heatmap.pdf, id=737, pagebox=cropbox, 3386.231pt x 731.
-2369pt>
-File: ./Results3/pdfs/PCR_array_PSA_SF_vs_PB_filtered_5_percent_genes_heatmap.pdf Graphic file (type pdf)
-<use ./Results3/pdfs/PCR_array_PSA_SF_vs_PB_filtered_5_percent_genes_heatmap.pdf>
-Package pdftex.def Info: ./Results3/pdfs/PCR_array_PSA_SF_vs_PB_filtered_5_percent_genes_heatmap.pdf  used on input line
- 389. on input line 389.
-Package pdftex.def Info: Requested size: 640.187pt x 138.24466pt on input line 389.
- [21
-
- <./Results3/pdfs/PCR_array_PSA_SF_vs_PB_filtered_5_percent_genes_heatmap.pdf>]
-
-LaTeX Warning: Reference `figure:PSA_PCR_array_vulcano_plots' on page 22 undefined on input line 396.
-
-
-LaTeX Warning: Reference `figure:PSA_PCR_array_vulcano_plots' on page 22 undefined on input line 396.
-
-
-LaTeX Warning: Reference `figure:PSA_PCR_array_vulcano_plots' on page 22 undefined on input line 396.
-
-<./Results3/pdfs/PSA_CD14_vulcano_plot_PCR_array_mean_FC.pdf, id=771, pagebox=cropbox, 837.63237pt x 679.53876pt>
-File: ./Results3/pdfs/PSA_CD14_vulcano_plot_PCR_array_mean_FC.pdf Graphic file (type pdf)
-<use ./Results3/pdfs/PSA_CD14_vulcano_plot_PCR_array_mean_FC.pdf>
-Package pdftex.def Info: ./Results3/pdfs/PSA_CD14_vulcano_plot_PCR_array_mean_FC.pdf  used on input line 405. on input l
-ine 405.
-Package pdftex.def Info: Requested size: 213.39566pt x 173.11937pt on input line 405.
-<./Results3/pdfs/PSA_CD4_vulcano_plot_PCR_array_mean_FC.pdf, id=772, pagebox=cropbox, 821.0675pt x 672.5125pt>
-File: ./Results3/pdfs/PSA_CD4_vulcano_plot_PCR_array_mean_FC.pdf Graphic file (type pdf)
-<use ./Results3/pdfs/PSA_CD4_vulcano_plot_PCR_array_mean_FC.pdf>
-Package pdftex.def Info: ./Results3/pdfs/PSA_CD4_vulcano_plot_PCR_array_mean_FC.pdf  used on input line 411. on input li
-ne 411.
-Package pdftex.def Info: Requested size: 213.39566pt x 174.77728pt on input line 411.
-<./Results3/pdfs/PSA_CD8_vulcano_plot_PCR_array_mean_FC.pdf, id=773, pagebox=cropbox, 823.075pt x 666.49pt>
-File: ./Results3/pdfs/PSA_CD8_vulcano_plot_PCR_array_mean_FC.pdf Graphic file (type pdf)
-<use ./Results3/pdfs/PSA_CD8_vulcano_plot_PCR_array_mean_FC.pdf>
-Package pdftex.def Info: ./Results3/pdfs/PSA_CD8_vulcano_plot_PCR_array_mean_FC.pdf  used on input line 416. on input li
-ne 416.
-Package pdftex.def Info: Requested size: 213.39566pt x 172.79515pt on input line 416.
-
-LaTeX Warning: Citation 'Dolcino2015' on page 22 undefined on input line 459.
-
-
-LaTeX Warning: Reference `figure:PSA_PCR_array_vulcano_plots' on page 22 undefined on input line 459.
-
-
-LaTeX Warning: Reference `figure:PSA_CD14_ATAC_FN1' on page 22 undefined on input line 459.
-
-[22
-
-] [23 <./Results3/pdfs/PSA_CD14_vulcano_plot_PCR_array_mean_FC.pdf> <./Results3/pdfs/PSA_CD4_vulcano_plot_PCR_array_mean
-_FC.pdf> <./Results3/pdfs/PSA_CD8_vulcano_plot_PCR_array_mean_FC.pdf>]
-<./Results3/pdfs/PSA_CD14_ATAC_FN1_paired_gene_expression.pdf, id=868, pagebox=cropbox, 550.055pt x 597.23125pt>
-File: ./Results3/pdfs/PSA_CD14_ATAC_FN1_paired_gene_expression.pdf Graphic file (type pdf)
-<use ./Results3/pdfs/PSA_CD14_ATAC_FN1_paired_gene_expression.pdf>
-Package pdftex.def Info: ./Results3/pdfs/PSA_CD14_ATAC_FN1_paired_gene_expression.pdf  used on input line 465. on input 
-line 465.
-Package pdftex.def Info: Requested size: 256.0774pt x 278.04683pt on input line 465.
-
-Underfull \hbox (badness 1803) in paragraph at lines 471--471
-|\OT1/jkp/b/n/12 Modulated gene ex-pres-sion in CD14$[]$ mono-cytes shows en-rich-ment for
- []
-
-[24 <./Results3/pdfs/PSA_CD14_ATAC_FN1_paired_gene_expression.pdf>]
-
-LaTeX Warning: Citation 'Dolcino2015' on page 25 undefined on input line 475.
-
-
-LaTeX Warning: Reference `figure:PSA_PCR_array_5pcnt_heatmap' on page 25 undefined on input line 475.
-
-
-LaTeX Warning: Reference `figure:PSA_PCR_array_vulcano_plots' on page 25 undefined on input line 475.
-
-! Undefined control sequence.
-l.475 ...rs genes, including \textit{TNF}, \tetxit
-                                                  {IRF7} and \textit{MyD88},...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \kapa 
-                      
-l.475 ...ns in CD14$^+$ monocytes for the NF$\kapa
-                                                  $B pathway is closely rela...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \kapa 
-                      
-l.475 ...ys lead to the activation of the NF$\kapa
-                                                  $B TF, which induces trans...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `figure:PSA_TFBS' on page 25 undefined on input line 475.
-
-
-Underfull \hbox (badness 3189) in paragraph at lines 475--476
-[]\OT1/jkp/m/n/12 The TLR sig-nalling path-ways en-rich-ment in-volved \OT1/jkp/m/it/12 FN1 \OT1/jkp/m/n/12 (pre-vi-ousl
-y
- []
-
-[25]
-
-LaTeX Warning: Reference `figure:PSA_PCR_array_5pcnt_heatmap' on page 26 undefined on input line 477.
-
-
-LaTeX Warning: Reference `figure:fig:PSA_PCR_array_5pcnt_heatmap' on page 26 undefined on input line 477.
-
-[26] [27
-
-]
-
-LaTeX Warning: Reference `figure:PSA_PCR_network_analysis' on page 28 undefined on input line 510.
-
-
-LaTeX Warning: Reference `figure:PSA_PCR_array_5pcnt_heatmap' on page 28 undefined on input line 510.
-
-
-LaTeX Warning: Reference `figure:PSA_PCR_network_analysis' on page 28 undefined on input line 512.
-
-<./Results3/pdfs/PSA_PCR_array_network_analysis.pdf, id=921, pagebox=cropbox, 4090.10065pt x 4830.21556pt>
-File: ./Results3/pdfs/PSA_PCR_array_network_analysis.pdf Graphic file (type pdf)
-<use ./Results3/pdfs/PSA_PCR_array_network_analysis.pdf>
-Package pdftex.def Info: ./Results3/pdfs/PSA_PCR_array_network_analysis.pdf  used on input line 518. on input line 518.
-Package pdftex.def Info: Requested size: 426.79134pt x 503.98152pt on input line 518.
-
-Underfull \hbox (badness 2452) in paragraph at lines 523--524
-[]\OT1/jkp/m/n/12 Overall, the in-te-gra-tion of the chro-matin ac-ces-si-bil-ity and im-mune
- []
-
-[28
-
-] [29 <./Results3/pdfs/PSA_PCR_array_network_analysis.pdf>]
-
-LaTeX Warning: Reference `figure:PSA_PCR_array_HC_FC_correlation' on page 30 undefined on input line 530.
-
-
-LaTeX Warning: Reference `figure:PSA_PCR_array_HC_FC_correlation' on page 30 undefined on input line 530.
-
-
-LaTeX Warning: Reference `figure:PSA_PCR_array_HC_FC_correlation' on page 30 undefined on input line 530.
-
-
-LaTeX Warning: Reference `figure:PSA_PCR_array_HC_FC_correlation' on page 30 undefined on input line 532.
-
-
-LaTeX Warning: Reference `figure:PSA_PCR_array_HC_FC_correlation' on page 30 undefined on input line 532.
-
-
-LaTeX Warning: Reference `figure:PSA_PCR_array_HC_FC_correlation' on page 30 undefined on input line 532.
-
-
-Underfull \hbox (badness 2310) in paragraph at lines 532--535
-\OT1/jkp/m/n/12 in PsA SF CD14$[]$ mono-cytes and their ex-pres-sion was not sig-nif-i-cantly
- []
-
-[30]
-
-LaTeX Warning: Reference `figure:PSA_PCR_array_HC_FC_correlation' on page 31 undefined on input line 536.
-
-
-LaTeX Warning: Reference `figure:PSA_PCR_array_HC_FC_correlation' on page 31 undefined on input line 536.
-
-
-LaTeX Warning: Citation 'Zhong2015' on page 31 undefined on input line 536.
-
-
-LaTeX Warning: Reference `figure:PSA_PCR_array_HC_FC_correlation' on page 31 undefined on input line 537.
-
-
-LaTeX Warning: Reference `figure:PSA_PCR_array_HC_FC_correlation' on page 31 undefined on input line 537.
-
-
-LaTeX Warning: Citation 'Zaiss2013' on page 31 undefined on input line 537.
-
-[31]
-<./Results3/pdfs/PSA_array_correlation_CD14_FC_HVPsA_vs_SFPBPsA.pdf, id=1759, pagebox=cropbox, 834.11626pt x 680.5425pt>
-
-File: ./Results3/pdfs/PSA_array_correlation_CD14_FC_HVPsA_vs_SFPBPsA.pdf Graphic file (type pdf)
-<use ./Results3/pdfs/PSA_array_correlation_CD14_FC_HVPsA_vs_SFPBPsA.pdf>
-Package pdftex.def Info: ./Results3/pdfs/PSA_array_correlation_CD14_FC_HVPsA_vs_SFPBPsA.pdf  used on input line 549. on 
-input line 549.
-Package pdftex.def Info: Requested size: 213.39566pt x 174.10197pt on input line 549.
-<./Results3/pdfs/PSA_array_correlation_CD4_FC_HVPsA_vs_SFPBPsA.pdf, id=1760, pagebox=cropbox, 812.03375pt x 679.53876pt>
-
-File: ./Results3/pdfs/PSA_array_correlation_CD4_FC_HVPsA_vs_SFPBPsA.pdf Graphic file (type pdf)
-<use ./Results3/pdfs/PSA_array_correlation_CD4_FC_HVPsA_vs_SFPBPsA.pdf>
-Package pdftex.def Info: ./Results3/pdfs/PSA_array_correlation_CD4_FC_HVPsA_vs_SFPBPsA.pdf  used on input line 555. on i
-nput line 555.
-Package pdftex.def Info: Requested size: 213.39566pt x 178.57343pt on input line 555.
-<./Results3/pdfs/PSA_array_correlation_CD8_FC_HVPsA_vs_SFPBPsA.pdf, id=1761, pagebox=cropbox, 810.02625pt x 671.50874pt>
-
-File: ./Results3/pdfs/PSA_array_correlation_CD8_FC_HVPsA_vs_SFPBPsA.pdf Graphic file (type pdf)
-<use ./Results3/pdfs/PSA_array_correlation_CD8_FC_HVPsA_vs_SFPBPsA.pdf>
-Package pdftex.def Info: ./Results3/pdfs/PSA_array_correlation_CD8_FC_HVPsA_vs_SFPBPsA.pdf  used on input line 560. on i
-nput line 560.
-Package pdftex.def Info: Requested size: 213.39566pt x 176.90384pt on input line 560.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 569.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 569.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 569.
-
-
-LaTeX Warning: Reference `ch:Mat' on page 32 undefined on input line 571.
-
-
-LaTeX Warning: Reference `figure:PSA_cytof_cytokines' on page 32 undefined on input line 571.
-
-<./Results3/pdfs/CyTOF_ICS_cytokines_production_IL2_IL8_TNF_IFNg.pdf, id=1762, pagebox=cropbox, 834.78574pt x 573.81075p
-t>
-File: ./Results3/pdfs/CyTOF_ICS_cytokines_production_IL2_IL8_TNF_IFNg.pdf Graphic file (type pdf)
-<use ./Results3/pdfs/CyTOF_ICS_cytokines_production_IL2_IL8_TNF_IFNg.pdf>
-Package pdftex.def Info: ./Results3/pdfs/CyTOF_ICS_cytokines_production_IL2_IL8_TNF_IFNg.pdf  used on input line 578. on
- input line 578.
-Package pdftex.def Info: Requested size: 341.43436pt x 234.68605pt on input line 578.
-[32] [33 <./Results3/pdfs/PSA_array_correlation_CD14_FC_HVPsA_vs_SFPBPsA.pdf> <./Results3/pdfs/PSA_array_correlation_CD4
-_FC_HVPsA_vs_SFPBPsA.pdf> <./Results3/pdfs/PSA_array_correlation_CD8_FC_HVPsA_vs_SFPBPsA.pdf>]
-<./Results3/pdfs/PSA_0h_6h_BFA_TNFa_mass_cytometry_PSA1718_PSA1719_PSA1607.pdf, id=1852, pagebox=cropbox, 538.29108pt x 
-293.48648pt>
-File: ./Results3/pdfs/PSA_0h_6h_BFA_TNFa_mass_cytometry_PSA1718_PSA1719_PSA1607.pdf Graphic file (type pdf)
-<use ./Results3/pdfs/PSA_0h_6h_BFA_TNFa_mass_cytometry_PSA1718_PSA1719_PSA1607.pdf>
-Package pdftex.def Info: ./Results3/pdfs/PSA_0h_6h_BFA_TNFa_mass_cytometry_PSA1718_PSA1719_PSA1607.pdf  used on input li
-ne 591. on input line 591.
-Package pdftex.def Info: Requested size: 341.43436pt x 186.15584pt on input line 591.
-<./Results3/pdfs/PSA_percent_monocytes_producing_TNFa_PB_and_SF.pdf, id=1853, pagebox=cropbox, 894.34125pt x 630.68925pt
->
-File: ./Results3/pdfs/PSA_percent_monocytes_producing_TNFa_PB_and_SF.pdf Graphic file (type pdf)
-<use ./Results3/pdfs/PSA_percent_monocytes_producing_TNFa_PB_and_SF.pdf>
-Package pdftex.def Info: ./Results3/pdfs/PSA_percent_monocytes_producing_TNFa_PB_and_SF.pdf  used on input line 598. on 
-input line 598.
-Package pdftex.def Info: Requested size: 277.41176pt x 195.62712pt on input line 598.
- [34 <./Results3/pdfs/CyTOF_ICS_cytokines_production_IL2_IL8_TNF_IFNg.pdf>]) [35 <./Results3/pdfs/PSA_0h_6h_BFA_TNFa_mas
-s_cytometry_PSA1718_PSA1719_PSA1607.pdf> <./Results3/pdfs/PSA_percent_monocytes_producing_TNFa_PB_and_SF.pdf>]
-\openout2 = `./Appendix/Appendix.aux'.
-
- (Appendix/Appendix.tex
-\c@ttl@toc@default=\count337
-\c@ttl@lof@appendix=\count338
-\c@ttl@lot@appendix=\count339
- (Thesis.ptc
-Overfull \hbox (7.6886pt too wide) in paragraph at lines 58--58
- [] [][]\OT1/jkp/b/n/12 Establishment of meth-ods to as-sess genome-wide chro-matin ac-ces-si-bil-ity[] []  
- []
-
-) (Thesis.plf) (Thesis.plt) [36
-
-
-
-]
-Appendix A.
-<./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C1.pdf, id=1970, pagebox=cropbox, 646.415pt x 312.16624pt>
-File: ./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C1.pdf Graphic file (type pdf)
-<use ./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C1.pdf>
-Package pdftex.def Info: ./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C1.pdf  used on input line 21. on input lin
-e 21.
-Package pdftex.def Info: Requested size: 298.75262pt x 144.2746pt on input line 21.
-<./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C3.pdf, id=1971, pagebox=cropbox, 652.4375pt x 312.16624pt>
-File: ./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C3.pdf Graphic file (type pdf)
-<use ./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C3.pdf>
-Package pdftex.def Info: ./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C3.pdf  used on input line 27. on input lin
-e 27.
-Package pdftex.def Info: Requested size: 298.75262pt x 142.94565pt on input line 27.
-<./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C4.pdf, id=1972, pagebox=cropbox, 685.56125pt x 332.24126pt>
-File: ./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C4.pdf Graphic file (type pdf)
-<use ./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C4.pdf>
-Package pdftex.def Info: ./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C4.pdf  used on input line 32. on input lin
-e 32.
-Package pdftex.def Info: Requested size: 298.75262pt x 144.78738pt on input line 32.
-<./Appendix/pdfs/Chapter3/Omni_ATAC_NHEK_Rep1_tapestation.pdf, id=1973, pagebox=cropbox, 636.3775pt x 328.22626pt>
-File: ./Appendix/pdfs/Chapter3/Omni_ATAC_NHEK_Rep1_tapestation.pdf Graphic file (type pdf)
-<use ./Appendix/pdfs/Chapter3/Omni_ATAC_NHEK_Rep1_tapestation.pdf>
-Package pdftex.def Info: ./Appendix/pdfs/Chapter3/Omni_ATAC_NHEK_Rep1_tapestation.pdf  used on input line 37. on input l
-ine 37.
-Package pdftex.def Info: Requested size: 298.75262pt x 154.08606pt on input line 37.
-
-LaTeX Warning: Float too large for page by 6.92877pt on input line 44.
-
-<./Appendix/pdfs/Chapter3/ATAC_skin_biopsy_samples_all_methods_TSS_enrichment_supplementary.pdf, id=1974, pagebox=cropbo
-x, 724.7075pt x 597.23125pt>
-File: ./Appendix/pdfs/Chapter3/ATAC_skin_biopsy_samples_all_methods_TSS_enrichment_supplementary.pdf Graphic file (type 
-pdf)
-<use ./Appendix/pdfs/Chapter3/ATAC_skin_biopsy_samples_all_methods_TSS_enrichment_supplementary.pdf>
-Package pdftex.def Info: ./Appendix/pdfs/Chapter3/ATAC_skin_biopsy_samples_all_methods_TSS_enrichment_supplementary.pdf 
- used on input line 50. on input line 50.
-Package pdftex.def Info: Requested size: 341.43436pt x 281.38219pt on input line 50.
-[37
-
-] [38 <./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C1.pdf> <./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_
-C3.pdf> <./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C4.pdf> <./Appendix/pdfs/Chapter3/Omni_ATAC_NHEK_Rep1_tapes
-tation.pdf>] [39 <./Appendix/pdfs/Chapter3/ATAC_skin_biopsy_samples_all_methods_TSS_enrichment_supplementary.pdf>]
-Appendix B.
-<./Appendix/pdfs/Chapter5/ATAC_PsA_CD14_permutation_analysis.pdf, id=2070, pagebox=cropbox, 522.95375pt x 489.83pt>
-File: ./Appendix/pdfs/Chapter5/ATAC_PsA_CD14_permutation_analysis.pdf Graphic file (type pdf)
-<use ./Appendix/pdfs/Chapter5/ATAC_PsA_CD14_permutation_analysis.pdf>
-Package pdftex.def Info: ./Appendix/pdfs/Chapter5/ATAC_PsA_CD14_permutation_analysis.pdf  used on input line 65. on inpu
-t line 65.
-Package pdftex.def Info: Requested size: 192.0548pt x 179.8889pt on input line 65.
-<./Appendix/pdfs/Chapter5/ATAC_PsA_CD4_permutation_analysis.pdf, id=2071, pagebox=cropbox, 519.9425pt x 491.8375pt>
-File: ./Appendix/pdfs/Chapter5/ATAC_PsA_CD4_permutation_analysis.pdf Graphic file (type pdf)
-<use ./Appendix/pdfs/Chapter5/ATAC_PsA_CD4_permutation_analysis.pdf>
-Package pdftex.def Info: ./Appendix/pdfs/Chapter5/ATAC_PsA_CD4_permutation_analysis.pdf  used on input line 71. on input
- line 71.
-Package pdftex.def Info: Requested size: 192.0548pt x 181.66933pt on input line 71.
-<./Appendix/pdfs/Chapter5/ATAC_PsA_CD8_permutation_analysis.pdf, id=2072, pagebox=cropbox, 478.1865pt x 483.8075pt>
-File: ./Appendix/pdfs/Chapter5/ATAC_PsA_CD8_permutation_analysis.pdf Graphic file (type pdf)
-<use ./Appendix/pdfs/Chapter5/ATAC_PsA_CD8_permutation_analysis.pdf>
-Package pdftex.def Info: ./Appendix/pdfs/Chapter5/ATAC_PsA_CD8_permutation_analysis.pdf  used on input line 78. on input
- line 78.
-Package pdftex.def Info: Requested size: 192.0548pt x 194.31685pt on input line 78.
-<./Appendix/pdfs/Chapter5/ATAC_PsA_NK_permutation_analysis.pdf, id=2073, pagebox=cropbox, 520.94624pt x 496.85625pt>
-File: ./Appendix/pdfs/Chapter5/ATAC_PsA_NK_permutation_analysis.pdf Graphic file (type pdf)
-<use ./Appendix/pdfs/Chapter5/ATAC_PsA_NK_permutation_analysis.pdf>
-Package pdftex.def Info: ./Appendix/pdfs/Chapter5/ATAC_PsA_NK_permutation_analysis.pdf  used on input line 84. on input 
-line 84.
-Package pdftex.def Info: Requested size: 192.0548pt x 183.17435pt on input line 84.
-) [40
-
- <./Appendix/pdfs/Chapter5/ATAC_PsA_CD14_permutation_analysis.pdf> <./Appendix/pdfs/Chapter5/ATAC_PsA_CD4_permutation_an
-alysis.pdf> <./Appendix/pdfs/Chapter5/ATAC_PsA_CD8_permutation_analysis.pdf> <./Appendix/pdfs/Chapter5/ATAC_PsA_NK_permu
-tation_analysis.pdf>]
-\tf@ptc=\write9
-\openout9 = `Thesis.ptc'.
-
-\tf@plf=\write10
-\openout10 = `Thesis.plf'.
-
-\tf@plt=\write11
-\openout11 = `Thesis.plt'.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 95.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
- (Thesis.aux (Preamble.aux) (Results3/Results3.aux) (Appendix/Appendix.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
+) [5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
+ (Thesis.aux (Preamble.aux) (Results2/Results2.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 96.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: BADAD4AB5CFBF5DFE0DC81E760A764DE;1837.
+(rerunfilecheck)             Checksum: EB612F147CE45C6A8C7411ED53D1F8E5;1008.
 
 
 LaTeX Warning: There were undefined references.
@@ -1902,26 +1311,29 @@ Package biblatex Warning: Please (re)run BibTeX on the file(s):
 Package logreq Info: Writing requests to 'Thesis.run.xml'.
 \openout1 = `Thesis.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 96.
  ) 
 Here is how much of TeX's memory you used:
- 17207 strings out of 493312
- 288658 string characters out of 3138895
- 555317 words of memory out of 3000000
- 20298 multiletter control sequences out of 15000+200000
- 63234 words of font info for 147 fonts, out of 3000000 for 9000
+ 16795 strings out of 493312
+ 271930 string characters out of 3138895
+ 554317 words of memory out of 3000000
+ 20022 multiletter control sequences out of 15000+200000
+ 38160 words of font info for 82 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,11n,51p,2039b,1046s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/k
-pfonts/kpfonts-expert.enc}<C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpbit8a.pfb><C:/Users/
-alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fon
-ts/type1/public/kpfonts/jkpbne.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmi.pfb><C:/
-Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/
-2.9/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmne
-.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpsy.pfb>
-Output written on Thesis.pdf (50 pages, 5544718 bytes).
+ 44i,11n,53p,1890b,1328s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{cite.0@Griffiths2007} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.0@Finlay2005} has been referenced but does not exist, replaced by a fixed one
+
+{C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}{C:/Program Files/MiKTeX 2.9/font
+s/enc/dvips/base/8r.enc}<C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/ali
+cia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpbne.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/t
+ype1/public/kpfonts/jkpmi.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Us
+ers/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9
+/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/alicia/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpsy.pfb>
+Output written on Thesis.pdf (15 pages, 163496 bytes).
 PDF statistics:
- 2198 PDF objects out of 2487 (max. 8388607)
- 109 named destinations out of 1000 (max. 500000)
- 377 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 215 PDF objects out of 1000 (max. 8388607)
+ 40 named destinations out of 1000 (max. 500000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 

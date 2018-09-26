@@ -9,16 +9,125 @@
 Trynka papers talking about relevant histone marks and similar studies
 
 
-Use of epigenetic marks as drg targest mainly DMNTs and HDACs inhibitors in Ballestar and Li. It explains there are two main ways to target epigenetic mechanisms : directly modifying enzymes that catalyse the epigenetic changes  or by targeting factors that inderictly affect global epigenetic profiles. Table 2 with examples and which ones approved.
+Use of epigenetic marks as drg targest mainly DMNTs and HDACs inhibitors in Ballestar and Li. It explains there are two main ways to target epigenetic mechanisms : directly modifying enzymes that catalyse the epigenetic changes  or by targeting factors that indirectly affect global epigenetic profiles. Table 2 with examples and which ones approved.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \section{Results}
-%
+\subsection{Psoriasis and healthy controls: cohort description and datasets}
+PB samples were collected from a cohort of psoriasis patients and healthy individuals in order isolate four relevant immune cells types (CD14$^+$ monocytes, total CD4$^+$, total CD8$^+$ and CD19$^+$) and perform ATAC-seq, RNA-seq and ChIPm analysis. Additionally, the epidermis from paired uninvolved and lesional skin biopsies collected from three psoriasis patients were processed downstream for RNA-seq analysis.
+
+\subsubsection{Cohorts description}
+
+Psoriasis patients PB was collected as detailed in Chapter \ref{ch:Mat} from a total of eight psoriasis patients, six males and two females (Table \ref{tab:Psoriasis_cohort_metadata}). 
+
+		
+\begin{table}[htbp]
+%\setlength{\tabcolsep}{20pt} only to stretch the columns if you want
+%\renewcommand{\arraystretch}{1.5}
+\centering
+\begin{tabular}{@{} c c c c c c c}
+\toprule
+\textbf{ Sample ID} & \textbf{Sex} & \textbf{Age at}    & \textbf{Disease}  & \textbf{PASI}  &\textbf{Nails}      & \textbf{Family} \\
+                    &              & \textbf{diagnosis} & \textbf{duration} &                & \textbf{affected}  & \textbf{history} \\
+										&							 &										&	\textbf{(months)}	&								 &                    &                  \\
+\midrule
+\midrule
+\textbf{Cohort 1A} & & & & & & \\
+\midrule
+PS1011	& Male	 & 55 & 420 & 11	 & Yes	 & No \\
+PS2014	& Female & 65	& 588	& 17	 & No	   & No \\
+PS2015	& Male	 & 56	& 384	& 5	   & Yes   & No \\
+PS2016	& Male	 & 40	& 180	& 10	 & No    & No \\
+\midrule
+\midrule
+\textbf{Cohort 1B} & & & & & & \\
+\midrule
+PS2000	& Male	 & 61	& 156	& 10	 & No	   & Yes \\
+PS2001	& Male	 & 56	& 432	& 10	 & Yes	 & No \\
+PS2314	& Male	 & 42	& 120	& 6.5	 & Yes   & No \\
+PS2319	& Female & 64	& 372	& 10.2 & No    & Yes \\
+\midrule
+Average		& $-$	 & 55 & 331.5 & 10 & $-$   & $-$ \\																			
+\bottomrule
+\end{tabular}
+\medskip %gap
+\caption[Description and metadata of the psoriasis patients cohort.]{\textbf{Description and metadata of the psoriasis patients cohort.}. For each of the individuals information related to sex, age at the time of sampling, disease duration, PASI score, affection of nails and family history has been included. Patients are divided in cohort 1A and cohort 1B based on the batch of ATAC-seq and RNA-seq processing. PASI evaluates the percentage of affected area and the severity of redness, thickness and scaling for four body locations (as detailed in Table \ref{PASI}). For each of the locations the test quantifies the percentage of affected area and the severity of three clinical signs: redness, thickness and scaling. The severity of the three clinical signs are scored from 0 to 4 (from none to maximum) and the percentage of affected area in a scale 1 to 6 (1=1-9\%;2=10-29\%; 3=30-49\%; 4=50-69\%; 5=70-89\%; 6=90-100\%). A score for each of the body regions is calculated as the sum of the clinical signs severity scores for that region multiplied by score of that percentage affected area and the proportion of body surface represented by that body region (0.1 for head and neck, 0.2 for upper limbs, 0.3 for trunk and 0.4 for lower limbs. The final PASI score is the addition of each of those scores for each body region. PASI ranges from 0 (no disease) to 72 (maximal disease).} 
+\label{tab:Psoriasis_cohort_metadata}
+\end{table}
+\bigskip %bigger space
+
+
+The average age of the cohort was 55 years old and the average of disease duration 331.5 months. All the patients presented active skin disease and none of them had reported joint affection at the time of sample collection. Disease severity was quantified using the PASI score, previously reviewed in Chapter \ref{ch:Intro}, being the average cohort score 10. Currently,  PASI thresholds to define mild and moderate-to-severe lack of consensus. A review study regarding the use of PASI as an instrument to determine disease severity of chronic-plaque psoriasis have suggested to consider psoriasis as moderate when PASI ranges between 7 to 12 and severe for PASI$>$12 \parencite{Schmitt2005}. On the other hand, NICE and other studies had defined psoriasis as severe based on PASI$\geq$10 \parencite{Woolacott2006, Finlay2005}. In this cohort, six out of ten patients had PASI$\geq$10, being elegible to be categorised as severe psoriasis. Only two of them presented PASI$<$7 showing a mild psoriasis phenotype. All patients were na\"{i} for biologics therapies. PS2319 was currently on MTX therapy and the remaining patients had only been treated occasionally with topical steroids or light therapy. Interestingly, PS2014 presented the most severe PASI score (17) and was a non-responder to MTX. Patients PS1011, PS2015, PS2001 and PS2314 presented nails pitting, which has been defined as one of the markers for increased risk of developing joint affection and PsA \parencite{Moll1976,Griffiths2007,McGonagle,2011}. Psoriasis family history was reported by PS2000 and PS2319, which could indicate those individuals are HLA-C*06:02 positive. In addition to the psoriasis samples, PB blood was collected from ten sex and age-matched healthy individuals (Table \ref{tab:Control_cohort_metadata})
+
+For both, patients and controls, the subdivision in cohort 1A and cohort 1B relates to the batches in which ATAC-seq RNA-seq samples were processed and sequenced.
+
+
+\begin{table}[htbp]
+%\setlength{\tabcolsep}{20pt} only to stretch the columns if you want
+%\renewcommand{\arraystretch}{1.5}
+\centering
+\begin{tabular}{@{} c c c}
+\toprule
+\textbf{Sample ID} & \textbf{Sex} & \textbf{Age} \\
+\midrule
+\midrule
+\textbf{Cohort 1A} & & \\
+\midrule
+CTL1 & Male   & 36 \\
+CTL2 & Male   & 53 \\
+CTL3 & Male   & 34 \\
+CTL4 & Female & 46 \\
+CTL5 & Male   & 42 \\
+CTL6 & Male   & 31 \\
+\midrule
+\midrule
+\textbf{Cohort 1B} & & \\
+\midrule
+CTL7  & Male   & 57 \\
+CTL8  & Female & 50 \\
+CTL9  & Male   & 50 \\
+CTL10 & Male   & 67 \\
+\midrule
+Average & $-$ & 46.6 \\ 
+\bottomrule
+\end{tabular}
+\medskip %gap
+\caption[Description of the healthy control cohort.]{\textbf{Description of the healthy control cohort.} Controls are divided in cohort 1A and cohort 1B based on the batch of ATAC-seq and RNA-seq processing, similarly to the psoriasis patients samples.}
+\label{tab:Control_cohort_metadata}
+\end{table}
+\bigskip %bigger space
+
+
+\subsubsection{Datasets}
+
+For both cohorts, ATAC-seq and RNA-seq data were generated from CD14$^+$ monocytes, total CD4$^+$, total CD8$^+$ and CD19$^+$ cells. For cohort 1A ATAC-seq data was generated using the standard ATAC-seq protocol from Buenrostro \textit{et al.}, 2013, which was replaced by the FAST-ATAC method \parencite{Corces2016}, according to the improvements of this protocol as explained in Chapter \ref{ch:Results1}. Additionally, samples from cohort 1B were also processed to assess differences in H3K27ac modification between patients and controls using ChIPm. 
+
+For three of the psoriasis patients paired biopsies from lesional and uninvolved skin were collected and the epidermal sheets were isolated to perform RNA-seq differential analysis. This should be considered as a pilot study aiming to refine the previous RNA-seq studies performed in whole skin biopsies, with a more heterogeneous cell type composition compared to epidermis, which could not be expanded due to time and cost constructions.
 
 
 
-
-
-
+\begin{table}[htbp]
+%\setlength{\tabcolsep}{20pt} only to stretch the columns if you want
+%\renewcommand{\arraystretch}{1.5}
+\centering
+\begin{tabular}{@{} c c c}
+\toprule
+\textbf{Technique} & \textbf{Cohort/samples} & \textbf{Sample size}      \\
+                   &                         & \textbf{patient/control} \\
+\midrule
+\midrule
+ATAC-seq      & Cohort 1A and 1B &  8/10 \\
+RNA-seq       & Cohort 1A and 1B &  8/10 \\
+ChIPm         & Cohort 1B        &  4/4   \\
+Skin biopsies & PS1011, PS2015 and PS2016 & 3/0\\
+RNA-seq       &                           & \\
+\bottomrule
+\end{tabular}
+\medskip %gap
+\caption[Datasets generated for the psoriasis and control cohort samples.]{\textbf{Datasets generated for the psoriasis and control cohort samples.} Cohort identity includes both, patients and controls. The skin RNA-seq samples include lesional and uninvolved paired-skin biopsies from each of the three individuals.}
+\label{tab:Psoriasis_controls_datasets_per_sample}
+\end{table}
+\bigskip %bigger space
 
 
 

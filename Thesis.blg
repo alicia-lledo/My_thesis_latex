@@ -1,17 +1,14 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Thesis.aux
 The style file: biblatex.bst
 A level-1 auxiliary file: Preamble.aux
-A level-1 auxiliary file: ./Results3/Results3.aux
-A level-1 auxiliary file: ./Appendix/Appendix.aux
+A level-1 auxiliary file: ./Results2/Results2.aux
 Database file #1: Thesis-blx.bib
 Database file #2: Thesis_ref.bib
-Warning--I didn't find a database entry for "Ross2000"
-Warning--I didn't find a database entry for "Jongbloed2006"
-Warning--I didn't find a database entry for "Spadaro2004"
-Warning--I didn't find a database entry for "Andersson2014"
-Warning--I didn't find a database entry for "XY"
-Warning--I didn't find a database entry for "Dolcino2015"
-Warning--I didn't find a database entry for "Zhong2015"
-Warning--I didn't find a database entry for "Zaiss2013"
+Warning--I didn't find a database entry for "Schmitt2005"
+Warning--I didn't find a database entry for "Woolacott2006"
+Warning--I didn't find a database entry for "Moll1976"
+Warning--I didn't find a database entry for "McGonagle"
+Warning--I didn't find a database entry for "2011"
+Warning--I didn't find a database entry for "Corces2016"
 Biblatex version: 3.8
-(There were 8 warnings)
+(There were 6 warnings)

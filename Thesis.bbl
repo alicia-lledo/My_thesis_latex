@@ -16,5 +16,70 @@
   {}
 \endgroup
 
-\datalist[entry]{nyt/global//global/global}\enddatalist
+\datalist[entry]{nyt/global//global/global}
+  \entry{Finlay2005}{article}{}
+    \name{author}{1}{}{%
+      {{hash=FA}{%
+         family={Finlay},
+         familyi={F\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FA1}
+    \strng{fullhash}{FA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2005}
+    \field{labeldatesource}{year}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \verb{doi}
+    \verb 10.1111/j.1365-2133.2005.06502.x
+    \endverb
+    \field{number}{5}
+    \field{pages}{861\bibrangedash 867}
+    \field{title}{Current severe psoriasis and the rule of tens}
+    \verb{url}
+    \verb http://dx.doi.org/10.1111/j.1365-2133.2005.06502.x
+    \endverb
+    \field{volume}{152}
+    \field{type}{Journal Article}
+    \field{journaltitle}{British Journal of Dermatology}
+    \field{year}{2005}
+  \endentry
+
+  \entry{Griffiths2007}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GCEM}{%
+         family={Griffiths},
+         familyi={G\bibinitperiod},
+         given={C.\bibnamedelima E.\bibnamedelima M.},
+         giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Lancet},
+         familyi={L\bibinitperiod},
+         given={Jnwn},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GCEMLJ1}
+    \strng{fullhash}{GCEMLJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{labeldatesource}{year}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{title}{Pathogenesis and clinical features of psoriasis}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S0140673607611283
+    \endverb
+    \field{type}{Journal Article}
+    \field{journaltitle}{The Lancet}
+    \field{year}{2007}
+  \endentry
+\enddatalist
 \endinput

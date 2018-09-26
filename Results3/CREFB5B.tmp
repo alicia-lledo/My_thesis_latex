@@ -7,47 +7,55 @@
 \section{Introduction}
 
 %The techniques to generate the scRNA-seq data have also evolved and SmartSeq2 and 10X Chromium are the two main I haven't talked at all about IL-2 and IL-8 in the relevant cytokines in disease. The reason is because they are not the mots relevant ones but due to cytof contrains they are together with TNFa and IFNg among the ones yielding the best quality results.
-\subsection{The relevance of cell type and tissue specificity in the study of complex diseases}
+\subsubsection{}
+PsA is considered a systemic disease where studies in PBMCs have demonstrated changes in cell type composition compared to healthy individuals. For example, increased frequencies of circulating IL-17$^+$ and IL-22$^+$ CD4$^+$ T cells have been reported in PsA PB compared to control individuals \parencite{Benham2013}. Moreover, the percentage of pDCs and NK in PB are reduced in PsA compared to controls \parencite{Jongbloed2008, Spadaro2004}. Additionally, the production of pro-inflammatory cytokines, such as IL-17 and IL-22, by stimulated PBMCs was higher in PsA than in healthy controls \parencite{Benham2013}. 
 
-PsA is considered a systemic disease where studies in PBMCs have demonstrated changes in cell type composition and cytokine production when compared to healthy individuals. For example, increased frequencies of circulating IL-17$^+$ and IL-22$^+$ CD4$^+$ T cells have been reported in PB from PsA patients compared to control individuals \parencite{Benham2013}. Moreover, reduced percentage of pDCs and NK in PB have also been observed in PB from PsA compared to controls \parencite{Jongbloed2008, Spadaro2004}. In terms of cytokine production, stimulated PBMCs from PsA patiens released greater levels of IL-17 and IL-22 than the healthy control counterparts \parencite{Benham2013}. 
+Nevertheless, PsA ischaracterised by affection of the joints, where the local inflammatory response leads to enthesitis, synovitis, bone remodelling and, eventually, joint destruction \parencite{}. The importance of studying the synovium in PsA have been highlighted by differences in cell composition and cytokine production, amongst others, between PB and SF in PsA patients. For example, expansion of CD8$^+$, mainly memory cells expressing CD45RO, was observed in SF when compared to paired PB samples \parencite{Ross2000}. Additionally, the elevated proportion of T cells expressing the cytokine receptors CCR6$^+$ and IL-23R$^+$ were found in SF compared to PB \parencite{Benham2013}. Patients presenting oligoarticular PsA (involving four or fewer joints) are usually na\"{i}ve for biologic treatments (only NSAIDs) and this PsA manifestation is commonly managed by joint aspiration prior intra-articular steroid injection to relieve pain, being particularly convenient for SF sample collection \parencite{Kavanaugh2006}.
 
-Nevertheless, PsA is characterised by affection of the joints, where the local inflammatory response leads eventually to joint destruction. Oligoarticular PsA (involving four or fewer joints) is commonly managed by joint aspiration prior intra-articular steroid injection to relieve pain, facilitating the sample collection for research purposes \parencite{Kavanaugh2006}. The importance of studying the synovium in PsA have been highlighted by differences in cell composition and cytokine production, amongst others, between PB and SF in PsA patients. For example, expansion mCD8$^+$ but not mCD4$^$ T cells was observed in SF when compared to PB in PsA paired samples \parencite{Ross2000}. Additionally, elevated proportion of T cells expressing the cytokine receptors CCR6$^+$ and IL-23R$^+$ were found in SF compared to PB in patients \parencite{Benham2013}.
 
-Genome-wide transcriptomic studies in PsA have been mainly focused in characterising gene expression in bulk PBMCs and SFMCs samples. Several studies have been conducted to better understand gene expression differences in blood between PsA and controls and also specific differences between PB and SF from the same PsA patients or differences with other arthritic diseases \parencite{Stoeckman2006, Batiwalla2005, Gu2002, Dolcino2015}. Amongst the most comprehensive studies, the conducted by Dolcino and colleagues revealed genes from the Th-17 axis and type-I IFN signalling to be differentially expressed between PsA and healthy controls in synovial membranes. Moreover, the overlap of DEGs between the two PsA compartments when compared to healthy controls, highlighted differences and commonalities in the systemic and affected tissue immune response in PsA. %Other studies have also focused in the understanding the transcriptional changes in PBMCs from PsA patients following MTX and TNFi therapies \parencite{Cuchacovich2014}. 
-Cytokines production measurements have also been conducted in serum and SF, revealing increased levels of TNF-$\alpha$, for example, in both tissues \parencite{Ritchlin1999,Li2017}. 
+% Differences between bulk PB and SF in terms of cell composition-and transcriptomics-explain some findings
+% Transcriptome differences examples
 
-Consideration of cell and type specificity in the study of complex diseases is fundamental for the understanding of the disease pathophysiology. As previously reviewed (\ref{ch:Intro}), the dysregulated immune response in PsA is the results of the interaction of  varied cell types from the innate and adaptive immune response. Consequently, the molecular characterisation of the different immune cell types is pivotal not only for the understanding of the immune response but also to define disease state, comprehend the impact of genetic variants increasing disease risk and identify drugs with optimal efficacy and specificity. Studies using mixed cell populations can be influenced by the relative proportion of the different cell populations within the sample \parencite{Whitney2003}. For instance, the importance of considering cell types to understand the impact of genetic variants in transcriptional regulation has been explored in a number of immune cells \parencite{Fairfax2012, Fairfax2014, Raj2014, Peters2016, Kasela2017}. These studies have highlighted the regulatory role of some genetic variants only in particular cell types and conditions, previously masked when considering mixed population of cells such as PBMCs. In this respect, expression analysis for a limited number of genes have been performed in specific cell type populations such as stimulated macrophages and Th-17 \textit{in vitro} differentiated cells from na\"{i}ve CD4$^+$ isolated from PB and SF of PsA patients \parencite{Antoniv2006, Leipe2010}. Overall, achieving a detailed and precise understanding of complex diseases requires the study of sorted cell populations and when possible isolated from the affected tissue.  
+Initially, genome-wide transcriptomic studies have focused in characterising gene expression in bulk PBMCs and SFMCs samples. Several studies have been conducted to better understand differences in gene expression at the systemic level between PsA and controls, tissue-specific differences comparing paired PB and SF from PsA patients and comparison across other SpA and arthritic diseases \parencite{Stoeckman2006, Batiwalla2005, Gu2002, Dolcino2015}. Amongst the more comprehensive studies is the conducted by Dolcino and colleagues revealing differentially expressed genes in the Th-17 axis and type-I IFN signalling in PsA synovial membrane biopsies compared to healthy ones. Moreover, comparison between the DEGs in both PsA compartments when compared to healthy controls, highlighted differences and commonalities in the systemic and tissue PsA immune response. Other studies have also focused in the understanding the transcriptional changes in PBMCs from PsA patients following MTX and TNFi therapies \parencite{Cuchacovich2014}. Likewise, measurement of cytokines production have also been conducted in serum and SF, revealing increased levels of TNF-$\alpha$, for example, in both tissues \parencite{Ritchlin1999,Li2017}. 
 
-\subsubsection{Transcriptomics and proteomics at the single cell resolution}
-%re-phrase the idea
-In addition to the study of specific cell types, evidence for heterogeneity in the transcriptome across individual cells from the same population has accelerated the development of strategies providing single cell resolution. The establishment of scRNA-seq and mass-cytometry techniques represent an unbiased way to characterise and identify cell subpopulations within the samples, avoiding the pre-selection of particular cell types and thus providing a global overview of cell composition and interactions in the tissue of interest. 
+Consideration of cell and type specificity in the study of complex diseases has enabled a better understanding of the disease pathophysiology. As previously reviewed (\ref{ch:Intro}), the dysregulated immune response in PsA is the results of the interaction of  varied cell types from the innate and adaptive immune response. The molecular characterisation of the different immune cell types is pivotal not only for the understanding of the immune response but also to define disease state, understand the impact of genetic variants increasing disease risk and the identify of drugs optimal efficacy and specificity. For example, the importance of considering cell types to understand the impact of genetic variants in transcriptional regulation has been explored in a number of immune cells \parencite{Fairfax2012, Fairfax2014, Raj2014, Peters2016, Kasela2017}. These studies have highlighted the regulatory role of some genetic variants only in particular cell types and conditions, previously masked when considering mixed population of cells such as PBMCs. Moreover, the study of mixed cell populationsin PBMCs will also be influenced by the proportion of each cell type in the particular sample \parencite{Whitney2003}
 
-A wide range of approaches to study single-cell transcriptomics have been developed in the last few years, including Drop-seq, SmartSeq2 and 10X Chromium amongst the most widely used \parencite{Picelli2014,Ziegenhain2017}. 10X Chromium technology is based on microfluidics where cells in suspension get directly encapsulated into nanoL droplets that incorporate cell and transcript barcode identifiers (see \ref{ch:Mat}). As a result, 10X Chromium technology does not require pre-sorting of single-cells into plates and enables higher throughput than other with less manipulation and variability than other scRNA-seq methods such as SmartSeq2 \parencite{Baran-Gale2017} % add sensitivity sensibility transcrip region?
 
-Mass cytometry represents the next generation of fluorescence based flow-cytometry analysis to interrogate expression of cell surface and intracellular molecules. Mass cytometry is a hybrid technique between mass spectrometry and flow cytometry, where the Abs recognising the molecular markers have been labelled with stable isotopes instead of fluorophores \parencite{Bandura2009}. The use of isotopes enables incorporating up to 45 Abs to profile cellular populations and assess molecular functions. 
+In this respect, expression analysis for a limited number of genes have been performed in specific cell type populations such as stimulated macrophages and Th-17 \textit{in vitro} differentiated cells from na\"{i}ve CD4$^+$ isolated from PB and SF of PsA patients \parencite{Antoniv2006, Leipe2010}. Overall, achieving a detailed and precise understanding of complex diseases requires the study of sorted cell populations and when possible isolated from the affected tissue.  
 
-\subsection{Using a multi-omics approach in the study of complex diseases}
+
+
+\subsubsection{Multi-omics}
 The interaction between genetics and environmental factors in the risk to develop complex diseases, such as PsA, results in shaping the epigenetic lanscape of the cells. This dynamic epigenetic landscape involves cell and context specific features, reinforcing the importance of studying purified cell types instead of mixed populations. Moreover, the importance of the epigenome in understanding disease state and also contextualizing the role of putative genetic risk variants has made necessary the implementation of multi-omics approaches to study complex diseases. This involves the study of chromatin accessibility, gene expression including further resolution using scRNA-seq and immunophenotypes of the relevant cell involved in disease pathophysiology.
 
-Recent technical advances such as ATAC-seq are enabling the characterisation of the regulatory landcape in a wide range of cell types and tissues obtained from valuable clinical samples minimising the amount of material required. Profiling the chromatin accessibility in the cell populations isolated from the tissues of interest provides details about the molecular programming of cells and can also inform about the location and status of \text{cis}-regulatory elements. For example differential analysis in B cells isolated from SLE and healthy controls has revealed changes in chromatin accessibility for loci nearby genes involved in B cells activation and enrichment for TFBS potentially regulating pathogenic processes \parencite{Scharer2016}. Similarly a study in age-related macular degeneration (AMD) has identified the retina epithelium as the main tissue driving disease onset though global loss of chromatin accessibility compared to healthy tissue \parencite{Wang2018}. Transcriptional profiling of discrete cell populations have also been performed in monocytes and Th-17 cells in AS, intestinal epithelial cells in CD and fibroblast-like synoviocytes in RA \parencite{Al-Mossawi2017,Smith2008, Howell2018, Ai2016}. Moreover, recent advances have yielded the possibility to study the transcriptomic and proteomic profiles at the single-cell resolution and account for the variability at the single-cell level in gene expression and protein translation. 
-
-Incorporation of scRNA-seq and mass cytometry in addition to bulk RNA-seq and flow cytometry have led to a more detailed understanding of the immune system \parencite{Jaitin2014, Villani2017,Bengsch2018}. In complex diseases such as RA, scRNA-seq has discovered heterogeneity in the synovial fibroblast population and identified a potentially pathogenic cluster highly proliferative and active in pro-inflammatory cytokine secretion \parencite{Mizoguchi2018}. Similarly, mass cytometry analysis performed in RA identified an expanded CD4$^+$ T cell population promoting B cell response \parencite{Rao2017}.
 
 
-\subsubsection{Data integration}
-One of the most challenging aspects of using a multi-omics approach is the appropriate integration of the data in order to maximise the amount of information extracted and also the reliability of the findings. The power of this integration is increased by generating paired data for all the omics across all the individuals in the cohort, which cannot always be achieved due to sample availability and cost.  
-% A bit more of the importance
-
-Integrating chromatin accessibility and gene expression data has allowed to better understand the correlation and specificity between open chromatin and transcription. In terms of identifying cell populations, chromatin accessibility has appeared to be more cell type specific than bulk RNA-seq \parencite{Corces2016}. In pancreatic islets, the overlap of ATAC-seq and RNA-seq has shown chromatin accessibility to be a better proxy for gene expression in $\alpha$ than in $\beta$ cells. Moreover, integration of both data sets reinforced the functional specificity of AMD DEGs nearby differentially accessible regions across tissues \parencite{Ackermann2016, Wang2018}. 
-
-The most comprehensive available study integrating multi-omics (bulk RNA-seq, scRNA-seq and mass cytometry) has been performed in RA \parencite{Zhang2018}. This recent study has identified eighteen unique subpopulations amongst the the main cell types involved in RA pathophysiology by systematic correlation between transcriptional profiles and mass cytometry.
-
-Regarding PsA, no such a comprehensive multi-omic study has been conducted to date. Characterisation of chromatin accessibility and transcriptomic landcape of the most relevant cell types in SF and PB would improve the understanding of differences across tissues as well as the relationship between chromatin accessibility and gene expression in PsA. Furthermore, implementation of single-cell transcriptomic and mass cytometry would help to ......
-
-\subsection{Genetic fine-mapping using genotyping level data}
+Recent technial advances such as ATAC-seq have allowed the study of chromatin accessibility in diseased cell types and tissues. Profiling the chromatin accessibility in the cell populations isolated from the tissues of interest provides details about the molecular programming of cells and can also inform about the location and status of \text{cis}-regulatory elements. For example differential analysis in B cells isolated from SLE and healthy controls has revealed changes in chromatin accessibility for loci nearby genes involve in B cells activation and enrichment for TFBS potentially involved in the pathogenesis \parencite{Scharer2016}. Similarly a study in age-related macular degeneration has identified the retina epithelium as the main tissue driving disease onset though global loss of chromatin accessibility compared to healthy tissue \parencite{Wang2018}. The integration between paired chromatin accessibility and gene expression data has allowed to better understand the correlation and specificity between open chromatin and transcription
 
 
-\subsection{Aims}
+	-ATAC: examples of some studies in other disease. No studies in PsA
+	-Gene expression and some studies linking both ATAC and gene expression
+	-scRNA 
+	-Final impact on the protein (CyTOF)
+	Immunophenotypes
+Differences in genes expression were also studied between pDCs and mDCs isolated from both PsA tissues
+Jongbloed2008
+as well as in synoviocytes (FLS) obtained from synovial tissues Raychaudhuri
+	
+	-Integration including fine-mapping (look at previous paper from Hussein)
+	
+	-Hole in the field
+	
+	
+	\subsection{Aims}
+
+
+
+
+
+
+
+
 
 
 
@@ -66,7 +74,7 @@ The mean age of the cohort at the time of diagnosis was 44.3 years old and the m
 \begin{center}
 \begin{longtable}[ht]{c c c c c c c c c}
 %{p{.15\textheight} p{.15\textheight} p{.25\textheight} p{.25\textheight} p{.15\textheight} p{.15\textheight} p{.15\textheight}}
-\caption[Description and metadata of the PsA patients cohort.]{\textbf{Description and metadata of the PsA patients cohort.}. PsARC disease activity score is composed of tender joint count 66 (TJC66) and swollen joint count 66 (SJC66), joint pain (4 point score) and self-patient and physician global assessment (5 point score). Joint pain and global assessment use a likert scale based on questionnaire answers that measure the level of agreement with each of statements included. C-reactive protein (CRP).}
+\caption[Description of PsA patients cohort recruitment and metadata.]{\textbf{Description of PsA patients cohort recruitment and metadata.}. PsARC disease activity score is composed of tender joint count 66 (TJC66) and swollen joint count 66 (SJC66), joint pain (4 point score) and self-patient and physician global assessment (5 point score). Joint pain and global assessment use a likert scale based on questionnaire answers that measure the level of agreement with each of statements included. C-reactive protein (CRP).}
 \label{tab:PSA_cohort_metadata} \\
 \toprule
 \textbf{ Sample ID} & \textbf{Sex} & \textbf{Age at} & \textbf{Disease duration} & \textbf{Type} &\textbf{TJC66/SJC66}  & \textbf{Physician } & \textbf{Patient} & \textbf{CRP} \\
@@ -80,7 +88,7 @@ PsA1728	& Female & 72	& 48 & Oligo & 2/2 & 3 & 4 & 43.2 \\
 PsA1801	& Female & 53 & 168 & Oligo & 2/2 &	3 & 3 & 9.9 \\
 PsA1505 & Male & 35 &	108 & Oligo & 1/1 & 2 & 2 & 1 \\	
 \midrule
-Average		& $-$	&	44.3 & 106 & $-$ & 1.5/1.5 & 3 & 3.2 & 17.4 \\																			
+Total		& $-$	&	44.3 & 106 & $-$ & 1.5/1.5 & 3 & 3.2 & 17.45 \\																			
 \bottomrule
 \medskip
 \end{longtable}
@@ -405,7 +413,7 @@ In addition to pathway level analysis, individual enrichment analysis for conser
 \centering
 \includegraphics[width=0.8\textwidth]{./Results3/pdfs/ATAC_PSA_enrichment_conserved_TFBS_barplots_cell_type_specific_DOCS_all_cell_types_per_tissue}
 \caption[Enrichment of eRNA cell type-specific PsA DORs for conserved TFBS.]{\textbf{Enrichment of eRNA cell type-specific PsA DORs for conserved TFBS.} xxxx }
-\label{figure:PSA_TFBS}
+\label{fig:PSA_TFBS}
 \end{figure}
 
 
@@ -424,19 +432,19 @@ In order to contextualise the ATAC-seq data, PCR gene expression analysis for 37
 
 % Since I am not used corrected pval Hai mentioned that I can not talk about differentially expressed
 When exploring for each individual and each cell type, %When considering all the significantly modulated genes (pval$<$0.05) in at least one cell type, 
-differences in magnitude and reproducibility in FCs were observed across samples and cell types (Figure \ref{figure:PSA_PCR_array_5pcnt_heatmap}). Some of the modulated genes showed up-regulation (log$_2$FC$>$0) in SF compared to PB across the three cell types, for example \textit{IFN1}, \textit{SPP1} or \textit{CCL2}, amongst others (Figure \ref{figure:PSA_PCR_array_5pcnt_heatmap} orange). On the other hand, a number of genes presented reduced expression in SF (log$_2$FC$<$0) in at least one of the three cell types, including \tetxtit{FOS}, \textit{IL16}, \textit{PPBP} and \textit{TPST1} (Figure \ref{figure:PSA_PCR_array_5pcnt_heatmap} purple). Also, a number of only seemed consistently modulated in CD14$^+$ monocytes but not in T cells (Figure \ref{figure:PSA_PCR_array_5pcnt_heatmap} dark blue). For example, \textit{CCR7} and \textit{IL7R} were upregulated in SF CD14$^+$ monocytes compared to PB; however the FCs between SF and PB were largely variable across the three patients in mCD4$^+$ and mCD8$^+$. Moreover, differences in the magnitude of FCs across the three cell types were observed for some of the genes modulated in the same direction across the three cell types, for instance \textit{VEGFB} and \textit{CXCR6} (Figure \ref{figure:PSA_PCR_array_5pcnt_heatmap} black and green).
+differences in magnitude and reproducibility in FCs were observed across samples and cell types (Figure \ref{figure:PSA_PCR_array_5pcnt_heatmap}). Some of the modulated genes showed upregulation (log$_2$FC$>$0) in SF compared to PB across the three cell types, for example \textit{IFN1}, \textit{SPP1} or \textit{CCL2}, amongst others (Figure \ref{figure:PSA_PCR_array_5pcnt_heatmap} orange). On the other hand, a number of genes presented reduced expression in SF (log$_2$FC$<$0) in at least one of the three cell types, including \tetxtit{FOS}, \textit{IL16}, \textit{PPBP} and \textit{TPST1} (Figure \ref{figure:PSA_PCR_array_5pcnt_heatmap} purple). Also, a number of only seemed consistently modulated in CD14$^+$ monocytes but not in T cells (Figure \ref{figure:PSA_PCR_array_5pcnt_heatmap} dark blue). For example, \textit{CCR7} and \textit{IL7R} were upregulated in SF CD14$^+$ monocytes compared to PB; however the FCs between SF and PB were largely variable across the three patients in mCD4$^+$ and mCD8$^+$. Moreover, differences in the magnitude of FCs across the three cell types were observed for some of the genes modulated in the same direction across the three cell types, for instance \textit{VEGFB} and \textit{CXCR6} (Figure \ref{figure:PSA_PCR_array_5pcnt_heatmap} black and green).
 
 \begin{landscape}
 \begin{figure}[H]
 \centering
 \includegraphics[width=1.5\textwidth]{./Results3/pdfs/PCR_array_PSA_SF_vs_PB_filtered_5_percent_genes_heatmap}
 \caption[Representation of the fold-change in gene expression between SF and PB for the significant genes (pval$<$0.05) in at least one of the cell types.]{\textbf{Representation of the fold-change in gene expression between SF and PB for the significant genes (pval$<$0.05) in at least one of the cell types.} xxxx }
-\label{figure:PSA_PCR_array_5pcnt_heatmap}
+\label{fig:PSA_PCR_array_5pcnt_heatmap}
 \end{figure}
 \end{landscape}
 
 
-Further filtering based on statistical significance (pval$<$0.05) and FCs (0.6$<$FC$<$1.5), revealed that CD14$^+$ monocytes and mCD8$^+$ presented greater number of significantly modulated (70 and 73 genes, respectively) compared to mCD4$^+$ cells (46 genes) (Figure \ref{figure:PSA_PCR_array_vulcano_plots} a, b and c). For the three analysed cell types, the majority of modulated immune genes presented up-regulation in the SF (Figure \ref{figure:PSA_PCR_array_vulcano_plots} a, b and c). For example, 56 out of the 70 significantly modulated genes in CD14$^+$ monocytes showed a log$_2$ mean FC$>$0.586 versus the 14 genes with log$_2$mean FC$<$-0.586 (Figure \ref{figure:PSA_PCR_array_vulcano_plots} a).
+Further filtering based on statistical significance (pval$<$0.05) and FCs (0.6$<$FC$<$1.5), revealed that CD14$^+$ monocytes and mCD8$^+$ presented greater number of significantly modulated (70 and 73 genes, respectively) compared to mCD4$^+$ cells (46 genes) (Figure \ref{figure:PSA_PCR_array_vulcano_plots} a, b and c). For the three analysed cell types, the majority of modulated immune genes presented upregulation in the SF (Figure \ref{figure:PSA_PCR_array_vulcano_plots} a, b and c). For example, 56 out of the 70 significantly modulated genes in CD14$^+$ monocytes showed a log$_2$ mean FC$>$0.586 versus the 14 genes with log$_2$mean FC$<$-0.586 (Figure \ref{figure:PSA_PCR_array_vulcano_plots} a).
 
 
 
@@ -460,7 +468,7 @@ Further filtering based on statistical significance (pval$<$0.05) and FCs (0.6$<
 \caption{\textbf{}}
 \end{subfigure}
 \caption[Expression changes in immune-relevant genes between SF and PB in CD14$^+$ monocytes, mCD4$^+$ and mCD4$^+$ cells.]{\textbf{Expression changes in immune-relevant genes between SF and PB in CD14$^+$ monocytes, mCD4$^+$ and mCD4$^+$ cells.}}
-\label{figure:PSA_PCR_array_vulcano_plots}
+\label{fig:PSA_PCR_array_vulcano_plots}
 \end{figure} 
 
 
@@ -507,10 +515,11 @@ For example, the greater chromatin accessibility at the \textit{IL7R} 5' and 3' 
 \centering
 \includegraphics[width=0.6\textwidth]{./Results3/pdfs/PSA_CD14_ATAC_FN1_paired_gene_expression}
 \caption[Chromatin accessibility at the \textit{FN1} gene in CD14$^+$ monocytes isolated from SF and PB.]{\textbf{Chromatin accessibility at the \textit{FN1} gene in CD14$^+$ monocytes isolated from SF and PB.} xxxx }
-\label{figure:PSA_CD14_ATAC_FN1}
+\label{fig:PSA_CD14_ATAC_FN1}
 \end{figure}
 
 \subsubsection{Pathway enrichment and network analysis highlights the role of synovial CD14$^+$ monocytes in cytokine and chemokine production}
+\subsubsection{Modulated gene expression in CD14$^+$ monocytes shows enrichment for cytokine and chemokine production}
 %Describe pathway analysis results and curate the pathway of interest
 To identify relevant pathways amongst the modulated genes between SF and PB, enrichment analysis was performed for each of the three cell types. Upregulated and downregulated genes showing 0.6$<$ mean FC $>$1.5 and pval$<$0.05 were combined for the analysis. Interestingly, the modulated genes between SF and PB in CD14$^+$ monocytes were enriched for chemokine, NOD-like signalling and TLR signalling pathways (Table \ref{table:PSA_PCR_array_pathway_analysis}). All three pathways are involved in the activation of cytokines and chemokines gene expression, leading to T cell recruitment and inflammatory response. 
 
@@ -549,7 +558,7 @@ At the transcriptional level, significantly modulated genes between SF and PB in
 \end{center}
 \end{landscape}
 
-In addition to pathway enrichment, network analysis was performed to understand the interaction and relationship between the analysed genes. A gene subnetwork was identified from the STRING functional interaction database using as input the filtered expression PCR array information and ranking the genes based on the best pval across the three cell types. The identified subnetwork predominantly included  significant modulated genes between SF and PB. Amongst the most interesting node, the single Ig and Toll-interleukine domain containing gene (\textit{SIGRR}) which is a negative regulator of the TLR signalling pathway (Figure \ref{figure:PSA_PCR_network_analysis}). \textit{SIGIRR} is significantly downregulated in SF CD14$^+$ monocytes only and it is consistent with the significant up-regulation (pval<0.05) of \textit{TLR1}, \textit{TLR2}, \textit{MyD88} and the enrichment for the TLR pathway in this cell type (Figure \ref{figure:PSA_PCR_array_5pcnt_heatmap} and \ref{table:PSA_PCR_array_pathway_analysis}). Moreover, the significant up-regulation of \textit{NFKB} and \textit{TNF} in the SF CD14$^+$ monocytes could be a downstream result of the functional connection with TLR pathway members such as \textit{MyD88} and as a downstream result of the TLR signalling pathway. Conversely, in mCD4$^+$ and mCD8$^+$ the modulation of these members did not appear to be significant between SF and PB. However, in mCD8$^+$ \textit{TNF} is also significantly upregulated in the synovium. 
+In addition to pathway enrichment, network analysis was performed to understand the interaction and relationship between the analysed genes. A gene subnetwork was identified from the STRING functional interaction database using as input the filtered expression PCR array information and ranking the genes based on the best pval across the three cell types. The identified subnetwork predominantly included  significant modulated genes between SF and PB. Amongst the most interesting node, the single Ig and Toll-interleukine domain containing gene (\textit{SIGRR}) which is a negative regulator of the TLR signalling pathway (Figure \ref{figure:PSA_PCR_network_analysis}). \textit{SIGIRR} is significantly downregulated in SF CD14$^+$ monocytes only and it is consistent with the significant upregulation (pval<0.05) of \textit{TLR1}, \textit{TLR2}, \textit{MyD88} and the enrichment for the TLR pathway in this cell type (Figure \ref{figure:PSA_PCR_array_5pcnt_heatmap} and \ref{table:PSA_PCR_array_pathway_analysis}). Moreover, the significant upregulation of \textit{NFKB} and \textit{TNF} in the SF CD14$^+$ monocytes could be a downstream result of the functional connection with TLR pathway members such as \textit{MyD88} and as a downstream result of the TLR signalling pathway. Conversely, in mCD4$^+$ and mCD8$^+$ the modulation of these members did not appear to be significant between SF and PB. However, in mCD8$^+$ \textit{TNF} is also significantly upregulated in the synovium. 
 
 Another interesting part of the network is the connection of the TLR pathway and the chemokine production through \textit{NF$\kappa$B}, \textit{TNF} and \textit{CCL2} (Figure \ref{figure:PSA_PCR_network_analysis}). \textit{CCL2} is connected to \textit{CXCL10} and subsequently with \textit{CCL18} and \textit{CCR5}, all chemokines regulating migration and infiltration of monocytes and memory T cells. This network analysis also highlighted relationship between \textit{IL7R} and \textit{IL2RG} coding for the two chains of the IL-7 receptor (IL-7R). Interestingly, these two nodes are only significantly upregulated in SF CD14$^+$ monocytes, supporting a novel the cell and context specific role of IL-7R and polymorphism in this gene in this cell type under inflammatory conditions % Hussein paper
 
@@ -559,7 +568,7 @@ Another interesting part of the network is the connection of the TLR pathway and
 \centering
 \includegraphics[width=\textwidth]{./Results3/pdfs/PSA_PCR_array_network_analysis}
 \caption[Protein network analysis based on the immune PCR array expression data.]{\textbf{Protein network analysis based on the immune PCR array expression data.} xxxx }
-\label{figure:PSA_PCR_network_analysis}
+\label{fig:PSA_PCR_network_analysis}
 \end{figure}
 
 Overall, the integration of the chromatin accessibility and immune transcriptional data reinforced a relevant role of synovial CD14$^+$ monocytes in the production of cytokines and chemokines, leading to activation of the innate immune response and the recruitment of T cells to this site of inflammation. 
@@ -571,6 +580,18 @@ Overall, the integration of the chromatin accessibility and immune transcription
 
 In order to better understand the disease and tissue specificity of the prior transcriptomic results, gene expression was analysed in CD14$^+$ monocytes, mCD4$^+$ and mCD8$^+$ isolated from PB in three healthy controls (HC) using the same PCR array. In each of the cell types, the FC in  was calculated for the PsA PB expression in respect to the healthy controls. Similarly to the previous analysis, pvals were calculated for the FC in each of the particular genes. When comparing to the modulated gene expression between SF and PB in PsA, three group of genes could be identified (Figure \ref{figure:PSA_PCR_array_HC_FC_correlation}). The genes only significantly modulated (based on pval and FC threshold criteria) in PB between HC and PsA were designated as systemic genes (Figure \ref{figure:PSA_PCR_array_HC_FC_correlation} green). Those genes were not significantly modulated in this data when comparing SF versus PB within PsA patients and could then be considered as the circulating disease "footprint". In this respect, CD14$^+$ monocytes was the cell type with lower number of systemic modulated genes (14), compared to mCD8$^+$ (23) and mCD4$^+$ (42) (Figure \ref{figure:PSA_PCR_array_HC_FC_correlation}a, b and c). 
 
+Another group of genes were designated as tissue specific, since they were significantly modulated between SF and PB in PsA patients but did not show significant changes between HC and PsA at the circulating level (Figure \ref{figure:PSA_PCR_array_HC_FC_correlation} red). Interestingly, in CD14$^+$ monocytes the tissue specific modulated genes considerably outnumber the systemic ones (62 versus 14), showing a more pronounced change in the expression profile of immune genes across patients tissues than between healthy and diseased PB (Figure \ref{figure:PSA_PCR_array_HC_FC_correlation} a in red). For example, the aforementioned \textit{NFKB} and \textit{MyD88}, \textit{TLR2} genes were only upregulated in PsA SF CD14$^+$ monocytes and their expression was not significantly modulated between HC and PsA circulating CD14$^+$ monocytes.  Similarly to CD14$^+$ monocytes, mCD8$^+$ cells also presented greater disease tissue-specific modulation than genes modulated compared to HC in PB (Figure \ref{figure:PSA_PCR_array_HC_FC_correlation} c in red).  
+%Some more biology?
+% talk about limitations in acknowledging these genes as dissease-tissue specific due to the fact that we don't know if they also change between PB and Sf in HV
+
+The third category of genes were those significantly modulated for each cell type between HC and PsA patients in PB as well as between SF and PB from PsA individuals. These were defined as putative disease-specific genes and numbers were similar across CD14$^+$ monocytes, mCD4$^+$ and mCD8$^+$ (10, 9 and 8, respectively) (Figure \ref{figure:PSA_PCR_array_HC_FC_correlation} blue in a, b and c). In CD14$^+$ monocytes two of those genes, \textit{GPI} and \textit{PRG2}, were upregulated in both comparisons with further exacerbation in SF when comparing the log$_2$FCs (Figure \ref{figure:PSA_PCR_array_HC_FC_correlation} a). Evidence of the glucose-6-phosphate isomerase \textit{GPI} upregulation has been found in RA synovial fibroblast and linked to increased levels of TNF-$\alpha$ and IL-1$\beta$ in the synovium \parencite{Zhong2015}. % GPI fibroblasts https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4422595/
+Another example of exacerbated upregulation in SF was the expression of \textit{GPR68} in mCD4$^+$. This gene was upregulated in PsA PB mCD4$^+$ when compared to the HC counterparts and further upregulated in SF when compared to PB in PsA individuals (Figure \ref{figure:PSA_PCR_array_HC_FC_correlation} b). \textit{GPR68} is a G protein-coupled receptor, expressed in T cells , amongst others, which gets activated through pH acidification, particularly relevant in synovial tissues, increasing Ca$^2$$^+$ levels and leading to activation of immune pathways. \textit{GPR68} was also upregulated in SF compared to PB in mCD8$^+$ cells, reinforcing the relevance of this gene in the synovial pathophysiological aspect of PsA. An opposite example is the epidermal growth factor-like amphiregulin (\textit{AREG}) gene which is significantly upregulated in PsA PB mCD8$^+$ cells compared to the HV but is downregulated in SF compared to PB in mCD8$^+$ from PsA individuals (Figure \ref{figure:PSA_PCR_array_HC_FC_correlation} c). Lack of \textit{AREG} in mouse models have been shown an impaired immunosupressive response by Treg cells \parencite{Zaiss2013}. 
+% GPR68 https://ard.bmj.com/content/73/Suppl_2/511.2
+%talk about limitations of those genes to be identified as disease specific. This would need an additional comparison between HV SF and PsA SF to make sure that those genes are not modulated in SF of HV and therefore are a lanmark of disease in both tissues
+
+Despite the interesting findings, the identification of disease-specific and disease tissue-specific genes is clearly limited by the lack of HC SF in the experimental design, partly due to invassive sampling procedure, and further commented in the Discussion.
+
+When performing pathway enrichment analysis using the significantly modulated genes between healthy and PsA patients PB, none specific pathway enrichment beyond Reactome immune system were identified only for CD14$^+$ monocytes and mCD4$^+$. This result reinforced the tissue-specificity of the pathways enriched for the modulated genes between SF and PB in CD14$^+$ monocytes PsA patients and clearly suggest a more pronounced inflammatory phenotype of the pathological CD14$^+$ monocytes in SF compared to PB.
 
 \begin{figure}[htbp]
 \centering
@@ -591,195 +612,13 @@ In order to better understand the disease and tissue specificity of the prior tr
 \caption{\textbf{}}
 \end{subfigure}
 \caption[Expression changes in immune-relevant genes between SF and PB in CD14$^+$ monocytes, mCD4$^+$ and mCD4$^+$ cells.]{\textbf{Expression changes in immune-relevant genes between SF and PB in CD14$^+$ monocytes, mCD4$^+$ and mCD4$^+$ cells.}}
-\label{figure:PSA_PCR_array_HC_FC_correlation}
+\label{fig:PSA_PCR_array_HC_FC_correlation}
 \end{figure} 
 
-Another group of genes were designated as tissue specific, since they were significantly modulated between SF and PB in PsA patients but did not show significant changes between HC and PsA at the circulating level (Figure \ref{figure:PSA_PCR_array_HC_FC_correlation} red). Interestingly, in CD14$^+$ monocytes the tissue specific modulated genes considerably outnumber the systemic ones (62 versus 14), showing a more pronounced change in the expression profile of immune genes across patients tissues than between healthy and diseased PB (Figure \ref{figure:PSA_PCR_array_HC_FC_correlation} a in red). For example, the aforementioned \textit{NFKB} and \textit{MyD88}, \textit{TLR2} genes were only upregulated in PsA SF CD14$^+$ monocytes and their expression was not significantly modulated between HC and PsA circulating CD14$^+$ monocytes.  Similarly to CD14$^+$ monocytes, mCD8$^+$ cells also presented greater disease tissue-specific modulation than genes modulated compared to HC in PB (Figure \ref{figure:PSA_PCR_array_HC_FC_correlation} c in red).  
-%Some more biology?
-% talk about limitations in acknowledging these genes as dissease-tissue specific due to the fact that we don't know if they also change between PB and Sf in HV
-
-The third category of genes were those significantly modulated for each cell type between HC and PsA patients in PB as well as between SF and PB from PsA individuals. These were defined as putative disease-specific genes and numbers were similar across CD14$^+$ monocytes, mCD4$^+$ and mCD8$^+$ (10, 9 and 8, respectively) (Figure \ref{figure:PSA_PCR_array_HC_FC_correlation} blue in a, b and c). In CD14$^+$ monocytes two of those genes, \textit{GPI} and \textit{PRG2}, were upregulated in both comparisons with further exacerbation in SF when comparing the log$_2$FCs (Figure \ref{figure:PSA_PCR_array_HC_FC_correlation} a). Evidence of the glucose-6-phosphate isomerase \textit{GPI} up-regulation has been found in RA synovial fibroblast and linked to increased levels of TNF-$\alpha$ and IL-1$\beta$ in the synovium \parencite{Zhong2015}. % GPI fibroblasts https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4422595/
-Another example of exacerbated up-regulation in SF was the expression of \textit{GPR68} in mCD4$^+$. This gene was upregulated in PsA PB mCD4$^+$ when compared to the HC counterparts and further upregulated in SF when compared to PB in PsA individuals (Figure \ref{figure:PSA_PCR_array_HC_FC_correlation} b). \textit{GPR68} is a G protein-coupled receptor, expressed in T cells , amongst others, which gets activated through pH acidification, particularly relevant in synovial tissues, increasing Ca$^2$$^+$ levels and leading to activation of immune pathways. \textit{GPR68} was also upregulated in SF compared to PB in mCD8$^+$ cells, reinforcing the relevance of this gene in the synovial pathophysiological aspect of PsA. An opposite example is the epidermal growth factor-like amphiregulin (\textit{AREG}) gene which is significantly upregulated in PsA PB mCD8$^+$ cells compared to the HV but is downregulated in SF compared to PB in mCD8$^+$ from PsA individuals (Figure \ref{figure:PSA_PCR_array_HC_FC_correlation} c). Lack of \textit{AREG} in mouse models have been shown an impaired immunosupressive response by Treg cells \parencite{Zaiss2013}. 
-% GPR68 https://ard.bmj.com/content/73/Suppl_2/511.2
-%talk about limitations of those genes to be identified as disease specific. This would need an additional comparison between HV SF and PsA SF to make sure that those genes are not modulated in SF of HV and therefore are a lanmark of disease in both tissues
-
-Despite the interesting findings, the identification of disease-specific and disease tissue-specific genes is clearly limited by the lack of HC SF in the experimental design, partly due to invasive sampling procedure, and further commented in the Discussion.
-
-When performing pathway enrichment analysis using the significantly modulated genes between healthy and PsA patients PB, none specific pathway enrichment beyond Reactome immune system were identified only for CD14$^+$ monocytes and mCD4$^+$. This result reinforced the tissue-specificity of the pathways enriched for the modulated genes between SF and PB in CD14$^+$ monocytes PsA patients and clearly suggest a more pronounced inflammatory phenotype of the pathological CD14$^+$ monocytes in SF compared to PB.
-
-
-
-\subsection{Charactersiation of the CD14$^+$ monocyte heterogeneity in PsA using scRNA-seq}
-According to the analysis of chromatin accessibility and immune-related gene expression in this pilot cohort, the CD14$^+$ monocytes appeared as the studied population showing the greatest changes in chromatin accessibility and the most reliable modulation of expression for pro-inflammatory chemokines and cytokines between PB and SF. Since monocytes are very plastic cells which differentiate into macrophages at the site of inflammation, exploring differences at the single-cell level and integrating chromatin accessibility and gene expression data could highlight subpopulations of particular interest and help to better understand the differences in the immune response between the blood and the inflamed tissue.
-
-
-\subsubsection{scRNA-seq reveals two broad subpopulations in SF and PB combined CD14$^+$ monocytes}
-%Explain how I did the analysis
-ScRNA-seq was performed in paired PBMCs and SFMCs isolated from three PsA patients (Table \ref{tab:PSA_datasets_per_sample}). scRNA-seq data from each of the PBMCs and SFMCs samples, were filtered as explained in \ref{ch:Mat} and CD14$^+$ monocytes were subset from the rest of the cells by expression of \textit{CD14} and \textit{LYZ}, the two appropriate markers defining this cell population (Figure \ref{figure:PsA_scRNAseq_SF_an_PB_monocytes_identification_from_bulk} a and b). These cells represented a total of 2,459 cells, approximately 17\% of all the SFMCs and PBMCs cells, consistently with the proportion of CD14$^+$ monocytes previously reported using mass cytometry (Figure \ref{figure:PsA_cell_composition}). All the CD14$^+$ monocytes identified in each of the three PsA paired PBMCs-SFMCs samples were combined using canonical-correlation analysis and followed by conservative unpervised clustering (using resolution 0.1) tSNE visualisation. 
-
-
-%Say that using a conservative approach to find cluster two main groups were identified: No IL7R vs IL7R
-%Probably more heterogeneity could be found within the big cluster but given number of replicates and intensive analysis required to make sure clusters are estable we decided to only trust these two main groups
-Using this conservative approach two clear clusters were identified (Figure \ref{figure:PsA_scRNAseq_SF_an_PB_monocytes_identification_from_bulk} a). The smallest cluster, named a CC-IL7R, was characterised by the expression of \textit{IL7R}, \textit{IL23} and \textit{CCL5}, amongst others, and was formed by a total of 72 cells (43 cells from SF versus 29 SF) (Figure \ref{figure:PSA_scRNAseq_CC_mixed_and_IL7R_overlay_markers} b and \ref{figure:PSA_scRNAseq_CC_mixed_and_IL7R_markers_heatmap}). This data has been included in a publication from Al-Mossawi and colleagues in current revision \parencite{Al-Mossawi2018}. Interestingly, the proportion of IL7R$^+$CD14$^+$ monocytes when compared to the total number CD14$^+$ monocytes was very similar in SF and PB (3 and 2.7\%, respectively) in this data. The largest cluster, named as CC-mixed, was formed by 2,387 (1,356 SF and 1,031 PB). It was quite heterogeneous, without consistent expression of the genes identified as markers (Figure \ref{figure:PSA_scRNAseq_CC_mixed_and_IL7R_markers_heatmap}). In future increased cohort size and more exhaustive analysis could be use to identify additional subpopulations within the CD14$^+$ monocytes from SF and PB in the CC-mixed cluster. For the scope of performing DGE between the two tissues, CC-mixed was considered as a unique cluster in this study.
-\bigskip
-\begin{figure}[H]
-\centering
-\begin{subfigure}[b]{0.70\textwidth}
-\centering 
-\includegraphics[width=\textwidth]{./Results3/pdfs/ATAC_PSA_NK_VAV3}
-\caption{}
-\end{subfigure}
-~
-\begin{subfigure}[b]{0.70\textwidth} 
-%the [b] prevents offset in subcaptions
-\centering
-\includegraphics[width=\textwidth]{./Results3/pdfs/ATAC_PSA_CD14_IL7R}
-\caption{}
-\end{subfigure}
-\caption[Differentially accessible regions located within gene bodies in CD14$^+$ monocytes and NK cells from PsA patients.]{\textbf{Differentially accessible regions located within gene bodies in CD14$^+$ monocytes and NK cells from PsA patients.} xxxx}
-\label{figure:PsA_FAST_ATAC_gene_boy_DOCS_CD14_NK}
-\end{figure}
-
-
-\bigskip
-\begin{figure}[H]
-\centering
-\begin{subfigure}[b]{0.60\textwidth}
-\centering 
-\includegraphics[width=\textwidth]{./Results3/pdfs/PSA_scRNAseq_tSNE_CC_mixed_and_IL7R}
-\caption{}
-\end{subfigure}
-~
-\begin{subfigure}[b]{0.75\textwidth} 
-%the [b] prevents offset in subcaptions
-\centering
-\includegraphics[width=\textwidth]{./Results3/pdfs/PSA_scRNAseq_CC_mixed_and_IL7R_overlay_markers}
-\caption{}
-\end{subfigure}
-\caption[Identification of two main CD14$^+$ monocytes subpopulations in the SF and PB combined analysis]{\textbf{Identification of two main CD14$^+$ monocytes subpopulations in the SF and PB combined analysis.} a) Visualisation using tSNE dimensional reduction of the two cluster, CC-mixed and CC-IL7R, identified from the combined SF and PB CD14$+$ monocyte cells using a very conservative resolution for the unsupervised clustering analysis. b) Overlap of \tetxt{IL7R} and \textit{IL32} expression intensities by the CC-mixed and CC-IL7R CD14$+$ monocytes.}
-\label{figure:PsA_scRNAseq_SF_an_PB_monocytes_identification_from_bulk}
-\end{figure}
-
-
-
-
-\subsubsection{Differential gene expression between SF and PB CD14$^+$ monocytes in CC-mixed and CC-IL7R}
-%DGE was performed between tissues within each cluster
-In order to explore the differences between SF and PB at a genome-wide level within each of these two main CD14$^+$ monocytes subpopulations, DGE was performed. In the CC-mixed cluster a total of 251 genes were differentially expressed at an FDR$<$0.01 and log$_2$FC$>$1.5, of those being 149 genes upregulated and 102 genes downregulated in SF compared to PB (Figure \ref{figure:PsA_scRNAseq_vulcano_plots_mixed_and_IL7R_clusters} a). Differential analysis in then CC-IL7R revealed a total of 37 modulated genes, with the majority (35 out of 37) upregulated in SF compared to PB (Figure \ref{figure:PsA_scRNAseq_vulcano_plots_mixed_and_IL7R_clusters} a). Due to the small size of the CC-IL7R and the small cohort size (only three samples), the differential analysis only identified as significantly differentially expressed (FDR$<$0.01) genes presenting large log$_2$FC (1.5 or greater). Of the 37 genes differentially expressed between the two tissues in the CC-IL7R cluster, 30 were shared with the CC-mixed cluster. Amongst the 7 distinctly modulated genes in the CC-IL7R cluster were \textit{CD44}, \textit{MT-CO2} or S-ribosomal protein (RPS) genes (\textit{RPS29} and \textit{RPS27}). \textit{CD44} is a receptor hialuronic acid and the protein product from \textit{SPP1} osteopontin an immune modulator increasing chemotaxis, cell activation and cytokine production. Interestingly, \tetxit{SPP1} was also upregulated in SF when compared to PB in the two CD14$^+$ monocytes subpopulations (Figure \ref{figure:PsA_scRNAseq_vulcano_plots_mixed_and_IL7R_clusters} a and b).
-
-
-\bigskip
-\begin{figure}[H]
-\centering
-\begin{subfigure}[b]{0.70\textwidth}
-\centering 
-\includegraphics[width=\textwidth]{./Results3/pdfs/PSA_10X_all_combined_aligned_monocytes_DGE_SF_vs_PB_cluster_0_vulcano_plot}
-\caption{}
-\end{subfigure}
-~
-\begin{subfigure}[b]{0.70\textwidth} 
-%the [b] prevents offset in subcaptions
-\centering
-\includegraphics[width=\textwidth]{./Results3/pdfs/PSA_10X_all_combined_aligned_monocytes_DGE_SF_vs_PB_IL7R_vulcano_plot}
-\caption{}
-\end{subfigure}
-\caption[Sc-RNA-seq differential gene expression results between SF and PB in the CC-mixed and CC-IL7R CD14$^+$ monocytes subpopulations.]{\textbf{Sc-RNA-seq differential gene expression results between SF and PB in the CC-mixed and CC-IL7R CD14$^+$ monocytes subpopulations.} xxxx}
-\label{figure:PsA_scRNAseq_vulcano_plots_mixed_and_IL7R_clusters}
-\end{figure}
-
-% Pathway analysis
-Pathway enrichment analysis was performed for the significantly DEGs between SF and PB in the CC-mixed and CC-IL7R subpopulations. The DEGs in the CC-mixed cluster were enriched for Ag processing and presentation pathway contributed by up-regulation of expression in the SF of \textit{CD74} and genes from the \textit{HLA-D} family \parencite{Lamb1992}. Enrichment for IFN signalling was driven by the \textit{IFI6}, \textit{IFITM3}, \textit{LY6E}, \parencite{ISG15} and \the TF \textit{STAT1}, all of them upregulated in SF when compared to BD CD14$^+$ monocytes. Interestingly, \textit{IFI6}, \textit{IFITM3}, \textit{LY6E} have been identified as markers of a subpopulation of CD14$^+$ monocytes for RA \parencite{Zhang2018}. Another interesting enriched pathway was the extracellular matrix and extracellular matrix-associated proteins which involves proteins of the S100 family that interact with the receptor for advance glycosylation end products (RAGE)
-and induce production of matrix-degrading enzymes involved in joint erosion and development of arthritis \parencite{Raghunatha2012}. Phagosome and lysosome formation also appeared to be more active in SF CD14$^+$ monocytes through overexpression of genes \textit{CTSL}, involved in protein degradation in lisosomes and an overall role in phagocytosis of apoptotic cells. Lastly, enrichment for cytokine signalling involved for example the insulin receptor substrate\textit{IRS2} and up-regulation of the kinase \textit{MAP3K8} which activates MAPK and JNK kinase pathways (ref).
-   
-Table \ref{tab:PSA_scRNAseq_CD14_DEGs_pathway_analysis}
-
-
-
-Interestingly, latest studies have involved RPS proteins in immune signalling and modulation of the NF-$\kapa$B response \parencite{Zhou2015}
-
-\begin{table}[htbp]
-%\setlength{\tabcolsep}{20pt} only to stretch the columns if you want
-%\renewcommand{\arraystretch}{1.5}
-\centering
-\begin{tabular}{@{} c c c}
-\toprule
-\textbf{Cluster} & \textbf{Pathways} & \textbf{Genes} \\
-\midrule
-\midrule
-CC-mixed & Ag processing and presentation via MHC-II & \\
-				 & Extracellular matrix and extracellular & \\
-				 & matrix-associated proteins & \\
-				 & Phagosome and lysosome formation & \\
-				 & IFN signaling & \\
-				 & Cytokine signalling $^\ast$ & \\
-				 & Apoptosis & \\
-				 & Innate immunity & \\
-\midrule				
-CC-IL7R  & Adaptive immunity & \\
-         & Ag processing and presentation & \\
-				 & Phagosome & \\
-         & Extracellular matrix and extracellular & \\
-				 & matrix-associated proteins & \\
-\bottomrule
-\end{tabular}
-\medskip %gap
-\caption[Most relevant enriched pathways for the DEGs between SF and PBCD14$^+$ monocytes in CC-mixed and CC-IL7R.]{\textbf{Most relevant enriched pathways for the DEGs between SF and PBCD14$^+$ monocytes in CC-mixed and CC-IL7R.} Significantly DEGs based on the FDR and FC threhold were used for the analysis. Most relevant enriched pathways based on FDR$<$0.01. ($\ast$) Enrichment for FDR$<$<0.05.}
-\label{tab:PSA_scRNAseq_CD14_DEGs_pathway_analysis}
-\end{table}
-
-
-
-%Integration with PCR array and differences due to pure sorted populations versus bulk
--Correlation with ATAC, overall picture
--The biological relevance of the IL7R does not show distinct differences in gene expression between tissues and its relevance may be related to the distinctive biological function of this subset in both tissues. Seems more abundant in SF and that would make sens ewith the differences in the PCR array in bulk expression.
-
-\subsubsection{Investigation of monocytes subpopulation in SF and PB}
-In this case, investigation of monocytes subpopulations was conducted in SF and PB separately. Each of the samples were individually filtered and monocytes subseted based on the appropriate marker (CD14 and LYZ). Monocytes from each of the the three samples were combined by tissue using CCA dimensional reduction. Unsupervised clustering identification using a medium stringent resolution (0.6) was performed and five and two clusters were identified in SF and PB, respectively. The identification of five clusters in these three synovial fluid samples has been included as a part of a paper in by Al-Mossawi and colleagues in current revision (ref) focused on the importance of IL7R in LPS stimulated monocytes. To further expand the observation pathway analysis using the markers for the other four clusters was performed. Also comparison to the PB cluster revealed that one of the clusters seems exclusive for the SF and is not found in PB
-
-
-\subsection{Integration of PsA GWAS and epigenetics}
-
-ATAC peaks overlap with GWAS
-Check gene expression
-Fine-mapping of those loci
-%%%%%%
-% Fig is the pb and sf populations together with the following markers
-
-The monocytes populations from the SF (1,291 cells) and PB (1,051 cells) were subseted and canonical-correlation analysis was performed in order to conduct combined downstream analysis. Unsupervised cluster analysis in the combined SF and PB CD14$^+$ monocytes data identified five different clusters (SC_M1 to SC-M5) based on gene expression patterns. SC-M1, SC-M2 and SC-M3 were the largest clusters with a total of 885, 822 and 559 cells, respectively. Interestingly these three clusters did not show complete separation and appeared to be partially merged, probably due to some commonalities expected across clusters. For each of the cluster, a set of genes differentially expressed when compared to the rest of the cells were identified and used as markers. SC-M1 was characterised by the expression of S100 gene family such as \textit{S100A9}, \textit{S100A12} and \textit{S100A8} involved in calcium-dependent cell activities and with a pro-inflammatory effect. SC-M1was characterised by IFN related genes such as \textit{IFI6}, \textit{IFITM3} and \textit{LY6E} whereas SC-M2 presented genes related to cell adhesion and migration (\textit{FN1}), bone-remodelling (\textit{GPNMB} known also as osteoactivin) and protein degradation in lisosomes(\textit{CTSL)}. Particularly interesting was SC-M4, which exclusively expressed \textit{IL7R} and \textit{IL32}. SC-M5 was removed from downstream analysis due to the the failure to reliably identified expression markers together with the small size of the cluster (28 cells). 
-
-The identified markers attributed overall a distinct function to each of the four clusters. In order to further characterise the potential relevant pathways for each cluster, pathway enrichment analysis was performed including Gene Ontology for biological processes (GOBP). The pathway enrichment analysis highlighted pathways and biological processes consistent with the general characterisation of each cluster based on the differential markers (Fig. significance for 0.05). SC-M1 marker genes were enriched for genes involved in the inflammatory response, and signalling by ILs, contributed by the expression of genes from the S100 family as well as by \textit{FPR1} involved in chemotaxis and superoxide production \parencite{Gemperle2012} and the TF \textit{CEBPD} , which is has a role in regulating the pro-inflammatory response \parencite{Litvak2009}. Pathway analysis also confirmed the IFN-activated phenotype of SC-M1, presenting enrichment for IFN-$\gamma$ signalling and antigen MHC-II Ag presentation through expression of \textit{CD74} and genes from the \textit{HLA-D} family \parencite{Lamb1992}. Similarly, SC-M3 functional relevance was better defined by the pathway analysis, highlighting phagosome formation, membrane trafficking and vesicle-mediated transport, which an overall role of this population in phagocytosis of apoptotic cells. The unique expression of \textit{IL7R}, which initially was only identified to have a role in T cells, was consistent with the enrichment for T cell co-estimulation, Th-17 cell differentiation and cell surface receptor signalling %maybe ref something from the IL7R paper when read better.
- 
-%Fig of cluster and markers and heatmap to add some of the other gnes for which I have not included the markers explicitely
-% Barplot for pathways
-
-\subsubsection{}
-Number of cell composing each cluster from Pb and SF, DEG between tissues, overlap with PCR array, overlap with ATAC-seq 
-
-
-\begin{table}[htbp]
-%\setlength{\tabcolsep}{20pt} only to stretch the columns if you want
-%\renewcommand{\arraystretch}{1.5}
-\centering
-\begin{tabular}{@{}c c c c c}
-\toprule
-\textbf{ Cluster} & \textbf{Number of cells} & \textbf{sc-DEGs}  & \textbf{ATAC-seq} & \textbf{PCR array} \\
-                  &   \textbf{(\%SF/\%PB)}   &  \textbf{up/down} & \textbf{overlap}  & \textbf{overlap}   \\			
-\midrule
-\midrule
-SC-M1 & 885 (31.6/45.2) & 225/167 & 78  & 25 \\
-SC-M2	& 822 (39.2/29.9) & 342/295 & 127 & 28 \\
-SC-M3 &	559 (24.8/22.6) & 147/146 & 57  & 13 \\
-SC-M4	& 48 (2.7/1.1)    & 41/38	  &	16  &	10 \\											
-\bottomrule
-\end{tabular}
-\medskip %gap
-\caption[CD14$^+$ monocytes cluster-based DGE analysis between SF and PB and integration with chromatin accessibility and bulk gene expression by PCR.]{\textbf{\textbf{}}. }
-\label{tab:PSA_scRNA_summary_table}
-\end{table}
 
 
 \subsection{Mass cytometry reveals CD14$^+$ monocytes as the most active cytokine producing cells}
-%Maybe see if adding a figure of the clusters and the main markers to complement
+
 Measurement of cytokine production using mass cytometry was conducted in collaboration with Dr Hussein Al-Mossawi and Dr Nicole Yager. Cytokine production by CD14$^+$ monocytes, mCD4$^+$ T cells, mCD8$^+$ T cells and NK was quantified in SF and PB after incubation with BFA for 6 h. BFA blocks cytokine release and enables to measure the cell cytokine production rate in absence of any inflammatory stimuli, as previously explained in Chapter \ref{ch:Mat}(Figure \ref{figure:PSA_cytof_cytokines}). Following data QC, IL-2, IL-8, IFN-$\gamma$ and TNF-$\alpha$ were the cytokines consistently released with the most reliable quantification results within each of the manual gated cell type clusters. CD14$^+$ monocytes isolated from both, SF and PB, was the only active cell type in producing IFN-$\gamma$, IL-2 and IL-8. Nevertheless, no significant differences in the production (mean) of those three cytokines was observed in CD14$^+$ monocytes between SF and PB. On the other hand, only CD14$^+$ monocytes isolated from SF showed positive detectable mean levels of TNF-$\alpha$, which was undetectable in the PB counterpart cells. 
 
 % IL8 production in CD4 https://www.ncbi.nlm.nih.gov/pubmed/7763239
@@ -789,7 +628,7 @@ Measurement of cytokine production using mass cytometry was conducted in collabo
 \centering
 \includegraphics[width=0.8\textwidth]{./Results3/pdfs/CyTOF_ICS_cytokines_production_IL2_IL8_TNF_IFNg}
 \caption[Mean expression of IL-2, IL-8, TNF-$\alpha$ and IFN-$\gamma$ in SF and PB from PsA patients.]{\textbf{Mean expression of IL-2, IL-8, TNF-$\alpha$ and IFN-$\gamma$ in SF and PB from PsA patients.} Expression levels quantified by mass cytometry. xxxx }
-\label{figure:PSA_cytof_cytokines}
+\label{fig:PSA_cytof_cytokines}
 \end{figure}
 
 
@@ -836,7 +675,3 @@ I am going to try using XGR to do some of this
 
 % SIGRR downregulation by LPS https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4140261/
 % CCL2 and CXCL10 in PsA
-
-The integration of the varied types of datasets that can be generated from clinical samples of a wide range of complex diseases remains challenging. It requires the implementation or development of new algorithms in order to integrate them into a systematic way
-Machine learning has been used for RA https://onlinelibrary.wiley.com/doi/epdf/10.1002/art.40428
-CCA analysis also for RA Zhang2018	

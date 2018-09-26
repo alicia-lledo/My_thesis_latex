@@ -11,51 +11,81 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\hbox to\@tempdima {\hfil }Contents}{vi}{chapter*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }List of Figures}{vii}{chapter*.9}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }List of Figures}{ix}{chapter*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }List of Tables}{viii}{chapter*.10}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }List of Tables}{x}{chapter*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Abbreviations}{ix}{chapter*.11}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Abbreviations}{xi}{chapter*.11}
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Cross-tissue comparison of chromatin accessibility, gene expression signature and immunophenotypes in PsA}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Results}{1}{section.1.2}
+\contentsline {subsection}{\numberline {1.1.1}The relevance of cell type and tissue specificity in the study of complex diseases}{1}{subsection.1.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}PsA patients cohort description and datasets}{1}{subsection.1.2.1}
+\contentsline {subsubsection}{Transcriptomics and proteomics at the single cell resolution}{3}{subsubsection*.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Immune cellular composition of blood and synovial fluid in the PsA cohort}{4}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.1.2}Using a multi-omics approach in the study of complex diseases}{4}{subsection.1.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.3}Chromatin accessibility differential analysis in immune cells reveals differences between SF and PB}{5}{subsection.1.2.3}
+\contentsline {subsubsection}{Data integration}{6}{subsubsection*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Quality control of open chromatin regions}{5}{subsubsection*.15}
+\contentsline {subsection}{\numberline {1.1.3}Genetic fine-mapping using genotyping level data}{7}{subsection.1.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Accessible chromatin reflects cell type specificity and functional relevance}{8}{subsubsection*.17}
+\contentsline {subsection}{\numberline {1.1.4}Aims}{7}{subsection.1.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Characterisation of the differential accessible chromatin regions}{10}{subsubsection*.20}
+\contentsline {section}{\numberline {1.2}Results}{7}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.4}Pathway and TFBS enrichment analysis highlight tissue-specific functional differences in chromatin accessibility}{16}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.1}PsA patients cohort description and datasets}{7}{subsection.1.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.5}Differential gene expression analysis in paired circulating and synovial immune cells}{19}{subsection.1.2.5}
+\contentsline {subsection}{\numberline {1.2.2}Immune cellular composition of blood and synovial fluid in the PsA cohort}{9}{subsection.1.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Immune-relevant gene expression and correlation with chromatin accessibility}{19}{subsubsection*.28}
+\contentsline {subsection}{\numberline {1.2.3}Chromatin accessibility differential analysis in immune cells reveals differences between SF and PB}{10}{subsection.1.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Pathway enrichment and network analysis highlights the role of synovial CD14$^+$ monocytes in cytokine and chemokine production}{25}{subsubsection*.33}
+\contentsline {subsubsection}{Quality control of open chromatin regions}{10}{subsubsection*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Modulated gene expression in CD14$^+$ monocytes shows enrichment for cytokine and chemokine production}{25}{subsubsection*.34}
+\contentsline {subsubsection}{Accessible chromatin reflects cell type specificity and functional relevance}{13}{subsubsection*.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Tissue and disease specificity in gene expression modulation and relevant biological pathways}{30}{subsubsection*.36}
+\contentsline {subsubsection}{Characterisation of the differential accessible chromatin regions}{15}{subsubsection*.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.6}Mass cytometry reveals CD14$^+$ monocytes as the most active cytokine producing cells}{32}{subsection.1.2.6}
+\contentsline {subsection}{\numberline {1.2.4}Pathway and TFBS enrichment analysis highlight tissue-specific functional differences in chromatin accessibility}{21}{subsection.1.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Discussion}{35}{section.1.3}
+\contentsline {subsection}{\numberline {1.2.5}Differential gene expression analysis in paired circulating and synovial immune cells}{24}{subsection.1.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendices}{36}{section.1.3}
+\contentsline {subsubsection}{Immune-relevant gene expression and correlation with chromatin accessibility}{24}{subsubsection*.30}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Pathway enrichment and network analysis highlights the role of synovial CD14$^+$ monocytes in cytokine and chemokine production}{29}{subsubsection*.35}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Tissue and disease specificity in gene expression modulation and relevant biological pathways}{35}{subsubsection*.37}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.6}Charactersiation of the CD14$^+$ monocyte heterogeneity in PsA using scRNA-seq}{38}{subsection.1.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{scRNA-seq reveals two broad subpopulations in SF and PB combined CD14$^+$ monocytes}{39}{subsubsection*.39}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Differential gene expression between SF and PB CD14$^+$ monocytes in CC-mixed and CC-IL7R}{41}{subsubsection*.42}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Investigation of monocytes subpopulation in SF and PB}{44}{subsubsection*.45}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.7}Integration of PsA GWAS and epigenetics}{45}{subsection.1.2.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{}{46}{subsubsection*.46}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.8}Mass cytometry reveals CD14$^+$ monocytes as the most active cytokine producing cells}{46}{subsection.1.2.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Discussion}{49}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Appendices}{50}{section.1.3}
 \ttl@starttoc {default@1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Establishment of methods to assess genome-wide chromatin accessibility}{37}{appendix.A}
+\contentsline {chapter}{\numberline {A}Appendices}{51}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Cross-tissue comparison analysis in PsA}{40}{appendix.B}
+\contentsline {section}{\numberline {A.1}Additional tables}{51}{section.A.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.1.1}Chapter 5 Tables}{51}{subsection.A.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}Additional figures}{54}{section.A.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.1}Chapter 3 Figures}{54}{subsection.A.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.2}Chapter 5 Figures}{54}{subsection.A.2.2}
 \contentsfinish 
