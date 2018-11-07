@@ -18,82 +18,88 @@
 \contentsline {chapter}{\hbox to\@tempdima {\hfil }Abbreviations}{xi}{chapter*.11}
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Cross-tissue comparison of chromatin accessibility, gene expression signature and immunophenotypes in PsA}{1}{chapter.1}
+\contentsline {chapter}{\numberline {1}Defining the genome-wide chromatin accessibility landscape and gene expression profile in psoriasis}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.1}The relevance of cell type and tissue specificity in the study of PsA}{1}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.1}The systemic and skin-specific components in psoriasis}{1}{subsection.1.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Differences in the PsA inflammatory response between blood and the synovium}{2}{subsubsection*.13}
+\contentsline {subsection}{\numberline {1.1.2}The personalised epigenome in disease}{2}{subsection.1.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.2}Bulk transcriptomic studies and their limitations}{2}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Transcriptional profiles in psoriasis}{4}{subsection.1.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.3}Transcriptomics and proteomics at the single cell resolution}{4}{subsection.1.1.3}
+\contentsline {subsubsection}{Trancriptomics in psoriatic skin}{4}{subsubsection*.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.4}Using a multi-omics approach in the study of complex diseases}{5}{subsection.1.1.4}
+\contentsline {subsection}{\numberline {1.1.4}Chromatin accessibility, gene expression and genetic variability}{6}{subsection.1.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Data integration}{6}{subsubsection*.14}
+\contentsline {subsection}{\numberline {1.1.5}Fine-mapping using summary stats}{7}{subsection.1.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.5}Genetic fine-mapping using genotyping level data}{7}{subsection.1.1.5}
+\contentsline {subsection}{\numberline {1.1.6}Aims}{8}{subsection.1.1.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.6}Aims}{7}{subsection.1.1.6}
+\contentsline {section}{\numberline {1.2}Results}{8}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Results}{7}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Psoriasis and healthy controls: cohort description and datasets}{8}{subsection.1.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}PsA patients cohort description and datasets}{7}{subsection.1.2.1}
+\contentsline {subsubsection}{Cohorts description}{9}{subsubsection*.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Immune cellular composition of blood and synovial fluid in the PsA cohort}{9}{subsection.1.2.2}
+\contentsline {subsubsection}{Datasets}{10}{subsubsection*.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.3}Differential chromatin accessibility analysis in immune cells reveals differences between SF and PB}{10}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.2}Exploring differences in the chromatin accessibility landscape of primary immune cell types in psoriasis}{12}{subsection.1.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Quality control of Fast-ATAC data}{10}{subsubsection*.17}
+\contentsline {subsubsection}{Assessment of changes in the enhancer mark H3K27ac in psoriasis immune cells}{12}{subsubsection*.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Accessible chromatin reflects cell type specificity and functional relevance}{12}{subsubsection*.19}
+\contentsline {subsubsection}{Identifying global changes in immune cells chromatin accessibility between psoriasis patients and healthy controls}{18}{subsubsection*.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Characterisation of the differential accessible chromatin regions}{14}{subsubsection*.22}
+\contentsline {subsubsection}{Integration of H3K27ac ChIPm and ATAC-seq chromatin accessibility profiles}{26}{subsubsection*.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.4}Pathway enrichment analysis highlights tissue functional differences in chromatin accessibility}{19}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.3}Differential gene expression in psoriasis circulating immune cells}{28}{subsection.1.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.5}Differential gene expression analysis in paired circulating and synovial immune cells}{21}{subsection.1.2.5}
+\contentsline {subsubsection}{Assessing quality control of the RNA-seq data}{28}{subsubsection*.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Immune-relevant gene expression by qPCR}{21}{subsubsection*.29}
+\contentsline {subsubsection}{mRNA and lncRNA differential expression}{29}{subsubsection*.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Correlation between gene expression and chromatin accessibility}{25}{subsubsection*.32}
+\contentsline {subsubsection}{The role of lncRNAs in psoriasis circulating immune cells}{34}{subsubsection*.39}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Pathway enrichment and network analysis highlights the role of synovial CD14$^+$ monocytes in cytokine and chemokine production}{28}{subsubsection*.35}
+\contentsline {subsubsection}{Pathway enrichment analysis for the DEGs}{37}{subsubsection*.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Tissue and disease specificity in gene expression modulation and relevant biological pathways}{32}{subsubsection*.37}
+\contentsline {subsection}{\numberline {1.2.4}RNA-seq in epidermis from psoriasis patients}{42}{subsection.1.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.6}Characterisation of the CD14$^+$ monocyte heterogeneity in PsA using scRNA-seq}{36}{subsection.1.2.6}
+\contentsline {subsubsection}{Quality control of the RNA-seq data}{42}{subsubsection*.44}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{scRNA-seq reveals two main subpopulations in SF and PB combined CD14$^+$ monocytes}{37}{subsubsection*.39}
+\contentsline {subsubsection}{Summary of the DGE results}{44}{subsubsection*.46}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Differential gene expression between SF and PB CD14$^+$ monocytes in CC-mixed and CC-IL7R}{38}{subsubsection*.41}
+\contentsline {subsubsection}{Overall comparison with other skin transcriptomic studies}{44}{subsubsection*.48}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.7}Integration of PsA GWAS and epigenetics}{42}{subsection.1.2.7}
+\contentsline {subsubsection}{Dysregulated lncRNAs in the psoriatic lesional skin}{46}{subsubsection*.49}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.8}Mass cytometry reveals CD14$^+$ monocytes as the most active cytokine producing cells}{42}{subsection.1.2.8}
+\contentsline {subsubsection}{Pathways enriched for the DEGs}{47}{subsubsection*.50}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Discussion}{44}{section.1.3}
+\contentsline {subsection}{\numberline {1.2.5}Comparison of the systemic and tissue-specific gene expression signatures in psoriasis}{52}{subsection.1.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendices}{46}{section.1.3}
+\contentsline {subsection}{\numberline {1.2.6}Integration of chromatin accessibility and expression data in circulating immune cells}{54}{subsection.1.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.7}Fine-mapping}{56}{subsection.1.2.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Discussion}{56}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Appendices}{57}{section.1.3}
 \ttl@starttoc {default@1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendices}{48}{appendix.A}
+\contentsline {chapter}{\numberline {A}Appendices}{59}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Additional tables}{48}{section.A.1}
+\contentsline {section}{\numberline {A.1}Additional tables}{59}{section.A.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.1}Chapter 5 Tables}{48}{subsection.A.1.1}
+\contentsline {subsection}{\numberline {A.1.1}Chapter 5 Tables}{59}{subsection.A.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.2}Chapter 4 Tables}{54}{subsection.A.1.2}
+\contentsline {subsection}{\numberline {A.1.2}Chapter 4 Tables}{65}{subsection.A.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.3}Chapter 5 Tables}{54}{subsection.A.1.3}
+\contentsline {subsection}{\numberline {A.1.3}Chapter 5 Tables}{65}{subsection.A.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Additional figures}{54}{section.A.2}
+\contentsline {section}{\numberline {A.2}Additional figures}{65}{section.A.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.1}Chapter 3 Figures}{54}{subsection.A.2.1}
+\contentsline {subsection}{\numberline {A.2.1}Chapter 3 Figures}{65}{subsection.A.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.2}Chapter 4 Figures}{54}{subsection.A.2.2}
+\contentsline {subsection}{\numberline {A.2.2}Chapter 4 Figures}{65}{subsection.A.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.3}Chapter 5 Figures}{56}{subsection.A.2.3}
+\contentsline {subsection}{\numberline {A.2.3}Chapter 5 Figures}{67}{subsection.A.2.3}
 \contentsfinish 
