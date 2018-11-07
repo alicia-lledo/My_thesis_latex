@@ -14,20 +14,15 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4473780/
 
 Talk about ATAC being more variable, a native chromatin accessibility assessment without cross-linking. Role of transposase ability in accessing the chromatin, debri and DNA from dead cells adding noise
 
+ATAC-seq requires between 500 to 50,000 cells and is a fast two-steps protocol that yields information about open chromatin and nucleosome positioning simultaneously. 
+These two aspects make ATAC-seq a very versatile technique to interrogate the chromatin landscape in a clinical set-up, where sample availability and time-efficiency are key factors \parencite{Scharer2016,Qu2015,Qu2017}. Regardless of the strengths of this new technique, ATAC-seq sensitivity is not comparable to DNase-seq for some cell types and tissues, and further optimisations of the first released protocol by Buenrostro and colleagues have been implemented \parencite{Corces2016,Sos2016,Corces2017}. 
+
+
 Paper to justify peak calling: A comparison of peak callers used for DNase-Seq data.
 
 New ATAC but also explanations of the limitations: Characterization of chromatin accessibility with a transposome hypersensitive sites sequencing (THS-seq) assay
 
 \subsection*{Challenges of working with clinical samples}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Results}
-%
-
-\subsection{Establishment of an ATAC-seq data analysis pipeline based on current knowledge}
-When the first ATAC-seq publication \parencite{Buenrostro2013} appeared, there were not well established protocols for the complete processing of the data. Since then, several publications have used ATAC-seq and modifications of this protocol together with a wide range of data analysis strategies to answer different biological questions (Table \ref{tab:ATAC_comparative_methods}).
-There are several limiting aspects in the process of analysing ATAC-seq data, including QC assessment, peak calling/filtering and differential analysis of chromatin accessibility regions between groups. Using the current knowledge in the field as well as on my own analysis, I agreed on the most appropriate criteria and parameters to implement in our in-house pipeline. For this purpose, I used ATAC data generated with the first protocol \parencite{Buenrostro2013} in paired CD14$^+$ monocytes and CD4$^+$ total T cells from the same three healthy individuals, all of them downsamples to 30 million of reads, in order to facilitate the comparison across all of them.
-
 
 %
 \begin{landscape}
@@ -60,10 +55,21 @@ Scharer\textit{et al.} 2016 & HOMER (-style dnase) & Merge of all overlapping pe
 
 
 
-\subsubsection{Sample quality control}
-Regarding QC measurements, the variability in performance of the methodology, particularly ATAC-seq and Fast-ATAC, has required to agree on appropriate parameters to determine the quality of the samples before proceeding with downstream differential analysis. After reviewing the different read-outs implemented across different publications as well as the recently ENCODE update, I have identified the most informative ones showing supporting correlation between them.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Results}
+%
 
-Firstly, I analysed the fragment size distribution for each of the six samples in order to determine if they recapitulated the expected periodicity of nucleosomes protecting the DNA during the transposition event (Figure \ref{fig:QC_ATAC}a). All the samples showed periodicity every $\sim$200bp up to 600bp, clearly distinguishing chromatin organisation into mono-, di- and tri-nucleosomes. The relative intensity of nucleosome-free DNA fragments ($<$$\sim$147pb) compared to nucleosome-bound DNA was greater for some of the samples (e.g CTL1 CD4$^+$ and CD14$^+$) and similar or lower for others (e.g CTL3 CD4$^+$ and CD14$^+$). Nucleosome-free fragments(peak$<$$\sim$147bp) are also clearly distinguished in all of the samples, meeting the ENCODE QC recommendations \parencite{ENCODE}.
+\subsection{Establishment of an ATAC-seq data analysis pipeline based on current knowledge}
+At the time of the first ATAC-seq publication \parencite{Buenrostro2013}, well established protocols for the complete processing and data analysis were missing. Since then, several publications have implemented ATAC-seq and modifications of this protocol together with a wide range of data analysis strategies to answer different biological questions (Table \ref{tab:ATAC_comparative_methods}).
+In the process of analysing ATAC-seq data, several limiting aspects are encountered, including quality control (QC) assessment, peak calling/filtering and identification of differential chromatin accessibility regions between groups of samples. Using the current knowledge in the field as well as own analysis, the most appropriate criteria and parameters to implement in the in-house pipeline were agreed. For this purpose different types of analysis were performed using ATAC-seq data generated with the \parencite{Buenrostro2013} protocol in paired CD14$^+$ monocytes and total CD4$^+$ T cells from three healthy individuals. 
+
+
+\subsubsection{Sample quality control}
+%all of them downsamples to 30 million of reads, in order to facilitate the comparison across all of them.
+Regarding QC measurements, the variability in performance of the methodology, particularly ATAC-seq and FAST-ATAC, has required identify appropriate parameters to determine the quality of the samples before proceeding with downstream differential analysis. This has been a dynamic process during the project that has benefited from the increase in the number of publications including ATAC-seq data analysis as well as identifying some of the limitations from the different protocols. After continuous review of the different read-outs implemented across different publications, as well as the recently ENCODE updates, a comprehensive analysis was performed in order to identify the most informative QC measures as well as equivalence and correlation between them.
+
+The first analysed measure was the fragment size distribution for each of the six samples downsampled to 30 million of total reads after filtering (to facilitate the comparison across them). This measure allowed to determine recapitulation of nucleosome periodicity protecting the DNA during the transposition event (Figure \ref{fig:QC_ATAC}a), which is characteristic of ATAC-seq libraries. All the samples presented appropriate periodicity every $\sim$200bp up to 600bp, clearly distinguishing chromatin organisation into mono-, di- and tri-nucleosomes. The relative intensity of nucleosome-free DNA fragments ($<$$\sim$147pb) compared to nucleosome-bound DNA was greater for some of the samples (e.g CTL1 CD4$^+$ and CD14$^+$) and similar or lower for others (e.g CTL3 CD4$^+$ and CD14$^+$), which could be related to the overall library quality. %need to establish links with TSS or sth later
+Nucleosome-free fragments(peak$<$$\sim$147bp) were also clearly distinguished in all of the samples and can be considered a compulsory requirement for ATAC-seq libraries passing QC according to the latest ENCODE recommendations \parencite{ENCODE}.
 
 
 \begin{figure}[htbp]
@@ -89,9 +95,9 @@ Firstly, I analysed the fragment size distribution for each of the six samples i
 
 
 
-Another QC measurement was the enrichment of ATAC-seq signal over a random background of reads across all the TSS identified for Ensemble genes (Figure \ref{fig:QC_ATAC}b). It is well established that nucleosome repositioning and an increase in chromatin accessibility take place at TSS to allow formation of the transcriptional machinery and initiation of transcription. Fold-enrichment signals ranged between 5-7 for the CD4$^+$ samples and they were much higher(between 17-20) for the CD14$^+$ samples. The lower sample quality of the CD4$^+$compared to CD14$^+$ shown by the TSS signal were recapitulated by the ATAC-seq signal at the promoter of the constitutively expressed gene glyceraldehyde-3-phosphate dehydrogenase (\textit{GAPDH}) (Figure \ref{fig:QC_ATAC}c). 
+Another QC measurement that was investigated and implemented was the enrichment of ATAC-seq signal over a random background of reads across all the TSS identified for Ensemble genes (Figure \ref{fig:QC_ATAC}b). It is well established that nucleosome repositioning and an increase in chromatin accessibility take place at the genes TSS to allow TFs binding and initiation of transcription. Fold-enrichment signals over the TSS ranged between 5-7 for the CD4$^+$ samples being much higher(between 17-20) in the CD14$^+$ samples. The lower sample quality of the CD4$^+$ compared to CD14$^+$ samples indicated by the TSS enrichment values were recapitulated by the ATAC-seq reads pile up at the promoters of the glyceraldehyde-3-phosphate dehydrogenase (\textit{GAPDH}) and the NOP2 Nucleolar Protein gene \textit{NOP2} , presenting more background reads and less define signal for the CD4$^+$ samples in red (Figure \ref{fig:QC_ATAC}c).
 	
-As part of the QC assessment I looked at the percentage of mitochondrial reads and the fraction of reads in peaks (FRiP)(Table \ref{tab:ATAC_MT_fraction_reads_in_peaks}). 
+As part of the QC assessment, the percentage of mitochondrial reads and the fraction of reads in peaks (FRiP) were also investigated (Table \ref{tab:ATAC_MT_fraction_reads_in_peaks}). 
 
 \begin{table}[htbp]
 %\setlength{\tabcolsep}{20pt} only to stretch the columns if you want
@@ -117,18 +123,16 @@ CTL3 CD14 & 37.6 & 49.9 \\
 \bigskip %bigger space
 
 
-FRiP score is a way of assessing the background signal in different types of assays that are based on peak calling, including ChIP-seq. Positive correlation between the TSS fold-change enrichment and FRiP was observed (data not shown), being both appropriate inter-dependent QC measures to evaluate sample noise. Regarding TSS and FRiP cut-off values, Alsoo \textit{et al.}, 2018 and, recently, ENCODE have recommended minimum FRiP between 10-20\% and TSS between 6-10. ENCODE has prioritised the use of TSS over FRiP as the measurement to determine the noise in the sample \parencite{ENCODE}. According to this recommendations all these samples passed QC; however clear differences were seen between CD4$^+$ and CD14$^+$ samples. The mitochondrial content ranged between 14.9-43.3\% and, alike FRiP and TSS, it was higher in CD14$^+$ than in CD4$^+$ and not directly related with any of the other QC measurements.
+FRiP score is an alternative way to TSS of assessing the background signal in different types of assays that are based on peak calling, including ChIP-seq. Positive correlation between the TSS fold-change enrichment and FRiP was observed (data not shown), being both appropriate inter-dependent QC measures to evaluate sample noise.  The mitochondrial content ranged between 14.9-43.3\% and, alike FRiP and TSS, it was higher in CD14$^+$ than in CD4$^+$ and not directly related with any of the other QC measurements. Therefore, MT reads in this range did not appear to reflect in the samples quality and the main inconvenience related to the need of deeper sequencing to achieve the desired number of no MT reads for doenstream analysis.
 
-
+In summary, both TSS and FRiP appeared as appropriate signal-to-noise measures with recommended cut-ff values by ENCODE and Alsoo \textit{et al.}, 2018 being a minimum FRiP between 10-20\% and TSS between 6-10. Importantly ENCODE has prioritised the use of TSS over FRiP as a more stable measure to determine the noise in the sample and will also be the chosen measure in this study. Overall, according to this analysis, all six samples passed library QC and TSS enrichment recapitulated successfully the noticeable the differences observed in the ATAC-seq signal of the UCSC tracks, between the CD4$^+$ and CD14$^+$ samples.
 	
 
 \subsubsection{Peak calling and filtering}
-As part of the ATAC-seq pipeline implementation, peak calling and the criteria for filtering where another two aspects to determine.
-Although different peak callers have been used, most of the publications as well as ENCODE has been using MACS2 as the preferred methodology (Table \ref{tab:ATAC_comparative_methods}). MACS2 has been initially developed for ChIP but it has also been used for DHS and ATAC-seq with disabling the model and agreeing in an extension size (--extsize) and a shift (--shift), which indicate the direction and number of bp for reads to be shifted and the number of bp for them to be extended, respectively. The --extsize should correspond to the average fragment size, which in my libraries is $\sim$200bp and the --shift is set to -100, as it is recommended to be set to -1/2 of the fragment size for chromatin accessibility assays. This parameter could be further optimised but it escapes from the aim of this thesis.
+As part of the ATAC-seq pipeline implementation, peak calling and their their filtering criteria were another two aspects to determine.
+Although different peak callers have been used to analyse ATAC-seq data, MACS2 has been the preferred methodology by ENCODE and most of the publications (Table \ref{tab:ATAC_comparative_methods}). MACS2 has initially been developed for ChIP data, but it has also been used for DHS and ATAC-seq disabling the model option and manually setting the shift (--shift) and extension size (--extsize), which refer to the number of bp and direction for the reads to be shifted and the number of bp for them to be extended, respectively. Since the --extsize should correspond to the average fragment size, it was set to 200bp which was the average fragment size calculated for the ATAC-seq libraries in this project. The --shift was set to -100, as it is recommended to be -1/2 of the fragment size when analysing chromatin accessibility data, such as DHS or ATAC-seq. 
 
-I was interested in understanding the effect of sequencing depth and the sample quality on the peak calling to have a better control of both variables in the downstream analysis. I performed random read sub-sampling every 5M total reads (from 5M to 30M) followed by peak calling with arbitrary filtering for FDR$<$0.01 in each of the six aforementioned samples. 
-
-The number of called peaks passing filtering showed an steady increased over the read depth which seemed to reach a \textit{plateau} around 25M reads (Figure \ref{fig:Peak_calling_versus_depth_ATAC}a). This was consistent with the decay in the increments of called peaks over read depth, almost invariable, from 20M reads onwards (Figure \ref{fig:Peak_calling_versus_depth_ATAC}b). Moreover, lower number of peaks were detected in CD4$^+$ samples compared to CD14$^+$ highlighting the influence of sample quality on the total number of called peaks. Interestingly, sample quality measured by FRiP reflected very low changes over read depth and was stable from 15M reads for all six samples (Figure \ref{fig:Peak_calling_versus_depth_ATAC}c). Overall, this confirmed that measurement of sample quality by FRiP or TSS is not biased by sequencing depth.
+Although the optimisation of the previous parameter escaped from the aim of this thesis, a systematic analysis of the effect of sequencing depth and the sample quality on the peak calling was conducted to better control the effect of both variables in the downstream analysis. For each of the six samples, random sub-sampling of reads was performed every 5 million, ranging from 5 to 30 total million reads, and followed by peak calling with arbitrary filtering for FDR$<$0.01. The number of called peaks passing filtering showed an steady increase over the read depth reaching a \textit{plateau} at approximately 25M reads (Figure \ref{fig:Peak_calling_versus_depth_ATAC}a). This was consistent with the decay in the increments of called peaks over read depth, almost invariable, from 20M reads onwards (Figure \ref{fig:Peak_calling_versus_depth_ATAC}b). Moreover, lower number of peaks were detected in CD4$^+$ samples compared to CD14$^+$ highlighting the influence of sample quality on the total number of called peaks. Interestingly, sample quality measured by FRiP reflected very low changes over read depth and was stable from 15M reads onwards for all six samples (Figure \ref{fig:Peak_calling_versus_depth_ATAC}c), similar.ly to TSS (data not shown). Overall, this confirmed that measurement of sample quality using FRiP or TSS was not affected by the sequencing depth.
 
 
 \begin{figure}[htbp]
@@ -157,7 +161,7 @@ The number of called peaks passing filtering showed an steady increased over the
 
 
 Regarding peak calling filtering, most of the ATAC-seq publications using MACS2 have arbitrarily used an FDR$<$0.01 (Table \ref{tab:ATAC_comparative_methods}). In collaboration with Dr. Gabriele Migliorini and following ENCODE pipeline, we explored the use of IDR to experimentally identify the most appropriate p-val for filtering each individual sample. Each sample was partitioned in two, peaks were called in each half and the percentage of peaks (over the total number shared peaks) sharing IDR at a particular p-val was calculated (Figure \ref{fig:Peak_calling_IDR_filtering_and_chrom_stated_ATAC} a and b). Both of the representative samples showed variation in the percentage of shared peaks upon sequencing depth under 10M reads, being the effect more pronounced and extended in the lower quality (CTL2 CD4$^+$ Figure \ref{fig:Peak_calling_IDR_filtering_and_chrom_stated_ATAC} a) compared to the counterpart CD14$^+$ (Figure \ref{fig:Peak_calling_IDR_filtering_and_chrom_stated_ATAC} b). The shape of the curves was also influenced by the sample quality, presenting a smoother profile reaching a single maximum percentage of shared IDR peaks for samples with TSS enrichment $>\sim$10 compared to samples with lower quality. All the CD14$^+$ samples reached the maximum percentage of IDR shared peaks at approximately -log10 pval 8 (data not shown). 
-Filtering the CD4$^+$ peaks at the -log10 pval of the first maximum of IDR shared peaks reduced the percentage of peaks overlapping noise ( e.g heterochromatin, repetitive sequences and repressed regions) when compared to peaks filtered based on FDR$<$0.01 (Figure \ref{fig:Peak_calling_IDR_filtering_and_chrom_stated_ATAC} b). In summary, this IDR analysis appeared as systematic method to identify an optimum p-val to perform individual filtering in a sample-specific manner and in a less arbitrary way than the extended 1\% FDR. 
+Filtering the CD4$^+$ peaks at the -log10 pval of the first maximum of IDR shared peaks reduced the percentage of peaks overlapping noise ( e.g heterochromatin, repetitive sequences and repressed regions) when compared to peaks filtered based on FDR$<$0.01 (Figure \ref{fig:Peak_calling_IDR_filtering_and_chrom_stated_ATAC} b). In summary, this IDR analysis appeared as systematic method to identify an optimum p-val to perform sample-specific filtering of the called peaks used then downstream for building the master list of regions across all the samples to perform chromatin accessibility differential analysis. 
 
 %Should mention that the median of all this first max are used to perform filtering for all the samples because following other pipelines they always use same filtering value for all samples so we need to be consistent across samples
 
@@ -293,24 +297,127 @@ Clustering and heat map and pathway analysis-briefly
 
 
 \subsection{Impact of cryopreservation and fixation in the chromatin landscape of immune primary cells}
+
 \subsubsection{Experimental design and cohort description}
 As previously introduced, research using clinical samples represents a logistic challenge precluding immediate sample processing due to geographical and/or temporal limitations. Therefore long-term storage procedures and the use of preservatives such as fixatives facilitate handling of clinical samples. In the context of these thesis two different approaches were of interest and a collaborative project was established with High-Throughput Genomics at the Wellcome Centre for Human Genomics. On one side, the cryopreservation of PBMCs in liquid nitrogen using DMSO would allow long-term preservation and would require PBMCs thawing and recovery followed by FACS isolation of the cell population of interest. On the other hand, the use of a fixative on the FACS-isolated relevant cell types from the clinical sample could be used as a short term preservation method. Regarding fixative, there was an interest to test the performance of an optimised protocol developed by High-Throughput Genomics using DSP in scRNA-seq \parencite{}. DSP is a cell-permeable and reversible cross-linking fixative that have previously been used to preserve tissue samples for downstream immuno-staining, laser micro-dissection and RNA micro-array expression profiling \parencite{}.
 
-In order to investigate the effect of the cryopreservation and DSP fixation in the nuclear integrity and chromatin structure, three healthy volunteers sex and age matched were processed on different days to be consistent with the case-control experimental design in psoriasis and PsA (Figure \ref{fig:Core_experimental_design}). For each of the individuals PBMCs were isolated from blood and a fraction was stained with the appropriate panel of Abs to isolate CD14$^+$ monocytes and CD4$^+$ T cells, as detailed in Chapter \label{ch:Mat}. ATAC-seq was performed directly in an aliquot of the isolated CD14$^+$ and CD4$^+$ cell. A fraction of the isolated CD14$^+$ and CD4$^+$ cell were appropriately fixed with DPS, stored at 4{$^\circ$}C for 24h and processed for ATAC-seq. A fraction of the PBMCs were cryopreserved following the protocol described in Chapter \label{ch:Mat}, stored in liquid nitrogen for approximately 1 week followed by thawing and recovery in culture for approximately 30 min before undergoing Ab staining and FACS to retrieve CD14$^+$ and CD4$^+$ cells. Altogether, for each of the three controls three matched ATAC-seq samples were generated: ATAC-seq fresh, ATAC-seq fixed and ATAC-seq frozen.
+In order to investigate the effect of the cryopreservation and DSP fixation in the nuclear integrity and chromatin structure, three healthy volunteers sex and age matched were processed on different days to be consistent with the case-control experimental design in psoriasis and PsA (Figure \ref{fig:Core_experimental_design}). For each of the individuals PBMCs were isolated from blood and a fraction was stained with the appropriate panel of Abs to isolate CD14$^+$ monocytes and CD4$^+$ T cells, as detailed in Chapter \label{ch:Mat}. ATAC-seq was performed directly in an aliquot of the isolated CD14$^+$ and CD4$^+$ cell. A fraction of the isolated CD14$^+$ and CD4$^+$ cell were appropriately fixed with DPS, stored at 4{$^\circ$}C for 24h and processed for ATAC-seq. A fraction of the PBMCs were cryopreserved following the protocol described in Chapter \label{ch:Mat}, stored in liquid nitrogen for approximately 1 week followed by thawing and recovery in culture for approximately 30 min before undergoing Ab staining and FACS to retrieve CD14$^+$ and CD4$^+$ cells. Altogether, for each of the three controls and two cell types three matched ATAC-seq samples were generated: ATAC-seq fresh, ATAC-seq fixed and ATAC-seq frozen.
 
+\begin{landscape}
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{./Results1/pdfs/Chapter3_core_experimental_design}
+\caption[Experimetal design to assess the impact of cryopreservation and fixation in the chromatin accessibility of immune primary cells.]{\textbf{Experimetal design to assess the impact of cryopreservation and fixation in the chromatin accessibility of immune primary cells.}}
+\label{figure:Core_experimental_design}
+\end{figure}
+\end{landscape}
+
+
+
+\subsubsection{Analysis of the chromatin preservation structure in the different conditions}
+
+All samples from each of the two cell types presented more than 15 M reads, which have previously been shown as the minimum to proceed with appropriate ATAC-seq analysis (Figure \ref{figure:Core_ATAC_all_conditions_total_reads}). In the case of the CD14$^+$ monocytes the median of reads across the fresh, frozen and fixed were more similar (58.6, 64.2 and 39.6 M reads, respectively) (Figure \ref{figure:Core_ATAC_all_conditions_total_reads} a) than in the total CD4$^+$ samples, where the frozen and fixed presented lower median of total million reads compared to the controls (43.8, 32.9 and 28.8 M reads respectively)(Figure \ref{figure:Core_ATAC_all_conditions_total_reads} b).
+
+\begin{figure}[htbp]
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\includegraphics[width=\textwidth]{./Results1/pdfs/Core_ATAC_CD14_fresh_frozen_fixed_filtered_total_reads}
+\caption{\textbf{}}
+% The percentage sign indicated that the other subfig goes side by side
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\includegraphics[width=\textwidth]{./Results1/pdfs/Core_ATAC_CD4_fresh_frozen_fixed_filtered_total_reads}
+\caption{\textbf{}}
+\end{subfigure}
+\caption[Total number of ATAC-seq reads for the fresh, frozen and fixed CD14$^+$ monocytes and total CD4$^+$ samples.]{\textbf{Total number of ATAC-seq reads for the fresh, frozen and fixed CD14$^+$ monocytes and total CD4$^+$ samples.}}
+\label{figure:Core_ATAC_all_conditions_total_reads}
+\end{figure} 
+
+The signal-to-noise ratios across the three conditions for the two cell types was quantified using enrichment of ATAC-seq reads across genes TSS. The median TSS for the CD14$^+$ monocytes was similar for the fresh and fixed libraries (17.4 and 16.5, respectively) and higher for the frozen samples(26.3)(Table \ref{tab:Core_ATAC_TSS_summary_table}). The TSS enrichments for the frozen and fixed CD4$^+$ samples (16.1 and 14.3, respectively) were considerably higher than the median of the fresh samples (5.6), which were borderline for the 6 fold-enrichmnet threhold ENCODE recommended. Interestingly, the CTL1 fixed samples of both cell types, CD14$^+$ monocytes and total CD4$^+$, presented  considerably lower TSS enrichment (2.5 and 7.9, respectively) compared to the other fixed samples (Table \ref{tab:Core_ATAC_TSS_summary_table}). 
+
+
+In terms of the fragment size distribution profiles, all samples but CTL1 fixed from CD14$^+$ monocytes and total CD4$^+$, presented similar patters with a nucleosome-free fragments $<$150bp and fragments corresponding to mono-, di-, tri- and tretra-nucleosomes. Variation in the distribution across the fragments pattern were mainly observed for the fixed samples, presenting lower density of nucleosome-free fragments when compared to fresh and frozen, which were more similar between them in both cell types. CTL1 fixed in CD14$^+$ monocytes and total CD4$^+$ had extremely low abundance of nucleosome-free regions, consistently with the very low TSS enrichment for CTL1 CD14 fixed, previously highlighted. 
+
+\begin{figure}[htbp]
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\includegraphics[width=\textwidth]{./Results1/pdfs/Core_ATAC_CD14_fresh_frozen_fixed_frag_size_distribution}
+\caption{\textbf{}}
+% The percentage sign indicated that the other subfig goes side by side
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\includegraphics[width=\textwidth]{./Results1/pdfs/Core_ATAC_CD4_fresh_frozen_fixed_frag_size_distribution}
+\caption{\textbf{}}
+\end{subfigure}
+\caption[Total number of ATAC-seq reads for the fresh, frozen and fixed CD14$^+$ monocytes and total CD4$^+$ samples.]{\textbf{Total number of ATAC-seq reads for the fresh, frozen and fixed CD14$^+$ monocytes and total CD4$^+$ samples.}}
+\label{figure:Core_ATAC_all_conditions_total_reads}
+\end{figure} 
+
+
+
+
+This preservation of the typical ATAC-seq fragment size distribution was also consistent with the maintenance of chromatin structure within the TSS and their surroundings. The nucleosome-free fragments from all the samples showed to be enriched within the TSS, presenting the lowest enrichment the CD4$^+$ fresh samples (Figure \ref{figure:Core_ATAC_intra_dinucleosome_tss_enrichment} a and c). The enrichment of di-nucleosome fragments (between 260 and 340bp) in the TSS surroundings showed the characteristic periodicity of the upstream and downstream positioned nucleosomes in all the samples but in the CTL1 CD14$^+$ fixed (Figure \ref{figure:Core_ATAC_intra_dinucleosome_tss_enrichment} b and d). This patters was also weaker for the three fresh samples from CD4$^+$. Interestingly, this analysis demonstrated that the overall low sample quality for the CTL1 CD14 fixed sample is dominated by the low signal-to-noise ratio from the most abundant fragments (di-, tri- and tretra-nucleosomes) driving the loss of chromatin structure in the TSS surroundings. Conversely, the fresh CD4$^+$ samples presented low enrichment for the nucleosome-free fragments in the TSS, recapitulating their overall TSS enrichment (Table \ref{tab:Core_ATAC_TSS_summary_table}) and still recapitulated weakly the two nucleosome positioned in the TSS surroundings. Altogether, freezing and, importantly fixing, appeared to maintain overall the chromatin structure, with some particular outliers exceptions, particularly CTL1 fixed CD14.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.7\textwidth]{./Results3/pdfs/Chapter3_core_experimental_design}
-\caption[Experimetal design to assess the impact of cryopreservation and fixation in the chromatin accessibility of immune primary cells.]{\textbf{Experimetal design to assess the impact of cryopreservation and fixation in the chromatin accessibility of immune primary cells.}}
-\label{figure:Core_experimental_design}
+\begin{subfigure}[b]{0.45\textwidth}
+\centering 
+\includegraphics[width=\textwidth]{./Results1/pdfs/Core_ATAC_CD14_fresh_frozen_fixed_internucleosome_TSS}
+\caption{}
+\end{subfigure}
+~
+\begin{subfigure}[b]{0.45\textwidth}
+\centering 
+\includegraphics[width=\textwidth]{./Results1/pdfs/Core_ATAC_CD14_fresh_frozen_fixed_dinucleosome_TSS}
+\caption{}
+\end{subfigure}
+~
+\begin{subfigure}[b]{0.45\textwidth} 
+%the [b] prevents offset in subcaptions
+\centering
+\includegraphics[width=\textwidth]{./Results1/pdfs/Core_ATAC_CD4_fresh_frozen_fixed_internucleosome_TSS}%
+\caption{}
+\end{subfigure}
+\begin{subfigure}[b]{0.45\textwidth} 
+%the [b] prevents offset in subcaptions
+\centering
+\includegraphics[width=\textwidth]{./Results1/pdfs/Core_ATAC_CD4_fresh_frozen_fixed_dinucleosome_TSS}%
+\caption{}
+\end{subfigure}
+\caption[ATAC-seq enrichment of nucleosome-free and di-nucleosome fragments at the TSS and surroundings in CD14$^+$ monocytes and total CD4$^+$ samples for the three conditions.]{ATAC-seq enrichment of nucleosome-free and di-nucleosome fragments at the TSS and surroundings in CD14$^+$ monocytes and total CD4$^+$ samples for the three conditions.} Nucleosome-free fragments ($<$150bp) and di-nucleosome (between 260 and 340bp) were selected \textit{in silico} followed by enrichment analysis +/-1KB across all the Ensembl TSS.}
+\label{figure:Core_ATAC_intra_dinucleosome_tss_enrichment}
 \end{figure}
 
 
 
 
-\subsubsection{Quality control of ATAC-seq data}
-\subsubsection{Biological relevance of differentially open chromatin across conditions}
+
+Regarding annotation, called peaks filtered for FDR$<$0.01 from all libraries for the three conditions and two cell types successfully recapitulated the distribution across different genomic features previously shown in the literature, being the greatest percentage of ATAC-seq peaks located at promoters, introns and intergenic regions (ref). Overall this suggested that freezing or fixing did not biased that distribution (Figure \ref{figure:Core_ATAC_all_conditions_genomic_features} a and b).  
+ 
+\begin{figure}[htbp]
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\includegraphics[width=\textwidth]{./Results1/pdfs/Core_ATAC_CD14_fresh_frozen_fixed_general_peak_annotation}
+\caption{\textbf{}}
+% The percentage sign indicated that the other subfig goes side by side
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\includegraphics[width=\textwidth]{./Results1/pdfs/Core_ATAC_CD4_fresh_frozen_fixed_general_peak_annotation}
+\caption{\textbf{}}
+\end{subfigure}
+\caption[Genomic features annotation for the ATAC-seq peaks called in each of the fresh,frozen and fixed samples from CD14$^+$ monocytes and total CD4$^+$.]{\textbf{Genomic features annotation for the ATAC-seq peaks called in each of the fresh,frozen and fixed samples from CD14$^+$ monocytes and total CD4$^+$.} Overlap was performed between the genomic features and the list of a) CD14$^+$ monocytes and b) total CD4$^+$ peaks filtered for FDR$<$0.01 in each sample from each of the three conditions (fresh=green, frozen=blue and fixed=red). Annotation for a particular category required a minimum of 1bp overlap.}
+\label{fig:Core_ATAC_all_conditions_genomic_features}
+\end{figure} 
+
+
+
+
 
 
 

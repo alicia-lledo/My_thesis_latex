@@ -1,14 +1,57 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Thesis.aux
 The style file: biblatex.bst
 A level-1 auxiliary file: Preamble.aux
-A level-1 auxiliary file: ./Results2/Results2.aux
+A level-1 auxiliary file: ./Results3/Results3.aux
+Stuff after "}"---line 159 of file Thesis.aux
+ : \citation{Boudousqui\'{e
+ :                         }2014}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: ./Appendix/Appendix.aux
 Database file #1: Thesis-blx.bib
 Database file #2: Thesis_ref.bib
-Warning--I didn't find a database entry for "Schmitt2005"
-Warning--I didn't find a database entry for "Woolacott2006"
-Warning--I didn't find a database entry for "Moll1976"
-Warning--I didn't find a database entry for "McGonagle"
-Warning--I didn't find a database entry for "2011"
+Warning--I didn't find a database entry for "Benham2013"
+Warning--I didn't find a database entry for "Jongbloed2008"
+Warning--I didn't find a database entry for "Spadaro2004"
+Warning--I didn't find a database entry for "Kavanaugh2006"
+Warning--I didn't find a database entry for "Ross2000"
+Warning--I didn't find a database entry for "Stoeckman2006"
+Warning--I didn't find a database entry for "Batiwalla2005"
+Warning--I didn't find a database entry for "Gu2002"
+Warning--I didn't find a database entry for "Dolcino2015"
+Warning--I didn't find a database entry for "Ritchlin1999"
+Warning--I didn't find a database entry for "Li2017"
+Warning--I didn't find a database entry for "Whitney2003"
+Warning--I didn't find a database entry for "Peters2016"
+Warning--I didn't find a database entry for "Kasela2017"
+Warning--I didn't find a database entry for "Antoniv2006"
+Warning--I didn't find a database entry for "Leipe2010"
+Warning--I didn't find a database entry for "Ziegenhain2017"
+Warning--I didn't find a database entry for "Baran-Gale2017"
+Warning--I didn't find a database entry for "Bandura2009"
+Warning--I didn't find a database entry for "Al-Mossawi2017"
+Warning--I didn't find a database entry for "Smith2008"
+Warning--I didn't find a database entry for "Howell2018"
+Warning--I didn't find a database entry for "Ai2016"
+Warning--I didn't find a database entry for "Jaitin2014"
+Warning--I didn't find a database entry for "Villani2017"
+Warning--I didn't find a database entry for "Bengsch2018"
+Warning--I didn't find a database entry for "Mizoguchi2018"
+Warning--I didn't find a database entry for "Rao2017"
 Warning--I didn't find a database entry for "Corces2016"
+Warning--I didn't find a database entry for "Ackermann2016"
+Warning--I didn't find a database entry for "Wang2018"
+Warning--I didn't find a database entry for "Zhang2018"
+Warning--I didn't find a database entry for "Jongbloed2006"
+Warning--I didn't find a database entry for "Andersson2014"
+Warning--I didn't find a database entry for "Dustin2001"
+Warning--I didn't find a database entry for "Al-Mossawi2018"
+Warning--I didn't find a database entry for "Zhong2015"
+Warning--I didn't find a database entry for "Biniecka2016"
+Warning--I didn't find a database entry for "Saxena2011"
+Warning--I didn't find a database entry for "Zaiss2013"
+Warning--I didn't find a database entry for "Lamb1992"
+Warning--I didn't find a database entry for "ISG15"
+Warning--I didn't find a database entry for "Raghunatha2012"
+Warning--I didn't find a database entry for "Zhou2015"
 Biblatex version: 3.8
-(There were 6 warnings)
+(There was 1 error message)

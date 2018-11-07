@@ -22,17 +22,21 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.1}The relevance of cell type and tissue specificity in the study of complex diseases}{1}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.1}The relevance of cell type and tissue specificity in the study of PsA}{1}{subsection.1.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Transcriptomics and proteomics at the single cell resolution}{3}{subsubsection*.13}
+\contentsline {subsubsection}{Differences in the PsA inflammatory response between blood and the synovium}{2}{subsubsection*.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.2}Using a multi-omics approach in the study of complex diseases}{4}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.2}Bulk transcriptomic studies and their limitations}{2}{subsection.1.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.3}Transcriptomics and proteomics at the single cell resolution}{4}{subsection.1.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.4}Using a multi-omics approach in the study of complex diseases}{5}{subsection.1.1.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Data integration}{6}{subsubsection*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.3}Genetic fine-mapping using genotyping level data}{7}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.5}Genetic fine-mapping using genotyping level data}{7}{subsection.1.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.4}Aims}{7}{subsection.1.1.4}
+\contentsline {subsection}{\numberline {1.1.6}Aims}{7}{subsection.1.1.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}Results}{7}{section.1.2}
 \defcounter {refsection}{0}\relax 
@@ -40,52 +44,56 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2.2}Immune cellular composition of blood and synovial fluid in the PsA cohort}{9}{subsection.1.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.3}Chromatin accessibility differential analysis in immune cells reveals differences between SF and PB}{10}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.3}Differential chromatin accessibility analysis in immune cells reveals differences between SF and PB}{10}{subsection.1.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Quality control of open chromatin regions}{10}{subsubsection*.17}
+\contentsline {subsubsection}{Quality control of Fast-ATAC data}{10}{subsubsection*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Accessible chromatin reflects cell type specificity and functional relevance}{13}{subsubsection*.19}
+\contentsline {subsubsection}{Accessible chromatin reflects cell type specificity and functional relevance}{12}{subsubsection*.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Characterisation of the differential accessible chromatin regions}{15}{subsubsection*.22}
+\contentsline {subsubsection}{Characterisation of the differential accessible chromatin regions}{14}{subsubsection*.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.4}Pathway and TFBS enrichment analysis highlight tissue-specific functional differences in chromatin accessibility}{21}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.4}Pathway enrichment analysis highlights tissue functional differences in chromatin accessibility}{19}{subsection.1.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.5}Differential gene expression analysis in paired circulating and synovial immune cells}{24}{subsection.1.2.5}
+\contentsline {subsection}{\numberline {1.2.5}Differential gene expression analysis in paired circulating and synovial immune cells}{21}{subsection.1.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Immune-relevant gene expression and correlation with chromatin accessibility}{24}{subsubsection*.30}
+\contentsline {subsubsection}{Immune-relevant gene expression by qPCR}{21}{subsubsection*.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Pathway enrichment and network analysis highlights the role of synovial CD14$^+$ monocytes in cytokine and chemokine production}{29}{subsubsection*.35}
+\contentsline {subsubsection}{Correlation between gene expression and chromatin accessibility}{25}{subsubsection*.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Tissue and disease specificity in gene expression modulation and relevant biological pathways}{35}{subsubsection*.37}
+\contentsline {subsubsection}{Pathway enrichment and network analysis highlights the role of synovial CD14$^+$ monocytes in cytokine and chemokine production}{28}{subsubsection*.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.6}Charactersiation of the CD14$^+$ monocyte heterogeneity in PsA using scRNA-seq}{38}{subsection.1.2.6}
+\contentsline {subsubsection}{Tissue and disease specificity in gene expression modulation and relevant biological pathways}{32}{subsubsection*.37}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{scRNA-seq reveals two broad subpopulations in SF and PB combined CD14$^+$ monocytes}{39}{subsubsection*.39}
+\contentsline {subsection}{\numberline {1.2.6}Characterisation of the CD14$^+$ monocyte heterogeneity in PsA using scRNA-seq}{36}{subsection.1.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Differential gene expression between SF and PB CD14$^+$ monocytes in CC-mixed and CC-IL7R}{41}{subsubsection*.42}
+\contentsline {subsubsection}{scRNA-seq reveals two main subpopulations in SF and PB combined CD14$^+$ monocytes}{37}{subsubsection*.39}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Investigation of monocytes subpopulation in SF and PB}{44}{subsubsection*.45}
+\contentsline {subsubsection}{Differential gene expression between SF and PB CD14$^+$ monocytes in CC-mixed and CC-IL7R}{38}{subsubsection*.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.7}Integration of PsA GWAS and epigenetics}{45}{subsection.1.2.7}
+\contentsline {subsection}{\numberline {1.2.7}Integration of PsA GWAS and epigenetics}{42}{subsection.1.2.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{}{46}{subsubsection*.46}
+\contentsline {subsection}{\numberline {1.2.8}Mass cytometry reveals CD14$^+$ monocytes as the most active cytokine producing cells}{42}{subsection.1.2.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.8}Mass cytometry reveals CD14$^+$ monocytes as the most active cytokine producing cells}{46}{subsection.1.2.8}
+\contentsline {section}{\numberline {1.3}Discussion}{44}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Discussion}{49}{section.1.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendices}{50}{section.1.3}
+\contentsline {chapter}{Appendices}{46}{section.1.3}
 \ttl@starttoc {default@1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendices}{51}{appendix.A}
+\contentsline {chapter}{\numberline {A}Appendices}{48}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Additional tables}{51}{section.A.1}
+\contentsline {section}{\numberline {A.1}Additional tables}{48}{section.A.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.1}Chapter 5 Tables}{51}{subsection.A.1.1}
+\contentsline {subsection}{\numberline {A.1.1}Chapter 5 Tables}{48}{subsection.A.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.1.2}Chapter 4 Tables}{54}{subsection.A.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.1.3}Chapter 5 Tables}{54}{subsection.A.1.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A.2}Additional figures}{54}{section.A.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {A.2.1}Chapter 3 Figures}{54}{subsection.A.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.2}Chapter 5 Figures}{54}{subsection.A.2.2}
+\contentsline {subsection}{\numberline {A.2.2}Chapter 4 Figures}{54}{subsection.A.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.3}Chapter 5 Figures}{56}{subsection.A.2.3}
 \contentsfinish 

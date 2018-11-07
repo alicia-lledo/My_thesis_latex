@@ -17,69 +17,317 @@
 \endgroup
 
 \datalist[entry]{nyt/global//global/global}
-  \entry{Finlay2005}{article}{}
-    \name{author}{1}{}{%
-      {{hash=FA}{%
-         family={Finlay},
+  \entry{Fairfax2012}{article}{}
+    \name{author}{10}{}{%
+      {{hash=FBP}{%
+         family={Fairfax},
          familyi={F\bibinitperiod},
-         given={Andrew},
+         given={Benjamin\bibnamedelima P.},
+         giveni={B\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Makino},
+         familyi={M\bibinitperiod},
+         given={Seiko},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=RJ}{%
+         family={Radhakrishnan},
+         familyi={R\bibinitperiod},
+         given={Jayachandran},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PK}{%
+         family={Plant},
+         familyi={P\bibinitperiod},
+         given={Katharine},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Leslie},
+         familyi={L\bibinitperiod},
+         given={Stephen},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Dilthey},
+         familyi={D\bibinitperiod},
+         given={Alexander},
          giveni={A\bibinitperiod},
       }}%
+      {{hash=EP}{%
+         family={Ellis},
+         familyi={E\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=LC}{%
+         family={Langford},
+         familyi={L\bibinitperiod},
+         given={Cordelia},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=VFO}{%
+         family={Vannberg},
+         familyi={V\bibinitperiod},
+         given={Fredrik\bibnamedelima O.},
+         giveni={F\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+      {{hash=KJC}{%
+         family={Knight},
+         familyi={K\bibinitperiod},
+         given={Julian\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
     }
-    \strng{namehash}{FA1}
-    \strng{fullhash}{FA1}
+    \strng{namehash}{FBP+1}
+    \strng{fullhash}{FBPMSRJPKLSDAEPLCVFOKJC1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{2005}
+    \field{labelyear}{2012}
     \field{labeldatesource}{year}
     \field{sortinit}{F}
     \field{sortinithash}{F}
     \verb{doi}
-    \verb 10.1111/j.1365-2133.2005.06502.x
+    \verb 10.1038/ng.2205
     \endverb
+    \field{issn}{1061-4036}
     \field{number}{5}
-    \field{pages}{861\bibrangedash 867}
-    \field{title}{Current severe psoriasis and the rule of tens}
+    \field{pages}{502\bibrangedash 510}
+    \field{title}{Genetics of gene expression in primary immune cells
+  identifies cell type-specific master regulators and roles of HLA alleles}
     \verb{url}
-    \verb http://dx.doi.org/10.1111/j.1365-2133.2005.06502.x
+    \verb http://dx.doi.org/10.1038/ng.2205
     \endverb
-    \field{volume}{152}
+    \field{volume}{44}
     \field{type}{Journal Article}
-    \field{journaltitle}{British Journal of Dermatology}
-    \field{year}{2005}
+    \field{journaltitle}{Nature genetics}
+    \field{year}{2012}
   \endentry
 
-  \entry{Griffiths2007}{article}{}
-    \name{author}{2}{}{%
-      {{hash=GCEM}{%
-         family={Griffiths},
-         familyi={G\bibinitperiod},
-         given={C.\bibnamedelima E.\bibnamedelima M.},
-         giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim
-  M\bibinitperiod},
+  \entry{Fairfax2014}{article}{}
+    \name{author}{11}{}{%
+      {{hash=FBP}{%
+         family={Fairfax},
+         familyi={F\bibinitperiod},
+         given={Benjamin\bibnamedelima P.},
+         giveni={B\bibinitperiod\bibinitdelim P\bibinitperiod},
       }}%
-      {{hash=LJ}{%
-         family={Lancet},
+      {{hash=HP}{%
+         family={Humburg},
+         familyi={H\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Makino},
+         familyi={M\bibinitperiod},
+         given={Seiko},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=NV}{%
+         family={Naranbhai},
+         familyi={N\bibinitperiod},
+         given={Vivek},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=WD}{%
+         family={Wong},
+         familyi={W\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=LE}{%
+         family={Lau},
          familyi={L\bibinitperiod},
-         given={Jnwn},
-         giveni={J\bibinitperiod},
+         given={Evelyn},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=JL}{%
+         family={Jostins},
+         familyi={J\bibinitperiod},
+         given={Luke},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=PK}{%
+         family={Plant},
+         familyi={P\bibinitperiod},
+         given={Katharine},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=AR}{%
+         family={Andrews},
+         familyi={A\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MC}{%
+         family={McGee},
+         familyi={M\bibinitperiod},
+         given={Chris},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=KJC}{%
+         family={Knight},
+         familyi={K\bibinitperiod},
+         given={Julian\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
       }}%
     }
-    \strng{namehash}{GCEMLJ1}
-    \strng{fullhash}{GCEMLJ1}
+    \strng{namehash}{FBP+1}
+    \strng{fullhash}{FBPHPMSNVWDLEJLPKARMCKJC1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{2007}
+    \field{labelyear}{2014}
     \field{labeldatesource}{year}
-    \field{sortinit}{G}
-    \field{sortinithash}{G}
-    \field{title}{Pathogenesis and clinical features of psoriasis}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \verb{doi}
+    \verb 10.1126/science.1246949
+    \endverb
+    \field{issn}{0036-8075}
+    \field{number}{6175}
+    \field{pages}{1118\bibrangedash 1132}
+    \field{title}{Innate immune activity conditions the effect of regulatory
+  variants upon monocyte gene expression}
     \verb{url}
-    \verb http://www.sciencedirect.com/science/article/pii/S0140673607611283
+    \verb http://dx.doi.org/10.1126/science.1246949
+    \endverb
+    \field{volume}{343}
+    \field{type}{Journal Article}
+    \field{journaltitle}{Science (New York, N.Y.)}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Picelli2014}{article}{}
+    \name{author}{4}{}{%
+      {{hash=PS}{%
+         family={Picelli},
+         familyi={P\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=FOR}{%
+         family={Faridani},
+         familyi={F\bibinitperiod},
+         given={O.\bibnamedelima R.},
+         giveni={O\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=BK}{%
+         family={Björklund},
+         familyi={B\bibinitperiod},
+         given={ÅK},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=pWG}{%
+         family={protocols},
+         familyi={p\bibinitperiod},
+         given={Winberg -G.},
+         giveni={W\bibinitperiod-G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PS+1}
+    \strng{fullhash}{PSFORBKpWG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{year}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \verb{doi}
+    \verb 10.1038/nprot.2014.006
+    \endverb
+    \field{title}{Full-length RNA-seq from single cells using Smart-seq2}
+    \verb{url}
+    \verb http://dx.doi.org/10.1038/nprot.2014.006
     \endverb
     \field{type}{Journal Article}
-    \field{journaltitle}{The Lancet}
-    \field{year}{2007}
+    \field{journaltitle}{Nature protocols}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Raj2014}{article}{}
+    \name{author}{10}{}{%
+      {{hash=RT}{%
+         family={Raj},
+         familyi={R\bibinitperiod},
+         given={Towfique},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=RK}{%
+         family={Rothamel},
+         familyi={R\bibinitperiod},
+         given={Katie},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Mostafavi},
+         familyi={M\bibinitperiod},
+         given={Sara},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=YC}{%
+         family={Ye},
+         familyi={Y\bibinitperiod},
+         given={Chun},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LMN}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Mark\bibnamedelima N.},
+         giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=RJM}{%
+         family={Replogle},
+         familyi={R\bibinitperiod},
+         given={Joseph\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=FT}{%
+         family={Feng},
+         familyi={F\bibinitperiod},
+         given={Ting},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Michelle},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AN}{%
+         family={Asinovski},
+         familyi={A\bibinitperiod},
+         given={Natasha},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=FI}{%
+         family={Frohlich},
+         familyi={F\bibinitperiod},
+         given={Irene},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RT+1}
+    \strng{fullhash}{RTRKMSYCLMNRJMFTLMANFI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{year}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{number}{6183}
+    \field{pages}{519\bibrangedash 523}
+    \field{title}{Polarization of the effects of autoimmune and
+  neurodegenerative risk alleles in leukocytes}
+    \verb{url}
+    \verb http://www.sciencemag.org/content/344/6183/519.short
+    \endverb
+    \field{volume}{344}
+    \field{type}{Journal Article}
+    \field{journaltitle}{Science}
+    \field{year}{2014}
   \endentry
 \enddatalist
 \endinput
