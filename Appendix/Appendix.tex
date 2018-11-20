@@ -24,7 +24,7 @@
 \centering
 \begin{tabular}{@{} c c c c c}
 \toprule
-                   &                    &               & TSS enrichment &             \\
+                   &                    &               & \textbf{TSS enrichment} &     \\
 \textbf{Cell type} & \textbf{Condition} & \textbf{CTL1} & \textbf{CTL2} & \textbf{CTL3} \\
 \midrule
 \midrule
@@ -229,6 +229,25 @@ Immune System \\
 \section{Additional figures}
 
 \subsection{Chapter 3 Figures}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.5\textwidth]{./Appendix/pdfs/Chapter3/ATAC_absent_peaks_noise_distribution}
+\caption[Distribution of the background read counts from all the master list peaks absent in each sample.]{\textbf{Distribution of the background read counts from all the master list peaks absent peaks in each sample.} Each cut-off corresponds to the number of background counts showed by a particular percentage of the total number of absent peaks.}
+\label{figure:ATAC_absent_peaks_distribution}
+\end{figure}
+
+
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.5\textwidth]{./Appendix/pdfs/Chapter3/ATAC_skin_biopsy_samples_all_methods_TSS_enrichment_supplementary}
+\caption[Assessment of TSS enrichment from ATAC 1 and Fast-ATAC in healthy and psoriasis KCs isolated from skin biopsy samples.]{\textbf{Assessment of TSS enrichment from ATAC 1 and Fast-ATAC in healthy and psoriasis KCs isolated from skin biopsy samples.} Fold-enrichment of ATAC fragments across the Ensembl annotated TSS from the different ATAC libraries.}
+\label{figure:TSS_skin_biopsies}
+\end{figure}
+
+
+
 \begin{figure}[htbp]
 \centering
 \begin{subfigure}{0.70\textwidth}
@@ -253,20 +272,9 @@ Immune System \\
 \caption{\textbf{}} % to add text to the figure name
 \end{subfigure}
 \hfill
-\caption[FAST-ATAC and Omni-ATAC NHEK tapestation profiles.]{\textbf{FAST-ATAC and Omni-ATAC NHEK tapestation profiles.} \\
-}
-\label{fig:NHEK_tapestation}
+\caption[Fast-ATAC and Omni-ATAC NHEK tapestation profiles.]{\textbf{Fast-ATAC and Omni-ATAC NHEK tapestation profiles.} Pre-sequencing quantification of DNA fragment sizes from the libraries generated  using the a) C2, b) C3, and c) C4 versions of the Fast-ATAC protocol based on modifications in the detergent and Tn5 concentration and d) Omni-ATAC. C2, C3 and C4 detergent and Tn5 concentrations are detailed in Table \ref{tab:ATAC_skin_optimisation_protocols}.}
+\label{figure:NHEK_tapestation}
 \end{figure}
-
-
-
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=0.8\textwidth]{./Appendix/pdfs/Chapter3/ATAC_skin_biopsy_samples_all_methods_TSS_enrichment_supplementary}
-\caption[Assessment of TSS enrichment from ATAC-seq and FAST-ATAC in healthy and psoriasis skin biopsies samples.]{\textbf{Assessment of TSS enrichment from ATAC-seq and FAST-ATAC in healthy and psoriasis skin biopsy samples.}  }
-\label{fig:TSS_skin_biopsies}
-\end{figure}
-
 
 \subsection{Chapter 4 Figures}
 

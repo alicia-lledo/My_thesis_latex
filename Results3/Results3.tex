@@ -15,7 +15,7 @@ Consideration of cell and type specificity in the study of complex diseases is f
 \subsubsection{Differences in the PsA inflammatory response between blood and the synovium}
 
 PsA is considered a systemic disease where studies in PBMCs have demonstrated changes in cell type composition and cytokine production when compared to healthy individuals. For example, increased frequencies of circulating IL-17$^+$ and IL-22$^+$ CD4$^+$ T cells have been reported in PB from PsA patients compared to control individuals \parencite{Benham2013}. Moreover, reduced percentage of pDCs and NK in PB have also been observed in PB from PsA compared to controls \parencite{Jongbloed2008, Spadaro2004}. In terms of cytokine production, stimulated PBMCs from PsA patiens released greater levels of IL-17 and IL-22 than the healthy control counterparts \parencite{Benham2013}. 
-Nevertheless, PsA is characterised by affection of the joints, where the local inflammatory response leads eventually to joint destruction. Oligoarticular PsA (involving four or fewer joints) is commonly managed by joint aspiration prior intra-articular steroid injection to relieve pain, facilitating the sample collection for research purposes \parencite{Kavanaugh2006}. The importance of studying the synovium in PsA have been highlighted by differences in cell composition and cytokine production, amongst others, between PB and SF in PsA patients. For example, expansion mCD8$^+$ but not mCD4$^$ T cells was observed in SF when compared to PB in PsA paired samples \parencite{Ross2000}. Additionally, elevated proportion of T cells expressing the cytokine receptors CCR6$^+$ and IL-23R$^+$ were found in SF compared to PB in patients \parencite{Benham2013}.
+Nevertheless, PsA is characterised by affection of the joints, where the local inflammatory response leads eventually to joint destruction. Oligoarticular PsA (involving four or fewer joints) is commonly managed by joint aspiration prior intra-articular steroid injection to relieve pain, facilitating the sample collection for research purposes \parencite{Kavanaugh2006}. The importance of studying the synovium in PsA have been highlighted by differences in cell composition and cytokine production, amongst others, between PB and SF in PsA patients. For example, expansion mCD8$^+$ but not mCD4$^+$ T cells was observed in SF when compared to PB in PsA paired samples \parencite{Ross2000}. Additionally, elevated proportion of T cells expressing the cytokine receptors CCR6$^+$ and IL-23R$^+$ were found in SF compared to PB in patients \parencite{Benham2013}.
 
 
 \subsection{Bulk transcriptomic studies and their limitations}
@@ -516,7 +516,7 @@ mCD8$^+$ & 6 (\textit{CCL3}, \textit{CCR2}, \textit{CCR5} ,\textit{IRF4} & 1 (\t
 \bottomrule
 \end{tabular}
 \medskip %gap
-\caption[Immune genes with significant modulated expression in SF and proximal to a DAR in ATAC-seq.]{\textbf{Immune genes with significant modulated expression in SF and proximal to a DAR in ATAC-seq.} An overlap is defined by significant change in expression (pval$<$0.05) of a particular gene where there is also a proximal DAR showing changes in chromatin accessibility in the same direction. ($^\ast$) indicates that the proximal DAR overlapping an eRNA identified by FANTOM5 project in that particular cell type (see subsection Characterisation of the differential accessible chromatin regions).}
+\caption[Immune genes with significant modulated expression in SF and proximal to a DAR in Fast-ATAC.]{\textbf{Immune genes with significant modulated expression in SF and proximal to a DAR in Fast-ATAC.} An overlap is defined by significant change in expression (pval$<$0.05) of a particular gene where there is also a proximal DAR showing changes in chromatin accessibility in the same direction. ($^\ast$) indicates that the proximal DAR overlapping an eRNA identified by FANTOM5 project in that particular cell type (see subsection Characterisation of the differential accessible chromatin regions).}
 \label{tab:PSA_gene_expression_ATAC_overlap}
 \end{table}
 
@@ -598,7 +598,7 @@ In order to better understand the disease and tissue specificity of the prior tr
 \centering
 \begin{subfigure}{0.6\textwidth}
 \centering
-\includegraphics[width=\textwidth]{./Results3/pdfs/PSA_array_correlation_CD14_FC_HVPsA_vs_SFPBPsA}
+\includegraphics[width=\textwidth]{./Results3/pdfs/PSA_array_correlation_CD14_FC_HVPsA_vs_SFPBPsA_t}
 \caption{\textbf{}}
 % The percentage sign indicated that the other subfig goes side by side
 \end{subfigure} \\
@@ -632,17 +632,12 @@ When performing pathway enrichment analysis using the significantly modulated ge
 
 
 \subsection{Characterisation of the CD14$^+$ monocyte heterogeneity in PsA using scRNA-seq}
-According to the analysis of chromatin accessibility and immune-related gene expression in this pilot cohort, the CD14$^+$ monocytes appeared as the studied population showing the greatest changes in chromatin accessibility and the most reliable modulation of expression for pro-inflammatory chemokines and cytokines between PB and SF. Since monocytes are very plastic cells which differentiate into macrophages at the site of inflammation, exploring differences at the single-cell level and integrating chromatin accessibility and gene expression data could highlight subpopulations of particular interest and help to better understand the differences in the immune response between the blood and the inflamed tissue.
+According to the analysis of chromatin accessibility and immune-related gene expression in this pilot cohort, the CD14$^+$ monocytes appeared as the studied population showed the greatest changes in chromatin accessibility and the most reliable modulation of expression for pro-inflammatory chemokines and cytokines between PB and SF. Since monocytes are very plastic cells which differentiate into macrophages at the site of inflammation, exploring differences at the single-cell level and integrating chromatin accessibility and gene expression data could highlight subpopulations of particular interest and help to better understand the differences in the immune response between the blood and the inflamed tissue.
 
 
 \subsubsection{scRNA-seq reveals two main subpopulations in SF and PB combined CD14$^+$ monocytes}
 %Explain how I did the analysis
-ScRNA-seq was performed in paired PBMCs and SFMCs isolated from three PsA patients (Table \ref{tab:PSA_datasets_per_sample}). scRNA-seq data from each of the PBMCs and SFMCs samples, were filtered as explained in \ref{ch:Mat} and CD14$^+$ monocytes were subset from the rest of the cells by expression of \textit{CD14} and \textit{LYZ}, the two appropriate markers defining this cell population (Figure \ref{figure:PsA_scRNAseq_SF_an_PB_monocytes_identification_from_bulk} a and b). These cells represented a total of 2,459 cells, approximately 17\% of all the SFMCs and PBMCs cells, consistently with the proportion of CD14$^+$ monocytes previously reported using mass cytometry (Figure \ref{figure:PsA_cell_composition}). All the CD14$^+$ monocytes identified in each of the three PsA paired PBMCs-SFMCs samples were combined using canonical-correlation analysis and followed by conservative unpervised clustering (using resolution 0.1) tSNE visualisation. 
-
-
-%Say that using a conservative approach to find cluster two main groups were identified: No IL7R vs IL7R
-%Probably more heterogeneity could be found within the big cluster but given number of replicates and intensive analysis required to make sure clusters are estable we decided to only trust these two main groups
-Using this conservative approach two clear clusters were identified (Figure \ref{figure:PsA_scRNAseq_SF_an_PB_monocytes_identification_from_bulk} a). The smallest cluster, named a CC-IL7R, was characterised by the expression of \textit{IL7R}, \textit{IL23} and \textit{CCL5}, amongst others, and was formed by a total of 72 cells (43 cells from SF versus 29 SF) (Figure \ref{figure:PSA_scRNAseq_CC_mixed_and_IL7R_overlay_markers} b and \ref{figure:PSA_scRNAseq_CC_mixed_and_IL7R_markers_heatmap}). This data has been included in a publication from Al-Mossawi and colleagues in current revision \parencite{Al-Mossawi2018}. Interestingly, the proportion of IL7R$^+$CD14$^+$ monocytes when compared to the total number CD14$^+$ monocytes was very similar in SF and PB (3 and 2.7\%, respectively) in this data. The largest cluster, named as CC-mixed, was formed by 2,387 (1,356 SF and 1,031 PB). It was quite heterogeneous, without consistent expression of the genes identified as markers (Figure \ref{figure:PSA_scRNAseq_CC_mixed_and_IL7R_markers_heatmap}). In future increased cohort size and more exhaustive analysis could be use to identify additional subpopulations within the CD14$^+$ monocytes from SF and PB in the CC-mixed cluster. For the scope of performing DGE between the two tissues, CC-mixed was considered as a unique cluster in this study.
+ScRNA-seq was performed in paired PBMCs and SFMCs isolated from three PsA patients (Table \ref{tab:PSA_datasets_per_sample}). scRNA-seq data from each of the PBMCs and SFMCs samples, were filtered as explained in \ref{ch:Mat} and CD14$^+$ monocytes were subset from the rest of the cells by expression of \textit{CD14} and \textit{LYZ}, the two of the most accurate expression markers defining this cell population (Figure \ref{figure:PsA_scRNAseq_SF_an_PB_monocytes_identification_from_bulk} a and b). Across all six samples (three SFMCs and three PBMCs), 2,459 cells were CD14$^+$ monocytes cells, representing approximately 17\% of the bulk SFMCs and PBMCs cells in line with the proportion of CD14$^+$ monocytes previously reported using mass cytometry cell surface markers (Figure \ref{figure:PsA_cell_composition}). The CD14$^+$ monocytes identified in each of the three PsA paired PBMCs-SFMCs samples were combined using CCA to correct for the batch effect intrinsic unavoidable patients' sample recruitment at different days and generation of SFMCs and PBMCs libraries separately. CCA alignament of the six CD14$^+$ monocytes populations was followed by conservative unpervised clustering (using resolution 0.1) and t-SNE visualisation. 
 
 \bigskip
 \begin{figure}[H]
@@ -659,16 +654,21 @@ Using this conservative approach two clear clusters were identified (Figure \ref
 \includegraphics[width=\textwidth]{./Results3/pdfs/PSA_scRNAseq_CC_mixed_and_IL7R_overlay_markers}
 \caption{}
 \end{subfigure}
-\caption[Identification of two main CD14$^+$ monocytes subpopulations in the SF and PB combined analysis]{\textbf{Identification of two main CD14$^+$ monocytes subpopulations in the SF and PB combined analysis.} a) Visualisation using tSNE dimensional reduction of the two cluster, CC-mixed and CC-IL7R, identified from the combined SF and PB CD14$+$ monocyte cells using a very conservative resolution for the unsupervised clustering analysis. b) Overlap of \tetxt{IL7R} and \textit{IL32} expression intensities by the CC-mixed and CC-IL7R CD14$+$ monocytes.}
+\caption[Identification of two main CD14$^+$ monocytes subpopulations in the SF and PB combined analysis]{\textbf{Identification of two main CD14$^+$ monocytes subpopulations in the SF and PB combined analysis.} a) Visualisation using tSNE dimensional reduction of the two cluster, CC-mixed and CC-IL7R, identified from the combined SF and PB CD14$+$ monocyte cells using a very conservative resolution for the unsupervised clustering analysis. b) Overlap of \tetxit{IL7R} and \textit{IL32} expression intensities by the CC-mixed and CC-IL7R CD14$+$ monocytes.}
 \label{figure:PsA_scRNAseq_SF_an_PB_monocytes_identification_from_bulk}
 \end{figure}
+
+%Say that using a conservative approach to find cluster two main groups were identified: No IL7R vs IL7R
+%Probably more heterogeneity could be found within the big cluster but given number of replicates and intensive analysis required to make sure clusters are estable we decided to only trust these two main groups
+Using this conservative approach, two robust clusters were identified (Figure \ref{figure:PsA_scRNAseq_SF_an_PB_monocytes_identification_from_bulk} a). The smallest cluster, named a CC-IL7R, was characterised by the expression of \textit{IL7R}, \textit{IL32} and \textit{CCL5}, amongst others, and was formed by a total of 72 cells (43 from SF versus 29 from PB) (Figure \ref{figure:PSA_scRNAseq_CC_mixed_and_IL7R_overlay_markers} b and \ref{figure:PSA_scRNAseq_CC_mixed_and_IL7R_markers_heatmap}) (\parencite{Al-Mossawi2018}, in revision). The proportion of IL7R$^+$CD14$^+$ monocytes when compared to the total number CD14$^+$ monocytes was very similar in SF and PB (3 and 2.7\%, respectively) in this data. The largest cluster, named as CC-mixed, was formed by 2,387 (1,356 SF and 1,031 PB). CC-mixed was quite heterogeneous, without consistent expression pattern for those genes identified as cluster markers (Figure \ref{figure:PSA_scRNAseq_CC_mixed_and_IL7R_markers_heatmap}). Similar results were obtained when increasing the resolution parameter to identify additional clusters, failing to find consistency in the expression patters not even for the top genes defined as markers for the clusters (data not shown). Increasing cohort size and a more exhaustive analysis could be use to identify additional subpopulations within the CD14$^+$ monocytes from SF and PB in the CC-mixed cluster. For the scope of this project, downstream analysis, including DGE between the two tissues, was performed in the CC-mixed and CC-IL7R clusters identified by the most conservative approach.
+
 
 
 
 
 \subsubsection{Differential gene expression between SF and PB CD14$^+$ monocytes in CC-mixed and CC-IL7R}
 %DGE was performed between tissues within each cluster
-In order to explore the differences between SF and PB at a genome-wide level within each of these two main CD14$^+$ monocytes subpopulations, DGE was performed. In the CC-mixed cluster a total of 251 genes were differentially expressed at an FDR$<$0.01 and log$_2$FC$>$1.5, of those being 149 genes upregulated and 102 genes downregulated in SF compared to PB (Figure \ref{figure:PsA_scRNAseq_vulcano_plots_mixed_and_IL7R_clusters} a). Differential analysis in then CC-IL7R revealed a total of 37 modulated genes, with the majority (35 out of 37) upregulated in SF compared to PB (Figure \ref{figure:PsA_scRNAseq_vulcano_plots_mixed_and_IL7R_clusters} a). Due to the small size of the CC-IL7R and the small cohort size (only three samples), the differential analysis only identified as significantly differentially expressed (FDR$<$0.01) genes presenting large log$_2$FC (1.5 or greater). Of the 37 genes differentially expressed between the two tissues in the CC-IL7R cluster, 30 were shared with the CC-mixed cluster. Amongst the 7 distinctly modulated genes in the CC-IL7R cluster were \textit{CD44}, \textit{MT-CO2} or S-ribosomal protein (RPS) genes (\textit{RPS29} and \textit{RPS27}). \textit{CD44} is a receptor hialuronic acid and the protein product from \textit{SPP1} osteopontin an immune modulator increasing chemotaxis, cell activation and cytokine production. Interestingly, \tetxit{SPP1} was also upregulated in SF when compared to PB in the two CD14$^+$ monocytes subpopulations (Figure \ref{figure:PsA_scRNAseq_vulcano_plots_mixed_and_IL7R_clusters} a and b).
+DGE analysis was performed in order to explore the differences between SF and PB at a genome-wide level within each of these two main CD14$^+$ monocytes subpopulations. In the CC-mixed cluster, a total of 251 genes were differentially expressed at an FDR$<$0.01 and abs(FC)$>$1.5 in SF compared to PB, of which 149 and 102 presented up- and down-regulation, respectively (Figure \ref{figure:PsA_scRNAseq_vulcano_plots_mixed_and_IL7R_clusters} a). Differential analysis in the CC-IL7R revealed a total of 37 modulated genes, with the majority (35 out of 37) up-regulated in SF compared to PB (Figure \ref{figure:PsA_scRNAseq_vulcano_plots_mixed_and_IL7R_clusters} a). Due to the low number of cells in the CC-IL7R cluster and the small sample size (n=3), the differential analysis only identified as significantly differentially expressed (FDR$<$0.01) genes presenting abs(FC)$>$1.5. Of the 37 genes differentially expressed between the two tissues in the CC-IL7R cluster, 30 were shared with the CC-mixed cluster. The 7 distinctly modulated genes in the CC-IL7R cluster included \textit{CD44}, \textit{MT-CO2} or S-ribosomal protein (RPS) genes (\textit{RPS29} and \textit{RPS27}). \textit{CD44} is a receptor of the hialuronic acid and also osteopontin, the product from the aforementioned \textit{SPP1} gene, which acts as an immune modulator increasing chemotaxis, cell activation and cytokine production. Although \tetxit{SPP1} is the gene presenting the greatest up-regulation in SF when compared to PB in the two CD14$^+$ monocytes clusters (Figure \ref{figure:PsA_scRNAseq_vulcano_plots_mixed_and_IL7R_clusters} a and b), monocytes from the CC-IL7R subpopulation may be more responsive to this chemokine.
 
 
 \bigskip
@@ -691,14 +691,34 @@ In order to explore the differences between SF and PB at a genome-wide level wit
 \end{figure}
 
 % Pathway analysis
-Pathway enrichment analysis was performed for the significantly DEGs between SF and PB in the CC-mixed and CC-IL7R subpopulations. The DEGs in the CC-mixed cluster were enriched for Ag processing and presentation pathway contributed by up-regulation of expression in the SF of \textit{CD74} and genes from the \textit{HLA-D} family \parencite{Lamb1992} (Table \ref{tab:PSA_scRNAseq_CD14_DEGs_pathway_analysis} and \ref{tab:PSA_scRNAseq_CC_mixed_and_IL7R_additional_pathways}). Enrichment for IFN signalling was driven by the \textit{IFI6}, \textit{IFITM3}, \textit{LY6E}, \parencite{ISG15} and \the TF \textit{STAT1}, all of them upregulated in SF when compared to BD CD14$^+$ monocytes. Interestingly, \textit{IFI6}, \textit{IFITM3}, \textit{LY6E} have been identified as markers of a subpopulation of CD14$^+$ monocytes for RA \parencite{Zhang2018}. Another interesting enriched pathway was the extracellular matrix and extracellular matrix-associated proteins which involves proteins of the S100 family that interact with the receptor for advance glycosylation end products (RAGE)
-and induce production of matrix-degrading enzymes involved in joint erosion and development of arthritis \parencite{Raghunatha2012}. Phagosome and lysosome formation also appeared to be more active in SF CD14$^+$ monocytes through overexpression of genes \textit{CTSL}, involved in protein degradation in lisosomes and an overall role in phagocytosis of apoptotic cells. Lastly, enrichment for cytokine signalling involved for example the insulin receptor substrate\textit{IRS2} and up-regulation of the kinase \textit{MAP3K8} which activates MAPK and JNK kinase pathways (ref). Pathway enrichment analysis for the DEGs in the CC-IL&R subpopultaion identified common relevant pathways to the CC-mixed analysis (Table \ref{tab:PSA_scRNAseq_CD14_DEGs_pathway_analysis}).
+Pathway enrichment analysis was performed for the significantly DEGs between SF and PB in the CC-mixed and CC-IL7R subpopulations. The DEGs in the CC-mixed cluster were enriched for Ag processing and presentation pathway contributed by up-regulation expression in the SF of \textit{CD74} and genes from the \textit{HLA-D} family \parencite{Lamb1992} (Table \ref{tab:PSA_scRNAseq_CD14_DEGs_pathway_analysis} and \ref{tab:PSA_scRNAseq_CC_mixed_and_IL7R_additional_pathways}). Enrichment for IFN signalling was driven by the \textit{IFI6}, \textit{IFITM3}, \textit{LY6E}, \textit{ISG15} and the TF \textit{STAT1}, all of them up-regulated in SF when compared to BD CD14$^+$ monocytes. Interestingly, \textit{IFI6}, \textit{IFITM3}, \textit{LY6E} have been identified as markers of a subpopulation of CD14$^+$ monocytes for RA \parencite{Zhang2018}. Another relevant enriched pathway was the extracellular matrix and extracellular matrix-associated proteins which involves genes of the S100 family (including \textit{S100A8}, \textit{S100A9}, \textit{S100A10}, \textit{S100A11} and S100A12, that interact with the receptor for advance glycosylation end products (RAGE) and induce production of matrix-degrading enzymes involved in joint erosion and development of arthritis \parencite{Raghunatha2012}. Two genes of this family, \textit{S100A8} and \textit{S100A9} also appeared to be dysregulated in lesional skin compared to uninvolved in Chapter \ref{ch:Results2} and contributed in the significant enrichment for the IL-17 signalling pathway in inflamed skin. However, \textit{S100A8} and \textit{S100A9} were up-regulated in lesional skin whereas they appeared down-regulated in SF compared to PB. The phagosome and lysosome formation pathway also appeared to be more active in SF CD14$^+$ monocytes, where up-regulation of genes such as \textit{CTSL}, which is involved in protein degradation in lisosomes and phagocytosis of apoptotic cells. %Lastly, enrichment for cytokine signalling included, for example, the insulin receptor substrate\textit{IRS2} and up-regulation of the kinase \textit{MAP3K8} which activates MAPK and JNK kinase pathways (ref). 
+The most functionally relevant significantly enriched pathways identified for DEGs in the CC-IL7R subpopulation were common to the ones found in the CC-mixed cluster (Table \ref{tab:PSA_scRNAseq_CD14_DEGs_pathway_analysis}).
+
+Interestingly, the overlap of DEGs with the qPCR array was modest, particularly for the DEGs in the CC-IL7R. Amongst the 72 DEGs (pval<0.05)detected by qPCR between SF and PB in CD14$^+$ monocytes, only 13 and 4 genes were also differentially expressed (FDR$<$0.01 and no FC threshold) in the CC-mixed and CC-IL7R clusters, respectively (Figure \ref{figure:figure:PsA_scRNAseq_qPCR_ATAC_correlation} a). The genes which differential expression between SF and PB was reproducible included genes with the largest FCs in both assays, such as \textit{SSP1}, \textit{FN1}, \textit{OLR1} and \textit{S100A12}and the direction of change was consistent for all of them. %add something about cell type specificity
+%Regarding the low number of qPCR DEGs between SF and PB in total CD14$^+$ monocytes reproduced by the scRNA-seq in any of the two main clusters identified could be explained by the differences in the cell sorting (FACS versus \textit{in silico} expression markers), the low number of replicates for each assay as well as different sensitivity of the two technologies.   
    
-Table \ref{tab:PSA_scRNAseq_CD14_DEGs_pathway_analysis}
+\bigskip
+\begin{figure}[H]
+\centering
+\begin{subfigure}[b]{0.50\textwidth}
+\centering 
+\includegraphics[width=\textwidth]{./Results3/pdfs/PSA_scRNAseq_PCR_array_overlapping_genes_log2FC}
+\caption{}
+\end{subfigure}
+~
+\begin{subfigure}[b]{0.70\textwidth} 
+%the [b] prevents offset in subcaptions
+\centering
+\includegraphics[width=\textwidth]{./Results3/pdfs/PSA_ATAC_scRNA_CD14_correlation_plot}
+\caption{}
+\end{subfigure}
+\caption[Correlation between scRNA-seq, qPCR and chromatin accessibility in PsA CD14$^+$ monocytes.]{\textbf{Correlation between scRNA-seq, qPCR and chromatin accessibility in PsA CD14$^+$ monocytes.} a) Overlap between the scRNA-seq DEGs (significant based only on FDR$<$0.01) from the CC-mixed and CC-IL7R CD14$^+$ monocyte cluster in SF versus PB and the corresponding DEGs (pval<0.05) detected by qPCR in the bulk CD14$^+$ monocytes population. For each of the shared DEGs, the log$_2$FCs from the qPCR and the 10X scRNA-seq analysis are represented. b) Correlation between the 10X scRNA-seq gene expression in the CC-mixed CD14$^+$ monocytes cluster and the Fast-ATAC signal proximal to the same gene in total CD14$^+$ monocytes. Log$_2$FCs between SF and PB are represented for all the genes and Fast-ATAC regions included in the analysis and significance based on FDR and FC thresholds (FDR$<$0.01 and abs(FC)$>$1.5 in each of the assays is colour-coded.}
+\label{figure:PsA_scRNAseq_qPCR_ATAC_correlation}
+\end{figure}
 
 
 
-Interestingly, latest studies have involved RPS proteins in immune signalling and modulation of the NF-$\kapa$B response \parencite{Zhou2015}
+%Interestingly, latest studies have involved RPS proteins in immune signalling and modulation of the NF-$\kapa$B response \parencite{Zhou2015}
 
 \begin{table}[htbp]
 %\setlength{\tabcolsep}{20pt} only to stretch the columns if you want
@@ -709,45 +729,81 @@ Interestingly, latest studies have involved RPS proteins in immune signalling an
 \textbf{Cluster} & \textbf{Pathways} \\
 \midrule
 \midrule
-CC-mixed & Ag processing and presentation via MHC-II \\
+         & Ag processing and presentation via MHC-II \\
 				 & Extracellular matrix and extracellular \\
 				 & matrix-associated proteins \\
-				 & Phagosome and lysosome formation \\
+CC-mixed & Phagosome and lysosome formation \\
 				 & IFN signaling & \\
 				 & Cytokine signalling $^\ast$ \\
 				 & Apoptosis \\
 				 & Innate immunity \\
 \midrule				
-CC-IL7R  & Adaptive immunity \\
+         & Adaptive immunity \\
          & Ag processing and presentation \\
-				 & Phagosome \\
+CC-IL7R	 & Phagosome \\
          & Extracellular matrix and extracellular \\
 				 & matrix-associated proteins \\
 \bottomrule
 \end{tabular}
 \medskip %gap
-\caption[Most relevant enriched pathways for the DEGs between SF and PBCD14$^+$ monocytes in CC-mixed and CC-IL7R.]{\textbf{Most relevant enriched pathways for the DEGs between SF and PBCD14$^+$ monocytes in CC-mixed and CC-IL7R.} Significantly DEGs based on the FDR and FC threhold were used for the analysis. Most relevant enriched pathways based on FDR$<$0.01. ($\ast$) Enrichment for FDR$<$<0.05.}
+\caption[Most relevant enriched pathways for the DEGs between SF and PBCD14$^+$ monocytes in CC-mixed and CC-IL7R.]{\textbf{Most relevant enriched pathways for the DEGs between SF and PBCD14$^+$ monocytes in CC-mixed and CC-IL7R.} Significantly DEGs based on the FDR and FC threhold were used for the analysis. Most relevant enriched pathways based on FDR$<$0.01. ($\ast$) Enrichment for FDR$<$0.05.}
 \label{tab:PSA_scRNAseq_CD14_DEGs_pathway_analysis}
 \end{table}
 
 
-
-%Integration with PCR array and differences due to pure sorted populations versus bulk
--Correlation with ATAC, overall picture
--The biological relevance of the IL7R does not show distinct differences in gene expression between tissues and its relevance may be related to the distinctive biological function of this subset in both tissues. Seems more abundant in SF and that would make sens ewith the differences in the PCR array in bulk expression.
+\subsubsection{Moderate genome-wide correlation correlation between chromatin accessibility and scRNA-seq expression in the CC-mixed cluster }
+In order to determine the overall correlation between expression and chromatin accessibility, the log$_2$FCs for all the expressed genes in the CC-mixed CD14$^+$ monocytes cluster and all the accessible chromatin regions in total CD14$^+$ monocytes between SF and PB were compared (Figure \ref{figure:PsA_scRNAseq_qPCR_ATAC_correlation} b). Changes in expression and chromatin accessibility only presented a moderate correlation in this data (R$^2$=0.214, pval=2x10$^{-16}$). In the CC-mixed cluster, 64 genes out of the 251 DEGs (FDR$<$0.01 and abs(FC)$>$1.5) were nearby one or more Fast-ATAC DARs (Table \ref{tab:PSA_10X_CD14_clusters_and_ATAC_overlap}). Interestingly, the CC-mixed DEGs were enriched for genes in the proximity of at least one DARs in total CD14$^+$ monocytes (Fisher exact test pval=1.5x10$^-3$) highlighting a mechanistic effect???. The majority of the overlaps presented corresponding up-regulation or down-regulation (40 and 12 genes, respectively)in both, gene expression and chromatin accessibility, when comparing SF versus PB. However, 12 genes showed opposite dysregulated expression and chromatin accessibility in the CC-mixed cluster (Table \ref{tab:PSA_10X_CD14_clusters_and_ATAC_overlap}). 
 
 
-\subsection{Integration of PsA GWAS and epigenetics}
+  
+\begin{table}[htbp]
+%\setlength{\tabcolsep}{20pt} only to stretch the columns if you want
+%\renewcommand{\arraystretch}{1.5}
+\centering
+\begin{tabular}{@{} c c c c}
+\toprule
+\textbf{Cluster} & \textbf{Up-regulated genes}        &  \textbf{Up-regulated genes }  & \textbf{Opposite direction} \\
+                   & \textbf{with proximal}           &  \textbf{with proximal}      & \textbf{in expression } \\
+									 &	\textbf{SF open DAR}				    &  \textbf{PB open DAR}        & \textbf{and DAR}\\
+\midrule
+\midrule
+ CC-mixed         & 40                                       &  10                                & 14 \\
+ CC-IL7R          & 9                                        &  0                                 & 4 \\
+\bottomrule
+\end{tabular}
+\medskip %gap
+\caption[scRNA-seq DEGs in SF versus PB CD14$^+$ monocytes proximal to a DAR in Fast-ATAC.]{\textbf{scRNA-seq DEGs in SF versus PB CD14$^+$ monocytes proximal to a DAR in Fast-ATAC.}. For each of the two CD14$^+$ monocytes cluster identified by scRNA-seq analysis, an overlap is defined by significant change in expression (FDR$<$0.01 and abs(FC)$>$1.5) between SF and PB for a particular gene where a proximal DAR ($\leq$5Kb) showing same or opposite direction of change to the gene expression.}
+\label{tab:PSA_10X_CD14_clusters_and_ATAC_overlap}
+\end{table}
 
-ATAC peaks overlap with GWAS
-Check gene expression
-Fine-mapping of those loci
-%%%%%%
-% Fig is the pb and sf populations together with the following markers
+
+Interestingly, amongst the DEGs in the CC-mixed cluster overlapping a proximal DAR was \textit{CCL2} (Figure \ref{figure:PsA_scRNAseq_qPCR_ATAC_correlation} b). The expression of \textit{CCL2} was shown to be significantly modulated (pval$<$0.05 and mean FC$>$1.5) between SF and PB by qPCR only in CD14$^+$ monocytes, whereas no significant changes were observed for mCD4$^+$ and mCD8$^+$ in the same data (Figure \ref{figure:PSA_PCR_array_vulcano_plots} a, b, c and Table \ref{tab:PSA_gene_expression_ATAC_overlap}). In contrast, \textit{CCR2} which is the receptor for the chemokine MCP-1 (protein product of \textit{CCL2}) appeared up-regulated in mCD4$^+$ and mCD8$^+$ cells in the same individuals, highlighting the biological relevance of this observation. Consistently with \textit{CCL2} up-regulated expression in SF compared to PB was, a cell type-specific SF open DAR upstream \textit{CCL2} has also been identified by Fast-ATAC in this data (Figure \ref{figure:PsA_10X_qPCR_ATAC_CD14_CCL2}). This SF open DAR region is annotated as enhancer according to Epigenome Roadmap chromatin segmentation and overlaps a eRNA reported by FANTOM5 in CD14$^+$ monocytes. However, no eQTL or Hi-C interaction in CD14$^+$ monocytes have been reported for SNPs overlapping this DAR, lacking of additional data to determine the relationship between differential expression of \textit{CCL2} and changes in chromatin accessibility in this nearby locus. In terms of the pathological relevance, \textit{CCL2} did not appear up-regulated in PB CD14$^+$ monocytes when comparing PsA patients and healthy controls and it was defined as one of the putative disease-specific genes (Figure \ref{figure:figure:PSA_PCR_array_HC_FC_correlation} a). Similarly, Dolcino and colleagues were not able to detect \textit{CCL2} dysregulation neither in PBMCs when comparing PsA patients and healthy controls nor when comparing synovial membrane biopsies from PsA patients versus controls \parencite{Dolcino2015}. Overall, this suggests a tissue and cell type specific dysregulation of \textit{CCL2} expression in the CC-mixed CD14$^+$ monocytes cluster that may be related to alterations in the chromatin accessibility of an enhancer in the proximity to this gene.
+
+\bigskip
+\begin{figure}[H]
+\centering
+\begin{subfigure}[b]{0.60\textwidth}
+\centering 
+\includegraphics[width=\textwidth]{./Results3/pdfs/ATAC_PSA_CD14_UCSC_CCL2_track}
+\caption{}
+\end{subfigure}
+\caption[Differentially accessible regions located within gene bodies in CD14$^+$ monocytes and NK cells from PsA patients.]{\textbf{Differentially accessible regions located within gene bodies in CD14$^+$ monocytes and NK cells from PsA patients.} xxxx}
+\label{figure:PsA_10X_qPCR_ATAC_CD14_CCL2}
+\end{figure}
 
 
-%Fig of cluster and markers and heatmap to add some of the other gnes for which I have not included the markers explicitely
-% Barplot for pathways
+Similarly to the CC-mixed results, the DEGs in the CC-IL7R cluster between SF and PB were also enriched for those genes with at least one DARs nearby (Fisher exact test pval=1.85x10$^-9$). Amongst the 22 DEGs overlapping a proximal DAR, 13 of them had gene expression and chromatin accessibility changing in the same direction and only 4 presented opposite directionality in the variation of the two features (Table \ref{tab:PSA_10X_CD14_clusters_and_ATAC_overlap}). The CC-IL7R cluster and CD44 data not shown.
+% Only row avg expression or chr accessibility in each tissue, in case there is a better correlation in one compared to the other
+%Do fisher exact for DEGs and ATAC but also see relationship with cell type specific genes and tissue specific genes, to try to merge everything, or establish one link/conclusion or finding
+
+
+
+
+%The biological relevance of the IL7R does not show distinct differences in gene expression between tissues and its relevance may be related to the distinctive biological function of this subset in both tissues. Seems more abundant in SF and that would make sense with the differences in the PCR array in bulk expression.
+
+
+
+
 \subsection{Mass cytometry reveals CD14$^+$ monocytes as the most active cytokine producing cells}
 %Maybe see if adding a figure of the clusters and the main markers to complement
 Measurement of cytokine production using mass cytometry was conducted in collaboration with Dr Hussein Al-Mossawi and Dr Nicole Yager. Cytokine production by CD14$^+$ monocytes, mCD4$^+$ T cells, mCD8$^+$ T cells and NK was quantified in SF and PB after incubation with BFA for 6 h. BFA blocks cytokine release and enables to measure the cell cytokine production rate in absence of any inflammatory stimuli, as previously explained in Chapter \ref{ch:Mat}(Figure \ref{figure:PSA_cytof_cytokines}). Following data QC, IL-2, IL-8, IFN-$\gamma$ and TNF-$\alpha$ were the cytokines consistently released with the most reliable quantification results within each of the manual gated cell type clusters. CD14$^+$ monocytes isolated from both, SF and PB, was the only active cell type in producing IFN-$\gamma$, IL-2 and IL-8. Nevertheless, no significant differences in the production (mean) of those three cytokines was observed in CD14$^+$ monocytes between SF and PB. On the other hand, only CD14$^+$ monocytes isolated from SF showed positive detectable mean levels of TNF-$\alpha$, which was undetectable in the PB counterpart cells. 
@@ -788,6 +844,13 @@ The increased rate of TNF-$\alpha$ production by SF CD14$^+$ monocytes was reinf
 %This cytokine panel is representative of the four cell types of interest. TNF-$\alpha$ is released by all four cell types whereas IFN-$\gamma$ is mostly produced by lymphocytes and NK cells. Although IL-8 is mainly produced by fibroblasts and neutrophils, it is also secreted by monocytes and CD4$^+$ T cells, this last one being also the main source for IL-2 production. 
 
 
+\subsection{Integration of PsA GWAS and epigenetics}
+
+ATAC peaks overlap with GWAS
+DEGs in PCR array or scRNA with GWAS
+Fine-mapping of those loci
+%%%%%%
+% Fig is the pb and sf populations together with the following markers
 
 
 
@@ -810,3 +873,6 @@ I am going to try using XGR to do some of this
 The integration of the varied types of datasets that can be generated from clinical samples of a wide range of complex diseases remains challenging. It requires the implementation or development of new algorithms in order to integrate them into a systematic way
 Machine learning has been used for RA https://onlinelibrary.wiley.com/doi/epdf/10.1002/art.40428
 CCA analysis also for RA Zhang2018	
+
+
+%Regarding the low number of qPCR DEGs between SF and PB in total CD14$^+$ monocytes reproduced by the scRNA-seq in any of the two main clusters identified could be explained by the differences in the cell sorting (FACS versus \textit{in silico} expression markers), the low number of replicates for each assay as well as different sensitivity of the two technologies.   
