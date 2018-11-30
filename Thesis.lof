@@ -2,62 +2,47 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Measurements for QC assessment in ATAC-seq samples}}{9}{figure.caption.14}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Comparative percentages of PB and SF immune cellular composition from the PsA cohort.}}{12}{figure.caption.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.2}{\ignorespaces FRiP and peak calling at different sequencing depths in ATAC-seq libraries.}}{13}{figure.caption.17}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Quality control assessment of ATAC data generated in four immune cell types isolated from PB and SF of PsA patients samples.}}{14}{figure.caption.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Peak calling filtering using IDR analysis in ATAC-seq samples.}}{15}{figure.caption.18}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces PCA analysis based on the ATAC chromatin accessibility landscape in four immune cell types isolated from blood and SF.}}{15}{figure.caption.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Work flow illustrating the strategy to account for ATAC background noise prior to differential analysis.}}{17}{figure.caption.20}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Enrichment of eQTLs publicly available data in the combined cell type and tissue chromatin accessibility master list for the PsA cohort.}}{16}{figure.caption.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Normalisation and differential chromatin accessibility analysis for different cut-offs using quantile normalisation limma voom and DESeq2.}}{19}{figure.caption.21}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Annotation of the PsA DARs identified in the four cell types with genomic annotations and chromatin states.}}{19}{figure.caption.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Comparison of the DARs identified by differential analysis using limma voom or DESeq for the master list filtered at the optimal cut-off 80\%.}}{21}{figure.caption.22}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Enrichment of PsA DARs for the FANTOM5 eRNA dataset.}}{20}{figure.caption.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Enrichment analysis for the significant DARs identified by DESeq2 between CD14$^+$ monocytes and tCD4$^+$ cells.}}{22}{figure.caption.23}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Differentially accessible regions located within gene bodies in CD14$^+$ monocytes and NK cells from PsA patients.}}{21}{figure.caption.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Assessment of the effect of transposition times on the ATAC-seq measurements}}{23}{figure.caption.24}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Distinct functional pathways enriched for DARs open in SF or open in PB in CD14$^+$ monocytes, CD4m$^+$,CD8m$^+$ and NK.}}{24}{figure.caption.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Differences in MT DNA abundance and and TSS enrichment between ATAC-seq and Fast-ATAC protocols.}}{25}{figure.caption.25}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Heatmap of gene expression FCs between SF and PB for those gene significantly modulated (pval$<$0.05) in at least one cell type.}}{26}{figure.caption.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.10}{\ignorespaces QC assessment of different ATAC protocols in psoriasis KCs and NHEKs.}}{27}{figure.caption.26}
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Gene expression changes in immune-relevant genes between SF and PB in CD14$^+$ monocytes, mCD4$^+$ and mCD8$^+$ cells.}}{28}{figure.caption.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.11}{\ignorespaces QC assessment of Fast-ATAC and Omni-ATAC in cultured NHEK}}{29}{figure.caption.28}
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Chromatin accessibility landscape at the qPCR differentially expressed \textit {FN1} gene in CD14$^+$ monocytes.}}{30}{figure.caption.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.12}{\ignorespaces Comparison of the ENCODE DHSs overlap and signal density at the chr17 keratin family gene locus across different ATAC protocols.}}{31}{figure.caption.29}
+\contentsline {figure}{\numberline {1.12}{\ignorespaces Protein network analysis based on the immune qPCR array expression data.}}{36}{figure.caption.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.13}{\ignorespaces Experimetal design to assess the impact of cryopreservation and fixation in the chromatin accessibility of immune primary cells.}}{33}{figure.caption.31}
+\contentsline {figure}{\numberline {1.13}{\ignorespaces Comparison of immune-relevant gene expression modulation across PsA tissues (SF vs PB) and in PsA patients verus healthy controls.}}{38}{figure.caption.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.14}{\ignorespaces Total number of ATAC-seq reads for the fresh, frozen and fixed CD14$^+$ monocytes and total CD4$^+$ samples.}}{34}{figure.caption.33}
+\contentsline {figure}{\numberline {1.14}{\ignorespaces Identification of two main CD14$^+$ monocytes subpopulations in the SF and PB combined analysis}}{41}{figure.caption.38}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.15}{\ignorespaces Fragment size density distribution for ATAC-seq fresh, fixed and frozen in CD14$^+$ monocytes and tCD4$^+$ cells.}}{35}{figure.caption.34}
+\contentsline {figure}{\numberline {1.15}{\ignorespaces Sc-RNA-seq differential gene expression results between SF and PB in the CC-mixed and CC-IL7R CD14$^+$ monocytes subpopulations.}}{44}{figure.caption.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.16}{\ignorespaces ATAC-seq enrichment of nucleosome-free and di-nucleosome fragments at the TSS and surroundings in CD14$^+$ monocytes and tCD4$^+$ samples for the three conditions.}}{36}{figure.caption.35}
+\contentsline {figure}{\numberline {1.16}{\ignorespaces Correlation between scRNA-seq, qPCR and chromatin accessibility in PsA CD14$^+$ monocytes.}}{47}{figure.caption.42}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.17}{\ignorespaces Genomic features annotation for the ATAC-seq peaks called in each of the fresh,frozen and fixed samples from CD14$^+$ monocytes and total CD4$^+$.}}{37}{figure.caption.36}
+\contentsline {figure}{\numberline {1.17}{\ignorespaces Chromatin landscape in CD14$^+$ monocytes upstream the differentially expressed gene \textit {CCL2}.}}{50}{figure.caption.45}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.18}{\ignorespaces PCA analysis based on the ATAC-seq chromatin accessibility landscape in fresh, fixed and frozen samples.}}{38}{figure.caption.38}
+\contentsline {figure}{\numberline {1.18}{\ignorespaces Mean expression of IL-8 and TNF-$\alpha $ markers in SF and PB from three PsA patients quantified by mass cytometry.}}{51}{figure.caption.46}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.19}{\ignorespaces Comparison of the log$_2$ normalised ATAC-seq counts at the consensus master lists peaks in fresh, fixed and frozen conditions.}}{39}{figure.caption.39}
+\contentsline {figure}{\numberline {1.19}{\ignorespaces Comparison of TNF-$\alpha $ expression in SF and PB CD14$^+$ monocytes before and after protein transport blockade with BFA using mass cytometry.}}{53}{figure.caption.47}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.20}{\ignorespaces Differential chromatin accessibility at the \textit {TNFSF14} gene between ATAC-seq fresh and ATAC-seq frozen in CD14$^+$ monocytes.}}{41}{figure.caption.41}
+\contentsline {figure}{\numberline {1.20}{\ignorespaces Experimental Factor Ontology terms enriched in GWAS Catalogue SNPs overlapping ATAC regions in four cell types.}}{59}{figure.caption.51}
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.21}{\ignorespaces Epigenetic landscape at the genomic location of fine-mapped SNPs for the 5q31 PsA GWAS signal.}}{63}{figure.caption.54}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Distribution of the background read counts from all the master list peaks absent in each sample.}}{53}{figure.caption.52}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Assessment of TSS enrichment from ATAC 1 and Fast-ATAC in healthy and psoriasis KCs isolated from skin biopsy samples.}}{55}{figure.caption.53}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Fast-ATAC and Omni-ATAC NHEK tapestation profiles.}}{56}{figure.caption.54}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Percentage of MT reads in the ATAC-seq libraries generated in CD14$^+$ monocytes, CD4$^+$, CD8$^+$ and CD19$^+$ isolated from psoriasis patients and healthy controls.}}{57}{figure.caption.55}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Genomic annotation of the consensus master list of ATAC-seq enriched sites built for downstream differential chromatin accessibility analysis in CD14$^+$ monocytes, CD4$^+$, CD8$^+$ and CD19$^+$.}}{58}{figure.caption.56}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.6}{\ignorespaces PCA analysis illustrating batch effect in ATAC-seq and RNA-seq samples.}}{58}{figure.caption.57}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.7}{\ignorespaces Permutation analysis SF vs PB in CD14$^+$,CD4m$^+$,CD8m$^+$ and NK.}}{59}{figure.caption.58}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.8}{\ignorespaces Heatmap for the top 20 marker genes of the CC-mixed and CC-IL7R CD14$^+$ monocytes subpopulations.}}{60}{figure.caption.59}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.9}{\ignorespaces Identification of the CD14$^+$ monocytes populations from bulk SFMCs and PBMCs using scRNA-seq transcriptomes.}}{60}{figure.caption.60}
+\contentsline {figure}{\numberline {1.22}{\ignorespaces Epigenetic landscape at the genomic location of three fine-mapped SNPs from the \textit {STAT2/IL23A} PsA GWAS signal.}}{65}{figure.caption.57}
+\contentsfinish 

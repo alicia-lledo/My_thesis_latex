@@ -1,0 +1,319 @@
+﻿@misc{RN324,
+   url = {http://bio-bwa.sourceforge.net/},
+   type = {Web Page}
+}
+
+@misc{RN334,
+   url = {http://www.roadmapepigenomics.org/protocols/type/experimental/},
+   type = {Web Page}
+}
+
+@misc{RN375,
+   volume = {2017},
+   number = {30/12/2017},
+   url = {http://www.who.int/classifications/icd/en/},
+   year = {2017},
+   type = {Web Page}
+}
+
+@article{RN256,
+   author = {Abecasis GR, Auton A, Brooks LD, DePristo MA, Durbin RM, Handsaker RE, Kang HM, Marth GT, McVean GA.},
+   title = {An integrated encyclopedia of DNA elements in the human genome},
+   journal = {Nature},
+   volume = {489},
+   number = {7414},
+   pages = {57-74},
+   ISSN = {0028-0836},
+   DOI = {10.1038/nature11247},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN737,
+   author = {Abraham, Gad and Inouye, Michael},
+   title = {Fast principal component analysis of large-scale genome-wide data},
+   journal = {PloS one},
+   volume = {9},
+   number = {4},
+   url = {http://scholar.google.com/scholar?q=Fast principal component analysis of large-scale genome-wide data&btnG=&hl=en&num=20&as_sdt=0%2C22},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN448,
+   author = {Abramson, S. R. and of and …, Khattri - S.},
+   title = {A Review of Current Evidence for TNF Inhibitor Switching in Psoriatic Arthritis},
+   journal = {Journal of Psoriasis and …},
+   url = {http://journals.sagepub.com/doi/abs/10.1177/247553031600100304},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@article{RN720,
+   author = {Ackermann, A. M. and Wang, Z. and Schug, J. and Naji, A.},
+   title = {Integration of ATAC-seq and RNA-seq identifies human alpha cell and beta cell signature genes},
+   journal = {Molecular …},
+   url = {http://www.sciencedirect.com/science/article/pii/S221287781600003X},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@article{RN564,
+   author = {Adams, D. and Altucci, L. and Antonarakis, S. E. and Nature …, Ballesteros - J.},
+   title = {BLUEPRINT to decode the epigenetic signature written in blood},
+   journal = {Nature …},
+   url = {https://www.nature.com/articles/nbt.2153},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN66,
+   author = {Adey, Andrew and Morrison, Hilary G. and Asan and Xun, Xu and Kitzman, Jacob O. and Turner, Emily H. and Stackhouse, Bethany and MacKenzie, Alexandra P. and Caruccio, Nicholas C. and Zhang, Xiuqing and Shendure, Jay},
+   title = {Rapid, low-input, low-bias construction of shotgun fragment libraries by high-density in vitro transposition},
+   journal = {Genome Biology},
+   volume = {11},
+   ISSN = {1465-6906},
+   DOI = {info:pmid/21143862},
+   url = {http://genomebiology.com/2010/11/12/r119},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN587,
+   author = {Adey, A. and Morrison, H. G. and Genome …, Xun - X.},
+   title = {Rapid, low-input, low-bias construction of shotgun fragment libraries by high-density in vitro transposition},
+   journal = {Genome …},
+   url = {https://genomebiology.biomedcentral.com/articles/10.1186/gb-2010-11-12-r119},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN665,
+   author = {Ahn, R. and Gupta, R. and Lai, K. and Chopra, N.},
+   title = {Network analysis of psoriasis reveals biological pathways and roles for coding and long non-coding RNAs},
+   journal = {BMC …},
+   url = {https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-016-3188-y},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@article{RN731,
+   author = {Ai, R. and Hammaker, D. and Boyle, D. L. and Nature …, Morgan - R.},
+   title = {Joint-specific DNA methylation and transcriptome signatures in rheumatoid arthritis identify distinct pathogenic processes},
+   journal = {Nature …},
+   url = {https://www.nature.com/articles/ncomms11849},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@article{RN536,
+   author = {Alasoo, K. and Rodrigues, J. and Mukhopadhyay, S. and Nature …, Knights - A. J.},
+   title = {Shared genetic effects on chromatin and gene expression indicate a role for enhancer priming in immune response},
+   journal = {Nature …},
+   DOI = {10.1038/s41588-018-0046-7},
+   url = {http://dx.doi.org/10.1038/s41588-018-0046-7},
+   year = {2018},
+   type = {Journal Article}
+}
+
+@article{RN744,
+   author = {Al-Mossawi, H. and Yager, N. and Taylor, C. and Lau, E. and bioRxiv, Danielli - S.},
+   title = {Context-specific regulation of monocyte surface IL7R expression and soluble receptor secretion by a common autoimmune risk allele},
+   journal = {bioRxiv},
+   DOI = {10.1101/262410},
+   url = {http://dx.doi.org/10.1101/262410},
+   year = {2018},
+   type = {Journal Article}
+}
+
+@article{RN729,
+   author = {Al-Mossawi, M. H. and Chen, L. and Fang, H. and Ridley, A. and Nature …, Wit - J.},
+   title = {Unique transcriptome signatures and GM-CSF expression in lymphocytes from patients with spondyloarthritis},
+   journal = {Nature …},
+   DOI = {10.1038/s41467-017-01771-2},
+   url = {http://dx.doi.org/10.1038/s41467-017-01771-2},
+   year = {2017},
+   type = {Journal Article}
+}
+
+@article{RN339,
+   author = {Alsaad, K. O. and of clinical pathology, Ghazarian - D.},
+   title = {My approach to superficial inflammatory dermatoses},
+   journal = {Journal of clinical pathology},
+   url = {http://jcp.bmj.com/content/58/12/1233.short},
+   year = {2005},
+   type = {Journal Article}
+}
+
+@article{RN247,
+   author = {Altshuler, D. and Daly, M. J. and Lander, E. S.},
+   title = {Genetic mapping in human disease},
+   journal = {Science},
+   volume = {322},
+   number = {5903},
+   pages = {881-8},
+   ISSN = {0036-8075},
+   DOI = {10.1126/science.1156409},
+   year = {2008},
+   type = {Journal Article}
+}
+
+@article{RN645,
+   author = {Ameres, S. L. and Horwich, M. D. and Hung, J. H. and …, Xu - J.},
+   title = {Target RNA–directed trimming and tailing of small silencing RNAs},
+   journal = {…},
+   DOI = {10.1126/science.1187058},
+   url = {http://dx.doi.org/10.1126/science.1187058},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN847,
+   author = {Anders, S. and Pyl, P. T. and Bioinformatics, Huber - W.},
+   title = {HTSeq—a Python framework to work with high-throughput sequencing data},
+   journal = {Bioinformatics},
+   DOI = {10.1093/bioinformatics/btu638},
+   url = {http://dx.doi.org/10.1093/bioinformatics/btu638},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN52,
+   author = {Andersen, William M. Gordon and Michael, D. Zeller and Rachel, H. Klein and William, R. Swindell and Hsiang, Ho and Francisco, Espetia and Johann, E. Gudjonsson and Pierre, F. Baldi and Bogi},
+   title = {A GRHL3-regulated repair pathway suppresses immune-mediated epidermal hyperplasia},
+   DOI = {10.1172/JCI77138},
+   url = {http://www.jci.org/articles/view/77138},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN641,
+   author = {Andersson, Robin and Gebhard, Claudia and Miguel-Escalada, Irene and Hoof, Ilka and Bornholdt, Jette and Boyd, Mette and Chen, Yun and Zhao, Xiaobei and Schmidl, Christian and Suzuki, Takahiro},
+   title = {An atlas of active enhancers across human cell types and tissues},
+   journal = {Nature},
+   volume = {507},
+   number = {7493},
+   pages = {455},
+   url = {http://scholar.google.com/scholar?q=An atlas of active enhancers across human cell types and tissues&btnG=&hl=en&num=20&as_sdt=0%2C22},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN259,
+   author = {Andiappan, A. K. and Melchiotti, R. and Poh, T. Y. and Nah, M.},
+   title = {Genome-wide analysis of the genetic regulation of gene expression in human neutrophils},
+   journal = {Nature …},
+   DOI = {10.1038/ncomms8971},
+   url = {http://dx.doi.org/10.1038/ncomms8971},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN802,
+   author = {Antonioli, L. and Pacher, P. and Vizi, E. S. and in molecular medicine, Haskó - G.},
+   title = {CD39 and CD73 in immunity and inflammation},
+   journal = {Trends in molecular medicine},
+   url = {https://www.sciencedirect.com/science/article/pii/S1471491413000543},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN337,
+   author = {Apel, M. and Uebe, S. and Bowes, J. and  …, Giardina - E.},
+   title = {Variants in RUNX3 contribute to susceptibility to psoriatic arthritis, exhibiting further common ground with ankylosing spondylitis},
+   journal = {Arthritis & …},
+   DOI = {10.1002/art.37885},
+   url = {http://dx.doi.org/10.1002/art.37885},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN368,
+   author = {Appel, H. and Maier, R. and Arthritis …, Wu - P.},
+   title = {Analysis of IL-17+ cells in facet joints of patients with spondyloarthritis suggests that the innate immune pathway might be of greater relevance than the Th17 …},
+   journal = {Arthritis …},
+   url = {https://arthritis-research.biomedcentral.com/articles/10.1186/ar3370},
+   year = {2011},
+   type = {Journal Article}
+}
+
+@article{RN397,
+   author = {Arakawa, Akiko and Siewert, Katherina and Stöhr, Julia and Besgen, Petra and Kim, Song-Min and Rühl, Geraldine and Nickel, Jens and Vollmer, Sigrid and Thomas, Peter and Krebs, Stefan},
+   title = {Melanocyte antigen triggers autoimmunity in human psoriasis},
+   journal = {Journal of Experimental Medicine},
+   DOI = {10.1084/jem.20151093},
+   url = {http://dx.doi.org/10.1084/jem.20151093},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN398,
+   author = {Arakawa, Akiko and Siewert, Katherina and Stöhr, Julia and Besgen, Petra and Kim, Song-Min and Rühl, Geraldine and Nickel, Jens and Vollmer, Sigrid and Thomas, Peter and Krebs, Stefan},
+   title = {Melanocyte antigen triggers autoimmunity in human psoriasis},
+   journal = {Journal of Experimental Medicine},
+   DOI = {10.1084/jem.20151093},
+   url = {http://dx.doi.org/10.1084/jem.20151093},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN400,
+   author = {Arend, W. P. and Palmer, G. and reviews, Gabay - C.},
+   title = {IL‐1, IL‐18, and IL‐33 families of cytokines},
+   journal = {Immunological reviews},
+   DOI = {10.1111/j.1600-065X.2008.00624.x},
+   url = {http://dx.doi.org/10.1111/j.1600-065X.2008.00624.x},
+   year = {2008},
+   type = {Journal Article}
+}
+
+@article{RN625,
+   author = {Assassi, S. and Reveille, J. D. and of …, Arnett - F. C.},
+   title = {Whole-blood gene expression profiling in ankylosing spondylitis shows upregulation of toll-like receptor 4 and 5},
+   journal = {The Journal of …},
+   url = {http://www.jrheum.org/content/early/2010/10/13/jrheum.100469.abstract},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN833,
+   author = {Attar, M. and Sharma, E. and Li, S. and Bryer, C. and reports, Cubitt - L.},
+   title = {A practical solution for preserving single cells for RNA sequencing},
+   journal = {Scientific reports},
+   url = {https://www.nature.com/articles/s41598-018-20372-7},
+   year = {2018},
+   type = {Journal Article}
+}
+
+@article{RN429,
+   author = {Austin, Lisa M. and Ozawa, Maki and Kikuchi, Toyoko and Walters, Ian B. and Krueger, James G.},
+   title = {The majority of epidermal T cells in psoriasis vulgaris lesions can produce type 1 cytokines, interferon- , interleukin-2, and tumor necrosis factor- , defining TC1 (Cytotoxic T Lymphocyte) and TH1 effector populations: 1 a type 1 differentiation bias is also measured in circulating blood T cells in psoriatic patients},
+   journal = {Journal of Investigative Dermatology},
+   volume = {113},
+   number = {5},
+   pages = {752-759},
+   url = {http://scholar.google.com/scholar?q=The majority of epidermal T cells in psoriasis vulgaris lesions can produce type 1 cytokines, interferon- , interleukin-2, and tumor necrosis factor- , defining TC1 (Cytotoxic T Lymphocyte) and TH1 effector populations: 1 a type 1 differentiation bias is also measured in circulating blood T cells in psoriatic patients&btnG=&hl=en&num=20&as_sdt=0%2C22},
+   year = {1999},
+   type = {Journal Article}
+}
+
+@article{RN624,
+   author = {Baechler, E. C. and Batliwalla, F. M. and of the …, Karypis - G.},
+   title = {Interferon-inducible gene expression signature in peripheral blood cells of patients with severe lupus},
+   journal = {Proceedings of the …},
+   DOI = {10.1073/pnas.0337679100},
+   url = {http://dx.doi.org/10.1073/pnas.0337679100},
+   year = {2003},
+   type = {Journal Article}
+}
+
+@article{RN362,
+   author = {Baeten, D. and Breban, M. and Lories, R. and  …, Schett - G.},
+   title = {Are spondylarthritides related but distinct conditions or a single disease with a heterogeneous phenotype?},
+   journal = {Arthritis & …},
+   DOI = {10.1002/art.37829},
+   url = {http://dx.doi.org/10.1002/art.37829},
+   year = {2013},
+   type = {Journal Article}
+}
+

@@ -17,35 +17,731 @@
 \endgroup
 
 \datalist[entry]{nyt/global//global/global}
-  \entry{Buenrostro2015}{article}{}
+  \entry{Ai2016}{article}{}
     \name{author}{4}{}{%
-      {{hash=BJD}{%
-         family={Buenrostro},
+      {{hash=AR}{%
+         family={Ai},
+         familyi={A\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=HD}{%
+         family={Hammaker},
+         familyi={H\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BDL}{%
+         family={Boyle},
          familyi={B\bibinitperiod},
-         given={Jason\bibnamedelima D.},
-         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+         given={D.\bibnamedelima L.},
+         giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
       }}%
-      {{hash=WB}{%
-         family={Wu},
-         familyi={W\bibinitperiod},
-         given={Beijing},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=CHY}{%
-         family={Chang},
-         familyi={C\bibinitperiod},
-         given={Howard\bibnamedelima Y.},
-         giveni={H\bibinitperiod\bibinitdelim Y\bibinitperiod},
-      }}%
-      {{hash=GWJ}{%
-         family={Greenleaf},
-         familyi={G\bibinitperiod},
-         given={William\bibnamedelima J.},
-         giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+      {{hash=NMR}{%
+         family={Nature …},
+         familyi={N\bibinitperiod},
+         given={Morgan -R.},
+         giveni={M\bibinitperiod-R\bibinitperiod},
       }}%
     }
-    \strng{namehash}{BJD+1}
-    \strng{fullhash}{BJDWBCHYGWJ1}
+    \strng{namehash}{AR+1}
+    \strng{fullhash}{ARHDBDLNMR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{year}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{Joint-specific DNA methylation and transcriptome signatures
+  in rheumatoid arthritis identify distinct pathogenic processes}
+    \verb{url}
+    \verb https://www.nature.com/articles/ncomms11849
+    \endverb
+    \field{type}{Journal Article}
+    \field{journaltitle}{Nature …}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Al-Mossawi2018}{article}{}
+    \name{author}{5}{}{%
+      {{hash=AMH}{%
+         family={Al-Mossawi},
+         familyi={A\bibinitperiod-M\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=YN}{%
+         family={Yager},
+         familyi={Y\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=TC}{%
+         family={Taylor},
+         familyi={T\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LE}{%
+         family={Lau},
+         familyi={L\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=bDS}{%
+         family={bioRxiv},
+         familyi={b\bibinitperiod},
+         given={Danielli -S.},
+         giveni={D\bibinitperiod-S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AMH+1}
+    \strng{fullhash}{AMHYNTCLEbDS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1101/262410
+    \endverb
+    \field{title}{Context-specific regulation of monocyte surface IL7R
+  expression and soluble receptor secretion by a common autoimmune risk allele}
+    \verb{url}
+    \verb http://dx.doi.org/10.1101/262410
+    \endverb
+    \field{type}{Journal Article}
+    \field{journaltitle}{bioRxiv}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Al-Mossawi2017}{article}{}
+    \name{author}{5}{}{%
+      {{hash=AMMH}{%
+         family={Al-Mossawi},
+         familyi={A\bibinitperiod-M\bibinitperiod},
+         given={M.\bibnamedelima H.},
+         giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=FH}{%
+         family={Fang},
+         familyi={F\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Ridley},
+         familyi={R\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=NWJ}{%
+         family={Nature …},
+         familyi={N\bibinitperiod},
+         given={Wit -J.},
+         giveni={W\bibinitperiod-J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AMMH+1}
+    \strng{fullhash}{AMMHCLFHRANWJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{year}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1038/s41467-017-01771-2
+    \endverb
+    \field{title}{Unique transcriptome signatures and GM-CSF expression in
+  lymphocytes from patients with spondyloarthritis}
+    \verb{url}
+    \verb http://dx.doi.org/10.1038/s41467-017-01771-2
+    \endverb
+    \field{type}{Journal Article}
+    \field{journaltitle}{Nature …}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Andersson2014}{article}{}
+    \name{author}{10}{}{%
+      {{hash=AR}{%
+         family={Andersson},
+         familyi={A\bibinitperiod},
+         given={Robin},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=GC}{%
+         family={Gebhard},
+         familyi={G\bibinitperiod},
+         given={Claudia},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=MEI}{%
+         family={Miguel-Escalada},
+         familyi={M\bibinitperiod-E\bibinitperiod},
+         given={Irene},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=HI}{%
+         family={Hoof},
+         familyi={H\bibinitperiod},
+         given={Ilka},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Bornholdt},
+         familyi={B\bibinitperiod},
+         given={Jette},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Boyd},
+         familyi={B\bibinitperiod},
+         given={Mette},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CY}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Yun},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ZX}{%
+         family={Zhao},
+         familyi={Z\bibinitperiod},
+         given={Xiaobei},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Schmidl},
+         familyi={S\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Suzuki},
+         familyi={S\bibinitperiod},
+         given={Takahiro},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AR+2}
+    \strng{fullhash}{ARGCMEIHIBJBMCYZXSCST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{year}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{7493}
+    \field{pages}{455}
+    \field{title}{An atlas of active enhancers across human cell types and
+  tissues}
+    \verb{url}
+    \verb http://scholar.google.com/scholar?q=An atlas of active enhancers acro
+    \verb ss human cell types and tissues&btnG=&hl=en&num=20&as_sdt=0%2C22
+    \endverb
+    \field{volume}{507}
+    \field{type}{Journal Article}
+    \field{journaltitle}{Nature}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Bandura2009}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BDR}{%
+         family={Bandura},
+         familyi={B\bibinitperiod},
+         given={D.\bibnamedelima R.},
+         giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=BVI}{%
+         family={Baranov},
+         familyi={B\bibinitperiod},
+         given={V.\bibnamedelima I.},
+         giveni={V\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=AOOI}{%
+         family={Analytical …},
+         familyi={A\bibinitperiod},
+         given={Ornatsky -O.\bibnamedelima I.},
+         giveni={O\bibinitperiod-O\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BDR+1}
+    \strng{fullhash}{BDRBVIAOOI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{year}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1021/ac901049w
+    \endverb
+    \field{title}{Mass cytometry: technique for real time single cell
+  multitarget immunoassay based on inductively coupled plasma time-of-flight
+  mass spectrometry}
+    \verb{url}
+    \verb http://dx.doi.org/10.1021/ac901049w
+    \endverb
+    \field{type}{Journal Article}
+    \field{journaltitle}{Analytical …}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Baran-Gale2017}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BGJ}{%
+         family={Baran-Gale},
+         familyi={B\bibinitperiod-G\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ifCT}{%
+         prefix={in},
+         prefixi={i\bibinitperiod},
+         family={functional …},
+         familyi={f\bibinitperiod},
+         given={Chandra -T.},
+         giveni={C\bibinitperiod-T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BGJfCTi1}
+    \strng{fullhash}{BGJfCTi1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{year}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1093/bfgp/elx035
+    \endverb
+    \field{title}{Experimental design for single-cell RNA sequencing}
+    \verb{url}
+    \verb http://dx.doi.org/10.1093/bfgp/elx035
+    \endverb
+    \field{type}{Journal Article}
+    \field{journaltitle}{Briefings in functional …}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Bengsch2018}{article}{}
+    \name{author}{4}{}{%
+      {{hash=BB}{%
+         family={Bengsch},
+         familyi={B\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=OT}{%
+         family={Ohtani},
+         familyi={O\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=HRS}{%
+         family={Herati},
+         familyi={H\bibinitperiod},
+         given={R.\bibnamedelima S.},
+         giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=oBN}{%
+         family={of …},
+         familyi={o\bibinitperiod},
+         given={Bovenschen -N.},
+         giveni={B\bibinitperiod-N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BB+1}
+    \strng{fullhash}{BBOTHRSoBN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Deep immune profiling by mass cytometry links human T and NK
+  cell differentiation and cytotoxic molecule expression patterns}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0022175917301321
+    \endverb
+    \field{type}{Journal Article}
+    \field{journaltitle}{Journal of …}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Benham2013}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BH}{%
+         family={Benham},
+         familyi={B\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=NP}{%
+         family={Norris},
+         familyi={N\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=AGJ}{%
+         family={Arthritis …},
+         familyi={A\bibinitperiod},
+         given={Goodall -J.},
+         giveni={G\bibinitperiod-J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BH+1}
+    \strng{fullhash}{BHNPAGJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{labeldatesource}{year}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Th17 and Th22 cells in psoriatic arthritis and psoriasis}
+    \verb{url}
+    \verb https://arthritis-research.biomedcentral.com/articles/10.1186/ar4317
+    \endverb
+    \field{type}{Journal Article}
+    \field{journaltitle}{Arthritis …}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Biniecka2016}{article}{}
+    \name{author}{4}{}{%
+      {{hash=BM}{%
+         family={Biniecka},
+         familyi={B\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Canavan},
+         familyi={C\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MT}{%
+         family={McGarry},
+         familyi={M\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=otGW}{%
+         prefix={of},
+         prefixi={o\bibinitperiod},
+         family={the …},
+         familyi={t\bibinitperiod},
+         given={Gao -W.},
+         giveni={G\bibinitperiod-W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BM+1}
+    \strng{fullhash}{BMCMMTtGWo1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{year}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1136/annrheumdis-2015-208476
+    \endverb
+    \field{title}{Dysregulated bioenergetics: a key regulator of joint
+  inflammation}
+    \verb{url}
+    \verb http://dx.doi.org/10.1136/annrheumdis-2015-208476
+    \endverb
+    \field{type}{Journal Article}
+    \field{journaltitle}{Annals of the …}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Boudousquie2014}{article}{}
+    \name{author}{8}{}{%
+      {{hash=BC}{%
+         family={Boudousqui\'{e}},
+         familyi={B\bibinitperiod},
+         given={Caroline},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={Danilo},
+         familyi={D\bibinitperiod},
+         given={Maxime},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PL}{%
+         family={Pousse},
+         familyi={P\bibinitperiod},
+         given={Laurène},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=JRB}{%
+         family={Jeevan-Raj},
+         familyi={J\bibinitperiod-R\bibinitperiod},
+         given={Beena},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=AGS}{%
+         family={Angelov},
+         familyi={A\bibinitperiod},
+         given={Georgi\bibnamedelima S.},
+         giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=CV}{%
+         family={Chennupati},
+         familyi={C\bibinitperiod},
+         given={Vijaykumar},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=ZD}{%
+         family={Zehn},
+         familyi={Z\bibinitperiod},
+         given={Dietmar},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=HW}{%
+         family={Held},
+         familyi={H\bibinitperiod},
+         given={Werner},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BC+1}
+    \strng{fullhash}{BCDMPLJRBAGSCVZDHW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{year}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.4049/jimmunol.1400465
+    \endverb
+    \field{issn}{0022-1767}
+    \field{number}{6}
+    \field{pages}{2784\bibrangedash 2791}
+    \field{title}{Differences in the transduction of canonical Wnt signals
+  demarcate effector and memory CD8 T cells with distinct recall proliferation
+  capacity}
+    \verb{url}
+    \verb http://dx.doi.org/10.4049/jimmunol.1400465
+    \endverb
+    \field{volume}{193}
+    \field{type}{Journal Article}
+    \field{journaltitle}{Journal of immunology (Baltimore, Md. : 1950)}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Bowes2015}{article}{}
+    \name{author}{32}{}{%
+      {{hash=BJ}{%
+         family={Bowes},
+         familyi={B\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BAA}{%
+         family={Budu-Aggrey},
+         familyi={B\bibinitperiod-A\bibinitperiod},
+         given={Ashley},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HU}{%
+         family={Huffmeier},
+         familyi={H\bibinitperiod},
+         given={Ulrike},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=US}{%
+         family={Uebe},
+         familyi={U\bibinitperiod},
+         given={Steffen},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Steel},
+         familyi={S\bibinitperiod},
+         given={Kathryn},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=HHL}{%
+         family={Hebert},
+         familyi={H\bibinitperiod},
+         given={Harry\bibnamedelima L.},
+         giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=WC}{%
+         family={Wallace},
+         familyi={W\bibinitperiod},
+         given={Chris},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Massey},
+         familyi={M\bibinitperiod},
+         given={Jonathan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BIN}{%
+         family={Bruce},
+         familyi={B\bibinitperiod},
+         given={Ian\bibnamedelima N.},
+         giveni={I\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Bluett},
+         familyi={B\bibinitperiod},
+         given={James},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Feletar},
+         familyi={F\bibinitperiod},
+         given={Marie},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MAW}{%
+         family={Morgan},
+         familyi={M\bibinitperiod},
+         given={Ann\bibnamedelima W.},
+         giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=MOH}{%
+         family={Marzo-Ortega},
+         familyi={M\bibinitperiod-O\bibinitperiod},
+         given={Helena},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=DG}{%
+         family={Donohoe},
+         familyi={D\bibinitperiod},
+         given={Gary},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=MDW}{%
+         family={Morris},
+         familyi={M\bibinitperiod},
+         given={Derek\bibnamedelima W.},
+         giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=HP}{%
+         family={Helliwell},
+         familyi={H\bibinitperiod},
+         given={Philip},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=RAW}{%
+         family={Ryan},
+         familyi={R\bibinitperiod},
+         given={Anthony\bibnamedelima W.},
+         giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=KD}{%
+         family={Kane},
+         familyi={K\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=WRB}{%
+         family={Warren},
+         familyi={W\bibinitperiod},
+         given={Richard\bibnamedelima B.},
+         giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=KE}{%
+         family={Korendowych},
+         familyi={K\bibinitperiod},
+         given={Eleanor},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=AGMM}{%
+         family={Alenius},
+         familyi={A\bibinitperiod},
+         given={Gerd-Marie\bibnamedelima M.},
+         giveni={G\bibinitperiod-M\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=GE}{%
+         family={Giardina},
+         familyi={G\bibinitperiod},
+         given={Emiliano},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=PJ}{%
+         family={Packham},
+         familyi={P\bibinitperiod},
+         given={Jonathan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={McManus},
+         familyi={M\bibinitperiod},
+         given={Ross},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=FO}{%
+         family={FitzGerald},
+         familyi={F\bibinitperiod},
+         given={Oliver},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=MN}{%
+         family={McHugh},
+         familyi={M\bibinitperiod},
+         given={Neil},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=BMA}{%
+         family={Brown},
+         familyi={B\bibinitperiod},
+         given={Matthew\bibnamedelima A.},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=HP}{%
+         family={Ho},
+         familyi={H\bibinitperiod},
+         given={Pauline},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BF}{%
+         family={Behrens},
+         familyi={B\bibinitperiod},
+         given={Frank},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=BH}{%
+         family={Burkhardt},
+         familyi={B\bibinitperiod},
+         given={Harald},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Reis},
+         familyi={R\bibinitperiod},
+         given={Andre},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Barton},
+         familyi={B\bibinitperiod},
+         given={Anne},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BJ+1}
+  \strng{fullhash}{BJBAAHUUSSKHHLWCMJBINBJFMMAWMOHDGMDWHPRAWKDWRBKEAGMMGEPJMRFOMNBMAHPBFBHRABA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2015}
@@ -53,45 +749,402 @@
     \field{sortinit}{B}
     \field{sortinithash}{B}
     \verb{doi}
-    \verb 10.1002/0471142727.mb2129s109
+    \verb 10.1038/ncomms7046
     \endverb
-    \field{pages}{1\bibrangedash 9}
-    \field{title}{ATAC seq: A Method for Assaying Chromatin Accessibility
-  Genome Wide}
+    \field{issn}{2041-1723}
+    \field{pages}{6046}
+    \field{title}{Dense genotyping of immune-related susceptibility loci
+  reveals new insights into the genetics of psoriatic arthritis}
     \verb{url}
-    \verb http://dx.doi.org/10.1002/0471142727.mb2129s109
+    \verb http://dx.doi.org/10.1038/ncomms7046
     \endverb
-    \field{volume}{109}
+    \field{volume}{6}
     \field{type}{Journal Article}
-    \field{journaltitle}{Current Protocols in Molecular Biology}
+    \field{journaltitle}{Nature communications}
     \field{year}{2015}
   \endentry
 
-  \entry{Jonker2014}{article}{}
-    \name{author}{3}{}{%
-      {{hash=JMJ}{%
-         family={Jonker},
-         familyi={J\bibinitperiod},
-         given={M.\bibnamedelima J.},
-         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+  \entry{Bunt2015}{article}{}
+    \name{author}{4}{}{%
+      {{hash=vdBM}{%
+         prefix={van\bibnamedelima de},
+         prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod},
+         family={Bunt},
+         familyi={B\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
       }}%
-      {{hash=dLWC}{%
-         prefix={de},
-         prefixi={d\bibinitperiod},
-         family={Leeuw},
-         familyi={L\bibinitperiod},
-         given={W.\bibnamedelima C.},
-         giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod},
+      {{hash=CA}{%
+         family={Cortes},
+         familyi={C\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
       }}%
-      {{hash=aMM}{%
-         family={acids …},
-         familyi={a\bibinitperiod},
-         given={Marinković -M.},
-         giveni={M\bibinitperiod-M\bibinitperiod},
+      {{hash=BMA}{%
+         family={Brown},
+         familyi={B\bibinitperiod},
+         given={M.\bibnamedelima A.},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MAP}{%
+         family={Morris},
+         familyi={M\bibinitperiod},
+         given={A.\bibnamedelima P.},
+         giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
       }}%
     }
-    \strng{namehash}{JMJ+1}
-    \strng{fullhash}{JMJLWCdaMM1}
+    \strng{namehash}{BMvd+1}
+    \strng{fullhash}{BMvdCABMAMAP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{year}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1371/journal.pgen.1005535
+    \endverb
+    \field{pages}{1\bibrangedash 14}
+    \field{title}{Evaluating the Performance of Fine-Mapping Strategies at
+  Common Variant GWAS Loci}
+    \verb{url}
+    \verb http://dx.doi.org/10.1371/journal.pgen.1005535
+    \endverb
+    \field{volume}{11}
+    \field{type}{Journal Article}
+    \field{journaltitle}{PLoS Genet}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Dustin2001}{article}{}
+    \name{author}{1}{}{%
+      {{hash=DML}{%
+         family={Dustin},
+         familyi={D\bibinitperiod},
+         given={Michael\bibnamedelima L.},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DML1}
+    \strng{fullhash}{DML1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2001}
+    \field{labeldatesource}{year}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{number}{4}
+    \field{pages}{258\bibrangedash 263}
+    \field{title}{Role of adhesion molecules in activation signaling in T
+  lymphocytes}
+    \verb{url}
+    \verb http://scholar.google.com/scholar?q=Role of adhesion molecules in act
+    \verb ivation signaling in T lymphocytes&btnG=&hl=en&num=20&as_sdt=0%2C22
+    \endverb
+    \field{volume}{21}
+    \field{type}{Journal Article}
+    \field{journaltitle}{Journal of clinical immunology}
+    \field{year}{2001}
+  \endentry
+
+  \entry{Fairfax2012}{article}{}
+    \name{author}{10}{}{%
+      {{hash=FBP}{%
+         family={Fairfax},
+         familyi={F\bibinitperiod},
+         given={Benjamin\bibnamedelima P.},
+         giveni={B\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Makino},
+         familyi={M\bibinitperiod},
+         given={Seiko},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=RJ}{%
+         family={Radhakrishnan},
+         familyi={R\bibinitperiod},
+         given={Jayachandran},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PK}{%
+         family={Plant},
+         familyi={P\bibinitperiod},
+         given={Katharine},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Leslie},
+         familyi={L\bibinitperiod},
+         given={Stephen},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Dilthey},
+         familyi={D\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=EP}{%
+         family={Ellis},
+         familyi={E\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=LC}{%
+         family={Langford},
+         familyi={L\bibinitperiod},
+         given={Cordelia},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=VFO}{%
+         family={Vannberg},
+         familyi={V\bibinitperiod},
+         given={Fredrik\bibnamedelima O.},
+         giveni={F\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+      {{hash=KJC}{%
+         family={Knight},
+         familyi={K\bibinitperiod},
+         given={Julian\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FBP+1}
+    \strng{fullhash}{FBPMSRJPKLSDAEPLCVFOKJC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{year}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \verb{doi}
+    \verb 10.1038/ng.2205
+    \endverb
+    \field{issn}{1061-4036}
+    \field{number}{5}
+    \field{pages}{502\bibrangedash 510}
+    \field{title}{Genetics of gene expression in primary immune cells
+  identifies cell type-specific master regulators and roles of HLA alleles}
+    \verb{url}
+    \verb http://dx.doi.org/10.1038/ng.2205
+    \endverb
+    \field{volume}{44}
+    \field{type}{Journal Article}
+    \field{journaltitle}{Nature genetics}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Fairfax2014}{article}{}
+    \name{author}{10}{}{%
+      {{hash=FBP}{%
+         family={Fairfax},
+         familyi={F\bibinitperiod},
+         given={Benjamin\bibnamedelima P.},
+         giveni={B\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=HP}{%
+         family={Humburg},
+         familyi={H\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Makino},
+         familyi={M\bibinitperiod},
+         given={Seiko},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=NV}{%
+         family={Naranbhai},
+         familyi={N\bibinitperiod},
+         given={Vivek},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=WD}{%
+         family={Wong},
+         familyi={W\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=LE}{%
+         family={Lau},
+         familyi={L\bibinitperiod},
+         given={Evelyn},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=JL}{%
+         family={Jostins},
+         familyi={J\bibinitperiod},
+         given={Luke},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=PK}{%
+         family={Plant},
+         familyi={P\bibinitperiod},
+         given={Katharine},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=AR}{%
+         family={Andrews},
+         familyi={A\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MC}{%
+         family={McGee},
+         familyi={M\bibinitperiod},
+         given={Chris},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FBP+1}
+    \strng{fullhash}{FBPHPMSNVWDLEJLPKARMC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{year}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \verb{doi}
+    \verb 10.1126/science.1246949
+    \endverb
+    \field{number}{6175}
+    \field{pages}{1246949}
+    \field{title}{Innate immune activity conditions the effect of regulatory
+  variants upon monocyte gene expression}
+    \verb{url}
+    \verb http://dx.doi.org/10.1126/science.1246949
+    \endverb
+    \field{volume}{343}
+    \field{type}{Journal Article}
+    \field{journaltitle}{Science}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Gu2002}{article}{}
+    \name{author}{4}{}{%
+      {{hash=GJ}{%
+         family={Gu},
+         familyi={G\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ME}{%
+         family={Märker‐Hermann},
+         familyi={M\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Baeten},
+         familyi={B\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=TWC}{%
+         family={…},
+         familyi={\bibinitperiod},
+         given={Tsai -W.\bibnamedelima C.},
+         giveni={T\bibinitperiod-W\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GJ+1}
+    \strng{fullhash}{GJMEBDTWC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2002}
+    \field{labeldatesource}{year}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \verb{doi}
+    \verb 10.1093/rheumatology/41.7.759
+    \endverb
+    \field{title}{A 588‐gene microarray analysis of the peripheral blood
+  mononuclear cells of spondyloarthropathy patients}
+    \verb{url}
+    \verb http://dx.doi.org/10.1093/rheumatology/41.7.759
+    \endverb
+    \field{type}{Journal Article}
+    \field{journaltitle}{…}
+    \field{year}{2002}
+  \endentry
+
+  \entry{Howell2018}{article}{}
+    \name{author}{5}{}{%
+      {{hash=HKJ}{%
+         family={Howell},
+         familyi={H\bibinitperiod},
+         given={K.\bibnamedelima J.},
+         giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Kraiczy},
+         familyi={K\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=NKM}{%
+         family={Nayak},
+         familyi={N\bibinitperiod},
+         given={K.\bibnamedelima M.},
+         giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Gasparetto},
+         familyi={G\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GRA}{%
+         family={Gastroenterology},
+         familyi={G\bibinitperiod},
+         given={Ross -A.},
+         giveni={R\bibinitperiod-A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HKJ+1}
+    \strng{fullhash}{HKJKJNKMGMGRA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{DNA methylation and transcription patterns in intestinal
+  epithelial cells from pediatric patients with inflammatory bowel diseases
+  differentiate disease subtypes …}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0016508517362418
+    \endverb
+    \field{type}{Journal Article}
+    \field{journaltitle}{Gastroenterology}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Jaitin2014}{article}{}
+    \name{author}{3}{}{%
+      {{hash=JDA}{%
+         family={Jaitin},
+         familyi={J\bibinitperiod},
+         given={D.\bibnamedelima A.},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=KE}{%
+         family={Kenigsberg},
+         familyi={K\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=KSH}{%
+         family={…},
+         familyi={\bibinitperiod},
+         given={Keren-Shaul -H.},
+         giveni={K\bibinitperiod-S\bibinitperiod-H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JDA+1}
+    \strng{fullhash}{JDAKEKSH1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2014}
@@ -99,16 +1152,1292 @@
     \field{sortinit}{J}
     \field{sortinithash}{J}
     \verb{doi}
-    \verb 10.1093/nar/gku343
+    \verb 10.1126/science.1247651
     \endverb
-    \field{title}{Absence/presence calling in microarray-based CGH experiments
-  with non-model organisms}
+    \field{title}{Massively parallel single-cell RNA-seq for marker-free
+  decomposition of tissues into cell types}
     \verb{url}
-    \verb http://dx.doi.org/10.1093/nar/gku343
+    \verb http://dx.doi.org/10.1126/science.1247651
     \endverb
     \field{type}{Journal Article}
-    \field{journaltitle}{Nucleic acids …}
+    \field{journaltitle}{…}
     \field{year}{2014}
+  \endentry
+
+  \entry{Jansen2017}{article}{}
+    \name{author}{3}{}{%
+      {{hash=JR}{%
+         family={Jansen},
+         familyi={J\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=HJJ}{%
+         family={Hottenga},
+         familyi={H\bibinitperiod},
+         given={J.\bibnamedelima J.},
+         giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=mNMG}{%
+         family={molecular …},
+         familyi={m\bibinitperiod},
+         given={Nivard -M.\bibnamedelima G.},
+         giveni={N\bibinitperiod-M\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JR+1}
+    \strng{fullhash}{JRHJJmNMG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{year}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \verb{doi}
+    \verb 10.1093/hmg/ddx043
+    \endverb
+    \field{title}{Conditional eQTL analysis reveals allelic heterogeneity of
+  gene expression}
+    \verb{url}
+    \verb http://dx.doi.org/10.1093/hmg/ddx043
+    \endverb
+    \field{type}{Journal Article}
+    \field{journaltitle}{Human molecular …}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Jongbloed2006}{article}{}
+    \name{author}{7}{}{%
+      {{hash=JSL}{%
+         family={Jongbloed},
+         familyi={J\bibinitperiod},
+         given={Sarah\bibnamedelima L.},
+         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=LMC}{%
+         family={Lebre},
+         familyi={L\bibinitperiod},
+         given={M.\bibnamedelima C.},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=FAR}{%
+         family={Fraser},
+         familyi={F\bibinitperiod},
+         given={Alasdair\bibnamedelima R.},
+         giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=GJA}{%
+         family={Gracie},
+         familyi={G\bibinitperiod},
+         given={J.\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SRD}{%
+         family={Sturrock},
+         familyi={S\bibinitperiod},
+         given={Roger\bibnamedelima D.},
+         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=TPP}{%
+         family={Tak},
+         familyi={T\bibinitperiod},
+         given={Paul\bibnamedelima P.},
+         giveni={P\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=MIB}{%
+         family={McInnes},
+         familyi={M\bibinitperiod},
+         given={Iain\bibnamedelima B.},
+         giveni={I\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JSL+1}
+    \strng{fullhash}{JSLLMCFARGJASRDTPPMIB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{year}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \verb{doi}
+    \verb 10.1186/ar1864
+    \endverb
+    \field{issn}{1478-6354}
+    \field{number}{1}
+    \field{title}{Enumeration and phenotypical analysis of distinct dendritic
+  cell subsets in psoriatic arthritis and rheumatoid arthritis}
+    \verb{url}
+    \verb http://dx.doi.org/10.1186/ar1864
+    \endverb
+    \field{volume}{8}
+    \field{type}{Journal Article}
+    \field{journaltitle}{Arthritis research \& therapy}
+    \field{year}{2006}
+  \endentry
+
+  \entry{Kavanaugh2006}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KAF}{%
+         family={Kavanaugh},
+         familyi={K\bibinitperiod},
+         given={Arthur\bibnamedelima F.},
+         giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=RCT}{%
+         family={Ritchlin},
+         familyi={R\bibinitperiod},
+         given={Christopher\bibnamedelima T.},
+         giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KAFRCT1}
+    \strng{fullhash}{KAFRCT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{year}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{number}{7}
+    \field{pages}{1417\bibrangedash 1421}
+    \field{title}{Systematic review of treatments for psoriatic arthritis: an
+  evidence based approach and basis for treatment guidelines}
+    \verb{url}
+    \verb http://scholar.google.com/scholar?q=Systematic review of treatments f
+    \verb or psoriatic arthritis: an evidence based approach and basis for trea
+    \verb tment guidelines.&btnG=&hl=en&num=20&as_sdt=0%2C22
+    \endverb
+    \field{volume}{33}
+    \field{type}{Journal Article}
+    \field{journaltitle}{The Journal of Rheumatology}
+    \field{year}{2006}
+  \endentry
+
+  \entry{Lamb1992}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LCA}{%
+         family={Lamb},
+         familyi={L\bibinitperiod},
+         given={C.\bibnamedelima A.},
+         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=oICP}{%
+         prefix={of},
+         prefixi={o\bibinitperiod},
+         family={Immunology},
+         familyi={I\bibinitperiod},
+         given={Cresswell -P.},
+         giveni={C\bibinitperiod-P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LCAICPo1}
+    \strng{fullhash}{LCAICPo1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1992}
+    \field{labeldatesource}{year}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{title}{Assembly and transport properties of invariant chain trimers
+  and HLA-DR-invariant chain complexes}
+    \verb{url}
+    \verb http://www.jimmunol.org/content/148/11/3478.short
+    \endverb
+    \field{type}{Journal Article}
+    \field{journaltitle}{The Journal of Immunology}
+    \field{year}{1992}
+  \endentry
+
+  \entry{Li2017}{article}{}
+    \name{author}{8}{}{%
+      {{hash=LCx}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Chun-xiao},
+         giveni={C\bibinitperiod-x\bibinitperiod},
+      }}%
+      {{hash=LHg}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Hua-guo},
+         giveni={H\bibinitperiod-g\bibinitperiod},
+      }}%
+      {{hash=HLt}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Lin-ting},
+         giveni={L\bibinitperiod-t\bibinitperiod},
+      }}%
+      {{hash=KYw}{%
+         family={Kong},
+         familyi={K\bibinitperiod},
+         given={Yu-wei},
+         giveni={Y\bibinitperiod-w\bibinitperiod},
+      }}%
+      {{hash=CFy}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Fu-ying},
+         giveni={F\bibinitperiod-y\bibinitperiod},
+      }}%
+      {{hash=LJy}{%
+         family={Liang},
+         familyi={L\bibinitperiod},
+         given={Jian-yin},
+         giveni={J\bibinitperiod-y\bibinitperiod},
+      }}%
+      {{hash=YH}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={Hong},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=YZr}{%
+         family={Yao},
+         familyi={Y\bibinitperiod},
+         given={Zhi-rong},
+         giveni={Z\bibinitperiod-r\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LCx+1}
+    \strng{fullhash}{LCxLHgHLtKYwCFyLJyYHYZr1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{year}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{number}{11}
+    \field{title}{H19 lncRNA regulates keratinocyte differentiation by
+  targeting miR-130b-3p}
+    \verb{url}
+    \verb http://scholar.google.com/scholar?q=H19 lncRNA regulates keratinocyte
+    \verb  differentiation by targeting miR-130b-3p&btnG=&hl=en&num=20&as_sdt=0
+    \verb %2C22
+    \endverb
+    \field{volume}{8}
+    \field{type}{Journal Article}
+    \field{journaltitle}{Cell death \& disease}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Maller2012}{article}{}
+    \name{author}{37}{}{%
+      {{hash=MJB}{%
+         family={Maller},
+         familyi={M\bibinitperiod},
+         given={J.\bibnamedelima B.},
+         giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={McVean},
+         familyi={M\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Byrnes},
+         familyi={B\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=VD}{%
+         family={Vukcevic},
+         familyi={V\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=PK}{%
+         family={Palin},
+         familyi={P\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=SZ}{%
+         family={Su},
+         familyi={S\bibinitperiod},
+         given={Z.},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=HJM}{%
+         family={Howson},
+         familyi={H\bibinitperiod},
+         given={J.\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Auton},
+         familyi={A\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Myers},
+         familyi={M\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Morris},
+         familyi={M\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Pirinen},
+         familyi={P\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BMA}{%
+         family={Brown},
+         familyi={B\bibinitperiod},
+         given={M.\bibnamedelima A.},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=BPR}{%
+         family={Burton},
+         familyi={B\bibinitperiod},
+         given={P.\bibnamedelima R.},
+         giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=CMJ}{%
+         family={Caulfield},
+         familyi={C\bibinitperiod},
+         given={M.\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Compston},
+         familyi={C\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Farrall},
+         familyi={F\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HAS}{%
+         family={Hall},
+         familyi={H\bibinitperiod},
+         given={A.\bibnamedelima S.},
+         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=HAT}{%
+         family={Hattersley},
+         familyi={H\bibinitperiod},
+         given={A.\bibnamedelima T.},
+         giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=HAV}{%
+         family={Hill},
+         familyi={H\bibinitperiod},
+         given={A.\bibnamedelima V.},
+         giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=MCG}{%
+         family={Mathew},
+         familyi={M\bibinitperiod},
+         given={C.\bibnamedelima G.},
+         giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Pembrey},
+         familyi={P\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Satsangi},
+         familyi={S\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SMR}{%
+         family={Stratton},
+         familyi={S\bibinitperiod},
+         given={M.\bibnamedelima R.},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Worthington},
+         familyi={W\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CN}{%
+         family={Craddock},
+         familyi={C\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hurles},
+         familyi={H\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=OW}{%
+         family={Ouwehand},
+         familyi={O\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Parkes},
+         familyi={P\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RN}{%
+         family={Rahman},
+         familyi={R\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Duncanson},
+         familyi={D\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TJA}{%
+         family={Todd},
+         familyi={T\bibinitperiod},
+         given={J.\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=KDP}{%
+         family={Kwiatkowski},
+         familyi={K\bibinitperiod},
+         given={D.\bibnamedelima P.},
+         giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=SNJ}{%
+         family={Samani},
+         familyi={S\bibinitperiod},
+         given={N.\bibnamedelima J.},
+         giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=GSC}{%
+         family={Gough},
+         familyi={G\bibinitperiod},
+         given={S.\bibnamedelima C.},
+         giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=MMI}{%
+         family={McCarthy},
+         familyi={M\bibinitperiod},
+         given={M.\bibnamedelima I.},
+         giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=DP}{%
+         family={Deloukas},
+         familyi={D\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=DP}{%
+         family={Donnelly},
+         familyi={D\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MJB+1}
+  \strng{fullhash}{MJBMGBJVDPKSZHJMAAMSMAPMBMABPRCMJCAFMHASHATHAVMCGPMSJSMRWJCNHMOWPMRNDATJAKDPSNJGSCMMIDPDP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{year}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{doi}
+    \verb 10.1038/ng.2435
+    \endverb
+    \field{issn}{1061-4036}
+    \field{number}{12}
+    \field{pages}{1294\bibrangedash 301}
+    \field{title}{Bayesian refinement of association signals for 14 loci in 3
+  common diseases}
+    \verb{url}
+    \verb http://www.nature.com/ng/journal/v44/n12/full/ng.2435.html
+    \endverb
+    \field{volume}{44}
+    \field{type}{Journal Article}
+    \field{journaltitle}{Nat Genet}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Mizoguchi2018}{article}{}
+    \name{author}{10}{}{%
+      {{hash=MF}{%
+         family={Mizoguchi},
+         familyi={M\bibinitperiod},
+         given={Fumitaka},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Slowikowski},
+         familyi={S\bibinitperiod},
+         given={Kamil},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=WK}{%
+         family={Wei},
+         familyi={W\bibinitperiod},
+         given={Kevin},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=MJL}{%
+         family={Marshall},
+         familyi={M\bibinitperiod},
+         given={Jennifer\bibnamedelima L.},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=RDA}{%
+         family={Rao},
+         familyi={R\bibinitperiod},
+         given={Deepak\bibnamedelima A.},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Chang},
+         familyi={C\bibinitperiod},
+         given={Sook},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=NHN}{%
+         family={Nguyen},
+         familyi={N\bibinitperiod},
+         given={Hung\bibnamedelima N.},
+         giveni={H\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=NEH}{%
+         family={Noss},
+         familyi={N\bibinitperiod},
+         given={Erika\bibnamedelima H.},
+         giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=TJD}{%
+         family={Turner},
+         familyi={T\bibinitperiod},
+         given={Jason\bibnamedelima D.},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=EBE}{%
+         family={Earp},
+         familyi={E\bibinitperiod},
+         given={Brandon\bibnamedelima E.},
+         giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MF+1}
+    \strng{fullhash}{MFSKWKMJLRDACSNHNNEHTJDEBE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{number}{1}
+    \field{pages}{789}
+    \field{title}{Functionally distinct disease-associated fibroblast subsets
+  in rheumatoid arthritis}
+    \verb{url}
+    \verb http://scholar.google.com/scholar?q=Functionally distinct disease-ass
+    \verb ociated fibroblast subsets in rheumatoid arthritis&btnG=&hl=en&num=20
+    \verb &as_sdt=0%2C22
+    \endverb
+    \field{volume}{9}
+    \field{type}{Journal Article}
+    \field{journaltitle}{Nature communications}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Peters2016}{article}{}
+    \name{author}{4}{}{%
+      {{hash=PJE}{%
+         family={Peters},
+         familyi={P\bibinitperiod},
+         given={J.\bibnamedelima E.},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=LPA}{%
+         family={Lyons},
+         familyi={L\bibinitperiod},
+         given={P.\bibnamedelima A.},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=LJC}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={J.\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=PRAC}{%
+         family={PloS …},
+         familyi={P\bibinitperiod},
+         given={Richard -A.\bibnamedelima C.},
+         giveni={R\bibinitperiod-A\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PJE+1}
+    \strng{fullhash}{PJELPALJCPRAC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{year}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \verb{doi}
+    \verb 10.1371/journal.pgen.1005908
+    \endverb
+    \field{title}{Insight into genotype-phenotype associations through eQTL
+  mapping in multiple cell types in health and immune-mediated disease}
+    \verb{url}
+    \verb http://dx.doi.org/10.1371/journal.pgen.1005908
+    \endverb
+    \field{type}{Journal Article}
+    \field{journaltitle}{PLoS …}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Picelli2014}{article}{}
+    \name{author}{4}{}{%
+      {{hash=PS}{%
+         family={Picelli},
+         familyi={P\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=FOR}{%
+         family={Faridani},
+         familyi={F\bibinitperiod},
+         given={O.\bibnamedelima R.},
+         giveni={O\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=BK}{%
+         family={Björklund},
+         familyi={B\bibinitperiod},
+         given={ÅK},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=pWG}{%
+         family={protocols},
+         familyi={p\bibinitperiod},
+         given={Winberg -G.},
+         giveni={W\bibinitperiod-G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PS+1}
+    \strng{fullhash}{PSFORBKpWG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{year}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \verb{doi}
+    \verb 10.1038/nprot.2014.006
+    \endverb
+    \field{title}{Full-length RNA-seq from single cells using Smart-seq2}
+    \verb{url}
+    \verb http://dx.doi.org/10.1038/nprot.2014.006
+    \endverb
+    \field{type}{Journal Article}
+    \field{journaltitle}{Nature protocols}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Raghunatha2012}{article}{}
+    \name{author}{1}{}{%
+      {{hash=RR}{%
+         family={Raghunatha},
+         familyi={R\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RR1}
+    \strng{fullhash}{RR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{year}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{S100 proteins in cartilage: role in arthritis}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0925443912000178
+    \endverb
+    \field{type}{Journal Article}
+    \field{journaltitle}{Biochimica et Biophysica Acta (BBA)-Molecular
+  Basis …}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Raj2014}{article}{}
+    \name{author}{10}{}{%
+      {{hash=RT}{%
+         family={Raj},
+         familyi={R\bibinitperiod},
+         given={Towfique},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=RK}{%
+         family={Rothamel},
+         familyi={R\bibinitperiod},
+         given={Katie},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Mostafavi},
+         familyi={M\bibinitperiod},
+         given={Sara},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=YC}{%
+         family={Ye},
+         familyi={Y\bibinitperiod},
+         given={Chun},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LMN}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Mark\bibnamedelima N.},
+         giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=RJM}{%
+         family={Replogle},
+         familyi={R\bibinitperiod},
+         given={Joseph\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=FT}{%
+         family={Feng},
+         familyi={F\bibinitperiod},
+         given={Ting},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Michelle},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AN}{%
+         family={Asinovski},
+         familyi={A\bibinitperiod},
+         given={Natasha},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=FI}{%
+         family={Frohlich},
+         familyi={F\bibinitperiod},
+         given={Irene},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RT+1}
+    \strng{fullhash}{RTRKMSYCLMNRJMFTLMANFI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{year}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{number}{6183}
+    \field{pages}{519\bibrangedash 523}
+    \field{title}{Polarization of the effects of autoimmune and
+  neurodegenerative risk alleles in leukocytes}
+    \verb{url}
+    \verb http://www.sciencemag.org/content/344/6183/519.short
+    \endverb
+    \field{volume}{344}
+    \field{type}{Journal Article}
+    \field{journaltitle}{Science}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Rao2017}{article}{}
+    \name{author}{4}{}{%
+      {{hash=RDA}{%
+         family={Rao},
+         familyi={R\bibinitperiod},
+         given={D.\bibnamedelima A.},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=GMF}{%
+         family={Gurish},
+         familyi={G\bibinitperiod},
+         given={M.\bibnamedelima F.},
+         giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=MJL}{%
+         family={Marshall},
+         familyi={M\bibinitperiod},
+         given={J.\bibnamedelima L.},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=NSK}{%
+         family={Nature},
+         familyi={N\bibinitperiod},
+         given={Slowikowski -K.},
+         giveni={S\bibinitperiod-K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RDA+1}
+    \strng{fullhash}{RDAGMFMJLNSK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{year}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{Pathologically expanded peripheral T helper cell subset
+  drives B cells in rheumatoid arthritis}
+    \verb{url}
+    \verb https://www.nature.com/articles/nature20810
+    \endverb
+    \field{type}{Journal Article}
+    \field{journaltitle}{Nature}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Ross2000}{article}{}
+    \name{author}{3}{}{%
+      {{hash=REL}{%
+         family={Ross},
+         familyi={R\bibinitperiod},
+         given={E.\bibnamedelima L.},
+         giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=DD}{%
+         family={D'Cruz},
+         familyi={D\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MWJ}{%
+         family={Morrow},
+         familyi={M\bibinitperiod},
+         given={W.\bibnamedelima J.},
+         giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{REL+1}
+    \strng{fullhash}{RELDDMWJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2000}
+    \field{labeldatesource}{year}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{issn}{0315-162X}
+    \field{number}{10}
+    \field{pages}{2432\bibrangedash 2443}
+    \field{title}{Localized monocyte chemotactic protein-1 production
+  correlates with T cell infiltration of synovium in patients with psoriatic
+  arthritis}
+    \verb{url}
+    \verb https://www.ncbi.nlm.nih.gov/pubmed/11036841
+    \endverb
+    \field{volume}{27}
+    \field{type}{Journal Article}
+    \field{journaltitle}{The Journal of rheumatology}
+    \field{year}{2000}
+  \endentry
+
+  \entry{Smith2008}{article}{}
+    \name{author}{6}{}{%
+      {{hash=SJA}{%
+         family={Smith},
+         familyi={S\bibinitperiod},
+         given={Judith\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=BMD}{%
+         family={Barnes},
+         familyi={B\bibinitperiod},
+         given={Michael\bibnamedelima D.},
+         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=HD}{%
+         family={Hong},
+         familyi={H\bibinitperiod},
+         given={Dihua},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=DML}{%
+         family={DeLay},
+         familyi={D\bibinitperiod},
+         given={Monica\bibnamedelima L.},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=IRD}{%
+         family={Inman},
+         familyi={I\bibinitperiod},
+         given={Robert\bibnamedelima D.},
+         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=CRA}{%
+         family={Colbert},
+         familyi={C\bibinitperiod},
+         given={Robert\bibnamedelima A.},
+         giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SJA+1}
+    \strng{fullhash}{SJABMDHDDMLIRDCRA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{labeldatesource}{year}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{6}
+    \field{pages}{1640\bibrangedash 1649}
+    \field{title}{Gene expression analysis of macrophages derived from
+  ankylosing spondylitis patients reveals interferon dysregulation}
+    \verb{url}
+    \verb http://scholar.google.com/scholar?q=Gene expression analysis of macro
+    \verb phages derived from ankylosing spondylitis patients reveals interfero
+    \verb n dysregulation&btnG=&hl=en&num=20&as_sdt=0%2C22
+    \endverb
+    \field{volume}{58}
+    \field{type}{Journal Article}
+    \field{journaltitle}{Arthritis \& Rheumatism: Official Journal of the
+  American College of Rheumatology}
+    \field{year}{2008}
+  \endentry
+
+  \entry{Spadaro2004}{article}{}
+    \name{author}{8}{}{%
+      {{hash=SA}{%
+         family={Spadaro},
+         familyi={S\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Scrivo},
+         familyi={S\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MT}{%
+         family={Moretti},
+         familyi={M\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BG}{%
+         family={Bernardini},
+         familyi={B\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=RV}{%
+         family={Riccieri},
+         familyi={R\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=TE}{%
+         family={Taccari},
+         familyi={T\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Strom},
+         familyi={S\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=VG}{%
+         family={Valesini},
+         familyi={V\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SA+1}
+    \strng{fullhash}{SASRMTBGRVTESRVG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2004}
+    \field{labeldatesource}{year}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{issn}{0392-856X}
+    \field{number}{4}
+    \field{pages}{389\bibrangedash 394}
+    \field{title}{Natural killer cells and gamma/delta T cells in synovial
+  fluid and in peripheral blood of patients with psoriatic arthritis}
+    \verb{url}
+    \verb https://www.ncbi.nlm.nih.gov/pubmed/15301233
+    \endverb
+    \field{volume}{22}
+    \field{type}{Journal Article}
+    \field{journaltitle}{Clinical and experimental rheumatology}
+    \field{year}{2004}
+  \endentry
+
+  \entry{Stoeckman2006}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SAK}{%
+         family={Stoeckman},
+         familyi={S\bibinitperiod},
+         given={A.\bibnamedelima K.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=BEC}{%
+         family={Baechler},
+         familyi={B\bibinitperiod},
+         given={E.\bibnamedelima C.},
+         giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=aOWA}{%
+         family={and …},
+         familyi={a\bibinitperiod},
+         given={Ortmann -W.\bibnamedelima A.},
+         giveni={O\bibinitperiod-W\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SAK+1}
+    \strng{fullhash}{SAKBECaOWA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{year}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{A distinct inflammatory gene expression profile in patients
+  with psoriatic arthritis}
+    \verb{url}
+    \verb https://www.nature.com/articles/6364334
+    \endverb
+    \field{type}{Journal Article}
+    \field{journaltitle}{Genes and …}
+    \field{year}{2006}
+  \endentry
+
+  \entry{Whitney2003}{article}{}
+    \name{author}{7}{}{%
+      {{hash=WAR}{%
+         family={Whitney},
+         familyi={W\bibinitperiod},
+         given={Adeline\bibnamedelima R.},
+         giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={Diehn},
+         familyi={D\bibinitperiod},
+         given={Maximilian},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PSJ}{%
+         family={Popper},
+         familyi={P\bibinitperiod},
+         given={Stephen\bibnamedelima J.},
+         giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=AAA}{%
+         family={Alizadeh},
+         familyi={A\bibinitperiod},
+         given={Ash\bibnamedelima A.},
+         giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=BJC}{%
+         family={Boldrick},
+         familyi={B\bibinitperiod},
+         given={Jennifer\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=RDA}{%
+         family={Relman},
+         familyi={R\bibinitperiod},
+         given={David\bibnamedelima A.},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=BPO}{%
+         family={Brown},
+         familyi={B\bibinitperiod},
+         given={Patrick\bibnamedelima O.},
+         giveni={P\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WAR+1}
+    \strng{fullhash}{WARDMPSJAAABJCRDABPO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2003}
+    \field{labeldatesource}{year}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \verb{doi}
+    \verb 10.1073/pnas.252784499
+    \endverb
+    \field{number}{4}
+    \field{pages}{1896\bibrangedash 1901}
+    \field{title}{Individuality and variation in gene expression patterns in
+  human blood}
+    \verb{url}
+    \verb http://dx.doi.org/10.1073/pnas.252784499
+    \endverb
+    \field{volume}{100}
+    \field{type}{Journal Article}
+    \field{journaltitle}{Proceedings of the National Academy of Sciences}
+    \field{year}{2003}
+  \endentry
+
+  \entry{Zaiss2013}{article}{}
+    \name{author}{10}{}{%
+      {{hash=ZDMW}{%
+         family={Zaiss},
+         familyi={Z\bibinitperiod},
+         given={Dietmar M.\bibnamedelima W.},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  W\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Loosdregt},
+         familyi={L\bibinitperiod},
+         given={Jorg},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gorlani},
+         familyi={G\bibinitperiod},
+         given={Andrea},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BCPJ}{%
+         family={Bekker},
+         familyi={B\bibinitperiod},
+         given={Cornelis P.\bibnamedelima J.},
+         giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
+  J\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gröne},
+         familyi={G\bibinitperiod},
+         given={Andrea},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Sibilia},
+         familyi={S\bibinitperiod},
+         given={Maria},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HPMP}{%
+         family={Henegouwen},
+         familyi={H\bibinitperiod},
+         given={Paul M.\bibnamedelima P.},
+         giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  P\bibinitperiod},
+      }}%
+      {{hash=RRC}{%
+         family={Roovers},
+         familyi={R\bibinitperiod},
+         given={Rob\bibnamedelima C.},
+         giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=CPJ}{%
+         family={Coffer},
+         familyi={C\bibinitperiod},
+         given={Paul\bibnamedelima J.},
+         giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Sijts},
+         familyi={S\bibinitperiod},
+         given={Alice},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZDMW+1}
+    \strng{fullhash}{ZDMWLJGABCPJGASMHPMPRRCCPJSA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{labeldatesource}{year}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{number}{2}
+    \field{pages}{275\bibrangedash 284}
+    \field{title}{Amphiregulin enhances regulatory T cell-suppressive function
+  via the epidermal growth factor receptor}
+    \verb{url}
+    \verb http://scholar.google.com/scholar?q=Amphiregulin enhances regulatory
+    \verb T cell-suppressive function via the epidermal growth factor receptor&
+    \verb btnG=&hl=en&num=20&as_sdt=0%2C22
+    \endverb
+    \field{volume}{38}
+    \field{type}{Journal Article}
+    \field{journaltitle}{Immunity}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Zhang2018}{article}{}
+    \name{author}{5}{}{%
+      {{hash=ZF}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=WK}{%
+         family={Wei},
+         familyi={W\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Slowikowski},
+         familyi={S\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=FCY}{%
+         family={Fonseka},
+         familyi={F\bibinitperiod},
+         given={C.\bibnamedelima Y.},
+         giveni={C\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=bRDA}{%
+         family={bioRxiv},
+         familyi={b\bibinitperiod},
+         given={Rao -D.\bibnamedelima A.},
+         giveni={R\bibinitperiod-D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZF+1}
+    \strng{fullhash}{ZFWKSKFCYbRDA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \verb{doi}
+    \verb 10.1101/351130
+    \endverb
+    \field{title}{Defining Inflammatory Cell States in Rheumatoid Arthritis
+  Joint Synovial Tissues by Integrating Single-cell Transcriptomics and Mass
+  Cytometry}
+    \verb{url}
+    \verb http://dx.doi.org/10.1101/351130
+    \endverb
+    \field{type}{Journal Article}
+    \field{journaltitle}{bioRxiv}
+    \field{year}{2018}
   \endentry
 \enddatalist
 \endinput
