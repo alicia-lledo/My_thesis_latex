@@ -7,15 +7,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\hbox to\@tempdima {\hfil }Submitted Abstracts}{iv}{chapter*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Associated Publications}{v}{chapter*.6}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Contents}{vi}{chapter*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Contents}{vi}{chapter*.7}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }List of Figures}{xiv}{chapter*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }List of Figures}{ix}{chapter*.9}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }List of Tables}{xvii}{chapter*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }List of Tables}{x}{chapter*.10}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Abbreviations}{xi}{chapter*.11}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Abbreviations}{xviii}{chapter*.10}
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
@@ -28,354 +26,402 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.1.3}PsA and spondyloarthropathies}{3}{subsection.1.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Pathophysiology of psoriasis and psoriatic arthritis}{4}{section.1.2}
+\contentsline {section}{\numberline {1.2}Pathophysiology of psoriasis and psoriatic arthritis}{5}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}Clinical presentation and diagnosis}{4}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.1}Clinical presentation and diagnosis}{5}{subsection.1.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Aetiology of psoriasis and PsA}{7}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.2}Aetiology of psoriasis and PsA}{8}{subsection.1.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.3}Cell types involved in psoriasis and PsA pathogenesis}{10}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.3}Cell types involved in psoriasis and PsA pathogenesis}{11}{subsection.1.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.4}Therapeutic intervention}{15}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.4}Therapeutic intervention}{16}{subsection.1.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Genetics of psoriasis and psoriatic arthritis}{16}{section.1.3}
+\contentsline {section}{\numberline {1.3}Genetics of psoriasis and psoriatic arthritis}{18}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.1}Heritability}{17}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.1}Heritability}{18}{subsection.1.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.2}Non-GWAS and linkage studies}{17}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.2}Non-GWAS and linkage studies}{19}{subsection.1.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.3}Genome-wide association studies}{18}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.3}Genome-wide association studies}{20}{subsection.1.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.4}Relevance of non-coding variants in disease susceptibility}{23}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {1.3.4}Relevance of non-coding variants in disease susceptibility}{24}{subsection.1.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.5}The role of GWAS studies in highlighting immune-relevant cell types and pathways}{24}{subsection.1.3.5}
+\contentsline {subsection}{\numberline {1.3.5}The role of GWAS studies in highlighting immune-relevant cell types and pathways}{25}{subsection.1.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Genome-wide pathway enrichment analysis and intergenic regions}{29}{subsubsection*.16}
+\contentsline {subsubsection}{Genome-wide pathway enrichment analysis and intergenic regions}{30}{subsubsection*.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.6}Limitations and future of GWAS studies}{30}{subsection.1.3.6}
+\contentsline {subsection}{\numberline {1.3.6}Limitations and future of GWAS studies}{31}{subsection.1.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Functional interpretation of genome-wide association studies in complex diseases}{32}{section.1.4}
+\contentsline {section}{\numberline {1.4}Functional interpretation of genome-wide association studies in complex diseases}{33}{section.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.1}Overcoming the limitations of GWAS: post-GWAS studies}{32}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.1}Overcoming the limitations of GWAS: post-GWAS studies}{33}{subsection.1.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.2}Understanding the epigenetic landscape in complex diseases}{32}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.2}Understanding the epigenetic landscape in complex diseases}{34}{subsection.1.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.3}The chromatin landscape}{34}{subsection.1.4.3}
+\contentsline {subsection}{\numberline {1.4.3}The chromatin landscape}{35}{subsection.1.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Methods to ascertaining chromatin accessibility}{34}{subsubsection*.17}
+\contentsline {subsubsection}{Methods to ascertaining chromatin accessibility}{36}{subsubsection*.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{The role of histone modifications and TF occupancy in the chromatin landscape}{36}{subsubsection*.18}
+\contentsline {subsubsection}{The role of histone modifications and TF occupancy in the chromatin landscape}{37}{subsubsection*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{DNA methylation}{38}{subsubsection*.19}
+\contentsline {subsubsection}{DNA methylation}{39}{subsubsection*.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Chromatin interactions and gene expression}{38}{subsubsection*.20}
+\contentsline {subsubsection}{Chromatin interactions and gene expression}{40}{subsubsection*.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.4}Transcriptional profiles in disease}{39}{subsection.1.4.4}
+\contentsline {subsection}{\numberline {1.4.4}Transcriptional profiles in disease}{41}{subsection.1.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Long non-coding RNAs and enhancer RNAs}{40}{subsubsection*.21}
+\contentsline {subsubsection}{Long non-coding RNAs and enhancer RNAs}{42}{subsubsection*.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{micro-RNAs}{42}{subsubsection*.22}
+\contentsline {subsubsection}{micro-RNAs}{43}{subsubsection*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Methods to assay gene expression}{42}{subsubsection*.23}
+\contentsline {subsubsection}{Methods to assay gene expression}{44}{subsubsection*.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.5}Transcriptional regulation in complex diseases}{43}{subsection.1.4.5}
+\contentsline {subsection}{\numberline {1.4.5}Transcriptional regulation in complex diseases}{45}{subsection.1.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.6}Integration and interpretation of genomic data}{45}{subsection.1.4.6}
+\contentsline {subsection}{\numberline {1.4.6}Integration and interpretation of genomic data}{46}{subsection.1.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.7}The use of fine-mapping to prioritise functional causal variants}{46}{subsection.1.4.7}
+\contentsline {subsection}{\numberline {1.4.7}The use of fine-mapping to prioritise functional causal variants}{48}{subsection.1.4.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.8}Approaches to establish disease mechanisms and causality of genetic variant}{48}{subsection.1.4.8}
+\contentsline {subsection}{\numberline {1.4.8}Approaches to establish disease mechanisms and causality of genetic variant}{50}{subsection.1.4.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Material and Methods}{50}{chapter.2}
+\contentsline {chapter}{\numberline {2}Material and Methods}{52}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Ethical approval and recruitment of study participants}{50}{section.2.1}
+\contentsline {section}{\numberline {2.1}Ethical approval and recruitment of study participants}{52}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Psoriasis patient recruitment}{50}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.1}Psoriasis patient recruitment}{52}{subsection.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}PsA patient recruitment}{51}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.2}PsA patient recruitment}{53}{subsection.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.3}Healthy volunteer recruitment}{51}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.3}Healthy volunteer recruitment}{53}{subsection.2.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Sample processing}{52}{section.2.2}
+\contentsline {section}{\numberline {2.2}Sample processing}{54}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}PBMCs and synovial fluid cells isolation}{52}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.1}PBMCs and synovial fluid cells isolation}{54}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Skin biopsies processing and adherent assays}{52}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Skin biopsies processing and adherent assays}{54}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Fixation, cryopreservation and cell culture}{53}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.3}Fixation, cryopreservation and cell culture}{55}{subsection.2.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.4}Primary cell isolation using magnetic-activated cell sorting}{54}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.4}Primary cell isolation using magnetic-activated cell sorting}{56}{subsection.2.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.5}Primary cell isolation using fluorescence-activated cell sorting}{54}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.5}Primary cell isolation using fluorescence-activated cell sorting}{56}{subsection.2.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Experimental protocols}{56}{section.2.3}
+\contentsline {section}{\numberline {2.3}Experimental protocols}{58}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}ATAC - Chromatin Accessibility}{56}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.1}ATAC - Chromatin Accessibility}{58}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{ATAC-seq}{56}{subsubsection*.25}
+\contentsline {subsubsection}{ATAC-seq}{58}{subsubsection*.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Fast-ATAC}{57}{subsubsection*.26}
+\contentsline {subsubsection}{Fast-ATAC}{59}{subsubsection*.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Omni-ATAC}{58}{subsubsection*.27}
+\contentsline {subsubsection}{Omni-ATAC}{60}{subsubsection*.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Quality control and sequencing}{58}{subsubsection*.28}
+\contentsline {subsubsection}{Quality control and sequencing}{60}{subsubsection*.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Chromatin immunoprecipitation with sequencing library preparation by Tn5 transposase}{58}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}Chromatin immunoprecipitation with sequencing library preparation by Tn5 transposase}{60}{subsection.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.3}RNA extraction and gene expression quantification}{59}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.3}RNA extraction and gene expression quantification}{61}{subsection.2.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{RNA extraction}{59}{subsubsection*.29}
+\contentsline {subsubsection}{RNA extraction}{61}{subsubsection*.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{RNA-seq}{60}{subsubsection*.30}
+\contentsline {subsubsection}{RNA-seq}{62}{subsubsection*.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Gene expression quantification by qPCR array}{61}{subsubsection*.31}
+\contentsline {subsubsection}{Gene expression quantification by qPCR array}{63}{subsubsection*.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Single-cell RNA-seq}{61}{subsubsection*.32}
+\contentsline {subsubsection}{Single-cell RNA-seq}{63}{subsubsection*.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.4}DNA extraction and rs4672405 genotyping}{62}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.4}DNA extraction and rs4672405 genotyping}{64}{subsection.2.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.5}Mass cytometry using cytometry by time of flight (CyTOF)}{62}{subsection.2.3.5}
+\contentsline {subsection}{\numberline {2.3.5}Mass cytometry using cytometry by time of flight (CyTOF)}{64}{subsection.2.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Computational and statistical analysis}{63}{section.2.4}
+\contentsline {section}{\numberline {2.4}Computational and statistical analysis}{65}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}ATAC data analysis}{63}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.1}ATAC data analysis}{65}{subsection.2.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Next generation sequencing data analysis}{63}{subsubsection*.34}
+\contentsline {subsubsection}{Next generation sequencing data analysis}{65}{subsubsection*.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Peak calling, filtering and sample quality assessment}{64}{subsubsection*.35}
+\contentsline {subsubsection}{Peak calling, filtering and sample quality assessment}{66}{subsubsection*.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Combined peak master list and differential analysis}{65}{subsubsection*.36}
+\contentsline {subsubsection}{Combined peak master list and differential analysis}{67}{subsubsection*.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.2}ChIPm data analysis}{66}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.2}ChIPm data analysis}{68}{subsection.2.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Next generation sequencing data analysis}{66}{subsubsection*.37}
+\contentsline {subsubsection}{Next generation sequencing data analysis}{68}{subsubsection*.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Peak calling, filtering and sample quality}{66}{subsubsection*.38}
+\contentsline {subsubsection}{Peak calling, filtering and sample quality}{68}{subsubsection*.37}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Combined peak master list and differential analysis}{67}{subsubsection*.39}
+\contentsline {subsubsection}{Combined peak master list and differential analysis}{69}{subsubsection*.38}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.3}Gene expression analysis}{67}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.3}Gene expression analysis}{69}{subsection.2.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{qPCR analysis}{67}{subsubsection*.40}
+\contentsline {subsubsection}{qPCR analysis}{69}{subsubsection*.39}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Bulk RNA-seq analysis}{68}{subsubsection*.41}
+\contentsline {subsubsection}{Bulk RNA-seq analysis}{70}{subsubsection*.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Single-cell RNA-seq analysis}{68}{subsubsection*.42}
+\contentsline {subsubsection}{Single-cell RNA-seq analysis}{71}{subsubsection*.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.4}Genomic region annotation, enrichment analysis, gene-network analysis and pathway visualisation }{70}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.4}Genomic region annotation, enrichment analysis, gene-network analysis and pathway visualisation }{72}{subsection.2.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.5}Statistical fine-mapping}{71}{subsection.2.4.5}
+\contentsline {subsection}{\numberline {2.4.5}Statistical fine-mapping}{73}{subsection.2.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{PsA fine-mapping using Immunochip genotyping data}{71}{subsubsection*.43}
+\contentsline {subsubsection}{PsA fine-mapping using Immunochip genotyping data}{74}{subsubsection*.42}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Psoriasis fine-mapping using Immunochip summary statistics}{72}{subsubsection*.44}
+\contentsline {subsubsection}{Psoriasis fine-mapping using Immunochip summary statistics}{74}{subsubsection*.43}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.6}Mass cytometry data analysis}{73}{subsection.2.4.6}
+\contentsline {subsection}{\numberline {2.4.6}Mass cytometry data analysis}{75}{subsection.2.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Establishment of laboratory methods and analytical tools to assess genome-wide chromatin accessibility in clinical samples}{74}{chapter.3}
+\contentsline {chapter}{\numberline {3}Establishment of laboratory methods and analytical tools to assess genome-wide chromatin accessibility in clinical samples}{77}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Introduction}{74}{section.3.1}
+\contentsline {section}{\numberline {3.1}Introduction}{77}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}Principle of ATAC-seq and compatibility with clinical samples}{74}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.1}Principle of ATAC-seq and compatibility with clinical samples}{77}{subsection.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}ATAC-seq limitations and advances in optimisation}{75}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.2}ATAC-seq limitations and advances in optimisation}{78}{subsection.3.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.3}Challenges of ATAC data analysis}{76}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.3}Challenges of ATAC data analysis}{79}{subsection.3.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.4}The challenge of working with clinical samples}{79}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.4}The challenge of working with clinical samples}{83}{subsection.3.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.5}Aims}{80}{subsection.3.1.5}
+\contentsline {subsection}{\numberline {3.1.5}Aims}{84}{subsection.3.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Results}{80}{section.3.2}
+\contentsline {section}{\numberline {3.2}Results}{85}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Establishment of an ATAC-seq data analysis pipeline based on current knowledge}{80}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.1}Establishment of an ATAC-seq data analysis pipeline based on current knowledge}{85}{subsection.3.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Sample QC}{81}{subsubsection*.45}
+\contentsline {subsubsection}{Sample QC}{86}{subsubsection*.44}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Peak calling and filtering}{84}{subsubsection*.48}
+\contentsline {subsubsection}{Peak calling and filtering}{89}{subsubsection*.47}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Differential chromatin accessibility analysis}{89}{subsubsection*.51}
+\contentsline {subsubsection}{Differential chromatin accessibility analysis}{92}{subsubsection*.50}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Assessment of ATAC-seq transposition times and comparison with Fast-ATAC protocol in relevant cell types}{93}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.2}Assessment of ATAC-seq transposition times and comparison with Fast-ATAC protocol in relevant cell types}{100}{subsection.3.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Limitations of ATAC-seq and FAST-ATAC to assess chromatin accessibility in KC}{98}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.3}Limitations of ATAC-seq and FAST-ATAC to assess chromatin accessibility in KC}{103}{subsection.3.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.4}Effect of cryopreservation and fixation in the chromatin landscape of immune primary cells}{103}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.4}Effect of cryopreservation and fixation in the chromatin landscape of immune primary cells}{108}{subsection.3.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Experimental design and sample description}{103}{subsubsection*.62}
+\contentsline {subsubsection}{Experimental design and sample description}{108}{subsubsection*.61}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Chromatin structure characterisation in the different conditions}{107}{subsubsection*.64}
+\contentsline {subsubsection}{Chromatin structure characterisation in the different conditions}{112}{subsubsection*.63}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Differential analysis demonstrates discrete significant changes in chromatin accessibility across conditions}{111}{subsubsection*.69}
+\contentsline {subsubsection}{Differential analysis demonstrates discrete significant changes in chromatin accessibility across conditions}{116}{subsubsection*.68}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Discussion}{115}{section.3.3}
+\contentsline {section}{\numberline {3.3}Discussion}{120}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{ATAC: technical aspects and pipeline establishment}{115}{subsubsection*.74}
+\contentsline {subsubsection}{ATAC: technical aspects and pipeline establishment}{120}{subsubsection*.73}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{The challenges of performing differential chromatin accessibility analysis}{117}{subsubsection*.75}
+\contentsline {subsubsection}{The challenges of performing differential chromatin accessibility analysis}{122}{subsubsection*.74}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Studying the chromatin landscape from psoriasis biopsies}{119}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.1}Studying the chromatin landscape from psoriasis biopsies}{124}{subsection.3.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Characterisation of the effect of preservative techniques in the chromatin landscape}{120}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.2}Characterisation of the effect of preservative techniques in the chromatin landscape}{125}{subsection.3.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.3}Conclusions}{121}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.3}Conclusions}{126}{subsection.3.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Defining the genome-wide chromatin accessibility landscape and gene expression profile in psoriasis}{123}{chapter.4}
+\contentsline {chapter}{\numberline {4}Defining the genome-wide chromatin accessibility landscape and gene expression profile in psoriasis}{128}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Introduction}{123}{section.4.1}
+\contentsline {section}{\numberline {4.1}Introduction}{128}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}The systemic and skin-specific components in psoriasis}{123}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.1}The systemic and skin-specific components in psoriasis}{128}{subsection.4.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}The personalised epigenome in disease}{124}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.2}The personalised epigenome in disease}{129}{subsection.4.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.3}Transcriptional profiles in psoriasis}{125}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.3}Transcriptional profiles in psoriasis}{130}{subsection.4.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Trancriptomics in psoriatic skin}{125}{subsubsection*.76}
+\contentsline {subsubsection}{Trancriptomics in psoriatic skin}{130}{subsubsection*.75}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Transcriptomics in circulating immune cells}{128}{subsubsection*.77}
+\contentsline {subsubsection}{Transcriptomics in circulating immune cells}{134}{subsubsection*.76}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.4}Chromatin accessibility, gene expression and genetic variability}{129}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.4}Chromatin accessibility, gene expression and genetic variability}{134}{subsection.4.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.5}Fine-mapping using summary stats}{130}{subsection.4.1.5}
+\contentsline {subsection}{\numberline {4.1.5}Fine-mapping using summary stats}{135}{subsection.4.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.6}Aims}{131}{subsection.4.1.6}
+\contentsline {section}{\numberline {4.2}Aims}{136}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Results}{131}{section.4.2}
+\contentsline {section}{\numberline {4.3}Results}{137}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Psoriasis and healthy controls: cohort description and datasets}{131}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.3.1}Psoriasis and healthy controls: cohort description and datasets}{137}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Cohorts description}{131}{subsubsection*.78}
+\contentsline {subsubsection}{Cohorts description}{138}{subsubsection*.77}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Datasets}{133}{subsubsection*.81}
+\contentsline {subsubsection}{Datasets}{139}{subsubsection*.80}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Exploring differences in the chromatin accessibility landscape of primary immune cell types in psoriasis}{135}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.3.2}Assessment of changes in the enhancer mark H3K27ac in psoriasis immune cells}{141}{subsection.4.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Assessment of changes in the enhancer mark H3K27ac in psoriasis immune cells}{135}{subsubsection*.83}
+\contentsline {subsubsection}{Data processing and quality control}{141}{subsubsection*.82}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Identifying global changes in immune cells chromatin accessibility between psoriasis patients and healthy controls}{141}{subsubsection*.88}
+\contentsline {subsubsection}{Differential H3K27ac enrichment analysis}{142}{subsubsection*.85}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Integration of H3K27ac ChIPm and ATAC-seq chromatin accessibility profiles}{149}{subsubsection*.93}
+\contentsline {subsection}{\numberline {4.3.3}Identifying global changes in immune cells chromatin accessibility between psoriasis patients and healthy controls}{147}{subsection.4.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Differential gene expression in psoriasis circulating immune cells}{151}{subsection.4.2.3}
+\contentsline {subsubsection}{Data processing and quality control}{148}{subsubsection*.88}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Assessing quality control of the RNA-seq data}{151}{subsubsection*.95}
+\contentsline {subsubsection}{Functional relevance of the ATAC regions included in the differential analysis}{150}{subsubsection*.90}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{mRNA and lncRNA differential expression}{152}{subsubsection*.98}
+\contentsline {subsubsection}{Differential chromatin accessibility analysis}{152}{subsubsection*.92}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{The role of lncRNAs in psoriasis circulating immune cells}{157}{subsubsection*.102}
+\contentsline {subsubsection}{Integration of H3K27ac ChIPm and ATAC-seq chromatin accessibility profiles}{155}{subsubsection*.95}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Pathway enrichment analysis for the DEGs}{160}{subsubsection*.104}
+\contentsline {subsection}{\numberline {4.3.4}Gene expression analysis in psoriasis circulating immune cells}{155}{subsection.4.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.4}RNA-seq in epidermis from psoriasis patients}{165}{subsection.4.2.4}
+\contentsline {subsubsection}{Data processing and quality control}{155}{subsubsection*.97}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Quality control of the RNA-seq data}{165}{subsubsection*.107}
+\contentsline {subsubsection}{mRNA and lncRNA differential expression}{159}{subsubsection*.100}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Summary of the DGE results}{167}{subsubsection*.109}
+\contentsline {subsubsection}{The role of lncRNAs in psoriasis circulating immune cells}{161}{subsubsection*.104}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Overall comparison with other skin transcriptomic studies}{167}{subsubsection*.111}
+\contentsline {subsubsection}{Pathway enrichment analysis for the DEGs}{164}{subsubsection*.107}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Dysregulated lncRNAs in the psoriatic lesional skin}{169}{subsubsection*.112}
+\contentsline {subsection}{\numberline {4.3.5}RNA-seq in epidermis from psoriasis patients}{169}{subsection.4.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Pathways enriched for the DEGs}{170}{subsubsection*.113}
+\contentsline {subsubsection}{Data processing and quality control}{169}{subsubsection*.110}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.5}Comparison of the systemic and tissue-specific gene expression signatures in psoriasis}{175}{subsection.4.2.5}
+\contentsline {subsubsection}{Summary of the DGE results}{169}{subsubsection*.112}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.6}Integration of chromatin accessibility and expression data in circulating immune cells}{177}{subsection.4.2.6}
+\contentsline {subsubsection}{Overall comparison with other skin transcriptomic studies}{172}{subsubsection*.115}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.7}Fine-mapping}{179}{subsection.4.2.7}
+\contentsline {subsubsection}{Dysregulated lncRNAs in the psoriatic lesional skin}{174}{subsubsection*.117}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.8}Integration of GWAS fine-mapping results and functional data: locus 2p15}{179}{subsection.4.2.8}
+\contentsline {subsubsection}{Pathway enrichment analysis}{176}{subsubsection*.119}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Maximising genetic commonalities across chronic inflammatory diseases}{179}{subsubsection*.119}
+\contentsline {subsection}{\numberline {4.3.6}Comparison of the systemic and tissue-specific gene expression signatures in psoriasis}{180}{subsection.4.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Integration of ATAC and publicly available epigenetic data}{180}{subsubsection*.120}
+\contentsline {subsection}{\numberline {4.3.7}Integration of chromatin accessibility and expression data in circulating immune cells}{182}{subsection.4.3.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Allele-dependent chromatin accessibility and allelic imbalance using ATAC reads at rs4672505}{182}{subsubsection*.122}
+\contentsline {subsection}{\numberline {4.3.8}Fine-mapping of psoriasis GWAS loci and functional interpretation}{184}{subsection.4.3.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Potential regulatory role of rs4672505 in the expression of B3GNT2}{184}{subsubsection*.124}
+\contentsline {subsubsection}{Fine-mapping using summary statistics data}{184}{subsubsection*.125}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Cross-tissue comparison of chromatin accessibility, gene expression signature and immunophenotypes in PsA}{186}{chapter.5}
+\contentsline {subsubsection}{Integration with functional data}{187}{subsubsection*.126}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Introduction}{186}{section.5.1}
+\contentsline {subsubsection}{The functional landscape at \textit {SLC45A1/TNFRSF9} locus}{188}{subsubsection*.128}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.1}The relevance of cell type and tissue specificity in the study of PsA}{186}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {4.3.9}Maximising genetic commonalities across chronic inflammatory diseases: locus 2p15}{189}{subsection.4.3.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.2}Bulk transcriptomic studies in PsA and their limitations}{187}{subsection.5.1.2}
+\contentsline {subsubsection}{Integration of ATAC and publicly available epigenetic data}{190}{subsubsection*.129}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.3}Transcriptomics and proteomics at the single cell resolution}{189}{subsection.5.1.3}
+\contentsline {subsubsection}{Allele-dependent chromatin accessibility and allelic imbalance using ATAC reads at rs4672505}{192}{subsubsection*.131}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.4}The challenges of using a multi-omics approach in the study of complex diseases}{190}{subsection.5.1.4}
+\contentsline {subsubsection}{Potential regulatory role of rs4672505 in the expression of B3GNT2}{193}{subsubsection*.133}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.5}Integration of fine-mapping GWAS SNPs and functional data in PsA}{191}{subsection.5.1.5}
+\contentsline {section}{\numberline {4.4}Discussion}{195}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.6}Aims}{193}{subsection.5.1.6}
+\contentsline {subsection}{\numberline {4.4.1}Chromatin accessibility and H3K27ac landscape in psoriasis immune cells}{195}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Results}{193}{section.5.2}
+\contentsline {subsection}{\numberline {4.4.2}Dysregulation of gene expression in psoriasis circulating immune cells}{197}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}PsA patients cohort description and datasets}{193}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {4.4.3}Correlation between changes in chromatin accessibility and gene expression}{200}{subsection.4.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.2}Immune cellular composition of blood and synovial fluid in the PsA cohort}{196}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {4.4.4}Trancriptomic profiles in lesional and uninvolved psoriatic epidermis}{201}{subsection.4.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.3}Differential chromatin accessibility analysis in immune cells reveals differences between SF and PB}{197}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {4.4.5}LncRNAs in psoriasis}{204}{subsection.4.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Quality control of Fast-ATAC data}{197}{subsubsection*.128}
+\contentsline {subsection}{\numberline {4.4.6}Differences in transcriptional dysregulation in blood and skin}{207}{subsection.4.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Accessible chromatin reflects cell type specificity and functional relevance}{200}{subsubsection*.130}
+\contentsline {subsection}{\numberline {4.4.7}Fine-mapping and the chr2p15 locus}{208}{subsection.4.4.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Characterisation of the differential accessible chromatin regions}{201}{subsubsection*.133}
+\contentsline {subsection}{\numberline {4.4.8}Limitations in the approach and future work}{210}{subsection.4.4.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.4}Pathway enrichment analysis highlights tissue functional differences in chromatin accessibility}{207}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {4.4.9}Conclusions}{211}{subsection.4.4.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.5}Differential gene expression analysis in paired circulating and synovial immune cells}{209}{subsection.5.2.5}
+\contentsline {chapter}{\numberline {5}Cross-tissue comparison of chromatin accessibility, gene expression signature and immunophenotypes in PsA}{213}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Immune-relevant gene expression by qPCR}{209}{subsubsection*.140}
+\contentsline {section}{\numberline {5.1}Introduction}{213}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Correlation between gene expression and chromatin accessibility}{212}{subsubsection*.143}
+\contentsline {subsection}{\numberline {5.1.1}The relevance of cell type and tissue specificity in the study of PsA}{213}{subsection.5.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Pathway enrichment and network analysis highlights the role of synovial CD14$^+$ monocytes in cytokine and chemokine production}{214}{subsubsection*.146}
+\contentsline {subsection}{\numberline {5.1.2}Bulk transcriptomic studies in PsA and their limitations}{214}{subsection.5.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Tissue and disease specificity in gene expression modulation and relevant biological pathways}{220}{subsubsection*.148}
+\contentsline {subsection}{\numberline {5.1.3}Transcriptomics and proteomics at the single cell resolution}{216}{subsection.5.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.6}Characterisation of the CD14$^+$ monocyte heterogeneity in PsA using scRNA-seq}{225}{subsection.5.2.6}
+\contentsline {subsection}{\numberline {5.1.4}The challenges of using a multi-omics approach in the study of complex diseases}{217}{subsection.5.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{scRNA-seq reveals two main subpopulations in SF and PB combined CD14$^+$ monocytes}{225}{subsubsection*.150}
+\contentsline {subsection}{\numberline {5.1.5}Integration of fine-mapping GWAS SNPs and functional data in PsA}{218}{subsection.5.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Differential gene expression between SF and PB CD14$^+$ monocytes in CC-mixed and CC-IL7R}{227}{subsubsection*.152}
+\contentsline {section}{\numberline {5.2}Aims}{219}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Moderate genome-wide correlation correlation between chromatin accessibility and scRNA-seq expression in the CC-mixed cluster}{233}{subsubsection*.156}
+\contentsline {section}{\numberline {5.3}Results}{221}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.7}Mass cytometry reveals active cytokine production in CD14$^+$ monocytes.}{236}{subsection.5.2.7}
+\contentsline {subsection}{\numberline {5.3.1}PsA patients cohort description and datasets}{221}{subsection.5.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.8}Prioritisation and interpretation of PsA GWAS SNPs}{238}{subsection.5.2.8}
+\contentsline {subsection}{\numberline {5.3.2}Immune cellular composition of blood and synovial fluid in the PsA cohort}{223}{subsection.5.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Bayesian fine-mapping using genotype data}{238}{subsubsection*.161}
+\contentsline {subsection}{\numberline {5.3.3}Differential chromatin accessibility analysis in immune cells reveals differences between SF and PB}{224}{subsection.5.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Integrating fine-mapped SNPs and chromatin accessibility from PsA patients}{242}{subsubsection*.162}
+\contentsline {subsubsection}{Quality control of Fast-ATAC data}{224}{subsubsection*.137}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Further investigating the PsA-specific 5q31 locus}{244}{subsubsection*.165}
+\contentsline {subsubsection}{Accessible chromatin reflects cell type specificity and functional relevance}{227}{subsubsection*.139}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{The \textit {STAT2/IL23A} locus}{248}{subsubsection*.168}
+\contentsline {subsubsection}{CD14$^+$ monocytes present the greatest proportion of changes in chromatin accessibility}{228}{subsubsection*.142}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Discussion}{250}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.4}Pathway enrichment analysis highlights tissue functional differences in chromatin accessibility}{234}{subsection.5.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendices}{252}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.5}Differential gene expression analysis in paired circulating and synovial immune cells}{236}{subsection.5.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Immune-relevant gene expression by qPCR}{236}{subsubsection*.149}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Correlation between gene expression and chromatin accessibility}{239}{subsubsection*.152}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Pathway enrichment and network analysis highlights the role of synovial CD14$^+$ monocytes in cytokine and chemokine production}{241}{subsubsection*.155}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Tissue and disease specificity in gene expression modulation and relevant biological pathways}{247}{subsubsection*.157}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.6}Characterisation of the CD14$^+$ monocyte heterogeneity in PsA using scRNA-seq}{250}{subsection.5.3.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{scRNA-seq reveals two main subpopulations in SF and PB combined CD14$^+$ monocytes}{251}{subsubsection*.159}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Differential gene expression between SF and PB CD14$^+$ monocytes in CC-mixed and CC-IL7R}{253}{subsubsection*.161}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Moderate genome-wide correlation correlation between chromatin accessibility and scRNA-seq expression in the CC-mixed cluster}{258}{subsubsection*.165}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.7}Mass cytometry reveals differences in protein expression consistent with the chromatin accessibility and transcriptomic profile in PsA CD14$^+$ monocytes.}{259}{subsection.5.3.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\textit {CCL2}-\textit {CCR2} signalling: an example of multi-omics correlation}{263}{subsubsection*.169}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.8}Prioritisation and interpretation of PsA GWAS SNPs}{266}{subsection.5.3.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Bayesian fine-mapping using genotyping data}{266}{subsubsection*.171}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Integrating fine-mapped SNPs and chromatin accessibility from PsA samples}{270}{subsubsection*.172}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Further investigating the PsA-specific 5q31 locus}{273}{subsubsection*.175}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Discussion}{277}{section.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.1}Characterising chromatin accessibility in PsA samples}{277}{subsection.5.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.2}Bulk gene expression profiling and integration with chromatin accessibility data}{279}{subsection.5.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.3}The relevance of monocytes and investigation of other cell types}{283}{subsection.5.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.4}Characterisation of monocytes by scRNA-seq}{284}{subsection.5.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.5}Mass cytometry in CD14$^+$ monocytes and the integration with chromatin accessibility and transcriptomic data}{286}{subsection.5.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.6}Challenges and future perspectives in multi-omic approaches}{287}{subsection.5.4.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.7}The use of PsA functional data to inform fine-mapping GWAS loci}{289}{subsection.5.4.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.8}Conclusions}{291}{subsection.5.4.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Appendices}{292}{subsection.5.4.8}
 \ttl@starttoc {default@1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Tables}{254}{appendix.A}
+\contentsline {chapter}{\numberline {A}Tables}{294}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Chapter 3 Tables}{254}{section.A.1}
+\contentsline {section}{\numberline {A.1}Chapter 3 Tables}{294}{section.A.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Chapter 4 Tables}{254}{section.A.2}
+\contentsline {section}{\numberline {A.2}Chapter 4 Tables}{294}{section.A.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Chapter 5 Tables}{254}{section.A.3}
+\contentsline {section}{\numberline {A.3}Chapter 5 Tables}{299}{section.A.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Additional figures}{260}{appendix.B}
+\contentsline {chapter}{\numberline {B}Additional figures}{302}{appendix.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}Chapter 3 Figures}{260}{section.B.1}
+\contentsline {section}{\numberline {B.1}Chapter 3 Figures}{302}{section.B.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.2}Chapter 4 Figures}{264}{section.B.2}
+\contentsline {section}{\numberline {B.2}Chapter 4 Figures}{305}{section.B.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.3}Chapter 5 Figures}{265}{section.B.3}
+\contentsline {section}{\numberline {B.3}Chapter 5 Figures}{308}{section.B.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{271}{appendix*.189}
+\contentsline {chapter}{Bibliography}{345}{appendix*.196}
 \contentsfinish 

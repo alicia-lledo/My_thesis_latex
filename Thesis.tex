@@ -44,7 +44,7 @@
 \usepackage{rotfloat} %Allows [H] to be used when rotating floats
 \usepackage{setspace} %Set spacing in longtable
 \usepackage{multirow} %Multirows in tables
-\usepackage[backend=bibtex, style=authoryear, maxcitenames=2, mincitenames=1, minbibnames=10, maxbibnames=10, dashed=false, doi=false, url=false, isbn=false]{biblatex} 
+\usepackage[backend=bibtex, style=authoryear, maxcitenames=2, mincitenames=1, minbibnames=5, maxbibnames=5, dashed=false, doi=false, url=false, isbn=false]{biblatex} 
 
 %References
 \addbibresource{Thesis_ref} %Location of references
@@ -80,12 +80,12 @@
 \include{Preamble}
 \pagenumbering{arabic} \setcounter{page}{1}
 \doublespacing
-%\include{./Introduction/Introduction}	
-%\include{./Material_and_methods/Material_and_methods}											% ch:Intro
-%\include{./Results1/Results1}											%ch:Results1
-%\include{./Results2/Results2}
+\include{./Introduction/Introduction}	
+\include{./Material_and_methods/Material_and_methods}											% ch:Intro
+\include{./Results1/Results1}											%ch:Results1
+\include{./Results2/Results2}
 \include{./Results3/Results3}
-%\include{./Appendix/Appendix}															%
+\include{./Appendix/Appendix}															%
 %\bibliographystyle{abbrvnat2}
 %\bibliography{Thesis_ref}
 
