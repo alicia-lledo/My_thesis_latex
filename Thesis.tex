@@ -22,6 +22,11 @@
 \usepackage{color,graphicx} %Add colour to text and further arguments for graphics
 \usepackage{caption}			%Subfigures over a page
 \usepackage{subcaption}		%Subfigures over a page
+%Figure captions in capital letters
+%\renewcommand{\thesubfigure}{(\Alph{subfigure})}
+%\renewcommand{\thesubfigure}{\Alph{subfigure}}
+\renewcommand{\thesubfigure}{\Alph{subfigure}}% (a) -> a
+%\renewcommand{\@thesubfigure}{\thesubfigure)\hskip\subfiglabelskip}% a -> a)
 \usepackage{url} 					%Allows you to add urls
 %\usepackage{courier}			%Use courier font
 \usepackage{kpfonts}
@@ -45,6 +50,8 @@
 \usepackage{setspace} %Set spacing in longtable
 \usepackage{multirow} %Multirows in tables
 \usepackage[backend=bibtex, style=authoryear, maxcitenames=2, mincitenames=1, minbibnames=5, maxbibnames=5, dashed=false, doi=false, url=false, isbn=false]{biblatex} 
+
+
 
 %References
 \addbibresource{Thesis_ref} %Location of references
@@ -80,11 +87,11 @@
 \include{Preamble}
 \pagenumbering{arabic} \setcounter{page}{1}
 \doublespacing
-\include{./Introduction/Introduction}	
-\include{./Material_and_methods/Material_and_methods}											% ch:Intro
-\include{./Results1/Results1}											%ch:Results1
+%\include{./Introduction/Introduction}	
+%\include{./Material_and_methods/Material_and_methods}											% ch:Intro
+%\include{./Results1/Results1}											%ch:Results1
 \include{./Results2/Results2}
-\include{./Results3/Results3}
+%\include{./Results3/Results3}
 \include{./Appendix/Appendix}															%
 %\bibliographystyle{abbrvnat2}
 %\bibliography{Thesis_ref}
