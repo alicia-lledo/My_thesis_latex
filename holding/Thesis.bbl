@@ -1,0 +1,5961 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.4 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{Alasoo2018}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Alasoo}{A.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rodrigues}{R.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mukhopadhyay}{M.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nature …}{N.}%
+     {Knights -A.~J.}{K.-A.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AK+1}
+  \strng{fullhash}{AKRJMSNKAJ1}
+  \field{labelyear}{2018}
+  \field{sortinit}{A}
+  \verb{doi}
+  \verb 10.1038/s41588-018-0046-7
+  \endverb
+  \field{title}{Shared genetic effects on chromatin and gene expression
+  indicate a role for enhancer priming in immune response}
+  \verb{url}
+  \verb http://dx.doi.org/10.1038/s41588-018-0046-7
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{Nature …}
+  \field{year}{2018}
+\endentry
+
+\entry{Antonioli2013}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Antonioli}{A.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pacher}{P.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vizi}{V.}%
+     {E.~S.}{E.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {medicine}{m.}%
+     {Haskó -G.}{H.-G.}%
+     {in~molecular}{i.~m.}%
+     {}{}}%
+  }
+  \strng{namehash}{AL+1}
+  \strng{fullhash}{ALPPVESmHGim1}
+  \field{labelyear}{2013}
+  \field{sortinit}{A}
+  \field{title}{CD39 and CD73 in immunity and inflammation}
+  \verb{url}
+  \verb https://www.sciencedirect.com/science/article/pii/S1471491413000543
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{Trends in molecular medicine}
+  \field{year}{2013}
+\endentry
+
+\entry{Aterido2016}{article}{}
+  \name{author}{27}{}{%
+    {{}%
+     {Aterido}{A.}%
+     {Adri{\`a}}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Juli{\`a}}{J.}%
+     {Antonio}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ferr{\'a}ndiz}{F.}%
+     {Carlos}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Puig}{P.}%
+     {Llu{\'i}s}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fonseca}{F.}%
+     {Eduardo}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Emilia}{E.}%
+     {{Fern{\'a}ndez-L{\'o}pez,}}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dauden}{D.}%
+     {Esteban}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {L}{L}%
+     {{S{\'a}nchez-Carazo,} Jos{\'e}~L}{S.~J.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {L}{L}%
+     {{L{\'o}pez-Estebaranz,} Jos{\'e}~L}{L.~J.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {David}{D.}%
+     {{Moreno-Ram{\'i}rez,}}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vanaclocha}{V.}%
+     {Francisco}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Herrera}{H.}%
+     {Enrique}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cueva}{C.}%
+     {Pablo}{P.}%
+     {de~la}{d.~l.}%
+     {}{}}%
+    {{}%
+     {Dand}{D.}%
+     {Nick}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Palau}{P.}%
+     {N{\'u}ria}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alonso}{A.}%
+     {Arnald}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mar{\'i}a}{M.}%
+     {{L{\'o}pez-Lasanta,}}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tortosa}{T.}%
+     {Ra{\"u}l}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Andr{\'e}s}{A.}%
+     {{Garc{\'i}a-Montero,}}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cod{\'o}}{C.}%
+     {Laia}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gelp{\'i}}{G.}%
+     {Josep~L}{J.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bertranpetit}{B.}%
+     {Jaume}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Absher}{A.}%
+     {Devin}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Capon}{C.}%
+     {Francesca}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Myers}{M.}%
+     {Richard~M}{R.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barker}{B.}%
+     {Jonathan~N}{J.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Marsal}{M.}%
+     {Sara}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AA+1}
+  \strng{fullhash}{AAJAFCPLFEEFDELSJLLLJLDMVFHECPdlDNPNAAMLTRAGCLGJLBJADCFMRMBJNMS1}
+  \field{labelyear}{2016}
+  \field{sortinit}{A}
+  \field{abstract}{%
+  Psoriasis is a chronic inflammatory disease with a complex genetic
+  architecture. To date, the psoriasis heritability is only partially
+  explained. However, there is increasing evidence that the missing
+  heritability in psoriasis could be explained by multiple genetic variants of
+  low effect size from common genetic pathways. The objective of this study was
+  to identify new genetic variation associated with psoriasis risk at the
+  pathway level. We genotyped 598,258 single nucleotide polymorphisms in a
+  discovery cohort of 2,281 case-control individuals from Spain. We performed a
+  genome-wide pathway analysis using 1,053 reference biological pathways. A
+  total of 14 genetic pathways {(PFDR} \&\#x2264; 2.55 {\&\#xD7;} 10(-2)) were
+  found to be significantly associated with psoriasis risk. Using an
+  independent validation cohort of 7,353 individuals from the {UK,} a total of
+  6 genetic pathways were significantly replicated {(PFDR} \&\#x2264; 3.46
+  {\&\#xD7;} 10(-2)). We found genetic pathways that had not been previously
+  associated with psoriasis risk such as retinol metabolism
+  {(Pcombined\&\#xA0;=} 1.84 {\&\#xD7;} 10(-4)), the transport of inorganic
+  ions and amino acids {(Pcombined\&\#xA0;=} 1.57 {\&\#xD7;} 10(-7)), and
+  post-translational protein modification {(Pcombined\&\#xA0;=} 1.57 {\&\#xD7;}
+  10(-7)). In the latter pathway, {MGAT5} showed a strong network centrality,
+  and its association with psoriasis risk was further validated in an
+  additional case-control cohort of 3,429 individuals {(P} \&lt; 0.05). These
+  findings provide insights into the biological mechanisms associated with
+  psoriasis susceptibility.%
+  }
+  \verb{doi}
+  \verb 10.1016/j.jid.2015.11.026
+  \endverb
+  \field{issn}{{0022-202X}}
+  \field{number}{3}
+  \field{pages}{593\bibrangedash 602}
+  \field{title}{{Genome-Wide} Pathway Analysis Identifies Genetic Pathways
+  Associated with Psoriasis.}
+  \field{volume}{136}
+  \verb{file}
+  \verb C:\Users\alicia\Documents\ReadCube Media\Aterido et al-2016-J Invest De
+  \verb rmatol.pdf
+  \endverb
+  \field{journaltitle}{J. Invest. Dermatol.}
+  \field{year}{2016}
+\endentry
+
+\entry{Uszczynska-Ratajczak2018}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {B}{B}%
+     {{Uszczynska-Ratajczak,}}{U.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lagarde}{L.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {resource}{r.}%
+     {Frankish~A}{F.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BU+1}
+  \strng{fullhash}{BULJrFA1}
+  \field{labelyear}{2018}
+  \field{sortinit}{B}
+  \field{abstract}{%
+  Gene maps, or annotations, enable us to navigate the functional landscape of
+  our genome. They are a resource upon which virtually all studies depend, from
+  single-gene to genome-wide scales and from basic molecular biology to medical
+  genetics. Yet present-day annotations suffer from trade-offs between quality
+  and size, with serious but often unappreciated consequences for downstream
+  studies. This is particularly true for long non-coding {RNAs} {(lncRNAs),}
+  which are poorly characterized compared to protein-coding genes~…%
+  }
+  \field{title}{Towards a complete map of the human long non-coding {RNA}
+  transcriptome}
+  \field{journaltitle}{resource}
+  \field{year}{2018}
+\endentry
+
+\entry{Belasco2015}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Belasco}{B.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Louie}{L.}%
+     {{JS}}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gulati}{G.}%
+     {N}{N}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {\&~…}{.~.}%
+     {Wei~N}{W.~N.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BJ+1}
+  \strng{fullhash}{BJLJGNWN1}
+  \field{labelyear}{2015}
+  \field{sortinit}{B}
+  \field{abstract}{%
+  Objective To our knowledge, there is no broad genomic analysis comparing skin
+  and synovium in psoriatic arthritis {(PsA).} Also, there is little
+  understanding of the relative levels of cytokines and chemokines in skin and
+  synovium. The purpose of this study was to better define inflammatory
+  pathways in paired lesional skin and affected synovial tissue in patients
+  with {PsA.} Methods We conducted a comprehensive analysis of cytokine and
+  chemokine activation and genes representative of the inflammatory processes
+  in {PsA.} Paired {PsA~…}%
+  }
+  \field{title}{Comparative genomic profiling of synovium versus skin lesions
+  in psoriatic arthritis}
+  \verb{file}
+  \verb C:\Users\alicia\Documents\ReadCube Media\Belasco et al-2015-Arthritis.p
+  \verb df
+  \endverb
+  \field{journaltitle}{Arthritis \&~…}
+  \field{year}{2015}
+\endentry
+
+\entry{Bergboer2011}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Bergboer}{B.}%
+     {J.~G.~M.}{J.~G.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tjabringa}{T.}%
+     {G.~S.}{G.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {of …}{o.}%
+     {Kamsteeg -M.}{K.-M.}%
+     {journal}{j.}%
+     {}{}}%
+  }
+  \strng{namehash}{BJGM+1}
+  \strng{fullhash}{BJGMTGSoKMj1}
+  \field{labelyear}{2011}
+  \field{sortinit}{B}
+  \field{title}{Psoriasis risk genes of the late cornified envelope-3 group are
+  distinctly expressed compared with genes of other LCE groups}
+  \verb{url}
+  \verb https://www.sciencedirect.com/science/article/pii/S0002944010002804
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{The American journal of …}
+  \field{year}{2011}
+\endentry
+
+\entry{Broome2003}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Broome}{B.}%
+     {{AM}}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ryan}{R.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Histochemistry}{H.}%
+     {Eckert~{RL}}{E.~R.}%
+     {of}{o.}%
+     {}{}}%
+  }
+  \strng{namehash}{BA+1}
+  \strng{fullhash}{BARDHERo1}
+  \field{labelyear}{2003}
+  \field{sortinit}{B}
+  \field{abstract}{%
+  S100 proteins are calcium-activated signaling proteins that interact with
+  target proteins to modulate biological processes. Our present studies compare
+  the level of expression, and cellular localization of {S100A7,} {S100A8,}
+  {S100A9,} {S100A10,} and {S100A11} in normal and~…%
+  }
+  \field{title}{S100 protein subcellular localization during epidermal
+  differentiation and psoriasis}
+  \field{journaltitle}{Journal of Histochemistry~…}
+  \field{year}{2003}
+\endentry
+
+\entry{Buenrostro2013}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Buenrostro}{B.}%
+     {Jason~D.}{J.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Paul}{P.}%
+     {G.~Giresi}{G.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lisa}{L.}%
+     {C.~Zaba}{C.~Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Howard}{H.}%
+     {Y.~Chang}{Y.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {William}{W.}%
+     {J.~Greenleaf}{J.~G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BJD+1}
+  \strng{fullhash}{BJDPGGLCZHYCWJG1}
+  \field{labelyear}{2013}
+  \field{sortinit}{B}
+  \verb{doi}
+  \verb doi:10.1038/nmeth.2688
+  \endverb
+  \field{issn}{1548-7091}
+  \field{pages}{1213\bibrangedash 1218}
+  \field{title}{Transposition of native chromatin for fast and sensitive
+  epigenomic profiling of open chromatin, DNA-binding proteins and nucleosome
+  position}
+  \verb{url}
+  \verb http://www.nature.com/nmeth/journal/v10/n12/full/nmeth.2688.html
+  \endverb
+  \field{volume}{10}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Nature Methods}
+  \field{year}{2013}
+\endentry
+
+\entry{Bunt2015}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Bunt}{B.}%
+     {M.}{M.}%
+     {van~de}{v.~d.}%
+     {}{}}%
+    {{}%
+     {Cortes}{C.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Brown}{B.}%
+     {M.~A.}{M.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Morris}{M.}%
+     {A.~P.}{A.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BMvd+1}
+  \strng{fullhash}{BMvdCABMAMAP1}
+  \field{labelyear}{2015}
+  \field{sortinit}{B}
+  \verb{doi}
+  \verb 10.1371/journal.pgen.1005535
+  \endverb
+  \field{pages}{1\bibrangedash 14}
+  \field{title}{Evaluating the Performance of Fine-Mapping Strategies at Common
+  Variant GWAS Loci}
+  \verb{url}
+  \verb http://dx.doi.org/10.1371/journal.pgen.1005535
+  \endverb
+  \field{volume}{11}
+  \field{type}{Journal Article}
+  \field{journaltitle}{PLoS Genet}
+  \field{year}{2015}
+\endentry
+
+\entry{Canete2000}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Ca{\~n}ete}{C.}%
+     {{JD}}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mart{\'i}nez}{M.}%
+     {{SE}}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Farr{\'e}s}{F.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {…}{.}%
+     {Sanmart{\'i}~R}{S.~R.}%
+     {of~the}{o.~t.}%
+     {}{}}%
+  }
+  \strng{namehash}{CJ+1}
+  \strng{fullhash}{CJMSFJSRot1}
+  \field{labelyear}{2000}
+  \field{sortinit}{C}
+  \field{abstract}{%
+  {OBJECTIVE} To investigate possible differences in Th1 and Th2 cytokine
+  {mRNA} expression in the synovial tissue {(ST)} of patients with rheumatoid
+  arthritis {(RA)} and seronegative spondyloarthropathies {(SpA)} with
+  diagnostic and/or pathogenic interest. {METHODS} Eleven {RA} patients and 14
+  {SpA} patients (10 with undifferentiated spondyloarthropathy {(USpA),} two
+  with ankylosing spondylitis {(AS)} and two with psoriatic arthritis {(PsA))}
+  were included. Th1 (interferon γ, interleukin 2) and Th2 (interleukin 4,
+  interleukin 5 and interleukin 10) cytokine~…%
+  }
+  \verb{doi}
+  \verb 10.1136/ard.59.4.263
+  \endverb
+  \field{title}{Differential {Th1/Th2} cytokine patterns in chronic arthritis:
+  interferon γ is highly expressed in synovium of rheumatoid arthritis
+  compared with seronegative~…}
+  \field{journaltitle}{Annals of the~…}
+  \field{year}{2000}
+\endentry
+
+\entry{Chu2007}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Chu}{C.}%
+     {{CQ}}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Swart}{S.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alcorn}{A.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {\&~…}{.~.}%
+     {Tocker~J}{T.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CC+1}
+  \strng{fullhash}{CCSDADTJ1}
+  \field{labelyear}{2007}
+  \field{sortinit}{C}
+  \field{abstract}{%
+  Objective The enhanced expression of experimental arthritis in the absence of
+  interferon‐γ {(IFNγ)} suggests that {IFNγ} suppresses arthritis.
+  Interleukin‐17 {(IL‐17)} is a pivotal T cell cytokine in arthritis, and
+  in vitro studies have indicated that {IFNγ} suppresses {IL‐17} production.
+  We undertook this study to test the hypothesis that resistance to
+  collagen‐induced arthritis {(CIA)} in {C57BL/6} {(B6)} mice is regulated by
+  {IFNγ‐mediated} suppression of {IL‐17.} Methods Wild‐type {(WT)} B6
+  mice, {IFNγ‐knockout} {(KO)} B6 mice, and {DBA/1} mice were~…%
+  }
+  \field{title}{Interferon‐γ regulates susceptibility to collagen‐induced
+  arthritis through suppression of interleukin‐17}
+  \field{journaltitle}{Arthritis \&~…}
+  \field{year}{2007}
+\endentry
+
+\entry{Cid2009}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Cid}{C.}%
+     {De~R}{D.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {E}{E}%
+     {{Riveira-Munoz,}}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nature~…}{N.~.}%
+     {{PLJM}}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CDR+1}
+  \strng{fullhash}{CDRERNP1}
+  \field{labelyear}{2009}
+  \field{sortinit}{C}
+  \field{abstract}{%
+  Psoriasis is a common inflammatory skin disease with a prevalence of 2–3\%
+  in individuals of European ancestry 1. In a genome-wide search for copy
+  number variants {(CNV)} using a sample pooling approach, we have identified a
+  deletion comprising {LCE3B} and {LCE3C,} members of the late cornified
+  envelope {(LCE)} gene cluster 2. The absence of {LCE3B} and {LCE3C}
+  {(LCE3C\_LCE3B-del)} is significantly associated {(P=} 1.38 E–08) with risk
+  of psoriasis in 2,831 samples from Spain, The Netherlands, Italy and the
+  United States, and in a family~…%
+  }
+  \field{title}{Deletion of the late cornified envelope {LCE3B} and {LCE3C}
+  genes as a susceptibility factor for psoriasis}
+  \field{journaltitle}{Nature~…}
+  \field{year}{2009}
+\endentry
+
+\entry{Coda2012}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Coda}{C.}%
+     {A.~B.}{A.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Icen}{I.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Smith}{S.}%
+     {J.~R.}{J.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Genomics}{G.}%
+     {Sinha -A.~A.}{S.-A.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CAB+1}
+  \strng{fullhash}{CABIMSJRGSAA1}
+  \field{labelyear}{2012}
+  \field{sortinit}{C}
+  \field{title}{Global transcriptional analysis of psoriatic skin and blood
+  confirms known disease-associated pathways and highlights novel genomic
+  “hot spots” for …}
+  \verb{url}
+  \verb https://www.sciencedirect.com/science/article/pii/S088875431200081X
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{Genomics}
+  \field{year}{2012}
+\endentry
+
+\entry{Corces2016}{article}{}
+  \name{author}{12}{}{%
+    {{}%
+     {Corces}{C.}%
+     {Ryan~M.}{R.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Buenrostro}{B.}%
+     {Jason~D.}{J.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wu}{W.}%
+     {Beijing}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Greenside}{G.}%
+     {Peyton~G.}{P.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chan}{C.}%
+     {Steven~M.}{S.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Koenig}{K.}%
+     {Julie~L.}{J.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Snyder}{S.}%
+     {Michael~P.}{M.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pritchard}{P.}%
+     {Jonathan~K.}{J.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kundaje}{K.}%
+     {Anshul}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Greenleaf}{G.}%
+     {William~J.}{W.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Majeti}{M.}%
+     {Ravindra}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chang}{C.}%
+     {Howard~Y.}{H.~Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CRM+1}
+  \strng{fullhash}{CRMBJDWBGPGCSMKJLSMPPJKKAGWJMRCHY1}
+  \field{labelyear}{2016}
+  \field{sortinit}{C}
+  \verb{doi}
+  \verb 10.1038/ng.3646
+  \endverb
+  \field{issn}{1061-4036}
+  \field{number}{10}
+  \field{pages}{1193\bibrangedash 1203}
+  \field{title}{Lineage-specific and single-cell chromatin accessibility charts
+  human hematopoiesis and leukemia evolution}
+  \verb{url}
+  \verb http://dx.doi.org/10.1038/ng.3646
+  \endverb
+  \field{volume}{48}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Nature Genetics}
+  \field{year}{2016}
+\endentry
+
+\entry{Cornell2010}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Cornell}{C.}%
+     {T.~T.}{T.~T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rodenhouse}{R.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cai}{C.}%
+     {Q.}{Q.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {and …}{a.}%
+     {Sun -L.}{S.-L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CTT+1}
+  \strng{fullhash}{CTTRPCQaSL1}
+  \field{labelyear}{2010}
+  \field{sortinit}{C}
+  \verb{doi}
+  \verb 10.1128/IAI.00018-10
+  \endverb
+  \field{title}{Mitogen-activated protein kinase phosphatase 2 regulates the
+  inflammatory response in sepsis}
+  \verb{url}
+  \verb http://dx.doi.org/10.1128/IAI.00018-10
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{Infection and …}
+  \field{year}{2010}
+\endentry
+
+\entry{Cortes2013}{article}{}
+  \name{author}{10}{}{%
+    {{}%
+     {Cortes}{C.}%
+     {Adrian}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hadler}{H.}%
+     {Johanna}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pointon}{P.}%
+     {Jenny~P.}{J.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Robinson}{R.}%
+     {Philip~C.}{P.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Karaderi}{K.}%
+     {Tugce}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Leo}{L.}%
+     {Paul}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cremin}{C.}%
+     {Katie}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pryce}{P.}%
+     {Karena}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Harris}{H.}%
+     {Jessica}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lee}{L.}%
+     {Seunghun}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CA+1}
+  \strng{fullhash}{CAHJPJPRPCKTLPCKPKHJLS1}
+  \field{labelyear}{2013}
+  \field{sortinit}{C}
+  \field{number}{7}
+  \field{pages}{730}
+  \field{title}{Identification of multiple risk variants for ankylosing
+  spondylitis through high-density genotyping of immune-related loci}
+  \verb{url}
+  \verb http://scholar.google.com/scholar?q=Identification of multiple risk var
+  \verb iants for ankylosing spondylitis through high-density genotyping of imm
+  \verb une-related loci&btnG=&hl=en&num=20&as_sdt=0%2C22
+  \endverb
+  \field{volume}{45}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Nature genetics}
+  \field{year}{2013}
+\endentry
+
+\entry{Dang2011}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Dang}{D.}%
+     {{EV}}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barbi}{B.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yang}{Y.}%
+     {{HY}}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jinasena}{J.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cell}{C.}%
+     {Yu~H}{Y.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{DE+1}
+  \strng{fullhash}{DEBJYHJDCYH1}
+  \field{labelyear}{2011}
+  \field{sortinit}{D}
+  \field{abstract}{%
+  T cell differentiation into distinct functional effector and inhibitory
+  subsets is regulated, in part, by the cytokine environment present at the
+  time of antigen recognition. Here, we show that hypoxia-inducible factor 1
+  {(HIF-1),} a key metabolic sensor, regulates the balance between regulatory T
+  cell {(Treg)} and {TH17} differentiation. {HIF-1} enhances {TH17} development
+  through direct transcriptional activation of {RORγt} and via tertiary
+  complex formation with {RORγt} and p300 recruitment to the {IL-17} promoter,
+  thereby regulating {TH17~…}%
+  }
+  \field{title}{Control of {TH17/Treg} Balance by {Hypoxia-Inducible} Factor 1}
+  \field{journaltitle}{Cell}
+  \field{year}{2011}
+\endentry
+
+\entry{Das2014}{article}{}
+  \name{author}{10}{}{%
+    {{}%
+     {Das}{D.}%
+     {Sayantan}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stuart}{S.}%
+     {Philip~E.}{P.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ding}{D.}%
+     {Jun}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tejasvi}{T.}%
+     {Trilokraj}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Li}{L.}%
+     {Yanming}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tsoi}{T.}%
+     {Lam~C.}{L.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chandran}{C.}%
+     {Vinod}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fischer}{F.}%
+     {Judith}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Helms}{H.}%
+     {Cynthia}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Duffin}{D.}%
+     {Kristina}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{DS+1}
+  \strng{fullhash}{DSSPEDJTTLYTLCCVFJHCDK1}
+  \field{labelyear}{2014}
+  \field{sortinit}{D}
+  \verb{doi}
+  \verb 10.1038/ejhg.2014.172
+  \endverb
+  \field{title}{Fine mapping of eight psoriasis susceptibility loci}
+  \verb{url}
+  \verb http://dx.doi.org/10.1038/ejhg.2014.172
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{European Journal of Human Genetics}
+  \field{year}{2014}
+\endentry
+
+\entry{Dolcino2018}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Dolcino}{D.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pelosi}{P.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fiore}{F.}%
+     {{PF}}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {…}{.}%
+     {Patuzzo~G}{P.~G.}%
+     {in}{i.}%
+     {}{}}%
+  }
+  \strng{namehash}{DM+1}
+  \strng{fullhash}{DMPAFPPGi1}
+  \field{labelyear}{2018}
+  \field{sortinit}{D}
+  \field{abstract}{%
+  Psoriatic arthritis {(PsA)} is an inflammatory arthritis, characterised by
+  inflammation of entheses and synovium, leading to joint erosions and new bone
+  formation. It affects 10\% to 30\% of patients with psoriasis, and has an
+  estimated prevalence of approximately 1\%. {PsA} is considered to be
+  primarily an autoimmune disease, driven by autoreactive T cells directed
+  against autoantigens present in the skin and in the joints. However an
+  autoinflammatory origin has recently been proposed. Long noncoding {RNAs}
+  {(lncRNAs)} are {RNAs} more than~…%
+  }
+  \field{title}{Long non coding {RNAs} play a role in the pathogenesis of
+  Psoriatic Arthritis by regulating {microRNAs} and genes involved in
+  inflammation and metabolic syndrome.}
+  \verb{file}
+  \verb C:\Users\alicia\Documents\ReadCube Media\Dolcino et al-2018-Frontiers i
+  \verb n.pdf
+  \endverb
+  \field{journaltitle}{Frontiers in~…}
+  \field{year}{2018}
+\endentry
+
+\entry{Dolcino2015}{article}{}
+  \name{author}{9}{}{%
+    {{}%
+     {Dolcino}{D.}%
+     {Marzia}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ottria}{O.}%
+     {Andrea}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barbieri}{B.}%
+     {Alessandro}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Patuzzo}{P.}%
+     {Giuseppe}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tinazzi}{T.}%
+     {Elisa}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Argentino}{A.}%
+     {Giuseppe}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Beri}{B.}%
+     {Ruggero}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lunardi}{L.}%
+     {Claudio}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Puccetti}{P.}%
+     {Antonio}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{DM+2}
+  \strng{fullhash}{DMOABAPGTEAGBRLCPA1}
+  \field{labelyear}{2015}
+  \field{sortinit}{D}
+  \field{abstract}{%
+  Psoriatic arthritis {(PsA)} is an inflammatory arthritis whose pathogenesis
+  is poorly understood; it is characterized by bone erosions and new bone
+  formation. The diagnosis of {PsA} is mainly clinical and diagnostic
+  biomarkers are not yet available. The aim of this work was to clarify some
+  aspects of the disease pathogenesis and to identify specific gene signatures
+  in paired peripheral blood cells {(PBC)} and synovial biopsies of patients
+  with {PsA.} Moreover, we tried to identify biomarkers that can be used in
+  clinical practice.%
+  }
+  \verb{doi}
+  \verb 10.1371/journal.pone.0128262
+  \endverb
+  \field{issn}{1932-6203}
+  \field{number}{6}
+  \field{pages}{e0128262}
+  \field{title}{Gene Expression Profiling in Peripheral Blood Cells and
+  Synovial Membranes of Patients with Psoriatic Arthritis.}
+  \field{volume}{10}
+  \verb{file}
+  \verb C:\Users\alicia\Documents\ReadCube Media\Dolcino et al-2015-PLoS ONE.pd
+  \verb f
+  \endverb
+  \field{journaltitle}{{PLoS} {ONE}}
+  \field{year}{2015}
+\endentry
+
+\entry{Eckert2004}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Eckert}{E.}%
+     {{RL}}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Broome}{B.}%
+     {{AM}}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ruse}{R.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Investigative~…}{I.~.}%
+     {Robinson~N}{R.~N.}%
+     {of}{o.}%
+     {}{}}%
+  }
+  \strng{namehash}{ER+1}
+  \strng{fullhash}{ERBARMIRNo1}
+  \field{labelyear}{2004}
+  \field{sortinit}{E}
+  \field{abstract}{%
+  The S100 proteins comprise a family of 21 low molecular weight (9–13 {kDa)}
+  proteins that are characterized by the presence of two calcium-binding
+  {EF-hand} motifs. Fourteen S100 protein genes are located within the
+  epidermal differentiation complex on human~…%
+  }
+  \field{title}{S100 proteins in the epidermis}
+  \field{journaltitle}{Journal of Investigative~…}
+  \field{year}{2004}
+\endentry
+
+\entry{Ellinghaus2016}{article}{}
+  \name{author}{50}{}{%
+    {{}%
+     {Ellinghaus}{E.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jostins}{J.}%
+     {Luke}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Spain}{S.}%
+     {Sarah~L.}{S.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cortes}{C.}%
+     {Adrian}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bethune}{B.}%
+     {Jörn}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Han}{H.}%
+     {Buhm}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Park}{P.}%
+     {Yu}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Raychaudhuri}{R.}%
+     {Soumya}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pouget}{P.}%
+     {Jennie~G.}{J.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hübenthal}{H.}%
+     {Matthias}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Folseraas}{F.}%
+     {Trine}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wang}{W.}%
+     {Yunpeng}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Esko}{E.}%
+     {Tonu}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Metspalu}{M.}%
+     {Andres}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Westra}{W.}%
+     {Harm-Jan}{H.-J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Franke}{F.}%
+     {Lude}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pers}{P.}%
+     {Tune~H.}{T.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Weersma}{W.}%
+     {Rinse~K.}{R.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Collij}{C.}%
+     {Valerie}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {D'Amato}{D.}%
+     {Mauro}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Halfvarson}{H.}%
+     {Jonas}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jensen}{J.}%
+     {Anders}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lieb}{L.}%
+     {Wolfgang}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Degenhardt}{D.}%
+     {Franziska}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Forstner}{F.}%
+     {Andreas~J.}{A.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hofmann}{H.}%
+     {Andrea}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {The}{T.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {of}{o.}%
+     {International}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {International}{I.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {of}{o.}%
+     {Genetic}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Psoriasis}{P.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schreiber}{S.}%
+     {Stefan}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mrowietz}{M.}%
+     {Ulrich}{U.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Juran}{J.}%
+     {Brian~D.}{B.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lazaridis}{L.}%
+     {Konstantinos~N.}{K.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Brunak}{B.}%
+     {Søren}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dale}{D.}%
+     {Anders~M.}{A.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Trembath}{T.}%
+     {Richard~C.}{R.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Weidinger}{W.}%
+     {Stephan}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Weichenthal}{W.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ellinghaus}{E.}%
+     {Eva}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Elder}{E.}%
+     {James~T.}{J.~T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barker}{B.}%
+     {Jonathan N. W.~N.}{J.~N. W.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Andreassen}{A.}%
+     {Ole~A.}{O.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {McGovern}{M.}%
+     {Dermot~P.}{D.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Karlsen}{K.}%
+     {Tom~H.}{T.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barrett}{B.}%
+     {Jeffrey~C.}{J.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Parkes}{P.}%
+     {Miles}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Brown}{B.}%
+     {Matthew~A.}{M.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Franke}{F.}%
+     {Andre}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ED+1}
+  \strng{fullhash}{EDJLSSLCABJHBPYRSPJGHMFTWYETMAWHJFLPTHWRKCVDMHJJALWDFFAJHAToIIoGPSSMUJBDLKNBSDAMTRCWSWMEEEJTBJNWNAOAMDPKTHBJCPMBMAFA1}
+  \field{labelyear}{2016}
+  \field{sortinit}{E}
+  \verb{doi}
+  \verb 10.1038/ng.3528
+  \endverb
+  \field{issn}{1061-4036}
+  \field{number}{5}
+  \field{pages}{510\bibrangedash 518}
+  \field{title}{Analysis of five chronic inflammatory diseases identifies 27
+  new associations and highlights disease-specific patterns at shared loci}
+  \verb{url}
+  \verb http://dx.doi.org/10.1038/ng.3528
+  \endverb
+  \field{volume}{48}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Nature Genetics}
+  \field{year}{2016}
+\endentry
+
+\entry{Fairfax2012}{article}{}
+  \name{author}{10}{}{%
+    {{}%
+     {Fairfax}{F.}%
+     {Benjamin~P.}{B.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Makino}{M.}%
+     {Seiko}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Radhakrishnan}{R.}%
+     {Jayachandran}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Plant}{P.}%
+     {Katharine}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Leslie}{L.}%
+     {Stephen}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dilthey}{D.}%
+     {Alexander}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ellis}{E.}%
+     {Peter}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Langford}{L.}%
+     {Cordelia}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vannberg}{V.}%
+     {Fredrik~O.}{F.~O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Knight}{K.}%
+     {Julian~C.}{J.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FBP+1}
+  \strng{fullhash}{FBPMSRJPKLSDAEPLCVFOKJC1}
+  \field{labelyear}{2012}
+  \field{sortinit}{F}
+  \verb{doi}
+  \verb 10.1038/ng.2205
+  \endverb
+  \field{issn}{1061-4036}
+  \field{number}{5}
+  \field{pages}{502\bibrangedash 510}
+  \field{title}{Genetics of gene expression in primary immune cells identifies
+  cell type-specific master regulators and roles of HLA alleles}
+  \verb{url}
+  \verb http://dx.doi.org/10.1038/ng.2205
+  \endverb
+  \field{volume}{44}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Nature genetics}
+  \field{year}{2012}
+\endentry
+
+\entry{Fairfax2014}{article}{}
+  \name{author}{10}{}{%
+    {{}%
+     {Fairfax}{F.}%
+     {Benjamin~P.}{B.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Humburg}{H.}%
+     {Peter}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Makino}{M.}%
+     {Seiko}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Naranbhai}{N.}%
+     {Vivek}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wong}{W.}%
+     {Daniel}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lau}{L.}%
+     {Evelyn}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jostins}{J.}%
+     {Luke}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Plant}{P.}%
+     {Katharine}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Andrews}{A.}%
+     {Robert}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {McGee}{M.}%
+     {Chris}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FBP+1}
+  \strng{fullhash}{FBPHPMSNVWDLEJLPKARMC1}
+  \field{labelyear}{2014}
+  \field{sortinit}{F}
+  \verb{doi}
+  \verb 10.1126/science.1246949
+  \endverb
+  \field{number}{6175}
+  \field{pages}{1246949}
+  \field{title}{Innate immune activity conditions the effect of regulatory
+  variants upon monocyte gene expression}
+  \verb{url}
+  \verb http://dx.doi.org/10.1126/science.1246949
+  \endverb
+  \field{volume}{343}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Science}
+  \field{year}{2014}
+\endentry
+
+\entry{Fert2014}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Fert}{F.}%
+     {I.}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cagnard}{C.}%
+     {N.}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Glatigny}{G.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     { …}{.}%
+     {Letourneur -F.}{L.-F.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FI+1}
+  \strng{fullhash}{FICNGSLF1}
+  \field{labelyear}{2014}
+  \field{sortinit}{F}
+  \field{title}{Reverse interferon signature is characteristic of
+  antigen‐presenting cells in human and rat spondyloarthritis}
+  \verb{url}
+  \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/art.38318
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{Arthritis \& …}
+  \field{year}{2014}
+\endentry
+
+\entry{Finlay2005}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Finlay}{F.}%
+     {Andrew}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FA1}
+  \strng{fullhash}{FA1}
+  \field{labelyear}{2005}
+  \field{sortinit}{F}
+  \verb{doi}
+  \verb 10.1111/j.1365-2133.2005.06502.x
+  \endverb
+  \field{number}{5}
+  \field{pages}{861\bibrangedash 867}
+  \field{title}{Current severe psoriasis and the rule of tens}
+  \verb{url}
+  \verb http://dx.doi.org/10.1111/j.1365-2133.2005.06502.x
+  \endverb
+  \field{volume}{152}
+  \field{type}{Journal Article}
+  \field{journaltitle}{British Journal of Dermatology}
+  \field{year}{2005}
+\endentry
+
+\entry{Gandhapudi2013}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Gandhapudi}{G.}%
+     {S.~K.}{S.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Murapa}{M.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {… }{.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Md}{M.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GSK+1}
+  \strng{fullhash}{GSKMPM1}
+  \field{labelyear}{2013}
+  \field{sortinit}{G}
+  \field{title}{HSF1 is activated as a consequence of lymphocyte activation and
+  regulates a major proteostasis network in T cells critical for cell division
+  during stress}
+  \verb{url}
+  \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4520533/
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{… (Baltimore}
+  \field{year}{2013}
+\endentry
+
+\entry{Gao2018}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Gao}{G.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chen}{C.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hua}{H.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Guo}{G.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Biological …}{B.}%
+     {Nong -Y.}{N.-Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GJ+1}
+  \strng{fullhash}{GJCFHMGJBNY1}
+  \field{labelyear}{2018}
+  \field{sortinit}{G}
+  \field{title}{Knockdown of lncRNA MIR31HG inhibits cell proliferation in
+  human HaCaT keratinocytes}
+  \verb{url}
+  \verb https://biolres.biomedcentral.com/articles/10.1186/s40659-018-0181-8
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{Biological …}
+  \field{year}{2018}
+\endentry
+
+\entry{Gaulton2010}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Gaulton}{G.}%
+     {K.~J.}{K.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nammo}{N.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pasquali}{P.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nature …}{N.}%
+     {Simon -J.~M.}{S.-J.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GKJ+1}
+  \strng{fullhash}{GKJNTPLNSJM1}
+  \field{labelyear}{2010}
+  \field{sortinit}{G}
+  \field{title}{A map of open chromatin in human pancreatic islets}
+  \verb{url}
+  \verb https://www.nature.com/ng/journal/v42/n3/abs/ng.530.html
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{Nature …}
+  \field{year}{2010}
+\endentry
+
+\entry{Goodnow2005}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Goodnow}{G.}%
+     {Christopher~C.}{C.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sprent}{S.}%
+     {Jonathon}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Groth}{G.}%
+     {Barbara}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vinuesa}{V.}%
+     {Carola~G.}{C.~G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GCC+1}
+  \strng{fullhash}{GCCSJGBVCG1}
+  \field{labelyear}{2005}
+  \field{sortinit}{G}
+  \field{number}{7042}
+  \field{pages}{590}
+  \field{title}{Cellular and genetic mechanisms of self tolerance and
+  autoimmunity}
+  \verb{url}
+  \verb http://scholar.google.com/scholar?q=Cellular and genetic mechanisms of
+  \verb self tolerance and autoimmunity&btnG=&hl=en&num=20&as_sdt=0%2C22
+  \endverb
+  \field{volume}{435}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Nature}
+  \field{year}{2005}
+\endentry
+
+\entry{Gerard2009}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Gérard}{G.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kammen}{K.}%
+     {R.~A.}{R.~A.}%
+     {van~der}{v.~d.}%
+     {}{}}%
+    {{}%
+     {Blood}{B.}%
+     {Janssen -H.}{J.-H.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GA+1}
+  \strng{fullhash}{GAKRAvdBJH1}
+  \field{labelyear}{2009}
+  \field{sortinit}{G}
+  \field{title}{The Rac activator Tiam1 controls efficient T-cell trafficking
+  and route of transendothelial migration}
+  \verb{url}
+  \verb http://www.bloodjournal.org/content/113/24/6138.short
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{Blood}
+  \field{year}{2009}
+\endentry
+
+\entry{Griffiths2007}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Griffiths}{G.}%
+     {C.~E.~M.}{C.~E.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barker}{B.}%
+     {JN.}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GCEMBJ1}
+  \strng{fullhash}{GCEMBJ1}
+  \field{labelyear}{2007}
+  \field{sortinit}{G}
+  \field{title}{Pathogenesis and clinical features of psoriasis}
+  \verb{url}
+  \verb http://www.sciencedirect.com/science/article/pii/S0140673607611283
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{The Lancet}
+  \field{year}{2007}
+\endentry
+
+\entry{Guan2018}{article}{}
+  \name{author}{10}{}{%
+    {{}%
+     {Guan}{G.}%
+     {Tianxia}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dominguez}{D.}%
+     {Claudia~X.}{C.~X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Amezquita}{A.}%
+     {Robert~A.}{R.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Laidlaw}{L.}%
+     {Brian~J.}{B.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cheng}{C.}%
+     {Jijun}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Henao-Mejia}{H.-M.}%
+     {Jorge}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Williams}{W.}%
+     {Adam}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Flavell}{F.}%
+     {Richard~A.}{R.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lu}{L.}%
+     {Jun}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kaech}{K.}%
+     {Susan~M.}{S.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GT+1}
+  \strng{fullhash}{GTDCXARALBJCJHMJWAFRALJKSM1}
+  \field{labelyear}{2018}
+  \field{sortinit}{G}
+  \verb{doi}
+  \verb 10.1084/jem.20171352
+  \endverb
+  \field{number}{4}
+  \field{pages}{1153\bibrangedash 1168}
+  \field{title}{ZEB1, ZEB2, and the miR-200 family form a counterregulatory
+  network to regulate CD8+ T cell fates}
+  \verb{url}
+  \verb http://dx.doi.org/10.1084/jem.20171352
+  \endverb
+  \field{volume}{215}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Journal of Experimental Medicine}
+  \field{year}{2018}
+\endentry
+
+\entry{Gudjonsson2010}{article}{}
+  \name{author}{9}{}{%
+    {{}%
+     {Gudjonsson}{G.}%
+     {J.~E.}{J.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ding}{D.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Johnston}{J.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tejasvi}{T.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Guzman}{G.}%
+     {A.~M.}{A.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nair}{N.}%
+     {R.~P.}{R.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Voorhees}{V.}%
+     {J.~J.}{J.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Abecasis}{A.}%
+     {G.~R.}{G.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Elder}{E.}%
+     {J.~T.}{J.~T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GJE+1}
+  \strng{fullhash}{GJEDJJATTGAMNRPVJJAGREJT1}
+  \field{labelyear}{2010}
+  \field{sortinit}{G}
+  \verb{doi}
+  \verb 10.1038/jid.2010.36
+  \endverb
+  \field{issn}{0022-202x}
+  \field{number}{7}
+  \field{pages}{1829\bibrangedash 40}
+  \field{title}{Assessment of the psoriatic transcriptome in a large sample:
+  additional regulated genes and comparisons with in vitro models}
+  \field{volume}{130}
+  \field{type}{Journal Article}
+  \field{journaltitle}{J Invest Dermatol}
+  \field{year}{2010}
+\endentry
+
+\entry{Gupta2016}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Gupta}{G.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lai}{L.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chopra}{C.}%
+     {N.}{N.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GR+1}
+  \strng{fullhash}{GRLKCN1}
+  \field{labelyear}{2016}
+  \field{sortinit}{G}
+  \field{title}{Network analysis of psoriasis reveals biological pathways and
+  roles for coding and long non-coding RNAs}
+  \verb{url}
+  \verb https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-016-3188-
+  \verb y
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{BMC …}
+  \field{year}{2016}
+\endentry
+
+\entry{Hao2016}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Hao}{H.}%
+     {Yajing}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wu}{W.}%
+     {Wei}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Li}{L.}%
+     {Hui}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yuan}{Y.}%
+     {Jiao}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Luo}{L.}%
+     {Jianjun}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhao}{Z.}%
+     {Yi}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chen}{C.}%
+     {Runsheng}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HY+1}
+  \strng{fullhash}{HYWWLHYJLJZYCR1}
+  \field{labelyear}{2016}
+  \field{sortinit}{H}
+  \field{abstract}{%
+  Despite the fact that a large quantity of noncoding {RNAs} {(ncRNAs)} have
+  been identified, their functions remain unclear. To enable researchers to
+  have a better understanding of {ncRNAs'} functions, we updated the {NPInter}
+  database to version 3.0, which contains experimentally verified interactions
+  between {ncRNAs} (excluding {tRNAs} and {rRNAs),} especially long noncoding
+  {RNAs} {(lncRNAs)} and other biomolecules (proteins, {mRNAs,} {miRNAs} and
+  genomic {DNAs).} In {NPInter} v3. 0, interactions pertaining to {ncRNAs} are
+  not~…%
+  }
+  \verb{doi}
+  \verb 10.1093/database/baw057
+  \endverb
+  \field{title}{{NPInter} v3. 0: an upgraded database of noncoding
+  {RNA-associated} interactions}
+  \field{volume}{2016}
+  \field{year}{2016}
+\endentry
+
+\entry{Hecht2018}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Hecht}{H.}%
+     {I}{I}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Toporik}{T.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Podojil}{P.}%
+     {{JR}}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {…}{.}%
+     {Vaknin~I}{V.~I.}%
+     {of}{o.}%
+     {}{}}%
+  }
+  \strng{namehash}{HI+1}
+  \strng{fullhash}{HITAPJVIo1}
+  \field{labelyear}{2018}
+  \field{sortinit}{H}
+  \field{abstract}{%
+  The B7-like protein family members play critical immunomodulatory roles and
+  constitute attractive targets for the development of novel therapies for
+  human diseases. We identified Ig-like domain–containing receptor {(ILDR)} 2
+  as a novel B7-like protein with robust T cell inhibitory activity, expressed
+  in immune cells and in immune-privileged and inflamed tissues. A fusion
+  protein, consisting of {ILDR2} extracellular domain with an Fc fragment, that
+  binds to a putative counterpart on activated T cells showed a beneficial
+  effect in the collagen~…%
+  }
+  \verb{doi}
+  \verb 10.4049/jimmunol.1700325
+  \endverb
+  \field{title}{{ILDR2} is a novel B7-like protein that negatively regulates T
+  cell responses}
+  \field{journaltitle}{The Journal of~…}
+  \field{year}{2018}
+\endentry
+
+\entry{Homey2002}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Homey}{H.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alenius}{A.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Müller}{M.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Soto}{S.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {medicine}{m.}%
+     {Bowman -E.~P.}{B.-E.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HB+1}
+  \strng{fullhash}{HBAHMASHmBEP1}
+  \field{labelyear}{2002}
+  \field{sortinit}{H}
+  \field{title}{CCL27–CCR10 interactions regulate T cell–mediated skin
+  inflammation}
+  \verb{url}
+  \verb https://www.nature.com/articles/nm0202-157
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{Nature medicine}
+  \field{year}{2002}
+\endentry
+
+\entry{Hsieh2014}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Hsieh}{H.}%
+     {I.~N.}{I.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liou}{L.}%
+     {J.~P.}{J.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lee}{L.}%
+     {H.~Y.}{H.~Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lai}{L.}%
+     {M.~J.}{M.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {death}{d.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     { …}{.}%
+     {Li -Y.~H.}{L.-Y.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HIN+1}
+  \strng{fullhash}{HINLJPLHYLMJdLYH1}
+  \field{labelyear}{2014}
+  \field{sortinit}{H}
+  \field{title}{Preclinical anti-arthritic study and pharmacokinetic properties
+  of a potent histone deacetylase inhibitor MPT0G009}
+  \verb{url}
+  \verb https://www.nature.com/articles/cddis2014133
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{Cell death \& …}
+  \field{year}{2014}
+\endentry
+
+\entry{Hudak2002}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Hudak}{H.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hagen}{H.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liu}{L.}%
+     {Y.}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {of …}{o.}%
+     {Catron -D.}{C.-D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HS+1}
+  \strng{fullhash}{HSHMLYoCD1}
+  \field{labelyear}{2002}
+  \field{sortinit}{H}
+  \verb{doi}
+  \verb 10.4049/jimmunol.169.3.1189
+  \endverb
+  \field{title}{Immune surveillance and effector functions of CCR10+ skin
+  homing T cells}
+  \verb{url}
+  \verb http://dx.doi.org/10.4049/jimmunol.169.3.1189
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{The Journal of …}
+  \field{year}{2002}
+\endentry
+
+\entry{Ibrahim2009}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Ibrahim}{I.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Waxman}{W.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Helliwell}{H.}%
+     {P.~S.}{P.~S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{IG+1}
+  \strng{fullhash}{IGWRHPS1}
+  \field{labelyear}{2009}
+  \field{sortinit}{I}
+  \verb{doi}
+  \verb 10.1002/art.24608
+  \endverb
+  \field{issn}{0004-3591 (Print) 0004-3591}
+  \field{number}{10}
+  \field{pages}{1373\bibrangedash 8}
+  \field{title}{The prevalence of psoriatic arthritis in people with psoriasis}
+  \field{volume}{61}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Arthritis Rheum}
+  \field{year}{2009}
+\endentry
+
+\entry{Idel2003}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Idel}{I.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dansky}{D.}%
+     {H.~M.}{H.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {the}{t.}%
+     {Breslow -J.~L.}{B.-J.~L.}%
+     {of}{o.}%
+     {}{}}%
+  }
+  \strng{namehash}{IS+1}
+  \strng{fullhash}{ISDHMtBJLo1}
+  \field{labelyear}{2003}
+  \field{sortinit}{I}
+  \verb{doi}
+  \verb 10.1073/pnas.1835672100
+  \endverb
+  \field{title}{A20, a regulator of NFκB, maps to an atherosclerosis locus and
+  differs between parental sensitive C57BL/6J and resistant FVB/N strains}
+  \verb{url}
+  \verb http://dx.doi.org/10.1073/pnas.1835672100
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{Proceedings of the …}
+  \field{year}{2003}
+\endentry
+
+\entry{Jabbari2012}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Jabbari}{J.}%
+     {Ali}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Suárez-Fariñas}{S.-F.}%
+     {Mayte}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dewell}{D.}%
+     {Scott}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Krueger}{K.}%
+     {James~G.}{J.~G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{JA+1}
+  \strng{fullhash}{JASFMDSKJG1}
+  \field{labelyear}{2012}
+  \field{sortinit}{J}
+  \verb{doi}
+  \verb 10.1038/jid.2011.267
+  \endverb
+  \field{issn}{0022-202X}
+  \field{number}{1}
+  \field{pages}{246\bibrangedash 249}
+  \field{title}{Transcriptional profiling of psoriasis using RNA-seq reveals
+  previously unidentified differentially expressed genes}
+  \verb{url}
+  \verb http://dx.doi.org/10.1038/jid.2011.267
+  \endverb
+  \field{volume}{132}
+  \field{type}{Journal Article}
+  \field{journaltitle}{The Journal of investigative dermatology}
+  \field{year}{2012}
+\endentry
+
+\entry{Jansen2017}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Jansen}{J.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hottenga}{H.}%
+     {J.~J.}{J.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {molecular …}{m.}%
+     {Nivard -M.~G.}{N.-M.~G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{JR+1}
+  \strng{fullhash}{JRHJJmNMG1}
+  \field{labelyear}{2017}
+  \field{sortinit}{J}
+  \verb{doi}
+  \verb 10.1093/hmg/ddx043
+  \endverb
+  \field{title}{Conditional eQTL analysis reveals allelic heterogeneity of gene
+  expression}
+  \verb{url}
+  \verb http://dx.doi.org/10.1093/hmg/ddx043
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{Human molecular …}
+  \field{year}{2017}
+\endentry
+
+\entry{Ji2001}{article}{}
+  \name{author}{10}{}{%
+    {{}%
+     {Ji}{J.}%
+     {Jong}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cheon}{C.}%
+     {Hyeonjoo}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jun}{J.}%
+     {Jae}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Choi}{C.}%
+     {Seong}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kim}{K.}%
+     {Ye}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lee}{L.}%
+     {Young}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kim}{K.}%
+     {Tae}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chae}{C.}%
+     {In}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Song}{S.}%
+     {Gwan}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yoo}{Y.}%
+     {Dae}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{JJ+1}
+  \strng{fullhash}{JJCHJJCSKYLYKTCISGYD1}
+  \field{labelyear}{2001}
+  \field{sortinit}{J}
+  \field{number}{3}
+  \field{pages}{215\bibrangedash 221}
+  \field{title}{Effects of peroxisome proliferator-activated receptor- (PPAR- )
+  on the expression of inflammatory cytokines and apoptosis induction in
+  rheumatoid synovial fibroblasts and monocytes}
+  \verb{url}
+  \verb http://scholar.google.com/scholar?q=Effects of peroxisome proliferator-
+  \verb activated receptor- (PPAR- ) on the expression of inflammatory cytokine
+  \verb s and apoptosis induction in rheumatoid synovial fibroblasts and monocy
+  \verb tes&btnG=&hl=en&num=20&as_sdt=0%2C22
+  \endverb
+  \field{volume}{17}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Journal of autoimmunity}
+  \field{year}{2001}
+\endentry
+
+\entry{Jiang2012}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Jiang}{J.}%
+     {X}{X}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tian}{T.}%
+     {H}{H}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fan}{F.}%
+     {Y}{Y}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chen}{C.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {}{}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vaccine~…}{V.~.}%
+     {Song~Y}{S.~Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{JX+1}
+  \strng{fullhash}{JXTHFYCJVSY1}
+  \field{labelyear}{2012}
+  \field{sortinit}{J}
+  \field{abstract}{%
+  Psoriasis vulgaris is considered a chronic inflammatory disease, but its
+  immunopathogenesis has not been well understood. The tumor necrosis factor
+  alpha-induced protein 3 {(TNFAIP3)} gene functions in negative-feedback
+  regulation of inflammation, and its single nucleotide polymorphism is
+  associated with psoriasis. However, the relationship between the expression
+  level of the {TNFAIP3} gene in immune cells and psoriasis is not known so
+  far. In the present study, {TNFAIP3} {mRNA} expression levels in~…%
+  }
+  \verb{doi}
+  \verb 10.1128/CVI.00500-12
+  \endverb
+  \field{title}{Expression of tumor necrosis factor alpha-induced protein 3
+  {mRNA} in peripheral blood mononuclear cells negatively correlates with
+  disease severity in psoriasis~…}
+  \field{journaltitle}{Clinical and Vaccine~…}
+  \field{year}{2012}
+\endentry
+
+\entry{Jung2004}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Jung}{J.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sabat}{S.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {of …}{o.}%
+     {Krätzschmar -J.}{K.-J.}%
+     {journal}{j.}%
+     {}{}}%
+  }
+  \strng{namehash}{JM+1}
+  \strng{fullhash}{JMSRoKJj1}
+  \field{labelyear}{2004}
+  \field{sortinit}{J}
+  \field{title}{Expression profiling of IL‐10‐regulated genes in human
+  monocytes and peripheral blood mononuclear cells from psoriatic patients
+  during IL‐10 therapy}
+  \verb{url}
+  \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/eji.200324323
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{European journal of …}
+  \field{year}{2004}
+\endentry
+
+\entry{Kagami2010}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Kagami}{K.}%
+     {Shinji}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rizzo}{R.}%
+     {Heather~L}{H.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lee}{L.}%
+     {Jennifer~J}{J.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Koguchi}{K.}%
+     {Yoshinobu}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Blauvelt}{B.}%
+     {Andrew}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KS+1}
+  \strng{fullhash}{KSRHLLJJKYBA1}
+  \field{labelyear}{2010}
+  \field{sortinit}{K}
+  \field{abstract}{%
+  Abstract Th17, Th22, and Th1 cells are detected in psoriatic skin lesions and
+  implicated in psoriasis pathogenesis, but inflammatory T cell numbers in
+  blood, as well as the relative importance of each cell type, is unclear.
+  Using 7-color flow cytometry, circulating Th17, ...%
+  }
+  \verb{doi}
+  \verb 10.1038/jid.2009.399
+  \endverb
+  \field{number}{5}
+  \field{pages}{1373\bibrangedash 1383}
+  \field{title}{Circulating Th17, Th22, and Th1 cells are increased in
+  psoriasis}
+  \field{volume}{130}
+  \verb{file}
+  \verb C:\Users\alicia\Documents\ReadCube Media\Kagami et al-2010-Journal of I
+  \verb nvestigative Dermatology.pdf
+  \endverb
+  \field{year}{2010}
+\endentry
+
+\entry{Kasela2017}{article}{}
+  \name{author}{15}{}{%
+    {{}%
+     {Kasela}{K.}%
+     {Silva}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kisand}{K.}%
+     {Kai}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tserel}{T.}%
+     {Liina}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kaleviste}{K.}%
+     {Epp}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Remm}{R.}%
+     {Anu}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fischer}{F.}%
+     {Krista}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Esko}{E.}%
+     {T{\~o}nu}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Westra}{W.}%
+     {{Harm-Jan}}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fairfax}{F.}%
+     {Benjamin}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Makino}{M.}%
+     {Seiko}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Knight}{K.}%
+     {Julian}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Franke}{F.}%
+     {Lude}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Metspalu}{M.}%
+     {Andres}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Peterson}{P.}%
+     {P{\"a}rt}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Milani}{M.}%
+     {Lili}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KS+2}
+  \strng{fullhash}{KSKKTLKERAFKETWHFBMSKJFLMAPPML1}
+  \field{labelyear}{2017}
+  \field{sortinit}{K}
+  \field{abstract}{%
+  Inappropriate activation or inadequate regulation of {CD4+} and {CD8+} T
+  cells may contribute to the initiation and progression of multiple autoimmune
+  and inflammatory diseases. Studies on disease-associated genetic
+  polymorphisms have highlighted the importance of biological context for many
+  regulatory variants, which is particularly relevant in understanding the
+  genetic regulation of the immune system and its cellular phenotypes. Here we
+  show cell type-specific regulation of transcript levels of genes associated
+  with several autoimmune diseases in {CD4+} and {CD8+} T cells including a
+  trans-acting regulatory locus at chr12q13.2 containing the rs1131017 {SNP} in
+  the {RPS26} gene. Most remarkably, we identify a common missense variant in
+  {IL27,} associated with type 1 diabetes that results in decreased functional
+  activity of the protein and reduced expression levels of downstream {IRF1}
+  and {STAT1} in {CD4+} T cells only. Altogether, our results indicate that
+  {eQTL} mapping in purified T cells provides novel functional insights into
+  polymorphisms and pathways associated with autoimmune diseases.%
+  }
+  \verb{doi}
+  \verb 10.1371/journal.pgen.1006643
+  \endverb
+  \field{issn}{1553-7390}
+  \field{number}{3}
+  \field{pages}{e1006643}
+  \field{title}{Pathogenic implications for autoimmune mechanisms derived by
+  comparative {eQTL} analysis of {CD4+} versus {CD8+} T cells}
+  \field{volume}{13}
+  \verb{file}
+  \verb C:\Users\alicia\Documents\ReadCube Media\Kasela et al-2017-Plos Genet.p
+  \verb df
+  \endverb
+  \field{journaltitle}{Plos Genet}
+  \field{year}{2017}
+\endentry
+
+\entry{Keermann2015}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Keermann}{K.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kõks}{K.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bmc …}{B.}%
+     {Reimann -E.}{R.-E.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KM+1}
+  \strng{fullhash}{KMKSBRE1}
+  \field{labelyear}{2015}
+  \field{sortinit}{K}
+  \field{title}{Transcriptional landscape of psoriasis identifies the
+  involvement of IL36 and IL36RN}
+  \verb{url}
+  \verb https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-015-1508-
+  \verb 2
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{BMC …}
+  \field{year}{2015}
+\endentry
+
+\entry{Kurdi2016}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Kurdi}{K.}%
+     {A.~T.}{A.~T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bassil}{B.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Olah}{O.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wu}{W.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nature …}{N.}%
+     {Xiao -S.}{X.-S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KAT+1}
+  \strng{fullhash}{KATBROMWCNXS1}
+  \field{labelyear}{2016}
+  \field{sortinit}{K}
+  \field{title}{Tiam1/Rac1 complex controls Il17a transcription and
+  autoimmunity}
+  \verb{url}
+  \verb https://www.nature.com/articles/ncomms13048
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{Nature …}
+  \field{year}{2016}
+\endentry
+
+\entry{Landt2012}{article}{}
+  \name{author}{10}{}{%
+    {{}%
+     {Landt}{L.}%
+     {Stephen~G.}{S.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Marinov}{M.}%
+     {Georgi~K.}{G.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kundaje}{K.}%
+     {Anshul}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kheradpour}{K.}%
+     {Pouya}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pauli}{P.}%
+     {Florencia}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Batzoglou}{B.}%
+     {Serafim}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bernstein}{B.}%
+     {Bradley~E.}{B.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bickel}{B.}%
+     {Peter}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Brown}{B.}%
+     {James~B.}{J.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cayting}{C.}%
+     {Philip}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LSG+1}
+  \strng{fullhash}{LSGMGKKAKPPFBSBBEBPBJBCP1}
+  \field{labelyear}{2012}
+  \field{sortinit}{L}
+  \verb{doi}
+  \verb 10.1101/gr.136184.111
+  \endverb
+  \field{number}{9}
+  \field{pages}{1813\bibrangedash 1831}
+  \field{title}{ChIP-seq guidelines and practices of the ENCODE and modENCODE
+  consortia}
+  \verb{url}
+  \verb http://dx.doi.org/10.1101/gr.136184.111
+  \endverb
+  \field{volume}{22}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Genome research}
+  \field{year}{2012}
+\endentry
+
+\entry{Leanne2009}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Leanne}{L.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Johnson-Huang}{J.-H.}%
+     {L.~M.}{L.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {McNutt}{M.}%
+     {N.~S.}{N.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Krueger}{K.}%
+     {J.~G.}{J.~G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LM+1}
+  \strng{fullhash}{LMJHLMMNSKJG1}
+  \field{labelyear}{2009}
+  \field{sortinit}{L}
+  \field{title}{Cytokine-producing dendritic cells in the pathogenesis of
+  inflammatory skin diseases}
+  \verb{url}
+  \verb http://link.springer.com/article/10.1007/s10875-009-9278-8
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{Journal of clinical …}
+  \field{year}{2009}
+\endentry
+
+\entry{Lee2013}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Lee}{L.}%
+     {Donghyung}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bigdeli}{B.}%
+     {Bernard~T.}{B.~T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Riley}{R.}%
+     {Brien~P.}{B.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fanous}{F.}%
+     {Ayman~H.}{A.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bacanu}{B.}%
+     {Silviu-Alin}{S.-A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LD+1}
+  \strng{fullhash}{LDBBTRBPFAHBSA1}
+  \field{labelyear}{2013}
+  \field{sortinit}{L}
+  \verb{doi}
+  \verb 10.1093/bioinformatics/btt500
+  \endverb
+  \field{number}{22}
+  \field{pages}{2925\bibrangedash 2927}
+  \field{title}{DIST: direct imputation of summary statistics for unmeasured
+  SNPs}
+  \verb{url}
+  \verb http://dx.doi.org/10.1093/bioinformatics/btt500
+  \endverb
+  \field{volume}{29}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Bioinformatics}
+  \field{year}{2013}
+\endentry
+
+\entry{Lee2009}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Lee}{L.}%
+     {S.~K.}{S.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jeon}{J.}%
+     {E.~K.}{E.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kim}{K.}%
+     {Y.~J.}{Y.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {of …}{o.}%
+     {Seo -S.~H.}{S.-S.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LSK+1}
+  \strng{fullhash}{LSKJEKKYJoSSH1}
+  \field{labelyear}{2009}
+  \field{sortinit}{L}
+  \verb{doi}
+  \verb 10.5021/ad.2009.21.3.237
+  \endverb
+  \field{title}{A global gene expression analysis of the peripheral blood
+  mononuclear cells reveals the gene expression signature in psoriasis}
+  \verb{url}
+  \verb http://dx.doi.org/10.5021/ad.2009.21.3.237
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{Annals of …}
+  \field{year}{2009}
+\endentry
+
+\entry{Li2014}{article}{}
+  \name{author}{15}{}{%
+    {{}%
+     {Li}{L.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tsoi}{T.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Swindell}{S.}%
+     {W.}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gudjonsson}{G.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tejasvi}{T.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Johnston}{J.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ding}{D.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stuart}{S.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Xing}{X.}%
+     {X.}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kochkodan}{K.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Voorhees}{V.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kang}{K.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nair}{N.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Abecasis}{A.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Elder}{E.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LB+1}
+  \strng{fullhash}{LBTLSWGJTTJADJSPXXKJVJKHNRAGEJ1}
+  \field{labelyear}{2014}
+  \field{sortinit}{L}
+  \verb{doi}
+  \verb 10.1038/jid.2014.28
+  \endverb
+  \field{issn}{0022-202x}
+  \field{pages}{1828\bibrangedash 1838}
+  \field{title}{Transcriptome analysis of psoriasis in a large case-control
+  sample: RNA-seq provides insights into disease mechanisms}
+  \verb{url}
+  \verb http://dx.doi.org/10.1038/jid.2014.28
+  \endverb
+  \field{volume}{134}
+  \field{type}{Journal Article}
+  \field{journaltitle}{J Invest Dermatol}
+  \field{year}{2014}
+\endentry
+
+\entry{Li2017}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Li}{L.}%
+     {Chun-xiao}{C.-x.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Li}{L.}%
+     {Hua-guo}{H.-g.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Huang}{H.}%
+     {Lin-ting}{L.-t.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kong}{K.}%
+     {Yu-wei}{Y.-w.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chen}{C.}%
+     {Fu-ying}{F.-y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liang}{L.}%
+     {Jian-yin}{J.-y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yu}{Y.}%
+     {Hong}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yao}{Y.}%
+     {Zhi-rong}{Z.-r.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LCx+1}
+  \strng{fullhash}{LCxLHgHLtKYwCFyLJyYHYZr1}
+  \field{labelyear}{2017}
+  \field{sortinit}{L}
+  \field{number}{11}
+  \field{title}{H19 lncRNA regulates keratinocyte differentiation by targeting
+  miR-130b-3p}
+  \verb{url}
+  \verb http://scholar.google.com/scholar?q=H19 lncRNA regulates keratinocyte d
+  \verb ifferentiation by targeting miR-130b-3p&btnG=&hl=en&num=20&as_sdt=0%2C2
+  \verb 2
+  \endverb
+  \field{volume}{8}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Cell death \& disease}
+  \field{year}{2017}
+\endentry
+
+\entry{Li2016}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Li}{L.}%
+     {Y.}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {}{}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kellis}{K.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LY+1}
+  \strng{fullhash}{LYKM1}
+  \field{labelyear}{2016}
+  \field{sortinit}{L}
+  \verb{doi}
+  \verb 10.1093/nar/gkw627
+  \endverb
+  \field{title}{Joint Bayesian inference of risk variants and tissue-specific
+  epigenomic enrichments across multiple complex human diseases}
+  \verb{url}
+  \verb http://dx.doi.org/10.1093/nar/gkw627
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{Nucleic acids research}
+  \field{year}{2016}
+\endentry
+
+\entry{Liontos2011}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Liontos}{L.}%
+     {Larissa~M.}{L.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dissanayake}{D.}%
+     {Dilan}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ohashi}{O.}%
+     {Pamela~S.}{P.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Weiss}{W.}%
+     {Arthur}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dragone}{D.}%
+     {Leonard~L.}{L.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {McGlade}{M.}%
+     {Jane~C.}{J.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LLM+1}
+  \strng{fullhash}{LLMDDOPSWADLLMJC1}
+  \field{labelyear}{2011}
+  \field{sortinit}{L}
+  \verb{doi}
+  \verb 10.4049/jimmunol.0903292
+  \endverb
+  \field{pages}{903292}
+  \field{title}{The Src-like adaptor protein regulates GM-CSFR signaling and
+  monocytic dendritic cell maturation}
+  \verb{url}
+  \verb http://dx.doi.org/10.4049/jimmunol.0903292
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{The Journal of Immunology}
+  \field{year}{2011}
+\endentry
+
+\entry{Litherland2005}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Litherland}{L.}%
+     {{SA}}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Xie}{X.}%
+     {{TX}}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {…}{.}%
+     {Grebe~{KM}}{G.~K.}%
+     {of}{o.}%
+     {}{}}%
+  }
+  \strng{namehash}{LS+1}
+  \strng{fullhash}{LSXTGKo1}
+  \field{labelyear}{2005}
+  \field{sortinit}{L}
+  \field{abstract}{%
+  Autocrine granulocyte macrophage-colony stimulating factor {(GM-CSF)}
+  sequentially activates intracellular components in monocyte/macrophage
+  production of the pro-inflammatory and immunoregulatory prostanoid,
+  prostaglandin E2 {(PGE2).} {GM-CSF} first induces {STAT5} signaling protein
+  phosphorylation, then prostaglandin synthase 2 {(COX2/PGS2)} gene expression,
+  and finally {IL-10} production, to downregulate the cascade. Without
+  activation, monocytes of at-risk, type 1 diabetic {(T1D),} and autoimmune
+  thyroid~…%
+  }
+  \field{title}{Signal transduction activator of transcription 5 {(STAT5)}
+  dysfunction in autoimmune monocytes and macrophages}
+  \field{journaltitle}{Journal of~…}
+  \field{year}{2005}
+\endentry
+
+\entry{Malek2010}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Malek}{M.}%
+     {T.~R.}{T.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Immunity}{I.}%
+     {Castro -I.}{C.-I.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MTRICI1}
+  \strng{fullhash}{MTRICI1}
+  \field{labelyear}{2010}
+  \field{sortinit}{M}
+  \field{title}{Interleukin-2 receptor signaling: at the interface between
+  tolerance and immunity}
+  \verb{url}
+  \verb https://www.sciencedirect.com/science/article/pii/S1074761310002876
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{Immunity}
+  \field{year}{2010}
+\endentry
+
+\entry{McGonagle2011}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {McGonagle}{M.}%
+     {Dennis}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ash}{A.}%
+     {Zoe}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dickie}{D.}%
+     {Laura}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {McDermott}{M.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aydin}{A.}%
+     {Sibel}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MD+1}
+  \strng{fullhash}{MDAZDLMMAS1}
+  \field{labelyear}{2011}
+  \field{sortinit}{M}
+  \verb{doi}
+  \verb 10.1136/ard.2010.144097
+  \endverb
+  \field{issn}{0003-4967}
+  \field{number}{Suppl 1}
+  \field{title}{The early phase of psoriatic arthritis}
+  \verb{url}
+  \verb http://dx.doi.org/10.1136/ard.2010.144097
+  \endverb
+  \field{volume}{70}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Annals of the Rheumatic Diseases}
+  \field{year}{2011}
+\endentry
+
+\entry{Mesko2010}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Mesko}{M.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Poliskal}{P.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Szegedi}{S.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MB+1}
+  \strng{fullhash}{MBPSSA1}
+  \field{labelyear}{2010}
+  \field{sortinit}{M}
+  \field{title}{Peripheral blood gene expression patterns discriminate among
+  chronic inflammatory diseases and healthy controls and identify novel
+  targets}
+  \verb{url}
+  \verb https://bmcmedgenomics.biomedcentral.com/articles/10.1186/1755-8794-3-1
+  \verb 5
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{BMC medical …}
+  \field{year}{2010}
+\endentry
+
+\entry{Messeguer2002}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Messeguer}{M.}%
+     {X.}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Escudero}{E.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Farré}{F.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {…}{.}%
+     {Núñez -O.}{N.-O.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MX+1}
+  \strng{fullhash}{MXERFDNO1}
+  \field{labelyear}{2002}
+  \field{sortinit}{M}
+  \verb{doi}
+  \verb 10.1093/bioinformatics/18.2.333
+  \endverb
+  \field{title}{PROMO: detection of known transcription regulatory elements
+  using species-tailored searches}
+  \verb{url}
+  \verb http://dx.doi.org/10.1093/bioinformatics/18.2.333
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{…}
+  \field{year}{2002}
+\endentry
+
+\entry{Mino2015}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Mino}{M.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Murakawa}{M.}%
+     {Y.}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fukao}{F.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cell}{C.}%
+     {Vandenbon -A.}{V.-A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MT+1}
+  \strng{fullhash}{MTMYFACVA1}
+  \field{labelyear}{2015}
+  \field{sortinit}{M}
+  \field{title}{Regnase-1 and roquin regulate a common element in inflammatory
+  mRNAs by spatiotemporally distinct mechanisms}
+  \verb{url}
+  \verb https://www.sciencedirect.com/science/article/pii/S0092867415004468
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{Cell}
+  \field{year}{2015}
+\endentry
+
+\entry{Moll1973}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Moll}{M.}%
+     {J.~M.~H.}{J.~M.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {in}{i.}%
+     {arthritis}{a.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {rheumatism}{r.}%
+     {Wright -V.}{W.-V.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MJMH+1}
+  \strng{fullhash}{MJMHiarWV1}
+  \field{labelyear}{1973}
+  \field{sortinit}{M}
+  \field{title}{Psoriatic arthritis}
+  \verb{url}
+  \verb http://www.sciencedirect.com/science/article/pii/0049017273900358
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{Seminars in arthritis and rheumatism}
+  \field{year}{1973}
+\endentry
+
+\entry{Moser2007}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Moser}{M.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Desai}{D.}%
+     {{DD}}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Downie}{D.}%
+     {{MP}}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {…}{.}%
+     {Chen~Y}{C.~Y.}%
+     {of}{o.}%
+     {}{}}%
+  }
+  \strng{namehash}{MB+2}
+  \strng{fullhash}{MBDDDMCYo1}
+  \field{labelyear}{2007}
+  \field{sortinit}{M}
+  \field{abstract}{%
+  Receptor for advanced glycation end products {(RAGE)} is an activation
+  receptor triggered by inflammatory S100/calgranulins and high mobility group
+  box-1 ligands. We have investigated the importance of {RAGE} on Ag priming of
+  T cells in murine models in vivo. {RAGE} is inducibly up-regulated during T
+  cell activation. Transfer of {RAGE-deficient} {OT} {II} T cells into
+  {OVA-immunized} hosts resulted in reduced proliferative responses that were
+  further diminished in {RAGE-deficient} recipients. Examination of
+  {RAGE-deficient} dendritic cells did~…%
+  }
+  \verb{doi}
+  \verb 10.4049/jimmunol.179.12.8051
+  \endverb
+  \field{title}{Receptor for advanced glycation end products expression on T
+  cells contributes to antigen-specific cellular expansion in vivo}
+  \field{journaltitle}{The Journal of~…}
+  \field{year}{2007}
+\endentry
+
+\entry{Nickoloff1999}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Nickoloff}{N.}%
+     {B.~J.}{B.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wrone-Smith}{W.-S.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{NBJWST1}
+  \strng{fullhash}{NBJWST1}
+  \field{labelyear}{1999}
+  \field{sortinit}{N}
+  \verb{doi}
+  \verb 10.1016/s0002-9440(10)65109-7
+  \endverb
+  \field{issn}{0002-9440 (Print)0002-9440}
+  \field{pages}{145\bibrangedash 58}
+  \field{title}{Injection of pre-psoriatic skin with CD4+ T cells induces
+  psoriasis}
+  \verb{url}
+  \verb http://dx.doi.org/10.1016/s0002-9440(10)65109-7
+  \endverb
+  \field{volume}{155}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Am J Pathol}
+  \field{year}{1999}
+\endentry
+
+\entry{Ouyang2014}{article}{}
+  \name{author}{10}{}{%
+    {{}%
+     {Ouyang}{O.}%
+     {Jing}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhu}{Z.}%
+     {Xiaomei}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chen}{C.}%
+     {Yuhai}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wei}{W.}%
+     {Haitao}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chen}{C.}%
+     {Qinghuang}{Q.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chi}{C.}%
+     {Xiaojuan}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Qi}{Q.}%
+     {Baomin}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhang}{Z.}%
+     {Lianfeng}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhao}{Z.}%
+     {Yi}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gao}{G.}%
+     {George}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{OJ+1}
+  \strng{fullhash}{OJZXCYWHCQCXQBZLZYGG1}
+  \field{labelyear}{2014}
+  \field{sortinit}{O}
+  \field{number}{5}
+  \field{pages}{616\bibrangedash 626}
+  \field{title}{NRAV, a long noncoding RNA, modulates antiviral responses
+  through suppression of interferon-stimulated gene transcription}
+  \verb{url}
+  \verb http://scholar.google.com/scholar?q=NRAV, a long noncoding RNA, modulat
+  \verb es antiviral responses through suppression of interferon-stimulated gen
+  \verb e transcription&btnG=&hl=en&num=20&as_sdt=0%2C22
+  \endverb
+  \field{volume}{16}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Cell host \& microbe}
+  \field{year}{2014}
+\endentry
+
+\entry{Palau2013}{article}{}
+  \name{author}{9}{}{%
+    {{}%
+     {Palau}{P.}%
+     {Nuria}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Julià}{J.}%
+     {Antonio}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ferrándiz}{F.}%
+     {Carlos}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Puig}{P.}%
+     {Lluís}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fonseca}{F.}%
+     {Eduardo}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fernández}{F.}%
+     {Emilia}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {López-Lasanta}{L.-L.}%
+     {María}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tortosa}{T.}%
+     {Raül}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Marsal}{M.}%
+     {Sara}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{PN+1}
+  \strng{fullhash}{PNJAFCPLFEFELLMTRMS1}
+  \field{labelyear}{2013}
+  \field{sortinit}{P}
+  \field{number}{1}
+  \field{pages}{825}
+  \field{title}{Genome-wide transcriptional analysis of T cell activation
+  reveals differential gene expression associated with psoriasis}
+  \verb{url}
+  \verb http://scholar.google.com/scholar?q=Genome-wide transcriptional analysi
+  \verb s of T cell activation reveals differential gene expression associated
+  \verb with psoriasis&btnG=&hl=en&num=20&as_sdt=0%2C22
+  \endverb
+  \field{volume}{14}
+  \field{type}{Journal Article}
+  \field{journaltitle}{BMC genomics}
+  \field{year}{2013}
+\endentry
+
+\entry{Peeters2015}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Peeters}{P.}%
+     {J.~G.~C.}{J.~G.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vervoort}{V.}%
+     {S.~J.}{S.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tan}{T.}%
+     {S.~C.}{S.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {reports}{r.}%
+     {Mijnheer -G.}{M.-G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{PJGC+1}
+  \strng{fullhash}{PJGCVSJTSCrMG1}
+  \field{labelyear}{2015}
+  \field{sortinit}{P}
+  \field{title}{Inhibition of super-enhancer activity in autoinflammatory
+  site-derived T cells reduces disease-associated gene expression}
+  \verb{url}
+  \verb https://www.sciencedirect.com/science/article/pii/S2211124715009316
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{Cell reports}
+  \field{year}{2015}
+\endentry
+
+\entry{Qian2009}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Qian}{Q.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Deng}{D.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cheng}{C.}%
+     {N.}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Embo …}{E.}%
+     {Welch -E.~J.}{W.-E.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{QF+1}
+  \strng{fullhash}{QFDJCNEWEJ1}
+  \field{labelyear}{2009}
+  \field{sortinit}{Q}
+  \field{title}{A non‐redundant role for MKP5 in limiting ROS production and
+  preventing LPS‐induced vascular injury}
+  \verb{url}
+  \verb http://emboj.embopress.org/content/28/19/2896.abstract
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{The EMBO …}
+  \field{year}{2009}
+\endentry
+
+\entry{Qu2015}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Qu}{Q.}%
+     {Kun}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zaba}{Z.}%
+     {Lisa~C.}{L.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Giresi}{G.}%
+     {Paul~G.}{P.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Li}{L.}%
+     {Rui}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Longmire}{L.}%
+     {Michelle}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kim}{K.}%
+     {Youn~H.}{Y.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Greenleaf}{G.}%
+     {William~J.}{W.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chang}{C.}%
+     {Howard~Y.}{H.~Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{QK+1}
+  \strng{fullhash}{QKZLCGPGLRLMKYHGWJCHY1}
+  \field{labelyear}{2015}
+  \field{sortinit}{Q}
+  \field{number}{1}
+  \field{pages}{51\bibrangedash 61}
+  \field{title}{Individuality and variation of personal regulomes in primary
+  human T cells}
+  \verb{url}
+  \verb http://scholar.google.com/scholar?q=Individuality and variation of pers
+  \verb onal regulomes in primary human T cells&btnG=&hl=en&num=20&as_sdt=0%2C2
+  \verb 2
+  \endverb
+  \field{volume}{1}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Cell systems}
+  \field{year}{2015}
+\endentry
+
+\entry{Raj2014}{article}{}
+  \name{author}{10}{}{%
+    {{}%
+     {Raj}{R.}%
+     {Towfique}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rothamel}{R.}%
+     {Katie}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mostafavi}{M.}%
+     {Sara}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ye}{Y.}%
+     {Chun}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lee}{L.}%
+     {Mark~N.}{M.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Replogle}{R.}%
+     {Joseph~M.}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Feng}{F.}%
+     {Ting}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lee}{L.}%
+     {Michelle}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Asinovski}{A.}%
+     {Natasha}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Frohlich}{F.}%
+     {Irene}{I.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RT+1}
+  \strng{fullhash}{RTRKMSYCLMNRJMFTLMANFI1}
+  \field{labelyear}{2014}
+  \field{sortinit}{R}
+  \field{number}{6183}
+  \field{pages}{519\bibrangedash 523}
+  \field{title}{Polarization of the effects of autoimmune and neurodegenerative
+  risk alleles in leukocytes}
+  \verb{url}
+  \verb http://www.sciencemag.org/content/344/6183/519.short
+  \endverb
+  \field{volume}{344}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Science}
+  \field{year}{2014}
+\endentry
+
+\entry{Rendeiro2016}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Rendeiro}{R.}%
+     {André~F.}{A.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schmidl}{S.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Strefford}{S.}%
+     {Jonathan~C.}{J.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Walewska}{W.}%
+     {Renata}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Davis}{D.}%
+     {Zadie}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Farlik}{F.}%
+     {Matthias}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Oscier}{O.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bock}{B.}%
+     {Christoph}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RAF+1}
+  \strng{fullhash}{RAFSCSJCWRDZFMODBC1}
+  \field{labelyear}{2016}
+  \field{sortinit}{R}
+  \field{pages}{11938}
+  \field{title}{Chromatin accessibility maps of chronic lymphocytic leukaemia
+  identify subtype-specific epigenome signatures and transcription regulatory
+  networks}
+  \verb{url}
+  \verb http://scholar.google.com/scholar?q=Chromatin accessibility maps of chr
+  \verb onic lymphocytic leukaemia identify subtype-specific epigenome signatur
+  \verb es and transcription regulatory networks&btnG=&hl=en&num=20&as_sdt=0%2C
+  \verb 22
+  \endverb
+  \field{volume}{7}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Nature communications}
+  \field{year}{2016}
+\endentry
+
+\entry{Romanowska2008}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Romanowska}{R.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yacoub}{Y.}%
+     {Al~N}{A.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Investigative~…}{I.~.}%
+     {Seidel~H}{S.~H.}%
+     {of}{o.}%
+     {}{}}%
+  }
+  \strng{namehash}{RM+1}
+  \strng{fullhash}{RMYANISHo1}
+  \field{labelyear}{2008}
+  \field{sortinit}{R}
+  \field{abstract}{%
+  Psoriasis is a common skin disease involving keratinocyte proliferation and
+  altered differentiation, as well as T-cell activation. Here, we show that
+  altered gene transcription in psoriatic skin lesions is highly reproducible
+  between independent data sets. Analysis of gene expression confirmed
+  dysregulation in all expected functional categories, such as {IFN} signaling
+  and keratinocyte differentiation, and allowed molecular fingerprinting of a
+  previously characterized dendritic cell subset associated with psoriasis
+  tumor necrosis factor~…%
+  }
+  \field{title}{{PPARδ} enhances keratinocyte proliferation in psoriasis and
+  induces heparin-binding {EGF-like} growth factor}
+  \field{journaltitle}{Journal of Investigative~…}
+  \field{year}{2008}
+\endentry
+
+\entry{Scharer2016}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Scharer}{S.}%
+     {Christopher~D.}{C.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Blalock}{B.}%
+     {Emily~L.}{E.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barwick}{B.}%
+     {Benjamin~G.}{B.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Haines}{H.}%
+     {Robert~R.}{R.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wei}{W.}%
+     {Chungwen}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sanz}{S.}%
+     {Ignacio}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Boss}{B.}%
+     {Jeremy~M.}{J.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SCD+1}
+  \strng{fullhash}{SCDBELBBGHRRWCSIBJM1}
+  \field{labelyear}{2016}
+  \field{sortinit}{S}
+  \verb{doi}
+  \verb 10.1038/srep27030
+  \endverb
+  \field{issn}{2045-2322}
+  \field{pages}{27030}
+  \field{title}{ATAC-seq on biobanked specimens defines a unique chromatin
+  accessibility structure in naïve SLE B cells}
+  \verb{url}
+  \verb http://dx.doi.org/10.1038/srep27030
+  \endverb
+  \field{volume}{6}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Scientific reports}
+  \field{year}{2016}
+\endentry
+
+\entry{Schmidl2015}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Schmidl}{S.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rendeiro}{R.}%
+     {André~F.}{A.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sheffield}{S.}%
+     {Nathan~C.}{N.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bock}{B.}%
+     {Christoph}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SC+1}
+  \strng{fullhash}{SCRAFSNCBC1}
+  \field{labelyear}{2015}
+  \field{sortinit}{S}
+  \field{number}{10}
+  \field{pages}{963}
+  \field{title}{ChIPmentation: fast, robust, low-input ChIP-seq for histones
+  and transcription factors}
+  \verb{url}
+  \verb http://scholar.google.com/scholar?q=ChIPmentation: fast, robust, low-in
+  \verb put ChIP-seq for histones and transcription factors&btnG=&hl=en&num=20&
+  \verb as_sdt=0%2C22
+  \endverb
+  \field{volume}{12}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Nature methods}
+  \field{year}{2015}
+\endentry
+
+\entry{Schmitt2005}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Schmitt}{S.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wozel}{W.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SJWG1}
+  \strng{fullhash}{SJWG1}
+  \field{labelyear}{2005}
+  \field{sortinit}{S}
+  \verb{doi}
+  \verb 10.1159/000083509
+  \endverb
+  \field{title}{The psoriasis area and severity index is the adequate criterion
+  to define severity in chronic plaque-type psoriasis}
+  \verb{url}
+  \verb http://dx.doi.org/10.1159/000083509
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{Dermatology}
+  \field{year}{2005}
+\endentry
+
+\entry{Shapiro2007}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Shapiro}{S.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cohen}{C.}%
+     {A.~D.}{A.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {David}{D.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {American …}{A.}%
+     {Hodak -E.}{H.-E.}%
+     {of~the}{o.~t.}%
+     {}{}}%
+  }
+  \strng{namehash}{SJ+1}
+  \strng{fullhash}{SJCADDMAHEot1}
+  \field{labelyear}{2007}
+  \field{sortinit}{S}
+  \field{title}{The association between psoriasis, diabetes mellitus, and
+  atherosclerosis in Israel: a case-control study}
+  \verb{url}
+  \verb http://www.sciencedirect.com/science/article/pii/S0190962206025436
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{Journal of the American …}
+  \field{year}{2007}
+\endentry
+
+\entry{Shi2014}{article}{}
+  \name{author}{11}{}{%
+    {{}%
+     {Shi}{S.}%
+     {Lihua}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhang}{Z.}%
+     {Zhe}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yu}{Y.}%
+     {Angela~M.}{A.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wang}{W.}%
+     {Wei}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wei}{W.}%
+     {Zhi}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Akhter}{A.}%
+     {Ehtisham}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Maurer}{M.}%
+     {Kelly}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Costa~Reis}{C.~R.}%
+     {Patrícia}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Song}{S.}%
+     {Li}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Petri}{P.}%
+     {Michelle}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sullivan}{S.}%
+     {Kathleen~E.}{K.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SL+1}
+  \strng{fullhash}{SLZZYAMWWWZAEMKCRPSLPMSKE1}
+  \field{labelyear}{2014}
+  \field{sortinit}{S}
+  \verb{doi}
+  \verb 10.1371/journal.pone.0093846
+  \endverb
+  \field{issn}{1932-6203}
+  \field{number}{5}
+  \field{title}{The SLE transcriptome exhibits evidence of chronic endotoxin
+  exposure and has widespread dysregulation of non-coding and coding RNAs}
+  \verb{url}
+  \verb http://dx.doi.org/10.1371/journal.pone.0093846
+  \endverb
+  \field{volume}{9}
+  \field{type}{Journal Article}
+  \field{journaltitle}{PloS one}
+  \field{year}{2014}
+\endentry
+
+\entry{Shu2017}{article}{}
+  \name{author}{10}{}{%
+    {{}%
+     {Shu}{S.}%
+     {Jin}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Li}{L.}%
+     {Ling}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhou}{Z.}%
+     {Lan-Bo}{L.-B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Qian}{Q.}%
+     {Jun}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fan}{F.}%
+     {Zhi-Dan}{Z.-D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhuang}{Z.}%
+     {Li-Li}{L.-L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wang}{W.}%
+     {Lu-Lu}{L.-L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jin}{J.}%
+     {Rui}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yu}{Y.}%
+     {Hai-Guo}{H.-G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhou}{Z.}%
+     {Guo-Ping}{G.-P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SJ+2}
+  \strng{fullhash}{SJLLZLBQJFZDZLLWLLJRYHGZGP1}
+  \field{labelyear}{2017}
+  \field{sortinit}{S}
+  \field{number}{29}
+  \field{pages}{47184}
+  \field{title}{IRF5 is elevated in childhood-onset SLE and regulated by
+  histone acetyltransferase and histone deacetylase inhibitors}
+  \verb{url}
+  \verb http://scholar.google.com/scholar?q=IRF5 is elevated in childhood-onset
+  \verb  SLE and regulated by histone acetyltransferase and histone deacetylase
+  \verb  inhibitors&btnG=&hl=en&num=20&as_sdt=0%2C22
+  \endverb
+  \field{volume}{8}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Oncotarget}
+  \field{year}{2017}
+\endentry
+
+\entry{Smith2008}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Smith}{S.}%
+     {Judith~A.}{J.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barnes}{B.}%
+     {Michael~D.}{M.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hong}{H.}%
+     {Dihua}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {DeLay}{D.}%
+     {Monica~L.}{M.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Inman}{I.}%
+     {Robert~D.}{R.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Colbert}{C.}%
+     {Robert~A.}{R.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SJA+1}
+  \strng{fullhash}{SJABMDHDDMLIRDCRA1}
+  \field{labelyear}{2008}
+  \field{sortinit}{S}
+  \field{number}{6}
+  \field{pages}{1640\bibrangedash 1649}
+  \field{title}{Gene expression analysis of macrophages derived from ankylosing
+  spondylitis patients reveals interferon dysregulation}
+  \verb{url}
+  \verb http://scholar.google.com/scholar?q=Gene expression analysis of macroph
+  \verb ages derived from ankylosing spondylitis patients reveals interferon dy
+  \verb sregulation&btnG=&hl=en&num=20&as_sdt=0%2C22
+  \endverb
+  \field{volume}{58}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Arthritis \& Rheumatism: Official Journal of the
+  American College of Rheumatology}
+  \field{year}{2008}
+\endentry
+
+\entry{Stefan2014}{article}{}
+  \name{author}{9}{}{%
+    {{}%
+     {Stefan}{S.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wei}{W.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lombardi}{L.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Li}{L.}%
+     {C.~W.}{C.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Concepcion}{C.}%
+     {E.~S.}{E.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Inabnet}{I.}%
+     {3rd}{r.}%
+     {}{}%
+     {W.~B.}{W.~B.}}%
+    {{}%
+     {Owen}{O.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhang}{Z.}%
+     {W.}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tomer}{T.}%
+     {Y.}{Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SM+1}
+  \strng{fullhash}{SMWCLALCWCESIWBrORZWTY1}
+  \field{labelyear}{2014}
+  \field{sortinit}{S}
+  \verb{doi}
+  \verb 10.1073/pnas.1408821111 10.1073/pnas.1408821111. Epub 2014 Aug 13.
+  \endverb
+  \field{issn}{0027-8424}
+  \field{pages}{12562\bibrangedash 7}
+  \field{title}{Genetic-epigenetic dysregulation of thymic TSH receptor gene
+  expression triggers thyroid autoimmunity}
+  \verb{url}
+  \verb http://dx.doi.org/10.1073/pnas.1408821111
+  \endverb
+  \field{volume}{111}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Proc Natl Acad Sci U S A}
+  \field{year}{2014}
+\endentry
+
+\entry{Straus2007}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Straus}{S.}%
+     {{DS}}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {immunology}{i.}%
+     {Glass~{CK}}{G.~C.}%
+     {in}{i.}%
+     {}{}}%
+  }
+  \strng{namehash}{SDiGCi1}
+  \strng{fullhash}{SDiGCi1}
+  \field{labelyear}{2007}
+  \field{sortinit}{S}
+  \field{abstract}{%
+  The peroxisome proliferator-activated receptors {(PPARα,-γ,} and-β/δ) are
+  nuclear receptors with distinct patterns of expression in many cell types
+  both within and outside the immune system. {PPAR} ligands have
+  anti-inflammatory activity in a variety of mouse models for acute and chronic
+  inflammation. In macrophages, {PPARγ} ligands repress expression of a subset
+  of Toll-like receptor {(TLR)} target genes by a molecular mechanism termed
+  ligand-dependent transrepression. In chronic inflammation, ligand-bound
+  {PPARα} represses production of {IFNγ~…}%
+  }
+  \field{title}{Anti-inflammatory actions of {PPAR} ligands: new insights on
+  cellular and molecular mechanisms}
+  \field{journaltitle}{Trends in immunology}
+  \field{year}{2007}
+\endentry
+
+\entry{Swindell2015}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Swindell}{S.}%
+     {W.~R.}{W.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Remmer}{R.}%
+     {H.~A.}{H.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SWRRHA1}
+  \strng{fullhash}{SWRRHA1}
+  \field{labelyear}{2015}
+  \field{sortinit}{S}
+  \field{title}{Proteogenomic analysis of psoriasis reveals discordant and
+  concordant changes in mRNA and protein abundance}
+  \verb{url}
+  \verb https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-015-02
+  \verb 08-5
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{Genome …}
+  \field{year}{2015}
+\endentry
+
+\entry{Swindell2017}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Swindell}{S.}%
+     {W.~R.}{W.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sarkar}{S.}%
+     {M.~K.}{M.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liang}{L.}%
+     {Y.}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Xing}{X.}%
+     {X.}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {reports}{r.}%
+     {Baliwag -J.}{B.-J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SWR+1}
+  \strng{fullhash}{SWRSMKLYXXrBJ1}
+  \field{labelyear}{2017}
+  \field{sortinit}{S}
+  \field{title}{RNA-seq identifies a diminished differentiation gene signature
+  in primary monolayer keratinocytes grown from lesional and uninvolved
+  psoriatic skin}
+  \verb{url}
+  \verb https://www.nature.com/articles/s41598-017-18404-9
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{Scientific reports}
+  \field{year}{2017}
+\endentry
+
+\entry{Taganov2006}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Taganov}{T.}%
+     {K.~D.}{K.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Boldin}{B.}%
+     {M.~P.}{M.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {the …}{t.}%
+     {Chang -K.~J.}{C.-K.~J.}%
+     {of}{o.}%
+     {}{}}%
+  }
+  \strng{namehash}{TKD+1}
+  \strng{fullhash}{TKDBMPtCKJo1}
+  \field{labelyear}{2006}
+  \field{sortinit}{T}
+  \verb{doi}
+  \verb 10.1073/pnas.0605298103
+  \endverb
+  \field{title}{NF-κB-dependent induction of microRNA miR-146, an inhibitor
+  targeted to signaling proteins of innate immune responses}
+  \verb{url}
+  \verb http://dx.doi.org/10.1073/pnas.0605298103
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{Proceedings of the …}
+  \field{year}{2006}
+\endentry
+
+\entry{Tervaniemi2016}{article}{}
+  \name{author}{10}{}{%
+    {{}%
+     {Tervaniemi}{T.}%
+     {Mari~H.}{M.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Katayama}{K.}%
+     {Shintaro}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Skoog}{S.}%
+     {Tiina}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Siitonen}{S.}%
+     {Annika~H.}{A.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vuola}{V.}%
+     {Jyrki}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nuutila}{N.}%
+     {Kristo}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sormunen}{S.}%
+     {Raija}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Johnsson}{J.}%
+     {Anna}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Linnarsson}{L.}%
+     {Sten}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Suomela}{S.}%
+     {Sari}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{TMH+1}
+  \strng{fullhash}{TMHKSSTSAHVJNKSRJALSSS1}
+  \field{labelyear}{2016}
+  \field{sortinit}{T}
+  \verb{doi}
+  \verb 10.1038/srep22745
+  \endverb
+  \field{pages}{22745}
+  \field{title}{NOD-like receptor signaling and inflammasome-related pathways
+  are highlighted in psoriatic epidermis}
+  \verb{url}
+  \verb http://dx.doi.org/10.1038/srep22745
+  \endverb
+  \field{volume}{6}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Scientific reports}
+  \field{year}{2016}
+\endentry
+
+\entry{Toberer2011}{article}{}
+  \name{author}{10}{}{%
+    {{}%
+     {Toberer}{T.}%
+     {Ferdinand}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sykora}{S.}%
+     {Jaromir}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Göttel}{G.}%
+     {Daniel}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ruland}{R.}%
+     {Vincent}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hartschuh}{H.}%
+     {Wolfgang}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Enk}{E.}%
+     {Alexander}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Luger}{L.}%
+     {Thomas~A.}{T.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Beissert}{B.}%
+     {Stefan}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Loser}{L.}%
+     {Karin}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Joos}{J.}%
+     {Stefan}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{TF+1}
+  \strng{fullhash}{TFSJGDRVHWEALTABSLKJS1}
+  \field{labelyear}{2011}
+  \field{sortinit}{T}
+  \field{number}{7}
+  \field{pages}{600\bibrangedash 602}
+  \field{title}{Tissue microarray analysis of RANKL in cutaneous lupus
+  erythematosus and psoriasis}
+  \verb{url}
+  \verb http://scholar.google.com/scholar?q=Tissue microarray analysis of RANKL
+  \verb  in cutaneous lupus erythematosus and psoriasis&btnG=&hl=en&num=20&as_s
+  \verb dt=0%2C22
+  \endverb
+  \field{volume}{20}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Experimental dermatology}
+  \field{year}{2011}
+\endentry
+
+\entry{Togayachi2010}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Togayachi}{T.}%
+     {Akira}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kozono}{K.}%
+     {Yuko}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kuno}{K.}%
+     {Atsushi}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ohkura}{O.}%
+     {Takashi}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sato}{S.}%
+     {Takashi}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hirabayashi}{H.}%
+     {Jun}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ikehara}{I.}%
+     {Yuzuru}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Narimatsu}{N.}%
+     {Hisashi}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{TA+1}
+  \strng{fullhash}{TAKYKAOTSTHJIYNH1}
+  \field{labelyear}{2010}
+  \field{sortinit}{T}
+  \field{abstract}{%
+  The polylactosamine structure is a fundamental structure of carbohydrate
+  chains and carries a lot of biofunctional carbohydrate epitopes. To
+  investigate the biological function of polylactosamine chains, here we
+  generated and analyzed knockout mice lacking the gene B3gnt2, which encodes a
+  major polylactosamine synthase. In β1, {3-N-acetylglucosaminyltransferase}
+  {(B3gnt2)} B3gnt2-deficient {(B3gnt2−/−)} mice, the number of
+  polylactosamine structures was markedly lower than in wild-type mice. Flow
+  cytometry, {LEL~…}%
+  }
+  \field{pages}{185\bibrangedash 204}
+  \field{title}{{3GnT2} {(B3GNT2),} a major polylactosamine synthase: analysis
+  of {B3GNT2-deficient} mice}
+  \field{volume}{479}
+  \verb{file}
+  \verb C:\Users\alicia\Documents\ReadCube Media\Togayachi et al-2010-Elsevier.
+  \verb pdf
+  \endverb
+  \field{year}{2010}
+\endentry
+
+\entry{Tsoi2012}{article}{}
+  \name{author}{65}{}{%
+    {{}%
+     {Tsoi}{T.}%
+     {L.~C.}{L.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Spain}{S.}%
+     {S.~L.}{S.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Knight}{K.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ellinghaus}{E.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stuart}{S.}%
+     {P.~E.}{P.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Capon}{C.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ding}{D.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Li}{L.}%
+     {Y.}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tejasvi}{T.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gudjonsson}{G.}%
+     {J.~E.}{J.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kang}{K.}%
+     {H.~M.}{H.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Allen}{A.}%
+     {M.~H.}{M.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {McManus}{M.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Novelli}{N.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Samuelsson}{S.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schalkwijk}{S.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stahle}{S.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Burden}{B.}%
+     {A.~D.}{A.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Smith}{S.}%
+     {C.~H.}{C.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cork}{C.}%
+     {M.~J.}{M.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Estivill}{E.}%
+     {X.}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bowcock}{B.}%
+     {A.~M.}{A.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Krueger}{K.}%
+     {G.~G.}{G.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Weger}{W.}%
+     {W.}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Worthington}{W.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tazi-Ahnini}{T.-A.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nestle}{N.}%
+     {F.~O.}{F.~O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hayday}{H.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hoffmann}{H.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Winkelmann}{W.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wijmenga}{W.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Langford}{L.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Edkins}{E.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Andrews}{A.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Blackburn}{B.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Strange}{S.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Band}{B.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pearson}{P.}%
+     {R.~D.}{R.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vukcevic}{V.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Spencer}{S.}%
+     {C.~C.}{C.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Deloukas}{D.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mrowietz}{M.}%
+     {U.}{U.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schreiber}{S.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Weidinger}{W.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Koks}{K.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kingo}{K.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Esko}{E.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Metspalu}{M.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lim}{L.}%
+     {H.~W.}{H.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Voorhees}{V.}%
+     {J.~J.}{J.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Weichenthal}{W.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wichmann}{W.}%
+     {H.~E.}{H.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chandran}{C.}%
+     {V.}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rosen}{R.}%
+     {C.~F.}{C.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rahman}{R.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gladman}{G.}%
+     {D.~D.}{D.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Griffiths}{G.}%
+     {C.~E.}{C.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Reis}{R.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kere}{K.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nair}{N.}%
+     {R.~P.}{R.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Franke}{F.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barker}{B.}%
+     {J.~N.}{J.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Abecasis}{A.}%
+     {G.~R.}{G.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Elder}{E.}%
+     {J.~T.}{J.~T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Trembath}{T.}%
+     {R.~C.}{R.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{TLC+1}
+  \strng{fullhash}{TLCSSLKJEESPECFDJLYTTGJEKHMAMHMRNGSLSJSMBADSCHCMJEXBAMKGGWWWJTARNFOHAHPWJWCLCESARBHSABGPRDVDSCCDPMUSSWSKSKKETMALHWVJJWMWHECVRCFRPGDDGCERAKJNRPFABJNAGREJTTRC1}
+  \field{labelyear}{2012}
+  \field{sortinit}{T}
+  \verb{doi}
+  \verb 10.1038/ng.2467
+  \endverb
+  \field{issn}{1061-4036}
+  \field{number}{12}
+  \field{pages}{1341\bibrangedash 8}
+  \field{title}{Identification of 15 new psoriasis susceptibility loci
+  highlights the role of innate immunity}
+  \field{volume}{44}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Nat Genet}
+  \field{year}{2012}
+\endentry
+
+\entry{Tsoi2015}{article}{}
+  \name{author}{15}{}{%
+    {{}%
+     {Tsoi}{T.}%
+     {Lam~C.}{L.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Iyer}{I.}%
+     {Matthew~K.}{M.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stuart}{S.}%
+     {Philip~E.}{P.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Swindell}{S.}%
+     {William~R.}{W.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gudjonsson}{G.}%
+     {Johann~E.}{J.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tejasvi}{T.}%
+     {Trilokraj}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sarkar}{S.}%
+     {Mrinal~K.}{M.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Li}{L.}%
+     {Bingshan}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ding}{D.}%
+     {Jun}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Voorhees}{V.}%
+     {John~J.}{J.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kang}{K.}%
+     {Hyun~M.}{H.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nair}{N.}%
+     {Rajan~P.}{R.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chinnaiyan}{C.}%
+     {Arul~M.}{A.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Abecasis}{A.}%
+     {Goncalo~R.}{G.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Elder}{E.}%
+     {James~T.}{J.~T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{TLC+2}
+  \strng{fullhash}{TLCIMKSPESWRGJETTSMKLBDJVJJKHMNRPCAMAGREJT1}
+  \field{labelyear}{2015}
+  \field{sortinit}{T}
+  \verb{doi}
+  \verb 10.1186/s13059-014-0570-4
+  \endverb
+  \field{issn}{1465-6906}
+  \field{number}{1}
+  \field{pages}{24}
+  \field{title}{Analysis of long non-coding RNAs highlights tissue-specific
+  expression patterns and epigenetic profiles in normal and psoriatic skin}
+  \verb{url}
+  \verb http://dx.doi.org/10.1186/s13059-014-0570-4
+  \endverb
+  \field{volume}{16}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Genome Biology}
+  \field{year}{2015}
+\endentry
+
+\entry{Valk2006}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Valk}{V.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Leung}{L.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kang}{K.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kaneko}{K.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Immunity}{I.}%
+     {Rudd -C.~E.}{R.-C.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{VE+1}
+  \strng{fullhash}{VELRKHKKIRCE1}
+  \field{labelyear}{2006}
+  \field{sortinit}{V}
+  \field{title}{T cell receptor-interacting molecule acts as a chaperone to
+  modulate surface expression of the CTLA-4 coreceptor}
+  \verb{url}
+  \verb https://www.sciencedirect.com/science/article/pii/S1074761306004687
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{Immunity}
+  \field{year}{2006}
+\endentry
+
+\entry{Vereecke2011}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Vereecke}{V.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Beyaert}{B.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Loo}{L.}%
+     {G}{G}%
+     {van}{v.}%
+     {}{}}%
+  }
+  \strng{namehash}{VL+1}
+  \strng{fullhash}{VLBRLGv1}
+  \field{labelyear}{2011}
+  \field{sortinit}{V}
+  \field{abstract}{%
+  A20 [also known as {TNFAIP3} (tumour necrosis factor α-induced protein 3)]
+  restricts and terminates inflammatory responses through modulation of the
+  ubiquitination status of central components in {NF-κB} (nuclear factor
+  {κB),} {IRF3} (interferon regulatory factor 3) and apoptosis signalling
+  cascades. The phenotype of mice with full or conditional A20 deletion
+  illustrates that A20 expression is essential to prevent chronic inflammation
+  and autoimmune pathology. In addition, polymorphisms within the A20 genomic
+  locus have been associated with~…%
+  }
+  \field{title}{Genetic relationships between {A20/TNFAIP3,} chronic
+  inflammation and autoimmune disease}
+  \field{year}{2011}
+\endentry
+
+\entry{Wang2006}{article}{}
+  \name{author}{12}{}{%
+    {{}%
+     {Wang}{W.}%
+     {Honglin}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Peters}{P.}%
+     {Thorsten}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kess}{K.}%
+     {Daniel}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sindrilaru}{S.}%
+     {Anca}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Oreshkova}{O.}%
+     {Tsvetelina}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rooijen}{R.}%
+     {Nico}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stratis}{S.}%
+     {Athanasios}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Renkl}{R.}%
+     {Andreas~C.}{A.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sunderkötter}{S.}%
+     {Cord}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wlaschek}{W.}%
+     {Meinhard}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Haase}{H.}%
+     {Ingo}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Scharffetter-Kochanek}{S.-K.}%
+     {Karin}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WH+1}
+  \strng{fullhash}{WHPTKDSAOTRNSARACSCWMHISKK1}
+  \field{labelyear}{2006}
+  \field{sortinit}{W}
+  \verb{doi}
+  \verb 10.1172/JCI27180
+  \endverb
+  \field{issn}{0021-9738}
+  \field{number}{8}
+  \field{pages}{2105\bibrangedash 2114}
+  \field{title}{Activated macrophages are essential in a murine model for T
+  cell–mediated chronic psoriasiform skin inflammation}
+  \verb{url}
+  \verb http://dx.doi.org/10.1172/JCI27180
+  \endverb
+  \field{volume}{116}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Journal of Clinical Investigation}
+  \field{year}{2006}
+\endentry
+
+\entry{Wang2018}{article}{}
+  \name{author}{10}{}{%
+    {{}%
+     {Wang}{W.}%
+     {Jie}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zibetti}{Z.}%
+     {Cristina}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shang}{S.}%
+     {Peng}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sripathi}{S.}%
+     {Srinivasa~R}{S.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhang}{Z.}%
+     {Pingwu}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cano}{C.}%
+     {Marisol}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hoang}{H.}%
+     {Thanh}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Xia}{X.}%
+     {Shuli}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ji}{J.}%
+     {Hongkai}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Merbs}{M.}%
+     {Shannath~L}{S.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WJ+1}
+  \strng{fullhash}{WJZCSPSSRZPCMHTXSJHMSL1}
+  \field{labelyear}{2018}
+  \field{sortinit}{W}
+  \field{abstract}{%
+  Age-related macular degeneration {(AMD)} is a significant cause of vision
+  loss in the elderly. The extent to which epigenetic changes regulate {AMD}
+  progression is unclear. Here we globally profile chromatin accessibility
+  using {ATAC-Seq} in the retina and retinal pigmented epithelium {(RPE)} from
+  {AMD} and control patients. Global decreases in chromatin accessibility occur
+  in the {RPE} with early {AMD,} and in the retina of advanced disease,
+  suggesting that dysfunction in the {RPE} drives disease onset. Footprints of
+  photoreceptor and~…%
+  }
+  \field{number}{1}
+  \field{pages}{1364}
+  \field{title}{{ATAC-Seq} analysis reveals a widespread decrease of chromatin
+  accessibility in age-related macular degeneration}
+  \field{volume}{9}
+  \verb{file}
+  \verb C:\Users\alicia\Documents\ReadCube Media\Wang et al-2018-Nature communi
+  \verb cations.pdf
+  \endverb
+  \field{year}{2018}
+\endentry
+
+\entry{Wong2011}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Wong}{W.}%
+     {W.~F.}{W.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kohu}{K.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chiba}{C.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sato}{S.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Immunology}{I.}%
+     {Satake -M.}{S.-M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WWF+1}
+  \strng{fullhash}{WWFKKCTSTISM1}
+  \field{labelyear}{2011}
+  \field{sortinit}{W}
+  \field{title}{Interplay of transcription factors in T‐cell differentiation
+  and function: the role of Runx}
+  \verb{url}
+  \verb https://nyaspubs.onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2567.2
+  \verb 010.03381.x
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{Immunology}
+  \field{year}{2011}
+\endentry
+
+\entry{Woolacott2006}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Woolacott}{W.}%
+     {N.}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hawkins}{H.}%
+     {N.}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kainth}{K.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Khadjesari}{K.}%
+     {Z.}{Z.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WN+1}
+  \strng{fullhash}{WNHNKAKZ1}
+  \field{labelyear}{2006}
+  \field{sortinit}{W}
+  \field{title}{Etanercept and Efalizumab for the Treatment of Moderate to
+  Severe Psoriasis}
+  \verb{url}
+  \verb http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.588.436&rep=re
+  \verb p1&type=pdf
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{Etanercept and Efalizumab for the Treatment of Moderate
+  to Severe Psoriasis}
+  \field{year}{2006}
+\endentry
+
+\entry{Wrone-Smith1996}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Wrone-Smith}{W.-S.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nickoloff }{N.}%
+     {B.~J.}{B.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WSTNBJ1}
+  \strng{fullhash}{WSTNBJ1}
+  \field{labelyear}{1996}
+  \field{sortinit}{W}
+  \verb{doi}
+  \verb 10.1172/JCI118989
+  \endverb
+  \field{title}{Dermal injection of immunocytes induces psoriasis}
+  \verb{url}
+  \verb http://dx.doi.org/10.1172/JCI118989
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{The Journal of clinical …}
+  \field{year}{1996}
+\endentry
+
+\entry{Wu2010}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Wu}{W.}%
+     {Q}{Q}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jin}{J.}%
+     {H}{H}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yang}{Y.}%
+     {Z}{Z}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Luo}{L.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lu}{L.}%
+     {Y}{Y}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Li}{L.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {…}{.}%
+     {Ren~G}{R.~G.}%
+     {and}{a.}%
+     {}{}}%
+  }
+  \strng{namehash}{WQ+1}
+  \strng{fullhash}{WQJHYZLGLYLKRGa1}
+  \field{labelyear}{2010}
+  \field{sortinit}{W}
+  \field{abstract}{%
+  Accumulating evidence suggests small non-coding {RNAs} {(microRNAs)} play
+  important roles in human cancer progression. In the present study, we found
+  {miR-150} was overexpressed in gastric cancer cell lines and tissues. Ectopic
+  expression of {miR-150} promoted tumorigenesis and proliferation of gastric
+  cancer cells. Luciferase reporter assay demonstrated that {EGR2} was a direct
+  target of {miR-150.} Collectively, our study demonstrated that overexpression
+  of {miR-150} in gastric cancer could promote proliferation and growth of
+  cancer cells at least~…%
+  }
+  \field{title}{{MiR-150} promotes gastric cancer proliferation by negatively
+  regulating the pro-apoptotic gene {EGR2}}
+  \field{journaltitle}{Biochemical and~…}
+  \field{year}{2010}
+\endentry
+
+\entry{Yamazaki2009}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Yamazaki}{Y.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hiramatsu}{H.}%
+     {N.}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {of …}{o.}%
+     {Hayakawa -K.}{H.-K.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{YH+1}
+  \strng{fullhash}{YHHNoHK1}
+  \field{labelyear}{2009}
+  \field{sortinit}{Y}
+  \verb{doi}
+  \verb 10.4049/jimmunol.0900017
+  \endverb
+  \field{title}{Activation of the Akt-NF-κB pathway by subtilase cytotoxin
+  through the ATF6 branch of the unfolded protein response}
+  \verb{url}
+  \verb http://dx.doi.org/10.4049/jimmunol.0900017
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{The Journal of …}
+  \field{year}{2009}
+\endentry
+
+\entry{Zgraggen2014}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Zgraggen}{Z.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Huggenberger}{H.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kerl}{K.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {One}{O.}%
+     {Detmar -M.}{D.-M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ZS+1}
+  \strng{fullhash}{ZSHRKKODM1}
+  \field{labelyear}{2014}
+  \field{sortinit}{Z}
+  \field{title}{An important role of the SDF-1/CXCR4 axis in chronic skin
+  inflammation}
+  \verb{url}
+  \verb http://journals.plos.org/plosone/article?id=10.1371/journal.pone.009366
+  \verb 5
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{PLoS One}
+  \field{year}{2014}
+\endentry
+
+\entry{Zhang2017}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Zhang}{Z.}%
+     {Chen}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wang}{W.}%
+     {Chen}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jia}{J.}%
+     {Zhenyu}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tong}{T.}%
+     {Wenwen}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liu}{L.}%
+     {Delin}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {He}{H.}%
+     {Chongru}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Huang}{H.}%
+     {Xuan}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Xu}{X.}%
+     {Weidong}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ZC+1}
+  \strng{fullhash}{ZCWCJZTWLDHCHXXW1}
+  \field{labelyear}{2017}
+  \field{sortinit}{Z}
+  \field{abstract}{%
+  Ankylosing spondylitis {(AS)} is a chronic autoimmune disease characterized
+  by systemic inflammation and pathological osteogenesis. However, the genetic
+  etiology of {AS} remains largely unknown. This study aimed to explore the
+  potential role of coding and noncoding genes in the genetic mechanism of
+  {AS.} Using microarray analyses, this study comprehensively compared
+  {lncRNA,} {microRNA,} and {mRNA} profiles in hip joint ligament tissues from
+  patients with {AS} and controls. A total of 661 {lncRNAs,} 574 {mRNAs,} and
+  22~…%
+  }
+  \field{number}{69}
+  \field{pages}{113543}
+  \field{title}{Differentially expressed {mRNAs,} {lncRNAs,} and {miRNAs} with
+  associated co-expression and {ceRNA} networks in ankylosing spondylitis}
+  \field{volume}{8}
+  \field{year}{2017}
+\endentry
+
+\entry{Zhang2016}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Zhang}{Z.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wu}{W.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Qian}{Q.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Qu}{Q.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Xia}{X.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {La}{L.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {of …}{o.}%
+     {Wu -Y.}{W.-Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ZF+1}
+  \strng{fullhash}{ZFWLQJQBXSLToWY1}
+  \field{labelyear}{2016}
+  \field{sortinit}{Z}
+  \field{title}{Identification of the long noncoding RNA NEAT1 as a novel
+  inflammatory regulator acting through MAPK pathway in human lupus}
+  \verb{url}
+  \verb https://www.sciencedirect.com/science/article/pii/S0896841116301202
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{Journal of …}
+  \field{year}{2016}
+\endentry
+
+\entry{Zhong2013}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Zhong}{Z.}%
+     {Y}{Y}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kinio}{K.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {immunology}{i.}%
+     {Saleh~M}{S.~M.}%
+     {in}{i.}%
+     {}{}}%
+  }
+  \strng{namehash}{ZY+1}
+  \strng{fullhash}{ZYKAiSMi1}
+  \field{labelyear}{2013}
+  \field{sortinit}{Z}
+  \field{abstract}{%
+  Nucleotide-binding and oligomerization domain {(NOD)-like} receptors {(NLRs)}
+  are highly conserved cytosolic pattern recognition receptors that perform
+  critical functions in surveying the intracellular environment for the
+  presence of infection, noxious substances, and metabolic perturbations.
+  Sensing of these danger signals by {NLRs} leads to their oligomerization into
+  large macromolecular scaffolds and the rapid deployment of effector signaling
+  cascades to restore homeostasis. While some {NLRs} operate by recruiting
+  and~…%
+  }
+  \field{title}{Functions of {NOD-like} receptors in human diseases}
+  \field{journaltitle}{Frontiers in immunology}
+  \field{year}{2013}
+\endentry
+
+\entry{Zhu2012}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Zhu}{Z.}%
+     {K.~J.}{K.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhu}{Z.}%
+     {C.~Y.}{C.~Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shi}{S.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Research}{R.}%
+     {Fan -Y.~M.}{F.-Y.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ZKJ+1}
+  \strng{fullhash}{ZKJZCYSGRFYM1}
+  \field{labelyear}{2012}
+  \field{sortinit}{Z}
+  \field{title}{Association of IL23R polymorphisms with psoriasis and psoriatic
+  arthritis: a meta-analysis}
+  \verb{url}
+  \verb https://link.springer.com/article/10.1007/s00011-012-0509-8
+  \endverb
+  \field{type}{Journal Article}
+  \field{journaltitle}{Inflammation Research}
+  \field{year}{2012}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

@@ -19,8 +19,8 @@
 \section{Chapter 3 Tables}
 
 \begin{table}[htbp]
+\renewcommand{\arraystretch}{0.7}
 %\setlength{\tabcolsep}{20pt} only to stretch the columns if you want
-%\renewcommand{\arraystretch}{1.5}
 \centering
 \begin{tabular}{@{} c c c c c}
 \toprule
@@ -44,67 +44,14 @@ CD4	  & Frozen & 17.9 & 14.1 & 16.1 \\
 \bigskip %bigger space
 
 
-
+\clearpage
 
 
 \section{Chapter 4 Tables}
 
 \begin{table}[htbp]
 %\setlength{\tabcolsep}{20pt} only to stretch the columns if you want
-%\renewcommand{\arraystretch}{1.5}
-\centering
-\begin{tabular}{@{} c c c}
-\toprule
-\textbf{Sample ID} & \textbf{NRF} & \textbf{PBC1/PBC2} \\
-\midrule
-\midrule
-PS2000 CD14	& 77.6	& 0.60/2.5\\
-PS2001 CD14	& 84.9	& 0.70/3.0\\
-PS2314 CD14	& 81.1	& 0.60/1.8\\
-PS2319 CD14	& 79.9	& 0.60/2.2\\
-CTL7 CD14	  & 81.1	& 0.65/2.2\\
-CTL8 CD14	  & 83.9	& 0.66/2.3\\
-CTL9 CD14	  & 80.7	& 0.60/2.3\\
-CTL10 CD14	& 83.1	& 0.65/2.1\\
-\midrule
-PS2000 CD4  & 84.8	& 0.75/3.4\\
-PS2001 CD4	& 82.0	& 0.72/2.9\\
-PS2314 CD4	& 82.9	& 0.71/2.8\\
-PS2319 CD4	& 82.4	& 0.73/3.2\\
-CTL7 CD4	  & 78.6	& 0.68/2.5\\
-CTL8 CD4    & 81.8	& 0.71/2.9\\
-CTL9 CD4    & 81.6	& 0.74/3.3\\
-CTL10 CD4   & 77.6	& 0.61/1.9\\
-\midrule
-PS2000 CD8 & 77.0 &	0.76/4.5\\
-PS2001 CD8 & 74.7 &	0.74/4.0\\
-PS2314 CD8 & 74.2 &	0.75/4.1\\
-PS2319 CD8 & 72.2 &	0.75/4.0\\
-CTL7 CD8	 & 32.7 & 0.32/1.5\\
-CTL8 CD8	 & 70.1 &	0.70/3.3\\
-CTL9 CD8	 & 73.9 &	0.73/3.7\\
-CTL10 CD8	 & 68.2 &	0.65/2.9\\
-\midrule
-PS2000 CD19	& 38.0 & 0.42/1.9\\
-PS2001 CD19	& 71.4 & 0.71/3.7\\
-PS2314 CD19	& 29.4 & 0.34/1.8\\
-PS2319 CD19	& 76.1 & 0.78/4.8\\
-CTL7	CD19  & 74.2	& 0.69/3.1\\
-CTL8	CD19  & 68.4  &	0.67/3.2\\
-CTL9	CD19  & 75.1  &	0.76/4.6\\
-CTL10	CD19  & 61.7  & 0.59/2.6\\
-\bottomrule
-\end{tabular}
-\medskip %gap
-\caption[Evaluation of ChiPm library complexity for the psoriasis and control chort 1B ChIPm assay.]{\textbf{Evaluation of ChiPm library complexity for the psoriasis and control chort 1B ChIPm assay.} NRF, PBC1 and PBC2 are the three measures used according to the ENCODE standards as referred in Chapter \ref{ch:Mat}. 0.5$\leq$NRF$<$0.8 acceptable; 0.8$\leq$NRF$\leq$0.9 compliant; NRF$>$0.9 ideal; 0.5$\leq$PBC1$<$0.8 and 1$\leq$PBC2$<$3 moderate bottlenecking; 0.8$\leq$PBC1$<$0.9 and 3$\leq$PBC2$<$10 mild bottlenecking.}
-\label{tab:ChIPm_PS_CTL_library_complexity}
-\end{table}
-\bigskip %bigger space
-
-
-\begin{table}[htbp]
-%\setlength{\tabcolsep}{20pt} only to stretch the columns if you want
-%\renewcommand{\arraystretch}{1.5}
+%\renewcommand{\arraystretch}{0.8}
 \centering
 \begin{tabular}{@{} c c c}
 \toprule
@@ -124,6 +71,44 @@ CD19$^+$             & 199,014                 & 88,722                         
 \end{table}
 \bigskip %bigger space
 
+\begin{table}[htbp]
+\renewcommand{\arraystretch}{0.7}
+%\setlength{\tabcolsep}{20pt} only to stretch the columns if you want
+%\renewcommand{\arraystretch}{1.5}
+\centering
+\begin{tabular}{@{} c c c|c c c}
+\toprule
+\textbf{Sample} & \textbf{NRF} & \textbf{PBC1/} & \textbf{Sample} & \textbf{NRF} & \textbf{PBC1/} \\
+\textbf{ID}        &              & \textbf{PBC2}  & \textbf{ID}        &              & \textbf{PBC2} \\
+\midrule
+\midrule
+PS2000 CD14	& 0.77	& 0.60/2.5 & PS2000 CD8 & 0.77 &	0.76/4.5\\
+PS2001 CD14	& 0.84	& 0.70/3.0 & PS2001 CD8 & 0.74 &	0.74/4.0\\
+PS2314 CD14	& 0.81	& 0.60/1.8 & PS2314 CD8 & 0.74 &	0.75/4.1\\
+PS2319 CD14	& 0.79	& 0.60/2.2 & PS2319 CD8 & 0.72 &	0.75/4.0\\
+CTL7 CD14	  & 0.81	& 0.65/2.2 & CTL7 CD8	 & 0.32 & 0.32/1.5\\
+CTL8 CD14	  & 0.83	& 0.66/2.3 & CTL8 CD8	 & 0.70 &	0.70/3.3\\
+CTL9 CD14	  & 0.80	& 0.60/2.3 & CTL9 CD8	 & 0.73 &	0.73/3.7\\
+CTL10 CD14	& 0.83	& 0.65/2.1 & CTL10 CD8 & 0.68 &	0.65/2.9\\
+\midrule
+PS2000 CD4  & 0.84	& 0.75/3.4 & PS2000 CD19	& 0.38 & 0.42/1.9\\
+PS2001 CD4	& 0.82	& 0.72/2.9 & PS2001 CD19	& 0.71 & 0.71/3.7\\
+PS2314 CD4	& 0.82	& 0.71/2.8 & PS2314 CD19	& 0.29 & 0.34/1.8\\
+PS2319 CD4	& 0.82	& 0.73/3.2 & PS2319 CD19	& 0.76 & 0.78/4.8\\
+CTL7 CD4	  & 0.78	& 0.68/2.5 & CTL7	CD19    & 0.74	& 0.69/3.1\\
+CTL8 CD4    & 0.81	& 0.71/2.9 & CTL8	CD19    & 0.68  &	0.67/3.2\\
+CTL9 CD4    & 0.81	& 0.74/3.3 & CTL9	CD19    & 0.75  &	0.76/4.6\\
+CTL10 CD4   & 0.77	& 0.61/1.9 & CTL10	CD19  & 0.61  & 0.59/2.6\\
+\bottomrule
+\end{tabular}
+\medskip %gap
+\caption[Evaluation of ChiPm library complexity for the psoriasis and control chort 1B ChIPm assay.]{\textbf{Evaluation of ChiPm library complexity for the psoriasis and control chort 1B ChIPm assay.} NRF, PBC1 and PBC2 are the three measures used according to the ENCODE standards as referred in Chapter \ref{ch:Mat}. 0.5$\leq$NRF$<$0.8 acceptable; 0.8$\leq$NRF$\leq$0.9 compliant; NRF$>$0.9 ideal; 0.5$\leq$PBC1$<$0.8 and 1$\leq$PBC2$<$3 moderate bottlenecking; 0.8$\leq$PBC1$<$0.9 and 3$\leq$PBC2$<$10 mild bottlenecking. NRF= non-redundant fraction; PBC= PCR bottleneck coefficient.}
+\label{tab:ChIPm_PS_CTL_library_complexity}
+\end{table}
+\bigskip %bigger space
+
+
+
 
 \begin{table}[htbp]
 %\setlength{\tabcolsep}{20pt} only to stretch the columns if you want
@@ -137,41 +122,43 @@ CD19$^+$             & 199,014                 & 88,722                         
 \midrule
 CD14$^+$             & 24  & 4 (\textit{HOTAIRM1}$^{\ast}$, \textit{ILF3-AS1}$^{\ast}$, \\
                      &     & \textit{MMP24-AS1}, \textit{RP11-325F22.2})\\                 
-CD4$^+$             & 12  & 1 (\textit{MMP24-AS1}) \\
+CD4$^+$             & 10  & 1 (\textit{MMP24-AS1}) \\
 CD8$^+$             & 21  & 1(\textit{CTB-25B13.12})\\
 CD19$^+$             & 5   & 0\\
 \bottomrule 
 \end{tabular}
 \medskip %gap
-\caption[Functional interactions and overlap with another study for the differentially expressed lncRNAs in each cell type.]{\textbf{Functional interactions and overlap with another study for the differentially expressed lncRNAs in each cell type.}For each cell type the number of differentially expressed lncRNAs (FDR$<$0.05) for which a functional interaction has been experimentally validated based on NPInter database is shown. NPInter documents functional interactions between noncoding RNAs (except tRNAs and rRNAs) and biomolecules (proteins, RNAs and DNAs) which have published experimental validation. This table also records the number of differentially expressed lncRNAs overlapping with the Dolcino \textit{et al.}, 2018 study, where PBMCs from PsA patients and healthy controls are contrasted.($^{\ast}$) indicates dysregulation in the opposite direction between this data and Dolcino \textit{et al.}.}
+\caption[Functional interactions and overlap with another study for the differentially expressed lncRNAs in each cell type.]{\textbf{Functional interactions and overlap with another study for the differentially expressed lncRNAs in each cell type.} For each cell type the number of differentially expressed lncRNAs (FDR$<$0.05) for which a functional interaction has been experimentally validated based on NPInter database is shown. NPInter documents functional interactions between noncoding RNAs (except tRNAs and rRNAs) and biomolecules (proteins, RNAs and DNAs) which have published experimental validation. This table also records the number of differentially expressed lncRNAs overlapping with the Dolcino \textit{et al.}, 2018 study, where PBMCs from PsA patients and healthy controls are contrasted.($^{\ast}$) indicates dysregulation in the opposite direction between this data and Dolcino \textit{et al.}.}
 \label{tab:RNAseq_PS_CTL_lncRNAs_annotation}
 \end{table}
 \bigskip %bigger spac
 
 \begin{table}[htbp]
 %\setlength{\tabcolsep}{20pt} only to stretch the columns if you want
-%\renewcommand{\arraystretch}{1.5}
+\renewcommand{\arraystretch}{0.7}
 \centering
-\begin{tabular}{@{} c }
+\begin{tabular}{@{}c c c}
 \toprule
-\textbf{CD14$^+$ monocytes additional enriched pathways in psoriasis} \\
+\textbf{CD14$^+$ monocytes} & & \\
+\textbf{Pathway} & \textbf{FDR} & \textbf{Fold change} \\
+\midrule
+Generic transcription              & 1.1x10$^{-6}$ & 2.66\\
+RNA transport                      & 4.5x10$^{-5}$ & 2.98\\
+GnRH signalling                    & 2.4x10$^{-4}$ & 3.61\\
+Ribosome biogenesis in eukaryotes  & 3.0x10$^{-4}$ & 3.42\\
+Neurotrophin signaling             & 4.0x10$^{-4}$ & 2.96 \\
+Spliceosome                        & 3.2x10$^{-3}$ & 2.51 \\
+Autophagy                          & 8.9x10$^{-3}$ & 2.18\\
+Protein processing endoplasmic reticulum & 8.9x10$^{-3}$ & 2.05\\
+ & & \\
 \midrule
 \midrule
-Generic transcription \\
-RNA transport \\
-GnRH signalling \\
-Ribosome biogenesis in eukaryotes \\
-Neurotrophin signaling \\
-Spliceosome \\
-Autophagy \\
-Protein processing in endoplasmic reticulum \\
-                        \\
-\textbf{CD8$^+$ additional enriched pathways in psoriasis} \\
+\textbf{CD8$^+$} & & \\
+\textbf{Pathway} & \textbf{FDR} & \textbf{fold change}\\
 \midrule
-\midrule
-Epstein-Barr virus infection \\
-RNA Polymerase I and III, and mitochondrial transcription\\
-Apoptosis \\
+Epstein-Barr virus infection & 1.5x10$^{-2}$ & 2.33 \\
+RNA-pol I and III and        & 3.1x10$^{-2}$ & 2.79\\
+Apoptosis                    & 4.5x10$^{-3}$ & 2.41 \\
 \bottomrule
 \end{tabular}
 \medskip %gap
@@ -179,77 +166,71 @@ Apoptosis \\
 \label{tab:RNAseq_PS_CTL_additional_pathways}
 \end{table}
 
-
-
-\begin{table}[htbp]
+\begin{table}[t]
 %\setlength{\tabcolsep}{20pt} only to stretch the columns if you want
-%\renewcommand{\arraystretch}{1.5}
+\renewcommand{\arraystretch}{0.7}
 \centering
-\begin{tabular}{@{} c }
+\begin{tabular}{@{}c c c}
 \toprule
-\textbf{Lesional versus uninvolved epidermis additional enriched pathways} \\
+\textbf{Lesional vs uninvolved} & & \\
+\textbf{Pathway} & \textbf{FDR} & \textbf{Fold change} \\
 \midrule
-\midrule
-Genes encoding extracellular matrix and extracellular matrix-associated proteins \\ 
-Serine/threonine-protein kinase (PLK1) signalling \\
-Genes encoding secreted soluble factors \\
-Glycolysis/gluconeogenesis \\
-FOXM1 transcription factor network \\
-Phase 1 functionalization of compounds \\
-Biological oxidations \\
-G2/M Checkpoints \\
-Biological oxidations \\
-Aurora B signaling \\
-Chemical carcinogenesis \\
-Serotonergic synapse \\
-Drug metabolism-cytochrome P450 \\
-Mitotic M-M/G1 phases \\
-DNA Replication \\
-MicroRNAs in cancer \\
-Metabolism of amino acids and derivatives \\
-Metabolism of carbohydrates \\
-Glycosaminoglycan metabolism \\
-E2F transcription factor network \\
-p73 transcription factor network \\
-Genes encoding structural ECM glycoproteins \\
-Transmembrane transport of small molecules \\
-Fc-epsilon receptor I signaling in mast cells \\
-Tight junction \\
-Origin recognition complex subunit 1 (Orc1) removal from chromatin \\
+Genes encoding extracellular matrix proteins & 5.1x$10^{-9}$ & 3.3 \\
+Serine/threonine-protein kinase              & 8.1x$10^{-7}$  & 4.6 \\ 
+Genes encoding secreted soluble factors      & 8.1x$10^{-7}$  & 3.42 \\ 
+FOXM1 TF network                             & 2.3x$10^{-6}$  & 4.76 \\ 
+Phase 1 functionalisation compounds          & 8.1x$10^{-6}$  & 4.29 \\ 
+Biological oxidations 	                     & 2.9x$10^{-5}$  & 3.02 \\ 
+G2/M Checkpoints                             & 5.4x$10^{-5}$  & 3.86 \\ 
+Aurora B signaling                           & 8.1x$10^{-5}$  & 3.92 \\
+Chemical carcinogenesis                      & 2.0x$10^{-4}$  & 3.86 \\ 
+Serotonergic synapse                         & 2.0x$10^{-4}$  & 3.86 \\
+Drug metabolism-cytochrome P450              & 2.6x$10^{-4}$  & 3.45 \\ 
+Mitotic M-M/G1 phases                        & 3.0x$10^{-4}$  & 2.16 \\
+MicroRNAs in cancer                          & 6.4x$10^{-3}$  & 2.18 \\
+Glycosaminoglycan metabolism                 & 1.9x$10^{-2}$  & 2.36 \\ 
+E2F TF network                               & 2.0x$10^{-3}$  & 2.49 \\
+p73 TF network                               & 2.3x$10^{-3}$  & 2.45 \\
+Fc-$\epsilon$R I signalling in mast cells    & 4.2x$10^{-3}$  & 2.54 \\ 
+Tight junction                               & 4.2x$10^{-3}$  & 2.13 \\
+Orc1 removal from chromatin                  & 4.7x$10^{-3}$  & 2.38 \\
+Extra-cellular matrix receptor interaction & 9.3x$10^{-3}$  & 2.24 \\
+Transport of inorganic ions and aminoacis & 5.6x$10^{-3}$  & 2.30 \\
 \bottomrule
 \end{tabular}
 \medskip %gap
-\caption[Additional enriched pathways for DEGs between lesional and uninvolved epidermis isolated from psoriasis patients skin biopsies.]{\textbf{Additional enriched pathways for DEGs between lesional and uninvolved epidermis isolated from psoriasis patients skin biopsies.} Significant pathways for FDR$<$0.005. All the enriched pathways contained a minimum of ten DEGs FDR$>$0.05 from the analysis.}
+\caption[Additional enriched pathways for DEGs between lesional and uninvolved epidermis isolated from psoriasis patients skin biopsies.]{\textbf{Additional enriched pathways for DEGs between lesional and uninvolved epidermis isolated from psoriasis patients skin biopsies.} Significant pathways for FDR$<$0.01. All the enriched pathways contained a minimum of ten DEGs FDR$>$0.05 from the analysis.}
 \label{tab:RNAseq_PS_lesional_uninvolved_additional_pathways}
 \end{table}
 
 
 
-\begin{landscape}
-\begin{center}
-%\begin{longtable}[ht]{p{.25\textheight} p{.40\textheight} p{.25\textheight} p{.60\textheight}}
-\begin{longtable}[ht]{c c c c c c c}
-\caption[Loci from the psoriasis GWAS Immunochip presenting log${_10}$ABF$<3$ for the fine-mapping lead SNP in the association analysis.]{\textbf{Loci from the psoriasis GWAS Immunochip presenting log${_10}$ABF$<3$ for the fine-mapping lead SNP in the association analysis.} For each of the locus the closer gene, FM lead SNP, log$_{10}$ABF, Tsoi \textit{et al.},2012 GWAS lead SNP, the OR in the GAPC cohort and the number of SNPs in the 90\% credible set are reported. FM=fine-mapping; ABF=approximated Bayesian factor; OR=odd ratio.}
-\label{tab:Psoriasis_loci_no_fine_mapping}\\
-\toprule
-\textbf{chr} & \textbf{Closer} & \textbf{FM lead} &\textbf{$log_{10}$ABF} & \textbf{GWAS lead}  &  \textbf{GAPC}   & \textbf{90\%} \\
-             & \textbf{gene}   & \textbf{SNP}    &\textbf{FM lead SNP}      & \textbf{SNP}        &  \textbf{OR}     & \textbf{credible set} \\
-\midrule
-\midrule
-10 & \textit{ZMIZ1}	        &  rs1316431	&  2.4	& rs1250546	 & 1.09	& 401 \\
-11 & \textit{RPS6KA4/PRDX5}	&  rs58779949	&  0.3	& rs645078	 & 1.06	& 334 \\
-20 & \textit{RNF114}	        & rs13041638	&  3.1	& rs1056198	 & 1.11	& 116 \\
-6	 & \textit{EXOC2/IRF4}	    & rs113866081	&  2.4	& rs9504361	 & 1.14	& 400 \\
-6	 & \textit{TAGAP}	        & rs62431928	&  2.2	& rs2451258	 & 1.11	& 853 \\
-9	 & \textit{DDX58}	        & rs7045087	  & 0.4	  & rs11795343 & 1.05	& 167 \\
-9	 & \textit{KLF4}	          & rs6477612	  & 2.1	  & rs10979182 & 1.12	& 80 \\
-11 & \textit{ETS1}	          & rs10893884	& 3.5	  & rs3802826	 & 1.15	& 19 \\
-18 & \textit{POL1/STARD6}	  & rs11661229	& 1.6	  & rs545979	 & 1.11	& 121 \\
-\bottomrule
-%\medskip
-\end{longtable}
-\end{center}
-\end{landscape}
+
+%\begin{landscape}
+%\begin{center}
+%%\begin{longtable}[ht]{p{.95\textheight} p{.40\textheight} p{.25\textheight} p{.60\textheight}}
+%\begin{longtable}[htbp]{c c c c c c c}
+%\caption[Loci from the psoriasis GWAS Immunochip presenting log${_10}$ABF$<3$ for the fine-mapping lead SNP in the association analysis.]{\textbf{Loci from the psoriasis GWAS Immunochip presenting log$_{10}$ABF$<3$ for the fine-mapping lead SNP in the association analysis.} For each of the locus the closer gene, FM lead SNP, log$_{10}$ABF, Tsoi \textit{et al.}, 2012 GWAS lead SNP, the OR in the GAPC cohort and the number of SNPs in the 90\% credible set are reported. FM=fine-mapping; ABF=approximated Bayesian factor; OR=odd ratio.}
+%\label{tab:Psoriasis_loci_no_fine_mapping}\\
+%\toprule
+%\textbf{chr} & \textbf{Closer} & \textbf{FM lead} &\textbf{log$_{10}$ABF} & \textbf{GWAS lead}  &  \textbf{GAPC}   & \textbf{90\%} \\
+%             & \textbf{gene}   & \textbf{SNP}    &\textbf{FM lead SNP}      & \textbf{SNP}        &  \textbf{OR}     & \textbf{credible set} \\
+%\midrule
+%\midrule
+%10 & \textit{ZMIZ1}	        &  rs1316431	&  2.4	& rs1250546	 & 1.09	& 401 \\
+%11 & \textit{RPS6KA4/PRDX5}	&  rs58779949	&  0.3	& rs645078	 & 1.06	& 334 \\
+%20 & \textit{RNF114}	        & rs13041638	&  3.1	& rs1056198	 & 1.11	& 116 \\
+%6	 & \textit{EXOC2/IRF4}	    & rs113866081	&  2.4	& rs9504361	 & 1.14	& 400 \\
+%6	 & \textit{TAGAP}	        & rs62431928	&  2.2	& rs2451258	 & 1.11	& 853 \\
+%9	 & \textit{DDX58}	        & rs7045087	  & 0.4	  & rs11795343 & 1.05	& 167 \\
+%9	 & \textit{KLF4}	          & rs6477612	  & 2.1	  & rs10979182 & 1.12	& 80 \\
+%11 & \textit{ETS1}	          & rs10893884	& 3.5	  & rs3802826	 & 1.15	& 19 \\
+%18 & \textit{POL1/STARD6}	  & rs11661229	& 1.6	  & rs545979	 & 1.11	& 121 \\
+%\bottomrule
+%%\medskip
+%\end{longtable}
+%\end{center}
+%\end{landscape}
 
 
 
@@ -260,43 +241,38 @@ Origin recognition complex subunit 1 (Orc1) removal from chromatin \\
 
 \begin{table}[htbp]
 %\setlength{\tabcolsep}{20pt} only to stretch the columns if you want
-%\renewcommand{\arraystretch}{1.5}
+\renewcommand{\arraystretch}{0.7}
 \centering
-\begin{tabular}{@{} c }
+\begin{tabular}{@{}c c c}
 \toprule
-\textbf{CC-mixed CD14$^+$ monocytes additional enriched pathways} \\
+\textbf{Pathway} & \textbf{FDR} & \textbf{Fold change} \\
 \midrule
-\midrule
-SLE \\
-Translation \\
-3'-UTR-mediated translational regulation \\
-Th-1 and Th-2 cell differentiation \\
-Peptide chain elongation \\
-Rheumatoid arthritis \\
-Metabolism of proteins \\
-Cell adhesion molecules (CAMs) \\
-Th-17 cell differentiation \\
-Nonsense mediated decay enhanced by the exon junction complex \\
-SRP-dependent co-translational protein targeting to membrane \\
-Hemostasis \\
-Metabolism of mRNA \\
-Platelet activation, signalling and aggregation \\
-HTLV-I infection \\
-Innate immune system \\
-Adaptive immune system \\
-                        \\
-\textbf{CC-IL7R CD14$^+$ monocytes additional enriched pathways} \\
-\midrule
-\midrule
-SLE \\
-Tuberculosis \\
-Epstein-Barr virus infection \\
-Immune System \\
+Antigen processing and presentation          & 2.5x$10^{-6}$  & 3.4 \\
+Chemokine signalling                         & 1.8x$10^{-5}$  & 2.3 \\
+GPCR ligand binding                          & 1.9x$10^{-5}$  & 2.2 \\
+Platelet activation and aggregation          & 1.7x$10^{-7}$  & 2.1 \\
+NOD-like receptor signalling                 & 4.0x$10^{-3}$  & 1.8 \\
+IFN/IFN$\gamma$ signalling                   &1.2x$10^{-3}$   &2.4  \\
+Cytokine and interleukin sig.         			 &5.5x$10^{-4}$   &1.7  \\
+Complement cascade                           &3.8x$10^{-10}$  &6.7  \\
+MHC-II antigen presentation                  &2.8x$10^{-5}$   &2.6  \\
+Osteoclast differentiation                   &1.2x$10^{-3}$   &2.0  \\
+Apoptosis                                    &9.9x$10^{-3}$   &1.8  \\
+Phagosome                                    &1.2x$10^{-12}$  &3.5  \\
+Cell adhesion molecules (CAMs)               &2.4x$10^{-5}$   &2.7  \\
+PPAR signalling                              &3.3x$10^{-3}$   &2.7  \\
+VEGF signalling                              &2.0x$10^{-4}$   &2.4  \\
+Lymphoid and non-lymphoid cells interaction  &5.5x$10^{-4}$   &2.3  \\
+IL-4 and 13 signalling                       &1.7x$10^{-3}$   &2.2  \\
+PI3K-Akt signaling pathway                   &9.9x$10^{-6}$   &2.1  \\
+Leukocyte transendothelial migration         &4.6x$10^{-3}$   &2.1  \\
+FoxO signalling                              &1.7$10^{-3}$    &2.1  \\
+Cytokine-cytokine receptor interaction       &5.9$10^{-3}$    &1.8  \\
+Signalling by receptor tyrosin kinases       &5.5$10^{-4}$    &1.6  \\
 \bottomrule
 \end{tabular}
-\medskip %gap
-\caption[Additional enriched pathways for the DEGs between SF and PB CD14$^+$ monocytes from the CC-mixed and CC-IL7R subpopulations.]{\textbf{Additional enriched pathways for the DEGs between SF and PB CD14$^+$ monocytes from the CC-mixed and CC-IL7R subpopulations.} All the enriched pathways contained a minimum of ten DEGs from the analysis and were significant at an FDR$<$0.01.}
-\label{tab:PSA_scRNAseq_CC_mixed_and_IL7R_additional_pathways}
+\caption[Enriched pathways for the scRNA-seq DEGs between synovial fluid PsA CD14$^+$ monocytes.]{\textbf{Enriched pathways for the scRNA-seq DEGs between synovial fluid PsA CD14$^+$ monocytes.} All the enriched pathways contained a minimum of ten DEGs (FDR$<$0.01 and fold change$>$1.5) from the analysis and were significant at an FDR$<$0.01.}
+\label{tab:PSA_scRNAseq_enriched_pathways}
 \end{table}
 
 
@@ -304,10 +280,10 @@ Immune System \\
 \begin{center}
 %\begin{longtable}[ht]{p{.25\textheight} p{.40\textheight} p{.25\textheight} p{.60\textheight}}
 \begin{longtable}[ht]{c c c c c c c c}
-\caption[PsA GWAS Immunochip loci presenting log${_10}$ABF$<3$ for the fine-mapping lead SNP in the association analysis.]{\textbf{PsA GWAS Immunochip loci presenting -log${_10}$ABF$<3$ for the fine-mapping lead SNP in the association analysis.} For each of the signals chromosome (chr), genes nearby, log${_10}$ABF$<3$ for the fine-mapping (FM) lead SNP, the PsA GWAS lead SNP including p-value in the study and the number of SNPs in the 99\% credible set reported by Bowes \textit{et al.} for that signal. NA refers to the locus reported as fine-mapped by Bowes \textit{et al.}. OR=odd ratio}
+\caption[PsA GWAS Immunochip loci presenting log$_{10}$ABF$<3$ for the fine-mapping lead SNP in the association analysis.]{\textbf{PsA GWAS Immunochip loci presenting log$_{10}$ABF$<3$ for the fine-mapping lead SNP in the association analysis.} For each of the signals chromosome (chr), genes nearby, log$_{10}$ABF$<3$ for the fine-mapping (FM) lead SNP, the PsA GWAS lead SNP including p-value in the study and the number of SNPs in the 99\% credible set reported by Bowes \textit{et al.} for that signal. NA refers to the locus reported as fine-mapped by Bowes \textit{et al.} 2015. OR=odds ratio}
 \label{tab:PsA_loci_no_fine_mapping}\\
 \toprule
-\textbf{chr} & \textbf{Closer} & \textbf{FM lead} &\textbf{$log_{10}$ABF} & \textbf{GWAS lead}  &  \textbf{GWAS lead}   &\textbf{Bowes FM} & \textbf{Bowes 99\%} \\
+\textbf{chr} & \textbf{Closest} & \textbf{FM lead} &\textbf{log$_{10}$ABF} & \textbf{GWAS lead}  &  \textbf{GWAS lead}   &\textbf{Bowes FM} & \textbf{Bowes 99\%} \\
              & \textbf{gene} & \textbf{SNP}    &\textbf{FM lead SNP}   & \textbf{SNP (p-value)} &  \textbf{OR}          &\textbf{lead SNP} & \textbf{credible set} \\
 \midrule
 \midrule
@@ -355,6 +331,7 @@ Immune System \\
 \label{figure:ATAC_absent_peaks_distribution}
 \end{figure}
 
+
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./Appendix/pdfs/Chapter3/ATAC_PS02_tapestation_40min}
@@ -363,12 +340,10 @@ Immune System \\
 \end{figure}
 
 
-
-
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./Appendix/pdfs/Chapter3/ATAC_skin_biopsy_samples_all_methods_TSS_enrichment_supplementary}
-\caption[Assessment of TSS enrichment from ATAC 1 and Fast-ATAC in healthy and psoriasis KCs isolated from skin biopsy samples.]{\textbf{Assessment of TSS enrichment from ATAC 1 and Fast-ATAC in healthy and psoriasis KCs isolated from skin biopsy samples.} Fold-enrichment of ATAC fragments across the Ensembl annotated TSS from the different ATAC libraries.}
+\caption[Assessment of TSS enrichment from ATAC 1 and Fast-ATAC in healthy and psoriasis KCs isolated from skin biopsy samples.]{\textbf{Assessment of TSS enrichment from ATAC 1 and Fast-ATAC in healthy and psoriasis KCs isolated from skin biopsy samples.} Fold-enrichment of ATAC fragments across the Ensembl annotated TSS from the different librariesgenerated using skin isolated keratinocytes from psoriasis patients (lesional and uninvolved) or healthy controls biopsies using ATAC 2 and Fast-ATAC protocols detailed in Table \ref{tab:ATAC_skin_optimisation_protocols}.}
 \label{figure:TSS_skin_biopsies}
 \end{figure}
 
@@ -376,23 +351,23 @@ Immune System \\
 
 \begin{figure}[htbp]
 \centering
-\begin{subfigure}{0.70\textwidth}
+\begin{subfigure}{0.48\textwidth}
 \centering
 \includegraphics[width=\textwidth]{./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C1}
 \caption{\textbf{}}
 % The percentage sign indicated that the other subfig goes side by side
-\end{subfigure}
-\begin{subfigure}{0.60\textwidth}
+\end{subfigure}%
+\begin{subfigure}{0.48\textwidth}
 \centering
 \includegraphics[width=\textwidth]{./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C3}
 \caption{\textbf{}}
 \end{subfigure}
-\begin{subfigure}{0.60\textwidth}
+\begin{subfigure}{0.48\textwidth}
 \centering
 \includegraphics[width=\textwidth]{./Appendix/pdfs/Chapter3/FAST_ATAC_skin_tapestation_C4}
 \caption{\textbf{}} % to add text to the figure name
-\end{subfigure}
-\begin{subfigure}{0.60\textwidth}
+\end{subfigure}%
+\begin{subfigure}{0.48\textwidth}
 \centering
 \includegraphics[width=\textwidth]{./Appendix/pdfs/Chapter3/Omni_ATAC_NHEK_Rep1_tapestation}
 \caption{\textbf{}} % to add text to the figure name
@@ -401,6 +376,27 @@ Immune System \\
 \caption[Fast-ATAC and Omni-ATAC NHEK pre-sequencing profiles of relative abundance of DNA library fragment sizes.]{\textbf{Fast-ATAC and Omni-ATAC NHEK pre-sequencing profiles of relative abundance of DNA library fragment sizes.} Pre-sequencing quantification of DNA fragment sizes from the libraries generated  using the (A) C2, (B) C3, and (C) C4 versions of the Fast-ATAC protocol based on modifications in the detergent and Tn5 concentration and (D) Omni-ATAC. C2, C3 and C4 detergent and Tn5 concentrations are detailed in Table \ref{tab:ATAC_skin_optimisation_protocols}.}
 \label{figure:NHEK_tapestation}
 \end{figure}
+
+
+\bigskip
+\begin{figure}[t]
+	\centering
+	\begin{subfigure}[b]{0.48\textwidth}
+		\centering 
+		\includegraphics[width=\textwidth]{./Appendix/pdfs/Chapter3/ATAC_all_samples_MT_by_method_and_cell_type}
+		\caption{}
+	\end{subfigure}%
+	~
+	\begin{subfigure}[b]{0.48\textwidth} 
+		%the [b] prevents offset in subcaptions
+		\centering
+		\includegraphics[width=\textwidth]{./Appendix/pdfs/Chapter3/ATAC_all_samples_TSS_by_method_and_cell_type}%
+		\caption{}
+	\end{subfigure}
+	\caption[Differences in TSS fold-enrichment and percentage of mitochondrial between the ATAC-seq and Fast-ATAC libraries from all the samples generated in the thesis.]{\textbf{Differences in TSS fold-enrichment and percentage of mitochondrial between the ATAC-seq and Fast-ATAC libraries from all the samples generated in the thesis.} Boxplox illustrating differences between ATAC-seq and Fast-ATAC by cell type for (A) TSS fold enrichment and (B) mitochondrial reads (percentage).}
+	\label{figure:Comparison_ATACseq_vs_fastATAC_all_thesis_samples}
+\end{figure}
+
 
 
 \clearpage
@@ -415,12 +411,12 @@ Immune System \\
 \includegraphics[width=\textwidth]{./Appendix/pdfs/Chapter4/ATAC_PS_CTL_MT_percent_boxplot}
 \caption{\textbf{}}
 \end{subfigure}
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \includegraphics[width=\textwidth]{./Appendix/pdfs/Chapter4/ATAC_PS_CTL_reads_vs_peaks_dotplot}
 \caption{\textbf{}}
 \end{subfigure}
-\caption[Percentage of MT reads and called peaks after IDR p-value filtering in the ATAClibraries generated in CD14$^+$ monocytes, CD4$^+$, CD8$^+$ and CD19$^+$ isolated from psoriasis patients and healthy controls.]{\textbf{(A) Percentage of MT reads in the ATAC-seq samples generated in CD14$^+$ monocytes, CD4$^+$, CD8$^+$ and CD19$^+$ isolated from psoriasis patients and healthy controls.} Samples from cohort 1A (open circlues and triangles) were generated with the standard ATAC-seq protocol from Buenrostro \textit{et al.}, 2013 whereas samples from cohort 1B (filles circles and triangles) were processed using FAST-ATAC \parencite{Corces2016}. (B) For each of the ATAC libraries, representation of the number of significant peaks based on IDR optimal p-value filtering versus the total million of reads after filtering.}
+\caption[Mitochondrial reads and called peaks after IDR p-value filtering in the ATAC libraries generated in psoriasis patients and healthy control samples.]{\textbf{Miitochondrial reads and called peaks after IDR p-value filtering in the ATAC libraries generated in psoriasis patients and healthy control samples.}. (A) Percentage of MT reads in the ATAC-seq samples generated in CD14$^+$ monocytes, CD4$^+$, CD8$^+$ and CD19$^+$ isolated from psoriasis patients and healthy controls. Samples from cohort 1A (open circles and triangles) were generated with the standard ATAC-seq protocol from Buenrostro \textit{et al.}, 2013 whereas samples from cohort 1B (filled circles and triangles) were processed using FAST-ATAC \parencite{Corces2016}. (B) For each of the ATAC libraries, representation of the number of significant peaks based on IDR optimal p-value filtering versus the total million of reads after filtering.}
 \label{figure:ATAC_PS_CTL_MT_percent_and_called_peaks}
 \end{figure}
 
@@ -436,19 +432,19 @@ Immune System \\
 \bigskip
 \begin{figure}[htbp]
 \centering
-\begin{subfigure}[b]{0.50\textwidth}
+\begin{subfigure}[b]{0.45\textwidth}
 \centering 
 \includegraphics[width=\textwidth]{./Appendix/pdfs/Chapter4/ATAC_CD8_PS_CTL_PCA}
 \caption{}
-\end{subfigure}
+\end{subfigure}%
 ~
-\begin{subfigure}[b]{0.50\textwidth} 
+\begin{subfigure}[b]{0.45\textwidth} 
 %the [b] prevents offset in subcaptions
 \centering
 \includegraphics[width=\textwidth]{./Appendix/pdfs/Chapter4/PS_CTL_all_samples_varied_PCA3and4_plot}
 \caption{}
 \end{subfigure}
-\caption[PCA analysis illustrating batch effect in ATAC and RNA-seq samples.]{\textbf{PCA analysis illustrating batch effect in ATAC and RNA-seq samples.} (A) First and second component of the PCA analysis performed using the normalised ATAC  counts in a master list of consensus regions across all the combined tCD8$^+$ samples from psoriasis patients and healthy controls. b) Third and fourth component of the PCA analysis performed on the normalised number of reads mapping to the Ensmbl list of mRNAs and lncRNAs detected in tCD8$^+$ cells from psoriasis patients and healthy controls. For each dot colour corresponds to cohort ID (batch) and shape to condition (psoriasis or control).}
+\caption[PCA analysis illustrating batch effect in ATAC and RNA-seq samples.]{\textbf{PCA analysis illustrating batch effect in ATAC and RNA-seq samples.} (A) First and second component of the PCA analysis performed using the normalised ATAC counts in a list of consensus peaks across all the combined CD8$^+$ samples from psoriasis patients and healthy controls. (B) Third and fourth component of the PCA analysis performed on the normalised number of reads mapping to the Ensmbl list of mRNAs and lncRNAs detected in CD8$^+$ cells from psoriasis patients and healthy controls.}
 \label{figure:ATAC_RNAseq_batch_effect}
 \end{figure}
 
@@ -456,13 +452,13 @@ Immune System \\
 
 \begin{figure}[htbp]
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \includegraphics[width=\textwidth]{./Appendix/pdfs/Chapter4/PS_CTL_RNAseq_uniquely_mapped_reads_rate_cell_type_batch_and_condition_boxplots}
 \caption{\textbf{}}
 % The percentage sign indicated that the other subfig goes side by side
 \end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \includegraphics[width=\textwidth]{./Appendix/pdfs/Chapter4/PS_CTL_RNAseq_total_reads_per_batch_cell_type_and_condition}
 \caption{\textbf{}}
@@ -490,11 +486,66 @@ Immune System \\
 \end{figure}
 
 
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.6\textwidth]{./Results2/pdfs/PS_CTL_all_samples_heatmap_including_batch}
+\caption[Distance heatmap with hierarchical clustering illustrating the sample variability based on the gene expression profiles for all 72 samples.]{\textbf{Distance heatmap with hierarchical clustering illustrating the sample variability based on the gene expression profiles for all 72 samples.} Distance matrix built based on normalised read counts mapping to 20,493 Ensembl featured remaining after appropriate filtering followed by hierarchical clustering of the samples. Additional annotation of the clustering based on cohort identity is included on the left hand side.}
+\label{figure:RNAseq_heat_map}
+\end{figure}
+\
+
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.45\textwidth]{./Appendix/pdfs/Chapter4/Skin_RNAseq_correlation_MIR31HG_HIF1A_plot}
+\caption[Correlation in gene expression between the miRs \textit{MIR31HG} and the target gene \textit{HIF-1A} in lesional and uninvolved skin.]{\textbf{Correlation in gene expression between the miRs \textit{MIR31HG} and the target gene \textit{HIF-1A} in lesional and uninvolved skin.} Plot showing the correlation in log$_2$ normalised read counts for \textit{MIR31HG} and \textit{HIF-1A}. Pearson correlation values (R) and significance (p-value) are included. Each of the dots represents one samples, where colour represents condition (lesional or uninvolved) and shape corresponds to the patient ID.}
+\label{figure:RNAseq_lesional_uninvolved_miR_correlations}
+\end{figure}
+
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.55\textwidth]{./Appendix/pdfs/Chapter4/UCSC_ETS1_credible_set_track}
+\caption[Epigenetic landscape at the location of the fine-mapped SNP rs12223943 at the \textit{ETS1} psoriasis GWAS locus.]{\textbf{Epigenetic landscape at the location of the fine-mapped SNP rs12223943 at the \textit{ETS1} psoriasis GWAS locus.} UCSC Genome Browser view illustrating normalised ATAC read density and H3K27ac fold-enrichment as well as publicly available epigenetic datasets (chromatin segmentation map and H3K4me1) (y-axis) at the location (x-axis) of the fine-mapped SNP rs12223943 (blue dashed line). Only representative ATAC tracks from control samples are shown for CD14$^+$ monocytes, CD4$^+$ and CD19$^+$ cells.}
+\label{figure:ATAC_PS_CTL_ETS1_FM}
+\end{figure}
+
+
+
+
 \clearpage
 
 \section{Chapter 5 Figures}
 
+
 \bigskip
+\begin{figure}[H]
+\centering
+\begin{subfigure}[b]{0.48\textwidth}
+\centering 
+\includegraphics[width=\textwidth]{./Appendix/pdfs/Chapter5/ATAC_PSA_pcnt_dups_and_MT_reads_boxplot}
+\caption{}
+\end{subfigure}%
+~
+\begin{subfigure}[b]{0.48\textwidth} 
+%the [b] prevents offset in subcaptions
+\centering
+\includegraphics[width=\textwidth]{./Appendix/pdfs/Chapter5/ATAC_PSA_all_peaks_vs_num_reads}%
+\caption{}
+\end{subfigure}
+\caption[Assessment of the percentage of mitochrondrial and duplicated reads and the number of called peaks after filtering in the ATAC data from peripheral blood and synovial fluid of PsA patients samples.]{\textbf{Assessment of the percentage of  mitochrondrial and duplicated reads and the number of called peaks after filtering in the ATAC data from peripheral blood and synovial fluid of PsA patients samples.} For each of the cell types and samples (A) boxplot representing percentage of duplicated and mitochondrial reads combined and (B) representation of the  number of significant peaks after filtering based on IDR optimal p-values versus the total million reads after filtering for each of the samples. For each point, colour codes for cell type and shape for tissue (SF=synovial fluid; PB=peripheral blood).}
+\label{figure:PsA_FAST_ATAC_QC_supplementary}
+\end{figure}
+
+
+%\begin{figure}[htbp]
+%\centering
+%\includegraphics[width=0.6\textwidth]{./Appendix/pdfs/Chapter5/PSA_ATAC_consensus_list_eQTL_enrichment_all_cell_types}
+%\caption[Enrichment of eQTL SNPs for the consensus list of ATAC peaks used to perform differential chromatin accessibility analysis in each cell type.]{\textbf{Enrichment of eQTL SNPs for the consensus list of ATAC peaks used to perform differential chromatin accessibility analysis in each cell type.} Barplot illustrating for the consensus list of ATAC peaks in of the 4 assayed cell types the log2 fold change and significance (FDR) of the top enriched GTEx eQTL dataset (whole blood) and the publicly available eQTL datasets in immune cell types. Although enrichment of eQTL SNPs in the majority of GTEx datasets for the consensus list of peaks in the 4 cell types was found, whole blood presented the largest and most significant enrichment amongst all of them}
+%\label{figure:eQTL_enrichment_CP_all_cell_types}
+%\end{figure}
+
+
 \begin{figure}[htbp]
 \centering
 \begin{subfigure}[b]{0.45\textwidth}
@@ -521,44 +572,138 @@ Immune System \\
 \includegraphics[width=\textwidth]{./Appendix/pdfs/Chapter5/ATAC_PsA_NK_permutation_analysis}%
 \caption{}
 \end{subfigure}
-\caption[Permutation analysis SF vs PB in CD14$^+$ monocytes,CD4m$^+$,CD8m$^+$ and NK.]{\textbf{Permutation analysis SF vs PB in CD14$^+$ monocytes,CD4m$^+$,CD8m$^+$ and NK.} Sample labels were permuted within each cell type to achieve the ten unique possible combinations and differential analysis was performed. The number of significant DARs (FDR$<$0.01 and no abs(FC)$>$1.5) across all permutations in plotted for (A) CD14$^+$ monocytes, (B) mCD4$^+$, (C) mCD8$^+$ and (D) NK, demonstrating that the true observation (dashed red line) is significantly more than expected by chance (p-value$<$0.1, the lowest p-value for the maximum number of permutations that can be conducted with this sample size) in all four cell types.}
+\caption[Permutation analysis for the DARs found in synovial vs peripheral blood in CD14$^+$ monocytes, mCD4$^+$, mCD8$^+$ and NK cells.]{\textbf{Permutation analysis for the DARs found in synovial vs peripheral blood in CD14$^+$ monocytes, mCD4$^+$, mCD8$^+$ and NK cells.} Sample labels were permuted within each cell type to achieve the ten unique possible combinations and differential analysis was performed. The number of significant DARs (FDR$<$0.01) across all permutations in plotted for (A) CD14$^+$ monocytes, (B) mCD4$^+$, (C) mCD8$^+$ and (D) NK cells, demonstrating that the true observation (dashed red line) is significantly more than expected by chance (p-value$<$0.1, the lowest p-value for the maximum number of permutations that can be conducted with this sample size) in all four cell types.}
 \label{figure:PsA_perm_analysis}
 \end{figure}
 
 
-
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.6\textwidth]{./Appendix/pdfs/Chapter5/PSA_10X_heatmap_SF_PB_monocytes_clusters_mixed_and_IL7R}
-\caption[Heatmap for the top 20 marker genes of the CC-mixed and CC-IL7R CD14$^+$ monocytes subpopulations.]{\textbf{Heatmap for the top 20 marker genes of the CC-mixed and CC-IL7R CD14$^+$ monocytes subpopulations.} Rows are the top 20 marker genes for each of the two subpopulations (total of 40 genes). The columns represent each of the cells members of the CC-mixed (left) or CC-IL7R (right) clusters. The colour scale represents the log$_2$FC in the expression of the marker gene in a particular cell of the cluster compared to the average expression of all the cells from the other cluster.}
-\label{figure:PSA_scRNAseq_CC_mixed_and_IL7R_markers_heatmap}
+\begin{subfigure}[b]{0.40\textwidth}
+\centering 
+\includegraphics[width=\textwidth]{./Appendix/pdfs/Chapter5/ATAC_PSA_DAR_monocytes_chromatin_segments_enrichment_fc}
+\caption{}
+\end{subfigure}
+~
+\begin{subfigure}[b]{0.40\textwidth}
+\centering 
+\includegraphics[width=\textwidth]{./Appendix/pdfs/Chapter5/ATAC_PSA_DAR_CD4_chromatin_segments_enrichment_fc}
+\caption{}
+\end{subfigure}
+~
+\begin{subfigure}[b]{0.40\textwidth} 
+%the [b] prevents offset in subcaptions
+\centering
+\includegraphics[width=\textwidth]{./Appendix/pdfs/Chapter5/ATAC_PSA_DAR_CD8_chromatin_segments_enrichment_fc}%
+\caption{}
+\end{subfigure}
+\begin{subfigure}[b]{0.40\textwidth} 
+%the [b] prevents offset in subcaptions
+\centering
+\includegraphics[width=\textwidth]{./Appendix/pdfs/Chapter5/ATAC_PSA_DAR_NK_chromatin_segments_enrichment_fc}%
+\caption{}
+\end{subfigure}
+\caption[Enrichment of DARs in the 15 chromatin states of the cell type specific Roadmap Epigenomic Project segmentation maps.]{\textbf{Enrichment of DARs in the 15 chromatin states of the cell type specific Roadmap Epigenomic Project segmentation maps.} Barplots illustrating the chromatin states significantly enriched (FDR$<$0.01) in DARs from the differential chromatin accessibility analysis between synovial fluid and peripheral blood in (A) CD14$^+$ monocytes, (B) mCD4$^+$, (C) mCD8$^+$ and (D) NK cells. For each of the enriched chromatin states the statistical significance (FDR) and the magnitude (log$_2$ fold change) of the enrichment is included.}
+\label{figure:PSA_ATAC_DARs_chromatin_states_enrichment}
 \end{figure}
+
 
 \bigskip
 \begin{figure}[htbp]
 \centering
-\begin{subfigure}[b]{0.70\textwidth}
+\begin{subfigure}[b]{0.48\textwidth}
 \centering 
-\includegraphics[width=\textwidth]{./Appendix/pdfs/Chapter5/PSA_SF_clusters_and_monocytes_markers}
+\includegraphics[width=\textwidth]{./Appendix/pdfs/Chapter5/PSA_monocytes_scanpy_single_cell_SF_all_cell_types}
 \caption{}
-\end{subfigure}
+\end{subfigure}%
 ~
-\begin{subfigure}[b]{0.70\textwidth} 
+\begin{subfigure}[b]{0.48\textwidth} 
 %the [b] prevents offset in subcaptions
 \centering
-\includegraphics[width=\textwidth]{./Appendix/pdfs/Chapter5/PSA_PB_clusters_and_monocytes_markers}
+\includegraphics[width=\textwidth]{./Appendix/pdfs/Chapter5/PSA_monocytes_scanpy_single_cell_PB_all_cell_types}
 \caption{}
 \end{subfigure}
-\caption[Identification of the CD14$^+$ monocytes populations from bulk SFMCs and PBMCs using scRNA-seq transcriptomes.]{\textbf{Identification of the CD14$^+$ monocytes populations from bulk SFMCs and PBMCs using scRNA-seq transcriptomes.} Visualisation using t-SNE dimensional reduction of the cell subpopulations identified in (A) SFMCs and (B) PBMCs and the overlay of CD14$^+$ monocytes characteristic markers (left hand side panel of (A) and (B))  for a representative PsA sample. Clustering performed using recommended resolution (res=0.6) allowed to identify CD4$^+$ (pink), CD8$^+$ (khaki), CD14$^+$ monocytes (green), NK (purple), DCs (blue), B cells (red) and others (grey). On the left hand side panel, expression for two characteristics CD14$^+$ monocytes markers (\textit{CD14} and \textit{LYZ}) used to subset this population (dark green dots) is overlaid on the t-SNE visual representation of all the cells in each of the tissues.}
+\caption[Identification of the CD14$^+$ monocytes populations from bulk SFMCs and PBMCs using scRNA-seq transcriptomes.]{\textbf{Identification of the CD14$^+$ monocytes populations from bulk SFMCs and PBMCs using scRNA-seq transcriptomes.} Visualisation using UMAP dimensional reduction of the cell type populations identified in (A) SFMCs and (B) PBMCs for a representative PsA sample. Clustering performed using default resolution allowed to identify CD4$^+$ (pink), CD8$^+$ (khaki), CD14$^+$ monocytes (green), NK (purple), DCs (blue), B cells (red) and others (grey).}
 \label{figure:PsA_scRNAseq_SF_an_PB_monocytes_identification_from_bulk}
 \end{figure}
 
 
 
+\bigskip
+\begin{figure}[ht]
+\centering
+\begin{subfigure}[b]{0.48\textwidth}
+\centering 
+\includegraphics[width=\textwidth]{./Appendix/pdfs/Chapter5/PSA_scanpy_single_cell_HLAD_vln_and_overlaid_markers}
+\caption{}
+\end{subfigure}%
+~
+\begin{subfigure}[b]{0.48\textwidth} 
+%the [b] prevents offset in subcaptions
+\centering
+\includegraphics[width=\textwidth]{./Appendix/pdfs/Chapter5/PSA_scanpy_single_cell_phagocytosis_vln_and_overlaid_markers}
+\caption{}
+\end{subfigure}
+\caption[Expression levels of antigen presentation and phagocytosis characteristic genes in synovial fluid and peripheral blood CD14$^+$ monocytes.]{\textbf{Expression levels of antigen presentation and phagocytosis characteristic genes in synovial fluid and peripheral blood CD14$^+$ monocytes.} Expression intensities of (A) MHC-II genes \textit{HLA-DRB1}, \textit{HLA-DRB5} and \textit{HLA-DPB1} and (B) the phagocytic markers \textit{CD36}, \textit{CD93} and \textit{CLEC4E}. On the left expression of each genes is overlaid on the UMAP dimensional reduction for the combined synovial fluid and peripheral blood CD14$^+$ monocytes analysed by scRNA-seq. On the right, violin plots illustrate for synovial fluid and peripheral blood CD14$^+$ monocytes (x-axis) the probability density of expression (y-axis) for each of the genes. SF=synovial fluid; PB=peripheral blood.}
+\label{figure:PsA_scRNAseq_ag_presentation_phagocytosis}
+\end{figure}
+
+
+
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.5\textwidth]{./Appendix/pdfs/Chapter5/PSA_SF_elisa_cytokines_quantification}
-\caption[Quantification of cytokine levels in SF from ten PsA patients.]{\textbf{Quantification of cytokine levels in SF from ten PsA patients.} Barplot graph illustrating pg/mL (x-axis) for a number of cytokines measured from SF of ten PsA patients by collaborators at University Basle using enzyme-linked immunosorbent assay (ELISA). Each circle represents a patients and error bars represent the standard deviation (SD) of the mean from all patients combined. Measurement for the same cytokines was performed in matched plasma from the same patients and all of them failed to be detected.}
-\label{figure:ELISA_SF_PsA}
+\begin{subfigure}[b]{0.60\textwidth}
+\centering 
+\includegraphics[width=\textwidth]{./Appendix/pdfs/Chapter5/PSA_monocytes_scanpy_single_cell_SFvsPB_volcano_plot_differential_analysis_less_labels}
+\caption{}
+\end{subfigure}
+~
+\begin{subfigure}[b]{0.50\textwidth}
+\centering 
+\includegraphics[width=\textwidth]{./Appendix/pdfs/Chapter5/PSA_monocytes_scanpy_single_cell_SFvsPB_PCR_correlation_fc_filtered}
+\caption{}
+\end{subfigure}%
+~
+\begin{subfigure}[b]{0.50\textwidth} 
+%the [b] prevents offset in subcaptions
+\centering
+\includegraphics[width=\textwidth]{./Appendix/pdfs/Chapter5/PSA_monocytes_scanpy_single_cell_SFvsPB_scRNA_ATAC_corelation}
+\caption{}
+\end{subfigure}
+\caption[Differential gene expression between synovial fluid and peripheral blood PsA CD14$^+$ monocytes and correlation with qPCR and chromatin accessibility]{\textbf{Correlation between scRNA-seq, qPCR and chromatin accessibility in PsA CD14$^+$ monocytes.} (A) Volcano plots showing differences in gene expression between synovial fluid and peripheral blood CD14$^+$ monocyte using scRNA-seq data. The significance (log$_{10}$FDR) of the differential expression (y-axis) is plotted against the log${_2}$ fold change, where a positive fold change indicates higher expression in CD14$^+$ monocytes from synovial fluid compared to peripheral blood and viceversa. Genes are coloured based on FDR and log$_{2}$fold changes and some of the top significant genes are labelled. (B) Comparison of the fold-changes for the shared DEGs between scRNA-seq and qPCR analysis of synovial fluid vs peripheral blood CD14$^+$ monocytes. The barplot illustrates the log$_2$fold change for the 30 DEGs identified by scRNA-seq (based on FDR$<$0.01 and fold change$>$1.5) and qPCR array (based on p-value$<$0.05) analysis. (B) Correlation plot comparing synovial fluid and peripheral blood differences in scRNA-seq expression and ATAC chromatin accessibility in CD14$^+$ monocytes. The log$_2$fold changes for scRNA-seq differential expression of all transcripts in CD14$^+$ monocytes are plotted against the log$_2$fold change for total CD14$^+$ monocytes ATAC differential chromatin accessibility analysis in regions proximal ($\leq$5Kb) to the same genes. Blue colouring indicates significant differential expression in scRNA-seq only; green represents ATAC significant DAR only; red indicates significant differential expression and chromatin accessibility; grey indicates no significant differential expression or chromatin accessibility in CD14$^+$ monocytes. Significance is based on FDR and fold change thresholds (FDR$<$0.01 and fold change$>$1.5) in both assays.}
+\label{figure:PSA_monocytes_scanpy_single_cell_volcano_and_qPCR_ATAC_correlation}
 \end{figure}
+
+%\begin{figure}[htbp]
+%\centering
+%\includegraphics[width=0.7\textwidth]{./Results3/pdfs/PSA_monocytes_scanpy_single_cell_SFvsPB_volcano_plot_differential_analysis_less_labels}
+%\caption[Contrast between synovial fluid and peripheral blood CD14$^+$ monocytes using sc-RNA-seq and correlation with ATAC differential accessible regions.]{\textbf{Contrast between synovial fluid and peripheral blood CD14$^+$ monocytes using sc-RNA-seq and correlation with ATAC differential accessible regions.} Volcano plots showing differences in gene expression between synovial fluid and peripheral blood CD14$^+$ monocyte using scRNA-seq data. The significance (log$_{10}$FDR) of the differential expression (y-axis) is plotted against the log${_2}$fold change, where a positive fold change indicates higher expression in CD14$^+$ monocytes from synovial fluid compared to peripheral blood and viceversa. Genes are coloured based on FDR and log$_{2}$fold changes and some of the top significant genes are labelled.}
+%\label{figure:PSA_monocytes_scanpy_single_cell_volcano_plots_and_ATAC_correlation}
+%\end{figure}
+
+
+
+%\begin{figure}[htbp]
+%\centering
+%\includegraphics[width=0.6\textwidth]{./Appendix/pdfs/Chapter5/PsA_FM_SNPs_overlap_eQTL_one_SNP_per_eGene}
+%\caption[Enrichment of PsA GWAS fine-mapped SNPs for publicly available eQTL datasets.]{\textbf{Enrichment of PsA GWAS fine-mapped SNPs for publicly available eQTL datasets.} The percentage of SNPs from the combined 90\% credible setx SNPs of the seven successfully fine-mapped PsA loci overlapping SNPs from publicly available eQTL datasets (immune cell types and GTeX) are shown (red dot). This overlap is compared to the distribution of overlaps with the same eQTL datasets for each of the 1,000 sets of background SNPs (boxplots). Significance of the enrichment is indicated as p-value calculated using binomial test.}
+%\label{figure:PSA_fine_mapping_eQTL_enrichment}
+%\end{figure}
+
+
+%\begin{figure}[htbp]
+%\centering
+%\includegraphics[width=0.6\textwidth]{./Appendix/pdfs/Chapter5/PSA_10X_heatmap_SF_PB_monocytes_clusters_mixed_and_IL7R}
+%\caption[Heatmap for the top 20 marker genes of the CC-mixed and CC-IL32 CD14$^+$ monocytes subpopulations.]{\textbf{Heatmap for the top 20 marker genes of the CC-mixed and CC-IL32 CD14$^+$ monocytes subpopulations.} Rows are the top 20 marker genes for each of the two subpopulations (total of 40 genes). The columns represent each of the cells members of the CC-mixed (left) or CC-IL32 (right) clusters. The colour scale represents the log$_2$FC in the expression of the marker gene in a particular cell of the cluster compared to the average expression of all the cells from the other cluster.}
+%\label{figure:PSA_scRNAseq_CC_mixed_and_IL32_markers_heatmap}
+%\end{figure}
+%
+
+%
+%\begin{figure}[htbp]
+%\centering
+%\includegraphics[width=1.0\textwidth]{./Appendix/pdfs/Chapter5/ELISA_plasma_synovial_fluid_10_samples}
+%\caption[Quantification of cytokine levels in plasma and synovial fluid from 10 PsA patients.]{\textbf{Quantification of cytokine levels in plasma and synovial fluid from 10 PsA patients.} Boxplots illustrating the concentration in pg/mL (x-axis log$_{10}$ scale) for a number of cytokines measured in supernatant from synovial fluid and plasma from peripheral blood of 10 PsA patients. The experiment was conducted by collaborators in Basle using enzyme-linked immunosorbent assay (ELISA). Each circle represents one sample and patient identity is colour coded. For some of the cytokines, the significance of the difference in concentration between the two tissues has been determined using Wilcoxon signed-rank test and the corresponding p-value is included.}
+%\label{figure:ELISA_SF_PsA}
+%\end{figure}

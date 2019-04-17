@@ -1,0 +1,82 @@
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Abstract}{i}{chapter*.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Acknowledgements}{ii}{chapter*.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Declarations}{iii}{chapter*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Contents}{iv}{chapter*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }List of Figures}{vi}{chapter*.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }List of Tables}{vii}{chapter*.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Abbreviations}{viii}{chapter*.8}
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Psoriasis and psoriatic arthritis}{1}{section.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.1}Epidemiology and global impact}{2}{subsection.1.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.2}Psoriasis and inflammatory dermatoses}{3}{subsection.1.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.3}PsA and spondyloarthropathies}{3}{subsection.1.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Pathophysiology of psoriasis and psoriatic arthritis}{5}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.1}Clinical presentation and diagnosis}{5}{subsection.1.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.2}Aetiology of psoriasis and PsA}{7}{subsection.1.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.3}Cell types involved in psoriasis and PsA pathogenesis}{11}{subsection.1.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.4}Therapeutic intervention}{15}{subsection.1.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Genetics of psoriasis and psoriatic arthritis}{17}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.1}Heritability}{17}{subsection.1.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.2}Genome-wide association studies}{17}{subsection.1.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.3}Relevance of non-coding variants in disease susceptibility}{22}{subsection.1.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.4}The role of GWAS in highlighting immune-relevant cell types and pathways}{23}{subsection.1.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Genome-wide pathway enrichment analysis and intergenic regions}{27}{subsubsection*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.5}Limitations of GWAS}{27}{subsection.1.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}Functional interpretation of GWAS in complex diseases}{29}{section.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.1}Overcoming GWAS limitations}{29}{subsection.1.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.2}Understanding the epigenetic landscape in complex diseases}{29}{subsection.1.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.3}The chromatin landscape}{32}{subsection.1.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Methods to ascertain chromatin accessibility}{32}{subsubsection*.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{The role of histone modifications and TF occupancy in the chromatin landscape}{34}{subsubsection*.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{DNA methylation}{36}{subsubsection*.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Chromatin interactions and gene expression}{36}{subsubsection*.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.4}Transcriptional profiles in disease}{37}{subsection.1.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Long non-coding RNAs and enhancer RNAs}{38}{subsubsection*.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Methods to assay gene expression}{39}{subsubsection*.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.5}Transcriptional regulation in complex diseases}{40}{subsection.1.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.6}The use of fine-mapping to prioritise functional causal variants}{41}{subsection.1.4.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.7}Generation, integration and interpretation of genomic data}{42}{subsection.1.4.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.8}Aims and objectives}{44}{subsection.1.4.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{69}{chapter*.20}
+\contentsfinish 

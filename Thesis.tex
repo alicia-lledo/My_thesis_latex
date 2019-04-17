@@ -15,7 +15,9 @@
 
 \usepackage{titlesec} %Load this package to reduce the white space before and after chapter heading
 \titleformat{\chapter}[display]
-{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+%\vskip-3em %to reduce space between chapter name and top of the page
+{\normalfont\LARGE\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\LARGE}
+%{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
 \titlespacing{\chapter}{0pt}{0pt}{20pt} % {command}{left}{before sep} {after sep}[right] default = {0pt}{50pt}{40pt}
 
 \usepackage{indentfirst} % to index the firt paragraph of a section
@@ -49,10 +51,22 @@
 \usepackage{rotfloat} %Allows [H] to be used when rotating floats
 \usepackage{setspace} %Set spacing in longtable
 \usepackage{multirow} %Multirows in tables
-\usepackage[backend=bibtex, style=authoryear, maxcitenames=2, mincitenames=1, minbibnames=5, maxbibnames=5, dashed=false, doi=false, url=false, isbn=false]{biblatex} 
+\usepackage[backend=bibtex, style=authoryear, maxcitenames=2, mincitenames=1, minbibnames=3, maxbibnames=3, dashed=false, doi=false, url=false, isbn=false]{biblatex} 
+\setlength{\bibhang}{2pt} %avoid indentation
 
-
-
+%Et al in italics across the documment
+\renewbibmacro*{name:andothers}{% Based on name:andothers from biblatex.def
+	\ifboolexpr{
+		test {\ifnumequal{\value{listcount}}{\value{liststop}}}
+		and
+		test \ifmorenames
+	}
+	{\ifnumgreater{\value{liststop}}{1}
+		{\finalandcomma}
+		{}%
+		\andothersdelim\bibstring[\emph]{andothers}}
+	{}}
+%%%%
 %References
 \addbibresource{Thesis_ref} %Location of references
 \renewbibmacro{in:}{} %Suppress the use of "`in"' before the journal title in bibliography
@@ -80,6 +94,7 @@
 \raggedbottom
 
 % To allow taking header for the table of contents up to 3 levels
+%\setcounter{tocdepth}{2}
 \setcounter{tocdepth}{2}
 
 % Begin preamble documment set up
@@ -87,15 +102,16 @@
 \include{Preamble}
 \pagenumbering{arabic} \setcounter{page}{1}
 \doublespacing
-%\include{./Introduction/Introduction}	
-%\include{./Material_and_methods/Material_and_methods}											% ch:Intro
-%\include{./Results1/Results1}											%ch:Results1
+\include{./Introduction/Introduction}	
+\include{./Material_and_methods/Material_and_methods}											% ch:Intro
+\include{./Results1/Results1}											%ch:Results1
 \include{./Results2/Results2}
-%\include{./Results3/Results3}
+\include{./Results3/Results3}
+\include{./Discussion/Discussion}
 \include{./Appendix/Appendix}															%
 %\bibliographystyle{abbrvnat2}
+%\bibliographystyle{agsmemph}
 %\bibliography{Thesis_ref}
-
 \singlespacing
 \setlength\bibitemsep{\itemsep}
 \printbibliography

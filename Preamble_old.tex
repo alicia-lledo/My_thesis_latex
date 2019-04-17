@@ -1,0 +1,249 @@
+\begin{titlepage}
+   \centering
+   \begin{figure}
+      \centering
+%      \epsfig{file=oxford_logo.eps,width=\textwidth}
+      \includegraphics[scale=0.4]{oxford_logo-eps-converted-to.pdf}
+   \end{figure}
+   {\LARGE{\textbf{Cell and tissue specific functional genomics of psoriasis and psoriatic arthritis}}}\\
+    \vspace{2cm}
+   {\Large{Alicia Lled\'{o} Lara}}\\
+   {\Large{Hertford College}}\\
+   {\Large{University of Oxford}}\\
+   \vspace{2cm}
+   {\Large{\textit{A thesis submitted in partial \\ fulfilment of the requirements for the degree of\\ Doctor of Philosophy}}}\\
+   {\Large{\textit{Hilary Term, 2019}}}
+\end{titlepage}
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ABSTRACT
+%
+\vspace*{-1cm}
+\noindent\scalebox{.90}{%
+\begin{minipage}[t]{1.1\linewidth}
+  \setlength{\parindent}{0.5cm} % indentation
+  \setlength{\parskip}{0.25cm}  % paragraph spacing
+
+\chapter*{Abstract} %Creates chapter title but doesn't number
+\addcontentsline{toc}{chapter}{\numberline{}Abstract} %Add abstract to table of contents
+\thispagestyle{plain}
+%\pagenumbering{gobble}
+%\thispagestyle{empty}
+\pagenumbering{roman} \setcounter{page}{1}
+
+\vspace*{-0.25cm}
+\begin{center}
+{\bf Cell and tissue specific functional genomics of psoriasis and psoriatic arthritis} \\
+%
+\end{center}
+%\vspace*{-0.5cm}
+\begin{center}
+
+{Alicia Lled\'{o} Lara, Hertford College, Hilary Term 2019}\\
+%\end{center}
+%\vspace*{-0.5cm}
+%\begin{center}
+{A thesis submitted in partial fulfilment of the requirements
+for the degree of Doctor of Philosophy of the University of Oxford} \\
+%\end{center}
+%\vspace*{-0.5cm}
+%\begin{center}
+\end{center}
+%\vspace*{-0.5cm}
+
+%\begin{center}
+%{{\large \bf Abstract}}
+%\end{center}
+
+\noindent Psoriasis and psoriatic arthritis (PsA) are chronic inflammatory diseases mainly affecting the skin and joints that result from the interaction of genetic and environmental factors. Despite the success of genome-wide association studies (GWAS) in uncovering genetic risk loci, the functional mechanisms underlying these associations remain largely unresolved. This thesis aims to establish genome-wide epigenetic and gene expression profiles for immune cells isolated from blood and disease-relevant tissues to inform the understanding of pathogenesis and GWAS in psoriasis and PsA.
+
+\noindent The first results chapter establishes methodological and analytical pipelines for novel chromatin profiling techniques in challenging clinical samples. Importantly, Omni-ATAC, a variant of Assay for Transposase-Accessible Chromatin using sequencing (ATAC-seq), demonstrated the best performance for skin biopsies. Moreover, the use of cryopreservation and fixation in blood-isolated immune cells showed cell type specific impact on the chromatin accessibility landscape that should taken into consideration when planning the experimental design.
+
+\noindent The second results chapter compares chromatin accessibility, histone acetylation and gene expression between psoriasis patients (n=8) and controls (n=10) for blood monocytes, B cells, CD4$^+$ and CD8$^+$ T cells. Only CD8$^+$ T cells showed a substantial number of differentially accessible regions (DARs) (n=55, FDR$<$ 0.05), and intersection with differential H3K27ac was only seen at an intron of \textit{DTD1}. Monocytes and CD8$^+$ T cells showed highest numbers of differentially expressed genes (n=671 and 651 respectively, FDR$<$0.05) with enrichment of MAPK and IL-12 signalling (both cell types) and NF-$\kappa$B, TNF and chemokine signalling (CD8$^+$ T cells). Overall 1,227 genes (FDR$<$0.05) were differentially expressed between uninvolved and lesional psoriasis epidermis (n=3) with enrichment of metabolic and immune-related pathways. Integration of GWAS fine-mapping data with epigenetic and gene expression profiles implicated a potentially functional variant in the 2p15 GWAS locus modulating \textit{B3GNT2}.
+
+\noindent The third results chapter analyses differences in chromatin accessibility, gene and protein expression of immune cells between synovial fluid and peripheral blood of PsA patients (n=3). The highest number of DARs were found in monocytes (5,285 FDR$<$0.01) for both tissues with synovial fluid monocytes specifically enriched for interleukin and NF-$\kappa$B signalling pathways. Single-cell RNA-seq identified two functionally relevant synovial fluid monocyte subpopulations characterised by up-regulation of IFN signalling and \textit{IL7R} genes, respectively. Mass-cytometry analysis (n=10) confirmed increased \textit{CCL2} and \textit{CXCL10} protein levels in monocytes from synovial fluid. Furthermore, statistical fine-mapping of PsA GWAS loci and integration with  ATAC data suggested rs11249213 as a possible regulator of \textit{RUNX3} in CD8$^+$ cells in the inflamed synovium.
+
+\noindent Overall this thesis highlights the context-specificity of the epigenomic landscape in psoriasis and PsA, and the potential of a multi-omics approach to provide new insights into pathophysiology and interpretation of GWAS.\\
+
+\end{minipage}}
+%
+% ABSTRACT END
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\newpage
+\chapter*{Acknowledgements}
+\addcontentsline{toc}{chapter}{\numberline{}Acknowledgements}
+\thispagestyle{plain}
+%\pagenumbering{gobble}
+%\thispagestyle{empty}
+%\begin{center}
+%{{\large \bf Acknowledgments}}
+%\end{center}
+\noindent
+%
+Thank you, thank you, thank you.
+
+\newpage
+\vspace*{-1cm}
+\noindent\scalebox{.92}{%
+	\begin{minipage}[t]{1.1\linewidth}
+		\setlength{\parindent}{0.5cm} % indentation
+		\setlength{\parskip}{0.30cm}  % paragraph spacing
+\chapter*{Declarations}
+\addcontentsline{toc}{chapter}{\numberline{}Declarations}
+%\pagenumbering{gobble}
+%\thispagestyle{empty}
+\thispagestyle{plain}
+%\begin{center}
+%{{\large \bf Declarations}}
+%\end{center}
+\noindent I declare that unless otherwise stated, all work presented in this thesis is my own. Some aspects of the thesis were a collaboration, with some of the work conducted with or by others.
+
+\noindent All the healthy volunteers and psoriasis patients’ samples were collected by myself and processing was part of a collaborative effort with past and current lab members Dr Anna Sanniti, Dr Andrew Brown and Giuseppe Scozzafava. Processing of skin biopsies for the adherent assay was conducted with help from Prof Graham Ogg and Dr Danuta Gutowska‐Owsiak. The psoriatic arthritis samples processed for ATAC, qPCR array and mass cytometry were part of the Immune Function in Inflammatory Arthritis (IFIA) study established in 2006 and sample collection was a collaborative effort with Dr Hussein Al-Mossawi and Dr Nicole Yager.
+
+\noindent The fixation protocol for sorted primary cells using DSP was optimised by Moustafa Attar. RNA extraction, ATAC and ChIPm processing for the healthy controls and psoriasis cohorts was carried out together with the ankylosing spondylitis samples in collaboration with Dr Anna Sanniti and Dr Andrew Brown. Advice for ATAC and ChIPm library indexing and sequencing was provided by Amy Trebes. RNA-seq and 10X Genomics technology Chromium single cell 3' expression library preparations and sequencing together with ATAC and ChIPm sequencing were performed by Oxford Genomics Centre at the Wellcome Centre for Human Genetics. Processing of the qPCR array and mass cytometry samples was conducted by UCB and measurement of synovial fluid cytokine and chemokine abundance was carried out by collaborators in Basle.
+
+
+\noindent Regarding data analysis, mass cytometry data was analysed by Dr Nicole Yager. ATAC and ChIPm NGS data processing was conducted using in house pipelines developed by Dr Gabriele Migliorini towards which I actively contributed by performing literature review analysis of the most appropriate methods, facilitating code for some of the parts and performing additional analysis to test the approaches. Peak filtering strategy for ATAC using IDR was proposed and implemented by Dr Gabriele Migliorini and I conducted additional analysis for validation. The strategy to perform filtering of chromatin accessible regions based on an empirical cut-off to remove excessive noise was developed and implemented together with Dr Hai Fang. RNA-seq NGS data processing was performed using the in-house pipeline developed by Dr Katie Burnham. Resources for fine-mapping analysis were provided by Dr Adri\'{a}n Cort\'{e}s. Single-cell advice and scripts for some of the analysis was facilitated by Arcadio Rubio. The script to calculate enrichment across TSS was provided by Dr Silvia Salatino. The function for colour-coding KEGG pathways based on gene expression data was developed by Dr Hai Fang wirth contributions for pathway curation from Dr Anna Sanniti and myself. General advice on analysis were provided by Dr Silvia Salatino, Dr Hai Fang, Dr Katie Burnham, Dr F\'{e}licie Constantino, Dr Gabriele Migliorini and Enrique V\'{a}quez de Luis. 
+\end{minipage}}
+
+%\newpage
+%\chapter*{Submitted Abstracts}
+%\addcontentsline{toc}{chapter}{\numberline{}Submitted Abstracts}
+%\thispagestyle{plain} %Removes the header
+%\begin{center}
+%{{\large \bf Associated publications}}
+%\end{center}
+%\noindent
+
+%\noindent
+%\textbf{Title}
+%\hfill \textbf{Year}\\
+%Authors\\
+
+%\newpage
+%\chapter*{Associated Publications}
+%\addcontentsline{toc}{chapter}{\numberline{}Associated Publications}
+%%\pagenumbering{gobble}
+%%\thispagestyle{empty}
+%\thispagestyle{plain} %Removes the header
+%%\begin{center}
+%%{{\large \bf Associated publications}}
+%%\end{center}
+%\noindent
+%\textbf{Title}\\
+%Journal\\
+%Authors\\
+
+%\begingroup
+%\let\clearpage\relax
+%\chapter*{Other Publications}
+%\noindent
+%\textbf{Title}\\
+%Journal\\
+%Authors\\
+%
+%\endgroup
+
+
+\newpage
+\addcontentsline{toc}{chapter}{\numberline{}Contents}
+\tableofcontents
+
+\newpage
+\listoffigures
+\addcontentsline{toc}{chapter}{\numberline{}List of Figures}
+
+\newpage
+\listoftables
+\addcontentsline{toc}{chapter}{\numberline{}List of Tables}
+
+
+
+\chapter*{Abbreviations}
+\addcontentsline{toc}{chapter}{\numberline{}Abbreviations}
+
+%\begin{table}[H]
+%\renewcommand{\arraystretch}{0.7}
+%\singlespacing
+ %\centering
+  %\begin{tabular}{@{}m{2.5cm}m{10cm}@{}}
+\begin{longtable}{p{2.5cm}p{12.5cm}}
+\textbf{ABF} & Approximate Bayes factor\\
+\textbf{AD} & Atopic dermatitis \\
+\textbf{AMP} & Antimicrobial peptide\\
+\textbf{APC} &Antigen presenting cell \\
+\textbf{AS} & Ankylosing spondylitis\\
+\textbf{ASE} & Allelic specific expression \\
+\textbf{ATAC-seq} & Assay for transposase-accessible chromatin using sequencing \\
+\textbf{CD} & Crohn's disease\\
+\textbf{ChIPm} & (Chromatin immunoprecipitation)-mentation  \\
+\textbf{ChIP-seq} & Chromatin immunoprecipitation sequencing\\
+\textbf{CLE} & Cutaneous lupus erythematosus \\
+\textbf{CNV} & Copy number variation\\
+\textbf{DAR} & Differentially accessible region  \\
+\textbf{DGE} & Differential gene expression\\
+\textbf{DHS} & DNase I hypersensitive site\\
+\textbf{DMARDs} & disease-modifying antirheumatic drugs \\
+\textbf{DNase-seq} & DNase I hypersensitive sites sequencing\\
+\textbf{DNMT} & DNA methyl-transferase\\
+\textbf{eRNA} & Enhancer RNA\\
+\textbf{FAIRE-seq} & Formaldehyde-assisted isolation of regulatory elements sequencing \\
+\textbf{FANTOM5} & Functional annotation of the mammalian genome\\
+\textbf{Fast-ATAC} & Fast  assay for transposase-accessible chromatin \\
+\textbf{GWAS} & Genome-wide association studies \\
+\textbf{HIV} & Human immunodefficiency virus\\
+\textbf{HLA} & Human leukocyte antigen\\
+\textbf{IBD} & Inflammatory bowed disease\\
+\textbf{IDR} & Irreproducibility discovery rate\\
+\textbf{IFN} & Interferon\\
+\textbf{IL} & Interleukin\\
+\textbf{KIR} & Killer immunoglobulin-like receptor\\
+\textbf{KRT} & Keratin\\
+\textbf{LCE} & Late cornified envelop\\
+\textbf{LD} & Linkage disequilibrium\\
+\textbf{lncRNA} & Long non-coding RNA\\
+\textbf{miRNA} & micro-RNA\\
+\textbf{MNase-seq} & Micrococcal nuclease sequencing \\
+\textbf{MS} & Multiple esclerosis\\
+\textbf{NBF} & Nucleosome-bound fragment\\
+\textbf{NF-$\kappa$B} & Nuclear factor kappa-light-chain-enhancer of activated B cells \\
+\textbf{NFF} & Nucleosome-free fragment\\
+\textbf{NGS} & Next generation sequencing\\
+\textbf{NOD} & Nucleotide-binding oligomerization domain \\
+\textbf{NSAID} & nonsteroidal antiinflammatory drug \\
+\textbf{Omni-ATAC} & Omni- assay for transposase-accessible chromatin\\
+\textbf{OR} & Odds ratio \\
+\textbf{PB} & Peripheral blood \\
+\textbf{PBC} & PCR bottle-necking coefficient\\
+\textbf{PBMC} & Peripheral blood mononuclear cells \\
+\textbf{PCA} & Principal component analysis  \\
+\textbf{PI} & Protein inhibitor \\
+\textbf{PP} & Posterior probability\\
+\textbf{PPAR} & Peroxisome proliferator-activated receptor \\
+\textbf{PRC} & Polycomb repressor complex\\
+\textbf{PsA}  &Psoriatic arthritis  \\
+\textbf{PTM} & Post-translational modification\\
+\textbf{qPCR} & quantitative polymerase chain reaction \\
+\textbf{RA} & Rheumatoid arthritis \\
+\textbf{RNA-seq} & RNA sequencing\\
+\textbf{ROS} & Reactive oxygen species \\
+\textbf{scRNA-seq} & singe-cell RNA sequencing \\
+\textbf{SDS} & Sodium dodecyl sulfate \\
+\textbf{SF} & synovial fluid \\
+\textbf{SLE} & Systemic lupus erythematosus\\
+\textbf{SpA} & Spondyloarthritis \\
+\textbf{T1D} & Type 1 diabetes\\
+\textbf{T2D} & Type 2 diabetes \\
+\textbf{TAD} & Topological associating domain\\
+\textbf{Th} & T-helper \\
+\textbf{TLR} & Toll-like receptor\\
+\textbf{TNF} & Tumour necrosis factor\\
+\textbf{UCSC} & University of California Santa Cruz\\
+\textbf{WGS} & Whole genome sequencing\\
+\textbf{WHG} & Wellcome Center for Human Genetics\\
+ %   \end{tabular}%
+%\end{table}%
+\end{longtable}

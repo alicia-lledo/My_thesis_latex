@@ -1,0 +1,16 @@
+References to add into readcube:
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4109533/
+-cancer application Distinct types of diffuse large B-cell lymphoma identified by gene expression profiling
+-whole blood variability results Cell type-specific gene expression differences in complex tissues
+ATAC cQTL https://www.nature.com/articles/s41588-018-0278-6.pdf
+-Markers for IBD CD UC Pediatric Crohn disease patients exhibit specific ileal transcriptome and microbiome signature
+-IBD high and low inflammation
+-Eosinophilic esophagitis https://www.ncbi.nlm.nih.gov/pubmed/28181994
+-Psoriasis and other dermatoses: https://www.ncbi.nlm.nih.gov/pubmed/19818069
+-Results 3 Role of Th17 cells in human autoimmune arthritis. Leipe2010
+	 Comparative Analysis of Single-Cell RNA Sequencing Methods.Ziegenhain2017
+	Functionally distinct disease-associated fibroblast subsets in rheumatoid arthritis Mizoguchi2017
+-Metabolomics: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4288418/ Armstrong2014
+-Methylation psoriasis: Epigenome-wide DNA methylation regulates cardinal pathological features of psoriasis Chandra 2018
+meQTL and epigenetic data integration: Genetic Drivers of Epigenetic and Transcriptional Variation in Human Immune Cells Chen2016
+-STARRseq http://science.sciencemag.org/content/339/6123/1074/tab-pdf Arnold 2013
