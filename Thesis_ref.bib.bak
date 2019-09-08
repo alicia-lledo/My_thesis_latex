@@ -87,19 +87,12 @@
   journal = {Genome Biology},
   year    = {2010},
   volume  = {11},
+  number  = {12},
+  pages   = {R119},
   issn    = {1465-6906},
   doi     = {info:pmid/21143862},
   type    = {Journal Article},
   url     = {http://genomebiology.com/2010/11/12/r119},
-}
-
-@Article{Adey2010a,
-  author  = {Adey, A. and Morrison, H. G. and Genome …, Xun - X.},
-  title   = {Rapid, low-input, low-bias construction of shotgun fragment libraries by high-density in vitro transposition},
-  journal = {Genome …},
-  year    = {2010},
-  type    = {Journal Article},
-  url     = {https://genomebiology.biomedcentral.com/articles/10.1186/gb-2010-11-12-r119},
 }
 
 @Article{Gupta2016,
@@ -142,6 +135,7 @@
   title   = {Context-specific regulation of monocyte surface IL7R expression and soluble receptor secretion by a common autoimmune risk allele},
   journal = {bioRxiv},
   year    = {2018},
+  pages   = {262410},
   doi     = {10.1101/262410},
   type    = {Journal Article},
   url     = {http://dx.doi.org/10.1101/262410},
@@ -152,6 +146,9 @@
   title   = {Unique transcriptome signatures and GM-CSF expression in lymphocytes from patients with spondyloarthritis},
   journal = {Nature Communications},
   year    = {2017},
+  volume  = {8},
+  number  = {1},
+  pages   = {1510},
   doi     = {10.1038/s41467-017-01771-2},
   type    = {Journal Article},
   url     = {http://dx.doi.org/10.1038/s41467-017-01771-2},
@@ -744,7 +741,7 @@
 }
 
 @Article{Bowes2015,
-  author  = {Bowes, John and Budu-Aggrey, Ashley and Huffmeier, Ulrike and Uebe, Steffen and Steel, Kathryn and Hebert, Harry L. and Wallace, Chris and Massey, Jonathan and Bruce, Ian N. and Bluett, James and Feletar, Marie and Morgan, Ann W. and Marzo-Ortega, Helena and Donohoe, Gary and Morris, Derek W. and Helliwell, Philip and Ryan, Anthony W. and Kane, David and Warren, Richard B. and Korendowych, Eleanor and Alenius, Gerd-Marie M. and Giardina, Emiliano and Packham, Jonathan and McManus, Ross and FitzGerald, Oliver and McHugh, Neil and Brown, Matthew A. and Ho, Pauline and Behrens, Frank and Burkhardt, Harald and Reis, Andre and Barton, Anne},
+  author  = {Bowes, J. and Budu-Aggrey, A. and Huffmeier, U. and Ulrike, S. and Steel, K. and Hebert, H.L. and Wallace, C. and Massey, J.},
   title   = {Dense genotyping of immune-related susceptibility loci reveals new insights into the genetics of psoriatic arthritis},
   journal = {Nature communications},
   year    = {2015},
@@ -1241,9 +1238,9 @@
 }
 
 @Article{Consortium2003,
-  author  = {Allen,M. and Barker.J,},
+  author  = {Allen,M. and Barker,J.},
   title   = {The International Psoriasis Genetics Study: assessing linkage to 14 candidate susceptibility loci in a cohort of 942 affected sib pairs},
-  journal = {The American Journal of Human Genetics},
+  journal = {The American Journal of  Human Genetics},
   year    = {2003},
   volume  = {73},
   number  = {3},
@@ -1640,7 +1637,7 @@
 }
 
 @Article{Dobin2013,
-  author  = {Dobin, Alexander and Davis, Carrie A. and Schlesinger, Felix and Drenkow, Jorg and Zaleski, Chris and Jha, Sonali and Batut, Philippe and Chaisson, Mark and Gingeras, Thomas R.},
+  author  = {Dobin, A. and Davis, C.A. and Schlesinger, F. and Drenkow, J. and Zaleski, C. and Jha, S. and Batut, P. and Chaisson, M. and Gingeras, T.R.},
   title   = {STAR: ultrafast universal RNA-seq aligner},
   journal = {Bioinformatics},
   year    = {2013},
@@ -2458,7 +2455,7 @@
 @Article{Gradman2008,
   author  = {Gradman, R. J. and Ptacin, J. L. and Bhasin - A. and Reznikoff,WS. and Goryshin,IG.},
   title   = {A bifunctional DNA binding region in Tn5 transposase},
-  journal = {Molecular Microbiology},
+  journal = {Molecular Microbiology},
   year    = {2008},
   volume  = {67},
   number  = {3},
@@ -2655,7 +2652,7 @@
 }
 
 @Article{Gutowska‐Owsiak2012,
-  author  = {Gutowska‐Owsiak, D. and Schaupp, A. L.},
+  author  = {Gutowska-Owsiak, D. and Schaupp, AL. and Salimi, M and Selvakumar, L.},
   title   = {IL‐17 downregulates filaggrin and affects keratinocyte expression of genes associated with cellular adhesion},
   journal = {Experimental dermatology},
   year    = {2012},
@@ -3893,18 +3890,19 @@ https://www.nature.com/articles/ng.2871#supplementary-information},
 }
 
 @Article{Li2017,
-  author  = {Li, Chun-xiao and Li, Hua-guo and Huang, Lin-ting and Kong, Yu-wei and Chen, Fu-ying and Liang, Jian-yin and Yu, Hong and Yao, Zhi-rong},
+  author  = {Li, C. and Li, H. and Huang, L. and Kong, Y. and Chen, F. and Liang, J. and Yu, H. and Yao, Z.},
   title   = {H19 lncRNA regulates keratinocyte differentiation by targeting miR-130b-3p},
   journal = {Cell death \& disease},
   year    = {2017},
   volume  = {8},
   number  = {11},
+  pages   = {e3174},
   type    = {Journal Article},
   url     = {http://scholar.google.com/scholar?q=H19 lncRNA regulates keratinocyte differentiation by targeting miR-130b-3p&btnG=&hl=en&num=20&as_sdt=0%2C22},
 }
 
 @Article{Li2009,
-  author  = {Li, Heng and Handsaker, Bob and Wysoker, Alec and Fennell, Tim and Ruan, Jue and Homer, Nils and Marth, Gabor and Abecasis, Goncalo and Durbin, Richard},
+  author  = {Li, H. and Handsaker, B. and Wysoker, A. and Fennell, T. and Ruan, J. and Homer, N. and Marth, G. and Abecasis, G. and Durbin, R.},
   title   = {The sequence alignment/map format and SAMtools},
   journal = {Bioinformatics},
   year    = {2009},
@@ -4129,7 +4127,7 @@ https://www.nature.com/articles/ng.2871#supplementary-information},
 }
 
 @Article{Martin2011,
-  author  = {M., Martin -},
+  author  = {Martin, Marcel},
   title   = {Cutadapt removes adapter sequences from high-throughput sequencing reads},
   journal = {EMBnet. journal},
   year    = {2011},
@@ -5594,10 +5592,11 @@ https://www.nature.com/articles/ng.3963#supplementary-information},
 }
 
 @Article{Andrews2010,
-  author = {S., Andrews},
-  title  = {FastQC: a quality control tool for high throughput sequence data. Available online at: http://www.bioinformatics.babraham.ac.uk/projects/fastqc},
-  year   = {2010},
-  type   = {Journal Article},
+  author  = {Andrews, Simon},
+  title   = {FastQC: a quality control tool for high throughput sequence data.},
+  journal = {http://www.bioinformatics.babraham.ac.uk/projects/fastqc},
+  year    = {2010},
+  type    = {Journal Article},
 }
 
 @Article{Saeed2014,
@@ -6040,7 +6039,7 @@ https://www.nature.com/articles/nature23875#supplementary-information},
 }
 
 @Article{Springate2017,
-  author  = {Springate, D. A. and Parisi, R. and Kontopantelis - E.},
+  author  = {Springate, D.A. and Parisi, R. and Kontopantelis, E.},
   title   = {Incidence, prevalence and mortality of patients with psoriasis: a UK population‐based cohort study},
   journal = {British Journal of Dermatology},
   year    = {2017},
@@ -6053,12 +6052,13 @@ https://www.nature.com/articles/nature23875#supplementary-information},
 }
 
 @Article{Srivastava2017,
-  author  = {Srivastava, Ankit and Nikamo, Pernilla and Lohcharoenkal, Warangkana and Li, Dongqing and Meisgen, Florian and Landén, Ning and Ståhle, Mona and Pivarcsi, Andor and Sonkoly, Enikö},
+  author  = {Srivastava, A. and Nikamo, P. and Lohcharoenkal, W. and Li, D. and Meisgen, F. and Landén, N.},
   title   = {MicroRNA-146a suppresses IL-17-mediated skin inflammation and is genetically associated with psoriasis},
   journal = {Journal of Allergy and Clinical Immunology},
   year    = {2017},
   volume  = {139},
   number  = {2},
+  pages   = {550-561},
   type    = {Journal Article},
   url     = {http://scholar.google.com/scholar?q=MicroRNA-146a suppresses IL-17-mediated skin inflammation and is genetically associated with psoriasis&btnG=&hl=en&num=20&as_sdt=0%2C22},
 }
@@ -6428,7 +6428,7 @@ https://www.nature.com/articles/nature23875#supplementary-information},
 }
 
 @Article{Tsoi2015,
-  author  = {Tsoi, Lam C. and Iyer, Matthew K. and Stuart, Philip E. and Swindell, William R. and Gudjonsson, Johann E. and Tejasvi, Trilokraj and Sarkar, Mrinal K. and Li, Bingshan and Ding, Jun and Voorhees, John J. and Kang, Hyun M. and Nair, Rajan P. and Chinnaiyan, Arul M. and Abecasis, Goncalo R. and Elder, James T.},
+  author  = {Tsoi, L.C. and Iyer, M.K. and Stuart, P.E. and Swindell, W.R. and Gudjonsson, J.E. and Tejasvi, T. and Sarkar, M.K. and Li, B. and Ding, J. and Voorhees, J.J. and Kang, H.M.},
   title   = {Analysis of long non-coding RNAs highlights tissue-specific expression patterns and epigenetic profiles in normal and psoriatic skin},
   journal = {Genome Biology},
   year    = {2015},
@@ -6457,7 +6457,7 @@ https://www.nature.com/articles/nature23875#supplementary-information},
 @Article{Tsoi2017,
   author  = {Tsoi, L. C. and Stuart, P. E. and Tian, C. and Gudjonsson - J. E. and Das, S. and Zawistowski, M. and Ellinghaus, E.},
   title   = {Large scale meta-analysis characterizes genetic architecture for common psoriasis associated variants},
-  journal = {Nature Genetics},
+  journal = {Nature Genetics},
   year    = {2017},
   volume  = {8},
   pages   = {15382},
@@ -7542,14 +7542,6 @@ with psoriasis~… Psoriasis: a disease of abnormal proliferation induced by T l
   journal  = {Journal of investigative~…},
   year     = {2003},
   abstract = {Epidermal keratinocytes are complex cells that create a unique three-dimensional {(3-D)} structure, differentiate through a multistage process, and respond to extracellular stimuli from nearby cells. Consequently, keratinocytes express many genes, ie, have a relatively large “transcriptome.” To determine which of the expressed genes are innate to keratinocytes, which are specific for the differentiation and {3-D} architecture, and which are induced by~…},
-}
-
-@Article{2003,
-  author   = {of, International},
-  title    = {The International Psoriasis Genetics Study: assessing linkage to 14 candidate susceptibility loci in a cohort of 942 affected sib pairs},
-  journal  = {The American Journal of~…},
-  year     = {2003},
-  abstract = {In an effort to confirm previously reported linkages to psoriasis, we analyzed 942 affected sibling pairs {(ASPs)} from 710 pedigrees for 53 polymorphic microsatellites spanning 14 psoriasis candidate regions at an intermarker spacing of∼ 5 {cM.} Maximum {LOD} score {(MLS)} analysis of {ASPs} yielded allele sharing of 60\% for markers within the major histocompatibility complex {(MHC)(P=} 2{\texttimes} 10− 14), which yielded a gene-specific λ s of 1.6. Across the remainder of the genome, the strongest evidence of allele sharing was obtained~…},
 }
 
 @Article{Zollner2003,
@@ -10066,20 +10058,6 @@ genomic annotations~… I then estimate these priors by using an empirical Bayes
   pmcid    = {{PMC4500956}},
 }
 
-@Article{Bowes2015a,
-  author   = {Bowes, John and Loehr, Sabine and {Budu-Aggrey,} Ashley and Uebe, Steffen and Bruce, Ian N and Feletar, Marie and {Marzo-Ortega,} Helena and Helliwell, Philip and Ryan, Anthony W and Kane, David and Korendowych, Eleanor and Alenius, {Gerd-Marie} M and Giardina, Emiliano and Packham, Jonathan and {McManus,} Ross and {FitzGerald,} Oliver and Brown, Matthew A and Behrens, Frank and Burkhardt, Harald and {McHugh,} Neil and Huffmeier, Ulrike and Ho, Pauline and Reis, Andre and Barton, Anne},
-  title    = {{PTPN22} is associated with susceptibility to psoriatic arthritis but not psoriasis: evidence for a further {PsA-specific} risk locus.},
-  journal  = {Annals of the Rheumatic Diseases},
-  year     = {2015},
-  volume   = {74},
-  number   = {10},
-  pages    = {1882-5},
-  issn     = {0003-4967},
-  abstract = {Psoriatic arthritis {(PsA)} is a chronic inflammatory arthritis associated with psoriasis; it has a higher estimated genetic component than psoriasis alone, however most genetic susceptibility loci identified for {PsA} to date are also shared with psoriasis. Here we attempt to validate novel single nucleotide polymorphisms selected from our recent {PsA} Immunochip study and determine specificity to {PsA.}},
-  doi      = {10.1136/annrheumdis-2014-207187},
-  pmid     = {25923216},
-}
-
 @Article{Yamamoto2015,
   author   = {Yamamoto, Mayuko and Nakajima, Kimiko and Takaishi, Mikiro and Kitaba, Shun and Magata, Yasuhiro and Kataoka, Sayo and Sano, Shigetoshi},
   title    = {Psoriatic inflammation facilitates the onset of arthritis in a mouse model},
@@ -10460,6 +10438,7 @@ genomic annotations~… I then estimate these priors by using an empirical Bayes
 @Article{Tsoi2015a,
   author   = {Tsoi, Lam C and Spain, Sarah L and Ellinghaus, Eva and Stuart, Philip E and Capon, Francesca and Knight, Jo and Tejasvi, Trilokraj and Kang, Hyun M and Allen, Michael H and Lambert, Sylviane and Stoll, Stefan W and Weidinger, Stephan and Gudjonsson, Johann E and Koks, Sulev and Kingo, K{\"u}lli and Esko, Tonu and Das, Sayantan and Metspalu, Andres and Weichenthal, Michael and Enerback, Charlotta and Krueger, Gerald G and Voorhees, John J and Chandran, Vinod and Rosen, Cheryl F and Rahman, Proton and Gladman, Dafna D and Reis, Andre and Nair, Rajan P and Franke, Andre and Barker, Jonathan and Abecasis, Goncalo R and Trembath, Richard C and Elder, James T},
   title    = {Enhanced meta-analysis and replication studies identify five new psoriasis susceptibility loci},
+  journal  = {Nature Communications},
   year     = {2015},
   volume   = {6},
   pages    = {7001},
@@ -11583,16 +11562,6 @@ image Cover image. Series. The pathogenesis of psoriatic arthritis~…
   abstract = {Accumulating evidence suggests small non-coding {RNAs} {(microRNAs)} play important roles in human cancer progression. In the present study, we found {miR-150} was overexpressed in gastric cancer cell lines and tissues. Ectopic expression of {miR-150} promoted tumorigenesis and proliferation of gastric cancer cells. Luciferase reporter assay demonstrated that {EGR2} was a direct target of {miR-150.} Collectively, our study demonstrated that overexpression of {miR-150} in gastric cancer could promote proliferation and growth of cancer cells at least~…},
 }
 
-@Article{Togayachi2010a,
-  author   = {Togayachi, Akira and Kozono, Yuko and Kuno, Atsushi and Ohkura, Takashi and Sato, Takashi and Hirabayashi, Jun and Ikehara, Yuzuru and Narimatsu, Hisashi},
-  title    = {{3GnT2} {(B3GNT2),} a major polylactosamine synthase: analysis of {B3GNT2-deficient} mice},
-  year     = {2010},
-  volume   = {479},
-  pages    = {185-204},
-  abstract = {The polylactosamine structure is a fundamental structure of carbohydrate chains and carries a lot of biofunctional carbohydrate epitopes. To investigate the biological function of polylactosamine chains, here we generated and analyzed knockout mice lacking the gene B3gnt2, which encodes a major polylactosamine synthase. In β1, {3-N-acetylglucosaminyltransferase} {(B3gnt2)} B3gnt2-deficient {(B3gnt2−/−)} mice, the number of polylactosamine structures was markedly lower than in wild-type mice. Flow cytometry, {LEL~…}},
-  file     = {C:\Users\alicia\Documents\ReadCube Media\Togayachi et al-2010-Elsevier.pdf},
-}
-
 @Article{Dang2011,
   author   = {Dang, {EV} and Barbi, J and Yang, {HY} and Jinasena, D and Yu,H.},
   title    = {Control of {TH17/Treg} Balance by {Hypoxia-Inducible} Factor 1},
@@ -11690,6 +11659,8 @@ image Cover image. Series. The pathogenesis of psoriatic arthritis~…
   title    = {Long non coding {RNAs} play a role in the pathogenesis of Psoriatic Arthritis by regulating {microRNAs} and genes involved in inflammation and metabolic syndrome.},
   journal  = {Frontiers in Immunology},
   year     = {2018},
+  volume   = {9},
+  pages    = {1533},
   abstract = {Psoriatic arthritis {(PsA)} is an inflammatory arthritis, characterised by inflammation of entheses and synovium, leading to joint erosions and new bone formation. It affects 10\% to 30\% of patients with psoriasis, and has an estimated prevalence of approximately 1\%. {PsA} is considered to be primarily an autoimmune disease, driven by autoreactive T cells directed against autoantigens present in the skin and in the joints. However an autoinflammatory origin has recently been proposed. Long noncoding {RNAs} {(lncRNAs)} are {RNAs} more than~…},
   file     = {C:\Users\alicia\Documents\ReadCube Media\Dolcino et al-2018-Frontiers in.pdf},
 }
@@ -12020,16 +11991,6 @@ skin disease, which shares many phenotypic features with psoriasis (erythema, in
   doi      = {10.1073/pnas.1000546107},
 }
 
-@Article{Togayachi2010b,
-  author   = {Togayachi, Akira and Kozono, Yuko and Kuno, Atsushi and Ohkura, Takashi and Sato, Takashi and Hirabayashi, Jun and Ikehara, Yuzuru and Narimatsu, Hisashi},
-  title    = {{3GnT2} {(B3GNT2),} a major polylactosamine synthase: analysis of {B3GNT2-deficient} mice},
-  year     = {2010},
-  volume   = {479},
-  pages    = {185-204},
-  abstract = {The polylactosamine structure is a fundamental structure of carbohydrate chains and carries a lot of biofunctional carbohydrate epitopes. To investigate the biological function of polylactosamine chains, here we generated and analyzed knockout mice lacking the gene B3gnt2, which encodes a major polylactosamine synthase. In β1, {3-N-acetylglucosaminyltransferase} {(B3gnt2)} B3gnt2-deficient {(B3gnt2−/−)} mice, the number of polylactosamine structures was markedly lower than in wild-type mice. Flow cytometry, {LEL~…}},
-  file     = {C:\Users\alicia\Documents\ReadCube Media\Togayachi et al-2010-Elsevier.pdf},
-}
-
 @Article{Meglio2011,
   author   = {Meglio, Di P and Cesare, Di A and Laggner, U and one, Chu~- {CC}},
   title    = {The {IL23R} {R381Q} gene variant protects against immune-mediated diseases by impairing {IL-23-induced} Th17 effector response in humans},
@@ -12231,7 +12192,7 @@ differentially regulated across tissues, and many human transcripts are expresse
 }
 
 @Article{Thrastardottir2018,
-  author   = {Thrastardottir, T and international, Love, {TJ}.},
+  author   = {Thrastardottir, T and Love, {TJ}.},
   title    = {Infections and the risk of psoriatic arthritis among psoriasis patients: a systematic review},
   journal  = {Rheumatology international},
   year     = {2018},
@@ -12381,6 +12342,9 @@ in genome-wide association studies. ... (2009) Genome-wide association study in 
   title    = {Network analysis of psoriasis reveals biological pathways and roles for coding and long non-coding {RNAs}},
   journal  = {{BMC} …},
   year     = {2016},
+  volume   = {17},
+  number   = {1},
+  pages    = {841},
   abstract = {Background Psoriasis is an immune-mediated, inflammatory disorder of the skin characterized by chronic inflammation and hyperproliferation of the epidermis. Differential expression analysis of microarray or {RNA-seq} data have shown that thousands of coding and non-coding genes are differentially expressed between psoriatic and healthy control skin. However, differential expression analysis may fail to detect perturbations in gene  ...},
   file     = {C:\Users\alicia\Documents\ReadCube Media\Ahn et al-2016-BMC.pdf},
 }
@@ -12437,14 +12401,6 @@ in genome-wide association studies. ... (2009) Genome-wide association study in 
   journal  = {British Journal of~…},
   year     = {1984},
   abstract = {Monoclonal antibodies were used to determine, simultaneously, the proportions of T‐cell populations in the peripheral blood and in the skin lesions of fifty‐one patients with psoriasis. The results were analysed in relation to the extent, age and clinical type of the skin lesions. In the group of patients with extensive lesions, a significant reduction in the number of total T {(TT)} and T {helper/inducer‐cells,(TH),} but not in T suppressor/cytotoxic cells {(Ts)} was observed in the peripheral blood. Furthermore, the skin {TH/TS} ratio was greater in late~…},
-}
-
-@Article{2011b,
-  author   = {journal, Martin~- M},
-  title    = {Cutadapt removes adapter sequences from high-throughput sequencing reads},
-  journal  = {{EMBnet.} journal},
-  year     = {2011},
-  abstract = {When small {RNA} is sequenced on current sequencing machines, the resulting reads are usually longer than the {RNA} and therefore contain parts of the 3'adapter. That adapter must be found and removed error-tolerantly from each read before read mapping. Previous solutions are either hard to use or do not offer required features, in particular support for color space data. As an easy to use alternative, we developed the command-line tool cutadapt, which supports 454, Illumina and {SOLiD} (color space) data, offers two adapter~…},
 }
 
 @Article{Doyle2012a,
@@ -12917,6 +12873,8 @@ each gene were calculated by comparative Ct method and results were normalized t
   title    = {Brief report: {CXCL10} is a possible biomarker for the development of psoriatic arthritis among patients with psoriasis},
   journal  = {Arthritis \& Rheumatology},
   year     = {2016},
+  volume   = {68},
+  number   = {12},
   pages    = {2911-2916},
   abstract = {Objective Biomarkers that can predict the development of psoriatic arthritis {(PsA)} in patients with psoriasis would be useful in clinical practice. The aim of this study was to assess whether {CXCL10} could be a predictive biomarker of {PsA} prior to its onset. Methods Psoriasis patients without arthritis were followed up prospectively and assessed annually for development of {PsA} by a rheumatologist. Patients in whom {PsA} developed were designated as converters, while those in whom {PsA} did not develop were termed nonconverters~…},
 }
@@ -12943,7 +12901,7 @@ each gene were calculated by comparative Ct method and results were normalized t
 }
 
 @Article{Pasaniuc2017,
-  author   = {Pasaniuc, B and Price~- {AL}},
+  author   = {Pasaniuc, B and Price, A.L},
   title    = {Dissecting the genetics of complex traits using summary association statistics},
   journal  = {Nature Reviews Genetics},
   year     = {2017},
@@ -13319,7 +13277,7 @@ Recommend {PNAS} to Your Librarian. Log in; Log out; My Cart. Main menu~…
 }
 
 @Article{Li2003,
-  author   = {Li, X and {O'Regan,} {AW} and Berman, {JS}.},
+  author   = {Li, X. and {O'Regan,} {AW}. and Berman, {JS}.},
   title    = {{IFN-γ} Induction of Osteopontin Expression in Human Monocytoid Cells},
   journal  = {Journalof interferon \& cytokine research},
   year     = {2003},
@@ -13503,7 +13461,9 @@ diet~… 2013. Anti-proliferation Effects of Interferon-gamma on Gastric Cancer 
 @Article{Raurell-Vila2018,
   author   = {Raurell-Vila, H. and Ramos-Rodriguez, M. and Pasquali, L.},
   title    = {Assay for Transposase Accessible Chromatin {(ATAC-Seq)} to Chart the Open Chromatin Landscape of Human Pancreatic Islets},
+  journal  = {Methods in Molecular Biology},
   year     = {2018},
+  volume   = {1766},
   pages    = {197-208},
   abstract = {The regulatory mechanisms that ensure an accurate control of gene transcription are central to cellular function, development and disease. Such mechanisms rely largely on noncoding regulatory sequences that allow the establishment and maintenance of cell identity and tissue-specific cellular functions. The study of chromatin structure and nucleosome positioning allowed revealing transcription factor accessible genomic sites with regulatory potential, facilitating the comprehension of tissue-specific cis-regulatory networks. Recently~…},
 }
@@ -13607,14 +13567,6 @@ diet~… 2013. Anti-proliferation Effects of Interferon-gamma on Gastric Cancer 
   journal  = {resource},
   year     = {2018},
   abstract = {Gene maps, or annotations, enable us to navigate the functional landscape of our genome. They are a resource upon which virtually all studies depend, from single-gene to genome-wide scales and from basic molecular biology to medical genetics. Yet present-day annotations suffer from trade-offs between quality and size, with serious but often unappreciated consequences for downstream studies. This is particularly true for long non-coding {RNAs} {(lncRNAs),} which are poorly characterized compared to protein-coding genes~…},
-}
-
-@Article{Okada2014a,
-  author   = {Okada, Y and Han, B and Tsoi, {LC} and of~…, Stuart~- {PE}},
-  title    = {Fine mapping major histocompatibility complex associations in psoriasis and its clinical subtypes},
-  journal  = {The American Journal of~…},
-  year     = {2014},
-  abstract = {Psoriasis vulgaris {(PsV)} risk is strongly associated with variation within the major histocompatibility complex {(MHC)} region, but its genetic architecture has yet to be fully elucidated. Here, we conducted a large-scale fine-mapping study of {PsV} risk in the {MHC}~…},
 }
 
 @Article{Jostins2012a,
@@ -13934,7 +13886,7 @@ diet~… 2013. Anti-proliferation Effects of Interferon-gamma on Gastric Cancer 
 @Article{Abji2016a,
   author        = {Abji, F and Pollock, {RA} and Liang, K and \&~…, Chandran~- V},
   title         = {Brief report: {CXCL10} is a possible biomarker for the development of psoriatic arthritis among patients with psoriasis},
-  journal       = {Arthritis \&~…},
+  journal       = {Arthritis Rheumatol.},
   year          = {2016},
   __markedentry = {[alicia:6]},
   abstract      = {Objective Biomarkers that can predict the development of psoriatic arthritis {(PsA)} in patients with psoriasis would be useful in clinical practice. The aim of this study was to assess whether {CXCL10} could be a predictive biomarker of {PsA} prior to its onset. Methods Psoriasis patients without arthritis were followed up prospectively and assessed annually for development of {PsA} by a rheumatologist. Patients in whom {PsA} developed were designated as converters, while those in whom {PsA} did not develop were termed nonconverters~…},
@@ -14004,6 +13956,287 @@ diet~… 2013. Anti-proliferation Effects of Interferon-gamma on Gastric Cancer 
   year    = {2003},
   volume  = {139},
   pages   = {1627-1632},
+}
+
+@Article{Myers2005,
+  author  = {Myers,A. and Kay, LJ. and Lynch, SA. and Walker,DJ},
+  title   = {Recurrence risk for psoriasis and psoriatic arthritis within sibships},
+  journal = {Rheumatology},
+  year    = {2005},
+  volume  = {44},
+  number  = {66},
+  pages   = {773-776},
+}
+
+@Article{Karason2009,
+  author  = {Karason, A. and Thorvardur, JL. and Bjorn, G.},
+  title   = {A strong heritability of psoriatic arthritis over four generations—the Reykjavik Psoriatic Arthritis Study},
+  journal = {Rheumatology},
+  year    = {2009},
+  volume  = {48},
+  number  = {11},
+  pages   = {1424–1428},
+}
+
+@Article{Lonnberg2013,
+  author  = {Lonnberg, AS. and Skov, L. and Skytthe, A. and Kyvik, KO. and Pedersen, OB. and Thomsen, SF},
+  title   = {Heritability of psoriasis in a large twin sample},
+  journal = {British Journal of Dermatology},
+  year    = {2013},
+  volume  = {169},
+  number  = {2},
+  pages   = {412-416},
+}
+
+@Article{Grjibovski2007,
+  author  = {Grjibovski,AM. and Olsen, AO. and Magnus, P. and Harris, JR.},
+  title   = {Psoriasis in Norwegian twins: contribution of genetic and environmental effects},
+  journal = {Journal of the European Academy of Dermatology and Venereology},
+  year    = {2007},
+  volume  = {21},
+  number  = {10},
+  pages   = {1337-1343},
+}
+
+@Article{Bowes2015a,
+  author  = {Bowes, J. and Loehr, S. and Budu-Aggrey, A.},
+  title   = {PTPN22 is associated with susceptibility to psoriatic arthritis but not psoriasis: evidence for a further PsA-specific risk locus},
+  journal = {Annals of the Rheumatic Diseases},
+  year    = {2015},
+  volume  = {74},
+  number  = {10},
+  pages   = {1882-1885},
+}
+
+@Article{Patrick2018,
+  author  = {Patrick, MT. and Stuart, PE. and Raja, K.},
+  title   = {Genetic signature to provide robust risk assessment of psoriatic arthritis development in psoriasis patients},
+  journal = {Nature Communications},
+  year    = {2018},
+  number  = {9},
+}
+
+@Article{Eder2012,
+  author  = {Eder, L. and Chandran, V. and Pellet, F. and Shanmugarajah. S. and Rosen, CF.},
+  title   = {Human leucocyte antigen risk alleles for psoriatic arthritis among patients with psoriasis},
+  journal = {Annals of the Rheumatic Diseases},
+  year    = {2012},
+  volume  = {71},
+  pages   = {50-55},
+}
+
+@Article{Bowes2017,
+  author  = {Bowes, J. and Ashcroft, J. and Dand, N. and Jalali-najafabadi, F.},
+  title   = {Cross-phenotype association mapping of the MHC identifies genetic variants that differentiate psoriatic arthritis from psoriasis},
+  journal = {Annals of the Rheumatic Diseases},
+  year    = {2017},
+  volume  = {76},
+  pages   = {1774-1779},
+}
+
+@Article{Icen2009,
+  author  = {Icen, M. and Crowson, CS. and McEvoy,MT. and Dann, FJ.},
+  title   = {Trends in incidence of adults-onset psoriasis over three decades: a population study},
+  journal = {J Am Acad Dermatol},
+  year    = {2009},
+  volume  = {60},
+  number  = {3},
+  pages   = {394–401},
+}
+
+@Article{McGonagle2019,
+  author  = {McGonagle, D. and Tan, Ai Lyn and Watad, Abdulla and Helliwell, Philip},
+  title   = {Pathophysiology, assessment and treatment of psoriatic dactylitis},
+  journal = {Nature Reviews Rheumatology},
+  year    = {2019},
+  volume  = {15},
+  number  = {2},
+  pages   = {113--122},
+}
+
+@Article{Khera2018,
+  author  = {Khera, AV. and Chaffin, M. and Aragam, KG. and Haas, ME. and Roselli, C. and Choi, SH.},
+  title   = {Genome-wide polygenic scores for common diseases identify individuals with risk equivalent to monogenic mutations},
+  journal = {Nature Genetics},
+  year    = {2018},
+  volume  = {50},
+  pages   = {1219–1224},
+}
+
+@Article{Furue2018,
+  author  = {Furue, K. and Ito, T. and Furue, M.},
+  title   = {Differential efficacy of biologic treatments targeting the TNF-α/IL-23/IL-17 axis in psoriasis and psoriatic arthritis},
+  journal = {Cytokine},
+  year    = {2018},
+  volume  = {111},
+  pages   = {182-188},
+}
+
+@Article{McGonagle2007,
+  author  = {McGonagle, D. and Tan, AL. and Benjamin, M.},
+  title   = {The biomechanical link between skin and joint disease in psoriasis and psoriatic arthritis: what every dermatologist needs to know},
+  journal = {Annals of the Rheumatic Diseases},
+  year    = {2007},
+  volume  = {67},
+  number  = {1},
+  pages   = {1-4},
+}
+
+@Article{Cook2004,
+  author  = {Cook, PW. and Brown, JR. and Cornell, KA. and Pittelkow, MR.},
+  title   = {Suprabasal expression of human amphiregulin in the epidermis of transgenic mice induces a severe, early‐onset, psoriasis‐like skin pathology: expression of amphiregulin in the basal epidermis is also associated with synovitis.},
+  journal = {Experimental Dermatology},
+  year    = {2004},
+  volume  = {13},
+  pages   = {347–56},
+}
+
+@Article{Zenz2005,
+  author  = {Zenz, R. and Eferl, R. and Kenner, L.},
+  title   = {Psoriasis‐like skin disease and arthritis caused by inducible epidermal deletion of Jun proteins.},
+  journal = {Nature},
+  year    = {2005},
+  volume  = {437},
+  pages   = {369–75},
+}
+
+@Article{Ciocon2007,
+  author  = {Ciocon, D.H. and Kimball, A.B},
+  title   = {Psoriasis and psoriatic arthritis: separate or one and the same?},
+  journal = {British Journal of Dermatology},
+  year    = {2007},
+  volume  = {157},
+  number  = {5},
+  pages   = {850-860},
+}
+
+@Article{Jones1994,
+  author  = {Jones, SM. and Armas, JB. and Cohen, MG},
+  title   = {Psoriatic arthritis: outcome of disease subsets and relationship of joint disease to nail and skin disease.},
+  journal = {Journal of Rheumatology},
+  year    = {1994},
+  volume  = {33},
+  pages   = {834–9},
+}
+
+@Article{Elkayam2000,
+  author  = {Elkayam, O. and Ophir, J. and Yaron, M. and Caspi, D.},
+  title   = {Psoriatic arthritis: interrelationships between skin and joint manifestations related to onset, course, and differentiation.},
+  journal = {Clinica Rheum},
+  year    = {2000},
+  volume  = {19.},
+  pages   = {301–5},
+}
+
+@Article{Pitzalis1996,
+  author  = {Pitzalis, C. and Cauli, A. and Pipitone, N. and Smith, C. and Barker, J. and Marchesoni, A.},
+  title   = {Cutaneous lymphocyte antigen‐positive T lymphocytes preferentially migrate to the skin but not to the joint in psoriatic arthritis},
+  journal = {Arthritis Rheum},
+  year    = {1996},
+  volume  = {39},
+  pages   = {137–45},
+}
+
+@Article{Jones1997,
+  author  = {Jones, S.M. and Dixey, J. and Hall, N.D. and McHugh, N.J.},
+  title   = {Expression of the cutaneous lymphocyte antigen and its counter‐receptor E‐selectin in the skin and joints of patients with psoriatic arthritis},
+  journal = {Br J Rheumatol},
+  year    = {1997},
+  volume  = {36},
+  pages   = {748–57},
+}
+
+@Article{Tassiulas1999,
+  author  = {Tassiulas, I. and Duncan, S.R. and Centola, M. and Theofilopoulos, A.N. and Boumpas, D.T.},
+  title   = {Clonal characteristics of T cell infiltrates in skin and synovium of patients with psoriatic arthritis},
+  journal = {Hum Immunol},
+  year    = {1999},
+  volume  = {60},
+  pages   = {479–91},
+}
+
+@Article{Borgato2002,
+  author  = {Borgato, L. and Puccetti, A. and Beri, R. and Codella, O. and Frigo, A. and Simeoni, S. and Pacor, M.L. and Corrocher, R. and Lunardi, C.},
+  title   = {The T cell receptor repertoire in psoriatic synovitis is restricted and T lymphocytes expressing the same TCR are present in joint and skin lesions},
+  journal = {J Rheumatol},
+  year    = {2002},
+  volume  = {29},
+  pages   = {1914–19},
+}
+
+@Article{Sahmatova2017,
+  author  = {Sahmatova, L. and, Sügis, E. and Šunina, M. and Hermann, H. and Prans, E. and Pihlap, M.},
+  title   = {Signs of innate immune activation and premature immunosenescence in psoriasis patients},
+  journal = {Scientific Reports},
+  year    = {2017},
+  volume  = {7},
+  number  = {7553},
+}
+
+@Article{Mehta2011,
+  author  = {Mehta, N.N. and Yu, Y. and Saboury, B. and Foroughi, N. and Krishnamoorthy, P. and Raper, A. and Baer, A. and Antigua, J.},
+  title   = {Systemic and vascular inflammation in patients with moderate to severe psoriasis as measured by [18F]-fluorodeoxyglucose positron emission tomography-computed tomography (FDG-PET/CT): a pilot study},
+  journal = {Arch Dermatol.},
+  year    = {20119},
+  volume  = {147},
+  number  = {9},
+  pages   = {1031-9},
+}
+
+@Article{Rosenberger2007,
+  author  = {Rosenberger, C. and Solovan, C. and Rosenberger, A.D and Jinping, L. and Treudler, R. and Frei, U. and Eckardt, K.U. and Brown, L.F.},
+  title   = {Upregulation of hypoxia-inducible factors in normal and psoriatic skin.},
+  journal = {J Invest Dermatol.},
+  year    = {2007},
+  volume  = {127},
+  number  = {10},
+  pages   = {2445-52},
+}
+
+@Article{Majumdar2017,
+  author  = {Majumdar, I. and Ahuja, V. and Paul, J.},
+  title   = {Altered expression of Tumor Necrosis Factor Alpha -Induced Protein 3 correlates with disease severity in Ulcerative Colitis},
+  journal = {Scientific Reports},
+  year    = {2017},
+  volume  = {7},
+  number  = {9420},
+}
+
+@Article{Yang2016a,
+  author  = {Yang, J. and Hu, S. and Zhao, L. and Kaplan, D.H. and Perdew, G.H. and Xiong, N.},
+  title   = {Selective programming of CCR10(+) innate lymphoid cells in skin-draining lymph nodes for cutaneous homeostatic regulation},
+  journal = {Nature Immunology},
+  year    = {2016},
+  volume  = {17},
+  number  = {1},
+  pages   = {48-56},
+}
+
+@Article{Xia2012,
+  author  = {Xia, P. and Fang, X. and Zhang, Z.H and Huang, Q. and Yan, K.X. and Kang, K.F and Han, L. and Zheng, Z.Z},
+  title   = {Dysregulation of miRNA146a versus IRAK1 induces IL-17 persistence in the psoriatic skin lesions},
+  journal = {Immunol Lett},
+  year    = {2012},
+  volume  = {148},
+  pages   = {151-162},
+}
+
+@Article{Lin2019,
+  author  = {Lin, S.H and Ho, J. and Li, S.C and Chen, J.F and Hsiao, C.C and Lee, C.H},
+  title   = {MiR-146a-5p Expression in Peripheral CD14+ Monocytes from Patients with Psoriatic Arthritis Induces Osteoclast Activation, Bone Resorption, and Correlates with Clinical Response},
+  journal = {Journal of Clinical Medicine},
+  year    = {2019},
+  volume  = {8},
+  number  = {1},
+}
+
+@Article{Sahlol2019,
+  author  = {Sahlol, N.Y. and Mostafa, M.S. and Madkour, L.A. and Salama, D.M.},
+  title   = {Low TNFAIP3 expression in psoriatic skin promotes disease susceptibility and severity},
+  journal = {PLOS ONE},
+  year    = {2019},
+  volume  = {14},
+  number  = {5},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

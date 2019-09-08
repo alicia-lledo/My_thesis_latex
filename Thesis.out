@@ -20,130 +20,86 @@
 \BOOKMARK [2][-]{subsection.1.3.2}{Genome-wide association studies}{section.1.3}% 20
 \BOOKMARK [2][-]{subsection.1.3.3}{Relevance of non-coding variants in disease susceptibility}{section.1.3}% 21
 \BOOKMARK [2][-]{subsection.1.3.4}{The role of GWAS in highlighting immune-relevant cell types and pathways}{section.1.3}% 22
-\BOOKMARK [2][-]{subsection.1.3.5}{Limitations of GWAS}{section.1.3}% 23
-\BOOKMARK [1][-]{section.1.4}{Functional interpretation of GWAS in complex diseases}{chapter.1}% 24
-\BOOKMARK [2][-]{subsection.1.4.1}{Overcoming GWAS limitations}{section.1.4}% 25
-\BOOKMARK [2][-]{subsection.1.4.2}{Understanding the epigenetic landscape in complex diseases}{section.1.4}% 26
-\BOOKMARK [2][-]{subsection.1.4.3}{The chromatin landscape}{section.1.4}% 27
-\BOOKMARK [2][-]{subsection.1.4.4}{Transcriptional profiles in disease}{section.1.4}% 28
-\BOOKMARK [2][-]{subsection.1.4.5}{Transcriptional regulation in complex diseases}{section.1.4}% 29
-\BOOKMARK [2][-]{subsection.1.4.6}{The use of fine-mapping to prioritise functional causal variants}{section.1.4}% 30
-\BOOKMARK [2][-]{subsection.1.4.7}{Generation, integration and interpretation of genomic data}{section.1.4}% 31
-\BOOKMARK [2][-]{subsection.1.4.8}{Aims and objectives}{section.1.4}% 32
-\BOOKMARK [0][-]{chapter.2}{Material and Methods}{}% 33
-\BOOKMARK [1][-]{section.2.1}{Ethical approval and recruitment of study participants}{chapter.2}% 34
-\BOOKMARK [2][-]{subsection.2.1.1}{Psoriasis patient recruitment}{section.2.1}% 35
-\BOOKMARK [2][-]{subsection.2.1.2}{PsA patient recruitment}{section.2.1}% 36
-\BOOKMARK [2][-]{subsection.2.1.3}{Healthy volunteer recruitment}{section.2.1}% 37
-\BOOKMARK [1][-]{section.2.2}{Sample processing}{chapter.2}% 38
-\BOOKMARK [2][-]{subsection.2.2.1}{PBMCs and synovial fluid cells isolation}{section.2.2}% 39
-\BOOKMARK [2][-]{subsection.2.2.2}{Skin biopsies processing and adherence assays}{section.2.2}% 40
-\BOOKMARK [2][-]{subsection.2.2.3}{Fixation, cryopreservation and cell culture}{section.2.2}% 41
-\BOOKMARK [2][-]{subsection.2.2.4}{Primary cell isolation using magnetic-activated cell sorting}{section.2.2}% 42
-\BOOKMARK [2][-]{subsection.2.2.5}{Primary cell isolation using fluorescence-activated cell sorting}{section.2.2}% 43
-\BOOKMARK [1][-]{section.2.3}{Experimental protocols}{chapter.2}% 44
-\BOOKMARK [2][-]{subsection.2.3.1}{ATAC - Chromatin Accessibility}{section.2.3}% 45
-\BOOKMARK [2][-]{subsection.2.3.2}{Chromatin immunoprecipitation with sequencing library preparation by Tn5 transposase}{section.2.3}% 46
-\BOOKMARK [2][-]{subsection.2.3.3}{RNA extraction and gene expression quantification}{section.2.3}% 47
-\BOOKMARK [2][-]{subsection.2.3.4}{DNA extraction and rs4672405 genotyping}{section.2.3}% 48
-\BOOKMARK [2][-]{subsection.2.3.5}{Mass cytometry using cytometry by time of flight \(CyTOF\)}{section.2.3}% 49
-\BOOKMARK [1][-]{section.2.4}{Computational and statistical analysis}{chapter.2}% 50
-\BOOKMARK [2][-]{subsection.2.4.1}{ATAC data analysis}{section.2.4}% 51
-\BOOKMARK [2][-]{subsection.2.4.2}{ChIPm data analysis}{section.2.4}% 52
-\BOOKMARK [2][-]{subsection.2.4.3}{Gene expression analysis}{section.2.4}% 53
-\BOOKMARK [2][-]{subsection.2.4.4}{Genomic region annotation, enrichment analysis and pathway visualisation}{section.2.4}% 54
-\BOOKMARK [2][-]{subsection.2.4.5}{Statistical fine-mapping}{section.2.4}% 55
-\BOOKMARK [2][-]{subsection.2.4.6}{Mass cytometry data analysis}{section.2.4}% 56
-\BOOKMARK [0][-]{chapter.3}{Establishing laboratory methods and analytical tools to assess genome-wide chromatin accessibility in clinical samples}{}% 57
-\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 58
-\BOOKMARK [2][-]{subsection.3.1.1}{Principle of ATAC-seq and compatibility with clinical samples}{section.3.1}% 59
-\BOOKMARK [2][-]{subsection.3.1.2}{ATAC-seq limitations and advances in optimisation}{section.3.1}% 60
-\BOOKMARK [2][-]{subsection.3.1.3}{Challenges of ATAC data analysis}{section.3.1}% 61
-\BOOKMARK [2][-]{subsection.3.1.4}{The challenge of working with clinical samples}{section.3.1}% 62
-\BOOKMARK [2][-]{subsection.3.1.5}{Aims}{section.3.1}% 63
-\BOOKMARK [1][-]{section.3.2}{Results}{chapter.3}% 64
-\BOOKMARK [2][-]{subsection.3.2.1}{Establishment of an ATAC-seq data analysis pipeline}{section.3.2}% 65
-\BOOKMARK [2][-]{subsection.3.2.2}{Assessment of ATAC-seq transposition times in relevant cell types}{section.3.2}% 66
-\BOOKMARK [2][-]{subsection.3.2.3}{Comparison of ATAC-seq with Fast-ATAC protocol}{section.3.2}% 67
-\BOOKMARK [2][-]{subsection.3.2.4}{Limitations of ATAC-seq and Fast-ATAC to assess chromatin accessibility in keratinocytes}{section.3.2}% 68
-\BOOKMARK [2][-]{subsection.3.2.5}{Effect of cryopreservation and fixation in the chromatin landscape of immune primary cells}{section.3.2}% 69
-\BOOKMARK [1][-]{section.3.3}{Discussion}{chapter.3}% 70
-\BOOKMARK [2][-]{subsection.3.3.1}{ATAC: methodological aspects and pipeline establishment}{section.3.3}% 71
-\BOOKMARK [2][-]{subsection.3.3.2}{The challenges of performing differential chromatin accessibility analysis}{section.3.3}% 72
-\BOOKMARK [2][-]{subsection.3.3.3}{Studying the chromatin landscape from psoriasis skin biopsies}{section.3.3}% 73
-\BOOKMARK [2][-]{subsection.3.3.4}{Characterisation of the effect of preservative techniques in the chromatin landscape}{section.3.3}% 74
-\BOOKMARK [2][-]{subsection.3.3.5}{Limitations}{section.3.3}% 75
-\BOOKMARK [1][-]{section.3.4}{Conclusions}{chapter.3}% 76
-\BOOKMARK [0][-]{chapter.4}{Defining the genome-wide chromatin accessibility landscape and gene expression profile in psoriasis}{}% 77
-\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 78
-\BOOKMARK [2][-]{subsection.4.1.1}{The systemic and skin-specific manifestations of psoriasis}{section.4.1}% 79
-\BOOKMARK [2][-]{subsection.4.1.2}{The personalised epigenome in disease}{section.4.1}% 80
-\BOOKMARK [2][-]{subsection.4.1.3}{Transcriptional profiles in psoriasis}{section.4.1}% 81
-\BOOKMARK [2][-]{subsection.4.1.4}{Chromatin accessibility, gene expression and genetic variability}{section.4.1}% 82
-\BOOKMARK [2][-]{subsection.4.1.5}{Fine-mapping using summary statistics}{section.4.1}% 83
-\BOOKMARK [1][-]{section.4.2}{Aims}{chapter.4}% 84
-\BOOKMARK [1][-]{section.4.3}{Results}{chapter.4}% 85
-\BOOKMARK [2][-]{subsection.4.3.1}{Psoriasis and healthy controls: cohort description and datasets}{section.4.3}% 86
-\BOOKMARK [2][-]{subsection.4.3.2}{Investigation of psoriasis-specific changes in the enhancer mark H3K27ac in peripheral blood immune cell populations}{section.4.3}% 87
-\BOOKMARK [2][-]{subsection.4.3.3}{Interrogation of chromatin accessibility changes in psoriasis peripheral blood immune cells}{section.4.3}% 88
-\BOOKMARK [2][-]{subsection.4.3.4}{Differential gene expression analysis in circulating immune cells in psoriasis}{section.4.3}% 89
-\BOOKMARK [2][-]{subsection.4.3.5}{RNA-seq in epidermis from psoriasis patients}{section.4.3}% 90
-\BOOKMARK [2][-]{subsection.4.3.6}{Comparison of systemic and tissue specific gene expression signatures in psoriasis}{section.4.3}% 91
-\BOOKMARK [2][-]{subsection.4.3.7}{Integration of chromatin accessibility and expression data for peripheral blood immune cells in psoriasis}{section.4.3}% 92
-\BOOKMARK [2][-]{subsection.4.3.8}{Fine-mapping of psoriasis GWAS loci and functional interpretation}{section.4.3}% 93
-\BOOKMARK [2][-]{subsection.4.3.9}{Allele-specific differences in chromatin accessibility at the GWAS locus 2p15}{section.4.3}% 94
-\BOOKMARK [1][-]{section.4.4}{Discussion}{chapter.4}% 95
-\BOOKMARK [2][-]{subsection.4.4.1}{Chromatin accessibility and H3K27ac landscape in psoriasis immune cells}{section.4.4}% 96
-\BOOKMARK [2][-]{subsection.4.4.2}{Dysregulation of gene expression in psoriasis circulating immune cells}{section.4.4}% 97
-\BOOKMARK [2][-]{subsection.4.4.3}{Integration of chromatin accessibility and gene expression data}{section.4.4}% 98
-\BOOKMARK [2][-]{subsection.4.4.4}{Trancriptomic profiles in lesional and uninvolved psoriatic epidermis}{section.4.4}% 99
-\BOOKMARK [2][-]{subsection.4.4.5}{LncRNAs in psoriasis}{section.4.4}% 100
-\BOOKMARK [2][-]{subsection.4.4.6}{Fine-mapping using summary statistics and integration with epigenetic data}{section.4.4}% 101
-\BOOKMARK [2][-]{subsection.4.4.7}{Limitations in the approach}{section.4.4}% 102
-\BOOKMARK [1][-]{section.4.5}{Conclusions}{chapter.4}% 103
-\BOOKMARK [0][-]{chapter.5}{Cross-tissue comparison of chromatin accessibility, gene expression signature and cytokine production in PsA}{}% 104
-\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 105
-\BOOKMARK [2][-]{subsection.5.1.1}{The relevance of cell type and tissue specificity in the study of PsA}{section.5.1}% 106
-\BOOKMARK [2][-]{subsection.5.1.2}{Bulk transcriptomic studies in PsA and their limitations}{section.5.1}% 107
-\BOOKMARK [2][-]{subsection.5.1.3}{Transcriptomics and proteomics at the single cell resolution}{section.5.1}% 108
-\BOOKMARK [2][-]{subsection.5.1.4}{Multi-omics approach in the study of complex diseases}{section.5.1}% 109
-\BOOKMARK [2][-]{subsection.5.1.5}{Integration of fine-mapping GWAS SNPs and functional data in PsA}{section.5.1}% 110
-\BOOKMARK [1][-]{section.5.2}{Aims}{chapter.5}% 111
-\BOOKMARK [1][-]{section.5.3}{Results}{chapter.5}% 112
-\BOOKMARK [2][-]{subsection.5.3.1}{PsA patients cohort description and datasets}{section.5.3}% 113
-\BOOKMARK [2][-]{subsection.5.3.2}{Immune cellular composition of blood and synovial fluid in the PsA cohort}{section.5.3}% 114
-\BOOKMARK [2][-]{subsection.5.3.3}{Differential chromatin accessibility analysis in immune cells reveals differences between synovial fluid and peripheral blood}{section.5.3}% 115
-\BOOKMARK [2][-]{subsection.5.3.4}{Pathway enrichment analysis highlights tissue functional differences in chromatin accessibility}{section.5.3}% 116
-\BOOKMARK [2][-]{subsection.5.3.5}{Differential gene expression analysis in paired circulating and synovial immune cells}{section.5.3}% 117
-\BOOKMARK [2][-]{subsection.5.3.6}{Characterisation of CD14+ monocyte heterogeneity in PsA using scRNA-seq}{section.5.3}% 118
-\BOOKMARK [2][-]{subsection.5.3.7}{Identification of additional pathways dysregulated between synovial fluid and peripheral blood CD14+ monocytes using scRNA-seq data }{section.5.3}% 119
-\BOOKMARK [2][-]{subsection.5.3.8}{Integration of mass cytometry differences in protein expression with chromatin accessibility and gene expression data in PsA CD14+ monocytes.}{section.5.3}% 120
-\BOOKMARK [2][-]{subsection.5.3.9}{Prioritisation and interpretation of PsA GWAS SNPs}{section.5.3}% 121
-\BOOKMARK [1][-]{section.5.4}{Discussion}{chapter.5}% 122
-\BOOKMARK [2][-]{subsection.5.4.1}{Characterising chromatin accessibility in PsA samples}{section.5.4}% 123
-\BOOKMARK [2][-]{subsection.5.4.2}{Bulk qPCR expression profiling and integration with paired chromatin accessibility data}{section.5.4}% 124
-\BOOKMARK [2][-]{subsection.5.4.3}{The relevance of monocytes in the PsA synovial fluid}{section.5.4}% 125
-\BOOKMARK [2][-]{subsection.5.4.4}{Characterisation of synovial and peripheral blood CD14+ monocytes by scRNA-seq}{section.5.4}% 126
-\BOOKMARK [2][-]{subsection.5.4.5}{Integrating mass cytometry data with chromatin accessibility and gene expression changes in PsA CD14+ monocytes}{section.5.4}% 127
-\BOOKMARK [2][-]{subsection.5.4.6}{Use of PsA functional data to inform GWAS fine-mapping}{section.5.4}% 128
-\BOOKMARK [2][-]{subsection.5.4.7}{Limitations of the study}{section.5.4}% 129
-\BOOKMARK [1][-]{section.5.5}{Conclusions}{chapter.5}% 130
-\BOOKMARK [0][-]{chapter.6}{General discussion}{}% 131
-\BOOKMARK [1][-]{section.6.1}{The importance of cell type and context specificity in disease}{chapter.6}% 132
-\BOOKMARK [1][-]{section.6.2}{The epigenetic landscape in psoriasis and PsA clinical samples: systemic vs affected tissue}{chapter.6}% 133
-\BOOKMARK [1][-]{section.6.3}{Cell type and tissue specific transcriptional profiles in clinical cohorts}{chapter.6}% 134
-\BOOKMARK [1][-]{section.6.4}{Data integration in multi-omic studies}{chapter.6}% 135
-\BOOKMARK [1][-]{section.6.5}{GWAS fine-mapping and integration with patients-derived epigenetic data}{chapter.6}% 136
-\BOOKMARK [1][-]{section.6.6}{Clinical relevance and translation}{chapter.6}% 137
-\BOOKMARK [1][-]{section.6.7}{Future work}{chapter.6}% 138
-\BOOKMARK [1][-]{section.6.8}{Concluding remarks}{chapter.6}% 139
-\BOOKMARK [0][-]{section.6.8}{Appendices}{}% 140
-\BOOKMARK [0][-]{appendix.A}{Tables}{}% 141
-\BOOKMARK [1][-]{section.A.1}{Chapter 3 Tables}{appendix.A}% 142
-\BOOKMARK [1][-]{section.A.2}{Chapter 4 Tables}{appendix.A}% 143
-\BOOKMARK [1][-]{section.A.3}{Chapter 5 Tables}{appendix.A}% 144
-\BOOKMARK [0][-]{appendix.B}{Additional figures}{}% 145
-\BOOKMARK [1][-]{section.B.1}{Chapter 3 Figures}{appendix.B}% 146
-\BOOKMARK [1][-]{section.B.2}{Chapter 4 Figures}{appendix.B}% 147
-\BOOKMARK [1][-]{section.B.3}{Chapter 5 Figures}{appendix.B}% 148
-\BOOKMARK [0][-]{appendix*.197}{Bibliography}{}% 149
+\BOOKMARK [2][-]{subsection.1.3.5}{Psoriasis and PsA: the same or distinct disease entities}{section.1.3}% 23
+\BOOKMARK [2][-]{subsection.1.3.6}{Limitations of GWAS}{section.1.3}% 24
+\BOOKMARK [1][-]{section.1.4}{Functional interpretation of GWAS in complex diseases}{chapter.1}% 25
+\BOOKMARK [2][-]{subsection.1.4.1}{Overcoming GWAS limitations}{section.1.4}% 26
+\BOOKMARK [2][-]{subsection.1.4.2}{Understanding the epigenetic landscape in complex diseases}{section.1.4}% 27
+\BOOKMARK [2][-]{subsection.1.4.3}{The chromatin landscape}{section.1.4}% 28
+\BOOKMARK [2][-]{subsection.1.4.4}{Transcriptional profiles in disease}{section.1.4}% 29
+\BOOKMARK [2][-]{subsection.1.4.5}{Transcriptional regulation in complex diseases}{section.1.4}% 30
+\BOOKMARK [2][-]{subsection.1.4.6}{The use of fine-mapping to prioritise functional causal variants}{section.1.4}% 31
+\BOOKMARK [2][-]{subsection.1.4.7}{Generation, integration and interpretation of genomic data}{section.1.4}% 32
+\BOOKMARK [2][-]{subsection.1.4.8}{Aims and objectives}{section.1.4}% 33
+\BOOKMARK [0][-]{chapter.2}{Material and Methods}{}% 34
+\BOOKMARK [1][-]{section.2.1}{Ethical approval and recruitment of study participants}{chapter.2}% 35
+\BOOKMARK [2][-]{subsection.2.1.1}{Psoriasis patient recruitment}{section.2.1}% 36
+\BOOKMARK [2][-]{subsection.2.1.2}{PsA patient recruitment}{section.2.1}% 37
+\BOOKMARK [2][-]{subsection.2.1.3}{Healthy volunteer recruitment}{section.2.1}% 38
+\BOOKMARK [1][-]{section.2.2}{Sample processing}{chapter.2}% 39
+\BOOKMARK [2][-]{subsection.2.2.1}{PBMCs and synovial fluid cells isolation}{section.2.2}% 40
+\BOOKMARK [2][-]{subsection.2.2.2}{Skin biopsies processing and adherence assays}{section.2.2}% 41
+\BOOKMARK [2][-]{subsection.2.2.3}{Fixation, cryopreservation and cell culture}{section.2.2}% 42
+\BOOKMARK [2][-]{subsection.2.2.4}{Primary cell isolation using magnetic-activated cell sorting}{section.2.2}% 43
+\BOOKMARK [2][-]{subsection.2.2.5}{Primary cell isolation using fluorescence-activated cell sorting}{section.2.2}% 44
+\BOOKMARK [1][-]{section.2.3}{Experimental protocols}{chapter.2}% 45
+\BOOKMARK [2][-]{subsection.2.3.1}{ATAC - Chromatin Accessibility}{section.2.3}% 46
+\BOOKMARK [2][-]{subsection.2.3.2}{Chromatin immunoprecipitation with sequencing library preparation by Tn5 transposase}{section.2.3}% 47
+\BOOKMARK [2][-]{subsection.2.3.3}{RNA extraction and gene expression quantification}{section.2.3}% 48
+\BOOKMARK [2][-]{subsection.2.3.4}{DNA extraction and rs4672405 genotyping}{section.2.3}% 49
+\BOOKMARK [2][-]{subsection.2.3.5}{Mass cytometry using cytometry by time of flight \(CyTOF\)}{section.2.3}% 50
+\BOOKMARK [1][-]{section.2.4}{Computational and statistical analysis}{chapter.2}% 51
+\BOOKMARK [2][-]{subsection.2.4.1}{ATAC data analysis}{section.2.4}% 52
+\BOOKMARK [2][-]{subsection.2.4.2}{ChIPm data analysis}{section.2.4}% 53
+\BOOKMARK [2][-]{subsection.2.4.3}{Gene expression analysis}{section.2.4}% 54
+\BOOKMARK [2][-]{subsection.2.4.4}{Genomic region annotation, enrichment analysis and pathway visualisation}{section.2.4}% 55
+\BOOKMARK [2][-]{subsection.2.4.5}{Statistical fine-mapping}{section.2.4}% 56
+\BOOKMARK [2][-]{subsection.2.4.6}{Mass cytometry data analysis}{section.2.4}% 57
+\BOOKMARK [0][-]{chapter.3}{Establishing laboratory methods and analytical tools to assess genome-wide chromatin accessibility in clinical samples}{}% 58
+\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 59
+\BOOKMARK [2][-]{subsection.3.1.1}{Principle of ATAC-seq and compatibility with clinical samples}{section.3.1}% 60
+\BOOKMARK [2][-]{subsection.3.1.2}{ATAC-seq limitations and advances in optimisation}{section.3.1}% 61
+\BOOKMARK [2][-]{subsection.3.1.3}{Challenges of ATAC data analysis}{section.3.1}% 62
+\BOOKMARK [2][-]{subsection.3.1.4}{The challenge of working with clinical samples}{section.3.1}% 63
+\BOOKMARK [2][-]{subsection.3.1.5}{Aims}{section.3.1}% 64
+\BOOKMARK [1][-]{section.3.2}{Results}{chapter.3}% 65
+\BOOKMARK [2][-]{subsection.3.2.1}{Establishment of an ATAC-seq data analysis pipeline}{section.3.2}% 66
+\BOOKMARK [2][-]{subsection.3.2.2}{Assessment of ATAC-seq transposition times in relevant cell types}{section.3.2}% 67
+\BOOKMARK [2][-]{subsection.3.2.3}{Comparison of ATAC-seq with Fast-ATAC protocol}{section.3.2}% 68
+\BOOKMARK [2][-]{subsection.3.2.4}{Limitations of ATAC-seq and Fast-ATAC to assess chromatin accessibility in keratinocytes}{section.3.2}% 69
+\BOOKMARK [2][-]{subsection.3.2.5}{Effect of cryopreservation and fixation in the chromatin landscape of immune primary cells}{section.3.2}% 70
+\BOOKMARK [1][-]{section.3.3}{Discussion}{chapter.3}% 71
+\BOOKMARK [2][-]{subsection.3.3.1}{ATAC: methodological aspects and pipeline establishment}{section.3.3}% 72
+\BOOKMARK [2][-]{subsection.3.3.2}{The challenges of performing differential chromatin accessibility analysis}{section.3.3}% 73
+\BOOKMARK [2][-]{subsection.3.3.3}{Studying the chromatin landscape from psoriasis skin biopsies}{section.3.3}% 74
+\BOOKMARK [2][-]{subsection.3.3.4}{Characterisation of the effect of preservative techniques in the chromatin landscape}{section.3.3}% 75
+\BOOKMARK [2][-]{subsection.3.3.5}{Limitations}{section.3.3}% 76
+\BOOKMARK [1][-]{section.3.4}{Conclusions}{chapter.3}% 77
+\BOOKMARK [0][-]{chapter.4}{Defining the genome-wide chromatin accessibility landscape and gene expression profile in psoriasis}{}% 78
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 79
+\BOOKMARK [2][-]{subsection.4.1.1}{The systemic and skin-specific manifestations of psoriasis}{section.4.1}% 80
+\BOOKMARK [2][-]{subsection.4.1.2}{The personalised epigenome in disease}{section.4.1}% 81
+\BOOKMARK [2][-]{subsection.4.1.3}{Transcriptional profiles in psoriasis}{section.4.1}% 82
+\BOOKMARK [2][-]{subsection.4.1.4}{Chromatin accessibility, gene expression and genetic variability}{section.4.1}% 83
+\BOOKMARK [2][-]{subsection.4.1.5}{Fine-mapping using summary statistics}{section.4.1}% 84
+\BOOKMARK [1][-]{section.4.2}{Aims}{chapter.4}% 85
+\BOOKMARK [1][-]{section.4.3}{Results}{chapter.4}% 86
+\BOOKMARK [2][-]{subsection.4.3.1}{Psoriasis and healthy controls: cohort description and datasets}{section.4.3}% 87
+\BOOKMARK [2][-]{subsection.4.3.2}{Investigation of psoriasis-specific changes in the enhancer mark H3K27ac in peripheral blood immune cell populations}{section.4.3}% 88
+\BOOKMARK [2][-]{subsection.4.3.3}{Interrogation of chromatin accessibility changes in psoriasis peripheral blood immune cells}{section.4.3}% 89
+\BOOKMARK [2][-]{subsection.4.3.4}{Differential gene expression analysis in circulating immune cells in psoriasis}{section.4.3}% 90
+\BOOKMARK [2][-]{subsection.4.3.5}{RNA-seq in epidermis from psoriasis patients}{section.4.3}% 91
+\BOOKMARK [2][-]{subsection.4.3.6}{Comparison of systemic and tissue specific gene expression signatures in psoriasis}{section.4.3}% 92
+\BOOKMARK [2][-]{subsection.4.3.7}{Integration of chromatin accessibility and expression data for peripheral blood immune cells in psoriasis}{section.4.3}% 93
+\BOOKMARK [2][-]{subsection.4.3.8}{Fine-mapping of psoriasis GWAS loci and functional interpretation}{section.4.3}% 94
+\BOOKMARK [2][-]{subsection.4.3.9}{Allele-specific differences in chromatin accessibility at the GWAS locus 2p15}{section.4.3}% 95
+\BOOKMARK [1][-]{section.4.4}{Discussion}{chapter.4}% 96
+\BOOKMARK [2][-]{subsection.4.4.1}{Chromatin accessibility and H3K27ac landscape in psoriasis immune cells}{section.4.4}% 97
+\BOOKMARK [2][-]{subsection.4.4.2}{Dysregulation of gene expression in psoriasis circulating immune cells}{section.4.4}% 98
+\BOOKMARK [2][-]{subsection.4.4.3}{Integration of chromatin accessibility and gene expression data}{section.4.4}% 99
+\BOOKMARK [2][-]{subsection.4.4.4}{Trancriptomic profiles in lesional and uninvolved psoriatic epidermis}{section.4.4}% 100
+\BOOKMARK [2][-]{subsection.4.4.5}{LncRNAs in psoriasis}{section.4.4}% 101
+\BOOKMARK [2][-]{subsection.4.4.6}{Fine-mapping using summary statistics and integration with epigenetic data}{section.4.4}% 102
+\BOOKMARK [2][-]{subsection.4.4.7}{Limitations in the approach}{section.4.4}% 103
+\BOOKMARK [1][-]{section.4.5}{Conclusions}{chapter.4}% 104
+\BOOKMARK [0][-]{chapter*.127}{Bibliography}{}% 105
